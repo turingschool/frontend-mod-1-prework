@@ -78,7 +78,7 @@ console.log(4 < 9);
 //YOU DO: comparison: is 4 less than 9? true
 
 var books = 3;
-console.logs(4 < books);
+console.log(4 < books);
 // YOU DO: comparison: is number of books greater than 4? false
 
 var friends = 6;
@@ -134,5 +134,3 @@ console.log(lovesToPlay && age <= 2);
 
 // Did you run this file in your terminal to make sure everything printed out to the console
   // as you would expect? Yes i ran things and they all looked good!
-
-  
