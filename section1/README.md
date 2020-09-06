@@ -138,7 +138,7 @@ This will open the `section1` directory in Atom. You should be able to see the d
 
 ### Comments in Code
 
-**Code comments** can be a very useful part of your programs. While we work to write code that is as legible and clear for other developers to read as possible, there are times when we need to be a bit more explicit about our intentions and reasoning. Comments allow us to add information for other developers in our code in our written/spoken language, as well as let us de-activate parts of our code that we want to tegit mporarily keep from running.
+**Code comments** can be a very useful part of your programs. While we work to write code that is as legible and clear for other developers to read as possible, there are times when we need to be a bit more explicit about our intentions and reasoning. Comments allow us to add information for other developers in our code in our written/spoken language, as well as let us de-activate parts of our code that we want to temporarily keep from running.
 
 ```JavaScript
 // Text after two backslashes is a single line comment.

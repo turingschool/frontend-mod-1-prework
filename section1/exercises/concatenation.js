@@ -22,7 +22,8 @@ var creatures = "unicorns";
 console.log("My zoo has " + numberOfCreatures + " " + creatures + "!");
 
 // YOU DO: What data type will be logged to the console as a result of line 22? Explain.
-// Your answer and explanation here: It will result in a string. When you concatenate multiple data types, JavaScript will create basically turn all of them into a string through type coercion.
+// Your answer and explanation here:
+// It will result in a string. When you concatenate multiple data types, JavaScript will basically turn all of them into one string through type coercion.
 
 
 // YOU DO:
@@ -47,6 +48,10 @@ console.log('In a predictable result, the ' + slowPoke + ' jumped over the ' + s
 // Declare three variables, name/content/data type of your choice. Think carefully about what
   // you name the variables. Remember, the goal is to be concise but descriptive (it's a hard balance!)
   // Then, log out ONE sentence that incorporates all THREE variables.
+var verb = 'Defund';
+var howMany = 100;
+var coppers = 'police';
+console.log(verb + ' ' + howMany + '% of ' + coppers);
 
 
 //-------------------
