@@ -1,4 +1,4 @@
-# Section 1: Super Learners
+s# Section 1: Super Learners
 
 Section 1 is estimated to take a total of 6-10 hours to complete. Part C is the longest and most time intensive. This section of pre-work involves reading (both from this document as well as the 📒John Duckett book), 👩‍💻exercises, and 📝reflection questions. Make sure to manage your time well so that should you get stuck and need help, you have plenty of time to do so and meet the deadline.
 
@@ -10,7 +10,7 @@ Section 1 is estimated to take a total of 6-10 hours to complete. Part C is the 
 
 ## Vocabulary
 
-If you've talked to any alum or near-alum of Turing, one thing they likely shared is "Turing teaches you how to learn". For creators of tech, the learning never ends. Not after graduating a program, not after 20 years of experience. We will provide more support as you are starting out, then release some of that support so you are equipped to learn on your own once you graduate. While we provide more support at the beginning, we also intentionally support you in building skills and habits that will help you do that successfully. 
+If you've talked to any alum or near-alum of Turing, one thing they likely shared is "Turing teaches you how to learn". For creators of tech, the learning never ends. Not after graduating a program, not after 20 years of experience. We will provide more support as you are starting out, then release some of that support so you are equipped to learn on your own once you graduate. While we provide more support at the beginning, we also intentionally support you in building skills and habits that will help you do that successfully.
 
 One of those pieces is in how developers approach vocabulary. Knowing technical vocabulary will allow you to get more out of reading doucmentation and tutorials, and will allow you to communicate well with teams and ask good questions when you need help. Each section of your pre-work (and each lesson once you start Mod 1) will start with a vocabulary section. We don't always give you the definitions - this is intentional. You will create your own definition after having several opportunities to read definitions and see examples.
 
@@ -18,7 +18,7 @@ Here's what we ask you do:
 - Find a special spot in your notebook for vocabulary and JavaScript reserved keywords. Mark it with a post-it or bookmark, so it's easy to find and come back to
 - When you start a new section of pre-work, write down each term. Leave plenty of space for (future) notes
 - As you read and work through the material you will come across definitions and build an understanding of these terms. Write in definitions, draw diagrams, write out relevant code snippets, etc. If you complete a section and don't have a grasp on a term, that's when it's time to reach out to your pre-work small group or cohort, and collaborate!
- 
+
 ### Vocabulary Terms
 
 - command
@@ -51,9 +51,9 @@ You already have had some exposure to the terminal in [Mod 0, Session 2: Termina
 
 ### Explore and Practice
 
-Visit the [Turing Terminal](https://learn-terminal.turing.io/) and read through the Learn section as needed. Explore the Playground as needed. 
+Visit the [Turing Terminal](https://learn-terminal.turing.io/) and read through the Learn section as needed. Explore the Playground as needed.
 
-👩‍💻Complete all three Challenges. 
+👩‍💻Complete all three Challenges.
 
 Take a screenshot of your "complete" notification and keep on your desktop or in a file; it will be part of your [deliverables](#Deliverables) at the end of this section. [This is a guide on taking screenshots on a Mac](https://support.apple.com/en-us/HT201361).
 
@@ -138,7 +138,7 @@ This will open the `section1` directory in Atom. You should be able to see the d
 
 ### Comments in Code
 
-**Code comments** can be a very useful part of your programs. While we work to write code that is as legible and clear for other developers to read as possible, there are times when we need to be a bit more explicit about our intentions and reasoning. Comments allow us to add information for other developers in our code in our written/spoken language, as well as let us de-activate parts of our code that we want to temporarily keep from running.
+**Code comments** can be a very useful part of your programs. While we work to write code that is as legible and clear for other developers to read as possible, there are times when we need to be a bit more explicit about our intentions and reasoning. Comments allow us to add information for other developers in our code in our written/spoken language, as well as let us de-activate parts of our code that we want to tegit mporarily keep from running.
 
 ```JavaScript
 // Text after two backslashes is a single line comment.
