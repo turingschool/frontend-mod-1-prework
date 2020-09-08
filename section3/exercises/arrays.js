@@ -24,42 +24,52 @@ console.log(animals[0]);
 
 // YOU DO: Write code below that will log the number of elements in array of
 // animals from above.
+console.log(animals.length);
 
 
 // YOU DO: Write code that will reassign the last item in the animals
 // array to "Gorilla"
-
+animals[2] = "Gorilla";
+console.log(animals[2]);
 
 // YOU DO: Write code that will add a new animal (type of your choice) to position 3.
-
+animals[4] = "la baca";
 
 // YOU DO: Write code that will log the String "Elephant" in the animals array
-
+animals[3] = "Elephant";
 
 //-------------------
 // PART 2: Foods: Array Methods
 //-------------------
 
 // YOU DO: Declare a variable that will store an an array of at least 4 foods (strings)
+var foodsArray = ["grapes", "cantaloupe", "beets", "french fries", "watermelon"];
 
 
 // YOU DO: Write code below that will log the number of elements in the array of
 // foods from above.
-
+console.log(foodsArray.length);
 
 // YOU DO: Write code below that uses a method to add "broccoli" to the foods array and
 // log the changed array to verify "broccoli" has been added
+foodsArray[5] = "broccoli";
+console.log(foodsArray[5]);
 
 
 // YOU DO: Write code below that removes the last item of food from the foods array and
 // log the changed array to verify that item has been removed
+console.log(foodsArray.pop());
+console.log(foodsArray);
 
-
-// YOU DO: Write code to add 3 new foods to the array. 
+// YOU DO: Write code to add 3 new foods to the array.
   // There are several ways to do this - choose whichever you'd like!
 // Then, log the changed array to verify the new items have been added
+foodsArray.splice(3, "popcorn", "dragonfruit", "spaghetti");
+console.log(foodsArray);
 
 // YOU DO: Remove the food that is in index position 0.
+foodsArray.Shift();
+console.log(foodsArray);
 
 //-------------------
 // PART 3: Where are Arrays used?
@@ -79,12 +89,13 @@ The post itself likely has more complex data, but here's one way we can think ab
 var posts = ["image at beach", "holiday party", "adorable puppy", "video of cute baby"];
 
 // YOU DO: Think of a web application you commonly use. Where do you see LISTS utilized, where arrays
-// may be storing data? Come up with 3 examples - they could be from different web applications or 
+// may be storing data? Come up with 3 examples - they could be from different web applications or
 // all from the same one.
 
-// 1:
-// 2:
-// 3:
+Amazon array
+// 1: var cleaningProducts = ["lysol wipes", "bleach", "toilet bowl cleaner", "Simple Green"];
+// 2: var ordersThisYear = ["20200823", "20200612", "20201223", "20200911", "20201111"];
+// 3: var customerServiceRequestIds = ["284628", "162540", "164820", "926413", "365470"];
 
 
 //-------------------
@@ -96,7 +107,7 @@ YOU DO:
 Using the variables defined below, write a program that will tell a user if they
 will be able to call an Uber.
 
-The user can call an uber if they have 15% battery remaining, or more. In this case, it doesn't matter 
+The user can call an uber if they have 15% battery remaining, or more. In this case, it doesn't matter
 if the user has a charger at all, or what type.
 The can call an uber if they have a charger and it is a car charger.
 
@@ -106,6 +117,19 @@ var hasCharger = true;
 var chargerType = "car";
 
 // Write your conditional here
+if (percentBatteryLeft >= 15 || (hasCharger === true && chargerType === "car")) {
+  console.log("Get yourself a ride home!")
+/* The first thing that is happening is the if statement is ascertaining whether or not the
+percentBatteryLeft variable is greater than or equal to 15. If that is the case, none of the result
+of the statement matters and it can simply print "Get yourself a ride home". If it is less than 15,
+then it's checking to see whether or not a) there is a car charger and b) if that charger is a car charger.*/
+} else {
+  console.log("Start Walkin'!")
+}
+/*If both of those conditions are met, then it will display "Get yourself a ride home." If neither of those sets
+of conditions is met, it tells the user to "Start Walkin'!". */
+
+
 
 
 // YOU DO - ANNOTATE: Above each line of your code for this if statement, create a comment.
@@ -113,4 +137,4 @@ var chargerType = "car";
 // what the line of code below, does.
 
 // MAKE 100% SURE that you have RUN the code in node in your command line, to ensure it works
-// as you think it does🌟
+// as you think it does🌟  I did, as always. 
