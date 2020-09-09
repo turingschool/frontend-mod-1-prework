@@ -2,14 +2,14 @@
 
 #### 1. How did the SuperLearner Article resonate with you? What from this list do you already do? Want to start doing or do more of? Is there anything not on this list, that you would add to it?
 
-**What I already do:**
+*What I already do:*
 - I value process over product: I really enjoy learning, and pursue curiosities even when they don't clearly contribute to specific professional/creative outcomes.
 - I like to read and am fairly skilled at reading comprehension even with difficult texts, but lately I have been bad at systematically making time for it.
 - I frequently find formal opportunities to teach what I am learning (over the last 5 years I have always been at least one of the following: teacher, teaching assistant, tutor, coach, group leader). However, I don't always take advantage of more informal opportunities to teach/explain that are born out of collaboration/conversation with peers, mentors, and friends.
 - I do believe in my capacity to learn anything with hard work (i.e. growth mindset), and this means that I am not easily daunted by any particular subject matter. However, I may over emphasize my intellectual *traits* rather than my choices when I predict or reflect on successes. I think I am liable to conflate *understanding* and *retention*, feeling that the former gets me the latter for free, when really (at least for me), long-term retention is the only one that requires heavy lifting.
 - I'm pretty active (and I'm young!) so I take the health of my brain for granted, but I can definitely improve on the consistency with which I take care of myself.
 
-**What's wrong with or missing from the article**
+*What's wrong with or missing from the article*
 - I agree that valuing the learning journey for its own sake is important, but shouldn't we also ask, in order to pin down what makes learning effective: *what is learning for*? I'll admit that, for myself, I don't consider Elon Musk or Mark Zuckerburg to be learning role models. I am interested in emmulating learners who have a more profound understanding of why their learning (and its products) matter, who have a deep sense of humility and joy surrounding learning, who are intimately acquainted with what they *don't* know, and who can defend the methodology behind their ideas as well as the ideas themselves. I absolutely agree that learning is great, but I also think that it can get wrapped up in itself, becoming an ego-journey of self-improvement for which efficiency and volume trumps all ... you know, the world of playing audiobooks at triple speed while reading the newspaper and running a zoom call and riding a peloton. I think that whether learning is "super" depends at least in part on what it's for, which determines *what* is worth learning in the first place.
 - I think that "read a lot" is a better goal than not reading at all, but it's an incomplete goal -- we also need to be discriminating about what we read and how we read it.
 
@@ -19,7 +19,7 @@
 
 - I don't think a list of learning tips is complete without something on metacognition. I imagine that "superlearners" are not all people who follow one set of rules for learning. Rather they are people who pay attention to their own minds and embrace learning strategies and regimens that push them but play to their strengths.
 
-**=> goals**
+*=> goals*
 - Read (well!) >= 1 book (or equivalent) per week during my Turing program, and >= 2 books over each inter-module break
 
     - maintain reading lists in my Turing notebook
@@ -71,15 +71,15 @@ asterisks */
 
 #### 5. In your own words, what is a variable? How would you explain it to a 5 year old?
 
-A variable is a storage place for information.
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;A variable is a storage place for information.
 
-Sometimes a chunk of information is very long and complicated, so while we want to use it many times, we don't want to have to remember it/write it all out every time. For instance, maybe a star is 12478457882895828829945992882 lightyears away, and I need that number to figure out the distance of other stars, figure out my space travel ETA, figure out how bright the star will seem to me, etc. But I don't want to re-type that number every time! Instead, I can give it a simple name:
-`var starDistance = 12478457882895828829945992882`
-Then, when I want to use that value again, I just have to remember to type the variable name 'starDistance'.
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Sometimes a chunk of information is very long and complicated, so while we want to use it many times, we don't &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;want to have to remember it/write it all out every time. For instance, maybe a star is &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;12478457882895828829945992882 lightyears away, and I need that number to figure out the distance of other stars, &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;figure out my space travel ETA, figure out how bright the star will seem to me, etc. But I don't want to re-type &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;that number every time! Instead, I can give it a simple name:
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;`var starDistance = 12478457882895828829945992882`
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Then, when I want to use that value again, I just have to remember to type the variable name 'starDistance'.
 
 #### 6. Think of a site or app you use frequently. What are three variables that are probably used? Which data type would each of those variables probably hold?
 
-*Strava* app
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;*Strava* app
 
 ```
 var activityType = [string]
@@ -89,17 +89,16 @@ var averageHeartBPM = [number]
 
 #### 7. In your own words, explain what concatenation is.
 
-Combining multiple variables, using the plus sign ('+'), to form a single string.
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Combining multiple variables, using the plus sign ('+'), to form a single string.
 
 #### 8. Think of a site or app you use frequently. Where do you think the developers used concatenation?
 
-*https://Patreon.com*
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;*https://Patreon.com*
 
-As the subtitle for each creator page, Patreon concatenates the string `"is creating"` with the name of the page and a string entered by the creator that describes their work:
-`pageName + " is creating " + descriptionOfWork`
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;As the subtitle for each creator page, Patreon concatenates the string `"is creating"` with the name of the page &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;and a string entered by the creator that describes their work:
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;`pageName + " is creating " + descriptionOfWork`
 
-At the bottom of a creator page, Patreon concatenates a prewritten string with the number of locked posts on the page:
-`"By becoming a patron, you'll instantly unlock access to " + numberOfPatreonExclusivePosts + " exclusive posts."`
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;At the bottom of a creator page, Patreon concatenates a prewritten string with the number of locked posts on the &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;page:`"By becoming a patron, you'll instantly unlock access to " + numberOfPatreonExclusivePosts + " exclusive posts."`
 
 
 #### 9. What questions do you still have about the work we've done so far? (not having a question is not an option)
