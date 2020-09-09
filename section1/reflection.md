@@ -1,6 +1,6 @@
 ## Section 1 Reflection
 
-### *1. How did the SuperLearner Article resonate with you? What from this list do you already do? Want to start doing or do more of? Is there anything not on this list, that you would add to it?*
+#### 1. How did the SuperLearner Article resonate with you? What from this list do you already do? Want to start doing or do more of? Is there anything not on this list, that you would add to it?
 
 **What I already do:**
 - I value process over product: I really enjoy learning, and pursue curiosities even when they don't clearly contribute to specific professional/creative outcomes.
@@ -17,10 +17,10 @@
 
    - There are many different ways to read depending on your goal. You could read a hundred books a year but remember nothing from them. You could read a hundred books and remember thousands of facts but be unable to apply/synthesize. You could read a hundred books and and out of them think up 30 amazing product ideas, but remember very few of their details and form no opinions about which of their ideas are credible or true. Anyway, what I really need to learn, on my journey towards superlearning, is *how* best to read, not *how much*.
 
- - I don't think a list of learning tips is complete without something on metacognition. I imagine that "superlearners" are not all people who follow one set of rules for learning. Rather they are people who pay attention to their own minds and embrace learning strategies and regimens that push them but play to their strengths.
+- I don't think a list of learning tips is complete without something on metacognition. I imagine that "superlearners" are not all people who follow one set of rules for learning. Rather they are people who pay attention to their own minds and embrace learning strategies and regimens that push them but play to their strengths.
 
 **=> goals**
-  1. Read (well!) >= 1 book (or equivalent) per week during my Turing program, and >= 2 books over each inter-module break
+- Read (well!) >= 1 book (or equivalent) per week during my Turing program, and >= 2 books over each inter-module break
 
     - maintain reading lists in my Turing notebook
 
@@ -35,33 +35,33 @@
     - set up monthly review/synthesis pages in reading notes
 
     - translate reading to actionable project ideas by including an "ideas" section in my notes for every book
-  1. Use Turing as an opportunity to become more consistent in my healthy choices (if I'm not careful, it could easily be a time when I let them slip)
+- Use Turing as an opportunity to become more consistent in my healthy choices (if I'm not careful, it could easily be a time when I let them slip)
 
     - pencil >= 1 hour of exercise into my daily schedule, including quick movement breaks
 
     - do >= 1 outdoor, recreational activity every weekends
 
     - make and shop for a (rough) meal plan every week so that I ensure I'm eating well
-  1. Answer >= 1 of my peers' questions on slack every week (teaching to learn), and ask >= 1 question of my peers every week (they need teaching opportunities too)
-  1. Measure my practice when it comes to small skills and memorization
+- Answer >= 1 of my peers' questions on slack every week (teaching to learn), and ask >= 1 question of my peers every week (they need teaching opportunities too)
+- Measure my practice when it comes to small skills and memorization
 
     - create tracking pages for keyboard shortcut practice, typing practice, and vocabulary review
 
     - make a note of it when I avoid any practice opportunity by taking the easy way out (e.g. copy and pasting code)
 
 
-### *2. What are the data types you learned about in this section? In your own words, define each.*
+#### 2. What are the data types you learned about in this section? In your own words, define each.
 
 - **number**: positive, negative, whole or decimal numbers, which are recognized by the computer for their numerical value (not the unicode value of each character)
 - **string**: a series of characters between quotes, single '' or double "". They can be manipulated using comparison operators to result in boolean values, but only according to the unicode of each individual character, not according to their semantics in e.g. natural language.
 - **boolean**: 'true' or 'false' value. can be assigned to variables, but will also result from statements that the computer recognizes as true or false, like statements using comparison operators between two numbers or two strings.
 
-### *3. How would you log the string `"Hello World!"` to the console?*
+#### 3. How would you log the string `"Hello World!"` to the console?
 ```
 console.log("Hello World!")
 ```
 
-4. What is/are the character(s) you would use to indicate comments in a JavaScript file? What is the purpose of a code comment?
+#### 4. What is/are the character(s) you would use to indicate comments in a JavaScript file? What is the purpose of a code comment?
 ```
 // I would write a one line comment after two backslashes
 /* I would write a multiple line comment sandwiched between backslashes and
@@ -69,7 +69,7 @@ asterisks */
 /* Comments can be used as notes/reminders for the programmer, as explanations/labels to make code more readable, or as a temporary way to de-activate lines of code */
 ```
 
-### *5. In your own words, what is a variable? How would you explain it to a 5 year old?*
+#### 5. In your own words, what is a variable? How would you explain it to a 5 year old?
 
 A variable is a storage place for information.
 
@@ -77,15 +77,23 @@ Sometimes a chunk of information is very long and complicated, so while we want 
 `var starDistance = 12478457882895828829945992882`
 Then, when I want to use that value again, I just have to remember to type the variable name 'starDistance'.
 
-### *6. Think of a site or app you use frequently. What are three variables that are probably used? Which data type would each of those variables probably hold?*
+#### 6. Think of a site or app you use frequently. What are three variables that are probably used? Which data type would each of those variables probably hold?
 
-### *7. In your own words, explain what concatenation is.*
+*Strava* app
+
+```
+var activityType = [string]
+var activityDistanceInMiles = [number]
+var averageHeartBPM = [number]
+```
+
+#### 7. In your own words, explain what concatenation is.
 
 Combining multiple variables, using the plus sign ('+'), to form a single string.
 
-### *8. Think of a site or app you use frequently. Where do you think the developers used concatenation?*
+#### 8. Think of a site or app you use frequently. Where do you think the developers used concatenation?
 
-https://Patreon.com
+*https://Patreon.com*
 
 As the subtitle for each creator page, Patreon concatenates the string `"is creating"` with the name of the page and a string entered by the creator that describes their work:
 `pageName + " is creating " + descriptionOfWork`
@@ -94,7 +102,7 @@ At the bottom of a creator page, Patreon concatenates a prewritten string with t
 `"By becoming a patron, you'll instantly unlock access to " + numberOfPatreonExclusivePosts + " exclusive posts."`
 
 
-### *9. What questions do you still have about the work we've done so far? (not having a question is not an option)*
+#### 9. What questions do you still have about the work we've done so far? (not having a question is not an option)
 
 - **Why** is it that we program the content, the style, and the interactivity of a web page using three different languages and in different files? Is it just convention (i.e. if I really wanted to, could I program all of the textual content for a webpage using JavaScript)? Are there other software development contexts for which a single language is sufficient? How did the three web development languages and the current standard of progressive enhancement come about? Was HTML invented before CSS and CSS before JavaScript?
 
