@@ -22,26 +22,32 @@
 **=> goals**
   1. Read (well!) >= 1 book (or equivalent) per week during my Turing program, and >= 2 books over each inter-module break
 
-   - maintain reading lists in my Turing notebook
-   - organize reading lists by category, and let there be variety, because cross-pollination is useful
-   - choose one book (or equivalent collection of readings) to focus on starting each Sunday
-   - pencil >= 1 hour of reading into my daily schedule
-   - set up a collection of analog reading notes in Turing notebook or other
-   - set up monthly review/synthesis pages in reading notes
-   - translate reading to actionable project ideas by including an "ideas" section in my notes for every book
+    - maintain reading lists in my Turing notebook
 
+    - organize reading lists by category, and let there be variety, because cross-pollination is useful
+
+    - choose one book (or equivalent collection of readings) to focus on starting each Sunday
+
+    - pencil >= 1 hour of reading into my daily schedule
+
+    - set up a collection of analog reading notes in Turing notebook or other
+
+    - set up monthly review/synthesis pages in reading notes
+
+    - translate reading to actionable project ideas by including an "ideas" section in my notes for every book
   1. Use Turing as an opportunity to become more consistent in my healthy choices (if I'm not careful, it could easily be a time when I let them slip)
 
-   - pencil >= 1 hour of exercise into my daily schedule, including quick movement breaks
-   - do >= 1 outdoor, recreational activity every weekends
-   - make and shop for a (rough) meal plan every week so that I ensure I'm eating well
+    - pencil >= 1 hour of exercise into my daily schedule, including quick movement breaks
 
+    - do >= 1 outdoor, recreational activity every weekends
+
+    - make and shop for a (rough) meal plan every week so that I ensure I'm eating well
   1. Answer >= 1 of my peers' questions on slack every week (teaching to learn), and ask >= 1 question of my peers every week (they need teaching opportunities too)
-  
   1. Measure my practice when it comes to small skills and memorization
 
-   - create tracking pages for keyboard shortcut practice, typing practice, and vocabulary review
-   - make a note of it when I avoid any practice opportunity by taking the easy way out (e.g. copy and pasting code)
+    - create tracking pages for keyboard shortcut practice, typing practice, and vocabulary review
+
+    - make a note of it when I avoid any practice opportunity by taking the easy way out (e.g. copy and pasting code)
 
 
 ### *2. What are the data types you learned about in this section? In your own words, define each.*
