@@ -15,12 +15,12 @@
 
    - There is too much written word in the world for even the most prolific readers to get through a fraction of it. I don't know that there's a formula for choosing the right things to read, but I do think one can get better at it. I think we can (a) be quick to put books down - rather than feel wedded to anything we've read the inside cover of; (b) be willing to skim books for which skimming is sufficient; (c) seek counterpoints rather than validation (reading to validate oneself is, if not epistemically perilous, at least redundant)...I imagine there are many other tips for choosing readings wisely, and most of them will depend on the subject matter. Programming, for instance... where do I start!?
 
-   - There are many different ways to read depending on your goal. You could read a hundred books a year but remember nothing from them. You could read a hundred books and remember thousands of facts but be unable to apply/synthesize. You could read a hundred books and and out of them think up 30 amazing product ideas, but remember very few of their details and form no opinions about which of their ideas are credible or true. Anyway, what I really need to learn, on my journey towards superlearning, is *how* best to read, not *how much*.
+   - There are many different ways to read depending on your goal. You could read a hundred books a year but remember nothing from them. You could read a hundred books and remember thousands of facts but be unable to apply/synthesize. You could read a hundred books and out of them think up 30 amazing product ideas, but remember very few of their details and form no opinions about which of their ideas are credible or true. Anyway, what I really need to learn, on my journey towards superlearning, is *how* best to read, not *how much*.
 
 - I don't think a list of learning tips is complete without something on metacognition. I imagine that "superlearners" are not all people who follow one set of rules for learning. Rather they are people who pay attention to their own minds and embrace learning strategies and regimens that push them but play to their strengths.
 
-*=> goals*
-- Read (well!) >= 1 book (or equivalent) per week during my Turing program, and >= 2 books over each inter-module break
+*so, Goals*
+- Read (well!) at least one book (or equivalent) per week during my Turing program, and at least two books over each inter-module break
 
     - maintain reading lists in my Turing notebook
 
@@ -28,7 +28,7 @@
 
     - choose one book (or equivalent collection of readings) to focus on starting each Sunday
 
-    - pencil >= 1 hour of reading into my daily schedule
+    - pencil at least one hour of reading into my daily schedule
 
     - set up a collection of analog reading notes in Turing notebook or other
 
@@ -37,12 +37,12 @@
     - translate reading to actionable project ideas by including an "ideas" section in my notes for every book
 - Use Turing as an opportunity to become more consistent in my healthy choices (if I'm not careful, it could easily be a time when I let them slip)
 
-    - pencil >= 1 hour of exercise into my daily schedule, including quick movement breaks
+    - pencil at least one hour of exercise into my daily schedule, including quick movement breaks
 
-    - do >= 1 outdoor, recreational activity every weekends
+    - do at least one outdoor, recreational activity every weekend
 
     - make and shop for a (rough) meal plan every week so that I ensure I'm eating well
-- Answer >= 1 of my peers' questions on slack every week (teaching to learn), and ask >= 1 question of my peers every week (they need teaching opportunities too)
+- Answer at least one of my peers' questions on slack every week (teaching to learn), and ask at least one question *of* my peers every week (they need teaching opportunities too)
 - Measure my practice when it comes to small skills and memorization
 
     - create tracking pages for keyboard shortcut practice, typing practice, and vocabulary review
