@@ -71,17 +71,12 @@ asterisks */
 
 #### 5. In your own words, what is a variable? How would you explain it to a 5 year old?
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;A variable is a storage place for information.
-
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Sometimes a chunk of information is very long and complicated, so while we want to use it many times, we don't &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;want to have to remember it/write it all out every time. For instance, maybe a star is &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;12478457882895828829945992882 lightyears away, and I need that number to figure out the distance of other
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; stars, figure out my space travel ETA, figure out how bright the star will seem to me, etc. But I don't
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;want to re-type that number every time! Instead, I can give it a simple name:
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;`var starDistance = 12478457882895828829945992882`
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Then, when I want to use that value again, I just have to remember to type the variable name 'starDistance'.
+A variable is a storage place for information. Sometimes a chunk of information is very long and complicated, so while we want to use it many times, we don't want to have to remember it/write it all out every time. For instance, maybe a star is 12478457882895828829945992882 lightyears away, and I need that number to figure out the distance of other stars, figure out my space travel ETA, figure out how bright the star will seem to me, etc. But I don't want to re-type that number every time! Instead, I can give it a simple name:`var starDistance = 12478457882895828829945992882`
+Then, when I want to use that value again, I just have to remember to type the variable name 'starDistance'.
 
 #### 6. Think of a site or app you use frequently. What are three variables that are probably used? Which data type would each of those variables probably hold?
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;*Strava* app
+*Strava* app
 
 ```
 var activityType = [string]
@@ -91,18 +86,15 @@ var averageHeartBPM = [number]
 
 #### 7. In your own words, explain what concatenation is.
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Combining multiple variables, using the plus sign ('+'), to form a single string.
+Combining multiple variables, using the plus sign ('+'), to form a single string.
 
 #### 8. Think of a site or app you use frequently. Where do you think the developers used concatenation?
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;*https://Patreon.com*
+*https://Patreon.com*
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;As the subtitle for each creator page, Patreon concatenates the string `"is creating"` with the name of the page
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;and a string entered by the creator that describes their work:
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;`pageName + " is creating " + descriptionOfWork`
+As the subtitle for each creator page, Patreon concatenates the string `"is creating"` with the name of the page and a string entered by the creator that describes their work:`pageName + " is creating " + descriptionOfWork`
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;At the bottom of a creator page, Patreon concatenates a prewritten string with the number of locked posts on the
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;page:`"By becoming a patron, you'll instantly unlock access to " + numberOfPatreonExclusivePosts + " exclusive posts."`
+At the bottom of a creator page, Patreon concatenates a prewritten string with the number of locked posts on the page:`"By becoming a patron, you'll instantly unlock access to " + numberOfPatreonExclusivePosts + " exclusive posts."`
 
 
 #### 9. What questions do you still have about the work we've done so far? (not having a question is not an option)
