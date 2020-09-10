@@ -66,7 +66,9 @@ console.log("Hello World!")
 // I would write a one line comment after two backslashes
 /* I would write a multiple line comment sandwiched between backslashes and
 asterisks */
-/* Comments can be used as notes/reminders for the programmer, as explanations/labels to make code more readable, or as a temporary way to de-activate lines of code */
+/* Comments can be used as notes/reminders for the programmer,
+as explanations/labels to make code more readable, or as a temporary
+way to de-activate lines of code */
 ```
 
 #### 5. In your own words, what is a variable? How would you explain it to a 5 year old?
