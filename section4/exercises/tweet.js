@@ -9,7 +9,7 @@ tweet object instances _behave_ as expected.
 */
 
 class Tweet {
-  constructor( author, content, timeStamp, numberOfLikes, comments ) {
+  constructor(author, content, timeStamp, numberOfLikes, comments) {
     this.author = author;
     this.content = content;
     this.timeStamp = timeStamp;
@@ -17,26 +17,26 @@ class Tweet {
     this.comments = 0;
   }
   liked() {
-    this.liked = true;
+    // this.liked = true;
     this.numberOfLikes++;
   }
   commented() {
-    this.commented = true;
+    // this.commented = true;
     this.comments++;
   }
 
 }
-var myTweet = new Tweet( "@nasa", "Space is hard, yo.", "14:02", "0", false )
-console.log( "New tweet from " + myTweet.author + " at " + myTweet.timeStamp + ": " +
-  myTweet.content + "\n" + "Likes: " + myTweet.numberOfLikes + ", Comments: " + myTweet.comments );
+var myTweet = new Tweet("@nasa", "Space is hard, yo.", "14:02", "0", false)
+console.log("New tweet from " + myTweet.author + " at " + myTweet.timeStamp + ": " +
+  myTweet.content + "\n" + "Likes: " + myTweet.numberOfLikes + ", Comments: " + myTweet.comments);
 
 myTweet.liked();
-console.log( "Liked tweet from " + myTweet.author + " at " + myTweet.timeStamp + ": " +
-  myTweet.content + "\n" + "Likes: " + myTweet.numberOfLikes + ", Comments: " + myTweet.comments );
+console.log("Liked tweet from " + myTweet.author + " at " + myTweet.timeStamp + ": " +
+  myTweet.content + "\n" + "Likes: " + myTweet.numberOfLikes + ", Comments: " + myTweet.comments);
 
 myTweet.commented();
-console.log( "Commented and liked tweet from " + myTweet.author + " at " + myTweet.timeStamp + ": " +
-  myTweet.content + "\n" + "Likes: " + myTweet.numberOfLikes + ", Comments: " + myTweet.comments );
+console.log("Commented and liked tweet from " + myTweet.author + " at " + myTweet.timeStamp + ": " +
+  myTweet.content + "\n" + "Likes: " + myTweet.numberOfLikes + ", Comments: " + myTweet.comments);
 
 
 // I'm not sure if I'm supposed to be able to call .liked and .commented more than once on this myTweet,
