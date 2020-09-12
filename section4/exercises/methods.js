@@ -12,15 +12,32 @@ Make sure to run the file with node in your command line.
 
 // Log to the console each property on the `lunchOrder` object.
 // Call each method and run the file in node to verify they are working as expected.
-/*
+
 var lunchOrder = {
   dish: "BLT",
-  beverage: "iced tea",
+  beverage: "Iced Tea",
   tableNumber: 47,
-  prepare: true,
-  complete: true
+  announcement: "Please order now."
+}
+console.log(lunchOrder);
+
+function prepare() {
+  lunchOrder.announcement = "Your order is being prepared."
 };
 
+function complete() {
+  lunchOrder.announcement = "Your order is complete."
+};
+
+prepare(lunchOrder);
+console.log(lunchOrder);
+
+complete(lunchOrder);
+console.log(lunchOrder);
+
+
+
+/*
 if ( lunchOrder.prepare ) {
   console.log( "Table number " + lunchOrder.tableNumber + ", your " + lunchOrder.dish +
     " and " + lunchOrder.beverage + " is being prepared." )
@@ -32,7 +49,7 @@ if ( lunchOrder.prepare ) {
 } else {
   console.log( "Table number " + lunchOrder.tableNumber + ", please confirm your order." )
 }
-*/
+
 // I wasn't 100% sure what you were looking for here, but the code that I have *below* seems to work.
 // I don't know if I even need to validate both .prepare and .complete on line 54.
 // Also, I haven't figured out how to change the spacing that this atom package has yet.
@@ -58,3 +75,4 @@ if ( lunchOrder.complete ) {
 } else {
   console.log( "Table number " + lunchOrder.tableNumber + ", please confirm your order." )
 }
+*/
