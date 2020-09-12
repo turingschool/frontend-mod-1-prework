@@ -55,9 +55,9 @@ When you are all done with the lessons, exercises, and reflection for this secti
 
 ### Operators
 
-When you learned about Booleans in Section 1, you briefly read about and practiced using some comparison operators. 
+When you learned about Booleans in Section 1, you briefly read about and practiced using some comparison operators.
 
-The conditional operators we touched on earlier are critical in the set up of if statements. Conditional statements (conditions) evaluate to `true` or `false`. The most common operators used for conditions are comparison operators: 
+The conditional operators we touched on earlier are critical in the set up of if statements. Conditional statements (conditions) evaluate to `true` or `false`. The most common operators used for conditions are comparison operators:
 * `===` (strictly equal)
 * `!==` (not equal)
 * `>` (greater than)
@@ -70,7 +70,7 @@ Some data types also have functions which return a `true` or `false`, so they’
 - Read more about [comparison operators here](https://javascript.info/comparison)
 - Read about [logical operators here](https://mariusschulz.com/blog/the-and-and-or-operators-in-javascript). You really just need to read the top first paragraph and code snippet in this post. You'll go deeper in Mods 1-2.
 
-> 👨🏽‍💻PAUSE here, and complete the exercises in `comparisons.js`
+> 👨🏽‍💻PAUSE here, and [x] complete the exercises in `comparisons.js`
 
 ### If Statements
 
@@ -126,7 +126,7 @@ The **number one mistake** people encounter when writing conditional statements 
 
 * `===` is a question. It means "is the value on the right the exact same as the value on the left?" – it’s asking, not telling.
 
-> 👨🏽‍💻PAUSE here, and complete the exercises in `decision-making.js` and `if-statements.js`
+> 👨🏽‍💻PAUSE here, and complete the exercises in [x]`decision-making.js` and [x]`if-statements.js`
 
 ## Part C Functions
 
@@ -138,7 +138,7 @@ If you'd like another source, read [this blog post](https://medium.com/javascrip
 
 Lastly, [Codecamdemy also has a good intro on JavaScript functions](https://www.codecademy.com/courses/introduction-to-javascript/lessons/functions) in their free account plan. Completing this is _optional_!
 
-> 👨🏽‍💻PAUSE here, and complete the exercises in `functions.js`
+> 👨🏽‍💻PAUSE here, and complete the exercises in [x]`functions.js`
 
 ## Exercises
 
@@ -148,7 +148,7 @@ At this point, you should have worked through all files in the `exercises` direc
 
 Look back at that special spot in your notebook for vocabulary. Hopefully you updated it with definitions, diagrams, and code samples as you went through this section. If not, do so now. This will be part of this sections deliverables.
 
-## Relections
+## Reflections
 
 📝 Answer the prompts in the `reflection.md` file in the `section2` directory. If you need a reminder on how to format your markdown, [this is the Markdown Cheatsheet](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet)!
 
