@@ -1,16 +1,16 @@
 ## Section 2 Reflection
 
-####1. Regarding the blog posts in Part A, how do you feel about asking questions? Do you tend to ask them too soon, or wait too long, or somewhere in between?
+#### 1. Regarding the blog posts in Part A, how do you feel about asking questions? Do you tend to ask them too soon, or wait too long, or somewhere in between?
 
 I think I'm somewhere in between. I tend to be very quick to use google/other digital resources at hand to work through technical difficulties, but I often don't put in the effort to formulate and ask more substantive questions of *human* resources.
 
 I feel pretty uncomfortable asking technical questions of other people, mostly because it feels much faster to look them up. I do recognize, though, that we may get more than we're looking for (in a good way) when we use human beings as a technical resource rather than always turning to google.
 
-####1. In this section, we removed some of the supports that you had in Section 1. We didn't give the directions for how to run a file in node, and really sent you off to learn about functions by exploring several outside resources. How did that feel? What was uncomfortable about it? How did it support your learning?
+#### 1. In this section, we removed some of the supports that you had in Section 1. We didn't give the directions for how to run a file in node, and really sent you off to learn about functions by exploring several outside resources. How did that feel? What was uncomfortable about it? How did it support your learning?
 
 I enjoyed using outside resources and found the exercise tasks very intuitive, so I honestly didn't notice you had removed any supports until I saw this question.
 
-####1. What is a conditional statement? Give one example of a daily life conditional. Give one example of where a conditional is probably used in a web application you use.
+#### 1. What is a conditional statement? Give one example of a daily life conditional. Give one example of where a conditional is probably used in a web application you use.
 
 A conditional is an if-then statement, which describes the relationship between two claims/actions for which one is sufficient to the other's being true (or being instructed). According to a conditional, the first part, the antecedent, is sufficient for but not necessary to the truth/carrying out of the second part, the consequent. Hence, the consequent is the *consequence* of the antecedent. The consequent is necessary to but not sufficient for the truth/carrying out of the antecedent.
 
