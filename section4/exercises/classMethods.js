@@ -31,7 +31,7 @@ class Burrito {
   constructor(protein, base, toppings) {
     this.protein = protein;
     this.base = base;
-    this.toppings = toppings;
+    this.toppings = Array.isArray(toppings) ? toppings : [toppings];
   }
 
   // ADD CODE
@@ -50,12 +50,15 @@ class Burrito {
 var firstBurrito = new Burrito("Chicken", "Black Beans", ["Cheese, Sour Cream, Lettuce"]);
 var secondBurrito = new Burrito("Ground Beef", "Brown Rice", ["Cheese", "Pico de Gallo"]);
 var thirdBurrito = new Burrito("Pinto Beans", "White Rice", ["Fajitas", "Guacamole"]);
+var fourthBurrito = new Burrito("Pinto Beans", "White Rice", "Fajitas");
 
 firstBurrito.changeProtein("Pulled Pork")
 console.log(firstBurrito);
 
 secondBurrito.addTopping("Guacamole")
 thirdBurrito.addTopping("Sour Cream")
+fourthBurrito.addTopping("Sour Cream")
 
 console.log(secondBurrito);
 console.log(thirdBurrito);
+console.log(fourthBurrito);
