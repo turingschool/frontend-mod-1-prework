@@ -27,11 +27,12 @@ Make sure to run the file with node in your command line.
 // Call the `addTopping` method on two burritos, then log the burritos to verify
 // that the toppings have been changed.
 
+
 class Burrito {
   constructor(protein, base, toppings) {
     this.protein = protein;
     this.base = base;
-    this.toppings = toppings;
+    this.toppings = toppings[];
   }
 
   changeProtein() {
