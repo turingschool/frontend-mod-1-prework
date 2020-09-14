@@ -1,28 +1,33 @@
 ### I'm going to work on
 1. applying JavaScript to a project I've had in mind for a while called the *Ideological Woodchipper*
 
-- I've set up a remote repo for this project, so it will also be a great way to practice the git workflow
+    - I've set up a remote repo for this project, so it will also be a great way to practice the git workflow: https://github.com/kellydinneen/ideological_woodchipper
 
 2. method practice
 
-- learn a string method every Monday
-- learn a number method every Wednesday
-- learn a boolean method every Friday
-- learn an array method every Saturday
-- write a function that applies all four new methods every Sunday
+    - learn a string method every Monday
+  
+    - learn a number method every Wednesday
+  
+    - learn a boolean method every Friday
+  
+    - learn an array method every Saturday
+  
+    - write a function that applies all four new methods every Sunday
 
 3. building a reading list to supplement Turing.
 
-- I will build this as well as structure my reading notes through GitHub, so I'll be using this as an opportunity to play with GitHub features: https://github.com/kellydinneen/readings-turing-2010
-- On the list already: *Design Patterns: Elements of Reusable Object-Oriented Software*, *The Design of Everyday Things*, *How the Mind Works*,
+    - I will build this as well as structure my reading notes through GitHub, so I'll be using this as an opportunity to play with GitHub features: https://github.com/kellydinneen/readings-turing-2010
+  
+    - On the list already: *Design Patterns: Elements of Reusable Object-Oriented Software*, *The Design of Everyday Things*, *How the Mind Works*,
 
 4. typing and keyboard shortcuts
 
-- 15 min / day
+    - 15 min / day
 
 5. compiling project ideas
 
-- 2 ideas/day
+    - 2 ideas/day
 
 ### (Minimum) Work Schedule:
 ```
@@ -69,23 +74,23 @@ for (var i = 0; i < datesUntilStart.length; i++) {
 
 ### Work station:
 
-- sitting at coffee shop table during store's closed hours (wednesday)
-- sitting at upstairs desk all other hours (monday, friday, saturday, sunday)
+ - sitting at coffee shop table during store's closed hours (wednesday)
+ - sitting at upstairs desk all other hours (monday, friday, saturday, sunday)
 
 ### I will document this plan and my progress:
 
-- initial plan is documented *here*, in this markdown
-- daily schedule is documented on Sunsama (a calendar/time management web app)
-- progress on all items will be documented in github as a project in my Mod 0 repo: https://github.com/kellydinneen/mod-0/projects/2
+ - initial plan is documented *here*, in this markdown
+ - daily schedule is documented on Sunsama (a calendar/time management web app)
+ - progress on all items will be documented in github as a project in my Mod 0 repo: https://github.com/kellydinneen/mod-0/projects/2
 
 ### Do any stakeholders in your life know about this plan? (The answer needs to be yes by the time you answer this...)
 
-- yes: my partner
+ - yes: my partner
 
 ### What personal items/events are important to you during this time? How are you going to make sure those are not neglected? (Hint, block time on the calendar for them!)
 
-- exercise: I will be practicing the same exercise schedule that I plan to follow during Turing
-- my newsletter: I will block out 30 hours/week to work on this and set it up ahead of time for October and November
-- Ulysses and William James bookclubs: will block out time to do readings
-- Philosophy: will create manageable reading regimen - 30 min/day
-- running coffee shop: will designate 45 min, 3 days/week when I can design food items for shop
+ - exercise: I will be practicing the same exercise schedule that I plan to follow during Turing
+ - my newsletter: I will block out 30 hours/week to work on this and set it up ahead of time for October and November
+ - Ulysses and William James bookclubs: will block out time to do readings
+ - Philosophy: will create manageable reading regimen - 30 min/day
+ - running coffee shop: will designate 45 min, 3 days/week when I can design food items for shop
