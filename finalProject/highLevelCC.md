@@ -31,5 +31,5 @@
 
 ##### To look up before implementing solution:
 
-*method that picks out/logs order value of item in array
-*method that converts array to string without commas in between items
+* method that picks out/logs order value of item in array
+* method that converts array to string without commas in between items
