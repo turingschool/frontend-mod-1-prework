@@ -114,3 +114,9 @@ for yourself!
 If your solution doesn't use a logical operator, this is a great topic to bring up
 in your pre-work group's Slack channel!
 */
+function multiplyIt(startingNumber, toMultiplyBy) {
+  console.log(startingNumber * toMultiplyBy);
+};
+
+multiplyIt(3, 4);
+multiplyIt(4,32);
