@@ -1,33 +1,33 @@
 ### I'm going to work on
 1. applying JavaScript to a project I've had in mind for a while called the *Ideological Woodchipper*
 
-  - I've set up a remote repo for this project, so it will also be a great way to practice the git workflow: https://github.com/kellydinneen/ideological_woodchipper
+    - I've set up a remote repo for this project, so it will also be a great way to practice the git workflow: https://github.com/kellydinneen/ideological_woodchipper
 
 2. method practice
 
-  - learn a string method every Monday
+    - learn a string method every Monday
   
-  - learn a number method every Wednesday
+    - learn a number method every Wednesday
   
-  - learn a boolean method every Friday
+    - learn a boolean method every Friday
   
-  - learn an array method every Saturday
+    - learn an array method every Saturday
   
-  - write a function that applies all four new methods every Sunday
+    - write a function that applies all four new methods every Sunday
 
 3. building a reading list to supplement Turing.
 
-  - I will build this as well as structure my reading notes through GitHub, so I'll be using this as an opportunity to play with GitHub features: https://github.com/kellydinneen/readings-turing-2010
+    - I will build this as well as structure my reading notes through GitHub, so I'll be using this as an opportunity to play with GitHub features: https://github.com/kellydinneen/readings-turing-2010
   
-  - On the list already: *Design Patterns: Elements of Reusable Object-Oriented Software*, *The Design of Everyday Things*, *How the Mind Works*,
+    - On the list already: *Design Patterns: Elements of Reusable Object-Oriented Software*, *The Design of Everyday Things*, *How the Mind Works*,
 
 4. typing and keyboard shortcuts
 
-  - 15 min / day
+    - 15 min / day
 
 5. compiling project ideas
 
-  - 2 ideas/day
+    - 2 ideas/day
 
 ### (Minimum) Work Schedule:
 ```
