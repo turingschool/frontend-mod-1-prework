@@ -52,7 +52,7 @@ greetMe("Ramona");
 
 // YOU DO: Write a function that takes in 2 numbers as arguments, Numbers, and logs their sum
 // Then, call that function 3 times, each time, passing in 2 different Numbers.
-function weeksProgramming(weeksOfMod0, weeksOfSelfTeach) {
+function calculateWeeksProgramming(weeksOfMod0, weeksOfSelfTeach) {
   console.log(weeksOfMod0 + weeksOfSelfTeach);
 };
 
@@ -64,7 +64,7 @@ Numbers(4, 15);
 // YOU DO🎈: Write a function that takes in two strings and prints a concatenation
 // of those two strings, for example the arguments could be ("Oscar", "Ruck") and
 // the end result might be "Oscar and Ruck are BFFS".  Then, call that function.
-function hotDrinks(tea, coffee) {
+function announceHotDrinks(tea, coffee) {
   console.log("We serve a tea called " + tea + " and a coffee called " + coffee);
 };
 
@@ -85,14 +85,14 @@ Look at the code you wrote for the previous YOU DO🎈 - what did you name the f
 What did you name each parameter, and why?
 
 EXPLAIN:
-In the numbers activity, I named my function 'weeksProgramming' to suggest that the function
+In the numbers activity, I named my function 'calculateWeeksProgramming' to suggest that the function
 calculates the total number of weeks that a person has spent programming. I named the parameters 'weeksOfMod0'
 and 'weeksOfSelfTeach' because I imagined this function applied to students beginning their Turing course
 and describing their previous experience. With these parameter names, the function assumes that the only two possible
 types of programming experience are time doing Turing Module 0 and time teaching oneself how to code.
 
-In the strings activity, I named my function 'hotDrinks' and my parameters 'tea' and 'coffee' which
-suggests that this is a function about two types of hot drinks, tea and coffee. Along with the strings
+In the strings activity, I named my function 'announceHotDrinks' and my parameters 'tea' and 'coffee' which
+suggests that this is a function that will log/explain two types of hot drinks, tea and coffee. Along with the strings
 that remain constant in every concatenated output, these names tell us that the function is taking
 the names of tea and coffee served as inputs.
 
