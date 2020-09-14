@@ -6,7 +6,7 @@ Using what you have learned so far, complete the challenges below. Put any files
 
 * [x] [FizzBuzz](./fizzbuzz.md)
 * [x] [10 Speckled Frogs](./10_speckled_frogs.md)
-* [] [Ceasar Cipher](./ceasar_cipher.md)
+* [x] [Ceasar Cipher](./ceasar_cipher.md)
 
 ## Next Steps
 
