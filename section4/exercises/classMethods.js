@@ -34,11 +34,11 @@ class Burrito {
     this.toppings = toppings
   }
 
-  changeProtein(string) {
-    this.protein = string;
+  changeProtein(newProtein) {
+    this.protein = newProtein;
   }
-  addTopping(string) {
-    this.toppings.push(string);
+  addTopping(newTopping) {
+    this.toppings.push(newTopping);
   }
 };
 
