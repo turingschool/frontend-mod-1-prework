@@ -1,6 +1,6 @@
 # Section 4 - Objects, Classes and Code Challenges
 
-Section 4 is estimated to take a total of 10-14 hours to complete. Similar to the previous sections, this section of pre-work involves reading (both from this document as well as the 📒John Duckett book), 👨🏾‍💻exercises, and 📝reflection questions. Make sure to manage your time well so that should you get stuck and need help, you have plenty of time to do so and meet the deadline. 
+Section 4 is estimated to take a total of 10-14 hours to complete. Similar to the previous sections, this section of pre-work involves reading (both from this document as well as the 📒John Duckett book), 👨🏾‍💻exercises, and 📝reflection questions. Make sure to manage your time well so that should you get stuck and need help, you have plenty of time to do so and meet the deadline.
 
 - [Vocabulary](#Vocabulary)
 - [Part A: How You Spend Your Time](#Part-A-How-You-Spend-Your-Time)
@@ -28,7 +28,7 @@ Section 4 is estimated to take a total of 10-14 hours to complete. Similar to th
 
 ## Part A How You Spend Your Time
 
-One challenge developers face, moreso when they are starting out, is estimating how long something will take. Sometimes we don't account for merge conflicts, bugs, annoying Slack messages, and all the other things that interrupt our workflow or slow us down.
+One challenge developers face, more so when they are starting out, is estimating how long something will take. Sometimes we don't account for merge conflicts, bugs, annoying Slack messages, and all the other things that interrupt our workflow or slow us down.
 
 One challenge learners in a new environment/content area face is feeling like they know nothing, and until they know everything, they feel like they are failing.
 
@@ -60,7 +60,7 @@ var zebraInfo = {
 };
 ```
 
-In the `zebraInfo`, we store information about a Zebra. This object contains 3 **_key-value pairs_**. In `zebraInfo` the first **_key-value pair_** is `name: "Angela"`. The **_key_** is `name`. The **_value_** is `"Angela"`. A **_value_** can hold any data type. 
+In the `zebraInfo`, we store information about a Zebra. This object contains 3 **_key-value pairs_**. In `zebraInfo` the first **_key-value pair_** is `name: "Angela"`. The **_key_** is `name`. The **_value_** is `"Angela"`. A **_value_** can hold any data type.
 
 In the code snippet below, we declare a similar variable, but this time have an additional **_key-value pair_** with a **_key_** of `diet` and a **_value_** that is an Array.
 
@@ -102,7 +102,7 @@ console.log(zebraInfo.name);
 //=> "Molly"
 ```
 
-> 👨🏾‍💻PAUSE here, and complete the exercises in `objects.js`
+> 👨🏾‍💻PAUSE here, and complete the exercises in [x]`objects.js`
 
 ### Methods
 
@@ -122,7 +122,7 @@ var zebraObject = {
 zebraObject.feed(); //logs "Give grass to the Zebra"
 ```
 
-> 👨🏾‍💻PAUSE here, and complete the exercises in `methods.js`
+> 👨🏾‍💻PAUSE here, and complete the exercises in [x]`methods.js`
 
 ## Part C Classes and Instances
 
@@ -133,7 +133,7 @@ Classes can serve as object factories (we can even think of them as cookie cutte
 - Think of a car factory. It is set up to install engines, mount 4 wheels, attach doors and spray a nice of of paint. But the size of the engine, type of wheels, number of doors, and paint color may all differ from car to car.
 - Think of a cookie cutter. It's a piece of metal that has a specific shape. each cookie made from it will take that shape. But, the type of dough can differ, and so can the cookie toppings.
 
-**Syntax:** A class is defined using the `class` keyword, followed by the ClassName (using [Pascal Case](https://techterms.com/definition/pascalcase#:~:text=PascalCase%20is%20a%20naming%20convention,in%20PascalCase%20is%20always%20capitalized.)), then an opening and closing curly brace. 
+**Syntax:** A class is defined using the `class` keyword, followed by the ClassName (using [Pascal Case](https://techterms.com/definition/pascalcase#:~:text=PascalCase%20is%20a%20naming%20convention,in%20PascalCase%20is%20always%20capitalized.)), then an opening and closing curly brace.
 
 **Naming:** Class names should be a singular noun (thing). Because classes are the factories for future objects, they we name them after the general object they are creating. A couple of examples follow:
 - If you are going to create a class for cars (eventually, specific types of cars) use the name `Car`
@@ -164,11 +164,11 @@ var deposit = new TransactionItem();
 
 ### State (Properties)
 
-Proerties contains data about a specific object. We also refer to this group of data as **state**. The information format should be one of the data types we've learned about (String, Number, Boolean, Array, Object).
+Properties contains data about a specific object. We also refer to this group of data as **state**. The information format should be one of the data types we've learned about (String, Number, Boolean, Array, Object).
 
 The example that follows has 3 properties in state - `amount`, `date`, and `type`. They are declared _inside_ of the `constructor` method _inside_ of the class.
 
-> The constructor method is called when we use the `new` keyword. If a consutrcutor method is not declared inside the class, like in our skeleton above, there is actually one that we don't see. You will learn about that at a deeper level in Mod 1.
+> The constructor method is called when we use the `new` keyword. If a constructor method is not declared inside the class, like in our skeleton above, there is actually one that we don't see. You will learn about that at a deeper level in Mod 1.
 
 ```javascript
 class TransactionItem {
@@ -210,7 +210,7 @@ Passing arguments to the new instance and declaring parameters in the constructo
 
 Remember, the `new` keyword is what calls the `constructor` method. _Note the way data flows through this._ The argument of `200` maps to the paramter `amt` in the constructor. Then the `deposit` object instance has `200` as the value of the `amount` property. If you aren't quite sure how those are coming together yet - good! The exercise will be a good opportunity to poke and explore that more. In mod 1 you will go into a LOT of detail about the `this` keyword. Don't worry much about it now, but do include `this.` in your properties inside the constructor.
 
-> 👨🏾‍💻PAUSE here, and complete the exercises in `classProperties.js`
+> 👨🏾‍💻PAUSE here, and complete the exercises in [x] `classProperties.js`
 
 ### Behavior (Methods)
 
@@ -283,7 +283,7 @@ console.log(withdrawl);
 
 The `record` method accessed the `isRecorded` property and re-assigned it. Note again, that it did this for the `deposit` object instance, and that object instance only. The `withdrawl` object instance was not changed. (Think of that car factory - this is like having a painting station and painting _one_ car red. The others have the potential to be painted red, but no one has given the instructions, so they are not red.)
 
-> 👨🏾‍💻PAUSE here, and complete the exercises in `classMethods.js`, then `tweet.js`
+> 👨🏾‍💻PAUSE here, and complete the exercises in [x] `classMethods.js`, then `tweet.js`
 
 ## Exercises
 

@@ -4,9 +4,9 @@
 
 Using what you have learned so far, complete the challenges below. Put any files related to the projects you choose in `finalProject` directory.
 
-* [FizzBuzz](./fizzbuzz.md)
-* [10 Speckled Frogs](./10_speckled_frogs.md)
-* [Ceasar Cipher](./ceasar_cipher.md)
+* [x] [FizzBuzz](./fizzbuzz.md)
+* [x] [10 Speckled Frogs](./10_speckled_frogs.md)
+* [x] [Ceasar Cipher](./ceasar_cipher.md)
 
 ## Next Steps
 
