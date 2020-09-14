@@ -37,13 +37,25 @@ Once defined, the array is printed as a single string on the "cart" page of the 
 
 
 #### 1. In your own words, explain what an Array method is.
+
 An array method is an instruction that has the computer alter the contents of an array variable and/or use that contents to run certain text, to manipulate a different variable, etc.
 
 #### 1. What is the purpose of a loop? When we would use a loop in conjunction with array vs. without?
+
 We use loops to repeat a method many times, without having to call it up every time.
 When used with an array, a loop can repeat a method for every item of an array (or a subset of the items in the array), and can have alternate outputs depending on the item of the array corresponding to a given iteration.
 
 #### 1. If you had to teach a 5 year old about loops, how would you explain it?
+
+A loop is an action that repeats over and over again, as many times as you tell it to. But it doesn't have to be the same every time: you can tell a loop to change little things about itself every time it repeats. Maybe it's a song that you sing for every person in the class, but you use the name of the person you're singing to. Or it's a birthday card you make the same way every time, except you change the name and age in the birthday message:
+
+"Happy *9th* Birthday, *Michelle*!"
+"Happy *81st* Birthday, *Grandmother*!"
+"Happy *1st* Birthday, *Charlie*!"
+"Happy *5th* Birthday, *Me*!"
+
+Now you fill in the spaces:
+"Happy [  ] Birthday, [          ]!"
 
 #### 1. What questions do you still have about Arrays and loops?
 
