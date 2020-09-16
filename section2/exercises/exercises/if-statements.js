@@ -84,7 +84,7 @@ if (numQuarters >= 2) {
 YOU DO:
 Using the variables defined below, determine if you have the
 ingredients to make a pizza. A pizza requires at least two cups
-of flour and sauce.     
+of flour and sauce.
 
 You should be able to change the variables to achieve the following outputs:
 When cupsOfFlour = 1 and hasSauce = true, your program should log "I cannot make pizza";
@@ -99,7 +99,7 @@ var hasSauce = false;
 // Write your conditional here
 if (cupsOfFlour >=2 && hasSauce === true) {
   console.log("I can make a pizza");
-} else{
+} else {
   console.log("I cannot make a pizza");
 }
 

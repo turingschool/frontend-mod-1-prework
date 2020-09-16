@@ -72,7 +72,7 @@ value should be some appropriate value for that key. Work to have at least 5 key
 
 Log your email object to the console.
 */
-var emails = {
+var email = {
   sender: 'loans@colorado.edu',
   subject: 'Where\'s My Money, Richard?',
   body: 'You have 6 hours or we\'re coming for your kneecaps',
@@ -80,7 +80,7 @@ var emails = {
   status: 'read',
 };
 
-console.log(emails);
+console.log(email);
 
 //-------------------
 // Part 3: Many Emails - OPTIONAL EXTENSION

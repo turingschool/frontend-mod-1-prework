@@ -28,18 +28,18 @@ Make sure to run the file with node in your command line.
 // that the proteins have been changed.
 
 class Burrito {
-  constructor(protein, base, toppings) {
+  constructor(protein, base, topping) {
     this.protein = protein;
     this.base = base;
-    this.topping = toppings;
+    this.toppings = topping;
   }
 
   // ADD CODE
   changeProtein(protein) {
     this.protein = (protein);
   }
-  addTopping(toppings) {
-    this.topping.push(toppings);
+  addTopping(topping) {
+    this.toppings.push(topping);
   }
 };
 
