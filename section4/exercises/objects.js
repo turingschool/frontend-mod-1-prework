@@ -64,7 +64,7 @@ Log your email object to the console.
 
 var emails = {
   subject: "Something interesting",
-  sender: "jon@pnwebs.com",
+  sender: "jon@something.com",
   dateReceived: "8:35 AM September 10, 2020",
   starred: false,
   readStatus: false
