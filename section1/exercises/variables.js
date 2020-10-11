@@ -34,6 +34,7 @@ var firstName    = "Julia";
 var isHungry     = true;
 var numberOfPets = 1;
 
+
 console.log(firstName, isHungry, numberOfPets);
 
 // IN WORDS:
@@ -62,7 +63,7 @@ console.log(firstName, isHungry, numberOfPets);
 var healthySnacks = 6;
 var junkFoodSnacks = 8;
 
-console.log(healthySnacks + junkFoodSnacks); 
+console.log(healthySnacks + junkFoodSnacks);
 
 
 //-------------------
