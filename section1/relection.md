@@ -7,10 +7,12 @@
 * Another point I know I will be working on more is understanding that learning is a process and will take time. I can't rush myself or be disappointed if I don't catch on to concepts as fast as others might. Everyone has a different learning style and speed. I have to understand that sometimes I can be a little slower and the process might take longer, but I will eventually get there. Need to learn to celebrate the small wins and to be less self-critical. 
 
 2. What are the data types you learned about in this section? In your own words, define each.
-
+* **Number:** is a data type that includes all numbers (positive, negative, and decimals). Decimal numbers are known as floating point numbers and the commas in large numbers are excluded. Examples: ` 3, -22, 19.96, 8501 `  
+* **String:** is a data type that is comprised of a set of characters within quotation marks. A string can include letters, numbers, or special characters. Examples: ` "My water bottle is black", "67 is bigger than 65", "#$%^&*()"  
+* **Boolean:** is a data type that represents one of two values: `true` or `false`. Booleans are used to answer yes/no questions. Example: ` 4 > 8 //this is true because 4 is less than 8`
 
 3. How would you log the string `"Hello World!"` to the console?
-`consol.log("Hello World!")` 
+* `consol.log("Hello World!")` 
 
 4. What is/are the character(s) you would use to indicate comments in a JavaScript file? What is the purpose of a code comment?
 
