@@ -1,5 +1,5 @@
 /*
-In the exercises below, write your own code where indicated
+In the exercises below, write your own  code where indicated
 to achieve the desired result.
 
 Each section has 2 examples that are already completed. Your task is to complete

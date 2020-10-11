@@ -6,7 +6,7 @@
 
 * The other main point that really stood out was teaching others as a way to solidify your own knowledge. I've mentored and taught coworkers before and it is a really good way to identify gaps in your knowledge. It's also been a great chance to go back through and update your knowledge base and review the newest techniques.
 
-* I already really enjoy reading but would love to change up my reading list to include some more coding specific books.  
+* I really enjoy reading but would love to change up my reading list to include some more coding specific books.  
 
 * I need to remind myself to take breaks fairly often. I will start setting an alarm to remind myself to get up and move around for a few minutes.
 
