@@ -41,7 +41,7 @@ accountBalance = floats
 
 7. In your own words, explain what concatenation is.
 
-A concatenation is a way to join together variables in a string or multiple strings. Uses '+'
+A concatenation is a way to join together variables in a string or multiple strings. Uses '+'.
 
 8. Think of a site or app you use frequently. Where do you think the developers used concatention?
 
