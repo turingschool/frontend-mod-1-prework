@@ -17,8 +17,8 @@
 4. What is/are the character(s) you would use to indicate comments in a JavaScript file? What is the purpose of a code comment?
 ``` 
 
-// <-- two backslashes with text after indicate a code comment. code comments are helpful to specify elements in our code so that other 
-//developers can understand what we have written. 
+// <-- two backslashes with text after indicate a code comment. code comments are helpful to specify elements in our 
+// code so that other developers can understand what we have written. 
 
 /* using one backslash and an asterisk at the beginning and the end of your line of code is another way to code comment */
 
