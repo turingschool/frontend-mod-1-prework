@@ -15,7 +15,12 @@
 * `consol.log("Hello World!")` 
 
 4. What is/are the character(s) you would use to indicate comments in a JavaScript file? What is the purpose of a code comment?
+``` // <-- two backslashes with text after indicate a code comment. code comments are helpful to specify elements in our code so that other developers can understand what we have written. 
+/* using one backslash and an asterisk at the beginning and the end of your line of code is another way to code comment */
 
+// code comments are not only used to clarify our work for other coders, but they are also used to 'comment out' or deactivate code we don't want to run. 
+
+```
 
 5. In your own words, what is a variable? How would you explain it to a 5 year old?
 
