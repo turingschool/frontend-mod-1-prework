@@ -17,7 +17,7 @@ console.log("The " + team + " are " + name + "'s favorite Quidditch team");
 
 // YOU DO: Read the next few lines of code...
 var numberOfCreatures = 7;
-var creatures = "unicorns";
+var creatures         = "unicorns";
 
 console.log("My zoo has " + numberOfCreatures + " " + creatures + "!")
 
@@ -30,7 +30,7 @@ console.log("My zoo has " + numberOfCreatures + " " + creatures + "!")
 // YOU DO:
 // Write code that combines the variables below into a string that
 // reads "The quick red fox jumped over the lazy brown dog":
-var speedy = "quick red fox";
+var speedy   = "quick red fox";
 var slowPoke = "lazy brown dog";
 
 console.log("The " + speedy + " jumped over the " + slowPoke);
@@ -42,7 +42,7 @@ console.log("The " + speedy + " jumped over the " + slowPoke);
 // Note that we are omitting the var keyword below, because we are re-assigning the variables
 
 slowPoke = "tortoise";
-speedy = "hare";
+speedy   = "hare";
 
 console.log("In a predictable result, the " + slowPoke + " beat the " + speedy + "!");
 

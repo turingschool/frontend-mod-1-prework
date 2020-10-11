@@ -60,7 +60,7 @@ console.log(firstName, isHungry, numberOfPets);
 
 // YOU DO:
 // Using the variables below, log the total number of snacks to the console:
-var healthySnacks = 6;
+var healthySnacks  = 6;
 var junkFoodSnacks = 8;
 
 console.log(healthySnacks + junkFoodSnacks);
