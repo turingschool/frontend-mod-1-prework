@@ -50,10 +50,10 @@ console.log("In a predictable result, the " + slowPoke + " beat the " + speedy +
 // Declare three variables, name/content/data type of your choice. Think carefully about what
 // you name the variables. Remember, the goal is to be concise but descriptive (it's a hard balance!)
 // Then, log out ONE sentence that incorporates all THREE variables.
-var passenger    = "Grace"
-var airport      = "PHX"
-var date         = "October 19th"
-var flightNumber = 1122
+var passenger    = "Grace";
+var airport      = "PHX";
+var date         = "October 19th";
+var flightNumber = 1122; 
 
 console.log(passenger + " will be traveling on flight number " + flightNumber + " from " + airport + " on " + date + ".");
 
