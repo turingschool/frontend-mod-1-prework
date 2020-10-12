@@ -2,9 +2,9 @@
 
 1. How did the SuperLearner Article resonate with you? What from this list do you already do? Want to start doing or do more of? Is there anything not on this list, that you would add to it?
 I would say my top three are:
-  1. Teach others what the need to know
-  2. Adopt a growth mindset
-  3. Approach learning as a process
+  * Teach others what the need to know
+  * Adopt a growth mindset
+  * Approach learning as a process
 
 I would like to include more reading into my lifestyle and remember to take breaks more often.
 
