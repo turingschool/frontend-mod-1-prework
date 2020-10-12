@@ -63,4 +63,4 @@ console.log(passenger + " will be traveling on flight number " + flightNumber + 
 //-------------------
 
 // Did you run this file in your terminal to make sure everything printed out to the console
-  // as you would expect? You should be doing this by now, and getting into the habit of it.
+// as you would expect? You should be doing this by now, and getting into the habit of it.
