@@ -38,16 +38,24 @@ if (bearChoice === 1) {
 Questions
 
 1. In English, using technical vocabulary, describe what is happening between lines 14 and 18.
-
+Lines 14-18 contain an if... else statement that checks the value of doorChoice.  If doorChoice is strictly equal to 1, then
+bearClothing will have a value of "hat"; if not, bearClothing will have a value of "scarf".
 2. What variable has a new value assigned to it after the first if statement executes?
-
+bearClothing will have a new value after the first if statement, either "hat" or "scarf" based on the truth value of the test
+condition.
 3. If you changed the variable doorChoice to equal 3, what would the bearClothing value be?
-
+If doorChoice has a value of 3, bearClothing would have a value of "scarf".
 4. In English, using technical vocabulary, describe what is happening between lines lines 27 and 35.
-
+Lines 27-35 contain an else...if statement that can display one of four messages based on the truth value of the test condition checking to
+see if bearChoice has a strict value of 1.  If true, the first message will run; if false, the script will check the next condition and will
+continue doing so until a condition has a true value or the default action is reached.
 5. If you changed the variable bearChoice to equal 3, what will be the final outcome be?
-
+If bearChoice has a value of 3, the message "You run as fast as you can into the next room. It's full of snakes!" will be loggged to
+the console.
 6. If you changed the variable doorChoice to equal 1, and the variable bearChoice to equal 2, what will be the final outcome be?
+If doorChoice has a value of 1 and bearChoice has a value of 2, the message "You tell the bear the scarf is too small and it starts to cry!"
+will be logged to the console.
 
 7. What is your favorite ending?
+My favorite ending has the bear showing the hero the secret passage out.  I'm a sucker for a good face turn.
 */
