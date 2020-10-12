@@ -22,13 +22,13 @@
 
 /* using one backslash and an asterisk at the beginning and the end of your line of code is another way to code comment */
 
-// code comments are not only used to clarify our work for other coders, but they are also used to 'comment out' or
+// code comments are not only used to clarify our work for other developers, but they are also used to 'comment out' or
 //deactivate code we don't want to run.
 
 ```
 
 5. In your own words, what is a variable? How would you explain it to a 5 year old?
-* A variable is a word(s) that are used to represent data or information. Variables make it easier to refer to information via some kind of label. For example: if we used the word "workout" as a variable then you could tell someone you did a workout every day this week. The type of workout you did might have changed every day (maybe you hiked or lifted weights or went on a run), but regardless of your type of workout you can easily tell someone you completed on workout every day this week.
+* A variable is a word(s) that are used to represent data or information. Variables make it easier to refer to information via some kind of label. For example: if we used the word "workout" as a variable then you could tell someone you did a workout every day this week. The type of workout you did might have changed every day (maybe you hiked or lifted weights or went on a run), but regardless of your type of workout you can easily tell someone you completed one workout every day this week.
 
 6. Think of a site or app you use frequently. What are three variables that are probably used? Which data type would each of those variables probably hold?
  - **Instagram:**
@@ -37,7 +37,11 @@
 3. activeAccount - "boolean"
 
 7. In your own words, explain what concatenation is.
+* concatenation is when you join two or more data types together using `+` and it returns a new string.
 
-8. Think of a site or app you use frequently. Where do you think the developers used concatention?
+8. Think of a site or app you use frequently. Where do you think the developers used concatenation?
+- **Instagram:**
+* I think developers use concatenation when notifying users of a new follow request on their account. (requester + " has requested to follow you.") -> "janedoe22 has requested to follow you."
 
 9. What questions do you still have about the work we've done so far? (not having a question is not an option)
+* Are there appropriate times to be using either one of the different types of comment codes? ``//`` and ``/* */`` Or are they interchangeable and we should just pick which we like better?
