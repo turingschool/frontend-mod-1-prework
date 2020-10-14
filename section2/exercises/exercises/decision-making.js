@@ -39,15 +39,36 @@ Questions
 
 1. In English, using technical vocabulary, describe what is happening between lines 14 and 18.
 
+The code is checking to see if the value of doorChoice is exactly equal to 1.
+If so, the value of bearClothing will be assigned to "hat".
+Otherwise, if any other value is found in doorChoice, bearClothing will be assigned to "scarf".
+
 2. What variable has a new value assigned to it after the first if statement executes?
+
+bearClothing is assigned 'hat' after the first if statement executes
 
 3. If you changed the variable doorChoice to equal 3, what would the bearClothing value be?
 
+If doorChoice is any number other than 1, bearClothing has a value of unassigned...how scandalous!
+
 4. In English, using technical vocabulary, describe what is happening between lines lines 27 and 35.
+
+The code is checking if the value of bearChoice is exactly equal to 1.
+If so, it will log the contactinated 1st ending to the console.
+If the value is exactly equal to 2, it will log the contactinated 2nd ending to the console.
+If the value is exactly equal to 3, it will log the 3rd ending to the console.
+Otherwise, it will log the 4th ending to the console.
 
 5. If you changed the variable bearChoice to equal 3, what will be the final outcome be?
 
+"You run as fast as you can into the next room. It's full of snakes!"
+
 6. If you changed the variable doorChoice to equal 1, and the variable bearChoice to equal 2, what will be the final outcome be?
 
+"You offer the bear your scarf and the bear shows you a secret passage out!"
+
 7. What is your favorite ending?
+
+"You stay with the bear and become it's best friend!" Bears are my spirit animal.
+
 */
