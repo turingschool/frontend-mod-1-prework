@@ -22,7 +22,10 @@ var creatures = "unicorns";
 console.log("My zoo has " + numberOfCreatures + " " + creatures + "!")
 
 // YOU DO: What data type will be logged to the console as a result of line 22? Explain.
-// Your answer and explanation here: 
+/* Your answer and explanation here: The data type that will be logged to the console will
+be a string that reads 'My zoo has 7 unicorns!'. The reason for this is JavaScripit converts
+the number datatype (numberOfCreatures) into a string so it can combine the two data types
+together. This is called type coercion. */
 
 
 // YOU DO:
@@ -30,6 +33,7 @@ console.log("My zoo has " + numberOfCreatures + " " + creatures + "!")
 // reads "The quick red fox jumped over the lazy brown dog":
 var speedy = "quick red fox";
 var slowPoke = "lazy brown dog";
+console.log("The " + speedy + " jumped over the " + slowPoke);
 
 
 // YOU DO:
@@ -39,17 +43,22 @@ var slowPoke = "lazy brown dog";
 
 slowPoke = "tortoise";
 speedy = "hare";
+console.log("In a predictable result, the " + slowPoke + " beat the " + speedy + "!");
 
 
 // YOU DO:
-// Declare three variables, name/content/data type of your choice. Think carefully about what 
+// Declare three variables, name/content/data type of your choice. Think carefully about what
   // you name the variables. Remember, the goal is to be concise but descriptive (it's a hard balance!)
   // Then, log out ONE sentence that incorporates all THREE variables.
-
+var firstName = "Alex";
+var age = 29;
+var currentState = "Wyoming";
+console.log("My name is " + firstName + " and I am " + age + " years old, and I live in " + currentState + "!");
 
 //-------------------
 // FINAL CHECK
 //-------------------
 
-// Did you run this file in your terminal to make sure everything printed out to the console 
+// Did you run this file in your terminal to make sure everything printed out to the console
+//Yes, everything printed out correctly!
   // as you would expect? You should be doing this by now, and getting into the habit of it.
