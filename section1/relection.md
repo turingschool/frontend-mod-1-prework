@@ -2,7 +2,7 @@
 
 1. How did the SuperLearner Article resonate with you? What from this list do you already do? Want to start doing or do more of? Is there anything not on this list, that you would add to it?
 
-The most resonant part of this article for me was habit number three: adopting a growth mindset.  I, like many others, at one time or another may have limited myself unknowingly by saying "I can't do that" or "I'm not that kind of person".  People are born in a fixed fashion, but are rather capable of growing, improving, and becoming the people they hope to become through methodical practice.  
+The most resonant part of this article for me was habit number three: adopting a growth mindset.  I, like many others, at one time or another may have limited myself unknowingly by saying "I can't do that" or "I'm not that kind of person".  People aren't born in a fixed fashion, but are rather capable of growing, improving, and becoming the people they hope to become through methodical practice.  
 
 Of the habits I already practice I have adopted the growth mindset, view learning as a process, practice healthy habits (most of the time), and take short breaks.  Through the course of this program, I aim to read more and practice teaching what I learn to others to improve my ability to process and retain new information.
 
