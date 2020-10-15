@@ -37,7 +37,7 @@ perform this evaluation
 */
 
 // YOU DO: log the result of the comparison: is numberTeachers strictly equal to stringTeachers? (use the === operator)
-console.log('Is numberTeachers strictly equal to stringTeachers?', numberTeachers === stringTeachers');
+console.log('Is numberTeachers strictly equal to stringTeachers?', numberTeachers === stringTeachers);
 // this should log: false
 
 /*
@@ -81,21 +81,29 @@ console.log('Is numberStudents less than or equal to 21?', numberStudents <= 21)
 // Make sure YOU can explain it that way!
 
 console.log(4 < 9);
-//YOU DO: Explain.
+//This comparison is asking whether 4 is less than 9. This will print true.
 
 var books = 3;
-console.logs(4 < books);
-// YOU DO: Explain.
+console.log(4 < books);
+// The first line of code (line 86) sets the variable books equal to 3.
+// In line 87 this comparison is asking whether 4 is less than the variable books.
+// Becuase the var books is equal to 3 which is less than 4 it should return false.
 
 var friends = 6;
 var siblings = 2;
 console.log(friends > siblings);
-// YOU DO: Explain.
+// The first line of code sets the variable friends equal to 6
+// The second line of code set variable siblings equal to 2
+// The comparison on the third line looks at whether the variale friends is greater than the variable siblings.
+// Because 6 is greater than 2 this will evaluate to true.
 
 var attendees = 9;
 var meals = 8;
 console.log(attendees !== meals);
-// YOU DO: Explain.
+// The first line of code sets the variable attendees equal to 9.
+// the second line of code sets the variable meals equal to 8.
+// The comparison on line three looks at whether attendees is not equal to meals.
+// Becase 8 does not equal 9 this will evaluate as true.
 
 
 //-------------------
@@ -118,18 +126,20 @@ var age = 1;
 
 // YOU DO:
 // Determine if the dog loves to play and loves treats
-
+console.log(lovesToPlay && lovesTreats)
 
 // Determine if the dog loves to play and loves the dog park
-
+console.log(lovesToPlay && lovesDogPark);
 
 // Determine if the dog loves to play or loves the dog park
-
+console.log(lovesToPlay || lovesDogPark);
 
 // Determine if the dog loves to play and is a puppy
+console.log(lovesToPlay && (age <= 1));
 
 // What did your final line of code evaluate to? Why do you think that is? Explain.
-// ANSWER:
+// ANSWER: It evaluated to true because my cut off for puppy age is less than or equal to 1.
+// Since the variable age is equal to 1 and the variable lovesToPlay is true the entire thing is true.
 
 //-------------------
 // FINAL CHECK
