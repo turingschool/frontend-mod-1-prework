@@ -59,7 +59,7 @@ It will print "You run as fast..."
 If you don't make any of the three choices, the first three conditionals will evaluate to false.
 The fourth conditional will evaluate to true and it will print "You stay with...."
 
-5. If you changed the variable bearChoice to equal 3, what will be the final outcome be?
+5. If you  changed the variable bearChoice to equal 3, what will be the final outcome be?
 If variable bearChoice is 3 it will print "You run as fast as you can into the other room. It's full of snakes!"
 
 6. If you changed the variable doorChoice to equal 1, and the variable bearChoice to equal 2, what will be the final outcome be?

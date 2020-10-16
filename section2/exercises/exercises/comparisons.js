@@ -103,7 +103,7 @@ console.log(attendees !== meals);
 // The first line of code sets the variable attendees equal to 9.
 // the second line of code sets the variable meals equal to 8.
 // The comparison on line three looks at whether attendees is not equal to meals.
-// Becase 8 does not equal 9 this will evaluate as true.
+// Becase 8 does not equal 9  this will evaluate as true.
 
 
 //-------------------

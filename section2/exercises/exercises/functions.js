@@ -73,7 +73,7 @@ dinner('pasta', 'ice cream');
 
 //-------------------
 // PART 3: Naming is Hard
-//-------------------
+//------------------ -
 
 /*
 Naming is notoriously hard in programming. It is a skill to name a variable or function concisely enough
