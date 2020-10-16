@@ -23,34 +23,48 @@ console.log(enrolledStudents);
 // YOU DO:
 // Write code below to save the string 'Harry Potter must not return to Hogwarts!'
 // log that variable to the console.
-
+var message = "Harry Potter must not return to Hogwarts!"
+console.log(message);
 
 // YOU DO:
-// Declare three variables, named `firstName`, `isHungry` and `numberOfPets`. 
+// Declare three variables, named `firstName`, `isHungry` and `numberOfPets`.
   // Store the appropriate data types in each.
 // log all three variables to the console.
+var first = "firstName" //string
+var food = "isHungry" //boolean
+var pets = "numberOfPets" //integer
+console.log(first);
+console.log(food);
+console.log(pets);
 
 // IN WORDS:
-// How did you decide to use the data type you did for each of the three variables above? 
+// How did you decide to use the data type you did for each of the three variables above?
   // Explain.
-
+//firstName is a string because it represents text of the first name
+//isHungry is a boolean because the answer would be yes or no to is hungry?
+//numberOfPets is an integer becuase it discribes a whole number. For this example it would be number of pets.
 
 // YOU DO:
-// Re-assign the values to the three variables from the previous challenge to different 
+// Re-assign the values to the three variables from the previous challenge to different
   // values (but same data type).
 // log all three variables to the console.
-
+var id = "firstName" //string
+var snack = "isHungry" //boolean
+var animals = "numberOfPets" //integer
+console.log(id);
+console.log(snack);
+console.log(animals);
 
 // YOU DO:
 // Using the variables below, log the total number of snacks to the console:
 var healthySnacks = 6;
 var junkFoodSnacks = 8;
-
+console.log(healthySnacks+junkFoodSnacks)
 
 //-------------------
 // FINAL CHECK
 //-------------------
 
-// Did you run this file in your terminal to make sure everything printed out to the console 
-  // as you would expect? If you had issues with doing so, ask in your pre-work channel for 
+// Did you run this file in your terminal to make sure everything printed out to the console
+  // as you would expect? If you had issues with doing so, ask in your pre-work channel for
   // help ASAP.
