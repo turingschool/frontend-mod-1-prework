@@ -38,16 +38,35 @@ if (bearChoice === 1) {
 Questions
 
 1. In English, using technical vocabulary, describe what is happening between lines 14 and 18.
+Lines 14 - 18 is an if else statement with the choice between two doors. The first condition is that doorChoice is exactly equal to 1.
+If that is true the bearClothing is hat. If that does not evaluate to true you move on to the next condition which woul have to evaluate to true.
+If the second condition evaluates to true then the variable bearClothing is assigned to scarf.
 
 2. What variable has a new value assigned to it after the first if statement executes?
+bearClothing
 
 3. If you changed the variable doorChoice to equal 3, what would the bearClothing value be?
+It would be scarf. Since the doorChoice is three, the first conditional statement would evaluate to false.
+The next conditional evaluate to true because the first one is false.
 
 4. In English, using technical vocabulary, describe what is happening between lines lines 27 and 35.
+In the previous lines you have three choices for what to do next.
+If you make choice #1, the first conditional will evaluate to true and it will print "You offer the bear..."
+If you make choice #2, the first conditional will evaluate to false, but the second conditional will evaluate to true
+and it will print "You tell the bear..."
+If you make choice #3, the first two conditionals will evaluate to false, but the third one will be true.
+It will print "You run as fast..."
+If you don't make any of the three choices, the first three conditionals will evaluate to false.
+The fourth conditional will evaluate to true and it will print "You stay with...."
 
 5. If you changed the variable bearChoice to equal 3, what will be the final outcome be?
+If variable bearChoice is 3 it will print "You run as fast as you can into the other room. It's full of snakes!"
 
 6. If you changed the variable doorChoice to equal 1, and the variable bearChoice to equal 2, what will be the final outcome be?
+The second conditional will evaluate to true and it will print -
+"You tell the bear the hat is too small and it starts to cry!"
 
 7. What is your favorite ending?
+You don't make a bearChoice and stay with the bear and become it's friend.
+
 */
