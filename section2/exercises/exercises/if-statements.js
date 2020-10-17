@@ -104,6 +104,15 @@ if (cupsOfFlour < 2 && hasSauce === false) {
   console.log('I can make pizza');
 }
 
+/* Redoing work to simply using one if and else:
+*/
+
+if (cupsOfFlour >= 2 && hasSauce === true) {
+  console.log('I can make pizza');
+}  else{
+    console.log('I cannot make pizza');
+  }
+
 /*
 For the last two exercises, an ideal solution probably uses a logical operator.
 Did yours? Do you know what a logical operator in JavaScript is? Google it to answer
