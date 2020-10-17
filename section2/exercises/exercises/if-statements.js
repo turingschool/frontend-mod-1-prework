@@ -12,8 +12,8 @@ Make sure to run the file with node in your command line.
 // EXAMPLE:Manipulate the variable 'weather' to see if you can print something other
   // than 'coat'.
 
-var weather = 'snowy';
-// var weather = 'icy';
+// var weather = 'snowy';
+var weather = 'icy';
 // var weather = 'rainy';
 // var weather = 'sunny';
 // While working through this example, I would toggle which variable declaration is
@@ -31,19 +31,28 @@ if (weather == 'sunny') {
   console.log('good to go!');
 }
 
-/* 
+/*
 YOU DO:
-Using the dogAge variable defined below, 
-determine if a dog is a puppy (2 or younger), 
+Using the dogAge variable defined below,
+determine if a dog is a puppy (2 or younger),
 an adult, or elderly (10 or older).
 
 Log to the console the appropriate age range
 (puppy, adult, elderly).
 */
-
-var dogAge = 3;
+console.log('Your dog is a puppy! (2 or younger)');
+console.log('Your dog is an adult!');
+console.log('Your dog is elderly! (10 or older)');
+var dogAge = 2;
 // Write your conditional here
+if (dogAge <= 2) {
+  console.log('Your dog is a puppy! (2 or younger)');
+} else if (dogAge < 10) {
+  console.log('Your dog is an adult!');
+} else {
+  console.log('Your dog is elderly! (10 or older)');
 
+}
 
 /*
 YOU DO:
@@ -62,12 +71,18 @@ When numQuarters = 2, program should log "I have enough money for a gumball"
 When numQuarters = 3, program should log "I have enough money for a gumball"
 */
 
-var numQuarters = 0;
+var numQuarters = 3;
 
 // Write your conditional here
-console.log("I have enough money for a gumball");
-console.log("I don't have enough money for a gumball");
 
+if (numQuarters < 2) {
+  console.log("I don't have enough money for a gumball");
+} else {
+  console.log("I have enough money for a gumball");
+}
+
+//console.log("I have enough money for a gumball");
+//console.log("I don't have enough money for a gumball");
 
 /*
 YOU DO:
@@ -82,16 +97,26 @@ When cupsOfFlour = 2 and hasSauce = true, your program should log "I can make pi
 When cupsOfFlour = 3 and hasSauce = true, your program should log "I can make pizza";
 */
 
-var cupsOfFlour = 1;
+var cupsOfFlour = 3;
 var hasSauce = true;
 
 // Write your conditional here
-
+if ((cupsOfFlour >= 2) && (hasSauce == true)) {
+  console.log ("I can make pizza");
+} else {
+  console.log ("I cannot make pizza");
+}
 
 /*
-For the last two exercises, an ideal solution probably uses a logical operator. 
+For the last two exercises, an ideal solution probably uses a logical operator.
 Did yours? Do you know what a logical operator in JavaScript is? Google it to answer
 for yourself!
+For the last exercise my first condition contains a logical operator: the AND logical
+operator. My second to last exercise uses a comparison operator. This is because
+logical operators allow you to compare the results of more than one comparison
+operator. The && logical operator allows you to test more than one conidtion. I
+don't see a need to use a logical operator in the second to last exercise because
+there is only one condition that must be evaluated. 
 
 If your solution doesn't use a logical operator, this is a great topic to bring up
 in your pre-work group's Slack channel!
