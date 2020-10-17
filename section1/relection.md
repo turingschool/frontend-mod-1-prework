@@ -54,7 +54,7 @@
 I HAVE ALL THE QUESTIONS!
 =========================
 
-What did I do to make it so that when i type git add i have to enter the ENTIRE path rather than just the one file or directory I want to add?
+What did I do to make it so that when i type git add i have to enter the ENTIRE path rather than just the one file or directory I want to add? Why do I have to put the file i want to add in quotes or else I get an error message? 
 
 I got errors on the homework in places my syntax was bogus.  I just played with it until it showed me what i wanted it see.
 
