@@ -18,7 +18,7 @@ Arrays in an app might be used to store a bunch of menu options. You would have 
 
 1. In your own words, explain what an Array method is.
 
-An array method is a specific set/ built-in action that does something to, or tells you something about an array, such as telling you the number of elements in the array or adding/ removing an element.
+An array method is a specific set/ built-in action that does something to, or tells you something about an array, such as telling you the number of elements in the array or adding / removing an element.
 
 1. What is the purpose of a loop? When we would use a loop in conjunction with array vs. without?
 

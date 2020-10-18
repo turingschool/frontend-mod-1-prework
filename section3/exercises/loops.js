@@ -5,7 +5,7 @@ to achieve the desired result.
 Two examples are already completed. Your task is to complete
 any remaining prompt.
 
-Make sure to run the file with node in your command line.
+Make sure to run the file with node in your command line. 
 */
 
 //-------------------

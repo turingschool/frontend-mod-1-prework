@@ -23,7 +23,7 @@ console.log(animals);
 console.log(animals[0]);
 
 // YOU DO: Write code below that will log the number of elements in array of
-// animals from above.
+// animals from above.  
 console.log(animals.length);
 
 // YOU DO: Write code that will reassign the last item in the animals

@@ -58,7 +58,7 @@ for (var i = 2; i < names.length; i++) {
 // WORD FROM THE WISE: Before you start coding, jot down, with pen and paper, what steps you
 // want to tell the program to take. Think of all the concepts you've learned so far.
 
-// Remember, stuck for 15-20 minutes? Reach out to your pre-work group on Slack.
+// Remember, stuck for 15-20 minutes? Reach out to your pre-work group on Slack.  
 
 var ages = [17, 20, 34, 18, 16, 65, 49, 10, 22, 18];
 
@@ -81,5 +81,5 @@ for (var i = 0; i < ages.length; i++) {
     console.log("A full decade")
   } else if (ages[i] === 22) {
     console.log("I'm feelin twenty two")
-  } 
+  }
 }
