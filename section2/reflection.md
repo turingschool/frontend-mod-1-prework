@@ -56,4 +56,3 @@ as opposed to just the parameter name?
 ```
 console.log(stringName);
 ```
-^^^And why will this code block not show up on the .md?
