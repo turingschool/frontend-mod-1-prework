@@ -43,7 +43,7 @@ console.log(numberOfPets);
   // Explain.
 //firstName is a string because it represents text of the first name
 //isHungry is a boolean because the answer would be yes or no to is hungry?
-//numberOfPets is an integer becuase it discribes a whole number. For this example it would be number of pets.
+//numberOfPets is an integer becuase it discribes a whole number. For this example it would be number of pets
 
 // YOU DO:
 // Re-assign the values to the three variables from the previous challenge to different
