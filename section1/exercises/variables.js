@@ -30,12 +30,13 @@ console.log(message);
 // Declare three variables, named `firstName`, `isHungry` and `numberOfPets`.
   // Store the appropriate data types in each.
 // log all three variables to the console.
-var first = "firstName" //string
-var food = "isHungry" //boolean
-var pets = "numberOfPets" //integer
-console.log(first);
-console.log(food);
-console.log(pets);
+
+var firstName = "Ron"; //string
+var isHungry = "true"; //boolean
+var numberOfPets = 3; //integer
+console.log(firstName);
+console.log(isHungry);
+console.log(numberOfPets);
 
 // IN WORDS:
 // How did you decide to use the data type you did for each of the three variables above?
@@ -48,12 +49,12 @@ console.log(pets);
 // Re-assign the values to the three variables from the previous challenge to different
   // values (but same data type).
 // log all three variables to the console.
-var id = "firstName" //string
-var snack = "isHungry" //boolean
-var animals = "numberOfPets" //integer
-console.log(id);
-console.log(snack);
-console.log(animals);
+var firstName = "Sierra"; //string
+var isHungry = "false"; //boolean
+var numberOfPets = 4; //integer
+console.log(firstName);
+console.log(isHungry);
+console.log(numberOfPets);
 
 // YOU DO:
 // Using the variables below, log the total number of snacks to the console:

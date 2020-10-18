@@ -31,10 +31,10 @@ if (weather == 'sunny') {
   console.log('good to go!');
 }
 
-/* 
+/*
 YOU DO:
-Using the dogAge variable defined below, 
-determine if a dog is a puppy (2 or younger), 
+Using the dogAge variable defined below,
+determine if a dog is a puppy (2 or younger),
 an adult, or elderly (10 or older).
 
 Log to the console the appropriate age range
@@ -42,8 +42,17 @@ Log to the console the appropriate age range
 */
 
 var dogAge = 3;
-// Write your conditional here
+// var dogAge = "puppy";
+// var dogAge = "aldult";
+// var dogAge = "eldery";
 
+if (dogAge <= 2) {
+  console.log('puppy');
+} else if (dogAge <= 9) {
+  console.log('aldult');
+} else if (dogAge >= 10) {
+  console.log('eldery');
+}
 
 /*
 YOU DO:
@@ -62,13 +71,18 @@ When numQuarters = 2, program should log "I have enough money for a gumball"
 When numQuarters = 3, program should log "I have enough money for a gumball"
 */
 
-var numQuarters = 0;
+var numQuarters = 2;
 
-// Write your conditional here
+// var numQuarters = 0
+// var numQuarters = 1
+// var numQuarters = 2
+// var numQuarters = 3
+
+if (numQuarters > 1){
 console.log("I have enough money for a gumball");
+} else{
 console.log("I don't have enough money for a gumball");
-
-
+}
 /*
 YOU DO:
 Using the variables defined below, determine if you have the
@@ -85,13 +99,29 @@ When cupsOfFlour = 3 and hasSauce = true, your program should log "I can make pi
 var cupsOfFlour = 1;
 var hasSauce = true;
 
-// Write your conditional here
+// var cupsOfFlour = 1
+// var cupsOfFlour = 2
+// var cupsOfFlour = 3
+// var hasSauce = false
+// var hasSauce = true
+
+if (cupsOfFlour < 2 && hasSauce === false){
+  console.log("I cannot make pizza");
+} else if (cupsOfFlour < 2 && hasSauce) {
+  console.log("I cannot make pizza");
+} else if (cupsOfFlour >= 2 && hasSauce === false) {
+  console.log("I cannot make pizza");
+} else {
+  console.log("I can make pizza")
+}
 
 
 /*
-For the last two exercises, an ideal solution probably uses a logical operator. 
+For the last two exercises, an ideal solution probably uses a logical operator.
 Did yours? Do you know what a logical operator in JavaScript is? Google it to answer
 for yourself!
+< Yes, my last exercise used one. I have a better understanding of logical operators now after researching them more on Google. According to Google "There are three logical operators in JavaScript: || (OR), && (AND), ! (NOT)"
+< I see myself needing more practice with this type of process, but I'm starting to understand it better.
 
 If your solution doesn't use a logical operator, this is a great topic to bring up
 in your pre-work group's Slack channel!
