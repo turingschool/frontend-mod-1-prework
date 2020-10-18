@@ -31,19 +31,27 @@ if (weather == 'sunny') {
   console.log('good to go!');
 }
 
-/* 
+/*
 YOU DO:
-Using the dogAge variable defined below, 
-determine if a dog is a puppy (2 or younger), 
+Using the dogAge variable defined below,
+determine if a dog is a puppy (2 or younger),
 an adult, or elderly (10 or older).
 
 Log to the console the appropriate age range
 (puppy, adult, elderly).
 */
 
-var dogAge = 3;
+var dogAge = 10;
+
 // Write your conditional here
 
+if (dogAge <= 2) {
+  console.log("The dog is a puppy!");
+} else if (dogAge >= 10) {
+  console.log("The dog is elderly");
+} else {
+  console.log("The dog is an adult");
+}
 
 /*
 YOU DO:
@@ -62,11 +70,14 @@ When numQuarters = 2, program should log "I have enough money for a gumball"
 When numQuarters = 3, program should log "I have enough money for a gumball"
 */
 
-var numQuarters = 0;
+var numQuarters = 2;
 
 // Write your conditional here
-console.log("I have enough money for a gumball");
-console.log("I don't have enough money for a gumball");
+if (numQuarters >= 2) {
+  console.log("I have enough money for a gumball");
+} else {
+  console.log("I don't have enough money for a gumball");
+}
 
 
 /*
@@ -82,16 +93,32 @@ When cupsOfFlour = 2 and hasSauce = true, your program should log "I can make pi
 When cupsOfFlour = 3 and hasSauce = true, your program should log "I can make pizza";
 */
 
-var cupsOfFlour = 1;
-var hasSauce = true;
+var cupsOfFlour = 3;
+var hasSauce = false;
 
 // Write your conditional here
 
+if (cupsOfFlour < 2 || hasSauce == false) {
+  console.log("I cannot make a pizza");
+} else {
+  console.log("I can make a pizza");
+}
+
 
 /*
-For the last two exercises, an ideal solution probably uses a logical operator. 
+For the last two exercises, an ideal solution probably uses a logical operator.
 Did yours? Do you know what a logical operator in JavaScript is? Google it to answer
 for yourself!
+
+When I read the question I knew immediately that the most effecient way to Write
+this solution with minimal code would be to utilize a logical operator. Logical
+operators like &&, || and ! are used to determine an output based on 2 or more
+variables or values. In this case, two conditions must be satisfied in order to
+achieve the "I can make a pizza" output: cupsOfFlour must be greater than or
+equal to 2 AND hasSauce must be true. I played around with the theory myself before
+Googling "javascript if statements 2 conditions" The code above keeps things simple:
+If cupsOfFlour is less than two, OR if hasSauce is false, a pizza cannot be made.
+In all other circumstances, a pizza can be made.
 
 If your solution doesn't use a logical operator, this is a great topic to bring up
 in your pre-work group's Slack channel!
