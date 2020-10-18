@@ -54,6 +54,7 @@ I have used both ways successfuly but when logging a string inside a function wh
 ```console.log(`${stringName}'); ```
 as opposed to just the parameter name?
 
-```console.log(stringName);
 ```
-^^^And why will this code block not show up on the .md without this text afterward?
+console.log(stringName);
+```
+^^^And why will this code block not show up on the .md?
