@@ -53,6 +53,7 @@ Only this:
 I have used both ways successfuly but when logging a string inside a function when would it be beneficial to write
 ```console.log(`${stringName}'); ```
 as opposed to just the parameter name?
+
 ```console.log(stringName);
 ```
 
