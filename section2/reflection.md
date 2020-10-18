@@ -12,8 +12,7 @@ Why in the javaScript book on page 93 is it said that the difference between par
 I have used both ways successfuly but when logging a string inside a function when would it be beneficial to write
 ```console.log(`${stringName}'); ```
 as opposed to just the parameter name?
-```console.log(stringName);
-```
+```console.log(stringName);```
 
 Does Concatenation loosely refer to any string variables being called upon in a command? I had thought that thet needed to be joined into one string output.
 
