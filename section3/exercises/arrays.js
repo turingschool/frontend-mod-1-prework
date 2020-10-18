@@ -24,43 +24,54 @@ console.log(animals[0]);
 
 // YOU DO: Write code below that will log the number of elements in array of
 // animals from above.
-
+console.log(animals.length);
 
 // YOU DO: Write code that will reassign the last item in the animals
 // array to "Gorilla"
-
+animals.push("Gorilla");
+console.log(animals);
 
 // YOU DO: Write code that will add a new animal (type of your choice) to position 3.
-
+animals.splice(3, 0, "Naked Mole Rat");
+// 3- the number index we are adding  0- the number of elements removed after that index
+// number.  The third position, in this case a string, is what we are adding to the array.
+console.log(animals);
 
 // YOU DO: Write code that will log the String "Elephant" in the animals array
-
+console.log(animals[2]);
 
 //-------------------
 // PART 2: Foods: Array Methods
 //-------------------
 
 // YOU DO: Declare a variable that will store an an array of at least 4 foods (strings)
-
+var tastyFood = ['Ramen', 'Pizza', 'Tacos', 'Jalepeno Poppers'];
 
 // YOU DO: Write code below that will log the number of elements in the array of
 // foods from above.
-
+console.log(tastyFood.length);
 
 // YOU DO: Write code below that uses a method to add "broccoli" to the foods array and
 // log the changed array to verify "broccoli" has been added
+tastyFood.push('Broccoli');
+console.log(tastyFood);
 
 
 // YOU DO: Write code below that removes the last item of food from the foods array and
 // log the changed array to verify that item has been removed
+tastyFood.pop();
+console.log(tastyFood);
 
 
-// YOU DO: Write code to add 3 new foods to the array. 
+// YOU DO: Write code to add 3 new foods to the array.
   // There are several ways to do this - choose whichever you'd like!
 // Then, log the changed array to verify the new items have been added
-
+tastyFood.unshift('Egg plant parmesan', 'Bruschetta', 'Manchego cheese');
+// .unshift adds elements to the beginning of an array. use .push to add to the end of an array.
+console.log(tastyFood);
 // YOU DO: Remove the food that is in index position 0.
-
+tastyFood.shift();
+console.log(tastyFood);
 //-------------------
 // PART 3: Where are Arrays used?
 //-------------------
@@ -79,12 +90,12 @@ The post itself likely has more complex data, but here's one way we can think ab
 var posts = ["image at beach", "holiday party", "adorable puppy", "video of cute baby"];
 
 // YOU DO: Think of a web application you commonly use. Where do you see LISTS utilized, where arrays
-// may be storing data? Come up with 3 examples - they could be from different web applications or 
+// may be storing data? Come up with 3 examples - they could be from different web applications or
 // all from the same one.
 
-// 1:
-// 2:
-// 3:
+// 1: Amazon - an array of items in shopping cart ['keyboard', 'headphones', 'dog food']
+// 2: Banking - transactions ["gas purchase", "Dinner you overpaid for", "Amazon purchase"]
+// 3: Netflix - My list ["Uncut Gems", "13th", "Ace Ventura Pet Detective", "Wild Wild Country"]
 
 
 //-------------------
@@ -96,7 +107,7 @@ YOU DO:
 Using the variables defined below, write a program that will tell a user if they
 will be able to call an Uber.
 
-The user can call an uber if they have 15% battery remaining, or more. In this case, it doesn't matter 
+The user can call an uber if they have 15% battery remaining, or more. In this case, it doesn't matter
 if the user has a charger at all, or what type.
 The can call an uber if they have a charger and it is a car charger.
 
@@ -106,7 +117,22 @@ var hasCharger = true;
 var chargerType = "car";
 
 // Write your conditional here
-
+/* if variable percentBatteryLeft is greater than or equal to 15 is true console will log "You can
+an Uber." if false we move to the next else if statement*/
+if (percentBatteryLeft >= 15) {
+  console.log("You can call an Uber.");
+}
+/* If variable hasCharger is strictly equal to true AND variable chargerType is strictly equal to "car"
+(case sensitive) the console will log "You can charge your phone in my carr and call an Uber."
+if the value of either variable is false then computer will default to the else code*/
+else if ((hasCharger === true) && (chargerType === "car")) {
+  console.log("You can charge your phone in my car and call an Uber.");
+}
+/* If every above statement is false then computer defaults to the else code. Console will log "Sorry,
+you have to walk home."*/
+else {
+  console.log("Sorry, you have to walk home.");
+}
 
 // YOU DO - ANNOTATE: Above each line of your code for this if statement, create a comment.
 // That comment should describe, in your own words, and as technically precise as possible,
