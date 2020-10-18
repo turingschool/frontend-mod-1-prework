@@ -34,6 +34,7 @@ if (bearChoice === 1) {
   console.log("You stay with the bear and become it's best friend!");
 }
 
+
 /*
 Questions
 

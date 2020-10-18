@@ -46,7 +46,7 @@ console.log("Is numberTeachers strictly equal to stringTeachers?", numberTeacher
 /*
 Note: the strictly equal to operator compares the value of the variable in addition to the type of the variable.
 since the numberTeachers is an integer value and the stringTeachers is a string value, although they are both equal to 10,
-the comparison still evaluates to false.
+the comparison still evaluates to false
 
 In JavaScript, it is a best practice to use the strict comparison. It is said that, anytime a developer
 thinks they _need_ to use the `==` loose comparison, they are doing something they shouldn't be. To help
