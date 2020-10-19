@@ -23,43 +23,50 @@ console.log(animals);
 console.log(animals[0]);
 
 // YOU DO: Write code below that will log the number of elements in array of
-// animals from above.
-
+// animals from above. ***the rest of part 1 was was coded assuming they do not build on one another***
+console.log(animals.length);
 
 // YOU DO: Write code that will reassign the last item in the animals
 // array to "Gorilla"
-
+animals.splice(2, 1, "Gorilla");
 
 // YOU DO: Write code that will add a new animal (type of your choice) to position 3.
+animals.push("Liger");
 
 
 // YOU DO: Write code that will log the String "Elephant" in the animals array
-
+console.log(animals[2]);
 
 //-------------------
 // PART 2: Foods: Array Methods
 //-------------------
 
 // YOU DO: Declare a variable that will store an an array of at least 4 foods (strings)
-
+var foods = ["steak", "chicken", "tofu", "fish"];
 
 // YOU DO: Write code below that will log the number of elements in the array of
 // foods from above.
-
+console.log(foods.length);
 
 // YOU DO: Write code below that uses a method to add "broccoli" to the foods array and
 // log the changed array to verify "broccoli" has been added
-
+foods.push("broccoli");
+console.log(foods);
 
 // YOU DO: Write code below that removes the last item of food from the foods array and
 // log the changed array to verify that item has been removed
+foods.pop();
+console.log(foods);
 
-
-// YOU DO: Write code to add 3 new foods to the array. 
-  // There are several ways to do this - choose whichever you'd like!
+// YOU DO: Write code to add 3 new foods to the array.
+// There are several ways to do this - choose whichever you'd like!
 // Then, log the changed array to verify the new items have been added
+foods.push("rice", "corn", "bread");
+console.log(foods);
+
 
 // YOU DO: Remove the food that is in index position 0.
+foods.shift();
 
 //-------------------
 // PART 3: Where are Arrays used?
@@ -79,12 +86,12 @@ The post itself likely has more complex data, but here's one way we can think ab
 var posts = ["image at beach", "holiday party", "adorable puppy", "video of cute baby"];
 
 // YOU DO: Think of a web application you commonly use. Where do you see LISTS utilized, where arrays
-// may be storing data? Come up with 3 examples - they could be from different web applications or 
+// may be storing data? Come up with 3 examples - they could be from different web applications or
 // all from the same one.
 
-// 1:
-// 2:
-// 3:
+// 1: CNN uses lists of article types. Example: US, World, Politics, etc
+// 2: Stackoverflow uses lists of answers to questions
+// 3: YouTube uses lists of videos by category
 
 
 //-------------------
@@ -96,9 +103,9 @@ YOU DO:
 Using the variables defined below, write a program that will tell a user if they
 will be able to call an Uber.
 
-The user can call an uber if they have 15% battery remaining, or more. In this case, it doesn't matter 
+The user can call an uber if they have 15% battery remaining, or more. In this case, it doesn't matter
 if the user has a charger at all, or what type.
-The can call an uber if they have a charger and it is a car charger.
+They can call an uber if they have a charger and it is a car charger.
 
 */
 var percentBatteryLeft = 12;
@@ -106,6 +113,23 @@ var hasCharger = true;
 var chargerType = "car";
 
 // Write your conditional here
+
+//This conditional if statement first evaluates if the value of the variable is greater than, or equal to 5
+if (percentBatteryLeft >= 15) {
+//If the above is true, then this code block will be run. The code will print the string to the console.
+  console.log("You will be able to call the uber driver.");
+//If the first evaluation is false, the statement moves to the next else/if evaluation. This statement has two evaluations that both must be true.
+//The first variable must be true, and the second must equal the string "car".
+} else if (hasCharger === true && chargerType === "car") {
+//If both of the above evaluations pass, the code block below will be executed and the string will be printed to the console.
+  console.log("You will be able to call the uber driver.");
+//If neither of the above conditions pass, the system will execute this code block by default as there is no condition to be met.
+} else {
+//The code block is run, which prints this string to the console.
+  console.log("You will not be able to call the uber driver.");
+}
+
+
 
 
 // YOU DO - ANNOTATE: Above each line of your code for this if statement, create a comment.
