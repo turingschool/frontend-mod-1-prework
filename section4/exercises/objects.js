@@ -150,4 +150,4 @@ var emailAthletes = [
     body: 'Busy day so far...',
   }
 ];
-console.log(email);
+console.log(emailAthletes);
