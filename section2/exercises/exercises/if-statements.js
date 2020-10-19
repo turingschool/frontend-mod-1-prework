@@ -8,7 +8,6 @@ any remaining prompt.
 Make sure to run the file with node in your command line.
 */
 
-
 // EXAMPLE:Manipulate the variable 'weather' to see if you can print something other
   // than 'coat'.
 

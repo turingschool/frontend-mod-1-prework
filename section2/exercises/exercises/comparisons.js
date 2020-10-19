@@ -37,7 +37,6 @@ Note: this is an example of type coercion. Although stringTeachers is a string a
 this statement still evaluated to true. JavaScript forces the stringTeachers into an integer to
 perform this evaluation
 */
-
 // YOU DO: log the result of the comparison: is numberTeachers strictly equal to stringTeachers? (use the === operator)
 // this should log: false
 

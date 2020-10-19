@@ -22,4 +22,4 @@
 > I have been using https://repl.it/~ to practice and test out conditions before running my code in terminal. It's helpful because you can test out different conditions to see what the outcome will be. It was helpful when trying out the bear code example and the different door situation.
 
 1. What questions do you still have about `if` statements and/or functions?
-> I need more practice in setting up the structor of these statements, and making sure I have the correct flow/process. I believe this will become easier to understand with more practice and class work. 
+> I need more practice in setting up the structor of these statements, and making sure I have the correct flow/process. I believe this will become easier to understand with more practice and class work.

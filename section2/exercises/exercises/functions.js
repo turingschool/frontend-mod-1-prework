@@ -25,7 +25,7 @@ printName();
 
 
 // YOU DO: Write a function named sayHello that logs to the console "Oh, Hello!"
-// Then, call the function 2 times.
+// Then, call the function 2 times
 
 function hello() {
   console.log("Oh, Hello!")
