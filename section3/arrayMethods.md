@@ -1,7 +1,7 @@
 ## Array Methods
 
 
-###Array `pop()` method
+### Array `pop()` method
 
 The array `pop()` method removes the last item(element) from an array and
 prints or returns that item that you removed. This method will change the
@@ -16,7 +16,7 @@ console.log(numbList.pop());
 //expected return: 30
 ```
 
-###Array `push()` method
+### Array `push()` method
 
 The array `push()` method adds one or more item(s)/elements to the end of an array and
 prints the new length of the array.
@@ -33,7 +33,7 @@ console.log(numbList);
 //expected return: [10, 20, 30, 40]
 ```
 
-###Array `shift()` method
+### Array `shift()` method
 
 The array `shift()` method removes the first item(element) from an array and
 prints or returns that item that you removed. This method will change the
@@ -48,7 +48,7 @@ console.log(numbList.shift());
 //expected return: 10
 ```
 
-###Array `unshift()` method
+### Array `unshift()` method
 
 The array `unshift()` method adds one or more item(s)/elements to the beginning of an array and
 prints the new length of the array.
