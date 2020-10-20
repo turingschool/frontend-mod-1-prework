@@ -34,10 +34,11 @@ always room to grow and practice, and I shouldn't be satisfied with what I know 
 An example of where developers probably use `arrays` is in your saved contacts/address book in Gmail. Developers most
 likely use an `array` to store the list of email address that you have saved in your contacts. It's probably more
 complicated and detailed than this, but this might be how that array looks:
-///JavaScript
+
+```JavaScript
 var savedContacts = ["ahthomps1@gmail.com", "turing.io@gmail.com", "bobjohnson@yahoo.com", "hi@123.net"];
 
-///
+```
 
 4. In your own words, explain what an Array method is.
 
@@ -45,12 +46,13 @@ var savedContacts = ["ahthomps1@gmail.com", "turing.io@gmail.com", "bobjohnson@y
 An `array method` is an action that can be performed on the array. For example the `.reverse()` `method` will
 sort the defined array alphabetically (if `strings`), numerically (if `numbers`), etc..
 So if you had:
-///JavaScript
+
+```JavaScript
 var array = ["D", "A", "C", "B", "E"];
 console.log(array.sort());
 
 //returns: ['A', 'B', 'C', 'D', 'E']
-///
+```
 
 
 5. What is the purpose of a loop? When we would use a loop in conjunction with array vs. without?
@@ -82,4 +84,4 @@ no more dishes left to be cleaned.
 
 In a loop, I wonder what you do when you don't know where the end of the loop should be? For
 example if you had an array that stored a users pulse every minute, that array would be constantly
-changing. I'm not sure how you would run a loop on that array because there is no definite end. 
+changing. I'm not sure how you would run a loop on that array because there is no definite end.
