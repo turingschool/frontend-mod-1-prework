@@ -19,11 +19,8 @@ class Tweet {
   addLike() {
     this.numberOfLikes = this.numberOfLikes + 1;
   }
-
-  // couldn't figure out the comment part so that you could add a different
-  // comment to eat tweet rather than it being the same every time you use addComment. 
-  addComment() {
-    this.comments.push("yea baby");
+  addComment(newComment) {
+    this.comments.push(newComment);
   }
 }
 
@@ -44,7 +41,7 @@ var tweet2 = new Tweet(
 );
 
 tweet1.addLike();
-tweet2.addComment();
+tweet2.addComment("yea baby!");
 
 console.log(tweet1);
 console.log(tweet2);

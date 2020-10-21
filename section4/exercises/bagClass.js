@@ -8,8 +8,8 @@ class Bags {
   breakZipper() {
     this.numberOfPockets = this.numberOfPockets - 1;
   }
-  addContents() {
-    this.contents.push("chapstick");
+  addContents(newItem) {
+    this.contents.push(newItem);
   }
 }
 
@@ -35,7 +35,7 @@ var fannyPack = new Bags(
 );
 
 hikingBackpack.breakZipper();
-fannyPack.addContents(); 
+fannyPack.addContents("chapstick"); 
 
 console.log(hikingBackpack);
 console.log(laptopBackpack);
