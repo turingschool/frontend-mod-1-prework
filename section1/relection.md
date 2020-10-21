@@ -35,11 +35,10 @@ Code comments should ideally clarify the intent of the code, and/or make it easi
 Code comments have two recognized formats in JavaScript. Inline comments, denoted by //, or block comments, denoted by /* (text) */.
 
 
-`// *This is an inline comment. If in a line of code, this will prevent the remainder of the line from being interpreted.
+`// *This is an inline comment. If in a line of code, this will prevent the remainder of the line from being interpreted.`
 
-/* *This is a block comment.
-These are often used to provide descriptions.* */
-`
+`/* *This is a block comment.
+These are often used to provide descriptions.* */`
 
 *5. In your own words, what is a variable? How would you explain it to a 5 year old?*
 
