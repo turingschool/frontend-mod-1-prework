@@ -10,10 +10,10 @@ An Object is a variable that can store complex data.  You can access them by cal
 1. For each set of data, would an array or object be better to store it? Explain your choice.
 
   * List of all of the students in class - an array because complex data isn't needed for each element.
-  * List of states and their capitals -an array, although you could use an object and store a data capital inside the object I don't think it's  since state capitals don't change
-  * List of things to pack for vacation - an object since the amount of what you may want to pack can be organized or changed in a more efficient manor.  
-  * Names of all the Instagram accounts I follow- An object since those accounts may have have different data tied to the account
-  * List of student names and their cohort- An array, since these will not likely change
+  * List of states and their capitals -an array, although you could use an object and store a data for capitals inside the object I don't think it's necessary since state capitals don't change.
+  * List of things to pack for vacation - an object since the content/amount of what you want to pack may change.
+  * Names of all the Instagram accounts I follow- An object since those accounts may have have different data tied to the account.
+  * List of student names and their cohort- An array, since these will not likely change like states/capital.
   * Ingredients and amount of each ingredient to bake a cake- An object because we can store different data types and they may change each time you bake the cake.
   * All my favorite restaurants- An array, another list that wont hold a lot of data and will likely not change.  
 

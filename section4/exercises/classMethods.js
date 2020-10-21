@@ -39,7 +39,7 @@ class Burrito {
     //reassigns this protein so you can enter what you would like as the argument.
   }
   addTopping(extraTopping) {
-    extraTopping = this.toppings.push(extraTopping);
+     this.toppings.push(extraTopping);
   }
 };
 
@@ -50,8 +50,10 @@ var beanAndRiceBurrito = new Burrito("beans", "spanish rice", ["guacamole", "sou
 beanAndRiceBurrito.changeProtein("seitan");
 console.log(beanAndRiceBurrito);
 
-beefBurrito.addTopping("guacamole", "sourcream");
+beefBurrito.addTopping("guacamole");
 console.log(beefBurrito);
 
-chickenBurrito.addTopping("toothpaste", "orange juice");
+chickenBurrito.addTopping("toothpaste");
+chickenBurrito.addTopping("orangejuice");
 console.log(chickenBurrito);
+console.log(chickenBurrito.toppings);
