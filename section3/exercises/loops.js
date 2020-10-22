@@ -59,7 +59,7 @@ for (var i = 0; i < 10; i++) {
 for (var i = 10; i >= 1; i--) {
   console.log(i);
 }
-//Use -- decrement operator, changes value of i and it's conidtion 
+//Use -- decrement operator, changes value of i and it's conidtion
 
 // 10
 // 9
@@ -71,6 +71,7 @@ for (var i = 10; i >= 1; i--) {
 // 3
 // 2
 // 1
+
 
 // Not sure? Try to google some terms that seem relevant. Play around with it. Don't spend
 // more than 15 minutes without making progress. If you are at 15 minutes and haven't made

@@ -1,5 +1,6 @@
 ## Section 3 Reflection
 
+
 1. What are two points from the Growth Mindset article and/or video that either resonated with you, or were brand new to you?
 
 
