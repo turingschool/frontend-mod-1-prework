@@ -65,13 +65,13 @@ numbersSum(234,395);
 // of those two strings, for example the arguments could be ("Oscar", "Ruck") and
 // the end result might be "Oscar and Ruck are BFFS".  Then, call that function.
 
-function ridePartners (rider1, rider2) {
+function prefersRidePartner (rider1, rider2) {
   console.log(rider1 + " loves to go riding with " + rider2 + "!");
 }
 
-ridePartners("Nick", "Jeb");
-ridePartners("Loric", "Loris");
-ridePartners("Jim", "Nichele");
+prefersRidePartner("Nick", "Jeb");
+prefersRidePartner("Loric", "Loris");
+prefersRidePartner("Jim", "Nichele");
 //-------------------
 // PART 3: Naming is Hard
 //-------------------
@@ -84,7 +84,7 @@ Look at the code you wrote for the previous YOU DO🎈 - what did you name the f
 What did you name each parameter, and why?
 
 EXPLAIN:
-I named my funtion ridePartners because the message to be logged in the console had to do with people that ride together.
+I named my funtion prefersRidePartners because it is a verb and the message to be logged in the console had to do with people that ride together.
 I named the parameters rider1 and rider2 becuase the string arguments passed through these parameters identify the riders.
 
 
