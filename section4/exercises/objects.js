@@ -22,7 +22,7 @@ console.log(foods);
 // either an Array or an Object.
 
 //-------------------
-// Part 1: Zoo Animals
+// Part 1: Zoo Animals 
 //-------------------
 
 // YOU DO: Write code below that will declare a variable that stores an Object Literal of animal names and

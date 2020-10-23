@@ -17,10 +17,36 @@ Make sure to run the file with node in your command line.
 
 // Prompt 1: Dog
 
+class Dog {
+};
+
+var goldenRetriever = new Dog();
+var lab = new Dog();
+
+console.log(goldenRetriever);
+console.log(lab);
+
 // Prompt 2: Snack
+
+class Snack {
+};
+
+var apple = new Snack();
+var cookie = new Snack();
+
+console.log(apple);
+console.log(cookie);
 
 // Prompt 3: Shirt
 
+class Shirt {
+};
+
+var flannel = new Shirt();
+var teeshirt = new Shirt();
+
+console.log(flannel);
+console.log(teeshirt);
 //-------------------
 // Part 2: Properties
 //-------------------
