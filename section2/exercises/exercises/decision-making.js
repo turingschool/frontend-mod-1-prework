@@ -5,9 +5,9 @@ Below is a dynamic story that is created based on the value of three variables: 
 Spend some time changing the variables and running the file to see how the story changes.
 */
 
-var doorChoice = 1;
+var doorChoice   = 1;
 var bearClothing = "";
-var bearChoice = 1;
+var bearChoice   = 1;
 
 console.log("You enter a dark room with two doors. Do you go through #1 or #2?");
 
@@ -38,16 +38,34 @@ if (bearChoice === 1) {
 Questions
 
 1. In English, using technical vocabulary, describe what is happening between lines 14 and 18.
+The variable doorChoice is given the value of 1. doorChoice is put into the if statement syntax and
+the syntax is asking if the value of doorChoice strictly equals the number 1. Since doorChoice strictly
+equals 1 the result is true and returns the first option of bearClothing which is "hat". Had doorChoice
+not equaled 1 and returned false then we would have moved to the else otion of the syntax and our result
+would have been bearClothing "scarf".
 
 2. What variable has a new value assigned to it after the first if statement executes?
+bearClothing
 
 3. If you changed the variable doorChoice to equal 3, what would the bearClothing value be?
+The new value for bearClothing would be "scarf" since doorChoice is not strictly equal to 1 it will
+then retun the value of the else option.
 
 4. In English, using technical vocabulary, describe what is happening between lines lines 27 and 35.
+bearChoice is also given the value of 1 and is then run through the if statement. Since bearChoice strictly
+equals 1 (which is the first option in the if statement) then it will return "you offer the bear your...". If
+bearChoice did not strictly equal 1 then it would move to the next else if statement. The computer would determine
+if bearChoice strictly equaled option 2, if not it would move on to option 3, until it found an option it equaled.
 
 5. If you changed the variable bearChoice to equal 3, what will be the final outcome be?
+"You stay with the bear and become it's best friend!"
 
 6. If you changed the variable doorChoice to equal 1, and the variable bearChoice to equal 2, what will be the final outcome be?
+"You tell the bear the hat is too small and it starts to cry!"
 
 7. What is your favorite ending?
+doorChoice = 1
+bearChoice = 4
+
+I want a bear to be my best friend! 
 */

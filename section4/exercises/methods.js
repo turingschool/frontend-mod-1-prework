@@ -16,5 +16,20 @@ Make sure to run the file with node in your command line.
 var lunchOrder = {
   dish: "BLT",
   beverage: "iced tea",
-  tableNumber: 47
-}
+  tableNumber: 47,
+  prepare: function() {
+    console.log("your order is being worked on!");
+  },
+  complete: function() {
+    console.log("your order is complete!");
+  }
+};
+
+console.log(lunchOrder);
+
+console.log(lunchOrder.prepare());
+console.log(lunchOrder.complete());
+
+// for (const [key, value] of Object.entries(lunchOrder)){
+//   console.log(`${key}: ${value}`);
+// }
