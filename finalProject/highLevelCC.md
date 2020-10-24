@@ -4,22 +4,25 @@
 Add a `highLevelCC.md` file to your `finalProject` directory. In that file, write up high level notes about how you would solve this problem. When you're finished writing your detailed notes, it is optional to implement a solution in code.
 
 ## SOLUTION
-... - Step #1 Build alphabet variable/string
-... - Step #2 Build cipher string
-...   2a) Establish shift level variable
-...   2b) Determine left side of the cipher using for statement
-...   2c) Build final cipher string concat left and right side
-... - Step #3 Establish phrase to code/cipher
-... - Step #4 Build cipher word/phrase using for/if statements; manage blanks with # replacement
-S... - tep #5 Build final cipher word/phrase replacing # with blanks
-... - Step #6 Summarize results
-... - Step #7 Check a few other results (see line 37 & 38 for phrase test)
-... - Step #8 Check results with different left shift figures (note right shift does not work; fix or build in constraint; enter shift >= 0)
+- [x] Step #1 Build alphabet variable/string
+- [x] Step #2 Build cipher string
+- [x] Step #2a Establish shift level variable
+- [x] Step #2b Determine left side of the cipher using for statement
+- [x] Step #2c Build final cipher string concat left and right side
+- [x] Step #3 Establish phrase to code/cipher
+- [x] Step #4 Build cipher word/phrase using for/if statements; manage blanks with # replacement
+- [x] Step #5 Build final cipher word/phrase replacing # with blanks
+- [x] Step #6 Summarize results
+- [x] Step #7 Check a few other results (see line 37 & 38 for phrase test)
+- [x] Step #8 Check results with different left shift figures (note right shift does not work; fix or build in constraint; enter shift >= 0)
+
+[cipherCeasarShiftAlpha.js](https://github.com/stevecalla/frontend-mod-1-prework/blob/master/finalProject/cipherCeasarShiftAlpha.js)
 
 ## EXTENSION
-Step #9 I built a second program that reveres the alphabet then accounts of a shift 2 characters to the right.
-STEP #10 I did not clean up the code for this second version. The final results are on the last row of the output.
+- [x] Step #9 I built a second program that reveres the alphabet then accounts of a shift 2 characters to the right.
+- [x] STEP #10 I did not clean up the code for this second version. The final results are on the last row of the output.
 
+[cipherCeasarReverseAlphaShift2.js](https://github.com/stevecalla/frontend-mod-1-prework/blob/master/finalProject/cipherCeasarReverseAlphaShift2.js)
 
 ## Additional Information
 > Read the entire file before starting.
