@@ -58,11 +58,42 @@ console.log(teeshirt);
   // Create an object instance and store in variable
   // Log that variable to the console.
 
-// Prompt 1: Dog
+class Dog2 {
+  constructor() {
+    this.color = 'brown';
+    this.weight = 70;
+    this.breed = 'lab';
+  };
+}
+
+var lab = new Dog2;
+console.log(lab);
 
 // Prompt 2: Snack
 
+class Snack2 {
+  constructor() {
+    this.taste = 'sweet';
+    this.calories = 250;
+    this.ingredients = ['chocolate chips', 'sugar', 'flour', 'eggs'];
+  };
+}
+
+var cookieDough = new Snack2;
+console.log(cookieDough);
+
 // Prompt 3: Shirt
+
+class Shirt2 {
+  constructor() {
+    this.color = 'blue';
+    this.style = 'teeshirt';
+    this.material = 'cotton';
+  }
+}
+
+var blueShirt = new Shirt2;
+console.log(blueShirt);
 
 //-------------------
 // Part 3: Dynamic Properties
@@ -78,6 +109,48 @@ console.log(teeshirt);
 
 // Prompt 1: Dog
 
+class Dog3 {
+  constructor(color, weight, breed) {
+    this.color = color;
+    this.weight = weight;
+    this.breed = breed;
+  }
+}
+
+var finley = new Dog3('Black and white', 75, 'Bernedoodle');
+console.log(finley);
+
+var teddy = new Dog3('yellow', 85, 'Golden retriever')
+console.log(teddy);
+
 // Prompt 2: Snack
 
+class Snack3 {
+  constructor(taste, calories, ingredients) {
+    this.taste = taste;
+    this.calories = calories;
+    this.ingredients = ingredients;
+  }
+}
+
+var apple = new Snack3('sweet and tart', 80, 'apple');
+console.log(apple);
+
+var charcuterie = new Snack3('Savory', 300, ['cheese', 'crackers', 'salami']);
+console.log(charcuterie);
+
 // Prompt 3: Shirt
+
+class Shirt3 {
+  constructor(color, style, material) {
+    this.color = color;
+    this.style = style;
+    this.material = material;
+  }
+}
+
+var paigesBlueShirt = new Shirt3('blue', 'tank top', 'polyester');
+console.log(paigesBlueShirt);
+
+var finleysJersey = new Shirt3('Green and yellow', 'Packer\'s jersey', 'polyester and cotton blend');
+console.log(finleysJersey);

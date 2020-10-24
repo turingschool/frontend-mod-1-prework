@@ -8,7 +8,7 @@ any remaining prompt.
 Make sure to run the file with node in your command line.
 */
 
-// EXAMPLE: Write code below that will declare a vairable that stores an Object Literal
+// EXAMPLE: Write code below that will declare a vairable that stores an Object Literal 
 //  that holds grocery store inventory
 var foods = {
   apples: 23,
@@ -22,7 +22,7 @@ console.log(foods);
 // either an Array or an Object.
 
 //-------------------
-// Part 1: Zoo Animals 
+// Part 1: Zoo Animals
 //-------------------
 
 // YOU DO: Write code below that will declare a variable that stores an Object Literal of animal names and

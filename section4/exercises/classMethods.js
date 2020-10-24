@@ -24,7 +24,7 @@ Make sure to run the file with node in your command line.
 // This method should accept one argument, a String.
 // The method should add a topping to the list of toppings held in state.
 
-// Call the `addTopping` method on two burritos, then log the burritos to verify
+// Call the `addTopping` method on two burritos, then log the burritos to verify 
 // that the proteins have been changed.
 
 class Burrito {

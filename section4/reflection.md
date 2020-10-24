@@ -1,6 +1,6 @@
 ## Section 4 Reflection
 
-1. How different did your workflow feel this week, considering we asked you to follow the Pomodoro technique?
+1. How different did your workflow feel this week, considering we asked you to follow the Pomodoro technique? 
 
 It felt a little different using this technique, but it was difficult to use it in the way that it was intended. I ended up having to work through the exercises in really small parts over the week around the rest of my schedule, so I didn't have a huge block of time to sit down and try it out. In the one long block of time that I did work through, it was helpful to have a structured break and a reminder to stop. I think it will be a useful technique once I'm doing this full time.
 

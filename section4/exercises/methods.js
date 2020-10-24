@@ -11,7 +11,7 @@ Make sure to run the file with node in your command line.
   // 2. `complete` - log out a sentence to let the user know the order is complete.
 
 // Log to the console each property on the `lunchOrder` object.
-// Call each method and run the file in node to verify they are working as expected.
+// Call each method and run the file in node to verify they are working as expected. 
 
 var lunchOrder = {
   dish: "BLT",
