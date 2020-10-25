@@ -38,16 +38,25 @@ if (bearChoice === 1) {
 Questions
 
 1. In English, using technical vocabulary, describe what is happening between lines 14 and 18.
-
+```In lines 14 through 18 there are if/else statements
+to declare if variable doorChoice is strictly equal to 1 then variable bearClothing is hat
+```
 2. What variable has a new value assigned to it after the first if statement executes?
-
+```bearClothing is now hat
+```
 3. If you changed the variable doorChoice to equal 3, what would the bearClothing value be?
-
+``` The bearClothing would be assigned as scarf because if none of those statements are true then the else statement will be executed
+```
 4. In English, using technical vocabulary, describe what is happening between lines lines 27 and 35.
-
+``` Another series of if/else if statements for the outcome of this story. Line 27 is saying if bearChoice is strictly equal to 1 then print you offer the  bear your hate and it shows us a secret passage out!
+If the bearChoice value wasn't equal to one then JavaScript would bump down to the next condition until the last else condition if none of the above statements were true.
+```
 5. If you changed the variable bearChoice to equal 3, what will be the final outcome be?
-
+``` "You run as fast as you can into the next room. It's full of snakes!"
 6. If you changed the variable doorChoice to equal 1, and the variable bearChoice to equal 2, what will be the final outcome be?
-
+```"You tell the bear the hate is too small and it starts to cry!"
+```
 7. What is your favorite ending?
+``` I thought variable doorChoice to equal 1, and the variable bearChoice to equal 2 was the best ending. It would be hilarious to see a bear get offended by his hat choice  
+```
 */
