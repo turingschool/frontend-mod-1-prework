@@ -22,7 +22,8 @@ var creatures = "unicorns";
 console.log("My zoo has " + numberOfCreatures + " " + creatures + "!")
 
 // YOU DO: What data type will be logged to the console as a result of line 22? Explain.
-// Your answer and explanation here: 
+// Your answer and explanation here:
+console.log("A string. The integer 7 in numberOfCreatures will be converted to a string through type coercion so that it can be combined with the string 'creatures'.")
 
 
 // YOU DO:
@@ -30,6 +31,8 @@ console.log("My zoo has " + numberOfCreatures + " " + creatures + "!")
 // reads "The quick red fox jumped over the lazy brown dog":
 var speedy = "quick red fox";
 var slowPoke = "lazy brown dog";
+
+console.log("The " + speedy + " jumped over the " + slowPoke)
 
 
 // YOU DO:
@@ -40,16 +43,24 @@ var slowPoke = "lazy brown dog";
 slowPoke = "tortoise";
 speedy = "hare";
 
+console.log("In a predictable result, the " + slowPoke + " beat the " + speedy + "!")
+
 
 // YOU DO:
-// Declare three variables, name/content/data type of your choice. Think carefully about what 
+// Declare three variables, name/content/data type of your choice. Think carefully about what
   // you name the variables. Remember, the goal is to be concise but descriptive (it's a hard balance!)
   // Then, log out ONE sentence that incorporates all THREE variables.
+
+var holidayName = "Halloween";
+var holidayDecoration = "pumpkin";
+var holidayActivity = "stomp on leaves"
+
+console.log("For " + holidayName + ", I like to put a " + holidayDecoration + " on my shelf and then " + holidayActivity + ".")
 
 
 //-------------------
 // FINAL CHECK
 //-------------------
 
-// Did you run this file in your terminal to make sure everything printed out to the console 
+// Did you run this file in your terminal to make sure everything printed out to the console
   // as you would expect? You should be doing this by now, and getting into the habit of it.
