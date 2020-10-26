@@ -56,3 +56,5 @@ A class would be used to create new leads as new potential clients sign up for a
 1. What questions do you still have about classes and/or Objects?
 
 I think I understand the material from this section fairly well, but I definitely need to revise it before Mod1. Certainly this section was more challenging than the previous three. I was a little confused by the exercise above, where I had to decide if a data set should be represented by an object or an array. Wouldn't they all be arrays? Some are just simple string arrays, but others appear to be arrays consisting of objects. What's the difference between an object and an object literal?
+
+///
