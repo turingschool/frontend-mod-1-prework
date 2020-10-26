@@ -1,13 +1,14 @@
 ## Section 2 Reflection
 
 1. Regarding the blog posts in Part A, how do you feel about asking questions? Do you tend to ask them too soon, or wait too long, or somewhere in between?
-
-1. In this section, we removed some of the supports that you had in Section 1. We didn't give the directions for how to run a file in node, and really sent you off to learn about functions by exploring several outside resources. How did that feel? What was uncomfortable about it? How did it support your learning?
-
+I feel more confident about asking questions I would say, but thus far I haven't ventured out to ask any questions as I have found that google could answer the problems I have encountered so far. I am fully expecting to ask a couple of questions in my next mod 0 session and have no doubt that once mod 1 is beginning to start up there are going to be tons of questions that I cant find answers to on my own and I will have to improve upon asking timely questions.
+1. In this section, we removed some of the supports that you had in Section 1. We didn't give the directions for how to run a file in node, and really sent you off to learn about functions by exploring several outside resources. How did that feel? What was uncomfortable about it? How did it support your learning
+I appreciated the added independence in this section and took advantage of all the articles provided due to my lack of knowledge. I had a little trouble with the functions and figuring out the return keyword but I felt a huge sense of accomplishment after finally cracking it thanks to a short break that cleared my head and allowed me to approach my problem with a clearer head.
 1. What is a conditional statement? Give one example of a daily life conditional. Give one example of where a conditional is probably used in a web application you use.
-
+A conditional statement is when you write a block of code that can change the output based on the value its given, under one condition it will follow a specific line of code, and if the value isn't equal to that condition, it will follow another. An example of a possible conditional in a web application may be, an if/else if statement when you are signing in to a website and you have the option to continue as guest or sign in and depending on what you chose you will execute a different code block and be brought to a different interface.
 1. How do you add multiple conditions to an `if` statement? In your own words, explain how to program reads them and determines what to do.
-
+You can add multiple conditions to an if statement by using the keyword else if, rather than a simple if/else statement where if one value is true it does one thing and if it is anything else it does another, allows you to have way more opportunities than just 2 paths to go down. You can put in a bunch of else if statements to be prepared for a ton of different values and have separate code blocks being executed for each.
 1. What tools are available to you, as a developer, if you want to check that TWO conditions are met? Or, if you want to check that 1 of 2 conditions are met, before running a block of code?
-
+As a developer, you have and, or, logical operators(&&, ||) which for and makes sure that both values are true and prints true, for or, only one value has to be true and the computer will recognize it as true. If blank === true and blank === true then it is true, if blank === true or blank === false then it is still true because either or value can be true.
 1. What questions do you still have about `if` statements and/or functions?
+I am a little bit fuzzy on the return keyword still, confused about whether you need a console.log in addition to return, or the return alone will suffice when trying to retrieve a value.
