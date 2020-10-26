@@ -16,5 +16,21 @@ Make sure to run the file with node in your command line.
 var lunchOrder = {
   dish: "BLT",
   beverage: "iced tea",
-  tableNumber: 47
+  tableNumber: 47,
+  prepare: function() {
+    console.log("Your order is being prepared");
+  },
+  complete: function() {
+    console.log("Your order is ready!");
+  }
+};
+
+// I was curious how using dot notation to add a method to the object would work 
+lunchOrder.serve = function() {
+  console.log("Enjoy your meal!");
 }
+
+console.log(lunchOrder);
+lunchOrder.prepare();
+lunchOrder.complete();
+lunchOrder.serve();
