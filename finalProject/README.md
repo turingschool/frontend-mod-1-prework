@@ -6,6 +6,7 @@ Using what you have learned so far, complete the challenges below. Put any files
 
 _Note:_ These should be challenging, and require to apply most of the content covered in this pre-work. The use of google is absolutely allowed as you may need to brush up on syntax, etc. However, we strongly discourage you from googling for solution pathways to these problems - the point of these is to push you to think like the programmer you are and apply the knowledge you've built so far in slightly different ways.
 
+
 * [FizzBuzz](./fizzbuzz.md)
 * [10 Speckled Frogs](./10_speckled_frogs.md)
 * [Ceasar Cipher](./ceasar_cipher.md)
