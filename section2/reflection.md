@@ -1,13 +1,13 @@
 ## Section 2 Reflection
 
 1. Regarding the blog posts in Part A, how do you feel about asking questions? Do you tend to ask them too soon, or wait too long, or somewhere in between?
-
+I feel pretty comfortable asking questions, I know most of the time if I have a question someone else usually has that question and might be nervous to ask it, so sometimes you're not just helping yourself. I also know that answering a question is a great way to really understand what you are learning. If you are able to understand a concept enough to be able to explain it to someone to answer a question, that shows you have a good understanding of the subject. I feel I am in beteeen taking too long or too soon to answer questions. it really just depends on the question.
 1. In this section, we removed some of the supports that you had in Section 1. We didn't give the directions for how to run a file in node, and really sent you off to learn about functions by exploring several outside resources. How did that feel? What was uncomfortable about it? How did it support your learning?
-
-1. What is a conditional statement? Give one example of a daily life conditional. Give one example of where a conditional is probably used in a web application you use.
-
+I really enjoyed it. In real life you are never given exactly what you need and are often asks to use your resources to be able to figure it out on your own. It was uncomfortable at times because I am still learning the process of 'learning'. I think exercises like this really will help in the long run.
+1. What is a conditional statement? Give one example of a daily life conditional. Give one example of where a conditional is probably used in a web application you use. A conditional statement is used to tell the computer to do something based on a parameter, and if this is not met you tell it what to do instead. A daily life conditional is if it is sunny outside wear shorts, if it is not sunny then wear a coat. A web application example is if you put in your password, if correct move on, if not then show message 'Wrong Password Try Again'.
 1. How do you add multiple conditions to an `if` statement? In your own words, explain how to program reads them and determines what to do.
-
+You do it by adding `if else`. The program starts at the first `if` statement and sees if it is met. If it is not the program goes to the next if statement and repeats the process, and so on.
 1. What tools are available to you, as a developer, if you want to check that TWO conditions are met? Or, if you want to check that 1 of 2 conditions are met, before running a block of code?
-
+To check if two conditions are met you use `&&`. If you want to see if one OR another is met you use `||`.
 1. What questions do you still have about `if` statements and/or functions?
+Obviously we are just scratching the surface on what I assume is a huge part of programming. But I am still interested in learning more about the flow of how a program works. Especially how we are able to manipulate the flow to how we want it to work.
