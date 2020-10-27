@@ -14,7 +14,7 @@ for (i = 1; i < 101; i++) {
   }
 }
 
-console.log(fizzBuzz);
+console.log(fizzBuzz.join(", "));
 
 ////////// End Part 1
 
@@ -51,6 +51,6 @@ for (i = startNumber; i < (endNumber + 1); i++) {
   }
 }
 
-console.log(fizzBuzz);
+console.log(fizzBuzz.join(", "));
 
 ////////// End Challenge
