@@ -16,5 +16,18 @@ Make sure to run the file with node in your command line.
 var lunchOrder = {
   dish: "BLT",
   beverage: "iced tea",
-  tableNumber: 47
+  tableNumber: 47,
+  prepare: function () {
+    console.log("Your order is being prepared, please wait a moment");
+  },
+  complete: function () {
+    console.log("Your order is complete! Your server will be over in just a moment");
+  }
 }
+
+for (var property in lunchOrder) {
+  console.log(`${property}` + ": " + `${lunchOrder[property]}`);
+}
+
+lunchOrder.prepare();
+lunchOrder.complete();
