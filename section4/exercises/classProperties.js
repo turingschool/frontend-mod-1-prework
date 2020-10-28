@@ -16,10 +16,37 @@ Make sure to run the file with node in your command line.
   // You do not need any proerties at this time!!
 
 // Prompt 1: Dog
+class Dog {
+  constructor() {
+    this.name = "George";
+    this.age = 8;
+    this.breed = "dachshund";
+  }
+}
+var sallyDog = new Dog();
+console.log(sallyDog);
 
 // Prompt 2: Snack
+class Snack {
+  constructor(){
+    this.type = "Snickers";
+    this.dollarPrice = 2;
+    this.expirationDate = "10/26/20";
+  }
+}
+var gasStationSnack = new Snack();
+console.log(gasStationSnack);
 
 // Prompt 3: Shirt
+class Shirt {
+  constructor() {
+    this.price = 500;
+    this.season = "fall";
+    this.size = 4;
+}
+}
+var gucciShirt = new Shirt();
+console.log(gucciShirt);
 
 //-------------------
 // Part 2: Properties
@@ -33,11 +60,37 @@ Make sure to run the file with node in your command line.
   // Log that variable to the console.
 
 // Prompt 1: Dog
+class Dog {
+    constructor(name,age,type){
+      this.name = name;
+      this.age = age;
+      this.breed = type;
+    }
+}
+
+var sallyDog = new Dog ("Suzie",5,"Bichon")
+console.log(sallyDog);
 
 // Prompt 2: Snack
-
+class Snack {
+  constructor(calories,lengthInches,weightGrams) {
+    this.calories = calories;
+    this.lengthInches = lengthInches;
+    this.weightGrams = weightGrams;
+  }
+}
+var kitKat = new Snack (100,6,10);
+console.log(kitKat);
 // Prompt 3: Shirt
-
+class Shirt {
+  constructor(material,stitchCount,dollarPrice) {
+    this.matierial = material;
+    this.stitchCount = stitchCount;
+    this.dollarPrice = dollarPrice;
+  }
+}
+var favoriteShirt = new Shirt ("cotton",100,10)
+console.log(favoriteShirt);
 //-------------------
 // Part 3: Dynamic Properties
 //-------------------
@@ -51,7 +104,37 @@ Make sure to run the file with node in your command line.
   // Log those variables to the console.
 
 // Prompt 1: Dog
+class Dog {
+  constructor(length,height,weight){
+    this.length = length;
+    this.height = height;
+    this.weight = weight;
+  }
+}
+var puppySteve = new Dog (50,10,30);
+var puppyShay = new Dog (75,15,120);
+console.log(puppySteve,puppyShay);
 
 // Prompt 2: Snack
+class Snack {
+  constructor(origin,price,sugarGrams){
+    this.origin = origin;
+    this.price = price;
+    this.sugarGrams = sugarGrams;
+  }
+}
+var pocky = new Snack ("Japan",5,9);
+var trolliSourCrawlers = new Snack ("Germany",3,7);
+console.log(pocky,trolliSourCrawlers);
 
 // Prompt 3: Shirt
+class Shirt {
+  constructor(color,canButtonDown,designer){
+    this.color = color;
+    this.canButtonDown = canButtonDown;
+    this.designer = designer
+  }
+}
+var craigShirt = new Shirt ("black",false,"SmartWool");
+var melShirt = new Shirt ("white",true,"NorthFace");
+console.log(craigShirt,melShirt);
