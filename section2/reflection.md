@@ -3,9 +3,9 @@
 1. Regarding the blog posts in Part A, how do you feel about asking questions? Do you tend to ask them too soon, or wait too long, or somewhere in between?
 ```
 The first article made a great point to be stuck for 20 minutes until you ask your question. Personally, I feel
-alright about asking questions but not until after I've banged my head on it for a while (sometimes
-accidentally spend more than 20 minutes). Another point made that stuck with me was about timing. If that issue
-doesn't completely stop progress question, continue to work on other parts until it's the right time to ask.
+alright about asking questions but not until after I've banged my head on it for a while (sometimes accidentally
+spend more than 20 minutes). Another point made that stuck with me was about timing. If that issue doesn't completely
+stop progress question, continue to work on other parts until it's the right time to ask.
 ```
 
 1. In this section, we removed some of the supports that you had in Section 1. We didn't give the directions for how to run a file in node, and really sent you off to learn about functions by exploring several outside resources. How did that feel? What was uncomfortable about it? How did it support your learning?
