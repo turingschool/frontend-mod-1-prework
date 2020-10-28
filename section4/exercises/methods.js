@@ -16,5 +16,18 @@ Make sure to run the file with node in your command line.
 var lunchOrder = {
   dish: "BLT",
   beverage: "iced tea",
-  tableNumber: 47
+  tableNumber: 47,
+  prepare: function() {
+    console.log("Build sandwhich from pre-cooked toppings.")
+  },
+  complete: function() {
+    console.log("Wrap sandwhich with napkin on side.")
 }
+};
+
+lunchOrder.prepare();
+lunchOrder.complete();
+
+// Expected Return: 
+// Build sandwhich from pre-cooked toppings.
+// Wrap sandwhich with napkin on side.
