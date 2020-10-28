@@ -64,11 +64,11 @@ Log your email object to the console.
 */
 
 var emailExample = {
-  owner: "Melanie",
-  primaryInbox: 10,
-  socialInbox: 45,
-  promotionsInbox: 60,
-  densityDefault: false,
+  senderName: "Craig",
+  receiverName: "Louie",
+  ccName: "Roy",
+  bcc: "Duffles",
+  hasAttachment: false,
 };
 console.log(emailExample);
 //-------------------

@@ -17,7 +17,9 @@ class Tweet {
     this.comments = comments;
   }
 }
-var newPost = new Tweet("Jennifer","life update","10/27/20",0,0)
+var newPost = new Tweet("Jennifer","life update","10/27/20",0,0);
 console.log(newPost);
-var dayOldPost = new Tweet("Jennifer","life update","10/28/20",50,10)
+var dayOldPost = new Tweet("Jennifer","life update","10/28/20",50,10);
 console.log(dayOldPost);
+var weekOldPost = new Tweet("Jennifer","life update","11/03/20",100,10);
+console.log(weekOldPost);

@@ -17,36 +17,39 @@ Make sure to run the file with node in your command line.
 
 // Prompt 1: Dog
 class Dog {
-  constructor() {
-    this.name = "George";
-    this.age = 8;
-    this.breed = "dachshund";
+  constructor(name,age,breed) {
+    this.name = name;
+    this.age = age;
+    this.breed = breed;
   }
 }
 var sallyDog = new Dog();
-console.log(sallyDog);
+var jeffDog = new Dog();
+console.log(sallyDog, jeffDog);
 
 // Prompt 2: Snack
 class Snack {
-  constructor(){
-    this.type = "Snickers";
-    this.dollarPrice = 2;
-    this.expirationDate = "10/26/20";
+  constructor(type,dollarPrice,expirationDate){
+    this.type = type;
+    this.dollarPrice = dollarPrice;
+    this.expirationDate = expirationDate;
   }
 }
 var gasStationSnack = new Snack();
-console.log(gasStationSnack);
+var movieSnack = new Snack ();
+console.log(gasStationSnack,movieSnack);
 
 // Prompt 3: Shirt
 class Shirt {
-  constructor() {
-    this.price = 500;
-    this.season = "fall";
-    this.size = 4;
+  constructor(price,season,size) {
+    this.price = price;
+    this.season = season;
+    this.size = size;
 }
 }
 var gucciShirt = new Shirt();
-console.log(gucciShirt);
+var lvShirt = new Shirt();
+console.log(gucciShirt,lvShirt);
 
 //-------------------
 // Part 2: Properties
@@ -68,12 +71,12 @@ class Dog {
     }
 }
 
-var sallyDog = new Dog ("Suzie",5,"Bichon")
+var sallyDog = new Dog ("Suzie",5,"Bichon");
 console.log(sallyDog);
 
 // Prompt 2: Snack
 class Snack {
-  constructor(calories,lengthInches,weightGrams) {
+  constructor(calories,lengthInches,weightGrams){
     this.calories = calories;
     this.lengthInches = lengthInches;
     this.weightGrams = weightGrams;
