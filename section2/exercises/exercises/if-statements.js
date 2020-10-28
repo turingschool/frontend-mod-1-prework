@@ -72,12 +72,12 @@ var numQuarters = 0;
 
 // Write your conditional here
 
-  if (numQuarters == 0) {
+if (numQuarters == 0) {
   console.log(" I don't have enough money for a gumball");
 } else if (numQuarters >= 2) {
-console.log("I have enough money for a gumball");
+  console.log("I have enough money for a gumball");
 } else if (numQuarters <= 1) {
-console.log("I don't have enough money for a gumball");
+  console.log("I don't have enough money for a gumball");
 }
 
 /*
@@ -97,15 +97,15 @@ var cupsOfFlour = 1;
 var hasSauce = true;
 
 // Write your conditional here
- if (cupsOfFlour == 1 && hasSauce){
-   console.log("I cannot make pizza");
- } else if (cupsOfFlour == 1 && hasSauce) {
-   console.log("I cannot make pizza");
- } else if (cupsOfFlour == 2 && hasSauce) {
-   console.log("I can make pizza");
- } else if (cupsOfFlour == 3 && hasSauce){
-   console.log("I can make pizza");
- }
+if (cupsOfFlour == 1 && hasSauce){
+  console.log("I cannot make pizza");
+} else if (cupsOfFlour == 1 && hasSauce) {
+  console.log("I cannot make pizza");
+} else if (cupsOfFlour == 2 && hasSauce) {
+  console.log("I can make pizza");
+} else if (cupsOfFlour == 3 && hasSauce){
+  console.log("I can make pizza");
+}
 
 /*
 For the last two exercises, an ideal solution probably uses a logical operator.
