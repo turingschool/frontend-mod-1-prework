@@ -27,7 +27,7 @@ for (var i = 0; i < 3; i++) {
 
 
  // YOU DO: Write code below that logs to the console, the sum of 2 plus 2, 7 times:
-var rounds = 7
+var rounds = 7;
 for (var i = 0; i < (rounds); i++) {
     console.log(2+2);
 }
