@@ -8,7 +8,7 @@ for (var i = 0; i < 101; i++) {
   } else console.log(i)
 };
 
-// Code Challenge
+// Code Challenge 
 
 //Example log numbers 300 - 400
 

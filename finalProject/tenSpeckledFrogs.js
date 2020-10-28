@@ -21,4 +21,4 @@ for (var i = 25; i >= 1; i--) {
 };
 
 //Challenge: print words in stead of numbers
-//write and add in a fucntion if i === 10 write ten 
+//write and add in a fucntion if i === 10 write ten  
