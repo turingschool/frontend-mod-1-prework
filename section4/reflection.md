@@ -53,10 +53,13 @@ ability to manipulate the stored data with new values).
 
 1. In this section, we talked about an `transaction item object`. It has keys that represent different properties an bank transaction would have, and values that store the data. In a banking app, this data would eventually be displayed in the browser for the user. Think of another Object in a web application that you use frequently. What is it? What keys might be on it? What are example values?
 ```
-Amazon would display what is in your virtual cart. Keys and values would be the item type (weighted blanket) and the price of what's in your cart.
+Amazon would display what is in your virtual cart. Keys and values would be the item type (weighted blanket)
+and the price of what's in your cart.
 ```
 
 1. What questions do you still have about classes and/or Objects?
 ```
-Section 4 was by far the hardest and I think I made myself more confused with placement of the curlybrackets and semicolons. What threw me off was in the functions section where it mentioned the semicolon going after the argument and not the last curlybracket.. 
+Section 4 was by far the hardest and I think I made myself more confused with placement of the curlybrackets
+and semicolons. What threw me off was in the functions section where it mentioned the semicolon going after
+the argument and not the last curlybracket.. 
 ```
