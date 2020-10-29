@@ -1,24 +1,49 @@
-# Ceasar Cipher
+Notes on Ceasar Cipher
+I believe the first thing you would need to construct a program to do this task would
+be to determine your key or your shift variable. For example we'll use 17 as our key.
+17 shift for A would be R
+17 shift for B would be S
+17 shift for C would be T
+You would then determine the shift letter for each letter in the alphabet and set the
+code variable.
+Once you determine the variables, you would set a loop to go through the string and then create the decoded/deciphered letters. Giving you the coded output. You can then use your key
+to determine what the encoding message would be, or write a program that creates and output with the code already deciphered.
 
-> Read the entire file before starting.
+for example key is 17
+let ceaserSalad = (string){
+let cipher = {
+  A = "R"
+  B = "S"
+  C = "T"
+  D = "U"
+  E = "V"
+  F = "W"
+  G = "X"
+  H = "Y"
+  I = "Z"
+  J = "A"
+  K = "B"
+  L = "C"
+  M = "D"
+  N = "E"
+  O = "F"
+  P = "G"
+  Q = "H"
+  R = "I"
+  S = "J"
+  T = "K"
+  U = "L"
+  V = "M"
+  W = "N"
+  X = "O"
+  Y = "P"
+  Z = "Q"
+}
 
-Also known as a shift cipher, the Ceasar Cipher is one of the oldest and simplest encoding techniques.  A Ceasar Cipher works by shifting the alphabet by a set number of letters down the alphabet. For example, with a left shift of 3, 'D' would be replaced by 'A', 'E' would be replaced by 'B', and so on. See below for a full alphabet example with a left shift of 3:
+let decipher = "";
+for (let i = 0 ; i < stringlength; i++){
+  decipher += cipher[string[i]];
+}
 
-```
-plain:  ABCDEFGHIJKLMNOPQRSTUVWXYZ
-cipher: XYZABCDEFGHIJKLMNOPQRSTUVW
-```
-
-## The Prompt
-
-Write a program that will take any String, and encode it based on a provided shift value. The interaction pattern for this program might look something like this:
-
-```javascript
-encode("Hello World", 5); //should log "CZGGJ RJMGY"
-
-encode("Hi", 2); //should log "FG"
-```
-
-## Your Task
-
-Add a `highLevelCC.md` file to your `finalProject` directory. In that file, write up high level notes about how you would solve this problem. When you're finished writing your detailed notes, it is optional to implement a solution in code.
+console.log(ceaserSalad("winteriscoming"));
+console.log(ceaserSalad("thenorthremembers"));
