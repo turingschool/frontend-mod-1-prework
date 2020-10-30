@@ -34,23 +34,27 @@ class Burrito {
     this.toppings = toppings;
   }
   // ADD CODE
-  changeProtein(protein) {
-    this.protien = protein;
+  changeProtein(newProtein) {
+    this.protein.splice(0, 1, newProtein);
   }
-  addTopping() {
-    this.toppings.push = "cabbage";
+  addTopping(newTopping) {
+    this.toppings.push(newTopping);
   }
 };
 // ADD CODE
-var veggie = new Burrito("tofu", "rice", ["sour cream", "cheese", "peppers"]);
-var steak = new Burrito("steak", "beans", ["cheese", "tomato", "onions"]);
-var chicken = new Burrito("chicken", "lettuce", ["guac", "queso", "chips"]);
+var veggie = new Burrito(["tofu"], "rice", ["sour cream", "cheese", "peppers"]);
+var steak = new Burrito(["steak"], "beans", ["cheese", "tomato", "onions"]);
+var chicken = new Burrito(["chicken"], "lettuce", ["guac", "queso", "chips"]);
 
-steak.changeProtein();
-console.log(steak);
 
-veggie.addTopping();
+veggie.changeProtein("steak");
+veggie.addTopping("cabbage");
 console.log(veggie);
 
-chicken.addTopping();
+steak.changeProtein("yardbird");
+steak.addTopping("potatos");
+console.log(steak);
+
+chicken.changeProtein("satan");
+chicken.addTopping("peppers");
 console.log(chicken);
