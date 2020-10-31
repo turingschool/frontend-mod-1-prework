@@ -15,11 +15,44 @@ Make sure to run the file with node in your command line.
   // Log each variable to the console.
   // You do not need any proerties at this time!!
 
-// Prompt 1: Dog
+// Commenting out this section because otherwise errors in Parts 2 and 3 below with classes already being declared
 
-// Prompt 2: Snack
+// // Prompt 1: Dog
+// class Dog {
+//
+// }
+//
+// var labradorRetriever = new Dog();
+// var dalmatian = new Dog();
+//
+// console.log(fido);
+// console.log(fluffy);
+//
+//
+//
+// // Prompt 2: Snack
+// class Snack {
+//
+// }
+//
+// var chip = new Snack();
+// var pretzel = new Snack();
+//
+// console.log(chip);
+// console.log(pretzel);
+//
+//
+// // Prompt 3: Shirt
+// class Shirt {
+//
+// }
+//
+// var hoodie = new Shirt();
+// var sweater = new Shirt();
+//
+// console.log(hoodie);
+// console.log(sweater);
 
-// Prompt 3: Shirt
 
 //-------------------
 // Part 2: Properties
@@ -32,11 +65,44 @@ Make sure to run the file with node in your command line.
   // Create an object instance and store in variable
   // Log that variable to the console.
 
-// Prompt 1: Dog
+// Commenting out this section because otherwise errors in Parts 2 and 3 below with classes already being declared
 
-// Prompt 2: Snack
+// // Prompt 1: Dog
+// class Dog {
+//   constructor() {
+//     this.collarColor = "blue";
+//     this.tailLength = "medium";
+//     this.toys = ["kong", "bear", "rope"];
+//   }
+// }
+//
+// var fido = new Dog();
+// console.log(fido);
+//
+// // Prompt 2: Snack
+// class Snack {
+//   constructor() {
+//     this.type = "salty";
+//     this.size = "small";
+//     this.priceInUSDollars = 1.50;
+//   }
+// }
+//
+// var chip = new Snack();
+// console.log(chip);
+//
+// // Prompt 3: Shirt
+// class Shirt {
+//   constructor() {
+//     this.sleeveLength = "long";
+//     this.collarType = "crew";
+//     this.color = "gray";
+//   }
+// }
+//
+// var hoodie = new Shirt();
+// console.log(hoodie);
 
-// Prompt 3: Shirt
 
 //-------------------
 // Part 3: Dynamic Properties
@@ -51,7 +117,47 @@ Make sure to run the file with node in your command line.
   // Log those variables to the console.
 
 // Prompt 1: Dog
+class Dog {
+  constructor(collar, tail, toys) {
+    this.collarColor = collar;
+    this.tailLength = tail;
+    this.toys = toys;
+  }
+}
+
+var fido = new Dog("blue", "medium", ["kong", "bear", "rope"]);
+var fluffy = new Dog("pink", "short", ["stick", "ball", "blankie"]);
+
+console.log(fido);
+console.log(fluffy);
 
 // Prompt 2: Snack
+class Snack {
+  constructor(type, size, price) {
+    this.type = type;
+    this.size = size;
+    this.priceInUSDollars = price;
+  }
+}
+
+var chip = new Snack("salty", "medium", 3.99);
+var pretzel = new Snack("salty", "large", 1.79);
+
+console.log(chip);
+console.log(pretzel);
+
 
 // Prompt 3: Shirt
+class Shirt {
+  constructor(sleeve, collar, color) {
+    this.sleeveLength = sleeve;
+    this.collarType = collar;
+    this.color = color;
+  }
+}
+
+var hoodie = new Shirt("long", "hood", "blue");
+var sweater = new Shirt("long", "v-neck", "green");
+
+console.log(hoodie);
+console.log(sweater);
