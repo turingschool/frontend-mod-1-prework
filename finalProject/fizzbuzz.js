@@ -12,15 +12,15 @@ The output of you program will look something like this:
 Can you write the program so that it will run for _any_ range of numbers?*/
 
 
-
-for (var i = 0; i < 16; i++) {
-   if ((i % 3 === 0) && (i % 5 === 0)) {
-     console.log("FizzBuzz")
-   } else if (i % 5 === 0) {
-     console.log("Buzz")
-   } else if (i % 3 === 0) {
+for (var i = 0; i < 36; i++) {
+  if ((i % 3 === 0) && (i % 5 === 0)) {
+    console.log("FizzBuzz")
+  } else if (i % 3 === 0) {
     console.log("Fizz")
-   } else {
-   console.log(i);
-}
+  } else if (i % 5 === 0) {
+    console.log("Buzz")
+  } else {
+    console.log(i);
+  }
+
 }
