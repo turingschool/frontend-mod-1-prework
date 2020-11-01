@@ -20,5 +20,7 @@ encode("Hi", 2); //should log "FG"
 ```
 
 ## Your Task
+```
 
+```
 Add a `highLevelCC.md` file to your `finalProject` directory. In that file, write up high level notes about how you would solve this problem. When you're finished writing your detailed notes, it is optional to implement a solution in code.
