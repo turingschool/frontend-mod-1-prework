@@ -12,7 +12,7 @@ function frogRhyme(frogNumber) {
     }
   }
 }
-frogRhyme(45);
+frogRhyme(25);
 
 
 // ## Extension 3 (note code below in progress as of now code only write test up to 10. If extra time I will try to creat a frogtext function that will do all numbers.)
