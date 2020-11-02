@@ -33,13 +33,15 @@ Print word versions of each number in the first and fourth lines, for example, t
 */
 
 for (var i = 0; i <= 10; i++) {
-     if (i === 1) {
+     if (i === 10) {
        console.log("10 speckled frogs sat on a log eating some most delicious bugs. One jumped in the pool where its nice and cool, then there were 9 speckled frogs.");
-     } else if (i === 2) {
-       console.log("3 speckled frogs sat on a log eating some most delicious bugs. One jumped in the pool where its nice and cool, then there were 2 speckled frogs.");
+     } else if (i === 9) {
+       console.log("9 speckled frogs sat on a log eating some most delicious bugs. One jumped in the pool where its nice and cool, then there were 8 speckled frogs.");
      } else if (i === 3) {
-       console.log("2 speckled frogs sat on a log eating some most delicious bugs. One jumped in the pool where its nice and cool, then there was 1 speckled frog.");
-     } else if (i === 10) {
+       console.log("3 speckled frogs sat on a log eating some most delicious bugs. One jumped in the pool where its nice and cool, then there was 2 speckled frog.");
+        } else if (i === 2) {
+       console.log("2 speckled frogs sat on a log eating some most delicious bugs. One jumped in the pool where its nice and cool, then there was 3 speckled frog.");
+     } else if (i === 9) {
        console.log("1 speckled frog sat on a log eating some most delicious bugs. One jumped in the pool where its nice and cool, then there were no more speckled frogs!");
      } else {
        console.log(i)
