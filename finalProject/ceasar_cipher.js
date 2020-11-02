@@ -7,7 +7,7 @@ part1- Matching "string" letters to their "alphabet array" position. This is don
 part2- Save the string "converted" array position to a new varable.
 
 *At this point I had to create a loop from the end of "alphabet" back to the beginning.
-So it would not throw an error when key numbers were to large.
+So it would not throw an error when key numbers are to large.
 
 part3- Create a new var in the function "modifiedStr". This takes the "converted" and
   adds the "key value" then returns the new position on the "alphabet" array.
