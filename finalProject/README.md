@@ -15,13 +15,13 @@ _Note:_ These should be challenging, and require to apply most of the content co
 Depending on if you are in Section A or B, you have anywhere between 1.5-3.5 weeks before you start Mod 1. This is an important time to take care of life things such as doctor appointments, dog park trips, quality time with friends and family, etc. It is also important that you maintain the knowledge and skills you acquired during Mod 0 and this pre-work. You can absolutely do both, but to do so successfully, **you need a plan**. We recommend spending, on average, 1-2 hours a day coding (totally 20-40 hours of time).
 
 What is your plan and how are you going to hold yourself to it? Specifically...
-- What are you going to work on? Resources here.
-- What days are you going to work?
-- What times on those days are you going to work?
-- Where you going to be sitting/standing as you do this?
-- Where are you documenting this plan? Google Calendar, calendar on your wall, your journal?
-- Do any stakeholders in your life know about this plan? (The answer needs to be yes by the time you answer this...)
-- What personal items/events are important to you during this time? How are you going to make sure those are not neglected? (Hint, block time on the calendar for them!)
+- What are you going to work on? Resources here. I plan to work code using Edabit or Codewars a couple times a week.
+- What days are you going to work? At least 4 days a week.
+- What times on those days are you going to work? In the mornings between 9-12.
+- Where you going to be sitting/standing as you do this? In my office
+- Where are you documenting this plan? Google Calendar, calendar on your wall, your journal? Add reminders to my google calendar.
+- Do any stakeholders in your life know about this plan? (The answer needs to be yes by the time you answer this...) My wife will be helping me stay focused
+- What personal items/events are important to you during this time? How are you going to make sure those are not neglected? (Hint, block time on the calendar for them!) I will be sure to take time to workout each day as well as go for walks with my family. I have a new born daughter that I will be sure to be spending lots of time with!
 
 ## Deliverables
 
