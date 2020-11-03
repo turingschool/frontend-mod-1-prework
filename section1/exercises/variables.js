@@ -41,9 +41,9 @@ console.log(firstName, isHungry, numberOfPets);
 // How did you decide to use the data type you did for each of the three variables above?
   // Explain.
 
-  /* The first variable name asks for a name which is a string data types
+  /* The first variable name asks for a name which is a string data type or made of text.
   The second variable name declares an outcome which can be evaluated as
-  true or false. The third variable name asks for a number so I used a number data type.*/
+  true or false. The third variable name asks for a number so I used an integer data type.*/
 
 
 // YOU DO:
