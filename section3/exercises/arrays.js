@@ -114,7 +114,8 @@ var chargerType = "car";
 
 // Write your conditional here
 // Was unclear about line 108. If they needed both 15% battery and  carcharger. If so I would write.
-// if (hasCharger === true && chargerType === true.) Then create else if conditions.
+// else if (hasCharger === true && chargerType === true.) console.log("call Uber.")
+
  // This checks the battery level. If it is 15 or more it runs the console.log code(call). If under 14 moves down to else condition.
 if (percentBatteryLeft >= 15) {
   console.log("call Uber"); // prints the console.

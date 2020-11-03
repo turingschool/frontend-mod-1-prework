@@ -6,7 +6,7 @@
 function frogRhyme(frogNumber) {
   for (var i = frogNumber; frogNumber >=1; frogNumber--) {
     if (frogNumber >= 2) {
-      console.log(frogNumber + " speckled frogs sat on a log eating some most delicious bugs. One jumped in the pool where its nice and cool then there were " + frogNumber - 1 +" speckled frogs.");
+      console.log(frogNumber + " speckled frogs sat on a log eating some most delicious bugs. One jumped in the pool where its nice and cool then there were " + (frogNumber - 1) + " speckled frogs.");
     } else {
       console.log("1 speckled frog sat on a log eating some most delicious bugs. One jumped in the pool where its nice and cool, then there were no more speckled frogs!");
     }

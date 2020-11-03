@@ -6,13 +6,13 @@ part1- Matching "string" letters to their "alphabet array" position. This is don
 
 part2- Save the string "converted" array position to a new varable.
 
-*At this point I had to create a loop from the end of "alphabet" back to the beginning.
-So it would not throw an error when key numbers are to large.
-
 part3- Create a new var in the function "modifiedStr". This takes the "converted" and
   adds the "key value" then returns the new position on the "alphabet" array.
 
-*At this point code only logging the last bit of data in the array string. Last part of all
+* At this point I had to create a loop from the end of "alphabet" back to the beginning.
+  So it would not throw an error when key numbers are to large. This was done by using the % modulus operator.
+
+* At this point code only logging the last bit of data in the array string. Or last part of all
   the loops. After some research and time. I moved the "var modifiedStr" to before the loops
   and set it to a empty array. Then added the ".push" inside the loop. This fixed the issue.
 
