@@ -6,7 +6,8 @@ function encode(string, shiftNumber) {
   for (i = 0; i < shiftNumber; i++) {
     alphabet.unshift(alphabet.pop());
   }
-  var split = string.split("");
+  var capitalizeString = string.toUpperCase()
+  var split = capitalizeString.split("");
   console.log("String: " + string + ", " + "Shift Number: " + shiftNumber);
   var result = "";
   for (j = 0; j < split.length; j++) {
@@ -19,4 +20,4 @@ function encode(string, shiftNumber) {
   console.log(result);
 }
 
-encode("CAMERON MACKINTOSH", 3);
+encode("TeStInG inIHihiHIG", 3);
