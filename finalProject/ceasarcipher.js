@@ -1,23 +1,22 @@
-var originalAlphabet = ["A", "B", "C", "D", "E", "F", "G", "H", "I", "J", "K", "L", "M", "N", "O", "P", "Q", "R", "S", "T", "U", "V", "W", "X", "Y", "Z"];
 
-var alphabet = ["A", "B", "C", "D", "E", "F", "G", "H", "I", "J", "K", "L", "M", "N", "O", "P", "Q", "R", "S", "T", "U", "V", "W", "X", "Y", "Z"];
+const alphabet = ['A', 'B', 'C', 'D', 'E', 'F', 'G', 'H', 'I', 'J', 'K', 'L', 'M', 'N', 'O', 'P', 'Q', 'R', 'S', 'T', 'U', 'V', 'W', 'X', 'Y', 'Z'];
 
 function encode(string, shiftNumber) {
-  for (i = 0; i < shiftNumber; i++) {
-    alphabet.unshift(alphabet.pop());
-  }
-  var capitalizeString = string.toUpperCase()
-  var split = capitalizeString.split("");
-  console.log("String: " + string + ", " + "Shift Number: " + shiftNumber);
-  var result = "";
-  for (j = 0; j < split.length; j++) {
-    if (split[j] === " ") {
-      result = result + split[j];
+  console.log('STRING: ' + string);
+  console.log('SHIFT-NUMBER: ' + shiftNumber);
+  let capitalizeString = string.toUpperCase();
+  let split = capitalizeString.split('');
+  let result = '';
+  for (i = 0; i < split.length; i++){
+    if (split[i] === ' ') {
+      result = result + split[i];
+    } else if ((alphabet.indexOf(split[i]) - shiftNumber) < 0) {
+      result = result + (alphabet[26 + (alphabet.indexOf(split[i]) - shiftNumber)]);
     } else {
-      result = result + (alphabet[originalAlphabet.indexOf(split[j])]);
+      result = result + (alphabet[(alphabet.indexOf(split[i])) - shiftNumber]);
     }
   }
-  console.log(result);
+  console.log('CEASAR CIPHER: ' + result);
 }
 
-encode("TeStInG inIHihiHIG", 3);
+encode('abcdefghij', 3);
