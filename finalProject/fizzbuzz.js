@@ -11,7 +11,6 @@ The output of you program will look something like this:
 
 Can you write the program so that it will run for _any_ range of numbers?*/
 
-
 for (var i = 0; i < 36; i++) {
   if ((i % 3 === 0) && (i % 5 === 0)) {
     console.log("FizzBuzz")

@@ -65,6 +65,12 @@ encode("Hello World", 5); //should log "CZGGJ RJMGY"
 
     * There will be an encoding function encasing those parameters and key value pairs.
 
+    * There will be an encoding function that attends to the letter switch by places in the alphabet
+
+    * There will be variables that name the results of the functions
+
+    * Moving between upper case and lower cases of the alphabet will need conditional statements whose return will determine the result of upper or lower case.
+
     * The arguments that call up to those parameters jump start the iteration of the for loop that moves the caesarCipher to solution.
 
 
@@ -112,9 +118,36 @@ function codeBreak(n){
     for (var i = n; i > alphabet.length; i++){
   }
  }
-var alphabet = ["A, B, C, D, E, F, G, H, I, J, K, L, M, N, O, P, Q, R, S, T, U, V, X, Y, Z"];
+var encode = ["A, B, C, D, E, F, G, H, I, J, K, L, M, N, O, P, Q, R, S, T, U, V, X, Y, Z"];
 
   codeBreak(i);
     console.log(ceasarCipher);
+
+```
+
+```
+class CodeBreak {
+
+constructor(alphabet, offset) {
+  this.alphabet = alphabet
+  this.offset = 26
+}
+  if (offset < 0) {
+    console.log(alphabet, offset - 5);
+  }
+var encode = " ";
+for (var i = 0; i < alphabet.length; i++) {
+}
+var n = alphabet[i];
+
+if (n.match(/[A-Z]/i)){
+  var newCode = alphabet.charCodeAt(i);
+  console.log(+-n)
+}
+var decode = " "
+console.log(decode);
+
+
+}
 
 ```

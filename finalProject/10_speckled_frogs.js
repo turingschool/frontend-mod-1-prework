@@ -87,10 +87,10 @@ function speckledFrogs(n){
   for (var i = n; i > 0; i--)
    if (i > 2) {
      console.log(i + " " + "speckled frogs sat on a log eating some most delicious bugs. One jumped in the pool where its nice and cool, then there were" + " " + (i - 1) + " " + "speckled frogs.");
- }   else if (i === 2) {
+    } else if (i === 2) {
       console.log(i + " " + "speckled frogs sat on a log eating some most delicious bugs. One jumped in the pool where its nice and cool, then there were" + " " +(i - 1) + " " + "speckled frogs.")
- }    else {
-       console.log(1 + " "+ "speckled frog sat on a log eating some most delicious bugs. One jumped in the pool where it's nice and cool, then there were no more speckled frogs!");
+    } else {
+      console.log(1 + " "+ "speckled frog sat on a log eating some most delicious bugs. One jumped in the pool where it's nice and cool, then there were no more speckled frogs!");
  }
 }
 speckledFrogs(10);
