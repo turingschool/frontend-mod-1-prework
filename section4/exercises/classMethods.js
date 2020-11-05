@@ -34,12 +34,12 @@ class Burrito {
     this.toppings = toppings;
   }
 
-  changeProtein() {
-    this.protein = "veggie";
+  changeProtein(newProtein) {
+    this.protein = newProtein;
   }
 
-  addTopping() {
-    this.toppings.push("black beans");
+  addTopping(newTopping) {
+    this.toppings.push(newTopping);
   }
 }
 
@@ -52,11 +52,11 @@ console.log(maddiesBurrito);
 var travisBurrito = new Burrito("carne asada", "flour tortilla", ["guacamole", "salsa",]);
 console.log(travisBurrito);
 
-cameronsBurrito.changeProtein();
+cameronsBurrito.changeProtein("veggie");
 console.log(cameronsBurrito);
 
-maddiesBurrito.addTopping();
+maddiesBurrito.addTopping("black beans");
 console.log(maddiesBurrito);
 
-travisBurrito.addTopping();
+travisBurrito.addTopping("pinto beans");
 console.log(travisBurrito);

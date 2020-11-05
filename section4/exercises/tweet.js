@@ -17,8 +17,8 @@ class Tweet {
     this.comments = comments;
   }
 
-  addComment() {
-    this.comments.push("This is an added comment!");
+  addComment(newComment) {
+    this.comments.push(newComment);
   }
 
   newLike() {
@@ -30,7 +30,7 @@ class Tweet {
 var cameronsFirstTweet = new Tweet("Cameron Mackintosh", "This is the content of my first tweet", "3:2OPM 10/25/20", 0, []);
 console.log(cameronsFirstTweet);
 
-cameronsFirstTweet.addComment();
+cameronsFirstTweet.addComment("Any string here will appear as a comment");
 console.log(cameronsFirstTweet);
 
 cameronsFirstTweet.newLike();
@@ -42,7 +42,7 @@ var cameronsSecondTweet = new Tweet("Cameron Mackintosh", "Life is a daring adve
 
 console.log(cameronsSecondTweet);
 cameronsSecondTweet.newLike();
-cameronsSecondTweet.addComment();
+cameronsSecondTweet.addComment("This is another comment. Any string here will work as a comment.");
 cameronsSecondTweet.newLike();
 cameronsSecondTweet.newLike();
 console.log(cameronsSecondTweet);
