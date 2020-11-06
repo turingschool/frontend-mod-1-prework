@@ -23,7 +23,7 @@ console.log("My zoo has " + numberOfCreatures + " " + creatures + "!")
 
 // YOU DO: What data type will be logged to the console as a result of line 22? Explain.
 // Your answer and explanation here: 
-
+// My Zoo has 7 unicorns! - By using concatenation, the scripts adds the variables togethert to achieve this outcome. 
 
 // YOU DO:
 // Write code that combines the variables below into a string that
@@ -39,7 +39,7 @@ var slowPoke = "lazy brown dog";
 
 slowPoke = "tortoise";
 speedy = "hare";
-
+console.log("In a predictable result, the " + slowpoke + "beat the " + speedy);
 
 // YOU DO:
 // Declare three variables, name/content/data type of your choice. Think carefully about what 
