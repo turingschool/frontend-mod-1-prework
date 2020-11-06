@@ -6,7 +6,7 @@
 
 * First notice that the message and the cipher correlate to the English alphabet.
 
-* In coding the letters are effectively measured by the computer program to determine their equality in reference to each other by an algorithm that returns a boolean value.
+* In JavaScript, the letters are effectively measured by the computer program to determine their equality in reference to each other by an algorithm that returns a boolean value.
 
 * Simply comparing letter by letter, line by line, array element by array element is done within a `unicode order`
 
@@ -61,7 +61,7 @@ encode("Hello World", 5); //should log "CZGGJ RJMGY"
 
 * The way I see the solution to the ceaserCipher is this:
 
-    * There are parameters of the alphabet set up for the 21 letter shift or offsetting.  
+    * There are parameters of the alphabet set up for the 21 or -5 letter shift or alphabet offsetting.  
 
     * There will be an encoding function encasing those parameters and key value pairs.
 
@@ -149,5 +149,47 @@ console.log(decode);
 
 
 }
+
+```
+
+*latest code snipet rabbit hole:*
+
+```
+function encode(alphabet, offset) {
+  letterSpread = "A B C D E F G H I J K L M N O P Q R S T U V X Y Z".split("")
+    for (i = 0; i < alphabet.length; i++) {
+      sizeLetter[i] = alphabet.indexOf(sizeLetter[i], 26)
+      sizeLetter.push(alphabet[(sizeLetter[i] + offset)])
+  }
+      if (n.match(/[A-Z]/i)){
+        var newCode = alphabet.charCodeAt(i);
+          console.log(+-n)
+}
+
+    if (offset === -5) {
+      sizeLetter.splice(i, sizeLetter[i]);
+}
+}
+console.log(letterSpread);
+ var decode = "";
+sizeLetter = alphabet.toLowerCase().el.text.content("")
+
+
+
+//for (var i = 0; i < alphabet.length; i++) {//
+
+
+//var decode = " "
+//console.log(decode);
+
+
+//var ceaserCipher = new CodeBreak([ "A, B, C, D, E, F, G, H, I, J, K, L, M, N, O, P, Q, R, S, T, U, V, X, Y, Z"], 26)
+
+//var decipher =
+//var alphabet = decipher
+//var n = alphabet[i];
+
+
+console.log(i, ("Hello World"), 0);
 
 ```
