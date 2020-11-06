@@ -45,7 +45,10 @@ console.log("In a predictable result, the " + slowpoke + "beat the " + speedy);
 // Declare three variables, name/content/data type of your choice. Think carefully about what 
   // you name the variables. Remember, the goal is to be concise but descriptive (it's a hard balance!)
   // Then, log out ONE sentence that incorporates all THREE variables.
-
+var name = "President";
+var race = "the election";
+var votes = "1500 votes"; 
+console.log("the " + name + "lost " + race + "by " + votes)
 
 //-------------------
 // FINAL CHECK
