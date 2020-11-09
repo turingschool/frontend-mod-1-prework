@@ -45,3 +45,24 @@ function cipher(string, key) {
 }
 
 cipher("This is test string", 8);
+
+/* Tested the reversal and was getting a blank data at large key numbers without the modulus % 53.
+
+function deCode(string, key) {
+
+  var alphabet = [" ", "a", "b", "c", "d", "e", "f", "g", "h", "i", "j", "k", "l", "m", "n", "o", "p", "q", "r", "s", "t", "u", "v", "w", "x", "y", "z", "A", "B", "C", "D", "E", "F", "G", "H", "I", "J", "K", "L", "M", "N", "O", "P", "Q", "R", "S", "T", "U", "V", "W", "X", "Y", "Z"];
+  var modifiedStr = [];
+
+  for (var i = 0; i < string.length; i++) {
+    for (var j = 0; j < alphabet.length; j++) {
+      if (string[i] === alphabet[j]) {
+        var converted = j;
+        modifiedStr.push(alphabet[converted - key % 53]);
+      }
+    }
+  }
+  console.log(modifiedStr.join(""));
+}
+
+deCode("pqAhqAhBmABhABzqvo", 8);
+*/
