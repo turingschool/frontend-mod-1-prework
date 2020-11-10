@@ -27,11 +27,11 @@ var firstName = "Shawn"; - String.
 var lastName = "McMahon"; - String.  
 var Age = "29"; - Number.   
 
-7. In your own words, explain what concatenation is.
-Simply put, it is "joining together". It is the act of combining two or more variables in JavaScript using the '+' operator.  
-var name = sam;
-console.log = "Hello, my name is " + name);  
-This will output "Hello, my name is Sam".  
+7. In your own words, explain what concatenation is.  
+Simply put, it is "joining together". It is the act of combining two or more variables in JavaScript using the '+' operator.    
+var name = sam;  
+console.log = "Hello, my name is " + name);    
+This will output "Hello, my name is Sam".    
 
 8. Think of a site or app you use frequently. Where do you think the developers used concatention?  
 I use a site called Twitch frequently. When broadcasters go live, I think the developers likely use concatenation for 'Going Live' notififcation that is pushed to users. It is probably used like this:   
