@@ -12,29 +12,34 @@ class Tweet {
   constructor(author,content,timeStamp,numberOfLikes,comments){
     this.author = author;
     this.content = content;
-    this.timeStamp = timeStamp
-    this.numberOfLikes = numberOfLikes
-    this.comments = comments
+    this.timeStamp = timeStamp;
+    this.numberOfLikes = numberOfLikes;
+    this.comments = comments;
   }
-  addLikes(){
-    this.numberOfLikes = (numberOfLikes++);
-  }
-    addComments(){
-      this.comments = (comments++);
-    }
+  addLikes () {
+    this.numberOfLikes = (this.numberOfLikes + 1);
+  };
+    addComments(comment) {
+      this.comments.push(comment);
+  };
 
-}
+};
 var annoucement = new Tweet("National Park Services", "Park is closed today due to weather", "10:55AM 10/20/2019", 20, ["Bummer!", "We'll have to come back.", "Next time!"] )
 
 var quote = new Tweet("Inspirational Quotes", "Remember, Hope is a good thing, maybe the best of things, and no good thing ever dies.", "9:30PM 9/13/2005", 40, ["One of my favorite quotes!", "Love this book!", "Rita Hayworth & Shawshank Redemption.."])
 
 var warning = new Tweet("Weather Channel", "Winter weather storm advisory", "6:30AM 10/24/2020", 50, ["Time to hunker down", "Get the shovels ready!", "Thanks for the heads up!"])
-
-
+annoucement.addLikes();
+annoucement.addComments("Give it an hour, the weather will change");
 console.log(annoucement);
 
-
+quote.addComments("Hopefully Andy makes it out..");
+quote.addLikes();
+quote.addLikes();
 console.log(quote);
 
 
+warning.addComments("It's too early for this stuff. ");
+warning.addComments("Is there a dislike button..?");
+warning.addLikes();
 console.log(warning);

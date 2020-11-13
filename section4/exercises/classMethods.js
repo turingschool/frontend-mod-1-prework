@@ -34,31 +34,32 @@ class Burrito {
     this.base = base;
     this.toppings = toppings;
   }
-  changeProtein(){
-    this.protein = "change protein to pork";
-  }
-  addTopping(){
-  this.toppings = "please add sour cream";
-  }
-}
-var chickenBurrito = new Burrito ("chicken", "flour", "lettuce, tomato,cheese");
+  changeProtein (switchProtein) {
+    this.protein = switchProtein
+  };
+  addTopping(topping) {
+  this.toppings.push(topping);
+  return this.toppings;
+  };
+};
+var chickenBurrito = new Burrito ('chicken', 'flour', ['lettuce', 'tomato', 'cheese ' ]);
 
-var steakBurrito = new Burrito ("steak", "corn", "lettuce, tomato,cheese");
+var steakBurrito = new Burrito ('steak', 'corn', ['lettuce', 'tomato', 'cheese '] ');
 
-var veggieBurrito = new Burrito ("veggie", "wrap", "lettuce, tomato,cheese")
+var veggieBurrito = new Burrito ('veggies', 'wrap', ['lettuce', 'tomato', 'cheese '] );
 
-var beefBurrito = new Burrito ("beef", "corn", "lettuce, tomato, cheese")
+var beefBurrito = new Burrito ('beef', 'corn', ['lettuce', 'tomato', 'cheese ']);
 
-chickenBurrito.changeProtein();
+chickenBurrito.changeProtein('pork');
 console.log(chickenBurrito);
 
-veggieBurrito.changeProtein();
+veggieBurrito.changeProtein('fish');
 console.log(veggieBurrito)
 
-steakBurrito.addTopping();
+steakBurrito.addTopping('hot peppers, onions');
 console.log(steakBurrito)
 
-beefBurrito.addTopping();
+beefBurrito.addTopping('extra cheese');
 console.log(beefBurrito)
 
   // ADD CODE
