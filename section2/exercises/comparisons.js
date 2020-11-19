@@ -106,8 +106,13 @@ var finishedHomework = false;
 // EXAMPLE:
 // Determine if the user is hungry and has completed their homework
 console.log(isHungry && finishedHomework);
+//This will return False. First, the variable finishedHomework is declared as false and the other variable isHungry is declared as true. 
+//The console will return the value of isHungry if isHungry can be coerced into false, otherwise it will return B. 
+//Since isHungry is declared as true above, it can not coerced into being False, so it will return the variable finishedHomework, which is declared false above. So the console will return false. 
 // Determine if the user is hungry or has completed their homework
 console.log(isHungry || finishedHomework);
+//This will return true. The console will return the value of isHungry if isHungry can be coerced into being true. Since isHungry is declared as true 
+//it can (/or already is) coerced into being true. The script will stop there and return true without going onto the other operand expression. 
 
 var lovesToPlay = true;
 var lovesDogPark = false;
@@ -116,18 +121,27 @@ var age = 1;
 
 // YOU DO:
 // Determine if the dog loves to play and loves treats
-
+console.log(lovesToPlay && lovesTreats); 
+//This will return true. Since the variable lovesToPlay can not be coerced into being False, it will move onto the variable loveTreats, which is 
+//declared as true. 
 
 // Determine if the dog loves to play and loves the dog park
-
+console.log(lovesToPlay && lovesDogPark);
+//This will return false. Since the variable lovesToPlay can not be coerced into being Flase, it move onto the other operand expression loveDogPark, which
+//is declared as false. 
 
 // Determine if the dog loves to play or loves the dog park
-
+console.log(lovesToPlay || lovesDogPark); 
+//This will return true. Since lovesToPlay can be coerced into being true since it is declared as true above, the console will log true and stop there. 
 
 // Determine if the dog loves to play and is a puppy
+console.log(lovesToPlay && isAPuppy); 
+//I believe this return false but I am a bit unsure.  
 
 // What did your final line of code evaluate to? Why do you think that is? Explain.
 // ANSWER:
+//I believe this return false but I am a bit unsure. I believe it will return false because lovesToPlay can not be coerced into being False, so the
+//script will move onto the operand expression isAPuppy which has not be declared yet, which can be coerced into be becoming calse. So False should be returned. 
 
 //-------------------
 // FINAL CHECK
