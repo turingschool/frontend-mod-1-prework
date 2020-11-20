@@ -78,7 +78,7 @@ console.log(4 < 9);
 //YOU DO: Explain.
 //This will log either true or false. The script will compare if 4 is less than 9. Since 4 is less than 9, true will be logged. 
 var books = 3;
-console.logs(4 < books);
+console.log(4 < books);
 // YOU DO: Explain.
 //A variable called books is delcared as the number 3. The console compares to see if 4 is less than the variable books. Since 4 is more
 //than books, the console will log false. 
