@@ -74,6 +74,6 @@ The outcome will have the console log "You tell the bear the hat is too small an
 
 7. What is your favorite ending?
 
-My favorite ending is staying with the bear and becoming it's best friend because that was pretty cool. If I could be friends with a bear I definitely would.
+My favorite ending is staying with the bear and becoming it's best friend because that is pretty cool. If I could be friends with a bear I definitely would.
 I'd put a saddle on him and ride him through the streets at night. Probably not legal but definitely badass. 
 */
