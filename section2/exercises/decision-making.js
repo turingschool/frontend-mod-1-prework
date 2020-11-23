@@ -38,7 +38,8 @@ if (bearChoice === 1) {
 Questions
 
 1. In English, using technical vocabulary, describe what is happening between lines 14 and 18.
-
+A conditional if else statement is being called. The condition checks if the variable doorChoice is equal to 1. If it is equal to 1, then the variable bearClothing
+is assigned the string 'hat'. If the variable doorChoice is not equal to 1, then the variable bearClothing is assigned the string "scarf".
 2. What variable has a new value assigned to it after the first if statement executes?
 
 3. If you changed the variable doorChoice to equal 3, what would the bearClothing value be?
