@@ -12,8 +12,8 @@ Make sure to run the file with node in your command line.
 // EXAMPLE:Manipulate the variable 'weather' to see if you can print something other
   // than 'coat'.
 
-var weather = 'snowy';
-// var weather = 'icy';
+// var weather = 'snowy';
+var weather = 'icy';
 // var weather = 'rainy';
 // var weather = 'sunny';
 // While working through this example, I would toggle which variable declaration is
