@@ -42,19 +42,16 @@ Log to the console the appropriate age range
 */
 
 var dogAge = 3;
-var dogAge = 1;
-var dogAge = 15;
+
 
 // Write your conditional here
 
-if ( dogAge == 3) {
+if ( dogAge <= 10) {
   console.log("adult");
-} else if (dogAge == 1){
+} else if (dogAge <= 1){
   console.log("puppy");
-} else if (dogAge == 15){
-  console.log("elderly");
 } else {
-  console.log("choose a cat!");
+  console.log("elderly");
 }
 
 
@@ -79,8 +76,10 @@ When numQuarters = 3, program should log "I have enough money for a gumball"
 var numQuarters = 2;
 
 // Write your conditional here
-if (numQuarters == 2) {
+if (numQuarters >= 2) {
   console.log("I have enough money for a gumball");
+} else {
+  console.log("I don't have enough money for a gumball");
 }
 
 
@@ -101,8 +100,10 @@ var cupsOfFlour = 2;
 var hasSauce = true;
 
 // Write your conditional here
-if (cupsOfFlour == 2) {
+if ((cupsOfFlour >= 2) && (hasSauce = true)) {
  console.log("I can make a pizza");
+} else {
+  console.log("I cannot make a pizza")
 }
 /*
 For the last two exercises, an ideal solution probably uses a logical operator.

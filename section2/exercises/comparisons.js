@@ -100,7 +100,7 @@ console.log(4 < books);
 
 // YOU DO: Explain.
 /*
- variable books assignet the value of 3 and log comparison with integer data type using one of the comparison operarors to return boolean value.
+ variable books assignet the value of 3 and log comparison with integer data type using one of the comparison operators to return boolean value.
 "Is 4 less than books?", and it should log false.
 */
 
