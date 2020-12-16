@@ -12,11 +12,13 @@ file from your terminal with the command `node section1/exercises/variables.js`
 
 // EXAMPLE: Write code below to assign Harry Potter's name to a variable and
 // log that variable to the console:
+
 var name = "Harry Potter";
 console.log(name);
 
 // EXAMPLE: Write code below to add 2 to the variable `students` and
 // log the result:
+
 var enrolledStudents = 22;
 console.log(enrolledStudents);
 
@@ -25,7 +27,7 @@ console.log(enrolledStudents);
 // log that variable to the console.
 
 var string = "Harry Potter must not return to Hogwarts!"
- console.log(string);
+console.log(string);
 
 // YOU DO:
 // Declare three variables, named `firstName`, `isHungry` and `numberOfPets`.

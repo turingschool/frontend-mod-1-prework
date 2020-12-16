@@ -15,18 +15,23 @@ file from your terminal with the command `node section1/exercises/dataTypes.js`
 //-------------------
 
 // EXAMPLE: Write code below to log the String "Alan Turing" in the console:
-console.log("Alan Turing");
+
+var string = "Alan Turing"
+console.log(string);
 
 // EXAMPLE: Write code below to log `Welcome to Turing!` in the console:
-console.log('Welcome to Turing!');
+
+var greet = 'Welcome to Turing'
+console.log(greet);
 
 // YOU DO: Write code below to log `99 bottles of pop on the wall...`:
- var string = "99 bottles of pop on the wall"
-console. log("99 bottles of pop on the wall");
+
+var bottles = "99 bottles of pop on the wall"
+console.log(bottles);
 
 // YOU DO: Write code below to log one line from your favorite song or movie:
 var song = "13 reasosons WHY?"
-console. log('13 reasons WHY');
+console.log(song);
 
 
 
@@ -35,23 +40,25 @@ console. log('13 reasons WHY');
 //-------------------
 
 // EXAMPLE: log the result of the sum of 2 and 2 to the console:
-console.log(2 + 2);
+var sum = 2 + 2
+console.log(sum);
 
 // EXAMPLE: log the result of 7 subtracted from 83 console:
-console.log(83 - 7);
+var subtract = 83 -7
+console.log(subtract);
 
 // YOU DO: log the result of 6 multiplied by 53 to the console:
-var number = 6 * 53
-console. log(6 * 53);
+var multiply = 6 * 53
+console.log(multiply);
 
 // YOU DO: log the result of 20 divided by 4 to console:
 var math = 20 / 4
-console. log( 20 / 4);
+console.log(math);
 
 // YOU DO: log the result of the Modulo of 10 into 54:
 
-var result = 10 + 54
-console.log( 10 + 54);
+var modulo = 10 + 54
+console.log(modulo);
 
 
 
@@ -60,22 +67,24 @@ console.log( 10 + 54);
 //-------------------
 
 // EXAMPLE: log to the console the result of 1 is equal to 2:
-console.log(1 === 2);
+var data = 1 === 2
+console.log(data);
 
 // EXAMPLE: log to the console the result of 7 is greater than 2:
+var number = 7 > 2
 console.log(7 > 2);
 
 // YOU DO: log to the console the result of "hello" is equal to "Hello":
-var greet = "hello === Hello"
-console.log('hello === Hello');
+var greet = 'hello' === 'Hello'
+console.log(greet);
 
 // YOU DO: log to the console the result of 3 is not equal to 4:
-var number = 3 === 4
-console.log(3 === 4);
+var number2 = 3 !== 4
+console.log(number2);
 
 // YOU DO: log to the console the result of 4 is less than or equal to 5:
-var equality = 4 < 5
-console. log( 4 < 5);
+var equality = 4 <= 5
+console.log(equality);
 
 
 
