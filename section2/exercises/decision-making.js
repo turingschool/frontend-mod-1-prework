@@ -38,23 +38,23 @@ if (bearChoice === 1) {
 Questions
 
 1. In English, using technical vocabulary, describe what is happening between lines 14 and 18.
- /*
 
- In a second code block is 'if' and 'else' conditional statement which checks the condition of the value.
+/*
+In a second code block is 'if' and 'else' conditional statement which checks the condition of the value.
 
 Is it true that doorChoice equals or same as 1? True. Then it will exicute the statement "hat" between first set of curly brackets.
 
-  Otherwise else doorChoice equals or same as anything else besides 1. False. Then it will execute the statement "scarf" in a second curly brackets.
+Otherwise else doorChoice equals or same as anything else besides 1. False. Then it will execute the statement "scarf" in a second curly brackets.
 */
 
 /*
 2. What variable has a new value assigned to it after the first if statement executes?
 
- Varibale bearClothing has new value assigned "hat" after execution if statement.
+Varibale bearClothing has new value assigned "hat" after execution if statement.
 
 3. If you changed the variable doorChoice to equal 3, what would the bearClothing value be?
 
- Is it true doorChoice equals or same as 3?. False. Then it will execute statement value 'scarf'.
+Is it true doorChoice equals or same as 3?. False. Then it will execute statement value 'scarf'.
 
 4. In English, using technical vocabulary, describe what is happening between lines lines 27 and 35.
 
@@ -66,7 +66,7 @@ Is it true doorChoice same as or equals to 3? False. It will execute "You run as
 
 6. If you changed the variable doorChoice to equal 1, and the variable bearChoice to equal 2, what will be the final outcome be?
 
-  Is it true doorChoice equals or same as 1 and the bearChoice equals or same as 2? True and False. It will execute value "You tell the bear the " + bearClothing + " is too small and it starts to cry!".
+Is it true doorChoice equals or same as 1 and the bearChoice equals or same as 2? True and False. It will execute value "You tell the bear the " + bearClothing + " is too small and it starts to cry!".
 
 7. What is your favorite ending?
 

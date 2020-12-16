@@ -13,6 +13,7 @@ Make sure to run the file with node in your command line.
 //-------------------
 
 // EXAMPLE: Write a function below that, when called will log "Severus Snape" to the console
+
 function printName() {
   console.log("Severus Snape");
 };
@@ -24,15 +25,16 @@ printName();
 
 // Since the function was called 4 times, "Severus Snape" will log 4 times.
 
-
 // YOU DO: Write a function named sayHello that logs to the console "Oh, Hello!"
 // Then, call the function 2 times.
+
  function sayHello() {
    console.log("Oh, Hello");
  }
 
  sayHello();
  sayHello();
+
 //-------------------
 // PART 2: Arguments and Parameters
 //-------------------
@@ -80,7 +82,7 @@ What did you name each parameter, and why?
 
 
 EXPLAIN:
-####
+
 I did named function bestFriends because I did had a string with names.
 To complete functions task to a proper call i did add another string to  console log wich prints concatenation.
 When you run call function by name to display what in a code block. We have existing information on name of the function.
