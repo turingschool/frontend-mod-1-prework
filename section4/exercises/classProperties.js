@@ -16,10 +16,32 @@ Make sure to run the file with node in your command line.
   // You do not need any proerties at this time!!
 
 // Prompt 1: Dog
+class Dog {}
+var alice = new Dog();
+var shae = new Dog();
 
-// Prompt 2: Snack
+console.log(alice);
+console.log(shae);
+
+
+// Prompt 2: Snac
+class Snack {}
+var chips = new Snack();
+var dip = new Snack();
+
+console.log(chips);
+console.log(dip);
+
 
 // Prompt 3: Shirt
+class Shirt {}
+var buttonDown = new Shirt();
+var tankTop = new Shirt();
+
+console.log(buttonDown);
+console.log(tankTop);
+
+
 
 //-------------------
 // Part 2: Properties
@@ -33,10 +55,37 @@ Make sure to run the file with node in your command line.
   // Log that variable to the console.
 
 // Prompt 1: Dog
+class Dog2 {
+  constructor(){
+    this.breed = "retriever";
+    this.weight = 50;
+    this.color = "red";
+  }
+}
+var alice = new Dog2();
+console.log(alice);
 
 // Prompt 2: Snack
+class Snack2 {
+  constructor() {
+    this.taste = "salty";
+    this.texture = "crunchy";
+    this.brand = "Lays";
+  }
+}
+var chips = new Snack2();
+console.log(chips);
 
 // Prompt 3: Shirt
+class Shirt2 {
+  constructor() {
+    this.color = "blue";
+    this.style = "businessCasual";
+    this.brand = "Target";
+  }
+}
+var buttonDown = new Shirt2();
+console.log(buttonDown);
 
 //-------------------
 // Part 3: Dynamic Properties
@@ -51,7 +100,36 @@ Make sure to run the file with node in your command line.
   // Log those variables to the console.
 
 // Prompt 1: Dog
+class Dog3 {
+  constructor(breed, weightInLbs, color){
+    this.breed = breed;
+    this.weight = weightInLbs;
+    this.color = color;
+  }
+}
+var alice = new Dog3("retriever", 50, "red");
+
+
+console.log(alice);
 
 // Prompt 2: Snack
+class Snack3{
+  constructor(taste, textureType, brand) {
+    this.taste = taste;
+    this.texture = textureType;
+    this.brand = brand;
+  }
+}
+var chips = new Snack3("salty", "crunchy", "Lays");
+console.log(chips);
 
 // Prompt 3: Shirt
+class Shirt3{
+  constructor(color, typeOfShirt, storeBrand) {
+    this.color = color;
+    this.style = typeOfShirt;
+    this.brand = storeBrand;
+  }
+}
+var buttonDown = new Shirt3("blue", "businessCasual", "Target");
+console.log(buttonDown);
