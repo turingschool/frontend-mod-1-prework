@@ -76,7 +76,7 @@ if (numQuarters >= 2) {
 } else {
   console.log("I don't have enough money for a gumball");
 }
-
+//By changing numQuarters, you can change which sentence is logged to the console.
 
 /*
 YOU DO:
@@ -95,7 +95,7 @@ var cupsOfFlour = 1;
 var hasSauce = true;
 
 // Write your conditional here
-if ((cupsOfFlour >=2) && (hasSauce = true)) {
+if ((cupsOfFlour >=2) && (hasSauce === true)) {
   console.log("I can make pizza");
 } else {
   console.log("I cannot make pizza");
@@ -107,6 +107,8 @@ Did yours? Do you know what a logical operator in JavaScript is? Google it to an
 for yourself!
 I did use a logical operator! But only for the last pizza exercise.  I used && to say
 that both criteria had to be met in order for the first if statement to be true.
+
+For both of the last two exercises I used a comparison operator.
 
 If your solution doesn't use a logical operator, this is a great topic to bring up
 in your pre-work group's Slack channel!

@@ -82,7 +82,6 @@ were long code, it would probably not be specific enough.  sentenceFriends may h
 friend1 and friend2 because the sentence was going to read Lady and Shae are best friends!  So in theory, you could call the function again
 with any two names, and they would be best friends!
 
-EXPLAIN:
 
 
 */

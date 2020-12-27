@@ -50,6 +50,7 @@ bearClothing would still be scarf because scarf is for any door answer that IS N
 4. In English, using technical vocabulary, describe what is happening between lines lines 27 and 35.
 The user has a choice with 3 different responses when the bear's (article of clothing) is too small.
 Whichever response they choose will yield a different end result to the story.
+If they make no choice, they will stay with the bear and become its best friend!
 
 5. If you changed the variable bearChoice to equal 3, what will be the final outcome be?
 You run as fast as you can into the next room. It's full of snakes!
@@ -58,4 +59,4 @@ You run as fast as you can into the next room. It's full of snakes!
 You tell the bear the hat is too small and it starts to cry!
 
 7. What is your favorite ending?
-I want them to stay there and be best friends with the bear! The bear must be lonely and upset none of its clothes fit!*/
+I want to stay there and be best friends with the bear! The bear must be lonely and upset none of its clothes fit!*/
