@@ -51,7 +51,6 @@ console.log(animals);
 
 // YOU DO: Declare a variable that will store an an array of at least 4 foods (strings)
 var foods = ['peanutButter', 'jelly', 'pretzels', 'mustard'];
-console.log(foods);
 
 // YOU DO: Write code below that will log the number of elements in the array of
 // foods from above.
@@ -123,13 +122,34 @@ var chargerType = "car";
 
 // Write your conditional HERE
 //This first if statement means that either the users battery life has to be greater than or equal to 15%
-//OR they have to have a charger on them and that charger has to be a car charger to be able to call an uber.
-if ((percentBatteryLeft >= 15) || (hasCharger = true && chargerType === 'car')) {
+//OR they have to have a charger on them AND that charger has to be a car charger to be able to call an uber.
+
+//two ways:
+
+//The first if statement means that the users battery life has to be greater than or equal to 15%
+//to call an uber.  If that condition does not exist, the computer moves to the second if statement.
+if (percentBatteryLeft >= 15) {
   console.log("You can call an uber");
-//This else statement means if any other conditions exist, they cannot call an uber.
+//If the user has a charger AND it's a car charger, they can call an uber.
+} else if (hasCharger === true && chargerType === 'car') {
+  console.log("You can call an uber");
+//The third if statement means if any other conditions exist, they cannot call an uber.
 } else {
     console.log("You cannot call an uber");
   }
+
+//he second example does the same thing, but combines the first two if statements since they would result in the same answer for the user.
+  if ((percentBatteryLeft >= 15) || (hasCharger === true && chargerType === 'car')) {
+console.log("You can call an uber");
+} else {
+  console.log("You cannot call an uber");
+}
+//The first example just breaks down each choice into individual if statements, so it may be easier to understand,
+//but the second one looks a little cleaner.
+
+
+
+
 // YOU DO - ANNOTATE: Above each line of your code for this if statement, create a comment.
 // That comment should describe, in your own words, and as technically precise as possible,
 // what the line of code below, does.

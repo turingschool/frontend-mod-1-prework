@@ -34,6 +34,10 @@ var sum = 2+2;
 for (var i=0; i<7; i++) {
   console.log(sum);
 }
+// could also be
+// for (var i=0; i<7; i++) {
+//   console.log(2+2);
+// }
 
  // YOU DO: Write code below that logs the String 'She sells seashells down by the seashore'
  // 10 times.
@@ -41,6 +45,10 @@ var string= "She sells seashells down by the seashore";
 for (var i=0; i<10; i++) {
   console.log(string);
 }
+// could also be
+// for (var i=0; i<10; i++) {
+//  console.log("She sells seashells down by the seashore");
+// }
 
 //-------------------
 // LEVEL 2: An Added Layer of Challenge
@@ -52,10 +60,16 @@ var string = "This is loop number: ";
 for (var i=0; i<1; i++) {
   console.log(string + i);
 }
+
 //To loop it several times, say 5 times...
 for (var i=0; i<5; i++) {
   console.log(string + i);
 }
+//could also be
+//  for (var i=0; i<5; i++) {
+//  console.log("This is loop number: " + i);
+// }
+
 // YOU DO: Using a for loop, how could you get an output that looks like this:
 
 // 10
@@ -68,11 +82,10 @@ for (var i=0; i<5; i++) {
 // 3
 // 2
 // 1
-for (var x = 10; x >= 1; x--) {
-console.log(x);
+
+for (var i = 10; i >= 1; i--) {
+console.log(i);
 }
-//I didn't want to use i here because i makes me think index, and that wouldn't make this loop make sense.
-//So instead I used x to just represent an integer.
 
 
 // Not sure? Try to google some terms that seem relevant. Play around with it. Don't spend
