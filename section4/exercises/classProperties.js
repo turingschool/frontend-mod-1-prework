@@ -108,9 +108,10 @@ class Dog3 {
   }
 }
 var alice = new Dog3("retriever", 50, "red");
-
+var shae = new Dog3("german shepherd", 50, "tricolor");
 
 console.log(alice);
+console.log(shae);
 
 // Prompt 2: Snack
 class Snack3{
@@ -121,7 +122,10 @@ class Snack3{
   }
 }
 var chips = new Snack3("salty", "crunchy", "Lays");
+var dip = new Snack3("tangy", "smooth", "Costco");
+
 console.log(chips);
+console.log(dip);
 
 // Prompt 3: Shirt
 class Shirt3{
@@ -132,4 +136,7 @@ class Shirt3{
   }
 }
 var buttonDown = new Shirt3("blue", "businessCasual", "Target");
+var tankTop = new Shirt3("white", "underwear", "Hanes");
+
 console.log(buttonDown);
+console.log(tankTop);
