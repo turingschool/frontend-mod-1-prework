@@ -38,16 +38,28 @@ if (bearChoice === 1) {
 Questions
 
 1. In English, using technical vocabulary, describe what is happening between lines 14 and 18.
+    If door 1 is picked then the bear clothing is a hat. if its door 2 then the clothing is a scarf.
 
 2. What variable has a new value assigned to it after the first if statement executes?
+    bearClothing
 
 3. If you changed the variable doorChoice to equal 3, what would the bearClothing value be?
+    scarf
 
 4. In English, using technical vocabulary, describe what is happening between lines lines 27 and 35.
+    the bear gets 3 choices, depending what choice the bear picks console.log will print out the string that matches with the bears choices
+    if the bear picks neither though then you become friends with the bear.
 
 5. If you changed the variable bearChoice to equal 3, what will be the final outcome be?
-
+    "you run as fast as you can into the next room. It's full of snakes"
 6. If you changed the variable doorChoice to equal 1, and the variable bearChoice to equal 2, what will be the final outcome be?
-
+    "You enter a dark room with two doors. Do you go through #1 or #2?"
+    "You see a bear putting on a scarf"
+    "It looks like that scarf is too small for the bear, do you..."
+    "1. Offer your own to the bear?"
+    "2. Point it out to the bear?"
+    "3. Make a dash for the next room?"
+    "You run as fast as you can into the next room. It's full of snakes!"
 7. What is your favorite ending?
+    where you stay and become the bears friend.
 */
