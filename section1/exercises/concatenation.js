@@ -23,6 +23,7 @@ console.log("My zoo has " + numberOfCreatures + " " + creatures + "!");
 
 // YOU DO: What data type will be logged to the console as a result of line 22? Explain.
 // Your answer and explanation here:
+
 /* A string will be the data type logged to the console as a result of line 22 due to "type coercion";
 which is the conversion of one type of object to a new object of a different type with similar content. */
 
@@ -49,17 +50,17 @@ console.log("In a predictable result, the " + slowPoke + " beat the " + speedy +
   // you name the variables. Remember, the goal is to be concise but descriptive (it's a hard balance!)
   // Then, log out ONE sentence that incorporates all THREE variables.
 
-var homeworkAssignment = "Modue 1 Technical Pre-work";
+var homeworkAssignment = "Module 1 Technical Pre-work";
 var numberOfSections = 4;
 var dueDate = "January 6, 2021";
 
-console.log("The " + homeworkAssignment + " consists of " + homeworkSections + " parts that are due on " + dueDate + "!");
+console.log("The " + homeworkAssignment + " consists of " + numberOfSections + " parts that are due on " + dueDate + "!");
 
 
 
 //-------------------
 // FINAL CHECK
 //-------------------
-//COMPLETE
+//COMPLETE!
 // Did you run this file in your terminal to make sure everything printed out to the console
   // as you would expect? You should be doing this by now, and getting into the habit of it.

@@ -68,7 +68,7 @@ console.log(4 <= 5);
 //-------------------
 // FINAL CHECK
 //-------------------
-//COMPLETE
+//COMPLETE!
 // Did you run this file in your terminal to make sure everything printed out to the console
   // as you would expect? If you had issues with doing so, ask in your pre-work channel for
   // help ASAP.

@@ -42,4 +42,4 @@ _All ecommerce sites seem to separate the objects that make up your shipping inf
 
 9. What questions do you still have about the work we've done so far? (not having a question is not an option)
 
-_How could a boolean value be used in concatenation; is it applicable?_
+_How could a boolean value be used in concatenation? Is it applicable?_
