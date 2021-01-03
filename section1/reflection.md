@@ -43,22 +43,5 @@ _All ecommerce sites seem to separate the objects that make up your shipping inf
 
 9. What questions do you still have about the work we've done so far? (not having a question is not an option)
 
-_Isn't 9 > 12_
-_//=> **false**, because 9 is less than 12?_
+_How could a boolean value be used in concatenation; is it applicable?_
 =======
-2. What are the data types you learned about in this section? In your own words, define each.
-
-3. How would you log the string `"Hello World!"` to the console?
-
-4. What is/are the character(s) you would use to indicate comments in a JavaScript file? What is the purpose of a code comment?
-
-5. In your own words, what is a variable? How would you explain it to a 5 year old?
-
-6. Think of a site or app you use frequently. What are three variables that are probably used? Which data type would each of those variables probably hold?
-
-7. In your own words, explain what concatenation is.
-
-8. Think of a site or app you use frequently. Where do you think the developers used concatention?
-
-9. What questions do you still have about the work we've done so far? (not having a question is not an option)
->>>>>>> 3bb85cae9208a7e81ba4076fddc38afc31d11d97

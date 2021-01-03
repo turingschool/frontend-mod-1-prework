@@ -50,7 +50,7 @@ console.log("In a predictable result, the " + slowPoke + " beat the " + speedy +
   // Then, log out ONE sentence that incorporates all THREE variables.
 
 var homeworkAssignment = "Modue 1 Technical Pre-work";
-var homeworkSections = 4;
+var numberOfSections = 4;
 var dueDate = "January 6, 2021";
 
 console.log("The " + homeworkAssignment + " consists of " + homeworkSections + " parts that are due on " + dueDate + "!");
