@@ -45,6 +45,7 @@ console.log(numberOfPets);
 // IN WORDS:
 // How did you decide to use the data type you did for each of the three variables above?
   // Explain.
+  
 /* Each variable name is acknowledging the data type the variable should be. A "first name" will always be a string;
 isHungry could have a string value, but boolean logic fits better here as the value should be either true or false;
 the number of pets variable is clearly declaring that this variable should be a number.*/

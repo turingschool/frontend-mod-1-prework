@@ -56,6 +56,7 @@ var dueDate = "January 6, 2021";
 console.log("The " + homeworkAssignment + " consists of " + homeworkSections + " parts that are due on " + dueDate + "!");
 
 
+
 //-------------------
 // FINAL CHECK
 //-------------------

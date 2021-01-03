@@ -2,7 +2,6 @@
 
 1. How did the SuperLearner Article resonate with you? What from this list do you already do? Want to start doing or do more of? Is there anything not on this list, that you would add to it?
 
-<<<<<<< HEAD
 _The concepts shared here will be especially helpful for ensuring success at Turing, and I am regularly trying to apply these concepts to maintain my health and well-being. I am breaking bad habits with the Pomodoro technique, and I greatly appreciate that Turing prioritizes learning this behavior. I hope to start branching into reading more books, rather than only listening audio books, which I do a great deal of._
 
 2. What are the data types you learned about in this section? In your own words, define each.
