@@ -9,7 +9,7 @@ _The concepts shared here will be especially helpful for ensuring success at Tur
 _I learned about three main data types used in JavaScript: Strings, Numbers, and Booleans._
 _A string consists of alphanumerical and/or special characters wrapped in single or double quotes (open/close quotations must be consistent)._
 _The number data type includes both floats and integers; positive and negative alike (no commas for big numbers)._
-_The boolean data type evaluates one of two values, true or false._
+_The boolean data type evaluates one of two values, `true` or `false`._
 
 3. How would you log the string `"Hello World!"` to the console?
 
@@ -17,8 +17,8 @@ _The boolean data type evaluates one of two values, true or false._
 
 4. What is/are the character(s) you would use to indicate comments in a JavaScript file? What is the purpose of a code comment?
 
-_Single line comments start with a double forward slash (//)._
-_Multi-line comments start with a slash asterisk (/*) and end with an asterisk slash (*/)_
+_Single line comments start with a double forward slash (`//`)._
+_Multi-line comments start with a slash asterisk (`/*`) and end with an asterisk slash (`*/`)_
 _Code comments allow developers to include additional information for themselves, others, or use code comments to de-activate sections of code._
 
 5. In your own words, what is a variable? How would you explain it to a 5 year old?
@@ -34,7 +34,7 @@ _The slot availability is a boolean data type and toggles based on the number of
 
 7. In your own words, explain what concatenation is.
 
-_Concatenation is the joining of two values together. "Cat" + "Dog" = "CatDog"_
+_Concatenation is the joining of two values together. `"Cat"` + `"Dog"` = `"CatDog"`_
 
 8. Think of a site or app you use frequently. Where do you think the developers used concatenation?
 
