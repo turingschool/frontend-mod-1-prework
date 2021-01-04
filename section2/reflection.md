@@ -36,8 +36,6 @@ if (userOnline === true) {
 }
 ```
 
-
-
 *4. How do you add multiple conditions to an `if` statement? In your own words, explain how to program reads them and determines what to do.*  
 
 To add multiple conditions to an 'if' statement, first declare the 'if' statement followed by a condition. If the condition
@@ -52,6 +50,6 @@ The logical operator ''&&'' is available to us as developers to check that two c
 
 
 *6. What questions do you still have about `if` statements and/or functions?*
-  
+
 I am still a little fuzzy on the argument vs parameter distinction. What is the difference between a argument as a variable
 and a parameter? To me they seem quite similar.    
