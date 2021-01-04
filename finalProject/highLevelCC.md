@@ -58,11 +58,11 @@ function rot13(str) {
 
   for(var i = 0; i<str.length; i++){
 
-    * and another variable for 'acciNum' where we are getting a alphabetical number order to run a loop
+  * and another variable for 'acciNum' where we are getting a alphabetical number order to run a loop
 
      var asciiNum = str[i].charCodeAt();
 
-     4. use if statement to run loop and add result to an empty string variable
+  4. use if statement to run loop and add result to an empty string variable
 
    if (asciiNum >= 65 && asciiNum <= 90) {
 
@@ -74,7 +74,7 @@ function rot13(str) {
 
   return solved;
 
-  * it should return value/ letter of "N"
+* it should return value/ letter of "N"
  }
 
 rot13("A");
@@ -82,17 +82,26 @@ rot13("A");
 #### Copy Code and check it Repl.it
 ***
 function rot13(str) {
+
   var solved = "";
+
   for(var i = 0; i<str.length; i++){
+
     var asciiNum = str[i].charCodeAt();
+
   if (asciiNum >= 65 && asciiNum <= 90) {
+
     solved += String.fromCharCode(asciiNum +13);
+
   }
+
   }
+
   return solved;
+
 }
 
 rot13("ACEG");
 ***
 
-** I did really have a lot of question about Caesar cipher, it seems has different variation of encoding and decoding, my research showed multiple results with different methods, and it feels like i am missing still a lot. Hope this is somehow close to understanding of Caesar cipher.
+* I did really have a lot of question about Caesar cipher, it seems has different variation of encoding and decoding, my research showed multiple results with different methods, and it feels like i am missing still a lot. Hope this is somehow close to understanding of Caesar cipher.
