@@ -70,7 +70,6 @@ addSum();
 // YOU DO🎈: Write a function that takes in two strings and prints a concatenation
 // of those two strings, for example the arguments could be ("Oscar", "Ruck") and
 // the end result might be "Oscar and Ruck are BFFS".  Then, call that function.
-
 dude1 = "Oscar";
 dude2 = "Rusk";
 
@@ -96,6 +95,6 @@ EXPLAIN:
 I named the function bestFriends because the main idea of the string was to convey who are the bestFriends.
 I named each paramaete dude1 and dude2 but that probably wasn't the best naming of the variable. In this case, dude1 and
 dude2 can be considered gendered language and may not always be applicable if the parameters being called are names
-of dudettes. Person1 and Person2 would be a more appropriate term to the call each of those variables. 
+of dudettes. Person1 and Person2 would be a more appropriate term to the call each of those variables.
 
 */
