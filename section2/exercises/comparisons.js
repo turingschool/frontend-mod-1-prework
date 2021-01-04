@@ -46,6 +46,7 @@ thinks they _need_ to use the `==` loose comparison, they are doing something th
 you develop good habits that follow best practice, from now on, use the strict comparison.
 */
 
+
 // YOU DO: log the result of the comparison: is numberTeachers not equal to numberStudents?
 // this should log: true
 console.log("Is numberTeachers not equal to numberStudents?", numberTeachers != stringTeachers);

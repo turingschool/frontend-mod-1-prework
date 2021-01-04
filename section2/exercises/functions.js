@@ -7,7 +7,6 @@ any remaining prompt.
 
 Make sure to run the file with node in your command line.
 */
-
 //-------------------
 // PART 1: Function Syntax
 //-------------------

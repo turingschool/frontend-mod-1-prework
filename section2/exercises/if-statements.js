@@ -31,6 +31,7 @@ if (weather == 'sunny') {
   console.log('good to go!');
 }
 
+
 /*
 YOU DO:
 Using the dogAge variable defined below,
