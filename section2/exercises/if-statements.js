@@ -40,7 +40,6 @@ an adult, or elderly (10 or older).
 Log to the console the appropriate age range
 (puppy, adult, elderly).
 */
-
 var dogAge = 3;
 // Write your conditional here
 if (dogAge <= 2) {
