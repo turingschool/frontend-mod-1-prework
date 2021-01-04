@@ -27,31 +27,33 @@ var harry = "Harry Potter must not return to Hogwarts!"
 console.log(harry);
 
 // YOU DO:
-// Declare three variables, named `firstName`, `isHungry` and `numberOfPets`. 
+// Declare three variables, named `firstName`, `isHungry` and `numberOfPets`.
   // Store the appropriate data types in each.
 // log all three variables to the console.
 var firstName = "Shawn";
-var isHungry = "Actually SO hungry rn";
+var isHungry = true;
 var numberOfPets = 1;
 console.log(firstName);
 console.log(isHungry);
 console.log(numberOfPets);
 
 // IN WORDS:
-// How did you decide to use the data type you did for each of the three variables above? 
+// How did you decide to use the data type you did for each of the three variables above?
   // Explain.
-//I used strings for the first two variables because I needed to use letters. 
-//I used a number for the third variable because because I have 1 pet. 
+//I used a string for the first variable because I needed to use letters.
+//I used a boolean because the variable isHungry implies a boolean expression
+//is stored in this variable.
+//I used an integer for the third variable because I have 1 pet.
 
 
 // YOU DO:
-// Re-assign the values to the three variables from the previous challenge to different 
+// Re-assign the values to the three variables from the previous challenge to different
   // values (but same data type).
 // log all three variables to the console.
-firstName = "Dopeamean";
-isHungry = "is HANGRY";
-numberOfPets = "One good boy";
-console.log(firstname);
+firstName = "Shawnathan";
+isHungry = false;
+numberOfPets = 2;
+console.log(firstName);
 console.log(isHungry);
 console.log(numberOfPets);
 
@@ -59,12 +61,12 @@ console.log(numberOfPets);
 // Using the variables below, log the total number of snacks to the console:
 var healthySnacks = 6;
 var junkFoodSnacks = 8;
-console.log(healthySnacks + junkFoodSnacks);
+console.log(healthySnacks + junkFoodSnacks + " snacks");
 
 //-------------------
 // FINAL CHECK
 //-------------------
 
-// Did you run this file in your terminal to make sure everything printed out to the console 
-  // as you would expect? If you had issues with doing so, ask in your pre-work channel for 
+// Did you run this file in your terminal to make sure everything printed out to the console
+  // as you would expect? If you had issues with doing so, ask in your pre-work channel for
   // help ASAP.

@@ -1,6 +1,6 @@
 /*
 In the exercises below, write your own code where indicated
-to achieve the desired result. 
+to achieve the desired result.
 
 Each section has 2 examples that are already completed. Your task is to complete
 any remaining prompt in each section.
@@ -15,7 +15,7 @@ file from your terminal with the command `node section1/exercises/dataTypes.js`
 //-------------------
 
 // EXAMPLE: Write code below to log the String "Alan Turing" in the console:
-console.log("Alan Turing");
+console.log('Alan Turing');
 
 // EXAMPLE: Write code below to log `Welcome to Turing!` in the console:
 console.log('Welcome to Turing!');
@@ -24,7 +24,7 @@ console.log('Welcome to Turing!');
 console.log('99 bottles of pop on the wall...');
 
 // YOU DO: Write code below to log one line from your favorite song or movie:
-console.log('It aint all good but its all good'); 
+console.log('It aint all good but its all good');
 
 
 //-------------------
@@ -69,6 +69,6 @@ console.log(4 <= 5);
 // FINAL CHECK
 //-------------------
 
-// Did you run this file in your terminal to make sure everything printed out to the console 
-  // as you would expect? If you had issues with doing so, ask in your pre-work channel for 
+// Did you run this file in your terminal to make sure everything printed out to the console
+  // as you would expect? If you had issues with doing so, ask in your pre-work channel for
   // help ASAP.
