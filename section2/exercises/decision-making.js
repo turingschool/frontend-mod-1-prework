@@ -44,36 +44,36 @@ is assigned the string 'hat'. If the variable doorChoice is not equal to 1, then
 
 2. What variable has a new value assigned to it after the first if statement executes?
 
-The variable bearClothing has a new value assigned to it after the first if statement. The variable either assigns to the string 'hat or 'scarf' depending on the 
-value doorChoice. 
+The variable bearClothing has a new value assigned to it after the first if statement. The variable either assigns to the string 'hat or 'scarf' depending on the
+value doorChoice.
 
 3. If you changed the variable doorChoice to equal 3, what would the bearClothing value be?
 
 The value of bearClothing would be 'scarf'. If the variable of doorChoice is equal to 1, then the variable bearClothing is assigned the string 'hat'. If doorChoice
-is equal to anything other than 1, then the variable bearClothing is assigned the value 'scarf'. 
+is equal to anything other than 1, then the variable bearClothing is assigned the value 'scarf'.
 
 4. In English, using technical vocabulary, describe what is happening between lines lines 27 and 35.
 
-A conditional if else statement is being called. 
+A conditional if else statement is being called.
 
-The condition checks if the variable bearChoice is equal to 1. If the variable is equal to 1, the console will log 
-the string "You offer the bear your hat or scarf (depending if the variable doorChoice is equal to 1) and the bear shows you a secret passage out."  
+The condition checks if the variable bearChoice is equal to 1. If the variable is equal to 1, the console will log
+the string "You offer the bear your hat or scarf (depending if the variable doorChoice is equal to 1) and the bear shows you a secret passage out."
 If the bearChoice variable is equal to 2, the console will log "You tell the bear the hat or scarf (depending if the variable doorChoice is equal to 1) is too small
-and it starts to cry!". 
-If the bearChoice variable is equal to 3, the console will log "You run as fast as you can into the next room. It's full of snakes!". 
-If the bearchoice variable is anything else, then the console will log "You stay with the bear and become it's best friend!") 
+and it starts to cry!".
+If the bearChoice variable is equal to 3, the console will log "You run as fast as you can into the next room. It's full of snakes!".
+If the bearchoice variable is anything else, then the console will log "You stay with the bear and become it's best friend!")
 
 5. If you changed the variable bearChoice to equal 3, what will be the final outcome be?
 
-If bearChoice is equal to 3, the outcome will have the console log the string "You run as fast as you can into the next room. It's full of snakes!". 
+If bearChoice is equal to 3, the outcome will have the console log the string "You run as fast as you can into the next room. It's full of snakes!".
 
 6. If you changed the variable doorChoice to equal 1, and the variable bearChoice to equal 2, what will be the final outcome be?
 
-The outcome will have the console log "You tell the bear the hat is too small and it starts to cry!". 
+The outcome will have the console log "You tell the bear the hat is too small and it starts to cry!".
 
 
 7. What is your favorite ending?
 
 My favorite ending is staying with the bear and becoming it's best friend because that is pretty cool. If I could be friends with a bear I definitely would.
-I'd put a saddle on him and ride him through the streets at night. Probably not legal but definitely badass. 
+I'd put a saddle on him and ride him through the streets at night. Probably not legal but definitely badass.
 */
