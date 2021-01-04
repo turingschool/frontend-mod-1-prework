@@ -39,15 +39,44 @@ Questions
 
 1. In English, using technical vocabulary, describe what is happening between lines 14 and 18.
 
+First, an 'if statement' is evaluating whether the value of the variable 'doorChoice' is strictly equal to the value '1'.
+If this comparison returns a value of 'true' (which it does), the string variable 'bearClothing' is then assigned a value of "hat".
+If the first expression were to return a 'false' value, the script would proceed to the 'else statement' and by default
+assign the 'bearClothing' variable a value of "scarf".
+
 2. What variable has a new value assigned to it after the first if statement executes?
+
+bearClothing
 
 3. If you changed the variable doorChoice to equal 3, what would the bearClothing value be?
 
+"scarf"
+
 4. In English, using technical vocabulary, describe what is happening between lines lines 27 and 35.
+
+First, using an 'if statement', the script asks whether or not the value of the variable 'bearChoice' is strictly equal to the value '1'.
+If it returns a value of 'true' (which it does), it logs the string "You offer the bear your", then concatenates onto
+this string the value of the variable 'bearClothing', then logs " and the bear shows you a secret passage out!".
+
+If 'bearChoice' weren't strictly equal to '1', it would have proceeded to the first 'else if statement' and evaluate whether or not
+'bearChoice' was strictly equal to '2'.  If 'true', it would print "You tell the bear the " + bearClothing + " is too small and it starts to cry!".
+
+If 'bearChoice' weren't strictly equal to '2', it would then proceed to the second 'else if statement' and evaluate whether or not
+'bearChoice' was strictly equal to '3'.  If 'true', it would print "You run as fast as you can into the next room. It's full of snakes!".
+
+Finally, if none of these 'if/else statements' returned 'true', the script would proceed to the 'else statement', which regardless
+of the value of "bearChoice" would return a value of 'true' and log the string "You stay with the bear and become it's best friend!".
 
 5. If you changed the variable bearChoice to equal 3, what will be the final outcome be?
 
+It would log the string "You run as fast as you can into the next room. It's full of snakes!".
+
 6. If you changed the variable doorChoice to equal 1, and the variable bearChoice to equal 2, what will be the final outcome be?
 
+The console would log: "You tell the bear the hat is too small and it starts to cry!".
+
 7. What is your favorite ending?
+
+The 'else statement', of course!!
+
 */
