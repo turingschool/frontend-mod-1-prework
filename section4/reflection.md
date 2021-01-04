@@ -29,24 +29,24 @@ makes objects more dynamic and flexible than arrays.
 
 *4. For each set of data, would an array or object be better to store it? Explain your choice.*
 
-  * List of all of the students in class
+  * List of all of the students in class  
   A. An array would be best. This is because student names are the only attribute we need to store. Since we only need
   this one data point per student an array makes most sense.
-  * List of states and their capitals
+  * List of states and their capitals  
   A. An object would be best. Since we need to two data points, the state and each state's capital, an object would be better
   suited for storing those two data points.
-  * List of things to pack for vacation
+  * List of things to pack for vacation  
   A. An array would be better here. This is because it is a simple list with only one attribute, in this case the name of
   the thing to back for vacation.
-  * Names of all the Instagram accounts I follow
+  * Names of all the Instagram accounts I follow  
   A. An array would be best. This is because only one attribute needs to be recalled, in this case, the name of the Instagram
   accounts I fill.
-  * List of student names and their cohort
+  * List of student names and their cohort  
   A. An object would be better here. Since we need to remember both the name of the student and their cohort, we need to store
   both of these attributes in the object. This will be helpful when calling all students from the same cohort.
-  * Ingredients and amount of each ingredient to bake a cake
+  * Ingredients and amount of each ingredient to bake a cake  
   A. An object would be best. An object would be able to remember each ingredient and how much of each ingredient we need.
-  * All my favorite restaurants
+  * All my favorite restaurants  
   A. An array would be best here. Since all we need to store is a list of restaurant names, an array would be an optimal
   choice here.
 
