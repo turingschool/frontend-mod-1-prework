@@ -29,8 +29,5 @@ The && and || logical operators:
 || checks that one of two conditions is true
 
 6. What questions do you still have about `if` statements and/or functions?
-I had a question on the functions exercise, in "PART 1: Function Syntax" the first example places a semicolon after the close curly brace. I did not follow that pattern. Should the final curly brace have a semicolon immediately after?
 
-function printName() {
-  console.log("Severus Snape");
-};
+I had a question on the functions exercise, in "PART 1: Function Syntax" the first example places a semicolon after the close curly brace. I did not follow that pattern. Should the final curly brace have a semicolon immediately after?
