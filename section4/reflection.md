@@ -15,19 +15,19 @@ _Objects group together variables and functions to create a model of something. 
 1. For each set of data, would an array or object be better to store it? Explain your choice.
 
   * List of all of the students in class
-_Array, because the list is one category with each item standalone (could be 1 column in a table)._
+  - _Array, because the list is one category with each item standalone (could be 1 column in a table)._
   * List of states and their capitals
-_Object, because the list is has a value (capitals) for each item (key - states) in the list (could be 2 columns in a table)._
+  - _Object, because the list is has a value (capitals) for each item (key - states) in the list (could be 2 columns in a table)._
   * List of things to pack for vacation
-_Array, because the items of the list can standalone without additional data attached to each item._
+  - _Array, because the items of the list can standalone without additional data attached to each item._
   * Names of all the Instagram accounts I follow
-_Array, because the accounts you follow each only have one Name value._  
+  - _Array, because the accounts you follow each only have one Name value._  
   * List of student names and their cohort
-_Object, because each student (key) may have a value (cohort) unique to them._  
+  - _Object, because each student (key) may have a value (cohort) unique to them._  
   * Ingredients and amount of each ingredient to bake a cake
-_Object, because each ingredient (key) will have unique measurement (value) in regard to the recipe._  
+  - _Object, because each ingredient (key) will have unique measurement (value) in regard to the recipe._  
   * All my favorite restaurants
-_Array, because the list is just the names of the restaurant and no other data is necessary._
+  - _Array, because the list is just the names of the restaurant and no other data is necessary._
 
 1. In this section, we talked about an `transaction item object`. It has keys that represent different properties an bank transaction would have, and values that store the data. In a banking app, this data would eventually be displayed in the browser for the user. Think of another Object in a web application that you use frequently. What is it? What keys might be on it? What are example values?
 
