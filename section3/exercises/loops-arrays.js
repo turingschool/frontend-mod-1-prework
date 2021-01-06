@@ -19,7 +19,7 @@ for (var i = 0; i < animals.length; i++) {
 // YOU DO: Write code below that iterates through a list of animals and prints "The
 // <animal> is awesome!" for each animal.
 for (var i = 0; i < animals.length; i++) {
-  console.log(animals[i] + " is awesome!");
+  console.log("The " + animals[i] + " is awesome!");
 }
 
 

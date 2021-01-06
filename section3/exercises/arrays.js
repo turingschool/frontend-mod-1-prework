@@ -35,10 +35,11 @@ console.log(animals[2]= "Gorilla");
 
 animals.push("Tiger");
 console.log(animals);
-console.log(animals + " , " + "Tiger");
+//console.log(animals + " , " + "Tiger"); // this is another way to add a string (I THINK)
 
 // YOU DO: Write code that will log the String "Elephant" in the animals array
-console.log(animals[2]);
+console.log(animals[4]= "Elephant");
+console.log(animals);
 //-------------------
 // PART 2: Foods: Array Methods
 //-------------------
@@ -59,18 +60,18 @@ food.push("broccoli");
 food.pop();
   console.log(food);
 
-food.splice([4]); // this is a more specific way of removing an item from an array
-  console.log(food);
+food.splice(0 , 1); // this is a more specific way of removing an item from an array
+  //console.log(food);
 // YOU DO: Write code to add 3 new foods to the array.
   // There are several ways to do this - choose whichever you'd like!
 // Then, log the changed array to verify the new items have been added
-var count = food.push("Sushi", "Thai", "Pizza");
+food.push("Sushi", "Thai", "Pizza");
 
   console.log(food);
   console.log(food.length);
 // YOU DO: Remove the food that is in index position 0.
-food.splice([0]); //EVA THIS ISN'T RUNNING come back to it
-  console.log(food);// EVA THIS ISNT RUNNING COME BAC TO IT
+food.shift();
+  console.log(food);
 //-------------------
 // PART 3: Where are Arrays used?
 //-------------------
@@ -119,15 +120,16 @@ var hasCharger = false;
 var chargerType = "house";
 
 // Write your conditional here
+//if this condition is met the you can call an uber
 if (percentBatteryLeft >= 15){
   console.log("Call an Uber");
-}
+}// if fisrt condition isnt met and this one is met you can call an uber
   else if(percentBatteryLeft >= 14 && hasCharger == true && chargerType == "car"){
   console.log("Call an Uber");
-}
+} // if the above conditions aren't met and this one is, you dont have enough battery to call an Uber
 else if (percentBatteryLeft <= 14 && hasCharger == false) {
   console.log("Can't call an Uber");
-}
+} // if this condition is met, then you still can't call an uber because the variables dont meet the conitions being presented.
 else if(percentBatteryLeft <= 14 && hasCharger == true && chargerType == "house"){
   console.log("Can't call an Uber");
 }
