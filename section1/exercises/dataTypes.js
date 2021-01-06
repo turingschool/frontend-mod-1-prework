@@ -26,12 +26,17 @@ var song = "99 bottles of pop on the wall...";
 console.log("99 bottles of pop on the wall...");
 
 console.log(song);
+//here I put two different ways of logging "99 bottles..."
+
 // YOU DO: Write code below to log one line from your favorite song or movie:
 var lyrics = "You can travel the world, but you cant run away from the person you are in your heart";
 
 console.log(lyrics);
 
 console.log("You can be who you want to be, make us beleive in you, keep all your light in the dark");
+// In my examples I gave to examples as well.
+// I call one through a string on the log and the other i created a variable and called the variable in the log.
+
 //-------------------
 //NUMBERS
 //-------------------

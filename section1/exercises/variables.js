@@ -18,7 +18,7 @@ console.log(name);
 // EXAMPLE: Write code below to add 2 to the variable `students` and
 // log the result:
 var enrolledStudents = 22;
-console.log(enrolledStudents);
+console.log(enrolledStudents + 2);
 
 // YOU DO:
 // Write code below to save the string 'Harry Potter must not return to Hogwarts!'
@@ -26,6 +26,9 @@ console.log(enrolledStudents);
 var message = " must not return to Hogwarts!";
 
 console.log(name + message);
+
+/* since theres already a name variable above we just have to call it down here and add the
+message variable to the log*/
 
 // YOU DO:
 // Declare three variables, named `firstName`, `isHungry` and `numberOfPets`.
@@ -40,7 +43,10 @@ console.log(firstName + " has " + numberOfPets + " pets." + " Are they hungry? "
 
 // IN WORDS:
 // How did you decide to use the data type you did for each of the three variables above?
-  // Explain.
+  /* Explain. I decided to use a string for firstName since the variable name is very specific
+  and a string is the easiest datatype for a name. The isHungry i decided to use a boolean because that data type can change from attribute
+  to false and a boolean is easiet to change (I admit i didnt know how i could log it to the console i hope i did ok in my example)
+  The numberOfPets I decided to use an integer as im giving a quantity of the amout I have */
 
 
 // YOU DO:

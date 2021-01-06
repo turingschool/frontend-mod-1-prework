@@ -22,9 +22,11 @@ var creatures = "unicorns";
 console.log("My zoo has " + numberOfCreatures + " " + creatures + "!")
 
 // YOU DO: What data type will be logged to the console as a result of line 22? Explain.
-// MY ANSWER: The string and integer data type will logged. Because numberOfCreatures is an integer
+// MY ANSWER: The string and integer data type will be logged.
+// Your answer and explanation here: Because numberOfCreatures is an integer
 //            and creatures and "My zoo has" "!" are strings.
-// Your answer and explanation here:
+//            It will logg "My zoo has 7 unicorns!"
+
 
 
 // YOU DO:
@@ -40,7 +42,7 @@ console.log("The " + speedy + " jumped over the " + slowPoke);
 // reads "In a predictable result, the tortoise beat the hare!"
 // Note that we are omitting the var keyword below, because we are re-assigning the variables
 
-slowPoke = "tortoise";
+slowPoke = "tortoise";  //the variables slowPoke & speedy have been reassigned here
 speedy = "hare";
 
 console.log("In a predictable result, the " + slowPoke + " beat the " + speedy + "!");
