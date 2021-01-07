@@ -29,7 +29,7 @@ if (){            //if this first condition is true it will execute the code
 }
   ```
 1. What tools are available to you, as a developer, if you want to check that TWO conditions are met? Or, if you want to check that 1 of 2 conditions are met, before running a block of code?
-
+ Would my tools be repl and node on the terminal?? I'm sorry I didn't understand. cause I have used repl and node to check my code.
 
 1. What questions do you still have about `if` statements and/or functions?
 * I feel like i really understood if statements and functions. But my questions is, is there a limit to how many conditional statements a developer can add?
