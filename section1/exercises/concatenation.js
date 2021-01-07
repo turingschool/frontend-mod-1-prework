@@ -60,4 +60,4 @@ console.log(firstName + ' tried to think of something clever for this prompt, ' 
 //-------------------
 
 // Did you run this file in your terminal to make sure everything printed out to the console
-// as you would expect? You should be doing this by now, and getting into the habit of it.
+// as you would expect? You should be doing this by now, and getting into the habit of it. - Yes

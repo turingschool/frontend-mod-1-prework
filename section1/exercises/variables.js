@@ -68,6 +68,6 @@ console.log(healthySnacks + junkFoodSnacks);
 // FINAL CHECK
 //-------------------
 
-// Did you run this file in your terminal to make sure everything printed out to the console
-// as you would expect? If you had issues with doing so, ask in your pre-work channel for
-// help ASAP.
+// Did you run this file in your terminal to make sure everything printed out
+// to the console as you would expect? - Yes
+// If you had issues with doing so, ask in your pre-work channel for help ASAP.
