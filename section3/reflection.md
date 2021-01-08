@@ -21,9 +21,9 @@ I'm aware that in the past I have been reluctant to ask for help; whether it be 
 DoorDash menus that display certain items during certain times of the day. Breakfast menus items in the morning hours, lunch and dinner items after noon. The time of day the application is being used by the user will return a different array of menu items.
 EX. Diner menu accessed at 09:00 will return the breakfast array.
 
-''js
+```js
 var breakfast = ["Pancakes", "Waffles", "Chknwaffles", "EggsBenedict"]
-''
+```
 
 4. In your own words, explain what an Array method is.
 
