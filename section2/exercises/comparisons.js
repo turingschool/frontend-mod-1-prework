@@ -154,7 +154,7 @@ console.log(lovesToPlay && (age < 1));
 
 // What did your final line of code evaluate to? Why do you think that is? Explain.
 // ANSWER: The final code would evaluate to false due to the condition I provided.
-// The dog is one year old, and this not less than one. This is assuming, of course,
+// The dog is one year old, and this is not less than one. This is assuming, of course,
 // that this puppy matured into an adult at one. I also made sure to enclose the 2nd
 // condition in brackets to insure that it was evaluated correctly.
 
