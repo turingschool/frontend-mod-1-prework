@@ -12,10 +12,11 @@ Make sure to run the file with node in your command line.
 // EXAMPLE:Manipulate the variable 'weather' to see if you can print something other
   // than 'coat'.
 
-var weather = 'snowy';
+var weather = 'sunny';
 // var weather = 'icy';
-// var weather = 'rainy';
+// var weather = 'snowy';
 // var weather = 'sunny';
+// var weather = 'rainy'
 // While working through this example, I would toggle which variable declaration is
   // commented in/out and run the program in node several times to observe the output.
 
@@ -31,10 +32,10 @@ if (weather == 'sunny') {
   console.log('good to go!');
 }
 
-/* 
+/*
 YOU DO:
-Using the dogAge variable defined below, 
-determine if a dog is a puppy (2 or younger), 
+Using the dogAge variable defined below,
+determine if a dog is a puppy (2 or younger),
 an adult, or elderly (10 or older).
 
 Log to the console the appropriate age range
@@ -43,6 +44,13 @@ Log to the console the appropriate age range
 
 var dogAge = 3;
 // Write your conditional here
+if (dogAge >= 10) {
+  console.log('elderly');
+} else if (dogAge <= 2) {
+  console.log('puppy');
+} else{
+  console.log('adult');
+}
 
 
 /*
@@ -65,8 +73,12 @@ When numQuarters = 3, program should log "I have enough money for a gumball"
 var numQuarters = 0;
 
 // Write your conditional here
-console.log("I have enough money for a gumball");
-console.log("I don't have enough money for a gumball");
+if (numQuarters >= 2) {
+  console.log("I have enough money for a gumball");
+} else if (numQuarters < 2) {
+  console.log("I don't have enough money for a gumball");
+}
+
 
 
 /*
@@ -82,16 +94,29 @@ When cupsOfFlour = 2 and hasSauce = true, your program should log "I can make pi
 When cupsOfFlour = 3 and hasSauce = true, your program should log "I can make pizza";
 */
 
-var cupsOfFlour = 1;
-var hasSauce = true;
+var cupsOfFlour = 2;
+var hasSauce = false;
 
 // Write your conditional here
-
+if (cupsOfFlour >= 2 && hasSauce === true) {
+  console.log("I can make a pizza!");
+} else if (cupsOfFlour >= 2 && hasSauce === false) {
+  console.log("I cannot make pizza!");
+} else if (cupsOfFlour < 2 && hasSauce === true) {
+  console.log("I cannot make a pizza!");
+} else if (cupsOfFlour === 2 && hasSauce === true){
+  console.log("I can make a pizza!");
+}
 
 /*
-For the last two exercises, an ideal solution probably uses a logical operator. 
+For the last two exercises, an ideal solution probably uses a logical operator.
 Did yours? Do you know what a logical operator in JavaScript is? Google it to answer
 for yourself!
+Mine did use a logical operator! Logical operators often return non Boolean values.
+In this situation, in order to make a pizza, both of my variables had to return with
+a value of "true" to print the string "I can make a pizza!" If one of the variables
+is false, then the statment cannot be true, which would return "I cannot make a pizza!"
+It is admittedly hard for me to put this into words, I need to practice explaining this more.
 
 If your solution doesn't use a logical operator, this is a great topic to bring up
 in your pre-work group's Slack channel!
