@@ -8,8 +8,8 @@
 
 3. What is a conditional statement? Give one example of a daily life conditional. Give one example of where a conditional is probably used in a web application you use.
   * Conditional statements (if/if else statements) are used to perform specific actions based upon the outcome of conditional expressions.
-	* Daily Life Conditional: If I do not complete the pre-work assignments, I will not pass Turing.
-	* Web Application Conditional: If "Opt Out" is selected, a user should not receive promotional emails from REI.
+	**Daily Life Conditional:** If I do not complete the pre-work assignments, I will not pass Turing.
+	**Web Application Conditional:** If "Opt Out" is selected, a user should not receive promotional emails from REI.
 
 4. How do you add multiple conditions to an `if` statement? In your own words, explain how to program reads them and determines what to do.
 * If two or more conditions (that produce different results) need to be evaluated, then `else if` or `else` statements can be used (after the `if` statement). The first condition is evaluated within the `if` statement, and if this equates to `true`, the `if` block will run. However, if the `if` statement equates to `false`, then the interpreter will move on to the `else if` statements. An `else` block will run if none of the conditions specified equate to `true`.
