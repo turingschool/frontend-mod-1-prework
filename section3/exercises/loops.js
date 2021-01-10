@@ -24,23 +24,49 @@ for (var i = 0; i < 3; i++) {
 
 // What is logged to the console for this second example? Why?
 // EXPLAIN:
+// The following is logged to the console: 0 1 2 (on separate lines).
+// The "for" loop establishes that:
+// - the variable "i" is initialized to 0
+// - the condition upon which the loop iterates is i < 3
+// - i will increment by 1 after each iteration
+
+// The loop will initially run, printing the value of "i" on the console (0).
+// "i" will increment by 1 (to equal 1), and then the loop will iterate. This
+// will repeat until the 4th iteration in which "i" is equal to 3 and the
+// condition evaluates to false.
 
 
  // YOU DO: Write code below that logs to the console, the sum of 2 plus 2, 7 times:
-
+for (var i = 0; i < 7; i++) {
+	console.log(2 + 2);
+}
 
  // YOU DO: Write code below that logs the String 'She sells seashells down by the seashore'
  // 10 times.
+var tongueTwister = "She sells seashells down by the seashore.";
+var iterNum = 1;
 
+for (var i = 42; i <= 51; i++) {
+	console.log(iterNum, tongueTwister);
+	iterNum++;
+}
 
 //-------------------
 // LEVEL 2: An Added Layer of Challenge
 //-------------------
 
-// YOU DO: Write code below that logs to the console a String of "This is loop number: " 
+// YOU DO: Write code below that logs to the console a String of "This is loop number: "
 //that concatenates with `i`.
+var loopString = "This is a loop number: ";
+
+for (var i = 1; i < 11; i++) {
+	console.log(loopString + i);
+}
 
 // YOU DO: Using a for loop, how could you get an output that looks like this:
+for (var i = 10; i > 0; i--) {
+	console.log(i);
+}
 
 // 10
 // 9
@@ -53,6 +79,6 @@ for (var i = 0; i < 3; i++) {
 // 2
 // 1
 
-// Not sure? Try to google some terms that seem relevant. Play around with it. Don't spend 
+// Not sure? Try to google some terms that seem relevant. Play around with it. Don't spend
 // more than 15 minutes without making progress. If you are at 15 minutes and haven't made
 // progress, that means it's time to reach out to your pre-work group on Slack!
