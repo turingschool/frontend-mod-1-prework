@@ -13,13 +13,34 @@ Make sure to run the file with node in your command line.
   // Write a class skeleton
   // Create 2 object instances and store in variables
   // Log each variable to the console.
-  // You do not need any proerties at this time!!
+  // You do not need any properties at this time!!
 
 // Prompt 1: Dog
+class Canine {
+
+}
+var poodle = new Canine();
+var chow = new Canine();
+console.log(poodle);
+console.log(chow);
 
 // Prompt 2: Snack
+class SnackFood {
+
+}
+var cookie = new SnackFood();
+var jerky = new SnackFood();
+console.log(cookie);
+console.log(jerky);
 
 // Prompt 3: Shirt
+class Shirt {
+
+}
+var collared = new Shirt();
+var turtle_neck = new Shirt();
+console.log(collared);
+console.log(turtle_neck);
 
 //-------------------
 // Part 2: Properties
@@ -33,10 +54,40 @@ Make sure to run the file with node in your command line.
   // Log that variable to the console.
 
 // Prompt 1: Dog
+class DogBreed {
+  constructor() {
+    this.lifespan = "12yrs";
+    this.temperment = "friendly";
+    this.coat = "short-haired";
+  }
+}
+var poodle = new DogBreed();
+console.log(poodle);
 
 // Prompt 2: Snack
+class Snack1 {
+  constructor() {
+    this.name = "Yummy No-Nutty: Dark"
+    this.calorie_count = 380;
+    this.nuts = "Contains nuts!";
+  }
+}
+var yummyNoNutty = new Snack1();
+console.log(yummyNoNutty);
 
 // Prompt 3: Shirt
+class Shirt1 {
+  constructor() {
+    this.collar = "V-neck";
+    this.size = "Large";
+    this.print = "Plaid";
+  }
+}
+var button_down = new Shirt1();
+console.log(button_down);
+
+
+
 
 //-------------------
 // Part 3: Dynamic Properties
@@ -51,7 +102,45 @@ Make sure to run the file with node in your command line.
   // Log those variables to the console.
 
 // Prompt 1: Dog
+class DogBreed1 {
+  constructor(breed, temperament, coat) {
+    this.breed = breed;
+    this.temperament = temperament;
+    this.coat = coat;
+  }
+}
+var beagle = new DogBreed1("Beagle", "Gentle", "Short, hard coat");
+var husky = new DogBreed1("Husky", "Alert", "Thick, dense coat");
+
+console.log(beagle);
+console.log(husky);
 
 // Prompt 2: Snack
 
+class SnackFood1 {
+  constructor(name, calorie_count, nuts) {
+    this.name = name;
+    this.calorie_count = calorie_count;
+    this.has_nuts = nuts;
+  }
+}
+var yummyNoNutty = new SnackFood1("Yummy No-Nutty: Dark", 380, "Does not contain nuts!");
+var nuttyMilkBar = new SnackFood1("Nutty Milk Bar", 460, "Contains nuts!");
+
+console.log(yummyNoNutty);
+console.log(nuttyMilkBar);
+
 // Prompt 3: Shirt
+
+class Shirt2 {
+  constructor(style, size, color) {
+    this.style = style;
+    this.size = size;
+    this.color = color;
+  }
+}
+var menVee = new Shirt2("V-neck", "Medium", "Black");
+var menDress = new Shirt2("Dress Shirt", "Large", "Navy");
+
+console.log(menVee);
+console.log(menDress);
