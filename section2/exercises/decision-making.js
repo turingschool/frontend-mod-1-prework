@@ -38,16 +38,26 @@ if (bearChoice === 1) {
 Questions
 
 1. In English, using technical vocabulary, describe what is happening between lines 14 and 18.
+  In layman's terms, the rules for the rest of the code is being established. the rest of the
+  code will be compared to these first variables.
+  If variable doorChoice is strictly equal to 1, than variable bearClothing will have hat stored as
+  its value. Otherwise, variable bearClothing will have scarf stored as its value.
 
 2. What variable has a new value assigned to it after the first if statement executes?
-
+  bearClothing
 3. If you changed the variable doorChoice to equal 3, what would the bearClothing value be?
-
+  scarf
 4. In English, using technical vocabulary, describe what is happening between lines lines 27 and 35.
-
+  If bearChoice variable is strictly equal to 1, the first function will be exicuted. If the variable
+  is strictly equal to 2, the second function will be exicuted. If the variable is strictly equal to 3,
+  the third function will be exicuted. Otherwise if the variable is anything else, the last function will exicute.
 5. If you changed the variable bearChoice to equal 3, what will be the final outcome be?
-
+  The third function on line 32 will be exicuted displaying the string "You run as fast as you can into the next room.
+  It's full of snakes!"
 6. If you changed the variable doorChoice to equal 1, and the variable bearChoice to equal 2, what will be the final outcome be?
-
+  The second function on line 30 will exicute, displaying
+  "You tell the bear the hat is too small and it starts to cry!"
 7. What is your favorite ending?
+  "You stay with the bear and become it's best friend!" but in order to achive this
+  ending you would have to change the variable bearChoice to any number excluding 1, 2 and 3.
 */
