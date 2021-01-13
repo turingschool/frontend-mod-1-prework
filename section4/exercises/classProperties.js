@@ -16,10 +16,32 @@ Make sure to run the file with node in your command line.
   // You do not need any proerties at this time!!
 
 // Prompt 1: Dog
+class Dog {
+
+}
+var corgi = new Dog();
+var bassethound = new Dog();
+console.log(corgi);
+console.log(bassethound);
 
 // Prompt 2: Snack
+class Snack {
+
+}
+var goldfish = new Snack();
+var trailMix = new Snack();
+console.log(goldfish);
+console.log(trailMix);
 
 // Prompt 3: Shirt
+class Shirt {
+
+}
+var buttonDown = new Shirt();
+var tShirt = new Shirt();
+console.log(buttonDown);
+console.log(tShirt);
+
 
 //-------------------
 // Part 2: Properties
@@ -33,11 +55,44 @@ Make sure to run the file with node in your command line.
   // Log that variable to the console.
 
 // Prompt 1: Dog
+// Named Dog2 because Dog was already declared in previous exercise
+class Dog2 {
+  constructor() {
+    this.earType = "pointy";
+    this.legLength = "short";
+    this.isGoodDog = "An  excellent dog";
+  }
+};
+var corgi = new Dog2();
+console.log(corgi);
+var bassethound = new Dog2();
+console.log(bassethound);
 
 // Prompt 2: Snack
+class Snack2 {
+  constructor() {
+    this.type = "crackers";
+    this.sweetOrSalty = "salty";
+    this.shareable = "Hands off, they're all mine!";
+  }
+}
+var goldfish = new Snack2();
+console.log(goldfish);
+var trailMix = new Snack2();
+console.log(trailMix);
 
 // Prompt 3: Shirt
-
+class Shirt2 {
+  constructor() {
+    this.buttons = "Has buttons for full length of shirt";
+    this.formalOrInformal = "formal";
+    this.sleeveLength = "long-sleeved";
+  }
+}
+var buttonDown = new Shirt2();
+console.log(buttonDown);
+var tShirt = new Shirt2();
+console.log(tShirt);
 //-------------------
 // Part 3: Dynamic Properties
 //-------------------
@@ -51,7 +106,45 @@ Make sure to run the file with node in your command line.
   // Log those variables to the console.
 
 // Prompt 1: Dog
+// When run, the object instance corgi passes in the argument carrying its
+// properties through the parameters set by the constructor for the class, Dog3.
+// bassethound does the same.
+class Dog3 {
+  constructor(ear, leg, goodDog) {
+    this.earType = ear;
+    this.legLength = leg;
+    this.isGoodDog = goodDog;
+  }
+};
+var corgi = new Dog3("pointy", "short", "An excellent dog");
+console.log(corgi);
+var bassethound = new Dog3("floppy", "short", "A+ dog");
+console.log(bassethound);
+
 
 // Prompt 2: Snack
+class Snack3 {
+  constructor(type, sweetOrSalty, shareable) {
+    this.type = type;
+    this.sweetOrSalty = sweetOrSalty;
+    this.shareable = shareable;
+  }
+}
+var goldfish = new Snack3("cracker", "salty", "Hands off, they're all mine!");
+console.log(goldfish);
+var trailMix = new Snack3("nuts and fruit", "both sweet and salty", "Share with friends:)");
+console.log(trailMix);
+
 
 // Prompt 3: Shirt
+class Shirt3 {
+  constructor(buttons, formalOrInformal, sleeveLength) {
+    this.buttons = buttons;
+    this.formalOrInformal = formalOrInformal;
+    this.sleeveLength = sleeveLength;
+  }
+}
+var buttonDown = new Shirt3("Has buttons for full length of shirt", "formal", "long-sleeved");
+console.log(buttonDown);
+var tShirt = new Shirt3("no buttons", "informal", "short-sleeved");
+console.log(tShirt);
