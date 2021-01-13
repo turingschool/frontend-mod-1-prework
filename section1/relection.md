@@ -3,10 +3,17 @@
 1. How did the SuperLearner Article resonate with you? What from this list do you already do? Want to start doing or do more of? Is there anything not on this list, that you would add to it?
 
 2. What are the data types you learned about in this section? In your own words, define each.
+String
+Integer
+Boolean
+
 
 3. How would you log the string `"Hello World!"` to the console?
 
+console.log("Hello World!")
+
 4. What is/are the character(s) you would use to indicate comments in a JavaScript file? What is the purpose of a code comment?
+//  Code comments are there for addition info for other developers
 
 5. In your own words, what is a variable? How would you explain it to a 5 year old?
 
