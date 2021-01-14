@@ -71,9 +71,9 @@ Log your email object to the console.
 var email = {
   sender: "bethm.meeker@gmail.com",
   recipients: ["Tia", "Mike", "Scott", "Joanna", "Zach", "Jules"],
-  subject_line: "RSVP",
-  date_sent: "2021-01-08",
-  time_sent: "16:23:49",
+  subjectLine: "RSVP",
+  sentDat: "2021-01-08",
+  sentTime: "16:23:49"
 };
 
 console.log(email);
