@@ -38,23 +38,36 @@ class Burrito {
   };
   addToppings() {
     this.toppings = toppings.concat("Rice");
+  };
+  changeBase() {
+    this.base = "Gluten-free Tortilla"
   }
 }
+
 var toppings = ["Refried Beans", "Onions", "Tomatoes", "Lettuce", "Cheese",
 "Sour Cream", "Green Chile"];
+
 var supreme = new Burrito("Beef", "Flour Tortilla", ["Refried Beans",
 "Onions", "Tomatoes", "Cheese", "Sour Cream"]);
+
 var mega = new Burrito("Beef", "Flour Tortilla", ["Refried Beans", "Onions",
 "Tomatoes", "Lettuce", "Cheese", "Sour Cream"]);
+
 var monster = new Burrito("Beef", "Flour Tortilla", ["Refried Beans",
 "Onions", "Tomatoes", "Lettuce", "Cheese", "Sour Cream", "Green Chile"]);
 
 // ADD CODE
 console.log(toppings);
+
 console.log(supreme);
+
 supreme.changeProtein();
 console.log(supreme);
+
+mega.changeBase();
+mega.addToppings();
 console.log(mega);
+
 monster.changeProtein();
 monster.addToppings();
 console.log(monster);
