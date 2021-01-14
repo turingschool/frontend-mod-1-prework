@@ -14,19 +14,19 @@ Make sure to run the file with node in your command line.
 // Call each method and run the file in node to verify they are working as expected.
 
 var lunchOrder = {
-  dish: "BLT",
-  beverage: "iced tea",
+  dish: 'BLT',
+  beverage: 'iced tea',
   tableNumber: 47,
-  prep: function prepare() {
-    console.log("Your order is in the works!");
+  prep: function() {
+    console.log('Your order is in the works!');
   },
-  ready: function complete() {
-    console.log("Order Up!");
+  ready: function() {
+    console.log('Order Up!');
   }
 };
 
 console.log(lunchOrder.dish);
 console.log(lunchOrder.beverage);
 console.log(lunchOrder.tableNumber);
-console.log(lunchOrder.prep());
-console.log(lunchOrder.ready());
+lunchOrder.prep();
+lunchOrder.ready();
