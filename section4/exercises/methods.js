@@ -17,8 +17,12 @@ var lunchOrder = {
   dish: "BLT",
   beverage: "iced tea",
   tableNumber: 47,
-  prepare: function() {console.log("Your order is being worked on")},
-  complete: function() {console.log("Your order is complete")}
+  prepare: function() {
+    console.log("Your order is being worked on")
+  },
+  complete: function() {
+    console.log("Your order is complete")
+  }
 }
 console.log(lunchOrder)
 lunchOrder.prepare()
