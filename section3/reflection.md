@@ -22,7 +22,7 @@ DoorDash menus that display certain items during certain times of the day. Break
 EX. Diner menu accessed at 09:00 will return the breakfast array.
 
 ```js
-var breakfast = ["Pancakes", "Waffles", "Chknwaffles", "EggsBenedict"]
+var breakfast = ['Pancakes', 'Waffles', 'Chknwaffles', 'EggsBenedict']
 ```
 
 4. In your own words, explain what an Array method is.
@@ -41,4 +41,4 @@ If we had a loop built into our lollipop making assembly line, as the lollipops 
 
 5. What questions do you still have about Arrays and loops?
 
-Is there a convention for choosing how to write a conditional: ``(i = 0; i <= 10; i++)`` versus writing ``The (i = 0; i < 11; i++)`` when both produce the same output?
+Is there a convention for choosing how to write a conditional: ``(i = 0; i <= 10; i++)`` versus writing ``(i = 0; i < 11; i++)`` when both produce the same output?
