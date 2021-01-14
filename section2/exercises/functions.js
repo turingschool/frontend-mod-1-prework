@@ -79,7 +79,7 @@ that it is reasonable to type, but descriptive enough that others can infer the 
 Look at the code you wrote for the previous YOU DO🎈 - what did you name the function, and why?
 What did you name each parameter, and why?
 
-EXPLAIN: I named it enemies because the status of the argument is about 2 people who are enemies.
+EXPLAIN: I named it enemies because the status of the argument is about two people who are enemies.
 
 
 */
