@@ -74,23 +74,23 @@ console.log("is numberStudents less than or equal to 21", numberStudents <= 21)
 
 console.log(4 < 9);
 //YOU DO: Explain.
-//Is 4 less than 9 : which will log true because 4 is less than 9
+//Is 4 less than 9 : this should log true because 4 is less than 9
 var books = 3;
 console.log(4 < books);
 // YOU DO: Explain.
-//Is 4 less than books : which will log false because it will try and convert books to a number failing in the process so it comes out as NaN. This result will always be false.
+//Is 4 less than books : this should log false because it will try and convert books to a number producing NaN since it is impossible. The result with NaN will always be false.
 
 var friends = 6;
 var siblings = 2;
 console.log(friends > siblings);
 // YOU DO: Explain.
-//is friends greater than siblings : which will log true because friends represents the number 6 and siblings represents the number 2, and 6 is greater than 2.
+//is friends greater than siblings : this should log true because friends represents the number 6 and siblings represents the number 2, and 6 is greater than 2.
 
 var attendees = 9;
 var meals = 8;
 console.log(attendees !== meals);
 // YOU DO: Explain.
-//is attendees not equal to meals : which will log true because attendees represents 9 and meals represents 8, and 9 is not equal to 8.
+//is attendees not equal to meals : this should log true because attendees represents 9 and meals represents 8, and 9 is not equal to 8.
 
 //-------------------
 // PART 3: Logical Operators
@@ -123,7 +123,7 @@ console.log(lovesToPlay || lovesDogPark)
 // Determine if the dog loves to play and is a puppy
 console.log(lovesToPlay && age)
 // What did your final line of code evaluate to? Why do you think that is? Explain.
-// ANSWER: 1; It gave us the answer 1 because the first statement is true so it returns the value of the age.
+// ANSWER: 1; It gave us the answer 1 because the first statement is true, so it returns the value of the age. I think that is the case because it is trying to compare a boolean value to an integer which it can't do. I believe I would need if statements to be able to get it to return true. Then I would be able to compare the age of the dog to whether it was a puppy or not.
 
 //-------------------
 // FINAL CHECK
