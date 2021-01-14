@@ -34,27 +34,27 @@ class Burrito {
     this.toppings = toppings;
   }
   changeProtein() {
-    this.protein = "Chicken";
+    this.protein = 'Chicken';
   };
   addToppings() {
-    this.toppings = toppings.concat("Rice");
+    this.toppings = toppings.concat('Rice');
   };
   changeBase() {
-    this.base = "Gluten-free Tortilla"
+    this.base = 'Gluten-free Tortilla'
   }
 }
 
-var toppings = ["Refried Beans", "Onions", "Tomatoes", "Lettuce", "Cheese",
-"Sour Cream", "Green Chile"];
+var toppings = ['Refried Beans', 'Onions', 'Tomatoes', 'Lettuce', 'Cheese',
+'Sour Cream', 'Green Chile'];
 
-var supreme = new Burrito("Beef", "Flour Tortilla", ["Refried Beans",
-"Onions", "Tomatoes", "Cheese", "Sour Cream"]);
+var supreme = new Burrito('Beef', 'Flour Tortilla', ['Refried Beans',
+'Onions', 'Tomatoes', 'Cheese', 'Sour Cream']);
 
-var mega = new Burrito("Beef", "Flour Tortilla", ["Refried Beans", "Onions",
-"Tomatoes", "Lettuce", "Cheese", "Sour Cream"]);
+var mega = new Burrito('Beef', 'Flour Tortilla', ['Refried Beans', 'Onions',
+'Tomatoes', 'Lettuce', 'Cheese', 'Sour Cream']);
 
-var monster = new Burrito("Beef", "Flour Tortilla", ["Refried Beans",
-"Onions", "Tomatoes", "Lettuce", "Cheese", "Sour Cream", "Green Chile"]);
+var monster = new Burrito('Beef', 'Flour Tortilla', ['Refried Beans',
+'Onions', 'Tomatoes', 'Lettuce', 'Cheese', 'Sour Cream', 'Green Chile']);
 
 // ADD CODE
 console.log(toppings);
