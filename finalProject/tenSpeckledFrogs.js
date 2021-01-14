@@ -1,4 +1,4 @@
-var frogs = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
+var frogs = new Array(10); 
 
 for (var i = 10; i > 0; i--) {
   if ([i] > 2) {
