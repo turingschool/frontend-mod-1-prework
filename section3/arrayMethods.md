@@ -1,4 +1,4 @@
-#Array Methods
+# Array Methods
 1. push
 - Adds item to end of Array.
 
