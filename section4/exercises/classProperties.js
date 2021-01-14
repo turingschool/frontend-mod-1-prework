@@ -56,9 +56,9 @@ console.log(turtle_neck);
 // Prompt 1: Dog
 class DogBreed {
   constructor(lifespan, temperament, coat) {
-    this.lifespan = "12yrs";
-    this.temperament = "friendly";
-    this.coat = "short-haired";
+    this.lifespan = '12yrs';
+    this.temperament = 'friendly';
+    this.coat = 'short-haired';
   }
 }
 var poodle = new DogBreed();
@@ -67,9 +67,9 @@ console.log(poodle);
 // Prompt 2: Snack
 class Snack1 {
   constructor(name, calorieCount, nuts) {
-    this.name = "Yummy No-Nutty: Dark"
+    this.name = 'Yummy No-Nutty: Dark'
     this.calorieCount = 380;
-    this.nuts = "Contains nuts!";
+    this.nuts = 'Contains nuts!';
   }
 }
 var yummyNoNutty = new Snack1();
@@ -78,9 +78,9 @@ console.log(yummyNoNutty);
 // Prompt 3: Shirt
 class Shirt1 {
   constructor(collar, size, print) {
-    this.collar = "V-neck";
-    this.size = "Large";
-    this.print = "Plaid";
+    this.collar = 'V-neck';
+    this.size = 'Large';
+    this.print = 'Plaid';
   }
 }
 var button_down = new Shirt1();
@@ -109,8 +109,8 @@ class DogBreed1 {
     this.coat = coat;
   }
 }
-var beagle = new DogBreed1("Beagle", "Gentle", "Short, hard coat");
-var husky = new DogBreed1("Husky", "Alert", "Thick, dense coat");
+var beagle = new DogBreed1('Beagle', 'Gentle', 'Short, hard coat');
+var husky = new DogBreed1('Husky', 'Alert', 'Thick, dense coat');
 
 console.log(beagle);
 console.log(husky);
