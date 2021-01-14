@@ -47,7 +47,7 @@ Concatenation is when the value of a variable is some combination of other varia
 For example: var one = 1; var two = 2; var total = one + two;
 console.log(total); would result in the console logging 3.
 
-8. Think of a site or app you use frequently. Where do you think the developers used concatention?
+8. Think of a site or app you use frequently. Where do you think the developers used concatenation?
 
 Using a site like CodeAcademy, having a profile set up and working through the lessons will activate little notifications that congratulate the user by name for working through lessons x-amount of days in a row which I think would be an example of concatenation.
 
