@@ -38,16 +38,23 @@ if (bearChoice === 1) {
 Questions
 
 1. In English, using technical vocabulary, describe what is happening between lines 14 and 18.
+Lines 14 through 18 are the conditional statements setting up the `if/else` statments
 
 2. What variable has a new value assigned to it after the first if statement executes?
+beacClothing changes from
 
 3. If you changed the variable doorChoice to equal 3, what would the bearClothing value be?
+Scarf
 
 4. In English, using technical vocabulary, describe what is happening between lines lines 27 and 35.
+Its the conditional instructions listing whats to happen if you where to choose different values for bearChoice
 
 5. If you changed the variable bearChoice to equal 3, what will be the final outcome be?
+You end up in a room full of snakes
 
 6. If you changed the variable doorChoice to equal 1, and the variable bearChoice to equal 2, what will be the final outcome be?
+"You tell the bear the "hat" is too small and it starts to cry!"
 
 7. What is your favorite ending?
+making the bear cry
 */
