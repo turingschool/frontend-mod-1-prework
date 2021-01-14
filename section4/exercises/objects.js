@@ -69,11 +69,11 @@ Log your email object to the console.
 */
 
 var email = {
-  sender: "bethm.meeker@gmail.com",
-  recipients: ["Tia", "Mike", "Scott", "Joanna", "Zach", "Jules"],
-  subjectLine: "RSVP",
-  sentDat: "2021-01-08",
-  sentTime: "16:23:49"
+  sender: 'bethm.meeker@gmail.com',
+  recipients: ['Tia', 'Mike', 'Scott', 'Joanna', 'Zach', 'Jules'],
+  subjectLine: 'RSVP',
+  sentDat: '2021-01-08',
+  sentTime: '16:23:49'
 };
 
 console.log(email);
@@ -130,49 +130,50 @@ good to have some exposure before going into Mod 1.
 
 var email = [
   {
-    sender: "bethm.meeker@gmail.com",
-    recipients: ["Tia"],
-    subject_line: "RSVP",
-    date_sent: "2021-01-08",
-    time_sent: "16:23:49",
+    sender: 'bethm.meeker@gmail.com',
+    recipients: ['Tia'],
+    subject_line: 'RSVP',
+    date_sent: '2021-01-08',
+    time_sent: '16:23:49',
   },
   {
-    sender: "bethm.meeker@gmail.com",
-    recipients: ["Mike"],
-    subject_line: "RSVP",
-    date_sent: "2021-01-08",
-    time_sent: "16:23:49",
+    sender: 'bethm.meeker@gmail.com',
+    recipients: ['Mike'],
+    subject_line: 'RSVP',
+    date_sent: '2021-01-08',
+    time_sent: '6:23:49',
   },
   {
-    sender: "bethm.meeker@gmail.com",
-    recipients: ["Scott"],
-    subject_line: "RSVP",
-    date_sent: "2021-01-08",
-    time_sent: "16:23:49",
+    sender: 'bethm.meeker@gmail.com',
+    recipients: ['Scott'],
+    subject_line: 'RSVP',
+    date_sent: '2021-01-08',
+    time_sent: '16:23:49',
   },
   {
-    sender: "bethm.meeker@gmail.com",
-    recipients: ["Joanna"],
-    subject_line: "RSVP",
-    date_sent: "2021-01-08",
-    time_sent: "16:23:49",
+    sender: 'bethm.meeker@gmail.com',
+    recipients: ['Joanna'],
+    subject_line: 'RSVP',
+    date_sent: '2021-01-08',
+    time_sent: '16:23:49',
   },
   {
-    sender: "bethm.meeker@gmail.com",
-    recipients: ["Zach"],
-    subject_line: "RSVP",
-    date_sent: "2021-01-08",
-    time_sent: "16:23:49",
+    sender: 'bethm.meeker@gmail.com',
+    recipients: ['Zach'],
+    subject_line: 'RSVP',
+    date_sent: '2021-01-08',
+    time_sent: '16:23:49',
   },
   {
-    sender: "bethm.meeker@gmail.com",
-    recipients: ["Jules"],
-    subject_line: "RSVP",
-    date_sent: "2021-01-08",
-    time_sent: "16:23:49",
+    sender: 'bethm.meeker@gmail.com',
+    recipients: ['Jules'],
+    subject_line: 'RSVP',
+    date_sent: '2021-01-08',
+    time_sent: '16:23:49',
   }
 ]
 
+console.log(email[5].recipients);
 console.log(email);
 console.log(email[2]);
 console.log(email.length);
