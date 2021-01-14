@@ -33,13 +33,13 @@ for (var i = 0; i < 3; i++) {
  var i;
 
  for (i = 0; i < 7; i++) {
-   console.log("2 + 2 =", mySum);
+   console.log('2 + 2 =', mySum);
  }
 
  // YOU DO: Write code below that logs the String 'She sells seashells down by the seashore'
  // 10 times.
 
-var myString = "She sells seashells down by the seashore";
+var myString = 'She sells seashells down by the seashore';
 var i;
 
 for (i = 0; i < 10; i++) {
@@ -52,7 +52,7 @@ for (i = 0; i < 10; i++) {
 
 // YOU DO: Write code below that logs to the console a String of "This is loop number: "
 //that concatenates with `i`.
-var myString1 = "This is loop number:";
+var myString1 = 'This is loop number:';
 var i;
 
 for (i = 1; i < 11; i++) {
