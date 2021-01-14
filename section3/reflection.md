@@ -8,7 +8,11 @@
 
 1. In your own words, explain what an Array method is.
 
+ - A way to modify an already defined array by add, subtracting or replacing instances of the array.
+
 1. What is the purpose of a loop? When we would use a loop in conjunction with array vs. without?
+
+To repeat an action/condition a number of times. 
 
 1. If you had to teach a 5 year old about loops, how would you explain it?
 

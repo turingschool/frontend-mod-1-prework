@@ -24,7 +24,11 @@ console.log('Welcome to Turing!');
 console.log('99 bottles of pop on the wall..');
 
 // YOU DO: Write code below to log one line from your favorite song or movie:
+<<<<<<< HEAD
 console.log("Novacane by Frank Ocean");
+=======
+console.log("I blame it on the model broad with the Hollywood smile, ow");
+>>>>>>> 45765c663d7c1a14ec9e70998c900bbb13fb1bad
 
 
 //-------------------
@@ -72,6 +76,11 @@ console.log(4 <= 5);
 // FINAL CHECK
 //-------------------
 
+<<<<<<< HEAD
 // Did you run this file in your terminal to make sure everything printed out to the console
   // as you would expect? If you had issues with doing so, ask in your pre-work channel for
+=======
+// Did you run this file in your terminal to make sure everything printed out to the console 
+  // as you would expect? If you had issues with doing so, ask in your pre-work channel for 
+>>>>>>> 45765c663d7c1a14ec9e70998c900bbb13fb1bad
   // help ASAP.
