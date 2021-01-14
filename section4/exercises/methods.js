@@ -30,3 +30,9 @@ console.log(lunchOrder.beverage);
 console.log(lunchOrder.tableNumber);
 lunchOrder.prep();
 lunchOrder.ready();
+
+lunchOrder.prep()
+console.log(lunchOrder.dish, lunchOrder.beverage, lunchOrder.tableNumber);
+
+lunchOrder.ready()
+console.log(lunchOrder.dish, lunchOrder.beverage, lunchOrder.tableNumber);
