@@ -41,9 +41,9 @@ console.log(numberOfPets);
 // How did you decide to use the data type you did for each of the three variables above?
   // Explain.
 
-// firstName is a name, so it requires letters, so it makes sense for it to be a variable
+// firstName is a name, so it requires letters, so it makes sense for it to be a string
 // isHungry is a true or false statement, so it must be boolean
-// numberOfPets is a number, so it's a float or an int, and pets don't come in floats
+// numberOfPets is a number, so it's a float or an int, and pets only come in whole numbers 
 
 // YOU DO:
 // Re-assign the values to the three variables from the previous challenge to different
