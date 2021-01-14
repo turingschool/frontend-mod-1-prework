@@ -39,7 +39,9 @@ An object is a way to store a collection of data while an array is an ordered li
 ```
     *keys*                   *values*    
     name (string)            'Dunhuang'
+    country (string)         'People's Republic of China'
     province (string)        'Gansu'
+    prefecture_level_city    'Jiuquan'
     population (string)      '191,000'
     area (string)            '12,000 sq mi'
     postalCode (integer)     736200
