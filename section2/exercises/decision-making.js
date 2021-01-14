@@ -42,10 +42,10 @@ We are using a if/else statement to check the conditional. Its stating if the do
 2. What variable has a new value assigned to it after the first if statement executes?
 The bear clothing has a new value after the first if statement is executed.
 3. If you changed the variable doorChoice to equal 3, what would the bearClothing value be?
-The bearClothing value would be a scarf because it no longer fits the first if statement so it moves on to the next one.
+The bearClothing value would be a scarf because it no longer fits the first if statement so it moves on to the next line of code until it meets the condition.
 4. In English, using technical vocabulary, describe what is happening between lines lines 27 and 35.
 Line 27 if statement is evaluating if the bearChoice is strictly equal to 1. If it is it prompts with the statement in line 28.
-If however the bearChoice is equal to 2 it moves to line 29, and produces line 29 statement. If the bearChoice is not 1 or 2 but 3 it proceeds to give line 32's statement.
+However, if the bearChoice is equal to 2 it logs line 30's statement. If the bearChoice is not 1 or 2 but 3 it proceeds to give line 32's statement.
 Last but not least if the bearChoice is none of the 1-3 answers, it produces the statement in line 34.
 5. If you changed the variable bearChoice to equal 3, what will be the final outcome be?
 "You run as fast as you can into the next room. It's full of snakes!"
