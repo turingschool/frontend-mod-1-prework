@@ -24,7 +24,7 @@ console.log('Welcome to Turing!');
 console.log('99 bottles of pop on the wall...');
 
 // YOU DO: Write code below to log one line from your favorite song or movie:
-console.log('If dreams are like movies then memories are films about ghosts');
+console.log('And the price of a memory is the memory of the sorrow it brings');
 
 
 //-------------------
