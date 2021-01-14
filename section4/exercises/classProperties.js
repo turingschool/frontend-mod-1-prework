@@ -55,9 +55,9 @@ console.log(turtle_neck);
 
 // Prompt 1: Dog
 class DogBreed {
-  constructor() {
+  constructor(lifespan, temperament, coat) {
     this.lifespan = "12yrs";
-    this.temperment = "friendly";
+    this.temperament = "friendly";
     this.coat = "short-haired";
   }
 }
@@ -66,9 +66,9 @@ console.log(poodle);
 
 // Prompt 2: Snack
 class Snack1 {
-  constructor() {
+  constructor(name, calorieCount, nuts) {
     this.name = "Yummy No-Nutty: Dark"
-    this.calorie_count = 380;
+    this.calorieCount = 380;
     this.nuts = "Contains nuts!";
   }
 }
@@ -77,7 +77,7 @@ console.log(yummyNoNutty);
 
 // Prompt 3: Shirt
 class Shirt1 {
-  constructor() {
+  constructor(collar, size, print) {
     this.collar = "V-neck";
     this.size = "Large";
     this.print = "Plaid";
@@ -118,10 +118,10 @@ console.log(husky);
 // Prompt 2: Snack
 
 class SnackFood1 {
-  constructor(name, calorie_count, nuts) {
+  constructor(name, calorieCount, hasNuts) {
     this.name = name;
-    this.calorie_count = calorie_count;
-    this.has_nuts = nuts;
+    this.calorieCount = calorieCount;
+    this.hasNuts = hasNuts;
   }
 }
 var yummyNoNutty = new SnackFood1("Yummy No-Nutty: Dark", 380, "Does not contain nuts!");
@@ -139,8 +139,8 @@ class Shirt2 {
     this.color = color;
   }
 }
-var menVee = new Shirt2("V-neck", "Medium", "Black");
-var menDress = new Shirt2("Dress Shirt", "Large", "Navy");
+var mensVee = new Shirt2("V-neck", "Medium", "Black");
+var mensDress = new Shirt2("Dress Shirt", "Large", "Navy");
 
-console.log(menVee);
-console.log(menDress);
+console.log(mensVee);
+console.log(mensDress);
