@@ -43,9 +43,15 @@ Log to the console the appropriate age range
 
 var dogAge = 3;
 // Write your conditional here
-if (dogAge <= 2) {console.log('puppy')}
-else if (dogAge >3 <10) {console.log('adult')}
-else if (dogAgt >=10) {console.log('elderly')}
+if (dogAge <= 2) {
+  console.log('puppy')
+}
+else if (dogAge >3 <10) {
+  console.log('adult')
+}
+else if (dogAge >= 10) {
+  console.log('elderly')
+}
 /*
 YOU DO:
 Using the numQuarters variable defined below, determine
@@ -68,8 +74,12 @@ var numQuarters = 1;
 var numQuarters = 2;
 var numQuarters = 3
 // Write your conditional here
-if (numQuarters <=1) {console.log("I don't have enough money for a gumball")}
-else if (numQuarters >=2) {console.log("I have enough money for a gumball")}
+if (numQuarters <=1) {
+  console.log("I don't have enough money for a gumball")
+}
+else if (numQuarters >=2) {
+  console.log("I have enough money for a gumball")
+}
 
 /*
 YOU DO:
@@ -88,15 +98,23 @@ var cupsOfFlour = 3;
 var hasSauce = false;
 
 // Write your conditional here
-if (cupsOfFlour <=1 && (hasSauce == true)) {console.log("I cannot make pizza")}
-else if (cupsOfFlour <=1 && (hasSauce == false)) {console.log("I cannot make pizza")}
-else if (cupsOfFlour >=2 && (hasSauce == true)) {console.log("I can make pizza")}
-else if (cupsOfFlour >=2 && (hasSauce == false)) {console.log("I cannot make pizza")}
+if (cupsOfFlour <=1 && (hasSauce == true)) {
+  console.log("I cannot make pizza")
+}
+else if (cupsOfFlour <=1 && (hasSauce == false)) {
+  console.log("I cannot make pizza")
+}
+else if (cupsOfFlour >=2 && (hasSauce == true)) {
+  console.log("I can make pizza")
+}
+else if (cupsOfFlour >=2 && (hasSauce == false)) {
+  console.log("I cannot make pizza")
+}
 /*
 For the last two exercises, an ideal solution probably uses a logical operator.
 Did yours? Do you know what a logical operator in JavaScript is? Google it to answer
 for yourself!
-I believe I am using a logical operator because my conditional statements include the && symbol to indicate "and operation" to fulfill the requirements to make pizza.
+I am using a logical operator because my conditional statements includes the && symbol to indicate "and operation" to fulfill the requirements to make pizza.
 If your solution doesn't use a logical operator, this is a great topic to bring up
 in your pre-work group's Slack channel!
 */
