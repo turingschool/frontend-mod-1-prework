@@ -72,9 +72,9 @@ When numQuarters = 3, program should log "I have enough money for a gumball"
 var numQuarters = 3;
 // Write your conditional here
 if (numQuarters >= 2) {
-console.log("I have enough money for a gumball");
+console.log('I have enough money for a gumball');
 } else{
-console.log("I don't have enough money for a gumball");
+console.log('I dont have enough money for a gumball');
 }
 
 
