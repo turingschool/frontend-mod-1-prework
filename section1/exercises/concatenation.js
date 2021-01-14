@@ -23,7 +23,7 @@ console.log("My zoo has " + numberOfCreatures + " " + creatures + "!")
 
 // YOU DO: What data type will be logged to the console as a result of line 22? Explain.
 // Your answer and explanation here: The data that comes out in result of line 22 is My zoo has 7 unicorns!
-//We told the system the numberOfCreatures was 7 and the creatures was unicorns when we added the + in front it, it joined the sentence together.
+//We declared a variable as numberOfCreatures = 7 and declared another variable as creatures=unicorns. We then tell the console to write out the sentence we give to it. By adding the + in front of the variables, it joins the sentence together.
 
 // YOU DO:
 // Write code that combines the variables below into a string that
@@ -37,8 +37,8 @@ console.log("The " + speedy + " jumped over the " + slowPoke)
 // reads "In a predictable result, the tortoise beat the hare!"
 // Note that we are omitting the var keyword below, because we are re-assigning the variables
 
-slowPoke = "tortoise";
-speedy = "hare";
+var slowPoke = "tortoise";
+var speedy = "hare";
 console.log("In a predictable result, the " + slowPoke + " beat the " + speedy + "!")
 
 // YOU DO:
