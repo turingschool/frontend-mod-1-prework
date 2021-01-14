@@ -109,14 +109,24 @@ var hasCharger = true;
 var chargerType = "car";
 
 // Write your conditional here
-//If our percentBatteryLeft is less than or equal to 14 and hasCharger is equal to false than the system will write out "I cannot call Uber" if these conditions are not met it continues to the next line of code.
-if (percentBatteryLeft <=14 && (hasCharger==false)) {console.log("I cannot call Uber")}
-//If out percentBatteryLeft is less than or equal to 14 and hasCharger is equal to true and the chargerType is equal to car than the system will write out "I can call Uber" if these conditions aren't met we move to the next line of code.
-else if (percentBatteryLeft <=14 && (hasCharger==true) && (chargerType=="car")) {console.log("I can call Uber")}
-//If the percentBatteryLeft is less than or equal to 14 and hasCharger is equal to true and chargerType is equal to not car than the system will log "I cannot call Uber" if these don't match up we continue to the next line.
-else if (percentBatteryLeft <=14 && (hasCharger==true) && (chargerType=="not car")) {console.log("I cannot call Uber")}
-//If the percentBatteryLeft is greater than or equal to 15 than the system will log "I can call Uber". With all these lines of code I have covered any condition that might be met and what the system should then populate to the user.
-else if (percentBatteryLeft >=15) {console.log("I can call Uber")}
+//If the percentBatteryLeft is less than or equal to 14 and hasCharger is equal to false than the system will log  "I cannot call Uber". If these conditions are not met, it continues to the next line of code.
+if (percentBatteryLeft <= 14 && (hasCharger == false)) {
+  console.log("I cannot call Uber")
+}
+//If the percentBatteryLeft is less than or equal to 14 and hasCharger is equal to true and the chargerType is equal to car than the system will log "I can call Uber". If these conditions aren't met, we move to the next line of code.
+else if (percentBatteryLeft <= 14 && (hasCharger == true) && (chargerType == "car")) {
+  console.log("I can call Uber")
+}
+//If the percentBatteryLeft is less than or equal to 14 and hasCharger is equal to true and chargerType is equal to not car than the system will log "I cannot call Uber". If these conditions don't match, we continue to the next line of code.
+else if (percentBatteryLeft <= 14 && (hasCharger == true) && (chargerType == "not car")) {
+  console.log("I cannot call Uber")
+}
+//If the percentBatteryLeft is greater than or equal to 15 than the system will log "I can call Uber".
+else if (percentBatteryLeft >= 15) {
+  console.log("I can call Uber")
+}
+//With all these lines of code I have covered any condition that might be met and what the system should then populate to the user.
+
 // YOU DO - ANNOTATE: Above each line of your code for this if statement, create a comment.
 // That comment should describe, in your own words, and as technically precise as possible,
 // what the line of code below, does.
