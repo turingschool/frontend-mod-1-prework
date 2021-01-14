@@ -1,13 +1,13 @@
 ## Section 2 Reflection
 
 1. Regarding the blog posts in Part A, how do you feel about asking questions? Do you tend to ask them too soon, or wait too long, or somewhere in between?
-
-1. In this section, we removed some of the supports that you had in Section 1. We didn't give the directions for how to run a file in node, and really sent you off to learn about functions by exploring several outside resources. How did that feel? What was uncomfortable about it? How did it support your learning?
-
-1. What is a conditional statement? Give one example of a daily life conditional. Give one example of where a conditional is probably used in a web application you use.
-
-1. How do you add multiple conditions to an `if` statement? In your own words, explain how to program reads them and determines what to do.
-
-1. What tools are available to you, as a developer, if you want to check that TWO conditions are met? Or, if you want to check that 1 of 2 conditions are met, before running a block of code?
-
-1. What questions do you still have about `if` statements and/or functions?
+It can be hard for me to ask questions especially to people I don't know because I feel inadequate or like I'm a burden for asking too many questions. It depends on the question, but usually I wait too long before asking for help or clarification.
+2. In this section, we removed some of the supports that you had in Section 1. We didn't give the directions for how to run a file in node, and really sent you off to learn about functions by exploring several outside resources. How did that feel? What was uncomfortable about it? How did it support your learning?
+It felt a little uncomfortable at first; like when you take off the training wheels for the first time. However, I think it is good practice to learn to go back to previous notes or googling other articles to find information since in the programming field things won't be spoon-fed to you.
+3. What is a conditional statement? Give one example of a daily life conditional. Give one example of where a conditional is probably used in a web application you use. It is based on the if/then/else statements. If a condition is met, then your code executes the first statement. Else your code moves further down and checks the next conditional statement and if it meets the requirement becomes executed. An example of a daily life conditional would be if you wake up in the morning, then you will brush your teeth. An example of a conditional in a web application is when its a certain time in my USAA app then it will pop out with the appropriate greeting. For example, it is 2:46 currently as I type. My USAA app says "Good Afternoon, Rachel".
+4. How do you add multiple conditions to an `if` statement? In your own words, explain how to program reads them and determines what to do.
+You add multiple conditions to an if statement by adding `else if` as many times as needed and the last one can just be `else`. The program reads the conditions going down the line. It starts off with the `if` statement. If it meets the condition then it performs the action associated with it; if it doesn't meet the condition, then it moves on to the `else if` statement and so on until one of the conditions is met and the action associated with it can be performed.
+5. What tools are available to you, as a developer, if you want to check that TWO conditions are met? Or, if you want to check that 1 of 2 conditions are met, before running a block of code?
+My guess as a developer is that we have the use of logical operators to check whether two conditions are met by using the ``&&`` symbol. If we want to check if at least one of two conditions are met we use the `||` symbol.
+6. What questions do you still have about `if` statements and/or functions?
+My question is about neither but about logical operators. I understand comparison operators, but is the sole purpose of logical operators comparing if both ``&&`` are true and ``||`` is if just one or the other is at least true. Is it similar to boolean values?
