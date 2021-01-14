@@ -27,7 +27,7 @@ printName();
 // YOU DO: Write a function named sayHello that logs to the console "Oh, Hello!"
 // Then, call the function 2 times.
 function sayHello() {
-  console.log("Oh, Hello!");
+  console.log('Oh, Hello!');
 }
 
 sayHello();
@@ -43,12 +43,12 @@ sayHello();
 // The function should print out the value of the String that was passed in.
 // Then, call the function 3 times, each time, passing it a different name.
 function greetMe(name) {
-  console.log("Hello," + " " + name);
+  console.log('Hello,' + ' ' + name);
 }
 
-greetMe("Beth");
-greetMe("Joanna");
-greetMe("Marek");
+greetMe('Beth');
+greetMe('Joanna');
+greetMe('Marek');
 
 
 // YOU DO: Write a function that takes in 2 numbers as arguments, Numbers, and logs their sum
@@ -66,10 +66,10 @@ sumTotal(9, 3);
 // of those two strings, for example the arguments could be ("Oscar", "Ruck") and
 // the end result might be "Oscar and Ruck are BFFS".  Then, call that function.
 function catName(cat1, cat2) {
-  console.log("My cats are named " + cat1 + " and " + cat2 + ".");
+  console.log('My cats are named ' + cat1 + ' and ' + cat2 + '.');
 }
 
-catName("Joplin", "Macaroon");
+catName('Joplin', 'Macaroon');
 
 
 
