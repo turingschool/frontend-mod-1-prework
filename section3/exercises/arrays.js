@@ -27,17 +27,17 @@ console.log(animals.length);
 
 // YOU DO: Write code that will reassign the last item in the animals
 // array to "Gorilla"
-animals[2] = "Gorilla"
+animals[2] = 'Gorilla'
 
 console.log(animals);
 
 // YOU DO: Write code that will add a new animal (type of your choice) to position 3.
-animals[3] = "Tiger"
+animals[3] = 'Tiger'
 
 console.log(animals);
 
 // YOU DO: Write code that will log the String "Elephant" in the animals array
-animals[4] = "Elephant"
+animals[4] = 'Elephant'
 
 console.log(animals);
 
@@ -46,7 +46,7 @@ console.log(animals);
 //-------------------
 
 // YOU DO: Declare a variable that will store an an array of at least 4 foods (strings)
-var food = ["Pizza", "Pirogi", "Spaghetti", "Meatloaf", "Falafel"];
+var food = ['Pizza', 'Pirogi', 'Spaghetti', 'Meatloaf', 'Falafel'];
 
 // YOU DO: Write code below that will log the number of elements in the array of
 // foods from above.
@@ -54,7 +54,7 @@ console.log(food.length);
 
 // YOU DO: Write code below that uses a method to add "broccoli" to the foods array and
 // log the changed array to verify "broccoli" has been added
-food.push("Broccoli");
+food.push('Broccoli');
 
 console.log(food);
 
@@ -68,7 +68,7 @@ console.log(food);
   // There are several ways to do this - choose whichever you'd like!
 // Then, log the changed array to verify the new items have been added
 
-food.push("Steak", "Chicken", "Pork");
+food.push('Steak', 'Shrimp', 'Caviar');
 
 console.log(food);
 
@@ -119,14 +119,14 @@ The can call an uber if they have a charger and it is a car charger.
 */
 var percentBatteryLeft = 22;
 var hasCharger = true;
-var chargerType = "car";
+var chargerType = 'car';
 
 // conditional that if evaluates to true, will trigger the program to run the block of code that follows
 if (percentBatteryLeft >= 15) {
-  console.log("You can call an Uber!");
+  console.log('You can call an Uber!');
 // else conditional will be triggered if the first conditional is false
 } else{
-  console.log("Not enough battery to call an Uber.");
+  console.log('Not enough battery to call an Uber.');
 }
 
 // YOU DO - ANNOTATE: Above each line of your code for this if statement, create a comment.
