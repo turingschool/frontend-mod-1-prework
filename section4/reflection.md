@@ -38,10 +38,10 @@ An object is a way to store a collection of data while an array is an ordered li
 ### wikipedia.org     --     Object is city
 ```
     *keys*                   *values*    
-    name (string)            "Dunhuang"
-    province (string)        "Gansu"
-    population (string)      "191,000"
-    area (string)            "12,000 sq mi"
+    name (string)            'Dunhuang'
+    province (string)        'Gansu'
+    population (string)      '191,000'
+    area (string)            '12,000 sq mi'
     postalCode (integer)     736200
     translation (boolean)    true
 ```
