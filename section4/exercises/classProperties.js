@@ -100,7 +100,7 @@ console.log(crewNeck);
   // Log those variables to the console.
 
 // Prompt 1: Dog
-//I tested all code below in another file because this node says the identifiers are already declared.
+
 class Dog {
   constructor(size, color, age){
     this.size = size;
