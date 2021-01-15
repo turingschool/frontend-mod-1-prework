@@ -28,8 +28,10 @@ Thinking of a shopping app, one variable could be cart. The cart variable is an 
 
 concatination is when you use the + operator to combine multiple strings together.
 
-8. Think of a site or app you use frequently. Where do you think the developers used concatention? 
+8. Think of a site or app you use frequently. Where do you think the developers used concatention?
+
 Maybe like a greeting on a website where it adds your username to the greeting string. like "Hey " + userName + "check out deals for you on " + favoriteItem + "!"
 
 9. What questions do you still have about the work we've done so far? (not having a question is not an option)
+
  I am a little confused about the key pair/value data type that we have talked about.
