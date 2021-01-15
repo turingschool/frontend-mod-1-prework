@@ -1,4 +1,4 @@
-###Ceaser Cipher Notes
+### Ceaser Cipher Notes
 
 - Research shift ciphers / Ceasar Ciphers
 - Establish shift values based on provided value
