@@ -6,9 +6,9 @@ Create a new object instance for each letter of the alphabet;
 
 for each letter instance assign a positive value and negative value property that is based on:
 
-  positive: a = 0, b = 1, c = 2 .... z = 25
+positive: a = 0, b = 1, c = 2 .... z = 25
 
-  negative: a = -26, b = -25, c = -24 .... x = -3, y = -2, z = -1;
+negative: a = -26, b = -25, c = -24 .... x = -3, y = -2, z = -1;
 
 Set a function to encode with parameters of input (word to encode) and shift value (in spaces "left" imagining a left to right alphabet);
 
@@ -16,16 +16,17 @@ Separate each character in the input into its own string in an array and set as 
 
 Create a loop on the array inputLetters with steps;
 
-  If the string is " ", (i.e. a space);
+If the string is " ", (i.e. a space);
 
-    output " ";
-  else match the string value with the object instance of the same value;
+output " ";
 
-    Evaluate (the positiveValue of the matched instance - the shift value) and set as variable newValue[i];
-    
-    Find the instance that has newValue[i] as a property;
+else match the string value with the object instance of the same value;
 
-    log the value of that instance;
+Evaluate (the positiveValue of the matched instance - the shift value) and set as variable newValue[i];
+
+Find the instance that has newValue[i] as a property;
+
+log the value of that instance;
 
 Repeat for each element in the inputLetters array;
 
