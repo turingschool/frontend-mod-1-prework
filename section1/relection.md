@@ -44,8 +44,8 @@ A variable for displaying a greeting that would hold a string such as "Good Afte
 7. In your own words, explain what concatenation is.
 
 Concatenation is when the value of a variable is some combination of other variables and potentially new information.
-For example: var one = 1; var two = 2; var total = one + two;
-console.log(total); would result in the console logging 3.
+For example: `var one = 1; var two = 2; var total = one + two;
+console.log(total);` would result in the console logging 3.
 
 8. Think of a site or app you use frequently. Where do you think the developers used concatenation?
 
