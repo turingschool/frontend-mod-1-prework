@@ -1,4 +1,4 @@
-var i = 10
+
 // var i speckled frogs sat on a log eating some most delicious bugs. One jumped in the pool where its nice and cool, then there were var i (-1) speckled frogs.
 // var i (-1) speckled frogs sat on a log eating some most delicious bugs. One jumped in the pool where its nice cool, then there was var i (-2) speckled frog.
 // var i (-2) speckled frog sat on a log eating some most delicious bugs. One jumped in the pool where its nice and cool, then there were no more speckled frogs!
@@ -13,3 +13,4 @@ for (var i=10; i > 0; i--){
   }
 
 }
+//use whatever number youd please for i, just make sure else if <= your var -1.
