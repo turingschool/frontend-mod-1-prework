@@ -24,42 +24,53 @@ console.log(animals[0]);
 
 // YOU DO: Write code below that will log the number of elements in array of
 // animals from above.
-
+var length = animals.length;
+console.log(length);
 
 // YOU DO: Write code that will reassign the last item in the animals
 // array to "Gorilla"
-
+animals.pop();
+animals.push("Gorilla");
 
 // YOU DO: Write code that will add a new animal (type of your choice) to position 3.
-
+animals.splice(2,0,"Bear");
+console.log(animals);
 
 // YOU DO: Write code that will log the String "Elephant" in the animals array
-
+animals.push("Elephant");
+console.log(animals[4]);
 
 //-------------------
 // PART 2: Foods: Array Methods
 //-------------------
 
 // YOU DO: Declare a variable that will store an an array of at least 4 foods (strings)
-
+var foods = ["taco","sandwich","hamburger","lasagna"];
 
 // YOU DO: Write code below that will log the number of elements in the array of
 // foods from above.
-
+length = foods.length;
+console.log(length);
 
 // YOU DO: Write code below that uses a method to add "broccoli" to the foods array and
 // log the changed array to verify "broccoli" has been added
-
+foods.push("broccoli");
+console.log(foods);
 
 // YOU DO: Write code below that removes the last item of food from the foods array and
 // log the changed array to verify that item has been removed
+foods.pop();
+console.log(foods);
 
-
-// YOU DO: Write code to add 3 new foods to the array. 
+// YOU DO: Write code to add 3 new foods to the array.
   // There are several ways to do this - choose whichever you'd like!
 // Then, log the changed array to verify the new items have been added
-
+foods.unshift("chicken");
+foods.push("ravioli");
+foods.unshift("peas");
+console.log(foods);
 // YOU DO: Remove the food that is in index position 0.
+foods.shift();
 
 //-------------------
 // PART 3: Where are Arrays used?
@@ -79,12 +90,12 @@ The post itself likely has more complex data, but here's one way we can think ab
 var posts = ["image at beach", "holiday party", "adorable puppy", "video of cute baby"];
 
 // YOU DO: Think of a web application you commonly use. Where do you see LISTS utilized, where arrays
-// may be storing data? Come up with 3 examples - they could be from different web applications or 
+// may be storing data? Come up with 3 examples - they could be from different web applications or
 // all from the same one.
 
-// 1:
-// 2:
-// 3:
+// 1: News apps with lists of different news aricles.
+// 2: Youtube's list of recommended videos.
+// 3: A persons list of followers on Twitter.
 
 
 //-------------------
@@ -96,7 +107,7 @@ YOU DO:
 Using the variables defined below, write a program that will tell a user if they
 will be able to call an Uber.
 
-The user can call an uber if they have 15% battery remaining, or more. In this case, it doesn't matter 
+The user can call an uber if they have 15% battery remaining, or more. In this case, it doesn't matter
 if the user has a charger at all, or what type.
 The can call an uber if they have a charger and it is a car charger.
 
@@ -107,6 +118,17 @@ var chargerType = "car";
 
 // Write your conditional here
 
+// Starts the if statement and evaluates the first set of parameters.
+if(percentBatteryLeft >= 15){
+// If the above parameters are true "You can call an Uber" will be logged to the console.
+  console.log("You can call an Uber");
+// else if defines a new set of parameters and evaluates them.
+} else if(hasCharger === true && chargerType === "car"){
+// If the above parameters are true "You can call an Uber" is logged to the console.
+  console.log("You can call an Uber");
+// If all previous parameters are false then "you cannot call an Uber" will be logged to the console.
+} else {console.log("you cannot call an Uber");
+}
 
 // YOU DO - ANNOTATE: Above each line of your code for this if statement, create a comment.
 // That comment should describe, in your own words, and as technically precise as possible,
