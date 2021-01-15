@@ -30,9 +30,9 @@
     }
     // This is where I get a little lost. Declare variable for the current index and set it equal to the alphabet index of the current letter
     var currentIndex = alphabet.indexOf(currentLetter);
-    // Declare new index variable and set it equal to the current index plus a number which will be an argument passed in --- UPDATE!!! Lightbulb! `currentIndex - num` to shift left!
+    // Declare new index variable and set it equal to the current index minus a number which will be an argument passed in.  `currentIndex - num` to shift left!
     var newIndex = currentIndex - num;
-    // Create if-statements that tell the program to wrap around to 0 index position or 26 index position when the newIndex is greater than 25 or less than 0.
+    // Create if-statements that tell the program to wrap around to 0 index position or 26 index position when the newIndex is greater than 25 or less than 0 keeping the iterator rotating through the alphabet when given long strings.
     if(newIndex > 25) newIndex = newIndex - 26;
     if(newIndex < 0) newIndex = newIndex + 26;
     // use an if-statement to tell the program to put the changed to lowercase letters back to uppercase letters.
@@ -45,6 +45,6 @@
   // return the new string of encoded letters
   return newStr;
 }
-// Expected output Jk using i++
+// Expected output FG
 console.log(encode('Hi', 2));
 ```
