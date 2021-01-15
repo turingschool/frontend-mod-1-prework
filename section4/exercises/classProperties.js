@@ -124,8 +124,8 @@ class SnackFood1 {
     this.hasNuts = hasNuts;
   }
 }
-var yummyNoNutty = new SnackFood1("Yummy No-Nutty: Dark", 380, "Does not contain nuts!");
-var nuttyMilkBar = new SnackFood1("Nutty Milk Bar", 460, "Contains nuts!");
+var yummyNoNutty = new SnackFood1('Yummy No-Nutty: Dark', 380, 'Does not contain nuts!');
+var nuttyMilkBar = new SnackFood1('Nutty Milk Bar', 460, 'Contains nuts!');
 
 console.log(yummyNoNutty);
 console.log(nuttyMilkBar);
@@ -139,8 +139,8 @@ class Shirt2 {
     this.color = color;
   }
 }
-var mensVee = new Shirt2("V-neck", "Medium", "Black");
-var mensDress = new Shirt2("Dress Shirt", "Large", "Navy");
+var mensVee = new Shirt2('V-neck', 'Medium', 'Black');
+var mensDress = new Shirt2('Dress Shirt', 'Large', 'Navy');
 
 console.log(mensVee);
 console.log(mensDress);
