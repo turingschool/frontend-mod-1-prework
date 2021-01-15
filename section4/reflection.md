@@ -12,28 +12,28 @@
 1. For each set of data, would an array or object be better to store it? Explain your choice.
 
   * List of all of the students in class
-  - Array
+  ### Array
 
   * List of states and their capitals
-  - Object
+  ### Object
 
   * List of things to pack for vacation
-  - Array
+  ### Array
 
   * Names of all the Instagram accounts I follow
-  - Array
+  ### Array
 
   * List of student names and their cohort
-  - Object
+  ### Object
 
   * Ingredients and amount of each ingredient to bake a cake
-  - Object
+  ### Object
 
   * All my favorite restaurants
-  -Array
+  ### Array
 
 1. In this section, we talked about an `transaction item object`. It has keys that represent different properties an bank transaction would have, and values that store the data. In a banking app, this data would eventually be displayed in the browser for the user. Think of another Object in a web application that you use frequently. What is it? What keys might be on it? What are example values?
 - Profile information on Facebook. Key bio with string value, Key number of friends with integer value, key occupation with string value and so on.
 
 1. What questions do you still have about classes and/or Objects?
-- I was wondering if you could put objects inside arrays and vise versa. If it's possible I wonder what sort of reasons that would be done. 
+- I was wondering if you could put objects inside arrays and vise versa. If it's possible I wonder what sort of reasons that would be done.
