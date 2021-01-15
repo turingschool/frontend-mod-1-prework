@@ -1,3 +1,4 @@
+//This code in not completed and is still a work in progress. 
 class Letters {
   constructor(posVal,negVal) {
     this.posVal = posVal;
@@ -36,18 +37,6 @@ function encode(input,shiftValue) {
 }
 
 
-// class TransactionItem {
-//   constructor(amt, transactionDate, type) {
-//     this.amount = amt;
-//     this.date = transactionDate;
-//     this.type = type;
-//   }
-// }
-//
-// var deposit = new TransactionItem(200, "02/03/20", "deposit");
-// console.log(deposit);
-// Set a function to encode with parameters of input (word to encode) and shift value (in spaces left);
-//
 // Set a class Letters;
 // Create a new object instance for each letter of the alphabet;
 // for each letter instance assign a positive value and negative value property that is based on:
