@@ -21,4 +21,5 @@ if you want an if statement to look at multiple conditions you can separate the 
 I think I might have just explained this but the || operator will make sure that 1 of two conditions are met where as the && will check to see if all of the conditions are met.
 
 1. What questions do you still have about `if` statements and/or functions?
+
 I am unsure about the difference between methods and functions. They seem like they do basically the same thing but with different syntax, is that true?
