@@ -1,13 +1,19 @@
 ## Section 2 Reflection
 
 1. Regarding the blog posts in Part A, how do you feel about asking questions? Do you tend to ask them too soon, or wait too long, or somewhere in between?
+- I think I tend to be somewhere in between. I admittedly have given up too soon already in some situations. I'm still trying to figure out *what* makes me give up soon, and why in other situations I'm willing to stick it out for longer. I do also have the tendency to feel "stupid" if I ask a question that I think may be obvious but still isn't obvious to me. I'm trying to find the balance between a productive struggle and not wasting too much time struggling, if that makes sense. As always, love the articles. They really make me think in a way I haven't had to in a long time, and I appreciate it.
 
 1. In this section, we removed some of the supports that you had in Section 1. We didn't give the directions for how to run a file in node, and really sent you off to learn about functions by exploring several outside resources. How did that feel? What was uncomfortable about it? How did it support your learning?
+- I've gotten super comfortable running files in node, and rely on it almost every step of the way to make sure I'm not going down the wrong path and wasting more time than necessary. It was a little uncomfortable and much more challenging to try to learn functions with less direction, and I struggled much more to grasp it, but in the end I used my resources and tried and failed many times before arriving to *what I think* are the correct answers. It really pushed me this time to have to dig a little more and to really experiment with writing code and then not doing it right. After several error messages and a lot of frustration, I think I developed a better understanding of what to do, and what not to do, and most importantly *why*.
 
 1. What is a conditional statement? Give one example of a daily life conditional. Give one example of where a conditional is probably used in a web application you use.
+- **Conditional statements** tell a line or block of code to run if a statement is **true**, and then has following lines or blocks of code to run if the statement is **false**. In daily life, if it's raining outside, I'll put on a jacket. If that's false, and it's not raining outside, then I won't put on a jacket. An example of where this might be used on a web application is maybe with passwords? If my credentials match up on Amazon, I get to proceed to the website. If they do not, Amazon displays a message to me saying that my credentials do not match, and to re enter password/username, etc.
 
 1. How do you add multiple conditions to an `if` statement? In your own words, explain how to program reads them and determines what to do.
+- When you want to add multiple conditions to an `if` statement, you use `else if` on the following line to let the program know what to do when the initial or previous statement is **false**. If all of those `else if` statements are **false**, then there can be an `else` statement at the end of the code block to let the program know what to do. If one of those `else if` statements is **true** then the program knows to run that line or block of code.
 
 1. What tools are available to you, as a developer, if you want to check that TWO conditions are met? Or, if you want to check that 1 of 2 conditions are met, before running a block of code?
+- You can use **logical operators** `&& ||` to check if two conditions are met. `&&` is the AND operator and `||` is the OR operator.
 
 1. What questions do you still have about `if` statements and/or functions?
+- I feel pretty comfortable with `if` statements. I had a ton of fun working in that section and kept blabbering to my partner about it for hours. I'm still a little shaky and slow with setting multiple parameters in functions, and with having a function perform an equation/declaring a `const`. 

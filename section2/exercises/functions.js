@@ -17,7 +17,7 @@ function printName() {
   console.log("Severus Snape");
 };
 
-printName(); 
+printName();
 printName();
 printName();
 printName();
@@ -26,6 +26,12 @@ printName();
 
 // YOU DO: Write a function named sayHello that logs to the console "Oh, Hello!"
 // Then, call the function 2 times.
+function saysHello(){
+  console.log("Oh, Hello!");
+};
+
+saysHello();
+saysHello();
 
 //-------------------
 // PART 2: Arguments and Parameters
@@ -34,19 +40,39 @@ printName();
 // YOU DO: Write a function named greetMe that takes an argument, a String, of a name.
 // The function should print out the value of the String that was passed in.
 // Then, call the function 3 times, each time, passing it a different name.
+function greetMe(name) {
+  console.log(name);
+};
+
+  greetMe("Michann");
+  greetMe("Chase");
+  greetMe("Leon");
 
 
 
 // YOU DO: Write a function that takes in 2 numbers as arguments, Numbers, and logs their sum
 // Then, call that function 3 times, each time, passing in 2 different Numbers.
+function addNumbers(x, y) {
+  return x + y;
+}
+const sumOfNumbers = addNumbers(5,4);
+console.log(sumOfNumbers);
+const sumOfNumbers2 = addNumbers(150, 7);
+console.log(sumOfNumbers2);
+const sumOfNumbers3 = addNumbers(2, 8);
+console.log(sumOfNumbers3);
+
 
 
 
 // YOU DO🎈: Write a function that takes in two strings and prints a concatenation
 // of those two strings, for example the arguments could be ("Oscar", "Ruck") and
 // the end result might be "Oscar and Ruck are BFFS".  Then, call that function.
+function enterName(name1, name2) {
+  console.log("Hello " + name1 + ", how are you and " + name2 + " today?");
+}
 
-
+enterName("Michann", "Chase");
 
 //-------------------
 // PART 3: Naming is Hard
@@ -60,6 +86,14 @@ Look at the code you wrote for the previous YOU DO🎈 - what did you name the f
 What did you name each parameter, and why?
 
 EXPLAIN:
+I went with a pretty simple funtion and pretty simpel parameters, because this section has
+been admittedly more challenging for me than the others for some reason. I chose to name
+the function enterName because I wanted it to be simple and to be able to have many purposes.
+I orignally had it as sayHello, but didn't want the parameters to only be used in a situation
+where we're saying hello. I named the parameters name1 and name2, because I planned on having
+two people in the sentence and wanted it again, to be as straightforward as possible. I can
+see how once you start doing things more in depth, that being a little more specific but without
+over complicating things can be a huge challenge. 
 
 
 */
