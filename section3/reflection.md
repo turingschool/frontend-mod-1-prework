@@ -41,4 +41,4 @@ If we had a loop built into our lollipop making assembly line, as the lollipops 
 
 5. What questions do you still have about Arrays and loops?
 
-Is there a convention for choosing how to write a conditional: ``(i = 0; i <= 10; i++)`` versus writing ``(i = 0; i < 11; i++)`` when both produce the same output?
+Is there a rule for choosing how to write a conditional for a loop: `(i = 0; i <= 10; i++)` versus writing `(i = 0; i < 11; i++)` when both produce the same output? 
