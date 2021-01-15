@@ -17,7 +17,7 @@ function printName() {
   console.log("Severus Snape");
 };
 
-printName(); 
+printName();
 printName();
 printName();
 printName();
@@ -26,6 +26,12 @@ printName();
 
 // YOU DO: Write a function named sayHello that logs to the console "Oh, Hello!"
 // Then, call the function 2 times.
+function sayHello() {
+  console.log("Oh, Hello!");
+}
+
+sayHello();
+sayHello();
 
 //-------------------
 // PART 2: Arguments and Parameters
@@ -35,18 +41,34 @@ printName();
 // The function should print out the value of the String that was passed in.
 // Then, call the function 3 times, each time, passing it a different name.
 
+function greetMe(name){
+  console.log("Hello " + name + "!");
+}
 
+greetMe("Marceline");
+greetMe("Abigail");
+greetMe("Summer");
 
 // YOU DO: Write a function that takes in 2 numbers as arguments, Numbers, and logs their sum
 // Then, call that function 3 times, each time, passing in 2 different Numbers.
 
+function addStuff(number1, number2){
+  console.log(number1 + number2);
+}
 
+addStuff(5, 6);
+addStuff(1, 8);
+addStuff(12, 36);
 
 // YOU DO🎈: Write a function that takes in two strings and prints a concatenation
 // of those two strings, for example the arguments could be ("Oscar", "Ruck") and
 // the end result might be "Oscar and Ruck are BFFS".  Then, call that function.
 
+function makeFriends(person1, person2){
+  console.log(person1 + " and " + person2 + " are friends");
+}
 
+makeFriends("Frog", "Toad");
 
 //-------------------
 // PART 3: Naming is Hard
@@ -60,6 +82,12 @@ Look at the code you wrote for the previous YOU DO🎈 - what did you name the f
 What did you name each parameter, and why?
 
 EXPLAIN:
-
+I named the function makeFriends, because I wanted to make the output a reference to the
+childrens' book "Frog and Toad are Friends." Since functions should start with a verb
+I went with makeFriends, because that's what the concatenation is doing with the
+parameters.
+I named the parameters person1 and person2, because I'm assuming that it's going to be people
+making friends, and there are two of them in this function. I'm not as certain of the
+naming convention that should be used for the parameters.
 
 */
