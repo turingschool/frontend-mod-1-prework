@@ -49,5 +49,6 @@ The keys could be numberOfLikes, shares, authorName
 the example values could be 15, ["Joe", "Pat", "Tim"], "John Doe" 
 
 1. What questions do you still have about classes and/or Objects?
+
 Is an object technically a data type? 
 Is the constructor operator needed?
