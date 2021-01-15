@@ -2,11 +2,11 @@
 
   Next set up a loop that will iterate over the string where the index `[i]` is set to zero, then conditioned less than `string.length`, and the increment or decrement instruction.
 
-  Finally declare a variables for the `currentIndex` position and the `newIndex` position. Use if-statements to make the program wrap the index `[i]` if greater than 25 or less than 0 to keep rotating through the alphabet.
+  Finally declare variables for the `currentIndex` position and the `newIndex` position. Use if-statements to make the program wrap through the index `[i]` if greater than 25 or less than 0 to keep rotating through the alphabet.
 
-  The Caesar Cipher is the last part of the finalProject that I'm completing. I used Google to read about creating a Caesar Cipher function in JavaScript, and have now viewed around 5 demos - all of them coding a little differently. Ultimately, it was a Youtube video that walked me through it, and got my code to work. However, I don't feel confident in my understanding of this code at all. In fact, I still can't make it shift left through the index - or decrement with `i--`. All of my output is from an increment shift, making my output for `('Hi', 2)` JK instead of FG. I'm working to figure out what minor detail that I've overlooked changing to get it to decrement without an error.
+  The Caesar Cipher is the last part of the finalProject that I'm completing. I used Google to read about creating a Caesar Cipher function in JavaScript, and have now viewed around 5 demos - all of them coding a little differently. Ultimately, it was a Youtube video that walked me through it, and got my code to work. However, I don't feel confident in my understanding of this code at all. In fact, I still can't successfully make it shift left through the index - or decrement with `i--`. All of my output is from an increment shift, making my output for `('Hi', 2)` JK instead of FG. I'm working to figure out what minor detail/s that I've overlooked changing to get it to decrement without an error.
 
-  I plan to spend the next week and a half working on building muscle memory, while working through the details of this code. My goal is to have a working `encode()` function that I completely understand and that shifts right OR left by the time classes begin.
+  I plan to spend the next week and a half working on building up coding muscle memory, while working through the details of this code. My goal is to have a working `encode()` function that I completely understand and that shifts right OR left by the time classes begin.
 
 ```js
   // declare the function and name it - encode - and add the parameters for the function to take a string and a number
