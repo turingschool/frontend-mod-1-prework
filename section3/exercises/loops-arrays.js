@@ -30,7 +30,7 @@ for (var i = 0; i < animals.length; i++) {
 // <food> to shopping list" for each food item.
 var myFoods = ['eggs', 'milk', 'coffee', 'half an half'];
 
-for (i = 0; i < 4; i++) {
+for (var i = 0; i < 4; i++) {
   console.log('Add', myFoods[i], 'to shopping list');
 }
 
@@ -38,7 +38,7 @@ for (i = 0; i < 4; i++) {
 // YOU DO: Create an array of numbers and then iterate over that array to log double
 // of each of the number. (Ex: 4 doubled is 8.)
 var myNumbers = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
-for (i = 0; i < 11; i++) {
+for (var i = 0; i < 11; i++) {
   console.log(i, "doubled is", i * 2)
 }
 
@@ -46,7 +46,7 @@ for (i = 0; i < 11; i++) {
 // each name except the first two.
 var names = ['Sevy', 'Lindsey', 'Jericho', 'Raeonna', 'Latrina', 'Jhana', 'Luca'];
 
-for (i = 0; i < 7; i++) {
+for (var i = 0; i < 7; i++) {
   console.log('Happy Birthday,', names[i]);
 }
 
@@ -63,9 +63,8 @@ for (i = 0; i < 7; i++) {
 // Remember, stuck for 15-20 minutes? Reach out to your pre-work group on Slack.
 
 var ages = [17, 20, 34, 18, 16, 65, 49, 10, 22, 18];
-var i;
 
-for (i = 0; i < 10; i++) {
+for (var i = 0; i < 10; i++) {
   if (ages[i] < 18) {
     console.log(ages[i], 'Oh no, you cant quite vote yet.');
 } else{
