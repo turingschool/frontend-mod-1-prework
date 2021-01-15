@@ -8,6 +8,8 @@
 
   I plan to spend the next week and a half working on building up coding muscle memory, while working through the details of this code. My goal is to have a working `encode()` function that I completely understand and that shifts right OR left by the time classes begin.
 
+  Yeah, so after taking some time away, I came back and read through my code comments once more and BINGO! Problem solved. `currentIndex - num` to shift left. I'm still wondering though if you can achieve this with an i--? 
+
 ```js
   // declare the function and name it - encode - and add the parameters for the function to take a string and a number
   function encode(str, num) {
@@ -28,7 +30,7 @@
     }
     // This is where I get a little lost. Declare variable for the current index and set it equal to the alphabet index of the current letter
     var currentIndex = alphabet.indexOf(currentLetter);
-    // Declare new index variable and set it equal to the current index plus a number which will be an argument passed in
+    // Declare new index variable and set it equal to the current index plus a number which will be an argument passed in --- UPDATE!!! Lightbulb! `currentIndex - num` to shift left!
     var newIndex = currentIndex + num;
     // Create if-statements that tell the program to wrap around to 0 index position or 26 index position when the newIndex is greater than 25 or less than 0.
     if(newIndex > 25) newIndex = newIndex - 26;
