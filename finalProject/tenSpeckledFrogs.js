@@ -14,7 +14,7 @@ One jumped in the pool where its nice and cool, then there were no more speckled
 
 
 // ## Required
-//
+
 // Make your program print the rhyme above for *10* frogs, with attention to where language changes.
 // Notice the very small differences between what should be printed out when 3, 2 or 1 frog is sitting on a log.
 
@@ -29,7 +29,7 @@ for (var i = 10; i > 0; i--) {
 
 
 // ## Extension 1
-//
+
 // Make your program work for _any_ number of frogs.
 
 // prompt user for input, then pass value of input to variable 'n'

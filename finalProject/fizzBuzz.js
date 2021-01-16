@@ -1,5 +1,5 @@
 // # FizzBuzz
-//
+
 // Create a file named `fizzBuzz.js` and within that file,
 // write a program that logs the numbers from 1 to 100 with the following rules:
 //
