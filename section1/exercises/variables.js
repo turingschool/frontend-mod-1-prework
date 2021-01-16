@@ -44,7 +44,7 @@ console.log(numberOfPets);
 
 /* I thought about what the answer to each question would be, what data type that
 would fit into, and worked backwards from there. My name is a string, my being
-hungry is true/false i.e. Boolean, and my quantity of pets is a number.
+hungry is true/false i.e. Boolean, and my quantity of pets is an integer.
 */
 
 // YOU DO:
@@ -62,8 +62,7 @@ console.log(numberOfPets);
 // Using the variables below, log the total number of snacks to the console:
 var healthySnacks = 6;
 var junkFoodSnacks = 8;
-console.log(healthySnacks);
-console.log(junkFoodSnacks);
+console.log(healthySnacks + junkFoodSnacks);
 
 //-------------------
 // FINAL CHECK

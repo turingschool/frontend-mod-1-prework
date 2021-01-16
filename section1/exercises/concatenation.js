@@ -24,11 +24,14 @@ console.log("My zoo has " + numberOfCreatures + " " + creatures + "!")
 // YOU DO: What data type will be logged to the console as a result of line 22? Explain.
 // Your answer and explanation here:
 
-/* Due to type-coercion they'll be converted into one unified string. */
+// line 22 will log a string: "My zoo has 7 unicorns!"
+// it does so my concatenating "My zoo has ", the value of numberOfCreatures, .
+// the string " ", the value of creatures, and the string "!", and logging this string to the console
 
 // YOU DO:
 // Write code that combines the variables below into a string that
 // reads "The quick red fox jumped over the lazy brown dog":
+
 var speedy = "quick red fox";
 var slowPoke = "lazy brown dog";
 
@@ -50,11 +53,11 @@ console.log("In a predictable result, the " + slowPoke + " beat the " + speedy +
   // you name the variables. Remember, the goal is to be concise but descriptive (it's a hard balance!)
   // Then, log out ONE sentence that incorporates all THREE variables.
 
-var twins = "Minnesota Twins";
-var yanks = "New York Yankees";
-var mlb = "Major League Baseball";
+var twinsName = "Minnesota Twins";
+var yanksName = "New York Yankees";
+var mlbName = "Major League Baseball";
 
-console.log("For the first time in " + mlb + " history, the " + twins + " have defeated the " + yanks + " in the World Series!!");
+console.log("For the first time in " + mlbName + " history, the " + twinsName + " have defeated the " + yanksName + " in the World Series!!");
 
 //-------------------
 // FINAL CHECK
@@ -62,3 +65,5 @@ console.log("For the first time in " + mlb + " history, the " + twins + " have d
 
 // Did you run this file in your terminal to make sure everything printed out to the console
   // as you would expect? You should be doing this by now, and getting into the habit of it.
+
+// 10-4.
