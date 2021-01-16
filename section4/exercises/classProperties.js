@@ -15,11 +15,33 @@ Make sure to run the file with node in your command line.
   // Log each variable to the console.
   // You do not need any proerties at this time!!
 
+// NOTE: Turned the following prompts to comments to allow future prompts to run properly.
 // Prompt 1: Dog
+// class Dog {
+//
+// }
+// var goldenLab = new Dog();
+// var poodle = new Dog();
+// console.log(goldenLab);
+// console.log(poodle);
 
 // Prompt 2: Snack
+// class Snack {
+//
+// }
+// var cheezIt = new Snack();
+// var hummus = new Snack();
+// console.log(cheezIt);
+// console.log(hummus);
 
 // Prompt 3: Shirt
+// class Shirt {
+//
+// }
+// var tShirt = new Shirt();
+// var buttonUp = new Shirt();
+// console.log(tShirt);
+// console.log(buttonUp);
 
 //-------------------
 // Part 2: Properties
@@ -33,11 +55,37 @@ Make sure to run the file with node in your command line.
   // Log that variable to the console.
 
 // Prompt 1: Dog
+// class Dog {
+//   constructor() {
+//     this.furColor = "yellow";
+//     this.dogSize = "medium";
+//     this.averageAge = 13;
+//   }
+// }
+// var goldenLab = new Dog();
+// console.log(goldenLab);
 
 // Prompt 2: Snack
+// class Snack {
+//   constructor() {
+//     this.flavor = "cheddar";
+//     this.bagSize = "family";
+//     this.shelfLife = "2 years";
+//   }
+// }
+// var cheezIt = new Snack ();
+// console.log(cheezIt);
 
 // Prompt 3: Shirt
-
+// class Shirt {
+//   constructor() {
+//     this.shirtSize = "large";
+//     this.shirtColor = "blue";
+//     this.shirtStyle = "graphic";
+//   }
+// }
+// var tShirt = new Shirt ();
+// console.log(tShirt);
 //-------------------
 // Part 3: Dynamic Properties
 //-------------------
@@ -51,7 +99,40 @@ Make sure to run the file with node in your command line.
   // Log those variables to the console.
 
 // Prompt 1: Dog
+class Dog {
+  constructor(furColor, dogSize, averageAge) {
+    this.color = furColor;
+    this.size = dogSize;
+    this.age = averageAge;
+  }
+}
+var goldenLab = new Dog("yellow", "medium", 13);
+console.log(goldenLab);
+var poodle = new Dog("white", "small", 10);
+console.log(poodle);
 
 // Prompt 2: Snack
+class Snack {
+  constructor(snackFlavor, snackSize, snackLife) {
+    this.flavor = snackFlavor;
+    this.bagSize = snackSize;
+    this.shelfLife = snackLife;
+  }
+}
+var cheezIt = new Snack("cheddar", "family", "2 years");
+console.log(cheezIt);
+var hummus = new Snack("garlic", "individual portion", "1.5 weeks");
+console.log(hummus);
 
 // Prompt 3: Shirt
+class Shirt {
+  constructor(size, color, style) {
+    this.shirtSize = size;
+    this.shirtColor = color;
+    this.shirtStyle = style;
+  }
+}
+var tShirt = new Shirt("large", "blue", "graphic");
+console.log(tShirt);
+var buttonUp = new Shirt("medium", "red", "plaid");
+console.log(buttonUp);
