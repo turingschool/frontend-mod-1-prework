@@ -5,6 +5,7 @@
 1. In which ways do you currently demonstrate a Growth Mindset? In which ways do you _not_?
 
 1. Think of a web or mobile application you use regularly. Where is an example of a place that the developers probably use Arrays? Explain.
+ Netflix - Probaly use arrays to store all the different movie titles to search through 
 
 1. In your own words, explain what an Array method is.
 
@@ -15,5 +16,7 @@
 To repeat an action/condition a number of times. 
 
 1. If you had to teach a 5 year old about loops, how would you explain it?
+
+A way to make the computer do something a lot of times over until it reaches a solution.
 
 1. What questions do you still have about Arrays and loops?
