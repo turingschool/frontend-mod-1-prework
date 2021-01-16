@@ -19,7 +19,7 @@ We learned about Numbers, Strings, and Booleans.  Numbers are just any numbers -
 
 5. In your own words, what is a variable? How would you explain it to a 5 year old?
 
-A variable is like a small box, but to use it we have to give it an appropriate label first, then we can put that kind of stuff inside, and if we do that right we can put it wherever we want in the house and easily find it and use it later.
+A variable is like a small box, but to use it we have to give it an appropriate label first, then we can put that kind of thing inside, and if we do that we can put it wherever we want in the house and easily find it and use it later.
 
 6. Think of a site or app you use frequently. What are three variables that are probably used? Which data type would each of those variables probably hold?
 
@@ -27,7 +27,7 @@ I use iMDB a lot, and I'm sure every movie listing has a number variable for the
 
 7. In your own words, explain what concatenation is.
 
-Taking multiple variables and fusing them together into one cohesive string.
+Taking values and fusing them together into one cohesive string.
 
 8. Think of a site or app you use frequently. Where do you think the developers used concatenation?
 
@@ -35,6 +35,6 @@ I'm sure Wikipedia uses concatenation all the time - whenever a user submits add
 
 9. What questions do you still have about the work we've done so far? (not having a question is not an option)
 
-I couldn't get the 'clear' or 'rm -rf' functions to work in the Terminal Playground, could I have been using them wrong?
+I'm still occasionally being asked in Command Line to input my GitHub username and email in order to push - should I go through the technical setup all over again (the whole SSH key thing), or might that cause problems?
 
 /*  
