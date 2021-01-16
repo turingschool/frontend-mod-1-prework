@@ -29,13 +29,17 @@ console.log("Hello World!")
 // to leave messages, comments, help for yourself or other programmers looking at your code
 
 5. In your own words, what is a variable? How would you explain it to a 5 year old?
-a variable is
+a variable is a way to rename something or a bunch of somethings
 
 6. Think of a site or app you use frequently. What are three variables that are probably used? Which data type would each of those variables probably hold?
-reddit:
+reddit: `user`, `thread`, `logout`, array, boolean, string
 
 7. In your own words, explain what concatenation is.
+adding up the variables and strings
 
 8. Think of a site or app you use frequently. Where do you think the developers used concatenation?
 
+instagram: with the user accounts
+
 9. What questions do you still have about the work we've done so far? (not having a question is not an option)
+I don't really understand concatenation
