@@ -43,8 +43,8 @@ sayHello();
 // The function should print out the value of the String that was passed in.
 // Then, call the function 3 times, each time, passing it a different name.
 
-function greetMe(beatleNames) {
-  console.log("Cheers to " + beatleNames + "!");
+function greetMe(beatleName) {
+  console.log("Cheers to " + beatleName + "!");
 }
 
 greetMe('John Lennon');

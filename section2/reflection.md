@@ -26,4 +26,4 @@ In both of these situations you'd want to use a *logical operator*.  To check th
 
 1. What questions do you still have about `if` statements and/or functions?
 
-The `if` statements were pretty straight-forward, I'm mostly just wondering about functions at this point, i.e. best practices regarding function structure.  Like, in what context does it make more sense to use arguments as values, and when would it be more effective or *clean* to use arguments as variables.  I'm sure we'll get into all that soon, but that's just what I've been curious about after finishing this section.  
+The `if` statements were pretty straight-forward, I'm mostly just wondering about functions at this point, i.e. best practices regarding function structure.  Like, in what context does it make more sense to pass in arguments as values, and when would it be more effective to instead declare these values in variables.  I'm sure we'll get into all that soon, but that's just what I've been curious about after finishing this section.  

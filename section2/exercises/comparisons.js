@@ -92,9 +92,8 @@ console.log(4 < 9);
 //YOU DO: Explain.
 
 /*
-This code takes the expression '4 < 9' and using the comparison operator '<'
-evaluates whether to return a value of 'true' or 'false'.  It then logs the result of that evaluation.
-*/
+This code takes the expression '4 < 9', using the comparison operator '<' computes whether or not 4 is less than 9,
+and based on this computation logs a value of either 'true' or 'false'.
 
 var books = 3;
 console.log(4 < books);
@@ -112,7 +111,7 @@ console.log(friends > siblings);
 // YOU DO: Explain.
 
 /*
-This code declares the variables 'friends' and 'siblings' and assings them values of '6' and '2', respectively.
+This code declares the variables 'friends' and 'siblings' and assigns to them values of '6' and '2', respectively.
 Then using the expression 'friends > siblings' evaluates whether or not the value of 'friends' is greater than
 the value of the 'siblings', and logs the returned value of 'true' or 'false'.
 */
@@ -123,7 +122,7 @@ console.log(attendees !== meals);
 // YOU DO: Explain.
 
 /*
-This code declares the variables 'attendees' and 'meals' and assings them values of '9' and '8', respectively.
+This code declares the variables 'attendees' and 'meals' and assigns them values of '9' and '8', respectively.
 Then using the expression 'attendees !== meals' evaluates whether or not the value of 'attendees' is not equal to
 the value of meals, and logs the returned value of 'true' or 'false'.
 */
@@ -164,14 +163,14 @@ console.log(lovesToPlay || lovesDogPark);
 
 // Determine if the dog loves to play and is a puppy
 
-console.log(lovesToPlay && age <= 1);
+console.log(lovesToPlay && age <= 2);
 //true
 
 // What did your final line of code evaluate to? Why do you think that is? Explain.
 // ANSWER:
 
-/* Evaluated to 'true' because both the expressions 'lovesToPlay' AND 'age <=1 '
-yielded their own 'true' evaluations.
+/* Retuned 'true' because *both* the expressions 'lovesToPlay' AND 'age <= 2'
+(which I used to define the condition of being a puppy) yielded 'true' evaluations.
 */
 
 //-------------------
@@ -180,5 +179,3 @@ yielded their own 'true' evaluations.
 
 // Did you run this file in your terminal to make sure everything printed out to the console
   // as you would expect?
-
-  //yes
