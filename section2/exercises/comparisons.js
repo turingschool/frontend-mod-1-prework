@@ -24,9 +24,11 @@ console.log("Is numberTeachers greater than numberStudents?", numberTeachers > n
 
 // YOU DO: log the result of the comparison: is numberTeachers less than numberStudents?
 // this should log: true
+console.log("Is numberTeachers less than numberStudents?", numberTeachers < numberStudents);
 
 // YOU DO: log the result of the comparison: is numberTeachers equal to stringTeachers? (use the == operator)
 // this should log: true
+console.log("Is numberTeachers equal to stringTeachers?", numberTeachers == stringTeachers);
 
 /*
 Note: this is an example of type coercion. Although stringTeachers is a string and numberStudents is an integer,
@@ -36,6 +38,7 @@ perform this evaluation
 
 // YOU DO: log the result of the comparison: is numberTeachers strictly equal to stringTeachers? (use the === operator)
 // this should log: false
+console.log("Is numberTeachers strictly equal to stringTeachers?", numberTeachers === stringTeachers);
 
 /*
 Note: the strictly equal to operator compares the value of the variable in addition to the type of the variable.
@@ -49,19 +52,23 @@ you develop good habits that follow best practice, from now on, use the strict c
 
 // YOU DO: log the result of the comparison: is numberTeachers not equal to numberStudents?
 // this should log: true
+console.log("Is numberTeachers not equal to numberStudents?", numberTeachers !== numberStudents);
 
 // YOU DO: log the result of the comparison: is numberStudents greater than or equal to 20?
 // this should log: true
+console.log("Is numberStudents greater than or equal to 20?", numberStudents >= 20);
 
 // YOU DO: log the result of the comparison: is numberStudents greater than or equal to 21?
 // this should log: false
+console.log("Is numberStudents greater than or equal to 21?", numberStudents >= 21);
 
 // YOU DO: log the result of the comparison: is numberStudents less than or equal to 20?
 // this should log: true
+console.log("Is numberStudents less than or equal to 20?", numberStudents <= 20);
 
 // YOU DO: log the result of the comparison: is numberStudents less than or equal to 21?
 // this should log: true
-
+console.log("Is numberStudents less than or equal to 21?", numberStudents <= 21);
 
 //-------------------
 // PART 2: Articulating what you are doing
@@ -72,21 +79,21 @@ you develop good habits that follow best practice, from now on, use the strict c
 // Be as technically precise as possible, but don't just copy and paste a definition from the readings.
 // Make sure YOU can explain it that way!
 
-console.log(4 < 9);
+console.log(4 < 9); //This line is logging the result of the comparison: is 4 less than 9
 //YOU DO: Explain.
 
-var books = 3;
-console.logs(4 < books);
+var books = 3; //This line is declaring the vairable "books" and assigning it to 3
+console.log(4 < books); //This line is logging the comparison: is 4 less than the number of books
 // YOU DO: Explain.
 
-var friends = 6;
-var siblings = 2;
-console.log(friends > siblings);
+var friends = 6; //This line is declaring the vairable "friends" and assigning it to 6
+var siblings = 2; //This line is declaring the vairable "siblings" and assigning it to 2
+console.log(friends > siblings); //This line is logging the comparison: is "friends" greater than "siblings"
 // YOU DO: Explain.
 
-var attendees = 9;
-var meals = 8;
-console.log(attendees !== meals);
+var attendees = 9; //This line is declaring the vairable "attendees" and assigning it to 9
+var meals = 8; //This line is declaring the vairable "meals" and assigning it to 8
+console.log(attendees !== meals); //This line is logging the comparison: is "attendees" not equal to "meals"
 // YOU DO: Explain.
 
 
@@ -110,18 +117,20 @@ var age = 1;
 
 // YOU DO:
 // Determine if the dog loves to play and loves treats
-
+console.log(lovesToPlay && lovesTreats);
 
 // Determine if the dog loves to play and loves the dog park
-
+console.log(lovesToPlay && lovesDogPark)
 
 // Determine if the dog loves to play or loves the dog park
-
+console.log(lovesToPlay || lovesDogPark)
 
 // Determine if the dog loves to play and is a puppy
+console.log(lovesToPlay && age < 2)
 
 // What did your final line of code evaluate to? Why do you think that is? Explain.
 // ANSWER:
+//My final line of code evaluated to "true" because lovesToPlay = true and using the less than operator we found that our dog is a puppy.
 
 //-------------------
 // FINAL CHECK
