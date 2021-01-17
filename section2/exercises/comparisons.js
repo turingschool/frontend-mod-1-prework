@@ -24,9 +24,12 @@ console.log("Is numberTeachers greater than numberStudents?", numberTeachers > n
 
 // YOU DO: log the result of the comparison: is numberTeachers less than numberStudents?
 // this should log: true
+console.log("is numberTeachers less than numberStudents?", numberTeachers < numberStudents);
+
 
 // YOU DO: log the result of the comparison: is numberTeachers equal to stringTeachers? (use the == operator)
 // this should log: true
+console.log("is numberTeachers equal to stringTeachers?", numberTeachers == stringTeachers)
 
 /*
 Note: this is an example of type coercion. Although stringTeachers is a string and numberStudents is an integer,
@@ -36,7 +39,7 @@ perform this evaluation
 
 // YOU DO: log the result of the comparison: is numberTeachers strictly equal to stringTeachers? (use the === operator)
 // this should log: false
-
+console.log("is numberTeachers strictly equal to stringTeachers?", numberTeachers === stringTeachers)
 /*
 Note: the strictly equal to operator compares the value of the variable in addition to the type of the variable.
 since the numberTeachers is an integer value and the stringTeachers is a string value, although they are both equal to 4,
@@ -49,19 +52,24 @@ you develop good habits that follow best practice, from now on, use the strict c
 
 // YOU DO: log the result of the comparison: is numberTeachers not equal to numberStudents?
 // this should log: true
+console.log("is numberTeachers not equal to numberStudents?", numberTeachers !== numberStudents)
 
 // YOU DO: log the result of the comparison: is numberStudents greater than or equal to 20?
 // this should log: true
+console.log("is numberStudents greater than or equal to 20?", numberStudents >= 20)
 
 // YOU DO: log the result of the comparison: is numberStudents greater than or equal to 21?
 // this should log: false
 
+console.log("is numberStudents greater than or equal to 21?", numberStudents >= 21)
+
 // YOU DO: log the result of the comparison: is numberStudents less than or equal to 20?
 // this should log: true
+console.log("is numberStudents less than or equal to 20?", numberStudents <= 20)
 
 // YOU DO: log the result of the comparison: is numberStudents less than or equal to 21?
 // this should log: true
-
+console.log("is numberStudents less than or equal to 21?", numberStudents <= 21)
 
 //-------------------
 // PART 2: Articulating what you are doing
@@ -74,21 +82,25 @@ you develop good habits that follow best practice, from now on, use the strict c
 
 console.log(4 < 9);
 //YOU DO: Explain.
+// result of the comparison of: is 4 less than 9? resulting in true
 
 var books = 3;
-console.logs(4 < books);
+console.log(4 < books);
 // YOU DO: Explain.
+//comparison of if 4 is greater then the variable 'books' of 3. resulting in false
+
 
 var friends = 6;
 var siblings = 2;
 console.log(friends > siblings);
 // YOU DO: Explain.
+// comparison of friends greater then sibilings. resulting in true
 
 var attendees = 9;
 var meals = 8;
 console.log(attendees !== meals);
 // YOU DO: Explain.
-
+// comparison of if attendees not equal to meals. results should read true
 
 //-------------------
 // PART 3: Logical Operators
@@ -96,6 +108,8 @@ console.log(attendees !== meals);
 
 var isHungry = true;
 var finishedHomework = false;
+// Use double ampersand for logical AND operational operations
+// use double vertical bar for logical OR operational operations
 
 // EXAMPLE:
 // Determine if the user is hungry and has completed their homework
@@ -110,18 +124,20 @@ var age = 1;
 
 // YOU DO:
 // Determine if the dog loves to play and loves treats
-
+console.log(lovesToPlay && lovesTreats)
 
 // Determine if the dog loves to play and loves the dog park
-
+console.log(lovesToPlay && lovesDogPark)
 
 // Determine if the dog loves to play or loves the dog park
-
+console.log(lovesToPlay || lovesDogPark)
 
 // Determine if the dog loves to play and is a puppy
+console.log(lovesToPlay || age)
 
 // What did your final line of code evaluate to? Why do you think that is? Explain.
 // ANSWER:
+// the solution was true. as to why i dont know. i dont know how it assumes a puppy is 1 
 
 //-------------------
 // FINAL CHECK

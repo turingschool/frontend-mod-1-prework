@@ -17,44 +17,80 @@ var foods = {
 };
 
 console.log(foods);
+
+console.log("  ")
+console.log("=================")
+console.log(" ")
+
 // Notice that the variable name is foods, plural, because it has the ability to hold info about 
-// potentially many foods. That plural name indicates to another developer that the variable stores 
-// either an Array or an Object.
+// potentially many foods. That plural name indicates to another developer that the variable
+// stores either an Array or an Object.
 
 //-------------------
 // Part 1: Zoo Animals
 //-------------------
 
-// YOU DO: Write code below that will declare a variable that stores an Object Literal of animal names and 
-// the number of that type of animal at the zoo.
+// YOU DO: Write code below that will declare a variable that stores an Object Literal of animal 
+// names and the number of that type of animal at the zoo.
+var animalNames = {
+  lions: 15,
+  lemurs: 34,
+  penguins: 94
+};
 
+console.log(animalNames)
 
 // Using the zoo that you created above, log the value of the first item in
 // the Object
+console.log(" ")
+
+console.log(animalNames.lions)
+console.log(" ")
 
 
 // Add an animal to the zoo Object, and log the updated Object.
-
+animalNames.rhinos = 34
+console.log(animalNames)
+console.log(" ")
 
 // Change the value for at least one of your animal keys, and log the updated Object.
 
+animalNames.lions = "snakes: 34";
+console.log(animalNames.lions)
+console.log(" ")
 
 // Add another animal to the zoo Object, and log the updated Object.
-
+animalNames.hippos = 4
+console.log(animalNames)
+console.log(" ")
 
 //-------------------
 // Part 2: Email
 //-------------------
-
+console.log("  ")
+console.log("=================")
+console.log(" ")
 /*
 Think about all the pieces of information associated with one single email in your inbox.
 It has a sender, a subject, ...
 
 Declare a variable that stores an Object Literal. Each key should be an attribute of an email and each
 value should be some appropriate value for that key. Work to have at least 5 key-value pairs.
-
 Log your email object to the console.
 */
+
+emailInfo = {
+  sender: "John",
+  attachment: "picture.jpg",
+  subject: "Lights",
+  font: "helvetica",
+  fontSize: 13,
+  body: "You need new lights"
+}
+console.log(emailInfo)
+console.log("  ")
+console.log("=================")
+console.log(" ")
 
 //-------------------
 // Part 3: Many Emails - OPTIONAL EXTENSION
@@ -94,7 +130,9 @@ var posts = [
 
 console.log(posts);
 console.log(posts[0]);
-
+console.log("  ")
+console.log("=================")
+console.log(" ")
 /*
 The code snippet above shows an Array with 2 elements. Each element in an 
 Object Literal. Each of those Object Literals has 4 key-value pairs. This may LOOK 
@@ -105,3 +143,24 @@ good to have some exposure before going into Mod 1.
 // YOU DO: Create an array of at least 3 EMAIL Object Literals, using the same 
 // key-value pairs you used in your email Object above.
 // Then, log the email Array to the console.
+
+var emailInfo = [
+
+{  
+  sender: "PETA",
+  attachment: "caught_you.png",
+  subject: "Fur Murder",
+  font: "Times New Roman",
+  fontSize: 16,
+  body: "Fur is murder, so dont wear it"
+},
+  {
+     sender: "Dr. J",
+  attachment: "greatest_shooter.gif",
+  subject: "GOAT",
+  font: "Comic Sans",
+  fontSize: 14,
+  body: "Micheal, you'll always be #2"
+}
+]
+console.log(emailInfo)

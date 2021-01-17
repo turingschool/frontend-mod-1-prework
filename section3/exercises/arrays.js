@@ -24,41 +24,50 @@ console.log(animals[0]);
 
 // YOU DO: Write code below that will log the number of elements in array of
 // animals from above.
+console.log(animals.length)
 
 
 // YOU DO: Write code that will reassign the last item in the animals
 // array to "Gorilla"
-
+animals[2] = "Gorilla";
+console.log(animals);
 
 // YOU DO: Write code that will add a new animal (type of your choice) to position 3.
-
+animals[2] = "Elephant"
+var newAnimals = animals.push ("Ocelot")
+console.log(animals);
 
 // YOU DO: Write code that will log the String "Elephant" in the animals array
-
+console.log(animals[2])
 
 //-------------------
 // PART 2: Foods: Array Methods
 //-------------------
 
 // YOU DO: Declare a variable that will store an an array of at least 4 foods (strings)
-
+var food = ["apple", "mango", "orange", "plum"]
 
 // YOU DO: Write code below that will log the number of elements in the array of
 // foods from above.
+console.log(food);
+
 
 
 // YOU DO: Write code below that uses a method to add "broccoli" to the foods array and
 // log the changed array to verify "broccoli" has been added
-
+var addFood = food.unshift("broccoli")
+console.log(food);
 
 // YOU DO: Write code below that removes the last item of food from the foods array and
 // log the changed array to verify that item has been removed
+var removeFood = food.pop()
+console.log(food);
 
-
-// YOU DO: Write code to add 3 new foods to the array. 
+// YOU DO: Write code to add 3 new foods to the array.
   // There are several ways to do this - choose whichever you'd like!
 // Then, log the changed array to verify the new items have been added
-
+var addFood = food.unshift("passion fruit", "walnuts", "peacans")
+console.log(food);
 // YOU DO: Remove the food that is in index position 0.
 
 //-------------------
@@ -79,12 +88,12 @@ The post itself likely has more complex data, but here's one way we can think ab
 var posts = ["image at beach", "holiday party", "adorable puppy", "video of cute baby"];
 
 // YOU DO: Think of a web application you commonly use. Where do you see LISTS utilized, where arrays
-// may be storing data? Come up with 3 examples - they could be from different web applications or 
+// may be storing data? Come up with 3 examples - they could be from different web applications or
 // all from the same one.
 
-// 1:
-// 2:
-// 3:
+// 1:Reddit - ["user name", "post count", "karma"]
+// 2:Spotify - ["artist", "song titles", "featured"]
+// 3:Amazon - ["commentors", "product image gallery", "customer questions"]
 
 
 //-------------------
@@ -96,16 +105,26 @@ YOU DO:
 Using the variables defined below, write a program that will tell a user if they
 will be able to call an Uber.
 
-The user can call an uber if they have 15% battery remaining, or more. In this case, it doesn't matter 
-if the user has a charger at all, or what type.
-The can call an uber if they have a charger and it is a car charger.
+The user can call an uber if they have 15% battery remaining, or more. In this case,
+ it doesn't matter if the user has a charger at all, or what type.
+They can call an uber if they have a charger and it is a car charger.
 
 */
+// States the var and declares
 var percentBatteryLeft = 12;
 var hasCharger = true;
 var chargerType = "car";
 
-// Write your conditional here
+//If statement outlining that if variable percenterBatteryLeft is greater than/equal to 15 it'll display the message in the log
+if (percentBatteryLeft >= 15) {
+  console.log("You are able to call an Uber")
+}
+// else if conditional with logical AND operation that if both true will display the message in the log
+else if (hasCharger === true && chargerType === "car") {
+  console.log("You are able to call an Uber")
+}
+// else conditional stating that if all other if/else if functions are false to display message in log
+else {console.log("You are unable to call an Uber")}
 
 
 // YOU DO - ANNOTATE: Above each line of your code for this if statement, create a comment.
