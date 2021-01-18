@@ -1,4 +1,4 @@
-#10 Speckled Frogs
+# 10 Speckled Frogs
 
 Create a file named `tenSpeckledFrogs.js` and within that file, write several a program that will print the following nursery rhyme:
 
