@@ -1,7 +1,7 @@
-#Array Methods
+# Array Methods
 
 
-#### push
+### push
 *used to add an item to the end of an array*
 
 ```
@@ -19,7 +19,7 @@ fruits
 ```
 
 
-#### pop
+### pop
 *used to remove an item from the end of an Array*
 
 ```
@@ -32,7 +32,7 @@ fruits
 ```
 
 
-#### shift
+### shift
 *removes an item from the beginning of an array*
 
 ```
@@ -45,7 +45,7 @@ fruits
 ```
 
 
-#### unshift
+### unshift
 *adds an item to the beginning of an array*
 
 ```
