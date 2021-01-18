@@ -12,7 +12,7 @@ Make sure to run the file with node in your command line.
 // EXAMPLE:Manipulate the variable 'weather' to see if you can print something other
   // than 'coat'.
 
-var weather = 'snowy';
+var weather = 'icy';
 // var weather = 'icy';
 // var weather = 'rainy';
 // var weather = 'sunny';
@@ -29,12 +29,12 @@ if (weather == 'sunny') {
   console.log('yak traks');
 } else{
   console.log('good to go!');
-}
+};
 
-/* 
+/*
 YOU DO:
-Using the dogAge variable defined below, 
-determine if a dog is a puppy (2 or younger), 
+Using the dogAge variable defined below,
+determine if a dog is a puppy (2 or younger),
 an adult, or elderly (10 or older).
 
 Log to the console the appropriate age range
@@ -43,7 +43,13 @@ Log to the console the appropriate age range
 
 var dogAge = 3;
 // Write your conditional here
-
+if (dogAge <= 2) {
+  console.log("The dog is a puppy!");
+} else if (dogAge < 10) {
+  console.log("The dog is an adult!");
+} else {
+  console.log("The dog is elderly!");
+};
 
 /*
 YOU DO:
@@ -65,9 +71,11 @@ When numQuarters = 3, program should log "I have enough money for a gumball"
 var numQuarters = 0;
 
 // Write your conditional here
-console.log("I have enough money for a gumball");
+if (numQuarters >= 2) {
+  console.log("I have enough money for a gumball");
+} else {
 console.log("I don't have enough money for a gumball");
-
+};
 
 /*
 YOU DO:
@@ -87,11 +95,20 @@ var hasSauce = true;
 
 // Write your conditional here
 
+if (cupsOfFlour >= 2 && hasSauce == true) {
+  console.log("I can make pizza");
+} else {
+  console.log("I cannot make pizza");
+};
 
 /*
-For the last two exercises, an ideal solution probably uses a logical operator. 
+For the last two exercises, an ideal solution probably uses a logical operator.
 Did yours? Do you know what a logical operator in JavaScript is? Google it to answer
 for yourself!
+  I used the && (and) logical operator. This is used to evaluate multiple conditions at once. if both
+conditions are met, it evaluates as true. If either or both conditions are not met, it evaluates
+as false.
+
 
 If your solution doesn't use a logical operator, this is a great topic to bring up
 in your pre-work group's Slack channel!
