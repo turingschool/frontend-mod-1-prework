@@ -124,12 +124,12 @@ var chargerType = "wall";
 // evaluates whether the user has at least 15% battery left on their phone OR has a charger that is also a car charger
 // if this evaluates to true, it tells user, "Go ahead and call an Uber!"
 if (percentBatteryLeft >= 15 || (hasCharger === true && chargerType === "car")) {
-  console.log("Go ahead and call an Uber!")
+  console.log("Go ahead and call an Uber!");
 // if the user has neither 15%+ battery nor a car charger, the scripts run the message,
 // "You do not have enough battery to call an Uber. Please charge your phone or get a car charger."
 } else {
   console.log("You do not have enough battery to call an Uber. Please charge your phone or get a car charger.");
-}
+};
 
 // YOU DO - ANNOTATE: Above each line of your code for this if statement, create a comment.
 // That comment should describe, in your own words, and as technically precise as possible,

@@ -1,4 +1,4 @@
-// Begin with any number of frogs by assigning any positive integer to i 
+// Begin with any number of frogs by assigning any positive integer to i
 var i = 10;
 
 for (var i; i > 0; i--) {
@@ -11,4 +11,4 @@ for (var i; i > 0; i--) {
    } else {
         console.log("1 speckled frog sat on a log \neating some most delicious bugs. \nOne jumped in the pool where its nice and cool, \nthen there were no more speckled frogs!")
    }
-}
+};

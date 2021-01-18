@@ -28,7 +28,7 @@ printName();
 // Then, call the function 2 times.
 function sayHello() {
   console.log("Oh, Hello!");
-}
+};
 sayHello();
 sayHello();
 
@@ -42,7 +42,7 @@ sayHello();
 
 function greetMe(name) {
   console.log("Hello, " + name);
-}
+};
 greetMe("Cindy");
 greetMe("Betty");
 greetMe("Jacob");
@@ -51,7 +51,7 @@ greetMe("Jacob");
 // Then, call that function 3 times, each time, passing in 2 different Numbers.
 function sum(firstNum, secondNum) {
   console.log(firstNum +secondNum);
-}
+};
 sum(2, 4);
 sum(5, 9);
 sum(92, 756);
@@ -60,11 +60,11 @@ sum(92, 756);
 // of those two strings, for example the arguments could be ("Oscar", "Ruck") and
 // the end result might be "Oscar and Ruck are BFFS".  Then, call that function.
 function nameConcatenation(firstName, middleName) {
-  console.log(firstName + " " + middleName + " JingleHeimerSmidt")
-}
+  console.log(firstName + " " + middleName + " JingleHeimerSmidt");
+};
 
 nameConcatenation("John", "Jacob");
-nameConcatenation("Stephanie", "Penelope")
+nameConcatenation("Stephanie", "Penelope");
 
 
 //-------------------

@@ -16,10 +16,11 @@ class Tweet {
     this.numberOfLikes = numberOfLikes;
     this.comments = comments;
   }
- addLikes() {
+  addLikes() {
     this.numberOfLikes = this.numberOfLikes + 1;
  }
-}
+};
+
 var tweet1 = new Tweet("Bobby","Me at the beach","04:38pm 06/11/2019", 23, ["Wow! It's so pretty!","Looking good, Bobby :)"]);
 var tweet2 = new Tweet("Suzy", "Gettin' moneyyyy #payday", "09:12am 07/11/2019", 32, ["Get it!"]);
 var tweet3 = new Tweet("Ronald McDonald", "Best burger EVER", "02:13am 08/11/2019", 3, ["Ron, why are you at McDonald's at 2am???", "Bring me back one!"]);

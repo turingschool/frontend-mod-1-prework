@@ -29,7 +29,7 @@ if (weather == 'sunny') {
   console.log('yak traks');
 } else{
   console.log('good to go!');
-}
+};
 
 /*
 YOU DO:
@@ -49,7 +49,7 @@ if (dogAge <= 2) {
   console.log("The dog is an adult!");
 } else {
   console.log("The dog is elderly!");
-}
+};
 
 /*
 YOU DO:
@@ -75,7 +75,7 @@ if (numQuarters >= 2) {
   console.log("I have enough money for a gumball");
 } else {
 console.log("I don't have enough money for a gumball");
-}
+};
 
 /*
 YOU DO:
@@ -99,7 +99,7 @@ if (cupsOfFlour >= 2 && hasSauce == true) {
   console.log("I can make pizza");
 } else {
   console.log("I cannot make pizza");
-}
+};
 
 /*
 For the last two exercises, an ideal solution probably uses a logical operator.

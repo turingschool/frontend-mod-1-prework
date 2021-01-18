@@ -109,7 +109,7 @@ var posts = [
     numberLikes: 13,
     comments: []
   }
-]
+];
 
 console.log(posts);
 console.log(posts[0]);
@@ -126,32 +126,33 @@ good to have some exposure before going into Mod 1.
 // Then, log the email Array to the console.
 
 var emails = [
-{
-  sender: "Riley",
-  recipient: ["Eric", "Margo", "Mason"],
-  subject: "Code Stuff",
-  fontSize: 12,
-  font: "arial",
-  body: "Thank you for teaching me code stuff",
-  signature: "Riley M",
-},
-{
-  sender: "Milo",
-  recipient: ["Riley", "Allison"],
-  subject: "Park Picnic",
-  fontSize: 18,
-  font: "comic sans",
-  body: "Let's eat sandwiches at the park!",
-  signature: "M",
-},
-{
-  sender: "Joseph",
-  recipient: "Mackenzie",
-  subject: "Christmas call",
-  fontSize: 14,
-  font: "times new roman",
-  body: "Family group call at noon :)",
-  signature: "Dad",
-}
-]
+  {
+    sender: "Riley",
+    recipient: ["Eric", "Margo", "Mason"],
+    subject: "Code Stuff",
+    fontSize: 12,
+    font: "arial",
+    body: "Thank you for teaching me code stuff",
+    signature: "Riley M",
+  },
+  {
+    sender: "Milo",
+    recipient: ["Riley", "Allison"],
+    subject: "Park Picnic",
+    fontSize: 18,
+    font: "comic sans",
+    body: "Let's eat sandwiches at the park!",
+    signature: "M",
+  },
+  {
+    sender: "Joseph",
+    recipient: "Mackenzie",
+    subject: "Christmas call",
+    fontSize: 14,
+    font: "times new roman",
+    body: "Family group call at noon :)",
+    signature: "Dad",
+  }
+];
+
 console.log(emails);

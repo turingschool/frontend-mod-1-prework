@@ -32,13 +32,13 @@ class Burrito {
     this.protein = protein;
     this.base = base;
     this.toppings = toppings;
-  }
-changeProtein() {
+  },
+  changeProtein() {
   this.protein = "chicken";
-  }
-addTopping() {
+  },
+  addTopping() {
   this.toppings.push("salsa");
- }
+  }
 };
 
 var veggie = new Burrito("pinto breans", "brown rice",["cheese","lettuce"]);
