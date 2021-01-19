@@ -1,5 +1,3 @@
-// declare new array with 100 slots
-var bubble = new Array(100);
 // create loop counter for 1 - numbers less than 101,
 // increment using i++
 for (var i = 1; i < (101); i++) {
@@ -19,4 +17,3 @@ for (var i = 1; i < (101); i++) {
     console.log(i);
   }
 }
-console.log(bubble);
