@@ -33,13 +33,13 @@ class Burrito {
     this.base = base;
     this.toppings = toppings;
   }
-  changeProtein() {
+  changeProteinToChicken() {
     this.protein = 'Chicken';
   };
-  addToppings() {
+  addRiceToToppings() {
     this.toppings = toppings.concat('Rice');
   };
-  changeBase() {
+  changeBaseToGlutenFree() {
     this.base = 'Gluten-free Tortilla'
   }
 }
@@ -61,13 +61,13 @@ console.log(toppings);
 
 console.log(supreme);
 
-supreme.changeProtein();
+supreme.changeProteinToChicken();
 console.log(supreme);
 
-mega.changeBase();
-mega.addToppings();
+mega.changeBaseToGlutenFree();
+mega.addRiceToToppings();
 console.log(mega);
 
-monster.changeProtein();
-monster.addToppings();
+monster.changeProteinToChicken();
+monster.addRiceToToppings();
 console.log(monster);
