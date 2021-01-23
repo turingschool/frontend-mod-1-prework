@@ -8,15 +8,15 @@ The SuperLearner Article was eye opening for me. I am already a regular reader (
 
 I deepened my knowledge of string, number, and Boolean datatypes. Below are my definitions as they pertain to Javascript:
 
-- String: a datatype that comprises letters, numbers, and other characters (text) * wrapped in quotes *. "777" and "Hi buddy" are two examples of a string datatype.
+- String: a datatype that comprises letters, numbers, and other characters (text) *wrapped in quotes*. "777" and "Hi buddy" are two examples of a string datatype.
 
-- Number: a datatype that includes all numbers, including decimals, negatives, and 0. These are represented * without * quotes around them and do not include commas for larger numbers. 100000, -45.99, and 4 are examples of a number datatype.
+- Number: a datatype that includes all numbers, including decimals, negatives, and 0. These are represented *without* quotes around them and do not include commas for larger numbers. 100000, -45.99, and 4 are examples of a number datatype.
 
 - Boolean: a datatype made up of only two values: true and false. True can mean "is correct", "is true", "yes", or 1 (when comparing different datatypes). False can mean "is incorrect", "is untrue", "no", or 0 (when comparing different datatypes). true == 1, false == 0, true, and false are examples of the Boolean datatype.
 
 3. How would you log the string `"Hello World!"` to the console?
 
-console.log(`"Hello World!"`);
+`console.log("Hello World!");`
 
 4. What is/are the character(s) you would use to indicate comments in a JavaScript file? What is the purpose of a code comment?
 
@@ -28,7 +28,7 @@ A variable is how we save information that can be used later. A variable lets us
 
 6. Think of a site or app you use frequently. What are three variables that are probably used? Which data type would each of those variables probably hold?
 
-Co - Star variables:
+**Co - Star variables:**
 
 ```
 var username = "ashleyoh61"; (string)
@@ -40,6 +40,7 @@ var motivationalQuote = "You have everything that you're seeking within you."; (
 
 Concatenation is one technique for connecting strings and variable values using + signs and quotes to delineate between variable values and string text. Concatenation is often used to print text to the console/user.
 example:
+
 ```var name = "Ash"
 
 console.log("My name is " + name + ".");
@@ -48,6 +49,7 @@ console.log("My name is " + name + ".");
 8. Think of a site or app you use frequently. Where do you think the developers used concatention?
 
 Using Co - Star as my example (as for question 6), I think the developers used concatenation (or interpolation) for the greeting message at top of the home page. Perhaps like this:
+
 ```
 console.log("Good afternoon, " + username + ".");
 console.log("Today at a glance: " + motivationalQuote);
