@@ -42,10 +42,7 @@ console.log(numberOfPets);
 // IN WORDS:
 // How did you decide to use the data type you did for each of the three variables above?
   // Explain.
-//Based on the variable names given, I deduced that three different data types should be used.
- // For firstName, it seemed to be asking for a textual value, thus leading me to use a string as its value.
- // For isHungry, I recognized the first word, is, as a signifier of a Boolean data type, and so assigned it true.
- // For numberOfPets, the clue is stated directly in the identifier. I therefore assigned it a number.
+//Based on the variable names given, I deduced that three different data types should be used. For firstName, it seemed to be asking for a textual value, thus leading me to use a string as its value. For isHungry, I recognized the first word, is, as a signifier of a Boolean data type, and so assigned it true. For numberOfPets, the clue is stated directly in the identifier. I therefore assigned it a number.
 
 // YOU DO:
 // Re-assign the values to the three variables from the previous challenge to different
