@@ -2,17 +2,17 @@
 
 1. How did the SuperLearner Article resonate with you? What from this list do you already do? Want to start doing or do more of? Is there anything not on this list, that you would add to it?
 
-The SuperLearner Article was eye opening for me. I am already a regular reader (I love fiction, the New Yorker, and Reddit), eat well (kale is the BEST), and view learning as a life-long process toward personal improvement. I was surprised to read the "Super learners teach others what they know", as I have always been wary of being a "know-it-all". I definitely intend to grow in this way, as teaching others is a wonderful way to understand what I do and don't understand myself.
+The SuperLearner Article was eye opening for me. I am already a regular reader (I love fiction, the New Yorker, and Reddit), eat well (kale is the BEST), and view learning as a life-long process toward personal improvement. I was surprised to read the "Super learners teach others what they know", as I have always been wary of being a "know-it-all". I definitely intend to grow in this way, as teaching others is a wonderful way to understand what I do and don't understand.
 
 2. What are the data types you learned about in this section? In your own words, define each.
 
 I deepened my knowledge of string, number, and Boolean datatypes. Below are my definitions as they pertain to Javascript:
 
-- String: a datatype that comprises letters, numbers, and other characters (text) *wrapped in quotes*. "777" and "Hi buddy" are two examples of a string datatype.
+- **String:** a datatype that comprises letters, numbers, and other characters (text) *wrapped in quotes*. "777" and "Hi buddy" are two examples of a string datatype.
 
-- Number: a datatype that includes all numbers, including decimals, negatives, and 0. These are represented *without* quotes around them and do not include commas for larger numbers. 100000, -45.99, and 4 are examples of a number datatype.
+- **Number:** a datatype that includes all numbers, including decimals, negatives, and 0. These are represented *without* quotes around them and do not include commas for larger numbers. 100000, -45.99, and 4 are examples of a number datatype.
 
-- Boolean: a datatype made up of only two values: true and false. True can mean "is correct", "is true", "yes", or 1 (when comparing different datatypes). False can mean "is incorrect", "is untrue", "no", or 0 (when comparing different datatypes). true == 1, false == 0, true, and false are examples of the Boolean datatype.
+- **Boolean:** a datatype made up of only two values: true and false. True can mean "is correct", "is true", "yes", or 1 (when comparing different datatypes). False can mean "is incorrect", "is untrue", "no", or 0 (when comparing different datatypes). true == 1, false == 0, true, and false are examples of the Boolean datatype.
 
 3. How would you log the string `"Hello World!"` to the console?
 
@@ -39,10 +39,10 @@ var motivationalQuote = "You have everything that you're seeking within you."; (
 7. In your own words, explain what concatenation is.
 
 Concatenation is one technique for connecting strings and variable values using + signs and quotes to delineate between variable values and string text. Concatenation is often used to print text to the console/user.
-example:
+**Example:**
 
-```var name = "Ash"
-
+```
+var name = "Ash"
 console.log("My name is " + name + ".");
 ```
 
