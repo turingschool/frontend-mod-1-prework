@@ -8,7 +8,7 @@ The SuperLearner Article was eye opening for me. I am already a regular reader (
 
 I deepened my knowledge of string, number, and Boolean datatypes. Below are my definitions as they pertain to Javascript:
 
-- **String:** a datatype that comprises letters, numbers, and other characters (text) *wrapped in quotes*. "777" and "Hi buddy" are two examples of a string datatype.
+- **String:** a datatype that comprises letters, numbers, spaces, and other special characters (text) *wrapped in quotes*. "777" and "Hi buddy" are two examples of a string datatype.
 
 - **Number:** a datatype that includes all numbers, including decimals, negatives, and 0. These are represented *without* quotes around them and do not include commas for larger numbers. 100000, -45.99, and 4 are examples of a number datatype.
 
@@ -24,7 +24,7 @@ There are two ways to indicate a comment in a Javascript file. // is used for si
 
 5. In your own words, what is a variable? How would you explain it to a 5 year old?
 
-A variable is how we save information that can be used later. A variable lets us use this information many times.
+A variable is a container for information. Making a variable is how we save information that can be used later. A variable lets us use this information many times.
 
 6. Think of a site or app you use frequently. What are three variables that are probably used? Which data type would each of those variables probably hold?
 
@@ -38,7 +38,8 @@ var motivationalQuote = "You have everything that you're seeking within you."; (
 
 7. In your own words, explain what concatenation is.
 
-Concatenation is one technique for connecting strings and variable values using + signs and quotes to delineate between variable values and string text. Concatenation is often used to print text to the console/user.
+Concatenation is one technique for connecting strings and variable values. Concatenation appends multiple strings and variables using + signs and quotes, and the computer will join these strings/variables exactly. Concatenation is often used to print text to the console/user.
+
 **Example:**
 
 ```
