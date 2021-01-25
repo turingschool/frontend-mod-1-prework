@@ -22,8 +22,9 @@ var creatures = "unicorns";
 console.log( `My zoo has ${numberOfCreatures} ${creatures}!`)
 
 // YOU DO: What data type will be logged to the console as a result of line 22? Explain.
-// Your answer and explanation here: 
+// Your answer and explanation here:
 
+console.log(`The data type that will be logged to the console, from line 22, which discusses the posession of ${numberOfCreatures} ${creatures}, will be of the string value. This is due to type coercion. JavaScript uses type coercion that everything reads as a string.`);
 
 // YOU DO:
 // Write code that combines the variables below into a string that
@@ -31,7 +32,7 @@ console.log( `My zoo has ${numberOfCreatures} ${creatures}!`)
 var speedy = "quick red fox";
 var slowPoke = "lazy brown dog";
 
-
+console.log(`The ${speedy} jumped over the ${slowPoke}.`);
 // YOU DO:
 // Write code that combines the variables below into a string that
 // reads "In a predictable result, the tortoise beat the hare!"
@@ -40,16 +41,21 @@ var slowPoke = "lazy brown dog";
 slowPoke = "tortoise";
 speedy = "hare";
 
-
+console.log(`In a predictable result, the ${slowPoke} beat the ${speedy}!`);
 // YOU DO:
-// Declare three variables, name/content/data type of your choice. Think carefully about what 
+// Declare three variables, name/content/data type of your choice. Think carefully about what
   // you name the variables. Remember, the goal is to be concise but descriptive (it's a hard balance!)
-  // Then, log out ONE sentence that incorporates all THREE variables uisng interpolation. 
+  // Then, log out ONE sentence that incorporates all THREE variables uisng interpolation.
 
+var activity = "hike";
+var scenicLocation = "mountains";
+var pastTime = "clear my mind";
+
+console.log(`I find myself wanting to go ${activity} in the ${scenicLocation} not to try to climb the highest peak, but to ${pastTime}.`);
 
 //-------------------
 // FINAL CHECK
 //-------------------
 
-// Did you run this file in your terminal to make sure everything printed out to the console 
+// Did you run this file in your terminal to make sure everything printed out to the console
   // as you would expect? You should be doing this by now, and getting into the habit of it.
