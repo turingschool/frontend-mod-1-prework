@@ -38,16 +38,36 @@ if (bearChoice === 1) {
 Questions
 
 1. In English, using technical vocabulary, describe what is happening between lines 14 and 18.
+On line 14, the "if" keyword is used to establish an if statement based upon
+the outcome of the conditional expression provided - this expression will
+evaluate whether the value of "doorChoice" is equal to 1. If true, the
+following "if" block runs, assigning the "bearClothing" variable a new value of
+"hat". If false, the "else" block runs, assigning the "bearClothing" variable a
+new value of "scarf".
 
 2. What variable has a new value assigned to it after the first if statement executes?
+The "bearClothing" variable.
 
 3. If you changed the variable doorChoice to equal 3, what would the bearClothing value be?
+The value of "bearClothing" would be "scarf".
 
 4. In English, using technical vocabulary, describe what is happening between lines lines 27 and 35.
+On line 27, the "if" keyword is used to establish an if statement based upon
+the outcome of whether the "bearChoice" variable is equal to 1. If true, the
+following "if" block runs. If false, the following "else if" statements will
+use their conditional expressions to determine if their code blocks will run.
+If none of the conditions within those "else if" statements evaluate to true,
+the "else" block will run.
 
 5. If you changed the variable bearChoice to equal 3, what will be the final outcome be?
+The final result would be "You run as fast as you can into the next room.
+It's full of snakes!" printed on the console.
 
 6. If you changed the variable doorChoice to equal 1, and the variable bearChoice to equal 2, what will be the final outcome be?
+The final result would be "You tell the bear the hat is too small and it
+starts to cry!" printed on the console.
 
 7. What is your favorite ending?
+Setting "bearChoice" to 4, so that we can be BFFs! Imagine all of the free
+honey!
 */
