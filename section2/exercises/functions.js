@@ -17,7 +17,7 @@ function printName() {
   console.log("Severus Snape");
 };
 
-printName(); 
+printName();
 printName();
 printName();
 printName();
@@ -27,6 +27,12 @@ printName();
 // YOU DO: Write a function named sayHello that logs to the console "Oh, Hello!"
 // Then, call the function 2 times.
 
+function sayHello() {
+  console.log("Oh, Hello!");
+}
+
+sayHello();
+sayHello();
 //-------------------
 // PART 2: Arguments and Parameters
 //-------------------
@@ -35,18 +41,34 @@ printName();
 // The function should print out the value of the String that was passed in.
 // Then, call the function 3 times, each time, passing it a different name.
 
+function greetMe(name) {
+  console.log(name);
+}
 
+greetMe("Elner Shimfizzle");
+greetMe("Brunhilda");
+greetMe("Molly Misanthrope");
 
 // YOU DO: Write a function that takes in 2 numbers as arguments, Numbers, and logs their sum
 // Then, call that function 3 times, each time, passing in 2 different Numbers.
 
+function numbers(num1, num2) {
+  console.log(num1 + num2);
+}
 
+numbers(5, 7);
+numbers(2, 12);
+numbers(0, 54);
 
 // YOU DO🎈: Write a function that takes in two strings and prints a concatenation
 // of those two strings, for example the arguments could be ("Oscar", "Ruck") and
 // the end result might be "Oscar and Ruck are BFFS".  Then, call that function.
 
+function twoStrings(thisString, thatString) {
+  console.log("These " + thisString + " are so " + thatString + "!");
+}
 
+twoStrings("exercises", "empowering");
 
 //-------------------
 // PART 3: Naming is Hard
@@ -61,5 +83,10 @@ What did you name each parameter, and why?
 
 EXPLAIN:
 
+//I named my function twoStrings mainly because that seemed to be concise for this task. I figured that if
+//anyone is checking my work, they will understand that the task asked me to "write a function that takes
+//in two strings..." Then after this I just wanted to be clear that each variable was a different string so called
+//them thisString and thatString. I didn't want to choose anything that was especially wordy but wanted to make
+//sure I chose something that at least set them apart from each other.
 
 */
