@@ -21,6 +21,7 @@ function encode(str, num){
     var currentLetter= strUpper[i];
     var currentIndex = letters.indexOf(currentLetter);
     var newIndex = currentIndex + num;
+    newIndex = newIndex % 26
     if (currentLetter === " ") {
       strOutput += currentLetter;
       continue;
@@ -31,5 +32,4 @@ console.log(strOutput)
 }
 
 // console.log(alphabet)
-console.log(150 % 26)
-encode("these are just words that are being strung together to test the system", 27)
+encode("these are just words that are being strung together to test the system", 8)
