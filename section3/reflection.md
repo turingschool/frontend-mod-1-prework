@@ -1,14 +1,14 @@
 ## Section 3 Reflection
 
 1. What are two points from the Growth Mindset article and/or video that either resonated with you, or were brand new to you?  
-   1. Something that really resonated with me was that the concept that capabilities are simply where you are now. These don't have to be, and aren't, part of your identity in a very fixed and unchangeable way. These capabilities can and will grow and change.  
+   1. Something that really resonated with me was the concept that capabilities are simply where you are now. These don't have to be, and aren't, part    of your identity in a very fixed and unchangeable way. These capabilities can and will grow and change.  
 
    1. See progress that you are making and celebrate that but don't see difficult moments or concepts (when you hit that gridlock and don't understand something) as defeating. Don't let them become moments that make you quit and give up. These are examples of what you need to work on. See them as opportunities for growth.  
 
 1. In which ways do you currently demonstrate a Growth Mindset? In which ways do you _not_?  
 
-   1. I think I'm getting better over the years at persevering in the face of difficulties. I used to think that most people were successful because they were innately skilled at something or were smarter. I don't think that anymore. If you want to learn something you can learn in and you just keep taking a step forward and learn and little more, a little more, and little more...until one day you wake up and you know a whole lot more than you did before. It takes time and perseverance and that's something I'm a whole lot more patient with now (being in my late thirties helps with this).
-   1. Something I need to work on is not comparing my process and my growth to others -- only to myself. It can be easy to be discouraged when you look at your peer (or observe a professional in the field). You see that you have so far to go, in comparison. The reality is, as long as you're learning more than you knew before (compare yourself to yourself) then you are succeeding and growing.  
+   1. I think I'm getting better over the years at persevering in the face of difficulties. I used to think that most people were successful because they were innately skilled at something or were smarter. I don't think that anymore. If you want to learn something you can learn it and you just keep taking a step forward and learn a little more, then a little more, and little more...until one day you wake up and you know a whole lot more than you did before. It takes time and perseverance and that's something I'm a whole lot more patient with now (being in my late thirties helps with this).
+   1. Something I need to work on: not comparing my process and my growth to others -- only to myself. It can be easy to be discouraged when you look at your peers (or observe a professional in the field). You see that you have so far to go, in comparison. The reality is, as long as you're learning, you know more than you knew before (compare yourself to yourself). If this is the case then you are succeeding and growing.  
 
 1. Think of a web or mobile application you use regularly. Where is an example of a place that the developers probably use Arrays? Explain.  
 
