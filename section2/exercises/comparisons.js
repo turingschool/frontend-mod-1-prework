@@ -139,15 +139,17 @@ console.log(lovesToPlay || lovesDogPark);
 
 // Determine if the dog loves to play and is a puppy
 console.log(lovesToPlay && age);
+console.log(lovesToPlay && age);
 console.log(lovesToPlay && isPuppy);
 
 /* What did your final line of code evaluate to? Why do you think that is? Explain.
 // ANSWER:
 // I ran this code two different ways, and have included the second below the first.
 
-//For the first example, I called the variable age to compare to lovesToPlay. The && logical operator returned a value of 1 (the value of the age variable) because && and || do not always return strict Boolean values, and both always return value of one of the operand expressions. Because Javascript converts values into numbers when comparing different datatypes, it coerced the true value of lovesToPlay to 1 (which means true in Javascript). In essence, I asked the computer if the dog lovesToPlay (true/1) and is 1 year old. This resulted in the number 1 being logged to the console. We implicitly know that 1 year old is a puppy age, but to be precise, we should also define what "is a puppy" means.
+/* For the first example, I called the variable age to compare to lovesToPlay. The && logical operator returned a value of 1 (the value of the age variable) because && and || do not always return strict Boolean values, and both always return value of one of the operand expressions. Because Javascript converts values into numbers when comparing different datatypes, it coerced the true value of lovesToPlay to 1 (which can mean true in Javascript). In essence, I asked the computer if the dog lovesToPlay (true/1) and is 1 year old. This resulted in the number 1 being logged to the console. We implicitly know that 1 year old is a puppy age, but to be precise, we should also define what "is a puppy" means.
 
-//For my second example, I explicitly typed isPuppy as a condition, aka a variable that does not exist. This produced an error message, alerting me to that isPuppy is undefined. This is expected.
+For my second example, I explicitly typed isPuppy as a condition, aka a variable that does not exist. This produced an error message, alerting me to that isPuppy is undefined. This is expected.
+*/
 
 //-------------------
 // FINAL CHECK
