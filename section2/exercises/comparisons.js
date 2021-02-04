@@ -23,9 +23,11 @@ console.log("Is numberTeachers greater than numberStudents?", numberTeachers > n
 // this should log: "Is numberTeachers greater than numberStudents?" false
 
 // YOU DO: log the result of the comparison: is numberTeachers less than numberStudents?
+console.log("Is numberTeachers less than numberStudents?", numberTeachers < numberStudents);
 // this should log: true
 
 // YOU DO: log the result of the comparison: is numberTeachers equal to stringTeachers? (use the == operator)
+console.log("Is numberTeachersequal to stringTeachers?", numberTeachers == stringTeachers);
 // this should log: true
 
 /*
@@ -35,6 +37,7 @@ perform this evaluation
 */
 
 // YOU DO: log the result of the comparison: is numberTeachers strictly equal to stringTeachers? (use the === operator)
+console.log("is numberTeachers strictly equal to stringTeachers?", numberTeachers === stringTeachers);
 // this should log: false
 
 /*
@@ -48,18 +51,23 @@ you develop good habits that follow best practice, from now on, use the strict c
 */
 
 // YOU DO: log the result of the comparison: is numberTeachers not equal to numberStudents?
+console.log("is numberTeachers not equal to numberStudents?", numberTeachers !== numberStudents);
 // this should log: true
 
 // YOU DO: log the result of the comparison: is numberStudents greater than or equal to 20?
+console.log("Is numberStudents greater than or equal to 20?", numberStudents >= 20);
 // this should log: true
 
 // YOU DO: log the result of the comparison: is numberStudents greater than or equal to 21?
+console.log("Is numberStudents great than or equal to 21?", numberStudents >= 21);
 // this should log: false
 
 // YOU DO: log the result of the comparison: is numberStudents less than or equal to 20?
+console.log("Is numberStudents less than or equal to 20?", numberStudents <= 20);
 // this should log: true
 
 // YOU DO: log the result of the comparison: is numberStudents less than or equal to 21?
+console.log("Is numberStudents less than or equal to 21?", numberStudents <= 21);
 // this should log: true
 
 
@@ -73,21 +81,29 @@ you develop good habits that follow best practice, from now on, use the strict c
 // Make sure YOU can explain it that way!
 
 console.log(4 < 9);
-//YOU DO: Explain.
+/* This is a comparison operator. We are comparing the two values, 4 and 9, with each other
+and stating that the value of 4 is less than the value of 9. The console should print out "true". */
 
 var books = 3;
-console.logs(4 < books);
-// YOU DO: Explain.
+console.log(4 < books);
+/* This is another comparison operator. We are comparing the value 4 to the variable books,
+which could have changing integer values. In this case, the var books is assigned to 3.
+So the operator is asking if the value of 4 is less than the value of 3. This should
+log "false". */
 
 var friends = 6;
 var siblings = 2;
 console.log(friends > siblings);
-// YOU DO: Explain.
+/* In this example, we have two variables, friends and siblings. Friends is assigned
+the value of 6 and siblings is assigned the value of 2. The comparison operator is stating
+that friends is greater than siblings, or 6 is greater than 2, which should log "true". */
 
 var attendees = 9;
 var meals = 8;
 console.log(attendees !== meals);
-// YOU DO: Explain.
+/*We have two variables in this example, attendees and meals. Attendees has a value of 9
+and meals has a value of 8. The operator is stating that the attendees cannot be the
+same as meals, or in this case, 9 cannot equal to 8. This should log "true". */
 
 
 //-------------------
@@ -110,18 +126,30 @@ var age = 1;
 
 // YOU DO:
 // Determine if the dog loves to play and loves treats
+console.log(lovesToPlay && lovesTreats);
 
 
 // Determine if the dog loves to play and loves the dog park
+console.log(lovesToPlay && lovesDogPark);
 
 
 // Determine if the dog loves to play or loves the dog park
+console.log(lovesToPlay || lovesDogPark);
 
 
 // Determine if the dog loves to play and is a puppy
+var isAPuppy = true; // Could also use var isAPuppy = (age >= 1);
+console.log(lovesToPlay && isAPuppy);
+// Could also use variable isAPuppy with a value of (age >= 1) stating that
+// any dog 1 year or younger is a puppy.
+
 
 // What did your final line of code evaluate to? Why do you think that is? Explain.
-// ANSWER:
+// ANSWER: In this case, we needed another variable. We knew the age of the dog was 1 from
+// the variable age = 1. So we could have a few options here. At first I tried creating a new
+// variable isAPuppy = (age >= 1) which would have any dog with the age of 1 or less to
+// be a puppy. An easier variable would be to have the isAPuppy = true. In both cases,
+// they log 'true'.
 
 //-------------------
 // FINAL CHECK
