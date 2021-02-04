@@ -1,4 +1,4 @@
-#Array Methods
+## Array Methods
 
 1. **push**- this method adds an item to the end of an array:  
 
