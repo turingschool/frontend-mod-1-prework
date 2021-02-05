@@ -24,7 +24,7 @@
 
 1. If you had to teach a 5 year old about loops, how would you explain it?  
 
-   1. A loop is when we ask our computer program to do something for a certain amount of times. It's like if I asked you to lift your leg one time. Then I asked you to lift your leg again. Then I asked you to lift your leg again. Then I asked you to lift your leg again. Instead of saying this four times in a row, I could just ask you once, to lift your leg four times. This would be a much simpler way to do things and would take up less time. In our computers it takes up less space to when you write a command one time...especially if you had to write something out one billion times in a row.
+   1. A loop is when we ask our computer program to do something for a certain amount of times. It's like if I asked you to lift your leg one time. Then I asked you to lift your leg again. Then I asked you to lift your leg again. Then I asked you to lift your leg again. Instead of saying this four times in a row, I could just ask you once, to lift your leg four times. This would be a much simpler way to do things and would take up less time. In our computers it takes up less space, to write a command one time...especially if you had to write something out one billion times in a row.
 
 1. What questions do you still have about Arrays and loops?  
 
