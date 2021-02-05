@@ -16,15 +16,15 @@
 
 1. In your own words, explain what an Array method is.  
 
-   1. An array method is information/additional code that we can include to retrieve or change arrays and their items. These would be things like .push, .pop, .shift, .unshift, .length. Each of these methods allows us to alter our array, allows us to obtain information, or allows us to include specific information when writing conditional statements that are directed at the array.  
+   1. An array method is code that we can include to retrieve information/items (use it) or change information/items contained in the array. These would be things like .push, .pop, .shift, .unshift, .length, and .split(). Each of these methods allows us to alter our array, allows us to obtain information, and allows us to use specific information.  
 
 1. What is the purpose of a loop? When we would use a loop in conjunction with array vs. without?  
 
-   1. A loop is used when we want to perform a repetitive action. A loop keeps our code much more succinct and polished (instead of perhaps writing out console.log thousands of times). We would use a loop in conjunction with an array when we want to run through all of the items in a list. We can print out different messages depending on what the value of each item is in our array. We would use a loop without an array when we need an iteration to repeat an action a certain amount of times.
+   1. A loop is used when we want to perform a repetitive action. A loop keeps our code much more succinct and polished (instead of perhaps writing out console.log thousands of times). We would use a loop in conjunction with an array when we want to run through all of the items in a list. We can use a loop with an array to print out different messages (or use items in the the array in specific ways) depending on what the value of each item is in our array. We would use a loop without an array when we need an iteration to repeat an action a certain amount of times.
 
 1. If you had to teach a 5 year old about loops, how would you explain it?  
 
-   1. A loop is when we ask our computer program to do something for a certain amount of times. It's like if I asked you to lift your leg one time. Then I asked you to lift your leg again. Then I asked you to lift your leg again. Then I asked you to lift your leg again. Instead of saying this four times in a row, I could just ask you once, to lift your leg four times. This would be a much simpler way to do things and would take up less time.  
+   1. A loop is when we ask our computer program to do something for a certain amount of times. It's like if I asked you to lift your leg one time. Then I asked you to lift your leg again. Then I asked you to lift your leg again. Then I asked you to lift your leg again. Instead of saying this four times in a row, I could just ask you once, to lift your leg four times. This would be a much simpler way to do things and would take up less time. In our computers it takes up less space to when you write a command one time...especially if you had to write something out one billion times in a row.
 
 1. What questions do you still have about Arrays and loops?  
 
