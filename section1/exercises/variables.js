@@ -38,9 +38,9 @@ console.log(numberOfPets);
 // IN WORDS:
 // How did you decide to use the data type you did for each of the three variables above?
   // Explain.
-Used a string for the firstName variable because it consists of letters
-Used a boolean for the isHungry variable because it asks a yes/no
-Used a number because it is an integer
+//I used a string for the firstName variable because it consists of letters
+// I used a boolean for the isHungry variable because it asks a yes/no
+// I used a number because it is an integer
 
 // YOU DO:
 // Re-assign the values to the three variables from the previous challenge to different
