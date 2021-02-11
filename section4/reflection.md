@@ -15,19 +15,19 @@
 1. For each set of data, would an array or object be better to store it? Explain your choice.
 
   * List of all of the students in class
-  *An array because it is a simple list and does not require storing more data*
+  **An array because it is a simple list and does not require storing more data**
   * List of states and their capitals
-  *An object because capitals is a property*
+  **An object because capitals is a property**
   * List of things to pack for vacation
-  *An array because it is a list of items that can be listed numerically*
+  **An array because it is a list of items that can be listed numerically**
   * Names of all the Instagram accounts I follow
-  *An array because it is a list of items*
+  **An array because it is a list of items**
   * List of student names and their cohort
-  *An object because their cohort is a property*
+  **An object because their cohort is a property**
   * Ingredients and amount of each ingredient to bake a cake
-  *An object because the amount of each ingredient is a property*
+  **An object because the amount of each ingredient is a property**
   * All my favorite restaurants
-  *An array because it is a list, and no properties*
+  **An array because it is a list, and no properties**
 
 1. In this section, we talked about an `transaction item object`. It has keys that represent different properties an bank transaction would have, and values that store the data. In a banking app, this data would eventually be displayed in the browser for the user. Think of another Object in a web application that you use frequently. What is it? What keys might be on it? What are example values?
 
