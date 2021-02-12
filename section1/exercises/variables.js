@@ -46,7 +46,7 @@ console.log (numberOfPets);
 // Re-assign the values to the three variables from the previous challenge to different
   // values (but same data type).
 // log all three variables to the console.
-firstName = "Bethany";
+firstName = "Janice";
 isHungry = false;
 numberOfPets = 5;
 
