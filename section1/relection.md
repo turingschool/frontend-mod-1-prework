@@ -11,7 +11,8 @@
    - boolean: A data type that evaluates true or false.
 
 3. How would you log the string `"Hello World!"` to the console?
-- console.log("Hello World");
+- ```JavaScript
+   console.log("Hello World");```
 
 4. What is/are the character(s) you would use to indicate comments in a JavaScript file? What is the purpose of a code comment?
 // or /*  The purpose of a code comment is to be explicit about your intentions or rationale.
