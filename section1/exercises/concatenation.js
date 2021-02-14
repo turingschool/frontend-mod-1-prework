@@ -14,13 +14,13 @@ var name = "Ron";
 var team = "Chudley Cannons";
 
 console.log("The " + team + " are " + name + "'s favorite Quidditch team");
-returns The Chudley Cannons are Ron's favorite Quidditch team
+displays: The Chudley Cannons are Ron's favorite Quidditch team
 
 // YOU DO: Read the next few lines of code...
 var numberOfCreatures = 7;
 var creatures = "unicorns";
 console.log("My zoo has " + numberOfCreatures + " " + creatures + "!")
-returns My zoo has 7 unicorns!
+displays: My zoo has 7 unicorns!
 
 // YOU DO: What data type will be logged to the console as a result of line 22? Explain.
 // Your answer and explanation here:
@@ -32,7 +32,7 @@ something called type coercion which means that Javascript is trying to help us 
 var speedy = "quick red fox";
 var slowPoke = "lazy brown dog";
 console.log("The " + speedy + " jumped over the " + slowPoke);
-returns The quick red fox jumped over the lazy brown dog
+displays: The quick red fox jumped over the lazy brown dog
 
 
 // YOU DO:
@@ -44,7 +44,7 @@ slowPoke = "tortoise";
 speedy = "hare";
 
 console.log("In a predictable result, the " +slowPoke + " beat the " + speedy);
-returns In a predictable result, the tortoise beat the hare
+displays: In a predictable result, the tortoise beat the hare
 
 
 // YOU DO:
@@ -55,6 +55,7 @@ var name = "Julie";
 var totalHours = 24;
 var days = ["Mondays", "Tuesdays"];
 console.log(name + " is active " + totalHours + " hours every " + days);
+displays: Julie is active 24 hours every Mondays, Tuesdays
 
 
 //-------------------

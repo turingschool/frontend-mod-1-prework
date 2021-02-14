@@ -16,7 +16,7 @@ another line
 another lines
 */
 5. In your own words, what is a variable? How would you explain it to a 5 year old?
-A variable is a container that hold information but you can always change the name or label of the container.
+A variable is a container that hold information but you can always change the name or label of the container if you want to put another information inside it.
 6. Think of a site or app you use frequently. What are three variables that are probably used? Which data type would each of those variables probably hold?
 Amazon
 variables could be name, address, phone Numbers, items in wishlist or cart.

@@ -43,7 +43,7 @@ console.log(numberOfPets);
 // IN WORDS:
 // How did you decide to use the data type you did for each of the three variables above?
   // Explain.
-I used strings for the firstName because I wanted it to be wrapped within quotes.
+I used strings for the firstName because the characters will be wrapped within quotes.
 Boolean for isHungry  because the answer could be true or false.
 Number for numberOfPets because it is asking for a number.
 
@@ -65,7 +65,7 @@ var junkFoodSnacks = 8;
 var totalNumberOfSnacks = healthySnacks + junkFoodSnacks;
 console.log(totalNumberOfSnacks);
 
-returns 14
+displays: 14
 
 
 //-------------------
