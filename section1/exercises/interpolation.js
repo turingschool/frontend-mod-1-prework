@@ -22,7 +22,12 @@ var creatures = "unicorns";
 console.log( `My zoo has ${numberOfCreatures} ${creatures}!`)
 
 // YOU DO: What data type will be logged to the console as a result of line 22? Explain.
-// Your answer and explanation here: 
+// Your answer and explanation here:
+/*
+The data type logged into the console will be "string" because as we already seem in the previous exercise
+(concatenation.js) even though we have different variables with different values (string and numbers) due to
+"Interpolation" works as same as "Concatenation:" creating a single string with the previously given information.
+*/
 
 
 // YOU DO:
@@ -30,7 +35,10 @@ console.log( `My zoo has ${numberOfCreatures} ${creatures}!`)
 // reads "The quick red fox jumped over the lazy brown dog":
 var speedy = "quick red fox";
 var slowPoke = "lazy brown dog";
-
+console.log(`The ${speedy} jumped over the ${slowPoke}`);
+// or
+var greatEscape= `The ${speedy} jumped over the ${slowPoke}` ;
+console.log(greatEscape);
 
 // YOU DO:
 // Write code that combines the variables below into a string that
@@ -39,17 +47,24 @@ var slowPoke = "lazy brown dog";
 
 slowPoke = "tortoise";
 speedy = "hare";
-
+console.log(`In a predictable result, the ${slowPoke} beat the ${speedy}`);
+// or
+var raceJournal = `In a predictable result, the ${slowPoke} beat the ${speedy}`;
+console.log(raceJournal);
 
 // YOU DO:
-// Declare three variables, name/content/data type of your choice. Think carefully about what 
+// Declare three variables, name/content/data type of your choice. Think carefully about what
   // you name the variables. Remember, the goal is to be concise but descriptive (it's a hard balance!)
-  // Then, log out ONE sentence that incorporates all THREE variables uisng interpolation. 
-
+  // Then, log out ONE sentence that incorporates all THREE variables uisng interpolation.
+  var coercion1= "concatenation";
+  var coercion2= "interpolation";
+  var commandNum= "2";
+  console.log(`In a sentences we can incorporate ${commandNum} types of coercions: ${coercion1} and ${coercion2},
+    in order to create a single coercion!`);
 
 //-------------------
 // FINAL CHECK
 //-------------------
 
-// Did you run this file in your terminal to make sure everything printed out to the console 
+// Did you run this file in your terminal to make sure everything printed out to the console
   // as you would expect? You should be doing this by now, and getting into the habit of it.
