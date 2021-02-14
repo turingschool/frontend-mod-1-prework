@@ -37,12 +37,12 @@ This data would be best as an array, as the only information to be stored are In
   * List of student names and their cohort
 
 Object
-This data has more context to be recorded, and would make for an excellent object. It could even be an array of objects, I suppose! I would name this object studentData. If it were an array of objects, I would name it turingStudents. the data is related.
+This data has more context to be recorded, and would make for an excellent object. It could even be an array of objects, I suppose! I would name this object studentData. If it were an array of objects, I would name it turingStudents. This data is relational, which would make storing it in a regular array tricky, as it could be subject to confusing reorganization.
 
   * Ingredients and amount of each ingredient to bake a cake
 
 Object
-As this data is relational, I would store it in an object. It would be easier to manipulate if the measurements were vales to ingredient keys, and less likely to get confusing. I would name this object cakeRecipe
+As this data is relational (meaning it is important that the correct quantities are connected to the ingredient names), I would store it in an object. It would be easier to manipulate if the measurements were vales to ingredient keys, and less likely to get confusing. I would name this object cakeRecipe
 
   * All my favorite restaurants
 
@@ -52,16 +52,18 @@ Since this is just the names of restaurants, I would organize them into an array
 
 5. In this section, we talked about an `transaction item object`. It has keys that represent different properties an bank transaction would have, and values that store the data. In a banking app, this data would eventually be displayed in the browser for the user. Think of another Object in a web application that you use frequently. What is it? What keys might be on it? What are example values?
 
-In Google Calendar, I, the user, inputs the data for an event, and I think that data could be stored in an "event" object. This is because there's complex and relational data that ties to specific dates, times, and locations of each event. So an event object could look something like this:
+In Google Calendar the user inputs the data for an event, and I think that data could be stored in an "event" object. This is because it's important that the data ties to specific dates, times, and locations of each event. So an event object could look something like this:
 
 walkWithTaylor {
   date: "January 17",
   time: "10:15 AM MST",
   location: "City Park, Denver",
   participants: ["Ashley", "Taylor"],
-  hasAlarm: false
+  setAlarm: function() {
+    console.log("You have set an alarm for 1 hour before this event.")
+  }
 }
 
 6. What questions do you still have about classes and/or Objects?
 
-I'm still unsure as to when a class is better to use than a factory object. Does the computer treat them/organize them differently? I'm also just curious on how to actually build something using all of the things we've learned - like how an independent fuction interacts with an object method. Or how to organize a project! I'm sure I'll learn this later.
+I'm still unsure as to when a class is better to use than a factory object. Does the computer treat them/organize them differently? I'm also just curious on how to actually build something using all of the things we've learned - like how an independent function interacts with an object method. Or how to organize a project! I'm sure I'll learn this later.
