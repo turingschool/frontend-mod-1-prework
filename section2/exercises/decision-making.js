@@ -7,11 +7,11 @@ Spend some time changing the variables and running the file to see how the story
 
 var doorChoice = 1;
 var bearClothing = "";
-var bearChoice = 1;
+var bearChoice = 3;
 
 console.log("You enter a dark room with two doors. Do you go through #1 or #2?");
 
-if (doorChoice === 1) {
+if (doorChoice === 3) {
   bearClothing = "hat";
 } else {
   bearClothing = "scarf";
@@ -38,16 +38,27 @@ if (bearChoice === 1) {
 Questions
 
 1. In English, using technical vocabulary, describe what is happening between lines 14 and 18.
+Between lines 14 and 18, there is an if/else statement which indicates that the second variable bearClothing
+is dependent on the value of the first variable, doorChoice.
 
 2. What variable has a new value assigned to it after the first if statement executes?
+the bearClothing variable has a new value assigned to it after the first statement executes.
 
 3. If you changed the variable doorChoice to equal 3, what would the bearClothing value be?
+If doorChoice is equal to 3, the bearClothing value would be scarf because it is not strictly equal to hat.
 
 4. In English, using technical vocabulary, describe what is happening between lines lines 27 and 35.
+Between lines 27 and 35, the if...else statement provides three sets of code to allow for
+three outcomes depending on the initial if statement of "if (bearChoice === 1)".
 
 5. If you changed the variable bearChoice to equal 3, what will be the final outcome be?
+If the variable bearChoice equal to 3, the final outcome will be:
+"You stay with the bear and become its best friend!"
 
 6. If you changed the variable doorChoice to equal 1, and the variable bearChoice to equal 2, what will be the final outcome be?
+If the variable doorChoice is changed to equal to 1, and the variable bearChoice to equal 2, the final outcome will be:
+"You tell the bear the hat is too small and it starts to cry!"
 
 7. What is your favorite ending?
+My favorite ending is bearChoice === 2 because it's cute to imagine a sensitive bear.
 */
