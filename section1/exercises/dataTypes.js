@@ -6,7 +6,7 @@ Each section has 2 examples that are already completed. Your task is to complete
 any remaining prompt in each section.
 
 When navigated to the root of this project directory, you should be able to run this
-file from your terminal with the command `node section1/exercises/dataTypes.js`
+file from your terminal with the command `node section1/exercises/dataTypes.js`.
 */
 
 //-------------------

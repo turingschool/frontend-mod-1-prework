@@ -22,7 +22,7 @@ __Multi-Line Comments:__
 - Starts with __/*__ and finish with __*/__ , filling the space between them, with our code.
 - Is mostly used for a long comments and describe how the *script* works.
 __Single-Line Comments:__
-- Starts with  *//* and we add our comments after that.
+- Starts with  *//* and we add our comments after that
 - They are really helpful to describe our code or add some explicit message.
 
 5. In your own words, what is a variable? How would you explain it to a 5 year old?

@@ -6,7 +6,7 @@ A couple examples that are already completed. Your task is to complete
 any remaining prompt.
 
 When navigated to the root of this project directory, you should be able to run this
-file from your terminal with the command `node section1/exercises/variables.js`
+file from your terminal with the command `node section1/exercises/variables.js.`
 */
 
 
