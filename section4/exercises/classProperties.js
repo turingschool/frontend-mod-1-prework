@@ -15,11 +15,34 @@ Make sure to run the file with node in your command line.
   // Log each variable to the console.
   // You do not need any proerties at this time!!
 
-// Prompt 1: Dog
+  // Prompt 1: Dog
+  class Dog {
+  };
+  var pug = new Dog();
+  var bulldog = new Dog();
 
-// Prompt 2: Snack
+  console.log(pug);
+  console.log(bulldog);
 
-// Prompt 3: Shirt
+  // Prompt 2: Snack
+  class Snack {
+  };
+
+  var chips = new Snack();
+  var pretzel = new Snack();
+
+  console.log(chips);
+  console.log(pretzel);
+
+  // Prompt 3: Shirt
+  class Shirt {
+  };
+
+  var blouse = new Shirt();
+  var flannel = new Shirt();
+
+  console.log(blouse);
+  console.log(flannel);
 
 //-------------------
 // Part 2: Properties
@@ -32,11 +55,44 @@ Make sure to run the file with node in your command line.
   // Create an object instance and store in variable
   // Log that variable to the console.
 
-// Prompt 1: Dog
+  // Prompt 1: Dog
 
-// Prompt 2: Snack
+  class Dog1 {
+    constructor() {
+      this.color = "white";
+      this.numOfPaws = 3;
+      this.name = "Tchotchke"
+    }
+  };
 
-// Prompt 3: Shirt
+  var husky = new Dog1();
+  console.log(husky);
+
+  // Prompt 2: Snack
+
+  class Snack1 {
+    constructor() {
+      this.isSalty = "false";
+      this.numOfCalories = 45;
+      this.ingredients = ["bananas", "yogurt"]
+    }
+  }
+
+  var parfait = new Snack1();
+  console.log(parfait);
+
+  // Prompt 3: Shirt
+
+  class Shirt1 {
+    constructor() {
+      this.fabricType = "linen";
+      this.size = 8;
+      this.isPatched = true;
+    }
+  }
+
+  var dressShirt = new Shirt1();
+  console.log(dressShirt);
 
 //-------------------
 // Part 3: Dynamic Properties
@@ -50,8 +106,50 @@ Make sure to run the file with node in your command line.
   // Create 2 object instances and store in variables (passing in different arguments)
   // Log those variables to the console.
 
-// Prompt 1: Dog
+  // Prompt 1: Dog
 
-// Prompt 2: Snack
+  class Dog2 {
+    constructor(isBarking, name, weightInPounds) {
+      this.isBarking = isBarking;
+      this.name = name;
+      this.weight = weightInPounds;
+    }
+  };
 
-// Prompt 3: Shirt
+  var dalmation = new Dog2(false, "Joji", 45);
+  console.log(dalmation);
+
+  var blackLab = new Dog2(true, "Enzo", 89);
+  console.log(blackLab);
+
+  // Prompt 2: Snack
+
+  class Snack2 {
+    constructor (hasElectrolytes, color, numOfSeeds) {
+      this.hasElectrolytes = hasElectrolytes;
+      this.color = color;
+      this.numOfSeeds = numOfSeeds;
+    }
+  }
+
+  var watermelon = new Snack2(true, "pink", 68);
+  console.log(watermelon);
+
+  var bagel = new Snack2(false, "beige", 0);
+  console.log(bagel);
+
+  // Prompt 3: Shirt
+
+  class Shirt2 {
+    constructor(fiberType, hasCuffs, numOfSleeves) {
+      this.fiberType = fiberType;
+      this.hasCuffs = hasCuffs;
+      this.numOfSleeves = numOfSleeves;
+    }
+  }
+
+  var hoodie = new Shirt2("cotton", true, 2);
+  console.log(hoodie);
+
+  var tankTop = new Shirt2("spandex", false, 0);
+  console.log(tankTop);
