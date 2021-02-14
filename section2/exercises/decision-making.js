@@ -37,17 +37,25 @@ if (bearChoice === 1) {
 /*
 Questions
 
-1. In English, using technical vocabulary, describe what is happening between lines 14 and 18.
+//1. In English, using technical vocabulary, describe what is happening between lines 14 and 18.
+Lines 14 and 15 are part of the IF statement which evaluates a condition. If the condition is TRUE, any statements in the subsequent code block are executed.
+if FALSE, the statements in that code block are not run.
+Lines 16 to 18 are part of the ELSE Statement which checks a condition.
+if it resolves to TRUE, the first code block is executed.
+if the condition resolves to FALSE, the second code block is run instead.
 
-2. What variable has a new value assigned to it after the first if statement executes?
+//2. What variable has a new value assigned to it after the first if statement executes?
+var bearClothing;
+//3. If you changed the variable doorChoice to equal 3, what would the bearClothing value be?
+scarf
+//4. In English, using technical vocabulary, describe what is happening between lines lines 27 and 35.
+Lines 27 and 28 use IF statement. If the condition evaluates to TRUE, any statements in the subsequent code block is executed.
+Lines 29 to 32 use ELSE IF statement. If the first condition is false, run the second. If the second is also FALSE, then run the third condition.
+Lines 33 to 35 use ElSE Statement. If none of the conditions are true. run this condition instead.
 
-3. If you changed the variable doorChoice to equal 3, what would the bearClothing value be?
-
-4. In English, using technical vocabulary, describe what is happening between lines lines 27 and 35.
-
-5. If you changed the variable bearChoice to equal 3, what will be the final outcome be?
-
-6. If you changed the variable doorChoice to equal 1, and the variable bearChoice to equal 2, what will be the final outcome be?
-
-7. What is your favorite ending?
-*/
+//5. If you changed the variable bearChoice to equal 3, what will be the final outcome be?
+You run as fast as you can into the next room. It's full of snakes!
+//6. If you changed the variable doorChoice to equal 1, and the variable bearChoice to equal 2, what will be the final outcome be?
+You tell the bear the hat is too small and it starts to cry!
+//7. What is your favorite ending?
+You offer the bear your hat and the bear shows you a secret passage out!
