@@ -43,6 +43,8 @@ Here's what we ask you do:
 
 Read [this article](https://medium.com/personal-growth/6-habits-of-super-learners-63d466a254fd) about the habits of Super Learners. Reflect on this - what do you already do? Does this make you want to do anything new or different as you beginthis learning journey? Jot down your notes now, and we will ask you to share some reflections with your small group at the end of this section.
 
+// Eric Weissman  2 days ago Thanks for the heads up here Zach! Don’t worry about this article for now and feel free to move ahead in prework]
+
 ## Part B Terminal
 
 You will likely spend the majority of your time in Module 1 in either the Terminal or your text editor (Atom). When you're new to programming, the terminal can seem like a scary place, but it has some advantages over other means of interacting with your computer. Perhaps the greatest advantage is that it allows programmers to build tools that they can share with each other without going through the process of creating a graphical user interface. This makes it easy to share code quickly so that it can be used in multiple projects.
@@ -310,7 +312,7 @@ Let's take a look at why that resulted in a string. We have a variable called `s
 > 👩‍💻 PAUSE here, and complete the exercises in `concatenation.js`
 
 ### Interpolation
-In addition to concatenation, you may also have seen interpolation used to inject values into strings! One benefit of interpolation is that it can be easier to read in longer strings and don't require concatenating separate strings together. 
+In addition to concatenation, you may also have seen interpolation used to inject values into strings! One benefit of interpolation is that it can be easier to read in longer strings and don't require concatenating separate strings together.
 
 Interpolation requires slightly different syntax to inject values into a string. Follow the below formula to utilize interpolation:
 1. Use the backtick (same key as the `~`, or the key to the left of the `1` key on a mac) to wrap your entire string
