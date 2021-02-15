@@ -5,9 +5,9 @@ Below is a dynamic story that is created based on the value of three variables: 
 Spend some time changing the variables and running the file to see how the story changes.
 */
 
-var doorChoice = 1;
+var doorChoice = 3;
 var bearClothing = "";
-var bearChoice = 1;
+var bearChoice = 3;
 
 console.log("You enter a dark room with two doors. Do you go through #1 or #2?");
 
@@ -38,16 +38,26 @@ if (bearChoice === 1) {
 Questions
 
 1. In English, using technical vocabulary, describe what is happening between lines 14 and 18.
+If the doorChoice variable is exacty the number value 1, then the bearClothing is reassigned to "hat". But if the doorChoice
+variable is anything BUT the number value 1, the bearClothing string is reassigned to scarf.
 
 2. What variable has a new value assigned to it after the first if statement executes?
+bearClothing varuable is reassigned if the first statment exectues.
 
 3. If you changed the variable doorChoice to equal 3, what would the bearClothing value be?
+If the vlaue is anything but 1, the value of bearClothing is reassigned to "scarf". So doorChoice is 2, the value of bearClothing is scarf.
 
 4. In English, using technical vocabulary, describe what is happening between lines lines 27 and 35.
+Between 27 and 35, the code has four options to log text based on the value of variable bearChoice. If the value is 1, 2, or 3
+then there is a specific string for each value that will print to the console. bearChoice values 1 and 2 will also include the
+value for bearClothing in the string response. If the value of bearChoice is anything but 1, 2, or 3 then the console will log a unique text.
 
 5. If you changed the variable bearChoice to equal 3, what will be the final outcome be?
+If the variable bearChoice is equal to 3, then the console will log "You run as fast as you can into the next room. It's full of snakes!"
 
 6. If you changed the variable doorChoice to equal 1, and the variable bearChoice to equal 2, what will be the final outcome be?
+In this case the console will log "You tell the bear the hat is too small and it starts to cry!
 
 7. What is your favorite ending?
+I like any option besides 3 - yielding the answer You stay with the bear and become it's best friend!
 */

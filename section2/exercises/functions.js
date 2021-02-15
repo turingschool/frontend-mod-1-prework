@@ -17,7 +17,7 @@ function printName() {
   console.log("Severus Snape");
 };
 
-printName(); 
+printName();
 printName();
 printName();
 printName();
@@ -26,6 +26,12 @@ printName();
 
 // YOU DO: Write a function named sayHello that logs to the console "Oh, Hello!"
 // Then, call the function 2 times.
+function sayHello () {
+  console.log("Oh, Hello!");
+};
+
+sayHello();
+sayHello();
 
 //-------------------
 // PART 2: Arguments and Parameters
@@ -35,17 +41,31 @@ printName();
 // The function should print out the value of the String that was passed in.
 // Then, call the function 3 times, each time, passing it a different name.
 
+function greetMe(name) {
+  console.log('Hello', name);
+};
 
+greetMe('Katherine');
+greetMe('Evan');
+greetMe('Miriam');
 
 // YOU DO: Write a function that takes in 2 numbers as arguments, Numbers, and logs their sum
 // Then, call that function 3 times, each time, passing in 2 different Numbers.
-
-
+function Numbers (number1, number2) {
+  console.log(number1 + number2);
+}
+Numbers (2, 5);
+Numbers (98, 1);
+Numbers (4, 32);
 
 // YOU DO🎈: Write a function that takes in two strings and prints a concatenation
 // of those two strings, for example the arguments could be ("Oscar", "Ruck") and
 // the end result might be "Oscar and Ruck are BFFS".  Then, call that function.
+function niceThings (thing1, thing2) {
+console.log('If ifs and buts were ' + thing1 + ' and ' + thing2 + " we'd all have a merry Chrismas");
+};
 
+niceThings ('candy', 'nuts');
 
 
 //-------------------
@@ -60,6 +80,8 @@ Look at the code you wrote for the previous YOU DO🎈 - what did you name the f
 What did you name each parameter, and why?
 
 EXPLAIN:
-
+I chose niceThings, because in this particular function it was open enough to allow many "nice things"
+to be used as arguements but restrictive enough to allow ONLY nice things so that the logged string would always make sense.
+As for the parameter, thing1 and thing 2 seemes adequately clear and vague as well. 
 
 */
