@@ -10,6 +10,21 @@ Make sure to run the file with node in your command line.
   // 1. `prepare` - log out a sentence to let the user know the order is being worked on.
   // 2. `complete` - log out a sentence to let the user know the order is complete.
 
+  var lunchOrder = {
+    dish: "BLT",
+    beverage: "iced tea",
+    tableNumber: 47,
+    prepare: function() {
+      console.log("We are working on your order")
+  	},
+  	complete: function() {
+    	console.log("Your order is complete");
+    }
+  };
+
+  lunchOrder.prepare();
+  lunchOrder.complete();
+
 // Log to the console each property on the `lunchOrder` object.
 // Call each method and run the file in node to verify they are working as expected.
 
@@ -18,3 +33,7 @@ var lunchOrder = {
   beverage: "iced tea",
   tableNumber: 47
 }
+
+console.log(lunchOrder.dish);
+console.log(lunchOrder.beverage);
+console.log(lunchOrder.tableNumber);

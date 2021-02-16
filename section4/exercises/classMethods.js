@@ -7,18 +7,42 @@ Complete each task, using the Burrito class below as a starting point.
 Make sure to run the file with node in your command line.
 */
 
-// The burrito should also have a property called `toppings`. It should be assigned to 
+// The burrito should also have a property called `toppings`. It should be assigned to
 // the toppings parameter in the constructor.
 
-// Below/outside of the class declaration, create 3 object instances of a burrito. 
+// Below/outside of the class declaration, create 3 object instances of a burrito.
 // The toppings argument should be an Array of Strings.
 
-// The burrito class should have a method named `changeProtein`. 
+// The burrito class should have a method named `changeProtein`.
 // This method should accept one argument, a String.
 // The method should re-assign this.protein to the value that was passed in.
 
-// Call the `changeProtein` method on a burrito, then log the burrito to verify 
+class Burrito {
+  constructor(protein, base, toppings) {
+    this.protein = protein;
+    this.base = base;
+    this.toppings = toppings;
+  }
+
+  changeProtein(protein) {
+    this.protein = protein;
+  }
+}
+
+var joesBurrito = new Burrito("tofu", "corn", ["beef", "lettuce", "cheese"]);
+var mikesBurrito = new Burrito("tofu", "flour", ["chicken", "tomatoes", "queso"]);
+var sarasBurrito = new Burrito("tofu", "corn", ["pork", "peppers", "salsa"]);
+
+console.log(joesBurrito);
+console.log(mikesBurrito);
+console.log(sarasBurrito);
+
+// Call the `changeProtein` method on a burrito, then log the burrito to verify
 // that the protein has been changed.
+
+var sarasBurrito = new Burrito("tofu", "corn", ["pork", "peppers", "salsa"]);
+sarasBurrito.changeProtein("ham");
+console.log(sarasBurrito);
 
 // The burrito class should have a method named `addTopping`.
 // This method should accept one argument, a String.
@@ -28,13 +52,24 @@ Make sure to run the file with node in your command line.
 // that the proteins have been changed.
 
 class Burrito {
-  constructor(protein, base) {
+  constructor(protein, base, toppings) {
     this.protein = protein;
     this.base = base;
+    this.toppings = toppings;
   }
 
-  // ADD CODE
-};
+  addTopping(toppings) {
+    this.toppings.push(toppings);
+  }
+}
 
-// ADD CODE
+var joesBurrito = new Burrito("tofu", "corn", ["beef", "lettuce", "cheese"]);
+var mikesBurrito = new Burrito("tofu", "flour", ["chicken", "tomatoes", "queso"]);
+var sarasBurrito = new Burrito("tofu", "corn", ["pork", "peppers", "salsa"]);
 
+sarasBurrito.addTopping("sour cream");
+joesBurrito.addTopping("hot sauce")
+
+console.log(joesBurrito);
+console.log(mikesBurrito);
+console.log(sarasBurrito);
