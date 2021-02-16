@@ -22,7 +22,13 @@ var creatures = "unicorns";
 console.log("My zoo has " + numberOfCreatures + " " + creatures + "!")
 
 // YOU DO: What data type will be logged to the console as a result of line 22? Explain.
-// Your answer and explanation here: Because we are combining two data types using string concatenation, numOfCreatures (number) and creature (string) are impacted by type coercion, which converts all data types to string for readability and ease of use. This means that even though numOfCreatures is a number datatype, it is converted to a string datatype, matching the creatures variable.
+
+// Your answer and explanation here:
+// Because we are combining two data types using string concatenation, numOfCreatures
+// (number) and creature (string) are impacted by type coercion, which converts
+// data types to strings to be logged to the console. This means that even though
+// numOfCreatures is a number datatype, it is converted to a string datatype, matching
+// the creatures variable, thus making it readable to the console and the user.
 
 
 // YOU DO:
@@ -48,10 +54,10 @@ console.log("In a predictable result, the " + slowPoke + " beat the " + speedy +
   // you name the variables. Remember, the goal is to be concise but descriptive (it's a hard balance!)
   // Then, log out ONE sentence that incorporates all THREE variables.
 var vessel = "water bottle";
-var numOfVessels = "1";
-var isRed = true;
+var numOfVessels = 1;
+var isEmpty = true;
 
-console.log("It is " + isRed + ", I have " + numOfVessels + " red " + vessel + ".");
+console.log("I have " + numOfVessels + " red " + vessel + "; it is " + isEmpty + " that it is empty.");
 
 //-------------------
 // FINAL CHECK
