@@ -22,7 +22,12 @@ var creatures = "unicorns";
 console.log( `My zoo has ${numberOfCreatures} ${creatures}!`)
 
 // YOU DO: What data type will be logged to the console as a result of line 22? Explain.
-// Your answer and explanation here: Initially, the values of numberOfCreatures and creatures are number and string, respectively. Because of type coercion, the number value of numberOfCreatures converts to a string value, so it may be called and printed in the string interpolation of "My zoo has 7 unicorns."
+
+// Your answer and explanation here:
+// Initially, the values of numberOfCreatures and creatures are number and string,
+// respectively. Because of type coercion, the number value of numberOfCreatures
+// converts to a string value, so it may be called and printed in the string
+// interpolation of "My zoo has 7 unicorns."
 
 
 // YOU DO:
@@ -49,11 +54,12 @@ console.log(`In a predicatble result, the ${slowPoke} beat the ${speedy}!`);
 // Declare three variables, name/content/data type of your choice. Think carefully about what
   // you name the variables. Remember, the goal is to be concise but descriptive (it's a hard balance!)
   // Then, log out ONE sentence that incorporates all THREE variables uisng interpolation.
+
 var vessel = "mug";
 var numOfVessels = 5;
-var isRed = false;
+var isEmpty = false;
 
-console.log(`I have ${numOfVessels} ${vessel}s. It is ${isRed} that all of them are red.`);
+console.log(`I have ${numOfVessels} ${vessel}s; it is ${isEmpty} that all of them are empty.`);
 
 //-------------------
 // FINAL CHECK
