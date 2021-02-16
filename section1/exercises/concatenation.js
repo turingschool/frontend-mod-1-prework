@@ -24,7 +24,7 @@ console.log("My zoo has " + numberOfCreatures + " " + creatures + "!")
 // YOU DO: What data type will be logged to the console as a result of line 22? Explain.
 // Your answer and explanation here:
 
-It becomes a string, because it's a combination of characters into a phrase.
+//It becomes a string, because it's a combination of characters into a phrase.
 
 // YOU DO:
 // Write code that combines the variables below into a string that
@@ -48,11 +48,11 @@ console.log("In a predictable result, the " + slowPoke + " beat the " + speedy +
   // you name the variables. Remember, the goal is to be concise but descriptive (it's a hard balance!)
   // Then, log out ONE sentence that incorporates all THREE variables.
 
-  var favoriteFruit = "strawberry";
-  var favoriteVegetable = "potato";
-  var favoriteChips = "Doritos"
+var favoriteFruit = "strawberry";
+var favoriteVegetable = "potato";
+var favoriteChips = "Doritos"
 
-  var favoriteFruit = "strawberry";
+var favoriteFruit = "strawberry";
 var favoriteVegetable = "potato";
 var favoriteChips = "Doritos"
 
@@ -62,5 +62,5 @@ console.log("I want to eat a " + favoriteFruit + ", a " + favoriteVegetable + ",
 // FINAL CHECK
 //-------------------
 
-// Did you run this file in your terminal to make sure everything printed out to the console 
+// Did you run this file in your terminal to make sure everything printed out to the console
   // as you would expect? You should be doing this by now, and getting into the habit of it.
