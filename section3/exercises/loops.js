@@ -25,20 +25,46 @@ for (var i = 0; i < 3; i++) {
 // What is logged to the console for this second example? Why?
 // EXPLAIN:
 
+// 0
+// 1
+// 2
+
+// It is set to 0 to start.
+//Then, it counts up until 2, because it's set the be less than (or stop at) 3.
+//It goes up in incremenets of +1 based on i++.
 
  // YOU DO: Write code below that logs to the console, the sum of 2 plus 2, 7 times:
 
+ for (let i = 0; i < 7; i++) {
+ 	phrase();
+ }
+
+ function phrase() {
+ 	console.log(4);
+ }
 
  // YOU DO: Write code below that logs the String 'She sells seashells down by the seashore'
  // 10 times.
 
+ for (let i = 0; i < 10; i++) {
+ 	phrase();
+ }
+
+ function phrase() {
+ 	console.log("She sells seashells down by the seashore");
+ }
 
 //-------------------
 // LEVEL 2: An Added Layer of Challenge
 //-------------------
 
-// YOU DO: Write code below that logs to the console a String of "This is loop number: " 
+// YOU DO: Write code below that logs to the console a String of "This is loop number: "
 //that concatenates with `i`.
+
+for (let i = 0; i < 10; i++) {
+ 	console.log("This is a loop number: ");
+	console.log(i);
+ }
 
 // YOU DO: Using a for loop, how could you get an output that looks like this:
 
@@ -53,6 +79,10 @@ for (var i = 0; i < 3; i++) {
 // 2
 // 1
 
-// Not sure? Try to google some terms that seem relevant. Play around with it. Don't spend 
+for (let i = 1; i < 11; i++) {
+	console.log(11 - i);
+ }
+
+// Not sure? Try to google some terms that seem relevant. Play around with it. Don't spend
 // more than 15 minutes without making progress. If you are at 15 minutes and haven't made
 // progress, that means it's time to reach out to your pre-work group on Slack!
