@@ -22,7 +22,7 @@
 
 1. > How do you add multiple conditions to an `if` statement? In your own words, explain how to program reads them and determines what to do.
 
-     *
+     * If you add multiple conditions, the first one is computed first. You do "if". If that is not true, then you do the next statement "if else" (can use this many times). If that is not true, you can use "else" to cover all situations left.
 
 1. > What tools are available to you, as a developer, if you want to check that TWO conditions are met? Or, if you want to check that 1 of 2 conditions are met, before running a block of code?
 
