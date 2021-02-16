@@ -16,11 +16,34 @@ Make sure to run the file with node in your command line.
   // You do not need any proerties at this time!!
 
 // Prompt 1: Dog
+class Dog {
+
+}
+
+var blackLab = new Dog()
+var germanShepard = new Dog()
+
+console.log(blackLab);
+console.log(germanShepard);
 
 // Prompt 2: Snack
+class Snack {
+}
+var chips = new Snack()
+var cheese = new Snack()
+
+console.log(chips);
+console.log(cheese);
 
 // Prompt 3: Shirt
+class Shirt {
 
+}
+var longSleeve = new Shirt()
+var bandTee = new Shirt()
+
+console.log(longSleeve);
+console.log(bandTee);
 //-------------------
 // Part 2: Properties
 //-------------------
@@ -33,11 +56,43 @@ Make sure to run the file with node in your command line.
   // Log that variable to the console.
 
 // Prompt 1: Dog
+class Dog {
+  constructor() {
+    this.age = 5;
+    this.color = "black";
+    this.weight = "60lbs";
+  }
+}
+var blackLab = new Dog()
+
+console.log(blackLab)
 
 // Prompt 2: Snack
+class Snack {
+  constructor() {
+    this.sizeBag = "large";
+    this.flavor = "nacho cheese";
+    this.color = "orange";
+  }
+}
+
+var chips = new Snack()
+
+console.log(chips);
+
 
 // Prompt 3: Shirt
+class Shirt {
+  constructor() {
+    this.size = "small";
+    this.color = "blue";
+    this.material = "cotton";
+  }
+}
 
+var bandTee = new Shirt()
+
+console.log(bandTee);
 //-------------------
 // Part 3: Dynamic Properties
 //-------------------
@@ -51,7 +106,45 @@ Make sure to run the file with node in your command line.
   // Log those variables to the console.
 
 // Prompt 1: Dog
+class Dog {
+  constructor(age, color, weight) {
+    this.age = age;
+    this.color = color;
+    this.weight = weight;
+  }
+}
+var blackLab = new Dog(14, black, 62lbs);
+var beagle = new Dog(2, brownn, 20lbs);
+
+console.log(blackLab);
+console.log(beagle);
 
 // Prompt 2: Snack
+class Snack{
+  constructor(sizeOfBag, flavor, color) {
+    this.sizeBag = sizeOfBag;
+    this.flavor = flavor;
+    this.color = color;
+  }
+}
+
+var chips = new Snack("large", "cheddar cheese", "orange");
+var popcorn = new Snack("small", "butter blast", "yellow");
+
+console.log(chips);
+console.log(popcorn);
 
 // Prompt 3: Shirt
+class Shirt {
+  constructor(size, color, material) {
+    this.size = size;
+    this.color = color;
+    this.material = material;
+  }
+}
+
+var pajamaTop = new Shirt("medium", "light blue", "cotton");
+var bandTee = new Shirt("large", "black", "polyester");
+
+console.log(pajamaTop);
+console.log(bandTee);
