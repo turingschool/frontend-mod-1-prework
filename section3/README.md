@@ -34,9 +34,16 @@ Read/watch one or both of the following:
 - This [video interview](https://dev.to/hackflix_dev/how-to-hack-a-growth-mindset-b1g) where an experienced Front-End engineer discusses learning about the concept of Growth Mindset and how that's changed how she sees her work and career. (The first 7 minutes are intros and a discussion on Developer Relations. After that, the conversation about Growth Midnset begins.)
 
 Then, consider on the following questions. We will ask you to share some of these responses at the end of this section.
-- What are two points from the article or video that either resonated with you, or were brand new to you?
-- In which ways do you currently demonstrate a Growth Mindset? In which ways do you _not_?
+- > What are two points from the article or video that either resonated with you, or were brand new to you?
+  * "S.M.A.R.T. goals Setting Specific, Measurable, Achievable, Relevant, and Time-Bound goals helps you to approach learning to code with clarity, focus, and use of appropriate strategies"
+  * "By striving to improve within one’s Zone of Proximal Development (ZPD) Problem solving takes place within reach of one’s capabilities with some help or guidance (Vygotsky, 1978)."
+- > In which ways do you currently demonstrate a Growth Mindset? In which ways do you _not_?
+  * I'm always ready to learn!
+  * I get frustrated when things sometimes take too long.
 - What is something you are good at or knowledgeable at now, that you once weren't? How did you get those skills/knowledge? Was it hard at some point?
+  * I've learned to do a lot of code in Excel.
+  * I googled a lot and asked coworkers.
+  * Yes, I had to have a coworker straight up edit the document to help me understand and figure out an error.
 
 ## Part B Arrays
 
