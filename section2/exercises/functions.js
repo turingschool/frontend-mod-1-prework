@@ -55,30 +55,28 @@ greetMe();
 // YOU DO: Write a function that takes in 2 numbers as arguments, Numbers, and logs their sum
 // Then, call that function 3 times, each time, passing in 2 different Numbers.
 
-var num1 = 1;
-var num2 = 2;
-var num3 = 3;
+function sum(a, b) {
 
-function numbers(){
-	console.log(num1, num2);
-};
+  console.log(a + b);
 
-numbers();
-numbers();
-numbers();
+}
+
+sum(1, 2);
+sum(1, 1);
+sum(2, 2);
 
 // YOU DO🎈: Write a function that takes in two strings and prints a concatenation
 // of those two strings, for example the arguments could be ("Oscar", "Ruck") and
 // the end result might be "Oscar and Ruck are BFFS".  Then, call that function.
 
-// DOESN'T WORK!!!!!!!
 
-function twoBFFS() {
-  console.log("Oscar")
-	console.log("Ruck");
-};
+function twoBFFS(friend1, friend2) {
 
-console.log(`${twoBFFS()} and ${twoBFFS()}'s are BFFS.`);
+ console.log(friend1 + " and " + friend2 + " are BFFS")
+
+}
+
+twoBFFS("Oscar", "Ruck");
 
 //-------------------
 // PART 3: Naming is Hard
@@ -96,3 +94,6 @@ EXPLAIN:
 twoBFFS
 
 */
+
+//I used "two BFFS", because it's about these people who are BFFS, and there's two of them.
+// For the parameters, I did "friend1" and "friend2", because then I can fill them in with other BFFS if needed another time.
