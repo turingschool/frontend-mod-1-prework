@@ -23,24 +23,35 @@ for (var i = 0; i < 3; i++) {
 }
 
 // What is logged to the console for this second example? Why?
-// EXPLAIN:
+// EXPLAIN: The value of each index is logged to the console each time because
+// no other value is declated, so the default value is i for index. ANd the initial expression tells
+// us that the index begins at 0.
 
 
  // YOU DO: Write code below that logs to the console, the sum of 2 plus 2, 7 times:
-
+for (var i = 0; i < 7; i++) {
+  console.log(2 + 2);
+}
 
  // YOU DO: Write code below that logs the String 'She sells seashells down by the seashore'
  // 10 times.
+ for (var i = 0; i < 10; i++) {
+   console.log('She sells seashells down by the seashore');
+}
 
 
 //-------------------
 // LEVEL 2: An Added Layer of Challenge
 //-------------------
 
-// YOU DO: Write code below that logs to the console a String of "This is loop number: " 
+// YOU DO: Write code below that logs to the console a String of "This is loop number: "
 //that concatenates with `i`.
 
 // YOU DO: Using a for loop, how could you get an output that looks like this:
+
+for (var i = 10; i >= 1; i--) {
+  console.log('This is loop number: ' + i);
+}
 
 // 10
 // 9
@@ -53,6 +64,6 @@ for (var i = 0; i < 3; i++) {
 // 2
 // 1
 
-// Not sure? Try to google some terms that seem relevant. Play around with it. Don't spend 
+// Not sure? Try to google some terms that seem relevant. Play around with it. Don't spend
 // more than 15 minutes without making progress. If you are at 15 minutes and haven't made
 // progress, that means it's time to reach out to your pre-work group on Slack!
