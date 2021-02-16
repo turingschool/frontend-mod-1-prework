@@ -20,11 +20,11 @@ I deepened my knowledge of string, number, and Boolean datatypes. Below are my d
 
 4. What is/are the character(s) you would use to indicate comments in a JavaScript file? What is the purpose of a code comment?
 
-There are two ways to indicate a comment in a Javascript file. // is used for single line or short comments. /* ... */ is used for multi-line comments. The purpose of a code comment is to remind yourself of what you are tryin to achieve with your code or to indicate to other developers your intentions with your code. It is an important part of expressing developer empathy.
+There are two ways to indicate a comment in a Javascript file. // is used for single line or short comments. /* ... */ is used for multi-line comments. The purpose of a code comment is to remind yourself of what you are trying to achieve with your code or to indicate to other developers your intentions with your code. It is an important part of practicing developer empathy.
 
 5. In your own words, what is a variable? How would you explain it to a 5 year old?
 
-A variable is a container for information. Making a variable is how we save information that can be used later. A variable lets us use this information many times.
+A variable is a container for information. Making a variable is how we save information that can be used later. A variable lets us use this information many times, and can be reassigned and reused.
 
 6. Think of a site or app you use frequently. What are three variables that are probably used? Which data type would each of those variables probably hold?
 
@@ -38,7 +38,7 @@ var motivationalQuote = "You have everything that you're seeking within you."; (
 
 7. In your own words, explain what concatenation is.
 
-Concatenation is one technique for connecting strings and variable values. Concatenation appends multiple strings and variables using + signs and quotes, and the computer will join these strings/variables exactly. Concatenation is often used to print text to the console/user.
+Concatenation is one technique for connecting strings and variable values. Concatenation appends multiple strings and variables using + signs and quotes, and the computer will join these strings/variables exactly. Concatenation is often used to print text to the console/user. Javascript uses type coercion when combining data types and logging them to the console, so numbers, Booleans, and strings are readable to the user.
 
 **Example:**
 
@@ -51,6 +51,8 @@ console.log("My name is " + name + ".");
 
 Using Co - Star as my example (as for question 6), I think the developers used concatenation (or interpolation) for the greeting message at top of the home page. Perhaps like this:
 
+**Co - Star Concatenation:**
+
 ```
 console.log("Good afternoon, " + username + ".");
 console.log("Today at a glance: " + motivationalQuote);
@@ -58,6 +60,6 @@ console.log("Today at a glance: " + motivationalQuote);
 
 9. What questions do you still have about the work we've done so far? (not having a question is not an option)
 
-I'm still learning about the Null vs 0 portion of the [comparison operators](https://javascript.info/comparison) reading. I'm specifically wondering how == and > < <= >= work differently. I am also curious about the specifics of how == and === differ. I will be doing some extra googling to understand!
+I'm still learning about the Null vs 0 portion of the [comparison operators](https://javascript.info/comparison) reading. I'm specifically wondering how == and > < <= >= work differently. I am also curious about the specifics of how == and === differ. I will be doing some extra Googling to understand!
 
 On another note, when is it better to use concatenation vs interpolation? I personally prefer interpolation for readability, but would love to understand an instance of when concatenation is preferable.
