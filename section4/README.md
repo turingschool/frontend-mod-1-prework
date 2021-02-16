@@ -32,9 +32,17 @@ One challenge developers face, moreso when they are starting out, is estimating 
 One challenge learners in a new environment/content area face is feeling like they know nothing, and until they know everything, they feel like they are failing.
 
 So this week, we would like you to start self-monitoring your progress. Before you start on the technical work, reflect back on how the pre-work has gone so far.
-- Have the time estimates matched up with your experience?
-- When you sit down to start working, do you have a clear goal of what you want to accomplish and in how much time? If so, how aligned is that to what actually happens?
-- How do you work best - in 2 hour blocks, 4 hour blocks, etc? Do you take breaks regularly? Do you have a system to hold yourself accountable to taking breaks?
+- > Have the time estimates matched up with your experience?
+
+    * Things are taking me longer than expected, and I haven't had the time to focus on things as much as I'd like to get them down super well.
+
+- > When you sit down to start working, do you have a clear goal of what you want to accomplish and in how much time? If so, how aligned is that to what actually happens?
+
+    * I don't, because it's taking me longer to do things than I expect. I try to get to a good breaking point though, usually finishing a whole section, but I've been a little stuck on the end of Section 3, so I need to go back to it. I've moved on for now and will return. I don't want to waste time. I'm probably going to reach out to a friend or cohort-mate to move forward today.
+
+- > How do you work best - in 2 hour blocks, 4 hour blocks, etc? Do you take breaks regularly? Do you have a system to hold yourself accountable to taking breaks?
+
+    * I work best by finishing a section (or at least a .js file) and then taking a 15-20 minute break.
 
 You've probably heard of the Pomodoro Technique in Mod 0 classes (and elsewhere, maybe!). During this final section of pre-work, we are going to ask that you follow this technique. Please read about it [here](https://www.dovico.com/blog/2020/08/26/the-pomodoro-technique-how-to-manage-your-work-time-and-flow-the-easy-way/). The article doesn't mention writing down Step 1, but we ask that you find a special spot in your notebook where you do this for each work session. In the deliverables, we will ask that you share what you wrote down for Step 1 of the technique each time you started a new task. _Note: if the 25 minutes on/3-5 minutes off isn't best for you, you do **not** have to follow that! The main focus of this is setting an intention and continuing to better understand your working style._
 
