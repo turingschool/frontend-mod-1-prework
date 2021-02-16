@@ -122,11 +122,15 @@ var chargerType = "car";
 
 // Write your conditional here
 
-// This line of code begins the 
+// This line of code begins by naming the condition that if there is enough battery left, an uber can be called.
 if (percentBatteryLeft >= 15 ) {
+// This is what will be logged if the above condition is met.
   console.log("I can call an Uber!");
+//This line of code states that in case the above condition isn't met, the alternative of having both a charger that is a car chargerType
+// will allow for an uber to be called. They are connected by a logical operator.
 } else if (hasCharger == true && chargerType == "car"){
   console.log("I can call an Uber!")
+//This line of code states that if the above conditions aren't met, then it will log the following.
 } else{
   console.log("I cannot call an Uber.");
 }
