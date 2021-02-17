@@ -24,14 +24,16 @@ for (var i = 0; i < 3; i++) {
 
 // What is logged to the console for this second example? Why?
 // EXPLAIN:
+
 // In the second example, the console will log:
 // 0
 // 1
 // 2
-// This is because the initialization starts at 0, the condition terminates the loop at 3, and the update
-// increments by 1 for each loop. The statement that runs each loop (as defined between the {}) is a
-// console.log of the initializer, i. At the end of each loop, i increments by 1 until i = 3, when the
-// loop stops.
+// This is because the initialization variable (i) is assigned to 0, the condition
+// terminates the loop when i = 3, and the update increments i by +1, reasssigning
+// the i variable each loop. The statement that runs each loop (as defined between
+// the {}) logs the progress of the initializer, i. At the end of each loop, i
+// increments by 1 until i = 3, when the loop stops.
 
 
  // YOU DO: Write code below that logs to the console, the sum of 2 plus 2, 7 times:
