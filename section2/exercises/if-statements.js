@@ -45,11 +45,11 @@ var dogAge = 2;
 // Write your conditional here
 
 if (dogAge <= 2) {
-  console.log("Your dog is a puppy! Cute!")
+  console.log("Your dog is a puppy! Cute! This means that they are 2 years old or younger.")
 } else if (dogAge >= 10) {
-  console.log("Your dog is elderly. Let them rest and give them treats.")
+  console.log("Your dog is either 10 years old or older, which means your dog is elderly. Let them rest and give them treats.")
 } else {
-  console.log("Your dog is an adult. They should be responsible and mature but still fun.")
+  console.log("Your dog is an adult. They are between the ages of 2 and 10 years old. They should be responsible and mature but still fun.")
 }
 
 
@@ -70,7 +70,7 @@ When numQuarters = 2, program should log "I have enough money for a gumball"
 When numQuarters = 3, program should log "I have enough money for a gumball"
 */
 
-var numQuarters = 6;
+var numQuarters = 1;
 
 // Write your conditional here
 
@@ -95,8 +95,8 @@ When cupsOfFlour = 2 and hasSauce = true, your program should log "I can make pi
 When cupsOfFlour = 3 and hasSauce = true, your program should log "I can make pizza";
 */
 
-var cupsOfFlour = 1;
-var hasSauce = false;
+var cupsOfFlour = 5;
+var hasSauce = true;
 
 // Write your conditional here
 
@@ -104,17 +104,22 @@ if (cupsOfFlour <= 1 || hasSauce === false) {
   console.log("I cannot make pizza");
 } else if (cupsOfFlour >= 2 && hasSauce === true) {
   console.log("I can make pizza")
-} else {
-  console.log("I have a surplus of supplies")
-}
+} 
 
 /*
 For the last two exercises, an ideal solution probably uses a logical operator.
 Did yours? Do you know what a logical operator in JavaScript is? Google it to answer
 for yourself!
 
-I used an || logical operator in the penultimate exercise, as it reduced the number of else if statements I would have to write. The || operator means "or" in Javascript, and if either of the conditions are met on either side of the ||, the statement will run. I googled this and did the reading ahead of time.
+I used an || logical operator in the penultimate exercise, as it reduced the number of else
+if statements I would have to write. The || operator means "or" in Javascript, and if either
+of the conditions are met on either side of the ||, the statement will run. It first evaluates
+the condition to the left of the operator, and if that evaluates to false, it does not check
+the right side. I googled this and did the reading ahead of time.
 
-In the final exercise, I used the && logical operator as well as the || operator. The && logical operator means "and" in Javascript, and for the statement to execute, both conditions on either side of the && must evaluate to true. Using both the || and && in this if statement drastically reduced the amount of code I would have to type.
+In the final exercise, I used the && logical operator as well as the || operator. The && logical
+operator means "and" in Javascript, and for the statement to execute, both conditions on either
+side of the && must evaluate to true. Using both the || and && in this if statement drastically
+reduced the amount of code I would have to type.
 
 */
