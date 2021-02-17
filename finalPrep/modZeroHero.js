@@ -66,27 +66,27 @@ console.log(sidekicks)
 //   - badExcuse should be a string a hero would say if they are too afraid of the dangerLevel
 
 function assessSituation(dangerLevel, saveTheDay, badExcuse) {
- console.log(dangerLevel, saveTheDay, badExcuse)
-}
 
-assessSituation(10, "I am the world's greatest.", "I want to cry. TOO SPOOKY!");
-assessSituation(1, "I rock.", "I'm not doing anything.");
-assessSituation(5, "Look at me go!", "I am a failure.");
+  if (dangerLevel > 50) {
+
+    console.log(badExcuse)
+
+  } else if (dangerLevel > 10) {
+
+    console.log(saveTheDay)
+
+  } else {
+
+    console.log("Meh. Hard pass.")
+
+  }
+
+}
 
 // Your function should include an if/else statement that meets the following criteria
 //   - Danger levels that are above 50 are too scary for your hero. Any danger level that is above 50 should result in printing the badExcuse to the console
 //   - Anything dangerLevel that is between 10 and 50 should result in printing the saveTheDay string to the console
 //   - If the dangerLevel is below 10, it means it is not worth your time and should result in printing the string "Meh. Hard pass." to the console.
-
-	if (dangerLevel > 50) {
-		console.log("I want to cry. TOO SPOOKY!");
-	}
-	else if (dangerLevel <= 9) {
-  	console.log("Meh. Hard pass.");
-	}
-	else if (dangerLevel <= 50) {
-  	console.log("I am the world's greatest.");
-	}
 
 //Test Cases
 var announcement = 'Never fear, the Courageous Curly Bracket is here!'
@@ -95,21 +95,9 @@ var excuse = 'I think I forgot to lock up my 1992 Toyota Coralla. Be right back.
 //assessSituation(21, announcement, excuse) > should print - 'Never fear, the Courageous Curly Bracket is here!'
 //assessSituation(3, announcement, excuse) > should print - "Meh. Hard pass."
 
-if (dangerLevel === 99) {
-  	console.log("I think I forgot to lock up my 1992 Toyota Coralla. Be right back.");
-	}
-	else if (dangerLevel === 21) {
-  	console.log("Never fear, the Courageous Curly Bracket is here!");
-	}
-	else if (dangerLevel > 50) {
-		console.log("I want to cry. TOO SPOOKY!");
-	}
-	else if (dangerLevel <= 9) {
-  	console.log("Meh. Hard pass.");
-	}
-	else if (dangerLevel <= 50) {
-  	console.log("I am the world's greatest.");
-	}
+assessSituation(99, announcement, excuse);
+assessSituation(21, announcement, excuse);
+assessSituation(3, announcement, excuse);
 
 // Declare a new variable - scaryMonster - assigned to an Object with the following key/values
 //   - name (string)
@@ -145,16 +133,26 @@ var scaryMonster = {
 
 class SuperHero {
   constructor(name, power, age) {
-   this.name = name
+    this.name = name
   	this.superpower = power
   	this.age = age
 		this.archNemesis = "The Syntax Error"
 		this.powerLevel = 100
 		this.energyLevel = 50
+	}
+
+	sayName() {
+		console.log(this.name)
+  }
+
+	maximizeEnergy() {
+		this.energyLevel = 1000
+	}
+
+	gainPower(power) {
+  	this.powerLevel = this.powerLevel + power
   }
 }
-
-Carl = new SuperHero("Carl", 5, 70)
 
 // - Create the following class methods
 //   - sayName, should print the hero's name to the console
@@ -163,21 +161,19 @@ Carl = new SuperHero("Carl", 5, 70)
 
 // - Create 2 instances of your SuperHero class
 
-sayName(name) {
-  this.sayName(name) = name
-}
-
-maximizeEnergy(maximizeEnergy) {
-  this.maximizeEnergy(maximizeEnergy) = energyLevel + 500
-}
-
-gainPower(gain) {
-  this.gainPower(gain) = powerLevel + 1
-}
+var mike = new SuperHero("Mike", "invisible", 90)
+var joe = new SuperHero("Joe", "fly", 80)
 
 // Reflection
 // What parts were most difficult about this exerise?
 
+// It was a lot of info needed from a lot of different places,
+// so I had to spend a lot of time going through things.
+
 // What parts felt most comfortable to you?
 
+// Setting up the variables in the beginning was super easy!
+
 // What skills do you need to continue to practice before starting Mod 1?
+
+// methods, functions, objects
