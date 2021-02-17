@@ -121,18 +121,18 @@ class Dog3 {
 }
 
 var fido = new Dog3(50, 3, "pug");
-console.log(fido)
+console.log(fido);
 
 var spot = new Dog3(10, 8, "lab");
-console.log(spot)
+console.log(spot);
 
 // Prompt 2: Snack
 
 class Snack3 {
 	constructor(quantity, oz, color) {
     this.quantity = quantity;
-    this.weight = oz
-    this.color = color
+    this.weight = oz;
+    this.color = color;
   }
 }
 
@@ -140,7 +140,7 @@ var carrot = new Snack3(2, 3, "orange");
 console.log(carrot);
 
 var berry = new Snack3(3, 1, "red");
-console.log(berry)
+console.log(berry);
 
 // Prompt 3: Shirt
 

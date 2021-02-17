@@ -42,7 +42,7 @@ var mikesBurrito = new Burrito("tofu", "flour", ["chicken", "tomatoes", "queso"]
 var sarasBurrito = new Burrito("tofu", "corn", ["pork", "peppers", "salsa"]);
 
 sarasBurrito.addTopping("sour cream");
-joesBurrito.addTopping("hot sauce")
+joesBurrito.addTopping("hot sauce");
 
 console.log(joesBurrito);
 console.log(mikesBurrito);

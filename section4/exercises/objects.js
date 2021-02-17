@@ -56,9 +56,9 @@ var animals = {
   bears: 20
 };
 
-animals["wolves"] = 2
+animals["wolves"] = 2;
 
-console.log(animals.wolves)
+console.log(animals.wolves);
 
 // Change the value for at least one of your animal keys, and log the updated Object.
 
@@ -68,9 +68,9 @@ var animals = {
   bears: 20
 };
 
-animals["tigers"] = 6
+animals["tigers"] = 6;
 
-console.log(animals.tigers)
+console.log(animals.tigers);
 
 // Add another animal to the zoo Object, and log the updated Object.
 
@@ -80,9 +80,9 @@ var animals = {
   bears: 20
 };
 
-animals["penguins"] = 3
+animals["penguins"] = 3;
 
-console.log(animals.penguins)
+console.log(animals.penguins);
 
 //-------------------
 // Part 2: Email
@@ -107,7 +107,7 @@ var email = {
 };
 
 
-console.log(email)
+console.log(email);
 
 //-------------------
 // Part 3: Many Emails - OPTIONAL EXTENSION
@@ -183,6 +183,6 @@ var email3 = {
   time: "12:45 AM",
 };
 
-var inbox = [email1, email2, email3]
+var inbox = [email1, email2, email3];
 
-console.log(inbox)
+console.log(inbox);

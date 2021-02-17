@@ -15,7 +15,7 @@ Make sure to run the file with node in your command line.
     beverage: "iced tea",
     tableNumber: 47,
     prepare: function() {
-      console.log("We are working on your order")
+      console.log("We are working on your order");
   	},
   	complete: function() {
     	console.log("Your order is complete");
