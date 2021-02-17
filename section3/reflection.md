@@ -18,11 +18,11 @@ On Pinterest, I believe my boards are examples of arrays, and each board compris
 
 3. In your own words, explain what an Array method is.
 
-An array method is a built-in Javascript function that specifically manipulates an array. An array method could  effect the number of elements in an array, their indexes, or their contents, among other things. Examples of array methods are: .pop(), .shift(), and .push().
+An array method is a built-in Javascript function made specifically to manipulate an array. An array method could  effect the number of elements in an array, their indexes, or their contents, among other things. Some of these methods mutate, or change, the original array. Some do not. Examples of array methods are: .pop(), .shift(), and .push().
 
 4. What is the purpose of a loop? When we would use a loop in conjunction with array vs. without?
 
-A loop is a way to iterate. It checks a condition, evaluates whether it is true or false, and executes the prescribed code until the condition evaluates to false. It's specifically useful for automating tasks and relieving the programmer and computer from unnecessary repetition.
+A loop is a way to iterate. It checks a condition, evaluates whether it is true or false, and executes the prescribed code until the condition evaluates to false. It's specifically useful for automating tasks and relieving the programmer and computer from unnecessary repetition. There are for loops, while loops, and do...while loops.
 
 It is best to use a loop in conjunction with an array when we need to evaluate/manipulate each element of an array. It is the most efficient way to access each element in an array because loops are counters that can incrementally access elements.  
 
@@ -32,6 +32,6 @@ A loop is a counter. We make rules to tell the counter when to start counting, w
 
 6. What questions do you still have about Arrays and loops?
 
-Honestly, I'm struggling with describing loops (as evidenced above), and specifically need more practice with using for loops with arrays. I'm curious about how loops coincide with if statements and functions, and though we practiced the former, I have no idea how to format the latter.
+Honestly, I'm struggling with describing loops, and specifically need more practice with using for loops with arrays. I'm curious about how loops coincide with if statements and functions, and though we practiced the former, I have no idea how to format the latter. I find myself also wondering when to use a while loop vs a do...while vs a for loop.
 
-On another note related to my Pinterest mention above: are the pins in Pinterest objects? Can there be an array of objects? Or are they primitive data types, and each image is a string? 
+On another note related to my Pinterest mention above: are the pins in Pinterest objects? Can there be an array of objects? Or are they primitive data types, and each image is a string?
