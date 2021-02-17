@@ -1,6 +1,6 @@
 ##Array Methods
 
-**.pop()**: removes the last element of an array. .pop() doesn't take arguments and mutates the original array
+**.pop()**: removes the last element of an array and returns the value of the removed element. .pop() doesn't take arguments and mutates the original array.
 *example:*
 ```
 var writingUtensils = ["pen", "pencil", "quill"];
@@ -24,7 +24,7 @@ writingUtensils.shift();
 console.log(writingUtensils);
 //prints ["pencil", "marker"]
 ```
-**.unshift()**: adds an element to the beginning of an array, thus reassigning the indexes of all elements in the array. This mutates the lenght of the array. 
+**.unshift()**: adds an element to the beginning of an array, thus reassigning the indexes of all elements in the array. This mutates the lenght of the array.
 *example:*
 ```
 writingUtensils.unshift("chalk");
