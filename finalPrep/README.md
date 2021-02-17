@@ -3,12 +3,12 @@ Congrats on making it to the Mod 0 Final Prep! Complete the final exercises belo
 
 ### Final Technical Prep
 
-You've learned a ton about some of the core foundations of Javascript! Show us how far you've come by completing the following exercises! You will be using your work from these exercises in your first day of Mod 1! 
+You've learned a ton about some of the core foundations of Javascript! Show us how far you've come by completing the following exercises! You will be using your work from these exercises in your first day of Mod 1!
 
 - [ ] Complete the [Mod Zero Hero Challenge](./modZeroHero.js)
-- [ ] Complete the [Annotation Challenge](./annotations.js) 
+- [ ] Complete the [Annotation Challenge](./annotations.js)
 
-**Gear Up 
+**Gear Up**
 [Julie's Gear Up Prework](https://gist.github.com/julieCodes2/46b00748df2a689a81e779e15e6dd5ef)
 
 ### Mentorship Prep
@@ -62,4 +62,3 @@ What is your plan and how are you going to hold yourself to it? Specifically...
 
 ## Extensions
 If you're interested in challenging yourself _even more_ and getting a step ahead in your coding abilities before your first day, we recommend working on either:
-
