@@ -30,10 +30,3 @@ for (var i = firstFrog; i > nextFrog; i--) {
 }
 
 countFrogs(14, 8);
-
-// Extension #2:
-// Print word versions of each number in the first and fourth lines, for
-// example, the first verse in the above example would print 'Three speckled
-// frogs...' and 'were two speckled frogs'. There are solutions that don't
-// involve using a library or a huge piece of someone else's code.
-//typeOf???
