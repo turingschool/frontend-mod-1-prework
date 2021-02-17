@@ -63,7 +63,7 @@ assessSituation(2);
 //   - Danger levels that are above 50 are too scary for your hero. Any danger level that is above 50 should result in printing the badExcuse to the console
 //   - Anything dangerLevel that is between 10 and 50 should result in printing the saveTheDay string to the console
 //   - If the dangerLevel is below 10, it means it is not worth your time and should result in printing the string "Meh. Hard pass." to the console.
-
+//break break break
 //Test Cases
 var announcement = 'Never fear, the Courageous Curly Bracket is here!'
 var excuse = 'I think I forgot to lock up my 1992 Toyota Coralla. Be right back.'
@@ -78,29 +78,53 @@ var excuse = 'I think I forgot to lock up my 1992 Toyota Coralla. Be right back.
 //   - citiesDestroyed (array)
 //   - luckyNumbers (array)
 //   - address (object with following key/values: number , street , state, zip)
-
+var scaryMonster = {
+  name: " ";
+  smell: " like apple"
+  weight: 105;
+  citiesDestroyed: ["Troy", "Bronco"];
+  luckyNumbers: [2, 3, 6];
+  address = {
+    number: 6;
+    street: "Peter";
+    state: "Florida";
+    zip: 32845;
+  }
+}
 
 // Create a new class called SuperHero
 // - Your class should have the following DYNAMIC values
 //   - name
 //   - superpower
 //   - age
+class Superhero {
+  constructor(name, superpower, age)
+}
 // - Your class should have the following STATIC values
-//   - archNemesis, assigned to "The Syntax Error"
+//   archNemesis, assigned to "The Syntax Error"
 //   - powerLevel = 100
 //   - energyLevel = 50
+this.archNemesis = "The Syntax Error";
+this.powerLevel = 100;
+this.energyLevel = 50;
 
 // - Create the following class methods
 //   - sayName, should print the hero's name to the console
-//   - maximizeEnergy, should update the energyLevel to 1000
-//   - gainPower, should take an argument of a number and INCREASE the powerLevel by that number
-
+//   - maximizeEnergy, should update the energyLevel to 1000 // how to do that?
+//   - gainPower, should take an argument of a number and INCREASE the powerLevel by that number // how to do that?
+sayName() {
+  console.log(${name}); // how to do this?
+}
 // - Create 2 instances of your SuperHero class
-
+var Batman = new SuperHero();
+//break
+var Superman = new SuperHero();
 
 // Reflection
 // What parts were most difficult about this exerise?
+The functions and the looping parts. I have to study the concepts again and then I will go back to this exercise.
 
 // What parts felt most comfortable to you?
-
+- There are familiar concepts already but I need to study more before Mod 1.
 // What skills do you need to continue to practice before starting Mod 1?
+- I need time to study the concepts again before Mod 1.
