@@ -2,11 +2,11 @@
 // Use the double // to create a new comment
 
 //Build a Bear
-function buildABear(name, age, fur, clothes, specialPower) {
-  var greeting = `Hey partner! My name is ${name} - will you be my friend?!`
-  var demographics = [name, age]
-  var powerSaying = "Did you know that I can " + specialPower + " ?"
-  var builtBear = {
+function buildABear(name, age, fur, clothes, specialPower) { //declaring a function named buildAbear with 5 parameters)
+  var greeting = `Hey partner! My name is ${name} - will you be my friend?!` //declaring a variable called greeting with a value of a string with interpolation
+  var demographics = [name, age] // declaring another variable here that has a value of array.
+  var powerSaying = "Did you know that I can " + specialPower + " ?" //declaring a variable with a value of string with concatenation
+  var builtBear = { //declaring a variable with a value of an object with key-value pairs
     basicInfo: demographics,
     clothes: clothes,
     exterior: fur,
@@ -15,11 +15,11 @@ function buildABear(name, age, fur, clothes, specialPower) {
     isCuddly: true,
   }
 
-  return builtBear
-}
+  return builtBear 
+} //function closing
 
-buildABear('Fluffy', 4, 'brown', ['pants', 'jorts', 'tanktop'], 'give you nightmares')
-buildABear('Sleepy', 2, 'purple', ['pajamas', 'sleeping cap'], 'sleeping in')
+buildABear('Fluffy', 4, 'brown', ['pants', 'jorts', 'tanktop'], 'give you nightmares') //calling the function and giving it arguments 
+buildABear('Sleepy', 2, 'purple', ['pajamas', 'sleeping cap'], 'sleeping in') //calling the function and giving it new arguments
 
 
 
