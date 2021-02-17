@@ -16,12 +16,12 @@ Mentorship is an integral part of the Turing experience and will help jumpstart 
 ### Lesson Prep
 You've learned a lot about how to take strong notes during Mod 0. Show us your skills while you learn how to pre-teach content for your first lesson in Mod 1!
 - [ ] Complete the [Pre Teaching Practice exercise](https://gist.github.com/ericweissman/0036e8fe272c02bd6d4bb14f42fd2f79) gist
-  - [ ] Add a link to your gist here:
+  - [ ] Add a link to your gist here: https://gist.github.com/hayleyw7/4378a3449bde39ba19fa06a5169fee20
 
 ### Group Work Prep
 As part of Turing's project-based learning approach, you will often be working in pairs or larger groups. In order to set yourself (and your team) up for success, it is important to ensure you are prepared to be an equitable contributor and teammate.
 - [ ] Complete the [DTR Guiding Questions](https://gist.github.com/ericweissman/c56f3a98cdce761808c21d498a52f5c6)
-  - [ ] Add a link to your gist here:
+  - [ ] Add a link to your gist here: https://gist.github.com/hayleyw7/f6372d4833151beaa6dad3b0041d27d0
 
 ## All Done? How to Submit your M1 Prework
 When you have completed *ALL* the activities described above, follow the steps below to submit your technical prework.
@@ -50,12 +50,19 @@ Depending on if you are in Section A or B, you have anywhere between 1.5-3.5 wee
 
 What is your plan and how are you going to hold yourself to it? Specifically...
 - What are you going to work on? [Resources here](https://github.com/turingschool-examples/fe-m1-practice)
+  - I'm going to work on all of these, but I'm going to spend the most tie on methods and functions.
 - What days are you going to work?
+  - I'm free every day, in general.
 - What times on those days are you going to work?
+  - I'll late afternoon and early evenings. But until I see how much time I need, I'll start in the mornings just to make sure I get everything done.
 - Where you going to be sitting/standing as you do this?
+  - Definitely sitting.
 - Where are you documenting this plan? Google Calendar, calendar on your wall, your journal?
+  - I use Google Calendar/Assistant, Slack reminders, and Trello.
 - Do any stakeholders in your life know about this plan? (The answer needs to be yes by the time you answer this...)
+  - Yes. I have few people I talk to daily, but even my other friends know I'll be very busy.
 - What personal items/events are important to you during this time? How are you going to make sure those are not neglected? (Hint, block time on the calendar for them!)
+  - I don't really have anything important already planned out, other than currently unscheduled doctor appointments.
 
 ## Extensions
 If you're interested in challenging yourself _even more_ and getting a step ahead in your coding abilities before your first day, we recommend working on either:
