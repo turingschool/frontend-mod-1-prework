@@ -32,4 +32,4 @@
 
     * I'm having issues with the .js files on a lot of issues. I'm going to reach out for help today and see how that goes. I hope some things click! I understand the big pictures, but I need some help putting the code together.
 
-come back to this!!!!!!!
+    * Edit: RESOLVED!
