@@ -47,7 +47,7 @@ console.log(animals[4]);
 
 // YOU DO: Declare a variable that will store an an array of at least 4 foods (strings)
 var food;
-food = ["Apple Pie", "Ramen", "Tacos", "Jerky"]
+food = ["Apple Pie", "Ramen", "Tacos", "Jerky"];
 
 // YOU DO: Write code below that will log the number of elements in the array of
 // foods from above.
@@ -61,7 +61,7 @@ console.log(food);
 
 // YOU DO: Write code below that removes the last item of food from the foods array and
 // log the changed array to verify that item has been removed
-food.pop(4)
+food.pop(4);
 console.log(food);
 
 // YOU DO: Write code to add 3 new foods to the array.
@@ -95,9 +95,9 @@ var posts = ["image at beach", "holiday party", "adorable puppy", "video of cute
 // may be storing data? Come up with 3 examples - they could be from different web applications or
 // all from the same one.
 
-// 1: var mondayStudents = ['Kat', 'Sophia', 'Ian', 'Olivia', 'Joe']
-// 2: var nytDesserts = ['Shortbread', 'Chocolate Mousse', 'Marzipan']
-// 3: car chewyCart = ['kong toy', 'expensive organic dog food', 'milkbones']
+var mondayStudents = ['Kat', 'Sophia', 'Ian', 'Olivia', 'Joe']
+var nytDesserts = ['Shortbread', 'Chocolate Mousse', 'Marzipan']
+car chewyCart = ['kong toy', 'expensive organic dog food', 'milkbones']
 
 
 //-------------------

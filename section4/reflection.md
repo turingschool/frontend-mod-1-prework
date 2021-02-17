@@ -1,7 +1,7 @@
 ## Section 4 Reflection
 
 1. How different did your workflow feel this week, considering we asked you to follow the Pomodoro technique?
-   - I was much more aware of how time passed and how I spent it. I have a better sense of where and when my mind starts wandering, but I also have a better sense of what projects take what amount of time. I also realize that I need to hold myself better accountable for taking breaks correctly. It is really easy to just push through a break. And also very easy to take much too long of a break.
+   - I was much more aware of how time passed and how I spent it. I have a better sense of where and when my mind starts wandering, but I also have a better sense of what projects take what amount of time. I also realize that I need to hold myself better accountable for taking breaks correctly. It is really easy to just push through a break. And also very easy to take much too long of a break - oops 20 minutes went by...
 
 2. Regarding the work you did around setting intentions in Step 1 of the Pomodoro technique - how did that go? Were you surprised by anything (did you find yourself way more focused than you realized, more distracted that you thought you'd be, estimating times accurately or totally off, etc)?
    - I am underestimating the amount of time it takes me to take notes and overestimating the amount of time exercises take. That surprises me and makes me feel like I should work more slowly on exercises, to make sure I'm not cutting corners. I was also surprised to find that when I physically set a timer and saw it ticking, my brain started to feel different. It felt focused, with a gentle time pressure. I like this method!

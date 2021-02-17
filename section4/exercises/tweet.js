@@ -23,7 +23,7 @@ class Tweet {
   addComment(comment) {
     this.comments.push(comment)
   }
-};
+}
 
 // Construct first new tweet instances
 var tweet1 = new Tweet("Kat White", "orange man bad", "17:52", 3, ['Hi!', 'Hello!', 'Welcome!']);
@@ -34,7 +34,7 @@ var tweet1 = new Tweet("Kat White", "orange man bad", "17:52", 3, ['Hi!', 'Hello
 console.log(tweet1);
 
 // Construct second new tweet instance
-var tweet2 = new  Tweet("Sally James", "politics", "18:21", 6, ['No way!', 'omg', 'lol'])
+var tweet2 = new  Tweet("Sally James", "politics", "18:21", 6, ['No way!', 'omg', 'lol']);
 
   tweet2.addLike()
   tweet2.addComment('I Love You')
@@ -42,7 +42,7 @@ var tweet2 = new  Tweet("Sally James", "politics", "18:21", 6, ['No way!', 'omg'
 console.log(tweet2);
 
 // Construct second new tweet instance
-var tweet3 = new Tweet ("Sheila Hurmis", "Animal Welfare", "13:12", 476, ['I love dogs', 'My dog is like my child', 'live, laugh, love'])
+var tweet3 = new Tweet ("Sheila Hurmis", "Animal Welfare", "13:12", 476, ['I love dogs', 'My dog is like my child', 'live, laugh, love']);
 
 tweet3.addLike()
 tweet3.addComment('cats are better than dogs')

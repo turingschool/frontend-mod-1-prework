@@ -131,9 +131,9 @@ console.log(lovesToPlay || lovesDogPark);
 console.log(lovesToPlay &&  age < 1);
 
 // What did your final line of code evaluate to? Why do you think that is? Explain.
-// ANSWER: I decided that a dog less than 1 year old is no longer a puppy. So,
-// in this case - if the dog loves to play (true) and the dog is les than 1 year old (false)
-// those two values together log false.
+/* ANSWER: I decided that a dog less than 1 year old is no longer a puppy. So,
+in this case - if the dog loves to play (true) and the dog is les than 1 year old (false)
+those two values together log false.*/
 
 //-------------------
 // FINAL CHECK

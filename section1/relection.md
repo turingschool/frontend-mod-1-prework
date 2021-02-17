@@ -29,8 +29,8 @@ want to use that word or words - you can just use your shortcut nickname.
 7. In your own words, explain what concatenation is.
 - Concatenation is a VERY long word to say "join". It is a tool to join data types (even different data types) together and coercing them into one string.
 
-8. Think of a site or app you use frequently. Where do you think the developers used concatention?
+8. Think of a site or app you use frequently. Where do you think the developers used concatenation?
 - On Reddit, I imagine developers use concatenation to show "Posted by + userName + timeFromOriginal Post"
 
 9. What questions do you still have about the work we've done so far? (not having a question is not an option)
-- Right now I cannot IMAGINE when i will use % the modulo to code something. That is exciting to consider. I also do not feel close to 100% on the distinctions and pitfalls of using different comparisons. I would also like to understand - what is a situation where you would HAVE to use concatenation over interpolation?
+- Right now I cannot IMAGINE when i will use % the modulo to code something. That is exciting to consider. I also do not feel close to 100% on the distinctions and pitfalls of using different comparisons, as discussed in the linked article. I would also like to understand - what is a situation where you would HAVE to use concatenation over interpolation?

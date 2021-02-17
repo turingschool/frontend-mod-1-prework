@@ -42,7 +42,7 @@ console.log(`The ${speedy} jumps over the ${slowPoke}`);
 slowPoke = "tortoise";
 speedy = "hare";
 
-console.log(`In a predictable result, the ${slowPoke} beat the ${speedy}`);
+console.log(`In a predictable result, the ${slowPoke} beat the ${speedy}!`);
 
 
 // YOU DO:

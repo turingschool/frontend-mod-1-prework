@@ -21,9 +21,6 @@ class Dog {
 var husky = new Dog();
 var poodle = new Dog();
 
-console.log(husky);
-console.log(poodle);
-
 
 // Prompt 2: Snack
 class Snack {
@@ -32,18 +29,12 @@ class Snack {
 var barbequeChips = new Snack();
 var chocolateIceCream = new Snack();
 
-console.log(barbequeChips);
-console.log(chocolateIceCream);
-
 // Prompt 3: Shirt
 class Shirt {
 }
 
 var hawaiianShirt = new Shirt();
 var oxford = new Shirt();
-
-console.log(hawaiianShirt);
-console.log(oxford);
 
 //-------------------
 // Part 2: Properties
@@ -60,6 +51,7 @@ console.log(oxford);
 
 class Dog1 {
   constructor() {
+    this.name = 'Bailey';
     this.breed = 'Spaniel';
     this.size = 'Medium';
     this.personality = 'Friendly';
@@ -77,14 +69,15 @@ alling this class Dog1. I did the same with the next two prompts. */
 
 class Snack1 {
   constructor() {
+    this.name = "Snickers";
     this.hasNuts = true;
     this.calorieCount = 250;
-    this.name = "Snickers";
   }
-};
+}
 
 var snickers = new Snack1()
 console.log(snickers);
+
 // Prompt 3: Shirt
 
 class Shirt1 {
@@ -93,7 +86,7 @@ class Shirt1 {
     this.brand = "J Crew";
     this.pattern = "Plaid";
   }
-};
+}
 
 var flannelShirt = new Shirt1()
 console.log(flannelShirt);

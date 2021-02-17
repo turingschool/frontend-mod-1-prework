@@ -39,8 +39,9 @@ console.log(firstName, isHungry, numberOfPets);
 // IN WORDS:
 // How did you decide to use the data type you did for each of the three variables above?
   // Explain.
-  // As characters firstName should be a string. isHungry is a boolean because
-  // it can either be true or false. And numberOfPets is an integer because it is counting two objects.
+  /* As characters, firstName should be a string. isHungry is a boolean because
+  it can either be true or false. And numberOfPets is an integer because it is
+  counting two objects.*/
 
 
 // YOU DO:

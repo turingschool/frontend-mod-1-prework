@@ -40,10 +40,10 @@ class Burrito {
     console.log("Actually, I'll have " + choice + " please");
   }
   addTopping(choice) {
-    this.toppings.push(choice)
+    this.toppings.push(choice);
     console.log(choice + " too, please!");
   }
-};
+}
 
 // OBJECT INSTANCES
 var veggie = new Burrito ("tofu", "black beans", ['cheddar cheese', 'salsa', 'friend onions']);
@@ -60,8 +60,8 @@ veggie.changeProtein('chicken');
 console.log(veggie);
 
 // ADDTOPPING METHOD
-chicken.addTopping('olives')
+chicken.addTopping('olives');
 console.log(chicken);
 
-alPastor.addTopping('cheese')
+alPastor.addTopping('cheese');
 console.log(alPastor);
