@@ -10,19 +10,19 @@
 
 1. For each set of data, would an array or object be better to store it? Explain your choice.
 
-  * List of all of the students in class
+  * List of all of the students in class \
   -Array because this will be just a list of names
-  * List of states and their capitals
+  * List of states and their capitals \
   -Object because this a key-value pair.
-  * List of things to pack for vacation
+  * List of things to pack for vacation \
   -Array because this is just a list of things to pack.
-  * Names of all the Instagram accounts I follow
+  * Names of all the Instagram accounts I follow \
   -Array because this is just a list of names of all the Instagram accounts that I follow.
-  * List of student names and their cohort
+  * List of student names and their cohort \
   -Object because this is a key-value pair.
-  * Ingredients and amount of each ingredient to bake a cake
+  * Ingredients and amount of each ingredient to bake a cake \
   -Object because this is a key-value pair.
-  * All my favorite restaurants
+  * All my favorite restaurants \
   -Array because this will be just a list of all the names of my favorite restaurants.
 
 
@@ -32,7 +32,7 @@
 Key value-pairs: \
 totalAmount = 100; \
 items = 10; \
-discount = 5; \
+discount = 5;
 
 1. What questions do you still have about classes and/or Objects?
 - I honestly need to review this again before Mod 1 to really truly understand everything.
