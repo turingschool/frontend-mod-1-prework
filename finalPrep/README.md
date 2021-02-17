@@ -9,7 +9,7 @@ You've learned a ton about some of the core foundations of Javascript! Show us h
 - [ ] Complete the [Annotation Challenge](./annotations.js) 
 
 **Gear Up 
-[Julie's Gear Up[ Prework](https://gist.github.com/julieCodes2/46b00748df2a689a81e779e15e6dd5ef)
+[Julie's Gear Up Prework](https://gist.github.com/julieCodes2/46b00748df2a689a81e779e15e6dd5ef)
 
 ### Mentorship Prep
 Mentorship is an integral part of the Turing experience and will help jumpstart your technical career. In order to get your mentor relationship started on the right foot, please complete the following deliverables:
