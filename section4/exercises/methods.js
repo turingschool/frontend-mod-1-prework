@@ -3,6 +3,7 @@ In the exercise below, write your own code where indicated
 to achieve the desired result.
 
 Make sure to run the file with node in your command line.
+node section4/exercises/methods.js
 */
 
 
@@ -16,5 +17,14 @@ Make sure to run the file with node in your command line.
 var lunchOrder = {
   dish: "BLT",
   beverage: "iced tea",
-  tableNumber: 47
-}
+  tableNumber: 47,
+  prepare: function(){
+    console.log(" 47 - your order is being processed" );
+  },
+  complete: function(){
+    console.log(" 47 - Your order is complete");
+  }
+};
+
+lunchOrder.prepare();
+lunchOrder.complete();
