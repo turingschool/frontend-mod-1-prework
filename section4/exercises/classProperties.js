@@ -20,8 +20,8 @@ class Dog {
 
 }
 
-var blackLab = new Dog()
-var germanShepard = new Dog()
+var blackLab = new Dog();
+var germanShepard = new Dog();
 
 console.log(blackLab);
 console.log(germanShepard);
@@ -29,8 +29,8 @@ console.log(germanShepard);
 // Prompt 2: Snack
 class Snack {
 }
-var chips = new Snack()
-var cheese = new Snack()
+var chips = new Snack();
+var cheese = new Snack();
 
 console.log(chips);
 console.log(cheese);
@@ -39,8 +39,8 @@ console.log(cheese);
 class Shirt {
 
 }
-var longSleeve = new Shirt()
-var bandTee = new Shirt()
+var longSleeve = new Shirt();
+var bandTee = new Shirt();
 
 console.log(longSleeve);
 console.log(bandTee);
@@ -63,9 +63,9 @@ class Dog {
     this.weight = "60lbs";
   }
 }
-var blackLab = new Dog()
+var blackLab = new Dog();
 
-console.log(blackLab)
+console.log(blackLab);
 
 // Prompt 2: Snack
 class Snack {
@@ -76,7 +76,7 @@ class Snack {
   }
 }
 
-var chips = new Snack()
+var chips = new Snack();
 
 console.log(chips);
 
@@ -90,7 +90,7 @@ class Shirt {
   }
 }
 
-var bandTee = new Shirt()
+var bandTee = new Shirt();
 
 console.log(bandTee);
 //-------------------

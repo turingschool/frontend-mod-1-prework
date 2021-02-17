@@ -38,7 +38,7 @@ class Burrito {
     this.protien = "tofu"
   }
   addTopping() {
-    this.toppings = this.toppings + ", guacamole"
+    this.toppings.push("guacamole") 
   }
 
 };

@@ -88,7 +88,7 @@ var email = {
   body: "You in?",
   sinature: false
 };
-  console.log(email)
+  console.log(email);
 
 
 //-------------------
@@ -165,4 +165,4 @@ var emails = [
   },
 ]
 
-console.log(emails)
+console.log(emails);
