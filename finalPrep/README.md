@@ -11,7 +11,7 @@ You've learned a ton about some of the core foundations of Javascript! Show us h
 ### Mentorship Prep
 Mentorship is an integral part of the Turing experience and will help jumpstart your technical career. In order to get your mentor relationship started on the right foot, please complete the following deliverables:
 - [x] Complete the [Mentorship DTR Prep](https://gist.github.com/ericweissman/51965bdcbf42970d43d817818bfaef3c)
-  - [x] Add link to your gist here: [Kat's DTR}(https://gist.github.com/k-atwhite/8499727f6f69d75a7a51f335db2e4a08)
+  - [x] Add link to your gist here: [Kat's DTR](https://gist.github.com/k-atwhite/8499727f6f69d75a7a51f335db2e4a08)
 
 ### Lesson Prep
 You've learned a lot about how to take strong notes during Mod 0. Show us your skills while you learn how to pre-teach content for your first lesson in Mod 1!
