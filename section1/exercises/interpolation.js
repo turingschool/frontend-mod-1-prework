@@ -19,7 +19,7 @@ console.log(`The ${team} are ${name}'s favorite Quidditch team.`);
 var numberOfCreatures = 7;
 var creatures = "unicorns";
 
-console.log( `My zoo has ${numberOfCreatures} ${creatures}!`)
+console.log( `My zoo has ${numberOfCreatures} ${creatures}!`);
 
 // YOU DO: What data type will be logged to the console as a result of line 22? Explain.
 // Your answer and explanation here:
@@ -48,10 +48,10 @@ console.log(`In a predictable result, the ${slowPoke} beat the ${speedy}!`);
   // Then, log out ONE sentence that incorporates all THREE variables uisng interpolation.
 
 var activity = "hike";
-var scenicLocation = "mountains";
-var pastTime = "clear my mind";
+var location = "mountains";
+var goal = "clear my mind";
 
-console.log(`I find myself wanting to go ${activity} in the ${scenicLocation} not to try to climb the highest peak, but to ${pastTime}.`);
+console.log(`I find myself wanting to go ${activity} in the ${location} not to try to climb the highest peak, but to ${goal}.`);
 
 //-------------------
 // FINAL CHECK

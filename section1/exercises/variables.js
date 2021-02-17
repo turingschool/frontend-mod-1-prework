@@ -42,7 +42,7 @@ console.log(firstName, isHungry, numberOfPets);
 // How did you decide to use the data type you did for each of the three variables above?
   // Explain.
 
-console.log("I decided to use string data type where I needed an intelligible answer using letters: something that would pass information along to another reader about a name or a state of being. I used a number data type when listing how many pets I have.");
+console.log("I decided to use string data type where I needed an intelligible answer using letters: something that would pass information along to another reader about a name or a state of being. I used an integer data type when listing how many pets I have.");
 // YOU DO:
 // Re-assign the values to the three variables from the previous challenge to different
   // values (but same data type).
@@ -68,3 +68,5 @@ console.log(healthySnacks + junkFoodSnacks);
 
 // Did you run this file in your terminal to make sure everything printed out to the console
 // as you would expect?
+
+//My comment: I did run this file in my terminal and everything printed out as I expected.

@@ -61,7 +61,7 @@ console.log(7 > 2);
 console.log("hello" === "Hello");
 
 // YOU DO: log to the console the result of 3 is not equal to 4:
-console.log(3 !== 4)
+console.log(3 !== 4);
 
 // YOU DO: log to the console the result of 4 is less than or equal to 5:
 console.log(4 <= 5);
@@ -73,3 +73,5 @@ console.log(4 <= 5);
 
 // Did you run this file in your terminal to make sure everything printed out to the console
 // as you would expect?
+
+//My Comment: I did run this file in my terminal and it did pleasantly do all that I expected. 
