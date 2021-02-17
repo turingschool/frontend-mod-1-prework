@@ -1,9 +1,7 @@
 /*
 In the exercises below, write your own code where indicated
 to achieve the desired result.
-
 Complete each task, using the Burrito class below as a starting point.
-
 Make sure to run the file with node in your command line.
 */
 
