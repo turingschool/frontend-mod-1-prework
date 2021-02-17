@@ -12,7 +12,7 @@ console.log(fruits); \
 fruits.pop();  //removes the last element again \
 //displays "peach" //"peach was removed from Array" \
 console.log(fruits); \
-//displays ["apple"] //which is all that's left in array \
+//displays ["apple"] //which is all that's left in array 
 
 
 - **push**
@@ -48,4 +48,4 @@ var shoppingList = ["coffe", "juice", "rice"]; \
 console.log(shoppingList.unshift("pen", "paper")); \
 //displays: 5 \
 console.log(shoppingList); \
-//displays: ["pen", "paper", "coffee", "juice", "rice"] \
+//displays: ["pen", "paper", "coffee", "juice", "rice"]
