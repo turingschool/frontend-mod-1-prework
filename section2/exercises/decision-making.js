@@ -58,19 +58,24 @@ Questions
 
 4. In English, using technical vocabulary, describe what is happening between lines lines 27 and 35.
 
-//My Comment: Here we have set up a more complex version of an else if statement. We don't simplyl have two
+//My Comment: Here we have set up a more complex version of an else if statement. We don't simply have two
 //conditions. We have four conditions here. JavaScript will run each part of the statement and if it evaluates
 //to false on the first three lines (if, else if, else if) then the last line will execute (the code inside of
 //the curly braces immediately following the else statement).
 
 5. If you changed the variable bearChoice to equal 3, what will be the final outcome be?
+
 //My comment: If bearChoice was changed to 3 then the log would run: "You run as fast as you can into the next
 //room. It's full of snakes!"
+
 6. If you changed the variable doorChoice to equal 1, and the variable bearChoice to equal 2, what will be the final outcome be?
+
 //My Comment: In the original example (before I changed it :) ), with a variable doorChoice of 1, the bear would be wearing a hat
 //In my expample the bear is wearing arm floaties. With a bearChoice of 2, the log would print out this result:
 //"You tell the bear the hat is too small and it starts to cry."
+
 7. What is your favorite ending?
+
 //My favorite ending is "You offer the bear your hat and the bear shows you a secret passage out." I'm a big fan of
 //any story line that has a secret passage...and animal friends.
 */

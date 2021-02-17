@@ -75,8 +75,9 @@ console.log("Is numberStudents less than or equal to 21?", numberStudents <= 21)
 
 console.log(4 < 9);
 //YOU DO: Explain.
-//My Comment: This line of code is comparing two integers. It is asking whether 4 is less than 9. This will return
+//My Comment: This line of code is comparing two integers. It is asking whether 4 is less than 9.
 //This should log: true.
+
 var books = 3;
 console.log(4 < books);
 // YOU DO: Explain.
@@ -88,15 +89,16 @@ var friends = 6;
 var siblings = 2;
 console.log(friends > siblings);
 // YOU DO: Explain.
-//My Comment: On lines 87 and 88 we have declared two variables (friends and siblings) and have given them values (6 and 2).
+//My Comment: On lines 88 and 89 we have declared two variables (friends and siblings) and have given them values (6 and 2).
 //In the log, we are displaying the result of the comparison between these values. We are seeing whether friends has a value
 //that is greater than the the value of siblings.
 //This should log: true.
+
 var attendees = 9;
 var meals = 8;
 console.log(attendees !== meals);
 // YOU DO: Explain.
-//My Comment: On lines 95 and 96 we have declared two variables (attendees and meals) and have given them values (9 and 8).
+//My Comment: On lines 97 and 98 we have declared two variables (attendees and meals) and have given them values (9 and 8).
 //In the log, we are displaying the result of the comparison between these values. We are seeing whether attendees and meals do
 //not equal each other.
 //This should log: true.
@@ -133,16 +135,19 @@ console.log(lovesToPlay || lovesDogPark);
 console.log(lovesToPlay && age < 1);
 // What did your final line of code evaluate to? Why do you think that is? Explain.
 // ANSWER:
+
 //My Comment: My final line of code evaluated to false, because I established that in order to be
 //a puppy, the dog would have to be less than one year of age. Since this would return an answer of
 //"false" on one side of our logical operator (and the other side would return "true") we would get
 //an answer of "false" overall. This is because the logical AND operator needs to have an answer of
 //"true" on both sides in order to return an answer of "true" in the log.
+
 //-------------------
 // FINAL CHECK
 //-------------------
 
 // Did you run this file in your terminal to make sure everything printed out to the console
 // as you would expect?
+
 //My Comment: I did run this answer in the terminal and was delighted to see that everything worked
 //as I had hoped it would.

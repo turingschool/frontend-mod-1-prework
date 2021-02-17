@@ -43,7 +43,7 @@ sayHello();
 
 function greetMe(name) {
   console.log(name);
-}
+};
 
 greetMe("Elner Shimfizzle");
 greetMe("Brunhilda");
@@ -54,7 +54,7 @@ greetMe("Molly Misanthrope");
 
 function numbers(num1, num2) {
   console.log(num1 + num2);
-}
+};
 
 numbers(5, 7);
 numbers(2, 12);
@@ -64,8 +64,8 @@ numbers(0, 54);
 // of those two strings, for example the arguments could be ("Oscar", "Ruck") and
 // the end result might be "Oscar and Ruck are BFFS".  Then, call that function.
 
-function twoStrings(thisString, thatString) {
-  console.log("These " + thisString + " are so " + thatString + "!");
+function twoStrings(firstString, secondString) {
+  console.log("These " + firstString + " are so " + secondString + "!");
 }
 
 twoStrings("exercises", "empowering");
@@ -86,7 +86,7 @@ EXPLAIN:
 //I named my function twoStrings mainly because that seemed to be concise for this task. I figured that if
 //anyone is checking my work, they will understand that the task asked me to "write a function that takes
 //in two strings..." Then after this I just wanted to be clear that each variable was a different string so called
-//them thisString and thatString. I didn't want to choose anything that was especially wordy but wanted to make
+//them firstString and secondString. I didn't want to choose anything that was especially wordy but wanted to make
 //sure I chose something that at least set them apart from each other.
 
 */

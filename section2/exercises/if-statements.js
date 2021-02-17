@@ -29,7 +29,7 @@ if (weather == 'sunny') {
   console.log('yak traks');
 } else{
   console.log('good to go!');
-}
+};
 
 /*
 YOU DO:
@@ -49,7 +49,7 @@ if (dogAge <= 2) {
   console.log("This is an adult dog. Give them belly scratches.");
 } else {
   console.log("This is an elderly dog. My favorite! Give them a happy, forever home.");
-}
+};
 
 
 /*
@@ -76,7 +76,7 @@ if (numQuarters >= 2) {
   console.log("I have enough money for a gumball");
 } else {
   console.log("I don't have enough money for a gumball");
-}
+};
 
 
 
@@ -98,11 +98,11 @@ var hasSauce = true;
 
 // Write your conditional here
 
-if (cupsOfFlour >= 2 && hasSauce == true) {
-  console.log("I can make a pizza!");
+if (cupsOfFlour >= 2 && hasSauce === true) {
+  console.log("I can make pizza!");
 } else {
-  console.log("I cannot make a pizza!");
-}
+  console.log("I cannot make pizza!");
+};
 
 /*
 For the last two exercises, an ideal solution probably uses a logical operator.
