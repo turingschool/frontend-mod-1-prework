@@ -31,10 +31,17 @@
 
 1. > In this section, we talked about an `transaction item object`. It has keys that represent different properties an bank transaction would have, and values that store the data. In a banking app, this data would eventually be displayed in the browser for the user. Think of another Object in a web application that you use frequently. What is it? What keys might be on it? What are example values?
 
-    * idk!!!!!!
+    * It could be a Reddit comment.
+    * ```
+    var comment12846482 = {
+      user: "sharon54",
+      time: "11:54 AM",
+      url: "www.reddit.om/r/sub/comments/bufoqweo8733"
+    };
+    ```
 
 1. > What questions do you still have about classes and/or Objects?
 
     * I have so many questions. I'm actually also going to ask a friend to help me with these. As with Section 3, I understand the big picture, but figuring out the code is a little tough.
 
-    come back to this!!!!!
+    * Edit: Resolved!
