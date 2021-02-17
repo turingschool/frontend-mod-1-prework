@@ -29,10 +29,10 @@
 1. In this section, we talked about an `transaction item object`. It has keys that represent different properties an bank transaction would have, and values that store the data. In a banking app, this data would eventually be displayed in the browser for the user. Think of another Object in a web application that you use frequently. What is it? What keys might be on it? What are example values?
 
 - For example Amazon \
-Key value-pairs: \
-totalAmount = 100; \
-items = 10; \
-discount = 5;
-
+var shoppingCart = { \
+totalAmount: 100; \
+items: 10; \
+discount: 5; \
+};
 1. What questions do you still have about classes and/or Objects?
 - I honestly need to review this again before Mod 1 to really truly understand everything.
