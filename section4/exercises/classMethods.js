@@ -52,6 +52,11 @@ var meat = new Burrito('Shredded Beef', 'White Rice', ['Guacamole', 'Jalapenos',
 vegan.changeProtein();
 console.log(vegan);
 
+//My Comment: Lines 60 through 64 are the subject of my question in my reflection.md file 
+//I originally combined lines 60 and 61 together and lines 63 and 64 together. I just separated
+//with a comma and did a single semicolon after the line. This worked but I'm not sure if this
+//(below) is the better way and is clearer.
+
 meat.addTopping();
 vegetarian.addTopping();
 

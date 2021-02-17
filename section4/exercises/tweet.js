@@ -22,9 +22,9 @@ class Tweet {
   }
 
   addComments() {
-    this.comments.push('How do you drink your coffee black?!');
+    this.comments.push('How can you drink your coffee black?!!');
   }
-}
+};
 
 var firstTweet = new Tweet('Sam Jones', 'Picture of cat wearing shirt', '1:23pm', 123, ['I have that same shirt.', 'I do not think this is very funny',
 'you should take more photos with your cat']);

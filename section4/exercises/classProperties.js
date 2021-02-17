@@ -19,7 +19,7 @@ Make sure to run the file with node in your command line.
 
 class Dog {
 
-}
+};
 
 var schnauzer = new Dog();
 var greatDane = new Dog();
@@ -31,7 +31,7 @@ console.log(greatDane);
 
 class Snack {
 
-}
+};
 
 var chips = new Snack();
 var pretzel = new Snack();
@@ -43,7 +43,7 @@ console.log(pretzel);
 
 class Shirt {
 
-}
+};
 
 var longSleeve = new Shirt();
 var vNeck = new Shirt();
@@ -70,7 +70,7 @@ class Dog {
     this.adult = 5;
     this.elderly = 10;
   }
-}
+};
 
 var poodle = new Dog();
 
@@ -84,7 +84,7 @@ class Snack {
     this.crackers = 'cheesy';
     this.chips = 'salty';
   }
-}
+};
 
 var cookie = new Snack();
 
@@ -98,7 +98,7 @@ class Shirt {
     this.tankTop = 'blue';
     this.thermal = 'thick';
   }
-}
+};
 
 var turtleNeck = new Shirt();
 
@@ -124,7 +124,7 @@ class Dog {
     this.age = years;
     this.disposition = mood;
   }
-}
+};
 
 var rescue = new Dog('German Shepherd', 4, 'Tolerant');
 var myDog = new Dog('Akita', 12, 'Alpha');
@@ -140,10 +140,10 @@ class Snack {
     this.ounces = size;
     this.type = name;
   }
-}
+};
 
 var donut = new Snack('Maple', 12, 'Maple Log');
-var biscotti = new Snack('Vanilla', 6, 'Nabisco Wafer');
+var biscotti = new Snack('Vanilla', 6, 'Nabisco Vanilla Biscotti');
 
 console.log(donut);
 console.log(biscotti);
@@ -156,7 +156,7 @@ class Shirt {
     this.brand = brand;
     this.cost = price;
   }
-}
+};
 
 var buttonUp = new Shirt('Flannel', 'Columbia', 65);
 var dressShirt = new Shirt('Silk', 'Guess', 125);
