@@ -18,10 +18,9 @@ for (var i = 0; i < animals.length; i++) {
 
 // YOU DO: Write code below that iterates through a list of animals and prints "The
 // <animal> is awesome!" for each animal.
-var favAnimals = ["rat", "cat", "rabbit"];
 
-for (var i = 0; i < favAnimals.length; i++) {
-  console.log("The " + favAnimals[i] + " is awesome!");
+for (var i = 0; i < animals.length; i++) {
+  console.log("The " + animals[i] + " is awesome!");
 }
 
 
@@ -47,7 +46,7 @@ for (var i = 0; i < nums.length; i++) {
 // each name except the first two.
 var names = ["Sevy", "Lindsey", "Jericho", "Raeonna", "Latrina", "Jhana", "Luca"];
 
-for (var i = 1; i < names.length; i++) {
+for (var i = 2; i < names.length; i++) {
   console.log("Happy Birthday " + names[i]);
 }
 
