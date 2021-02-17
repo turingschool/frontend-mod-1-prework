@@ -62,7 +62,7 @@ console.log("Happy Birthday " + names[i] + "!");
 // want to tell the program to take. Think of all the concepts you've learned so far.
 
 // Remember, stuck for 15-20 minutes? Reach out to your pre-work group on Slack.
-
+/* draft draft
 var ages = [17, 20, 34, 18, 16, 65, 49, 10, 22, 18];
 for (var i = 0; i < ages.length; i++) {
    if (ages < 18) {
@@ -70,4 +70,19 @@ for (var i = 0; i < ages.length; i++) {
  } else if (ages >= 18) {
 console.log("Make sure you get out and vote!");
  }
-//i have to review this later, sorry.
+ */
+ //draft draft
+//this might be wrong because i don't know how to use the looping here but here is my answer for now and i will review this again. Thanks.
+function determine(ages) {
+
+
+   if (ages < 18) {
+  console.log("Oh no, you can't vote quite yet.")
+ } else if (ages >= 18) {
+console.log("Make sure you get out and vote!");
+ }
+
+}
+determine(17);
+determine(20);
+determine(34);
