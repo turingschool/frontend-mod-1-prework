@@ -81,14 +81,14 @@ console.log("is numberStudents less than or equal to 21?", numberStudents <= 21)
 
 console.log(4 < 9);
 //YOU DO: Explain.
-//The above code logs the result of the question is the number 4 less than the number 9. The result will
+//The above code logs the result of the question: "is the number 4 less than the number 9?". The result will
 //be true.
 
 var books = 3;
 console.log(4 < books);
 // YOU DO: Explain.
 // The above code declares the variable books and assigns is a value of 3. It then logs the result of the
-// question is the number 4 less than the value of the variable books. This will log a result of false.
+// question: "is the number 4 less than the value of the variable books?". This will log a result of false.
 
 var friends = 6;
 var siblings = 2;
@@ -96,16 +96,16 @@ console.log(friends > siblings);
 // YOU DO: Explain.
 // The above code declares the variable friends and assigns it a value of 6. It also declares the
 // variable siblings and assigns it a value of 2. It then logs the result of a comparison of these
-// variable values, specifically asking if the value of friends is less than the value of siblings. This
+// variable values, specifically asking if the value of friends is greater than the value of siblings. This
 // will log the result of true.
 
 var attendees = 9;
 var meals = 8;
 console.log(attendees !== meals);
 // YOU DO: Explain.
-// The code above declares the variable attendees and assigns it a value of 9. It also declase the
+// The code above declares the variable attendees and assigns it a value of 9. It also declares the
 // variable meals and assigns it a value of 8. It then logs the result of the comparison of these two
-// values, specifically answering the question is the number of attendees not equal to the number of
+// values, specifically addressing whether the number of attendees does not equal the number of
 // meals. This will log the result true.
 
 
@@ -139,17 +139,16 @@ console.log(lovesToPlay || lovesDogPark);
 
 // Determine if the dog loves to play and is a puppy
 console.log(lovesToPlay && age);
-console.log(lovesToPlay && age);
 console.log(lovesToPlay && isPuppy);
 
 /* What did your final line of code evaluate to? Why do you think that is? Explain.
 // ANSWER:
-// I ran this code two different ways, and have included the second below the first.
+// I ran this code two different ways, and have included the description of the second below the first.
 
-/* For the first example, I called the variable age to compare to lovesToPlay. The && logical operator returned a value of 1 (the value of the age variable) because && and || do not always return strict Boolean values, and both always return value of one of the operand expressions. Because Javascript converts values into numbers when comparing different datatypes, it coerced the true value of lovesToPlay to 1 (which can mean true in Javascript). In essence, I asked the computer if the dog lovesToPlay (true/1) and is 1 year old. This resulted in the number 1 being logged to the console. We implicitly know that 1 year old is a puppy age, but to be precise, we should also define what "is a puppy" means.
+For the first example, I called the variable age to compare to lovesToPlay. The && logical operator returned a value of 1 (the value of the age variable) because && and || do not always return strict Boolean values, and both always return value of one of the operand expressions. Because Javascript converts values into numbers when comparing different datatypes, it coerced the "true" value of lovesToPlay to 1 (which can mean true in Javascript). In essence, I asked the computer if the dog lovesToPlay (true/1) and is 1 year old. This resulted in the number 1 being logged to the console. We implicitly know that 1 year old is a puppy age, but to be precise, we should also define what "is a puppy" means.
 
 For my second example, I explicitly typed isPuppy as a condition, aka a variable that does not exist. This produced an error message, alerting me to that isPuppy is undefined. This is expected.
-*/
+
 
 //-------------------
 // FINAL CHECK
