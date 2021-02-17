@@ -2,7 +2,7 @@
 
 1. How different did your workflow feel this week, considering we asked you to follow the Pomodoro technique?
 
-I have to admit: I've been practicing the Pomodoro technique for a couple of months now. I feel like it has changed my expectations for what I can accomplish in a day, and has impacted how I "chunk" my work. I adjusted the suggested time. (25 minutes) to 35 minutes, as I found myself continually sneaking in "a few more things" which would turn into more and more work and fewer breaks. I'm both more productive and realistic about my workflow.
+I have to admit: I've been practicing the Pomodoro technique for a couple of months now. It has changed my expectations for what I can accomplish in a day, and has impacted how I "chunk" my work. I adjusted the suggested time from 25 minutes to 35 minutes, as I found myself continually sneaking in "a few more things" which would turn into more and more work and fewer breaks. I'm both more productive and realistic about my workflow.
 
 2. Regarding the work you did around setting intentions in Step 1 of the Pomodoro technique - how did that go? Were you surprised by anything (did you find yourself way more focused than you realized, more distracted that you thought you'd be, estimating times accurately or totally off, etc)?
 
@@ -22,7 +22,7 @@ Array
   * List of states and their capitals
 
 Object
-This data has more context. There are two strings (state and capitol) to be recorded, which makes for good key-value pairs as well. I would name this object stateData.
+This data has more context. There are two strings (state and capitol) to be recorded within the larger designation of country, which makes for good key-value pairs as well. I would name this object stateData.
 
   * List of things to pack for vacation
 
@@ -66,4 +66,4 @@ walkWithTaylor {
 
 6. What questions do you still have about classes and/or Objects?
 
-I'm still unsure as to when a class is better to use than a factory object. Does the computer treat them/organize them differently? I'm also just curious on how to actually build something using all of the things we've learned - like how an independent function interacts with an object method. Or how to organize a project! I'm sure I'll learn this later.
+I'm still unsure as to when a class is better to use than a factory object. Does the computer treat them/organize them differently? I'm also just curious on how to actually build something using all of the things we've learned - like how an independent function interacts with an object method. Or how to organize a project.
