@@ -17,33 +17,33 @@ Make sure to run the file with node in your command line.
 
 // Prompt 1: Dog
 
-class Dog {
+class Dog1 {
 }
 
-var fido = new Dog();
-var spot = new Dog();
+var fido = new Dog1();
+var spot = new Dog1();
 
 console.log(fido);
 console.log(spot);
 
 // Prompt 2: Snack
 
-class Snack {
+class Snack1 {
 }
 
-var carrot = new Snack();
-var berry = new Snack();
+var carrot = new Snack1();
+var berry = new Snack1();
 
 console.log(carrot);
 console.log(berry);
 
 // Prompt 3: Shirt
 
-class Shirt {
+class Shirt1 {
 }
 
-var tshirt = new Shirt();
-var longsleeve = new Shirt();
+var tshirt = new Shirt1();
+var longsleeve = new Shirt1();
 
 console.log(tshirt);
 console.log(longsleeve);
@@ -61,7 +61,7 @@ console.log(longsleeve);
 
 // Prompt 1: Dog
 
-class Dog {
+class Dog2 {
   constructor() {
     this.weight = 0;
     this.age = 0;
@@ -69,12 +69,12 @@ class Dog {
   }
 }
 
-var fido = new Dog();
+var fido = new Dog2();
 console.log(fido);
 
 // Prompt 2: Snack
 
-class Snack {
+class Snack2 {
   constructor() {
     this.quantity = 0;
     this.weight = 0;
@@ -82,12 +82,12 @@ class Snack {
   }
 }
 
-var carrot = new Snack();
+var carrot = new Snack2();
 console.log(carrot);
 
 // Prompt 3: Shirt
 
-class Shirt {
+class Shirt2 {
   constructor() {
     this.brand = 0;
     this.location = 0;
@@ -95,7 +95,7 @@ class Shirt {
   }
 }
 
-var tshirt = new Shirt();
+var tshirt = new Shirt2();
 console.log(tshirt);
 
 //-------------------
@@ -112,7 +112,7 @@ console.log(tshirt);
 
 // Prompt 1: Dog
 
-class Dog {
+class Dog3 {
 	constructor(wt, age, breed) {
     this.weight = wt;
     this.age = age;
@@ -120,15 +120,15 @@ class Dog {
   }
 }
 
-var fido = new Dog(50, 3, "pug");
+var fido = new Dog3(50, 3, "pug");
 console.log(fido)
 
-var spot = new Dog(10, 8, "lab");
+var spot = new Dog3(10, 8, "lab");
 console.log(spot)
 
 // Prompt 2: Snack
 
-class Snack {
+class Snack3 {
 	constructor(quantity, oz, color) {
     this.quantity = quantity;
     this.weight = oz
@@ -136,15 +136,15 @@ class Snack {
   }
 }
 
-var carrot = new Snack(2, 3, "orange");
+var carrot = new Snack3(2, 3, "orange");
 console.log(carrot);
 
-var berry = new Snack(3, 1, "red");
+var berry = new Snack3(3, 1, "red");
 console.log(berry)
 
 // Prompt 3: Shirt
 
-class Shirt {
+class Shirt3 {
   constructor(brand, location, color) {
     this.brand = brand;
     this.location = location;
@@ -152,8 +152,8 @@ class Shirt {
   }
 }
 
-var tshirt = new Shirt("hanes", "dresser", "red");
+var tshirt = new Shirt3("hanes", "dresser", "red");
 console.log(tshirt);
 
-var longsleeve = new Shirt("bcbg", "closet", "blue");
+var longsleeve = new Shirt3("bcbg", "closet", "blue");
 console.log(longsleeve);

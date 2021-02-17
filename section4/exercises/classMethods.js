@@ -15,32 +15,8 @@ Make sure to run the file with node in your command line.
 // This method should accept one argument, a String.
 // The method should re-assign this.protein to the value that was passed in.
 
-class Burrito {
-  constructor(protein, base, toppings) {
-    this.protein = protein;
-    this.base = base;
-    this.toppings = toppings;
-  }
-
-  changeProtein(protein) {
-    this.protein = protein;
-  }
-}
-
-var joesBurrito = new Burrito("tofu", "corn", ["beef", "lettuce", "cheese"]);
-var mikesBurrito = new Burrito("tofu", "flour", ["chicken", "tomatoes", "queso"]);
-var sarasBurrito = new Burrito("tofu", "corn", ["pork", "peppers", "salsa"]);
-
-console.log(joesBurrito);
-console.log(mikesBurrito);
-console.log(sarasBurrito);
-
 // Call the `changeProtein` method on a burrito, then log the burrito to verify
 // that the protein has been changed.
-
-var sarasBurrito = new Burrito("tofu", "corn", ["pork", "peppers", "salsa"]);
-sarasBurrito.changeProtein("ham");
-console.log(sarasBurrito);
 
 // The burrito class should have a method named `addTopping`.
 // This method should accept one argument, a String.
