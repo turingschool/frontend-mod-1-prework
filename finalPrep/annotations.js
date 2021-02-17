@@ -28,7 +28,7 @@ function fizzBuzz(num1, num2, range) { // set up function
       console.log('fizzbuzz') // return what's set as fizzbuzz
     } else if (i % num1 === 0) { // i modulo of num1 is exactly equal to 0?
       console.log('fizz') // return what's set as fizz
-    } else if (i % num2 === 0) // i modulo of num2 is exactly equal to 0?
+    } else if (i % num2 === 0) { // i modulo of num2 is exactly equal to 0?
       console.log('buzz') // return what's set as buzz
     } else { // computer this last if nothing else has been true so far
       console.log(i) // return i
@@ -37,4 +37,4 @@ function fizzBuzz(num1, num2, range) { // set up function
 }
 
 fizzBuzz(3, 5, 100) // example of a specific instance of fizzBuzz
-fizzbuzz(5, 8, 400) // example of a specific instance of fizzBuzz
+fizzBuzz(5, 8, 400) // example of a specific instance of fizzBuzz
