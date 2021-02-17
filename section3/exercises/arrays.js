@@ -67,7 +67,6 @@ console.log(foods);
 // YOU DO: Remove the food that is in index position 0.
 foods.shift();
 
-
 //-------------------
 // PART 3: Where are Arrays used?
 //-------------------
@@ -91,11 +90,13 @@ var posts = ["image at beach", "holiday party", "adorable puppy", "video of cute
 
 // 1: In the New York Times crossword app, there are lists used for the different "packs" of crossword
 // puzzles, grouped by themes. For example, there is a pack of puzzles with a "Broadway Musicals" theme.
+
 // 2: I have made many playlists in Spotify. Not only are the playlists IN a list, but each playlist is
 //list in itself, with ordered songs.
+
 // 3: My astrology app, Co-Star, has two lists generated every day for the user. One is a list of "dos"
 // and the other is a list of "don'ts". These suggestions are supposedly informed by the position of the
-// stars. I imagine today's list looks something like: doList = ["Beach house", "Phone speakers",
+// stars. Today's list probably looks like: doList = ["Beach house", "Phone speakers",
 // "Candlelight"];
 
 
@@ -115,22 +116,26 @@ The can call an uber if they have a charger and it is a car charger.
 */
 var percentBatteryLeft = 12;
 var hasCharger = true;
-var chargerType = "car";
+var chargerType = "wall";
 
 // Write your conditional here
 //Write if statement with initial condition of percentBatteryLeft. If percentBatterLeft is >= 15, log to user to call uber.
 if (percentBatteryLeft >= 15) {
   // write log statement to user if condition above is met.
-  console.log("Call that uber, sister.")
+  console.log("Call that uber, bud.")
+
   // Create second condition for user. If percentBatteryLeft is less than 15, this conditional will run.
   // This else if statement determines whether the user has a charger, and if that is true, considers the
   // charger type. If the charger type is "car", the statement will evaluate to true, and a log statement
   // will run.
 } else if (hasCharger === true && chargerType === "car") {
+
   //Write log statement that will alert user to call uber after above conditions are met.
   console.log("Call the uber and save those feet!")
+
   //Create a default condition if previous two statements evaluate to false as an else statement.
 } else {
+
   //Alert the user that they will not call an uber tonight.
   console.log("Looks like we're hoofing it tonight.")
   //close if statement bracket
