@@ -2,63 +2,63 @@
 
 // Declare two variables - heroName AND specialAbility - set to strings
 
-var heroName = "Sad Dude"
-var specialAbility = "crying"
+var heroName = "Sad Dude";
+var specialAbility = "crying";
 
 // Declare two variables - greeting AND catchphrase
 //   greeting should be assigned to a string that uses concatenation to include the heroName
 //   catchphrase should be assigned to a string that uses interpolation to include the specialAbility
 
-var greeting = "Hi, I'm " + heroName + "."
-var catchphrase = `Existence is pain, and I always feel like ${specialAbility}.`
+var greeting = "Hi, I'm " + heroName + ".";
+var catchphrase = `Existence is pain, and I always feel like ${specialAbility}.`;
 
 // Declare two variables - power AND energy - set to integers
 
-var power = 10
-var energy = 20
+var power = 10;
+var energy = 20;
 
 // Declare two variables - fullPower AND fullEnergy
 //   fullPower should multiply your current power by 500
 //   fullEnergy should add 150 to your current energy
 
-var fullPower = power * 500
-var fullEnergy = energy + 150
+var fullPower = power * 500;
+var fullEnergy = energy + 150;
 
 // Declare two variables - isHuman and identityConcealed - assigned to booleans
 
-var isHuman = true
-var identityConcealed = false
+var isHuman = true;
+var identityConcealed = false;
 
 // Declare two variables - archEnemies AND sidekicks
 //   archEnemies should be an array of at least 3 different enemy strings
 //   sidekicks should be an array of at least 3 different sidekick strings
 
-var archEnemies = ["HappyKid", "AngryBro", "Laugh-a-tron"]
-var sidekicks = ["SadGal", "DepressedDog", "CatatonicCat"]
+var archEnemies = ["HappyKid", "AngryBro", "Laugh-a-tron"];
+var sidekicks = ["SadGal", "DepressedDog", "CatatonicCat"];
 
 // Print the first sidekick to your console
 
-console.log(sidekicks[0])
+console.log(sidekicks[0]);
 
 // Print the last archEnemy to the console
 
-console.log(archEnemies[2])
+console.log(archEnemies[2]);
 
 // Write some code to add a new archEnemy to the archEnemies array
 
-archEnemies.push("Mr. Smiley")
+archEnemies.push("Mr. Smiley");
 
 // Print the archEnemies array to console to ensure you added a new archEnemy
 
-console.log(archEnemies)
+console.log(archEnemies);
 
 // Remove the first sidekick from the sidekicks array
 
-sidekicks.shift()
+sidekicks.shift();
 
 // Print the sidekicks array to console to ensure you added a new sidekick
 
-console.log(sidekicks)
+console.log(sidekicks);
 
 // Create a function called assessSituation that takes three arguments - dangerLevel, saveTheDay, badExcuse
 //   - dangerLevel should be an integer
@@ -69,15 +69,15 @@ function assessSituation(dangerLevel, saveTheDay, badExcuse) {
 
   if (dangerLevel > 50) {
 
-    console.log(badExcuse)
+    console.log(badExcuse);
 
   } else if (dangerLevel > 10) {
 
-    console.log(saveTheDay)
+    console.log(saveTheDay);
 
   } else {
 
-    console.log("Meh. Hard pass.")
+    console.log("Meh. Hard pass.");
 
   }
 
@@ -89,8 +89,8 @@ function assessSituation(dangerLevel, saveTheDay, badExcuse) {
 //   - If the dangerLevel is below 10, it means it is not worth your time and should result in printing the string "Meh. Hard pass." to the console.
 
 //Test Cases
-var announcement = 'Never fear, the Courageous Curly Bracket is here!'
-var excuse = 'I think I forgot to lock up my 1992 Toyota Coralla. Be right back.'
+var announcement = 'Never fear, the Courageous Curly Bracket is here!';
+var excuse = 'I think I forgot to lock up my 1992 Toyota Coralla. Be right back.';
 // assessSituation(99, announcement, excuse) > Should print - 'I think I forgot to lock up my 1992 Toyota Coralla. Be right back.'
 //assessSituation(21, announcement, excuse) > should print - 'Never fear, the Courageous Curly Bracket is here!'
 //assessSituation(3, announcement, excuse) > should print - "Meh. Hard pass."
@@ -142,15 +142,15 @@ class SuperHero {
 	}
 
 	sayName() {
-		console.log(this.name)
+		console.log(this.name);
   }
 
 	maximizeEnergy() {
-		this.energyLevel = 1000
+		this.energyLevel = 1000;
 	}
 
 	gainPower(power) {
-  	this.powerLevel = this.powerLevel + power
+  	this.powerLevel = this.powerLevel + power;
   }
 }
 
@@ -161,8 +161,8 @@ class SuperHero {
 
 // - Create 2 instances of your SuperHero class
 
-var mike = new SuperHero("Mike", "invisible", 90)
-var joe = new SuperHero("Joe", "fly", 80)
+var mike = new SuperHero("Mike", "invisible", 90);
+var joe = new SuperHero("Joe", "fly", 80);
 
 // Reflection
 // What parts were most difficult about this exerise?
