@@ -30,16 +30,16 @@ console.log(animals.length);
 // YOU DO: Write code that will reassign the last item in the animals
 // array to "Gorilla"
 
-animals[2] = "Gorilla"
+animals[2] = "Gorilla";
 
 // YOU DO: Write code that will add a new animal (type of your choice) to position 3.
 
 var animals = ["Zebra", "Giraffe", "Elephant"];
-animals[3] = "Bunny"
+animals[3] = "Bunny";
 
 // YOU DO: Write code that will log the String "Elephant" in the animals array
 
-animals[2]
+animals[2];
 
 //-------------------
 // PART 2: Foods: Array Methods
@@ -138,3 +138,5 @@ if (percentBatteryLeft >= 15) { //marks if battery is 15% +
 
 // MAKE 100% SURE that you have RUN the code in node in your command line, to ensure it works
 // as you think it does🌟
+
+// Yes!

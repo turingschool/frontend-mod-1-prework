@@ -30,8 +30,8 @@ for (var i = 0; i < 3; i++) {
 // 2
 
 // It is set to 0 to start.
-//Then, it counts up until 2, because it's set the be less than (or stop at) 3.
-//It goes up in incremenets of +1 based on i++.
+// Then, it counts up until 2, because it's set the be less than (or stop at) 3.
+// It goes up in incremenets of +1 based on i++.
 
  // YOU DO: Write code below that logs to the console, the sum of 2 plus 2, 7 times:
 
