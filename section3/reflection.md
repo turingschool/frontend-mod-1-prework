@@ -20,7 +20,7 @@
 - i would use a loop without array if I don't have an array and probably if I only have one single value in a variable.
 
 1. If you had to teach a 5 year old about loops, how would you explain it?
-- Loops is like telling the computer to create the same
+- Loops is like telling the computer to repeat a task/process until i tell it to end.
 
 1. What questions do you still have about Arrays and loops?
 - I honestly need to read about these more before Mod 1.
