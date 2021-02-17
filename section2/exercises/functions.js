@@ -56,9 +56,9 @@ function sum(num1, num2) {
   console.log(num1 + num2);
 }
 
-sum(1, 3)
-sum(12, 53)
-sum(125, 456)
+sum(1, 3);
+sum(12, 53);
+sum(125, 456);
 
 // YOU DO🎈: Write a function that takes in two strings and prints a concatenation
 // of those two strings, for example the arguments could be ("Oscar", "Ruck") and
@@ -68,7 +68,7 @@ function theOfficeQoute(name, noun) {
   console.log(name + "," + " you ignorant " + noun);
 }
 
-theOfficeQoute("Dwight", "slut")
+theOfficeQoute("Dwight", "slut");
 
 //-------------------
 // PART 3: Naming is Hard
@@ -82,6 +82,6 @@ Look at the code you wrote for the previous YOU DO🎈 - what did you name the f
 What did you name each parameter, and why?
 
 EXPLAIN:
-I named my function theOfficeQoute because my arguments were going to output one of my favorite qoutes from The Office. I named the first parameter 'name' becasue I knew I wanted to put a name there. I named the second parameter 'noun' because 'slut' is a noun. 
+I named my function theOfficeQoute because my arguments were going to output one of my favorite qoutes from The Office. I named the first parameter 'name' becasue I knew I wanted to put a name there. I named the second parameter 'noun' because 'slut' is a noun.
 
 */

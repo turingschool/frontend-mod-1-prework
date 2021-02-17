@@ -76,7 +76,7 @@ console.log(4 < 9);
 //YOU DO: Explain.
 // The log is stating that the number 4 is less than the number 9. The output will be true.
 var books = 3;
-console.logs(4 < books);
+console.log(4 < books);
 // YOU DO: Explain.
 //There is a variable named 'books' that has a value of '3'. The log is stating that 4 is less than the number of 'books'. The output will be false.
 var friends = 6;
@@ -122,7 +122,7 @@ console.log(lovesToPlay || lovesDogPark);
 console.log(lovesToPlay && age);
 // What did your final line of code evaluate to? Why do you think that is? Explain.
 // ANSWER:
-The output was 1. I think it's because the variable 'age' is not a boolean value. The logical operators can't generate a true or false answer.
+//The output was 1. I think it's because the variable 'age' is not a boolean value. The logical operators can't generate a true or false answer.
 //-------------------
 // FINAL CHECK
 //-------------------
