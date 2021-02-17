@@ -90,6 +90,9 @@ What did you name each parameter, and why?
 
 EXPLAIN:
 
-I named my function eatSnacks partially because I looked at the previous examples and emulated their naming conventions. printName(), for example, used a verb as its first word and a noun for its second. I also realized the noun could also be used as a parameter in the function. I named my parameters snack1 and snack2 because they directly related to the function name eatSnacks, and thus felt very precise. 
+I named my function eatSnacks partially to emulate the naming conventions of the previous examples.
+printName(), for example, used a verb as its first word and a noun for its second. I also realized
+the noun could also be used as a parameter in the function. I named my parameters snack1 and snack2
+because they directly related to the function name eatSnacks, and thus felt very precise. 
 
 */
