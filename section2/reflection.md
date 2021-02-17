@@ -32,3 +32,4 @@
 1. > What questions do you still have about `if` statements and/or functions?
 
      * I have a few problems to still work on in functions.js. I'm going to ask for help.
+     * Edit: RESOLVED!
