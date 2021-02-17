@@ -58,6 +58,7 @@ console.log(animals.numOfWorms);
 // Add another animal to the zoo Object, and log the updated Object.
 
 animals.puppyName = "Samuel";
+animals.numOfPuppies = 1;
 console.log(animals);
 
 //-------------------
