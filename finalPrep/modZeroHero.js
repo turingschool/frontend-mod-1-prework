@@ -70,9 +70,10 @@ assessSituation(51, "Yeah I think I know something about that spider.", "This lo
 //Test Cases
 var announcement = 'Never fear, the Courageous Curly Bracket is here!'
 var excuse = 'I think I forgot to lock up my 1992 Toyota Coralla. Be right back.'
-// assessSituation(99, announcement, excuse) > Should print - 'I think I forgot to lock up my 1992 Toyota Coralla. Be right back.'
-//assessSituation(21, announcement, excuse) > should print - 'Never fear, the Courageous Curly Bracket is here!'
-//assessSituation(3, announcement, excuse) > should print - "Meh. Hard pass."
+
+assessSituation(99, announcement, excuse) //should print - 'I think I forgot to lock up my 1992 Toyota Coralla. Be right back.'
+assessSituation(21, announcement, excuse) //should print - 'Never fear, the Courageous Curly Bracket is here!'
+assessSituation(3, announcement, excuse) //should print - "Meh. Hard pass."
 
 // Declare a new variable - scaryMonster - assigned to an Object with the following key/values
 //   - name (string)
