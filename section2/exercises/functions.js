@@ -29,7 +29,7 @@ printName();
 
 function sayHello() {
   console.log("Oh, Hello!");
-};
+}
 
 sayHello();
 sayHello();
@@ -46,7 +46,7 @@ function greetMe() {
   console.log("Hayley")
 	console.log("Sara");
 	console.log("Joe");
-};
+}
 
 greetMe();
 greetMe();
@@ -72,7 +72,7 @@ sum(2, 2);
 
 function twoBFFS(friend1, friend2) {
 
- console.log(friend1 + " and " + friend2 + " are BFFS")
+ console.log(friend1 + " and " + friend2 + " are BFFS");
 
 }
 
@@ -93,7 +93,7 @@ EXPLAIN:
 
 twoBFFS
 
-*/
+I used "two BFFS", because it's about these people who are BFFS, and there's two of them.
+For the parameters, I did "friend1" and "friend2", because then I can fill them in with other BFFS if needed another time.
 
-//I used "two BFFS", because it's about these people who are BFFS, and there's two of them.
-// For the parameters, I did "friend1" and "friend2", because then I can fill them in with other BFFS if needed another time.
+*/
