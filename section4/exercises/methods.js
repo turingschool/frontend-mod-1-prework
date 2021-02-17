@@ -28,8 +28,6 @@ console.log(lunchOrder);
 console.log(lunchOrder.dish);
 console.log(lunchOrder.beverage);
 console.log(lunchOrder.tableNumber);
-console.log(lunchOrder.prepare());
-console.log(lunchOrder.complete());
 
 lunchOrder.prepare();
 lunchOrder.complete();
