@@ -47,7 +47,7 @@
 
 8. > Think of a site or app you use frequently. Where do you think the developers used concatention?
 
-     * ``console.log("You have played " + numberOfGames + " games of chess. You have won " + numbersOfWins + " games and lost " + numberOfLosses + " games.")``
+     * ``console.log("You have played " + numberOfGames + " games of chess. You have won " + numbersOfWins + " games and lost " + numberOfLosses + " games.");``
 
 9. > What questions do you still have about the work we've done so far? (not having a question is not an option)
 
