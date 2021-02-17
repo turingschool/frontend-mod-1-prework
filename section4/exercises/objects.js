@@ -124,3 +124,36 @@ good to have some exposure before going into Mod 1.
 // YOU DO: Create an array of at least 3 EMAIL Object Literals, using the same
 // key-value pairs you used in your email Object above.
 // Then, log the email Array to the console.
+
+var email = ["baby shower reminder", "pairin strengths report", "experience our classrooms"];
+
+var email = [
+  {
+    sender: "jennw@gmail.com",
+    sentTo: "palomino.jani@gmail.com",
+    copyTo: "geno@gmail.com",
+    subject: "Baby Shower Reminder",
+    emailBody: "We just wanted to send out a reminder that our virtual baby shower is this week! We hope that you can join us for our live video chat Sunday, February 21st! ",
+    hasAttachment: true,
+    emailAttachments: ["ultrasound.jpg", "zoominstructions.pdf"],
+  },
+  {
+  sender: "support@pairin.com",
+  sentTo: "palomino.jani@gmail.com",
+  copyTo: "",
+  subject: "PAIRIN Strengths Report",
+  emailBody: "Your results are in! You scored highest in ENTREPRENEURIAL.",
+  hasAttachment: true,
+  emailAttachments: ["poweredbypairin.jpg", "StrengthsReport.pdf"],
+  },
+  {
+    sender: "lindsey@turing.io",
+    sentTo: "palomino.jani@gmail.com",
+    copyTo: "",
+    subject: "Experience Our Online Classrooms",
+    emailBody: "You might think of online classes and think it's going to be pre-recorded classes where you have to fill in the blanks and self-teach certain concepts.",
+    hasAttachment: false,
+    emailAttachments: [],
+  },
+
+console.log(email)
