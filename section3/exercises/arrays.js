@@ -28,16 +28,16 @@ console.log(animals.length);
 
 // YOU DO: Write code that will reassign the last item in the animals
 // array to "Gorilla"
-animals[2] = "Gorilla"
-console.log(animals)
+animals[2] = "Gorilla";
+console.log(animals);
 
 // YOU DO: Write code that will add a new animal (type of your choice) to position 3.
 
-animals.push("Unicorn")
+animals.push("Unicorn");
 
 // YOU DO: Write code that will log the String "Elephant" in the animals array
 
-console.log(animals[2])
+console.log(animals[2]);
 
 //-------------------
 // PART 2: Foods: Array Methods
@@ -61,7 +61,7 @@ console.log(foods);
 // YOU DO: Write code below that removes the last item of food from the foods array and
 // log the changed array to verify that item has been removed
 
-foods.pop(),
+foods.pop();
 console.log(foods);
 
 // YOU DO: Write code to add 3 new foods to the array.
@@ -73,8 +73,8 @@ console.log(foods);
 
 // YOU DO: Remove the food that is in index position 0.
 
-foods.shift()
-console.log(foods)
+foods.shift();
+console.log(foods);
 //-------------------
 // PART 3: Where are Arrays used?
 //-------------------
