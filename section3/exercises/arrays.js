@@ -35,11 +35,11 @@ console.log(animals);
 
 // YOU DO: Write code that will add a new animal (type of your choice) to position 3.
 
-animals.push('Hippo');
+animals.push("Hippo");
 
 // YOU DO: Write code that will log the String "Elephant" in the animals array
 
-animals.unshift('Elephant');
+animals.unshift("Elephant");
 console.log(animals[0]);
 
 //-------------------
@@ -48,7 +48,7 @@ console.log(animals[0]);
 
 // YOU DO: Declare a variable that will store an an array of at least 4 foods (strings)
 
-var favFoods = ['Pizza', 'Fried Rice', 'Tacos', 'Pasta'];
+var favFoods = ["Pizza", "Fried Rice", "Tacos", "Pasta"];
 
 // YOU DO: Write code below that will log the number of elements in the array of
 // foods from above.
@@ -58,7 +58,7 @@ console.log(favFoods.length);
 // YOU DO: Write code below that uses a method to add "broccoli" to the foods array and
 // log the changed array to verify "broccoli" has been added
 
-favFoods.unshift('Broccoli');
+favFoods.unshift("Broccoli");
 console.log(favFoods);
 
 // YOU DO: Write code below that removes the last item of food from the foods array and
@@ -71,7 +71,7 @@ console.log(favFoods);
   // There are several ways to do this - choose whichever you'd like!
 // Then, log the changed array to verify the new items have been added
 
-favFoods.push('Celery', "Quinoa", "Sweet Potato");
+favFoods.push("Celery", "Quinoa", "Sweet Potato");
 console.log(favFoods);
 
 // YOU DO: Remove the food that is in index position 0.
@@ -129,6 +129,7 @@ var chargerType = "car";
 //conditional statement (from the variable percentBatteryLeft) then the very next line is executed in the code block, directly
 //below and within the curly braces: "You can use your phone to call an Uber." If percentBatteryLeft is less than 15 then the script will move to the next
 //line.
+
 if (percentBatteryLeft >= 15) {
   console.log("You can use your phone to call an Uber.");
 }
@@ -149,7 +150,8 @@ else if (hasCharger === true && chargerType === "car") {
 //cannot use your phone to call an Uber. Start Walking!" will be logged.
 else {
   console.log("You cannot use your phone to call an Uber. Start Walking!");
-}
+};
+
 // YOU DO - ANNOTATE: Above each line of your code for this if statement, create a comment.
 // That comment should describe, in your own words, and as technically precise as possible,
 // what the line of code below, does.
