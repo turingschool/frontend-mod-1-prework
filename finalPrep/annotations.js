@@ -15,7 +15,7 @@ function buildABear(name, age, fur, clothes, specialPower) { //declaring a funct
     isCuddly: true,
   }
 
-  return builtBear 
+  return builtBear //calling the key-value pairs to log? 
 } //function closing
 
 buildABear('Fluffy', 4, 'brown', ['pants', 'jorts', 'tanktop'], 'give you nightmares') //calling the function and giving it arguments 
