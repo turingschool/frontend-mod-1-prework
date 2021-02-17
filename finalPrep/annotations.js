@@ -18,8 +18,8 @@ function buildABear(name, age, fur, clothes, specialPower) { //declaring a funct
   return builtBear //calling the key-value pairs to log? 
 } //function closing
 
-buildABear('Fluffy', 4, 'brown', ['pants', 'jorts', 'tanktop'], 'give you nightmares') //calling the function and giving it arguments 
-buildABear('Sleepy', 2, 'purple', ['pajamas', 'sleeping cap'], 'sleeping in') //calling the function and giving it new arguments
+buildABear('Fluffy', 4, 'brown', ['pants', 'jorts', 'tanktop'], 'give you nightmares') //calling the function name  and giving it arguments 
+buildABear('Sleepy', 2, 'purple', ['pajamas', 'sleeping cap'], 'sleeping in') //calling the function name and giving it new arguments
 
 
 
@@ -38,5 +38,5 @@ function fizzBuzz(num1, num2, range) { //the name of the function is fizzBuzz an
   }
 }
 
-fizzBuzz(3, 5, 100) //calling in function name and giving it 3 arguments
-fizzbuzz(5, 8, 400) //calling in function name and giving it 3 new arguments
+fizzBuzz(3, 5, 100) //calling the function name and giving it 3 arguments
+fizzbuzz(5, 8, 400) //calling the function name and giving it 3 new arguments
