@@ -1,6 +1,6 @@
 /*
 In the exercises below, write your own code where indicated
-to achieve the desired result. 
+to achieve the desired result.
 
 Each section has 2 examples that are already completed. Your task is to complete
 any remaining prompt in each section.
@@ -21,7 +21,7 @@ console.log("Alan Turing");
 console.log('Welcome to Turing!');
 
 // YOU DO: Write code below to log `99 bottles of pop on the wall...`:
-
+console.log('This is my change')
 
 // YOU DO: Write code below to log one line from your favorite song or movie:
 
@@ -69,5 +69,5 @@ console.log(7 > 2);
 // FINAL CHECK
 //-------------------
 
-// Did you run this file in your terminal to make sure everything printed out to the console 
-// as you would expect? 
+// Did you run this file in your terminal to make sure everything printed out to the console
+// as you would expect?
