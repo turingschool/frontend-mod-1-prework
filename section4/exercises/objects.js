@@ -168,7 +168,7 @@ var email = [
   subject: "President's Day Deal",
   heading: "Kung Fu Tea",
   date: "February 15, 2021",
-  cart: []   
+  cart: []
 }
 ]
 console.log(email);

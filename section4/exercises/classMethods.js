@@ -37,19 +37,19 @@ changeProtein() {
   this.protein = "Pork";
 }
 addTopping() {
-  this.toppings = "Guacamole";
+  this.toppings.push("Guacamole")
 }
 
   // ADD CODE
 };
-var veggie = new Burrito("beans", "rice", "veggies")
-var steak = new Burrito("steak", "rice", "cheese")
-var chicken = new Burrito("chicken", "rice", "cheese")
+var steak = new Burrito("steak", "rice", ["cheese", "sour cream", "salsa"])
+var chicken = new Burrito("chicken", "rice", ["cheese", "sour cream", "salsa"])
+var carintas = new Burrito("carintas", "pico de gallo", ["cheese", "sour cream", "salsa"])
 
-veggie.changeProtein();
-veggie.addTopping();
-steak.addTopping();
+chicken.changeProtein();
+chicken.addTopping("Guacamole");
+steak.addTopping("Guacamole");
 
-console.log(veggie)
+console.log(chicken)
 console.log(steak)
 // ADD CODE

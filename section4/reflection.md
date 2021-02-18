@@ -31,7 +31,7 @@ An object is is another way to store various pieces of information, though sligh
 
 1. In this section, we talked about an `transaction item object`. It has keys that represent different properties an bank transaction would have, and values that store the data. In a banking app, this data would eventually be displayed in the browser for the user. Think of another Object in a web application that you use frequently. What is it? What keys might be on it? What are example values?
 
-Another example of a similar web application would be Amazon. Every purchase/shopping cart created will have an object with data about the items in the cart, their cost, the balance, names, etc. 
+Another example of a similar web application would be Amazon. Every purchase/shopping cart created will have an object with data about the items in the cart, their cost, the balance, names, etc.
 
 1. What questions do you still have about classes and/or Objects?
 
