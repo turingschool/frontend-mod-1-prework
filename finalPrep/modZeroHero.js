@@ -144,6 +144,6 @@ console.log(crutch);
 // What parts were most difficult about this exerise?
 // - Objects were the hardest part for me. 
 // What parts felt most comfortable to you?
-// - Assigning varibles and printing to the console.
+// - Assigning variables and printing to the console.
 // What skills do you need to continue to practice before starting Mod 1?
 // - I will practicing everything, but with emphasis on Objects.
