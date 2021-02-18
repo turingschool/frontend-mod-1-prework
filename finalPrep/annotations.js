@@ -58,3 +58,5 @@ function fizzBuzz(num1, num2, range) {
 //these two methods declare what the num1, num2, and num3 values are
 fizzBuzz(3, 5, 100)
 fizzbuzz(5, 8, 400)
+=======
+

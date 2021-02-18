@@ -17,6 +17,7 @@ class Tweet {
     this.comments = comments;
   }
 
+
   addComment() {
     this.comments.push("They do exist!");
     }
@@ -25,3 +26,6 @@ class Tweet {
   var aliens = new Tweet("steve123", "Aliens aren't real.", "12:33AM", 23, ["prove it", "finally someone said it", "according to what source?"]);
   aliens.addComment();
   console.log(aliens);
+=======
+};
+
