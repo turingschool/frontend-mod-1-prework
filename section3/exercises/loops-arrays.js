@@ -35,14 +35,12 @@ for (var i = 0; i < foods.length; i++) {
 
 // YOU DO: Create an array of numbers and then iterate over that array to log double
 // of each of the number. (Ex: 4 doubled is 8.)
-var nums = ["2", "4", "6", "8", "10"]
-  num = 0
+var nums = [2, 4, 6, 8]
+
 for (var i = 0; i < nums.length; i++) {
-  num += +nums[i];
-
-  console.log(num);
+  doubled = nums[i] * 2
+  console.log(doubled)
 }
-
 
 // YOU DO: Using the array of names below, print out "Happy Birthday <name>" for
 // each name except the first two.

@@ -27,15 +27,14 @@ for (var i = 0; i < 3; i++) {
 // This happened because the loop requested that the value of 'i' throughout the loop be logged,
 // and in this situation, the loop is set for i starting at '0' and set through i being less than 3,
 // which results in i=0, i =1, i=2, stopping there since i cannot equal 3.
-// (This is not eloquently explained.....it's just as simply as I understand it!)
 
 
  // YOU DO: Write code below that logs to the console, the sum of 2 plus 2, 7 times:
-var nums = '2'+'2'
-for (var i = 1 ; num <= 7; i++) {
-  sum = sum + num
+var sum = 2+2
+
+for (var i = 0; i < 7; i++) {
+  console.log(sum)
 }
-  console.log("The total is: " + sum)
 
 
  // YOU DO: Write code below that logs the String 'She sells seashells down by the seashore'

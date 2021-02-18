@@ -17,7 +17,7 @@ Yelp: Arrays likely exist within Yelp to help display whatever type of restauran
 An Array method is a simple way for a program to change something about an existing array that will suit the needs of that script.
 
 1. What is the purpose of a loop? When we would use a loop in conjunction with array vs. without?
-The purpose of a loop is to facilitate the repetition of a particular code, rather than spending time console.logging it out each time. A loop would be used in conjunction with an array when there's a need for a program to run a script several times using different elements from the array. 
+The purpose of a loop is to facilitate the repetition of a particular code, rather than spending time console.logging it out each time. A loop would be used in conjunction with an array when there's a need for a program to run a script several times using different elements from the array.
 
 1. If you had to teach a 5 year old about loops, how would you explain it?
 
