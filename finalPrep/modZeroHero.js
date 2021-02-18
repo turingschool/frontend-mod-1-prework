@@ -43,7 +43,7 @@ archEnemies.push('spanish inquisition');
 console.log(archEnemies);
 
 // Remove the first sidekick from the sidekicks array
-sidekicks.pop();
+sidekicks.shift();
 
 // Print the sidekicks array to console to ensure you added a new sidekick
 console.log(sidekicks);
