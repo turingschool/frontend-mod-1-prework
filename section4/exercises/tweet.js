@@ -8,6 +8,27 @@ Create several instances of your Tweet and log them to the console. Make sure th
 tweet object instances _behave_ as expected.
 */
 
-class Tweet {
 
+class Tweet {
+  constructor(author, content, timeStamp){
+    this.author = author;
+    this.content = content;
+    this.timestamp = timeStamp;
+    this.numberOfLikes = 0;
+    this.comments = []
+  }
+  like() {
+    this.numberOfLikes++;
+  }
+  comment(comment){
+    this.comments.push(comment);
+  }
 }
+var newTweet = new Tweet('me', 'I like pickles', 'Monday');
+console.log(newTweet);
+newTweet.comment('I also like pickles');
+newTweet.comment('garlic is my favorite');
+console.log(newTweet);
+newTweet.like();
+newTweet.like();
+console.log(newTweet);
