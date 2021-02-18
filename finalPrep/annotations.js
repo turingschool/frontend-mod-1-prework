@@ -18,8 +18,8 @@ function buildABear(name, age, fur, clothes, specialPower) {              // Thi
   return builtBear                                             //function is called and returns 'builtBear' object
 }
 
-buildABear('Fluffy', 4, 'brown', ['pants', 'jorts', 'tanktop'], 'give you nightmares')  //define parameters in 'buildABear' function
-buildABear('Sleepy', 2, 'purple', ['pajamas', 'sleeping cap'], 'sleeping in')          // define new parameters in the 'buildABear' function
+buildABear('Fluffy', 4, 'brown', ['pants', 'jorts', 'tanktop'], 'give you nightmares')  //run 'buildABear' function with defined parameters
+buildABear('Sleepy', 2, 'purple', ['pajamas', 'sleeping cap'], 'sleeping in')          // run 'buildABear' function new parameters defined
 
 
 
