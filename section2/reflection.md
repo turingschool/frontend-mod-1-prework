@@ -29,4 +29,4 @@ A tool available are logical operators. Logical operators to connect the two var
 
 1. What questions do you still have about `if` statements and/or functions?
 
-I still have questions about functions, as I was least comfortable with that content. However, I am still working on finishing the CodeAcademy lesson, and know that will help in my understanding. 
+I still have questions about functions, as I was least comfortable with that content. However, I am still working on finishing the CodeAcademy lesson, and know that will help in my understanding.
