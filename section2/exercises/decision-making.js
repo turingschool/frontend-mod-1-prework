@@ -39,15 +39,29 @@ Questions
 
 1. In English, using technical vocabulary, describe what is happening between lines 14 and 18.
 
+*If the condition of going through door number 1 evaluates to true, the bear I encounter will be putting on a hat,
+If not, the bear I encounter will be putting on a scarf. It's a simple if/else proposition
+
 2. What variable has a new value assigned to it after the first if statement executes?
+
+bearClothing
 
 3. If you changed the variable doorChoice to equal 3, what would the bearClothing value be?
 
+"scarf"
+
 4. In English, using technical vocabulary, describe what is happening between lines lines 27 and 35.
+
+The programmer is logging strings based upon the selection of the variable bearChoice,
 
 5. If you changed the variable bearChoice to equal 3, what will be the final outcome be?
 
+I'd run as fast as I can into a room full of snakes.
+
 6. If you changed the variable doorChoice to equal 1, and the variable bearChoice to equal 2, what will be the final outcome be?
 
+I tell the bear my hat is too small for him and he begins to cry.
+
 7. What is your favorite ending?
+The bearChoice for a value other than 1, 2, or 3 in which the bear and I become best friends.
 */
