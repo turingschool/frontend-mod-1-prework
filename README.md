@@ -10,7 +10,7 @@ Each section has a folder containing a `README.md` file with instructions and de
 * [Section 2 - ASKING QUESTIONS, Conditionals and Functions](section2)
 * [Section 3 - GROWTH MINDSET, Arrays and Iteration](section3)
 * [Section 4 - HOW YOU USE YOUR TIME, Objects and Classes](section4)
-* [Final Project - Final Project and Submission](finalProject)
+* [Final Prep - Final Deliverables and Submission](finalPrep)
 
 ## Materials
 
@@ -101,7 +101,7 @@ In this scenario, the [Turing GitHub account](https://github.com/turingschool) o
 
 ####  1. Make sure you are logged in to GitHub (if you are not logged in, log in and come back to this page)
 
-####  2. Scroll to the top of [*this* page that you're reading right now](https://github.com/turingschool-examples/frontend-mod-1-prework).
+####  2. Scroll to the top of [*this* page that you're reading right now](https://github.com/turingschool/frontend-mod-1-prework).
 
 ####  3. Click on `Fork` in the upper right corner of the screen and select your account as the destination
 
@@ -146,7 +146,7 @@ Resolving deltas: 100% (332/332), done.
 $ cd frontend-mod-1-prework
 $ git status .
 // If everything worked correctly, you should see:
-On branch master
+On branch main
 nothing to commit, working tree clean
 ```
 
