@@ -27,20 +27,20 @@ var identityConcealed = false;
 // Declare two variables - archEnemies AND sidekicks √
 //   archEnemies should be an array of at least 3 different enemy strings √
 //   sidekicks should be an array of at least 3 different sidekick strings √
-var archEnemy = ["Jocker", "Two-Face", "Riddler"];
+var archEnemies = ["Jocker", "Two-Face", "Riddler"];
 var sidekicks =["Robin", "Catwoman", "Alfred"] ;
 
 // Print the first sidekick to your console √
 console.log(sidekicks[0]);
 
 // Print the last archEnemy to the console √
-console.log(archEnemy[2]);
+console.log(archEnemies[2]);
 
 // Write some code to add a new archEnemy to the archEnemies array
-archEnemy.push("Penguin");
+archEnemies.push("Penguin");
 
 // Print the archEnemies array to console to ensure you added a new archEnemy
-console.log(archEnemy);
+console.log(archEnemies);
 // Remove the first sidekick from the sidekicks array
 sidekicks.shift();
 // Print the sidekicks array to console to ensure you added a new sidekick
@@ -60,34 +60,30 @@ assessSituation(7, "You are safe now!", "I dont know if is we can do this");
 //   - Anything dangerLevel that is between 10 and 50 should result in printing the saveTheDay string to the console
 //   - If the dangerLevel is below 10, it means it is not worth your time and should result in printing the string "Meh. Hard pass." to the console.
 function assessSituation(dangerLevel, saveTheDay, badExcuse){
-  console.log(dangerLevel, saveTheDay, badExcuse);
+  if (dangerLevel > 50){
+    console.log(badExcuse);
+  } else if (dangerLevel >= 10){
+    console.log(saveTheDay);
+  } else {
+    console.log("Meh. Hard pass.");
+  }
 }
 assessSituation(7 ,"You are safe now!", "I dont know if is we can do it");
-
-if (assessSituation[0] > 50){
-  console.log(assessSituation[2]);
-} else if (assessSituation[0]>= 10){
-  console.log(assessSituation[1]);
-} else (assessSituation[0]< 10);{
-  console.log("Meh. Hard pass.");
-}
 
 //Test Cases
 // assessSituation(99, announcement, excuse) > Should print - 'I think I forgot to lock up my 1992 Toyota Coralla. Be right back.'
 //assessSituation(21, announcement, excuse) > should print - 'Never fear, the Courageous Curly Bracket is here!'
 //assessSituation(3, announcement, excuse) > should print - "Meh. Hard pass."
-function assessSituation(99, announcement, excuse){
-  console.log(99, announcement, excuse);
-  if (assessSituation [0] > 50){
-    console.log(assessSituation[2]);
-  } else if (assessSituation[0]>= 10){
-    console.log(assessSituation[1]);
-  } else (assessSituation[0]< 10);{
+function assessSituation(level, announcement, excuse){
+  if (level > 50){
+    console.log(announcement);
+  } else if (level >= 10){
+    console.log(excuse);
+  } else {
     console.log("Meh. Hard pass.");
   }
 }
-
-assessSituation(99 ,"I think I forgot to lock up my 1992 Toyota Coralla. Be right back.", "Never fear, the Courageous Curly Bracket is here!");
+assessSituation(17 ,"I think I forgot to lock up my 1992 Toyota Coralla. Be right back.", "Never fear, the Courageous Curly Bracket is here!");
 
 // Declare a new variable - scaryMonster - assigned to an Object with the following key/values
 //   - name (string)
@@ -108,7 +104,7 @@ var scaryMonster = {
     state: "Kansas",
     zip: 80203
   }
-}
+};
 
 // Create a new class called SuperHero
 // - Your class should have the following DYNAMIC values
@@ -120,39 +116,51 @@ var scaryMonster = {
 //   - powerLevel = 100
 //   - energyLevel = 50
 class SuperHero {
-  constructor(){
+  constructor(name, superpower, age){
     this.archEnemies = "The Syntax Error";
-    this.powerLevelr = "floppy";
+    this.powerLevel = 100;
     this.energyLevel = 50;
-  }
-  changeName(){
-    this.name = "Superman";
-  } changeSuperpower(){
-    this.superpower = "invicible";
-  } addAge(){
-      this.age = "55";
+    this.name = name;
+    this.superpower = superpower ;
+    this.age = age;
   }
 }
-
-var batman = new SuperHero();
+var batman = new SuperHero("Bruno", "Martial Arts", 45);
 
 // - Create the following class methods
 //   - sayName, should print the hero's name to the console
 //   - maximizeEnergy, should update the energyLevel to 1000
 //   - gainPower, should take an argument of a number and INCREASE the powerLevel by that number
-class favoriteHero {
- constructor(sayName, maximizeEnergy, gainPower){
-   this.sayName = sayName;
-   this.maximizeEnergy = maximizeEnergy;
-   this.gainPower = timeStamp;
- }
+class SuperHero {
+  constructor(name, superpower, age){
+    this.archEnemies = "The Syntax Error";
+    this.powerLevel = 100;
+    this.energyLevel = 50;
+    this.name = name;
+    this.superpower = superpower ;
+    this.age = age;
+  }
+    sayName() {
+    console.log(this.name);
+  } maximizeEnergy() {
+    this.energyLevel = 1000;
+  } gainPower() {
+    this.powerLevel += 115;
+  }
 }
-// - Create 2 instances of your SuperHero class
-var superHero1 = new favoriteHero("Spiderman", 13, 44]);
-console.log(superHero2);
 
-var superHero2 = new FavoriteHero ("Thor", 55, 69]);
-console.log(superHero2);
+// - Create 2 instances of your SuperHero class
+var superman = new SuperHero("Superman", "Fly", 35);
+// superman.sayName();
+// superman.maximizeEnergy();
+// superman.gainPower();
+console.log(superman);
+
+var spiderman = new SuperHero ("Spiderman", "Wallcrawling", 21, 50);
+// spiderman.sayName();
+// spiderman.maximizeEnergy();
+// spiderman.gainPower();
+console.log(spiderman);
 
 // Reflection
 // What parts were most difficult about this exerise?
@@ -164,4 +172,6 @@ console.log(superHero2);
 //ask me the difference between funtion and how to use it.
 
 // What skills do you need to continue to practice before starting Mod 1?
-//Everything, specially how to make a relation one and another.
+//Everything, specially how to make a relation one and another paying atention to each part of my code. I realized that if i practice to comment
+// and explain every part from my code, it will help me a lot !
+//Also I have to learn how to work under pressuare !
