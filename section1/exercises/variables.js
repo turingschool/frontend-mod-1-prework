@@ -28,7 +28,7 @@ console.log(enrolledStudents);
 // Write code below to save the string 'Harry Potter must not return to Hogwarts!'
 // log that variable to the console.
 var doNotReturn = 'Harry Potter must not return to Hogwarts!';
-console.log(doNotReturn);
+console.log(doNotReturn); // Harry Potter must not return to Hogwarts!
 // do you mean assign when you say save?
 
 // YOU DO:
