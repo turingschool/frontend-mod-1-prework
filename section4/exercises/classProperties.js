@@ -16,11 +16,27 @@ Make sure to run the file with node in your command line.
   // You do not need any proerties at this time!!
 
 // Prompt 1: Dog
+//I'm kind of confused as to where the variable should go. Inside the class? I don't know if this is correct.
+//We aren't supposed to use the constructor() here are we?
+class Dog {}
+var arya = new Dog();
+var layla = new Dog();
+console.log(arya);
+console.log(layla);
+
 
 // Prompt 2: Snack
-
+class Snack {}
+var chips = new Snack();
+var yogurt = new Snack();
+console.log(chips);
+console.log(yogurt);
 // Prompt 3: Shirt
-
+class Shirt {}
+var workoutShirt = new Shirt();
+var sleepShirt = new Shirt();
+console.log(workoutShirt);
+console.log(sleepShirt);
 //-------------------
 // Part 2: Properties
 //-------------------
@@ -33,11 +49,35 @@ Make sure to run the file with node in your command line.
   // Log that variable to the console.
 
 // Prompt 1: Dog
-
+class MyDog {
+  constructor(breed, weightInPounds, color) {
+    this.breed = "Pitbull";
+    this.weightInPounds = 74;
+    this.color = "tawny";
+  }
+}
+var arya = new MyDog();
+console.log(arya);
 // Prompt 2: Snack
-
+class MySnack {
+  constructor(brand, flavor, type) {
+    this.brand = "Cheetos";
+    this.flavor = "Flaming Hot Lime";
+    this.type = "chip";
+  }
+}
+var chip = new MySnack();
+console.log(chip);
 // Prompt 3: Shirt
-
+class MyShirt {
+  constructor(color, size, fabric) {
+    this.color = "green";
+    this.size = "small";
+    this.fabric = "tri-blend";
+  }
+}
+var sweatshirt = new MyShirt();
+console.log(sweatshirt);
 //-------------------
 // Part 3: Dynamic Properties
 //-------------------
@@ -51,7 +91,34 @@ Make sure to run the file with node in your command line.
   // Log those variables to the console.
 
 // Prompt 1: Dog
+class Doggy {
+  constructor(breed, weightInPounds, color) {
+    this.breed = breed;
+    this.weightInPounds = weightInPounds;
+    this.color = color;
+  }
+}
+var myPet = new Doggy("Pitbull", 74, "tawny");
+console.log(myPet);
 
 // Prompt 2: Snack
+class BestSnack {
+  constructor(brand, flavor, amount) {
+    this.brand = brand;
+    this.flavor = flavor;
+    this.amount = amount;
+  }
+}
+var cookies = new BestSnack("Tollhouse", "chocolate chip", 4);
+console.log(cookies);
 
 // Prompt 3: Shirt
+class LeShirt {
+  constructor(color, size, fabric) {
+    this.color = color;
+    this.size = size;
+    this.fabric = fabric;
+  }
+}
+var favSweatshirt = new LeShirt("green", "small", "tri-blend");
+console.log(favSweatshirt);
