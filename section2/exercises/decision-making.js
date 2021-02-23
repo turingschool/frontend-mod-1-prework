@@ -7,7 +7,7 @@ Spend some time changing the variables and running the file to see how the story
 
 var doorChoice = 1;
 var bearClothing = "";
-var bearChoice = 1;
+var bearChoice = 2;
 
 console.log("You enter a dark room with two doors. Do you go through #1 or #2?");
 
@@ -38,16 +38,25 @@ if (bearChoice === 1) {
 Questions
 
 1. In English, using technical vocabulary, describe what is happening between lines 14 and 18.
+The story is unfolding as the user interacts with it and makes decisions. So if they choose door number 1, the story continues with a hat.
+If they choose door number 2, the story continues with a scarf.
 
 2. What variable has a new value assigned to it after the first if statement executes?
+bearClothing
 
 3. If you changed the variable doorChoice to equal 3, what would the bearClothing value be?
+bearClothing would still be scarf because scarf is for any door answer that IS NOT 1.
 
 4. In English, using technical vocabulary, describe what is happening between lines lines 27 and 35.
+The user has a choice with 3 different responses when the bear's (article of clothing) is too small.
+Whichever response they choose will yield a different end result to the story.
+If they make no choice, they will stay with the bear and become its best friend!
 
 5. If you changed the variable bearChoice to equal 3, what will be the final outcome be?
+You run as fast as you can into the next room. It's full of snakes!
 
 6. If you changed the variable doorChoice to equal 1, and the variable bearChoice to equal 2, what will be the final outcome be?
+You tell the bear the hat is too small and it starts to cry!
 
 7. What is your favorite ending?
-*/
+I want to stay there and be best friends with the bear! The bear must be lonely and upset none of its clothes fit!*/

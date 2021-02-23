@@ -1,0 +1,9 @@
+## Setting up variables and arrays
+The syntax provided is encode("string", numberShift).  The first thing I need to do is set up my variables and arrays.  So **inputCode** will be a variable made of a string which is what we are looking to encode with the cipher.  **numShift** will be the variable of how much we want to shift the original string in our code.  I assume a positive number means shift to the right, and a negative number means shift to the left.  I assume numShift = 0 means no shift at all.  Next, we need to set up 2 arrays.  var = alphaArray[] is made up of all 26 letters as individual capitalized strings.  var shiftArray[] is the same and it will be used to shift the code right or left later.  
+
+## Set up the conditional statement and for loop
+The variables inputCode and numShift need to be assigned a value.  inputCode is what we will encode, and numShift will tell us how to do it.  The first conditional statement will say if numShift === 0, meaning if the number to shift is strictly zero, we can assume no shift at all needs to occur, and therefore the result will be the inputCode itself with no changes.  If numShift >0, we can assume a positive shift.  With our first if else statement, we will start a for loop.  We will initialize the loop at i=0, meaning at index 0 of the inputCode, we will set the condition that the loop will run until the i is less than the numShift, and we will increment the loop by 1.  That will be our encrypted code if the numShift if positive. Our next else statement will be if the numShift is negative, and it will decrement by 1, until the loop stops.  
+
+## Some other things
+1. We can use the .toUpperCase function to apply to our inputCode to assure that everything matches our alphaArray which is all uppercase.  
+1. I'm sure there are other steps I am missing, but I'm not sure I have the comprehension at this point to go into deeper detail.  

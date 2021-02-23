@@ -1,15 +1,28 @@
 ## Section 3 Reflection
 
-1. What are two points from the Growth Mindset article and/or video that either resonated with you, or were brand new to you?
+1. What are two points from the Growth Mindset article and/or video that either resonated with you, or were brand new to you?  
+What you are now, and how you are today, is not what you have to be forever.  A growth mindset, versus a fixed mindset, means you can always expand your skills and knowledge.  I like how Carmen Popoviciu mentioned that if you're stuck on something, it doesn't mean you are a subpar web developer, it just means you are struggling with something, and to take some space and come back to it.  I think I get frustrated too easily and then I start thinking "I bet no one else is struggling with this like I am."  Carmen reiterated that you should never compare yourself to others, just observe your own progress and see how far you've come so you don't get discouraged.  Carmen states if you want to learn something and cultivate a skill, you will as long as you are motivated and focused.  She also wants computer engineers to be aware that in years to come, if you feel like you don't know everything even after working so hard, don't give up! Having a growth mindset means you understand that you will continuously learn.  Similarly, in the article by Kristin Villanueva, she states that a growth mindset means you believe you can improve your skills.  She listed attributes of people with a growth mindset as people who tend to practice more, continue to struggle through difficult concepts rather than give up, and those who accept constructive criticism.  She talked about the ZPD, or Zone of Proximal Development.  I began to Google this to see examples, and the first example was of a student that can perform a task with a teacher, but is frustrated to do it alone.  I realized this is me!  I often can do it when guided by a teacher, or even when I'm working something out amongst peers, but then I'm on my own and Imposter Syndrome creeps in!  
 
-1. In which ways do you currently demonstrate a Growth Mindset? In which ways do you _not_?
+  Before reading this article and watching this video, I would have said a growth mindset equates to lifelong learning; the idea that you can learn new skills throughout your life.  These resources added to my definition in that there's a psychological component as well of not doubting yourself and not feeling discouraged, but to just keep trucking along and trust the process.  Track your own progress to see how far you've come through reflection.  
 
-1. Think of a web or mobile application you use regularly. Where is an example of a place that the developers probably use Arrays? Explain.
+1. In which ways do you currently demonstrate a Growth Mindset? In which ways do you _not_?  
+The fact that I applied to Turing to start my second career and am managing to complete my prework while also working full-time is a sign that I believe I can do this!  Kristin stated in her article to make S.M.A.R.T. goals, which are setting specific, measurable, achievable, relevant, and time-bound goals.  I feel that I do this already in a lot of ways.  I make myself goals for the year and work hard to achieve those goals.  With Turing, I make myself timelines of what I need to achieve by when, and I make lists of concepts I want to learn.  
 
-1. In your own words, explain what an Array method is.
+  I still get frustrated when I struggle with a concept and I want to give up, or the thoughts enter my head that I can't do it.  I was especially discouraged when I got feedback that I had to correct things on my mod0 tech assessment because I felt pretty confident when I submitted.  I couldn't believe I had done so poorly that I needed to make corrections!  Once I went in to see what the actual corrections were, I realized they were fairly small, and maybe I know more than I think! I'm trying to change my mindset to a positive one, or I'll never make it through school, because of course I am going to make a million more mistakes before I get to the correct answers.  
 
-1. What is the purpose of a loop? When we would use a loop in conjunction with array vs. without?
+  There are several things I have learned as a new skill in my life, including playing the piano and learning the ukulele.  I used to be very bad at pushups, but with diligence and setting goals and consistency, I can now to several pushups without breaking a sweat! For someone who has struggled with upper body strength for most of their life, this is a huge accomplishment.  Even through my role as a nurse, there are several things I had to learn, like being successful at starting IVs, learning how to best manage a patient's post op recovery, therapeutic communication with patients and my coworkers, and more!  I learned it all through practice and seeking more knowledge on the subject, and then incorporating that knowledge into my practice.  
 
-1. If you had to teach a 5 year old about loops, how would you explain it?
+1. Think of a web or mobile application you use regularly. Where is an example of a place that the developers probably use Arrays? Explain.  
+Facebook uses tons of arrays.  The posts the user puts on the wall can be placed in an array.  A list of a user's friends can be in an array.  A list of the users facebook groups they belong to can be in an array.  Each day is different friends' birthdays, and they can be in an array for that particular day.
 
-1. What questions do you still have about Arrays and loops?
+1. In your own words, explain what an Array method is.  
+An array method is a function that is applied specifically to arrays, so it can manipulate the values within an array.  There's a sort function, which sorts your items in the array from low to high, or A to Z.  There's a reverse function, which will reverse the order of the array.  There's a length method, which will return the number of elements in the array.  And more!
+
+1. What is the purpose of a loop? When we would use a loop in conjunction with array vs. without?  
+Loops repeat an action a certain specified number of times.  So let's say we wanted to list out the odd numbers from 0-100, we could write a loop that would output all those numbers for us.  That would be a loop without an array.  Let's say you already have an array of numbers.  We could list out the odd numbers from within that array.  That's a loop with an array.
+
+1. If you had to teach a 5 year old about loops, how would you explain it?  
+A loop is a set of instructions that you follow and repeat.  You repeat these instructions until you tell the loop to stop (the condition statement).  So you read a book until Mom turns off the light.  Then you stop reading a book.  Or you wash your hands until it's been 30 seconds. Then you can stop washing your hands.
+
+1. What questions do you still have about Arrays and loops?  
+More of the specific purpose of them in real life applications.
