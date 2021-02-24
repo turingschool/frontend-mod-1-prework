@@ -24,43 +24,49 @@ console.log(animals[0]);
 
 // YOU DO: Write code below that will log the number of elements in array of
 // animals from above.
-
+console.log(animals.length);
 
 // YOU DO: Write code that will reassign the last item in the animals
 // array to "Gorilla"
-
+var last = animals.pop()
+var newLength = animals.push('Gorilla')
 
 // YOU DO: Write code that will add a new animal (type of your choice) to position 3.
-
+var newLength = animals.push('Cat')
 
 // YOU DO: Write code that will log the String "Elephant" in the animals array
-
+console.log(animals[2]);
 
 //-------------------
 // PART 2: Foods: Array Methods
 //-------------------
 
 // YOU DO: Declare a variable that will store an an array of at least 4 foods (strings)
-
+var foods = ["Pizza", "Yogurt", "Ice Cream", "Vegetables"];
 
 // YOU DO: Write code below that will log the number of elements in the array of
 // foods from above.
-
+console.log(foods.length);
 
 // YOU DO: Write code below that uses a method to add "broccoli" to the foods array and
 // log the changed array to verify "broccoli" has been added
-
+var newLength = foods.push('broccoli')
+console.log(foods);
 
 // YOU DO: Write code below that removes the last item of food from the foods array and
 // log the changed array to verify that item has been removed
-
+var last = foods.pop()
+console.log(foods);
 
 // YOU DO: Write code to add 3 new foods to the array. 
   // There are several ways to do this - choose whichever you'd like!
 // Then, log the changed array to verify the new items have been added
+var newLength = foods.push('broccoli', 'brussel sprouts', 'cheese')
+console.log(foods);
 
 // YOU DO: Remove the food that is in index position 0.
-
+var removedItem = foods.splice(0, 1)
+// or var first = foods.shift()
 //-------------------
 // PART 3: Where are Arrays used?
 //-------------------
@@ -82,10 +88,9 @@ var posts = ["image at beach", "holiday party", "adorable puppy", "video of cute
 // may be storing data? Come up with 3 examples - they could be from different web applications or 
 // all from the same one.
 
-// 1:
-// 2:
-// 3:
-
+// 1: var googleDrive = ["folder 1", "folder 2", "file 1.txt", "file 2.txt"];
+// 2: var chromeBookmarks = ["bookmark 1", "bookmark 2", "bookmark 3", "bookmark 4"]
+// 3: var accuWeather = ["temp hr1", "temp hr2", "temp hr3", "temp hr4"]
 
 //-------------------
 // Part 4: Don't let yourself forget everything from Section 2 of Pre-work
