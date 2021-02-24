@@ -111,7 +111,20 @@ var hasCharger = true;
 var chargerType = "car";
 
 // Write your conditional here
-
+// If percentBatteryLeft is equal to or greater than 15
+if (percentBatteryLeft >= 15) {
+// log "You can call an Uber!"
+    console.log("You can call an Uber!");
+// if not, then if hasCharger stirctly equal to true *&* is chargerType strictly equal to car
+} else if (hasCharger === true && chargerType === "car") {
+// log "You can call an Uber!"
+    console.log("You can call an Uber!");
+// otherwise
+} else {
+// log "Keep walking"
+    console.log("Keep walking");
+// The End.
+};
 
 // YOU DO - ANNOTATE: Above each line of your code for this if statement, create a comment.
 // That comment should describe, in your own words, and as technically precise as possible,
