@@ -24,14 +24,17 @@ for (var i = 0; i < 3; i++) {
 
 // What is logged to the console for this second example? Why?
 // EXPLAIN:
-
+// the value of `i` at the conclusion of each loop is logged, because it achieves the request (console the value of `i`, 3 times)
 
  // YOU DO: Write code below that logs to the console, the sum of 2 plus 2, 7 times:
-
-
+for (var i = 0; i < 7; i++) {
+  console.log(2 + 2);
+}
  // YOU DO: Write code below that logs the String 'She sells seashells down by the seashore'
  // 10 times.
-
+for (var i = 0; i < 10; i++) {
+  console.log('She sells seashells down by the seashore');
+}
 
 //-------------------
 // LEVEL 2: An Added Layer of Challenge
@@ -39,9 +42,14 @@ for (var i = 0; i < 3; i++) {
 
 // YOU DO: Write code below that logs to the console a String of "This is loop number: " 
 //that concatenates with `i`.
+for (var i = 1; i <= 10; i++) {
+  console.log('This is loop number: ' + i);
+}
 
 // YOU DO: Using a for loop, how could you get an output that looks like this:
-
+for (var i = 10; i >= 1; i--) {
+  console.log('This is loop number: ' + i);
+}
 // 10
 // 9
 // 8
