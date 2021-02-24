@@ -24,24 +24,38 @@ for (var i = 0; i < 3; i++) {
 
 // What is logged to the console for this second example? Why?
 // EXPLAIN:
-
+The values: 0, 1, and 2 are logged because the loop operates under the condition
+that i is less than 3 so it's moving through the values less than 3 until it finishes.
 
  // YOU DO: Write code below that logs to the console, the sum of 2 plus 2, 7 times:
-
+ var num = 2;
+ for(var i = 1; i < 7; i++){
+   var sum = num + num;
+   console.log(sum);
+ }
 
  // YOU DO: Write code below that logs the String 'She sells seashells down by the seashore'
  // 10 times.
-
+ for (var i = 0; i < 10; i++) {
+   console.log("She sells seashells down by the seashore");
+ }
 
 //-------------------
 // LEVEL 2: An Added Layer of Challenge
 //-------------------
 
-// YOU DO: Write code below that logs to the console a String of "This is loop number: " 
+// YOU DO: Write code below that logs to the console a String of "This is loop number: "
 //that concatenates with `i`.
+var names = [0, 1, 2, 3, 4, 5, 6];
 
+for(var i = 1; i < names.length; i++){
+  console.log('This is loop number:' + ' ' + names[i]);
+}
 // YOU DO: Using a for loop, how could you get an output that looks like this:
-
+var arr = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
+for (var i = arr.length - 1; i >= 0; i--) {
+  console.log(arr[i]);
+}
 // 10
 // 9
 // 8
@@ -53,6 +67,6 @@ for (var i = 0; i < 3; i++) {
 // 2
 // 1
 
-// Not sure? Try to google some terms that seem relevant. Play around with it. Don't spend 
+// Not sure? Try to google some terms that seem relevant. Play around with it. Don't spend
 // more than 15 minutes without making progress. If you are at 15 minutes and haven't made
 // progress, that means it's time to reach out to your pre-work group on Slack!

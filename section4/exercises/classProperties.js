@@ -13,13 +13,22 @@ Make sure to run the file with node in your command line.
   // Write a class skeleton
   // Create 2 object instances and store in variables
   // Log each variable to the console.
-  // You do not need any proerties at this time!!
+  // You do not need any properties at this time!!
 
 // Prompt 1: Dog
+Class: Dog;
+var labradorRetriever = new Dog();
+var corgi = new Dog();
 
 // Prompt 2: Snack
+Class: Snack;
+var goldfish = new Snack();
+var jerky = new Snack();
 
 // Prompt 3: Shirt
+Class: Shirt;
+var jersey = new Shirt();
+var polo = new Shirt();
 
 //-------------------
 // Part 2: Properties
@@ -33,11 +42,40 @@ Make sure to run the file with node in your command line.
   // Log that variable to the console.
 
 // Prompt 1: Dog
+class Dog {
+  constructor(cat, ori, size ) {
+    this.category = cat;
+    this.ori = originCountry;
+    this.size = size;
+  }
+}
+
+var labradorRetriever = new Dog("gunDog", "Canada", "medium");
+console.log(labradorRetriever);
 
 // Prompt 2: Snack
+class Snack {
+  constructor(fdgr, taste, size ) {
+    this.foodGroup = fdgr;
+    this.tasteProfile = taste;
+    this.size = size;
+  }
+}
+
+var jerky = new Snack("meat", "salty", "large");
+console.log(jerky);
 
 // Prompt 3: Shirt
+class Shirt {
+  constructor(thick, mat, seas ) {
+    this.thickness = thick;
+    this.mat = material;
+    this.seas = season;
+  }
+}
 
+var basketballJersey = new Shirt("thin", "nylon", "summer");
+console.log(basketballJersey);
 //-------------------
 // Part 3: Dynamic Properties
 //-------------------
@@ -50,8 +88,4 @@ Make sure to run the file with node in your command line.
   // Create 2 object instances and store in variables (passing in different arguments)
   // Log those variables to the console.
 
-// Prompt 1: Dog
-
-// Prompt 2: Snack
-
-// Prompt 3: Shirt
+I used the dyanmic method in the previous question.
