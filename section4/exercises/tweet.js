@@ -24,7 +24,7 @@ addLike() {
 addComment() {
   this.comments.push("hahaha");
 }
-}
+
 
 var tweet1 = new Tweet("Erica", "favorite tv show", "11:12 PM February 19, 2021", 12, ["me tooo", "hilarious", "omg yes"]);
 console.log(tweet1);
