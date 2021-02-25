@@ -27,20 +27,27 @@ console.log(foods);
 
 // YOU DO: Write code below that will declare a variable that stores an Object Literal of animal names and 
 // the number of that type of animal at the zoo.
-
+var animals = {
+  lions: 23,
+  tigers: 507,
+  bears: 48
+};
 
 // Using the zoo that you created above, log the value of the first item in
 // the Object
-
+console.log(animals.lions);
 
 // Add an animal to the zoo Object, and log the updated Object.
-
+animals.turtles = 33;
+console.log(animals);
 
 // Change the value for at least one of your animal keys, and log the updated Object.
-
+animals.tigers = 506;
+console.log(animals);
 
 // Add another animal to the zoo Object, and log the updated Object.
-
+animals.sharks = 1;
+console.log(animals);
 
 //-------------------
 // Part 2: Email
@@ -55,6 +62,17 @@ value should be some appropriate value for that key. Work to have at least 5 key
 
 Log your email object to the console.
 */
+
+var emailABdhPJwM3hrdedx = {
+  messageID: "74db30ed.AL4AAJaOGQgAAAAAAAAAAAEkwxcAAAAAEycAAAAAAA-qSgBgN9j5@mailjet.com",
+  createdDate: "02/25/21, 9:02AM",
+  senderAddress: "info@aclib.us",
+  senderName: "Alachua County Library District",
+  recipientAddress: "alexandermartelkio@gmail.com",
+  subject: "5 Things for March",
+  priority: true
+};
+console.log(emailABdhPJwM3hrdedx);
 
 //-------------------
 // Part 3: Many Emails - OPTIONAL EXTENSION
@@ -105,3 +123,35 @@ good to have some exposure before going into Mod 1.
 // YOU DO: Create an array of at least 3 EMAIL Object Literals, using the same 
 // key-value pairs you used in your email Object above.
 // Then, log the email Array to the console.
+
+var emails = [
+  {
+    messageID: "74db30ed.AL4AAJaOGQgAAAAAAAAAAAEkwxcAAAAAEycAAAAAAA-qSgBgN9j5@mailjet.com",
+    createdDate: "02/25/21, 9:02 AM",
+    senderAddress: "info@aclib.us",
+    senderName: "Alachua County Library District",
+    recipientAddress: "alexandermartelkio@gmail.com",
+    subject: "5 Things for March",
+    priority: true
+  }, 
+  {
+    messageID: "alexmkio/mod0_session2_exercises.md/comments/3644515@github.com",
+    createdDate: "02/24/21, 8:59 PM",
+    senderAddress: "notifications@github.com",
+    senderName: "Mason France",
+    recipientAddress: "alexmkio@noreply.github.com",
+    subject: "Re: alexmkio/mod0_session2_exercises.md",
+    priority: false
+  },
+  {
+    messageID: "CAFu4fpk5LC9fUNktY3zHrQo_X+q_N0TfMoWR2ATRuSjYqxM+fw@mail.gmail.com",
+    createdDate: "02/09/21, 11:32 AM",
+    senderAddress: "eric@turing.io",
+    senderName: "Eric Weissman",
+    recipientAddress: "ztrokey@gmail.com, alexandermartelkio@gmail.com, Emmy M <emmymorris1102@gmail.com>, stephaniemagdic@gmail.com, sami.peterson14@gmail.com, calebjwittman1991@gmail.com, j.fuller.e@gmail.com, shayangolafsh@gmail.com, hdixon37@gmail.com, apb734@gmail.com, Claire Fields <clairefields15@gmail.com>, miriammerari02@gmail.com, gabrielwohl9@gmail.com, Jacq Whitmer <jacqwhitmer@gmail.com>, fargnoli.jm@gmail.com, merali4@gmail.com, nataliemcintyre19@gmail.com, bdempsey864@gmail.com, v11067@icloud.com, sidarth20@gmail.com, mkkrumholz@gmail.com, samcliffe@gmail.com, ilookup@gmail.com, Suzanne Kim <suzanneskim94@gmail.com>, brant.fuller@gmail.com, jasmynh44@gmail.com, darren@turing.io",
+    subject: "Turing School Mod 0 Information - 2102B",
+    priority: false
+  }
+]
+
+console.log(emails);
