@@ -36,8 +36,8 @@ class Burrito {
   changeProtein() {
     this.protein = "tofu";
   }
-  addTopping() {
-    this.toppings.push("queso");
+  addTopping(newtopping) {
+    this.toppings.push(newtopping);
   }
   // ADD CODE
 };
@@ -47,7 +47,7 @@ var vegi = new Burrito("tempeh", "refried beans", ["cabbage", "carrots", "brocol
 // ADD CODE
 colorado.changeProtein();
 console.log(colorado);
-mexi.addTopping();
+mexi.addTopping("queso");
 console.log(mexi);
-vegi.addTopping();
+vegi.addTopping("guac");
 console.log(vegi);
