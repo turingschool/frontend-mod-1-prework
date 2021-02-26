@@ -19,7 +19,7 @@ Make sure to run the file with node in your command line.
 
 class Dog {
 
-}
+};
 var pit = new Dog();
 var poodle = new Dog();
 console.log(Dog.pit);
@@ -29,7 +29,7 @@ console.log(Dog.poodle);
 
 class Snack {
 
-}
+};
 var peanuts = new Snack();
 var pretzelCrisps = new Snack();
 console.log(Snack.peanuts);
@@ -39,7 +39,7 @@ console.log(Snack.pretzelCrisps);
 
 class Shirt {
 
-}
+};
 var mLIW = new Shirt();
 var dtSwiss = new Shirt();
 console.log(Shirt.mLIW);
@@ -64,7 +64,7 @@ class Dog {
     this.weightLbs = 45;
     this.color = "brindle";
   }
-}
+};
 var pit = new Dog();
 console.log(pit);
 
@@ -76,7 +76,7 @@ class Snack {
     this.servingSizeG = 146;
     this.calories = 828;
   }
-}
+};
 var peanut = new Snack();
 console.log(peanut);
 
@@ -88,7 +88,7 @@ class Shirt {
     this.color = "Black";
     this.shortSleeve = true;
   }
-}
+};
 var Polo = new Shirt();
 console.log(Polo);
 
@@ -113,7 +113,7 @@ class Dog {
     this.wt = weightLbs;
     this.color = color;
   }
-}
+};
 
 var mrWoofers = new Dog("pit", 45, "brindle");
 var turboDog = new Dog("poodle", 5, "black");
@@ -129,7 +129,7 @@ class Snack {
     this.serving = servingSizeG;
     this.calories = cal;
   }
-}
+};
 
 var peanut = new Snack("peanut", 146, 828);
 var pretzelCrisps = new Snack("Pretzel Crisps", 15, 73);
@@ -145,7 +145,7 @@ class Shirt {
     this.color = color;
     this.sleeve = shortSleeve;
   }
-}
+};
 
 var shirt1 = new Shirt("Polo", "black", true);
 var shirt2 = new Shirt("REI", "tan", false);
