@@ -73,21 +73,21 @@ you develop good habits that follow best practice, from now on, use the strict c
 // Make sure YOU can explain it that way!
 
 console.log(4 < 9);
-//YOU DO: Explain.
+//YOU DO: this should log: true. 4 is less than 9.
 
 var books = 3;
 console.logs(4 < books);
-// YOU DO: Explain.
+// YOU DO: this should log: false. 4 is greater than 3.
 
 var friends = 6;
 var siblings = 2;
 console.log(friends > siblings);
-// YOU DO: Explain.
+// YOU DO: this should log: true. 6 is greater than 2.
 
 var attendees = 9;
 var meals = 8;
 console.log(attendees !== meals);
-// YOU DO: Explain.
+// YOU DO: this should log: true. the number of attendees is not equal to the number of meals.
 
 
 //-------------------
@@ -110,18 +110,26 @@ var age = 1;
 
 // YOU DO:
 // Determine if the dog loves to play and loves treats
-
+> console.log(lovesToPlay && lovesTreats);
+true
 
 // Determine if the dog loves to play and loves the dog park
-
+> console.log(lovesToPlay && lovesDogPark);
+false
 
 // Determine if the dog loves to play or loves the dog park
-
+> console.log(lovesToPlay || lovesDogPark);
+true
 
 // Determine if the dog loves to play and is a puppy
+> console.log(lovesToPlay && age);
+1
 
 // What did your final line of code evaluate to? Why do you think that is? Explain.
-// ANSWER:
+/* ANSWER: Final line evaluated to 1. I have not defined what it means to be a "puppy" so
+the computer is evaluating (lovesToPlay (true) && age (1)). It evaluates left to right and converts each operand to a boolean,
+since it cannot convert age to a boolean, it returns the farthest right value. I changed var age to 0 to check to see if 
+it had anything to do with the boolean values of 0 and 1 (false and true) and it still returned 0, which proves my theory. */
 
 //-------------------
 // FINAL CHECK
