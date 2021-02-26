@@ -24,6 +24,7 @@ console.log(greeting);
 The purpose of code comment is to add in information for other developers within our code and/or de-activate certain parts of our code that we may not want to run. It can also provide short desciptions for what our code is doing. The characters would include for single line comments: // or for double line comments: /* */.
 
 5. In your own words, what is a variable? How would you explain it to a 5 year old?
+A variable in a place that data is stored, which will ultimately be a part of a script that is run. It can change or vary depending on the value we give it. I would tell a 5 year old that a variable is like a chore list where you learn what you need to do. It can change depending on the day.
 
  A variable in a place that data is stored, which will ultimately be a part of a script that is run. It can change or vary depending on the value we give it. I would tell a 5 year old that a variable is like a chore list where you learn what you need to do. It can change depending on the day.
 
