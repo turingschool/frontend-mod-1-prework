@@ -20,7 +20,7 @@ class Tweet {
     this.comments.push(comment);
   }
   addLikes() {
-    return this.increaseLikes() ;
+    return this.increaseLikes();
   }
   increaseLikes() {
     return this.likes++;
