@@ -1,11 +1,11 @@
 ## Section 4 Reflection
 
 1. How different did your workflow feel this week, considering we asked you to follow the Pomodoro technique?
-My workflow wasn’t massively affected by the change. I figured something out in one of the first 3 minute breaks which was encouraging, but then it felt like a hassle incorporating Pom with real life. Rather distracting. I’d rather just pay attention to my mind/body.
+  * My workflow wasn’t massively affected by the change. I figured something out in one of the first 3 minute breaks which was encouraging, but then it felt like a hassle incorporating Pom with real life. Rather distracting. I’d rather just pay attention to my mind/body.
 2. Regarding the work you did around setting intentions in Step 1 of the Pomodoro technique - how did that go? Were you surprised by anything (did you find yourself way more focused than you realized, more distracted that you thought you'd be, estimating times accurately or totally off, etc)?
-I used an app to track my time. I wasn’t a big fan of adhering strictly to Pomodoro. I typically take breaks pretty close to Pomodoro timings, but employing it exactly as opposed to when my body/mind felt like it needed it threw me off my game a bit. And then it didn’t work around real life. It didn’t work with the random time that my roommate made lunch for us and then me needing to go run errands only a few hours later.
+  * I used an app to track my time. I wasn’t a big fan of adhering strictly to Pomodoro. I typically take breaks pretty close to Pomodoro timings, but employing it exactly as opposed to when my body/mind felt like it needed it threw me off my game a bit. And then it didn’t work around real life. It didn’t work with the random time that my roommate made lunch for us and then me needing to go run errands only a few hours later.
 3. What is an Object, and how is it different from an Array in Javascript?
-An Object lets you store *lists* of data that can be referenced by using strings or their indexed position. An array only lets you store *a list* of data that can only be referenced by it’s indexed position.
+  * An Object lets you store *lists* of data that can be referenced by using strings or their indexed position. An array only lets you store *a list* of data that can only be referenced by it’s indexed position.
 4. For each set of data, would an array or object be better to store it? Explain your choice.
 
   * List of all of the students in class: Array, because it’s a single list.
