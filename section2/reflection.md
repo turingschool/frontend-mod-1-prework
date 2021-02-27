@@ -21,4 +21,5 @@ To add multiple conditions to an 'if' statement I can use the if...else statemen
 If I want to check that TWO conditions are met, I can use the logical AND operation (&&). This only returns true if both operands are true. If I want to check that 1 of 2 conditions are met, I can use the logical OR operation (||). This only returns false when both operands are false.
 
 6. What questions do you still have about `if` statements and/or functions?
+
 If statements seem very useful and important. I feel comfortable understanding the basic logic behind these but seek to get more practice with the syntax, especially with various data types. I would also wonder, could it be switched that a block of code will run if something is evaluated to false, as opposed to true?
