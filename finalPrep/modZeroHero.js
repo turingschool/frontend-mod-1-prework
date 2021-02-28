@@ -8,7 +8,7 @@ var specialAbility = "fricken' lazers";
 //   greeting should be assigned to a string that uses concatenation to include the heroName
 //   catchphrase should be assigned to a string that uses interpolation to include the specialAbility
 var greeting = "Hello " + heroName;
-var catchphrase = "Eat these ${specialAbility}!";
+var catchphrase = `Eat these ${specialAbility}!`;
 
 // Declare two variables - power AND energy - set to integers
 var power = 234;
@@ -115,22 +115,23 @@ class SuperHero {
     this.powerLevel = 100;
     this.energyLevel = 50;
   }
-  sayName(name) {
-    console.log(name);
+  sayName() {
+    console.log(this.name);
   }
   maximizeEnergy() {
     this.energyLevel = 1000;
   }
   gainPower() {
-    this.powerLevel = energyLevel * 10;
+    this.powerLevel = this.powerLevel * 10;
   }
 };
+var spidey = new SuperHero ("Spider Man", "web", 20)
 var batty = new SuperHero("Batman", "fly", 30);
+// testing below
 batty.sayName();
+batty.maximizeEnergy();
 console.log(batty);
-max.maximizeEnergy();
-console.log(batty);
-gain.gainPower();
+batty.gainPower();
 console.log(batty);
 
 // - Create the following class methods
@@ -143,8 +144,13 @@ console.log(batty);
 
 // Reflection
 // What parts were most difficult about this exerise?
+// There were two things I could not figure out for the life of me: interpolation and the last
+// method exercise. With interpolation I didn't realize backticks were needed as opposed to double
+// or single quotes. And then in the last example I kept calling the value "name" instead of the
+// property "this.name". These issues really stumped me and I had to look at them with fresh eyes the following day.
 
 // What parts felt most comfortable to you?
+// declaring variables, variable reassignment, arithmetic and concatenation, objects, and I really enjoy if/else statements.
 
 // What skills do you need to continue to practice before starting Mod 1?
-
+// Becoming faster/memorization. And not messing up.
