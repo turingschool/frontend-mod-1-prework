@@ -5,23 +5,23 @@ Congrats on making it to the Mod 0 Final Prep! Complete the final exercises belo
 
 You've learned a ton about some of the core foundations of Javascript! Show us how far you've come by completing the following exercises! You will be using your work from these exercises in your first day of Mod 1! 
 
-- [ ] Complete the [Mod Zero Hero Challenge](./modZeroHero.js)
-- [ ] Complete the [Annotation Challenge](./annotations.js) 
+- [x] Complete the [Mod Zero Hero Challenge](./modZeroHero.js)
+- [x] Complete the [Annotation Challenge](./annotations.js) 
 
 ### Mentorship Prep
 Mentorship is an integral part of the Turing experience and will help jumpstart your technical career. In order to get your mentor relationship started on the right foot, please complete the following deliverables:
-- [ ] Complete the [Mentorship DTR Prep](https://gist.github.com/ericweissman/51965bdcbf42970d43d817818bfaef3c)
-  - [ ] Add link to your gist here: 
+- [x] Complete the [Mentorship DTR Prep](https://gist.github.com/ericweissman/51965bdcbf42970d43d817818bfaef3c)
+  - [x] [Add link to your gist here: ](https://gist.github.com/alexmkio/1e3fc2ca149f0bf97f0af029fb49198f) 
 
 ### Lesson Prep
 You've learned a lot about how to take strong notes during Mod 0. Show us your skills while you learn how to pre-teach content for your first lesson in Mod 1!
-- [ ] Complete the [Pre Teaching Practice exercise](https://gist.github.com/ericweissman/0036e8fe272c02bd6d4bb14f42fd2f79) gist
-  - [ ] Add a link to your gist here:
+- [x] Complete the [Pre Teaching Practice exercise](https://gist.github.com/ericweissman/0036e8fe272c02bd6d4bb14f42fd2f79) gist
+  - [x] [Add link to your gist here: ](https://gist.github.com/alexmkio/3556703bd52b3318f9f9859777701582)
 
 ### Group Work Prep
 As part of Turing's project-based learning approach, you will often be working in pairs or larger groups. In order to set yourself (and your team) up for success, it is important to ensure you are prepared to be an equitable contributor and teammate.
-- [ ] Complete the [DTR Guiding Questions](https://gist.github.com/ericweissman/c56f3a98cdce761808c21d498a52f5c6)
-  - [ ] Add a link to your gist here: 
+- [x] Complete the [DTR Guiding Questions](https://gist.github.com/ericweissman/c56f3a98cdce761808c21d498a52f5c6)
+  - [x] [Add link to your gist here: ](https://gist.github.com/alexmkio/b51a4e03c0dd0fcb05bbd4f1196054ff)
 
 ## All Done? How to Submit your M1 Prework
 When you have completed *ALL* the activities described above, follow the steps below to submit your technical prework.
@@ -49,13 +49,20 @@ When you have completed *ALL* the activities described above, follow the steps b
 Depending on if you are in Section A or B, you have anywhere between 1.5-3.5 weeks before you start Mod 1. This is an important time to take care of life things such as doctor appointments, dog park trips, quality time with friends and family, etc. It is also important that you maintain the knowledge and skills you acquired during Mod 0 and this pre-work. You can absolutely do both, but to do so successfully, **you need a plan**. We recommend spending, on average, 1-2 hours a day coding (totally 20-40 hours of time).
 
 What is your plan and how are you going to hold yourself to it? Specifically...
-- What are you going to work on? [Resources here](https://github.com/turingschool-examples/fe-m1-practice)
-- What days are you going to work?
-- What times on those days are you going to work?
-- Where you going to be sitting/standing as you do this?
-- Where are you documenting this plan? Google Calendar, calendar on your wall, your journal?
-- Do any stakeholders in your life know about this plan? (The answer needs to be yes by the time you answer this...)
-- What personal items/events are important to you during this time? How are you going to make sure those are not neglected? (Hint, block time on the calendar for them!)
+- __What are you going to work on? [Resources here](https://github.com/turingschool-examples/fe-m1-practice)__
+- I'm going to work on collating my notes to the best that I can and practice some capstone exercises. Also see if I can get a proper environment established on my Windows PC just in case.
+- __What days are you going to work?__
+- Hopefully a little bit each day
+- __What times on those days are you going to work?__
+- Between 9 and 11 AM, and after 5 PM on a few days
+- __Where you going to be sitting/standing as you do this?__
+- At work, my couch or at my bedroom desk
+- __Where are you documenting this plan? Google Calendar, calendar on your wall, your journal?__
+- It's simple enough that it fits in my head
+- __Do any stakeholders in your life know about this plan? (The answer needs to be yes by the time you answer this...)__
+- Yes, roommate and Turing Alum Gaby, my friends, and family
+- __What personal items/events are important to you during this time? How are you going to make sure those are not neglected? (Hint, block time on the calendar for them!)__
+- Completeing Turing and getting a job is all I care about during this time. If I have time to go on a bike ride, go see my fam, or go on a hike that'd be cool, but I'm not expecting to get to do much of that.
 
 ## Extensions
 If you're interested in challenging yourself _even more_ and getting a step ahead in your coding abilities before your first day, we recommend working on either:
