@@ -1,0 +1,4 @@
+pop
+push
+shift
+unshift
