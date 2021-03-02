@@ -2,7 +2,7 @@
 
 1. Regarding the blog posts in Part A, how do you feel about asking questions? Do you tend to ask them too soon, or wait too long, or somewhere in between?
 
-I feel good about asking questions. I have had to train myself to try and figure out the answer on my own first before asking it to other people. In my last job, I found it to be extremely useful to save my questions up until the end of the day or weekly meetings to ask my supervisor. This gave me the time to make sure I (1) knew what I was asking and (2) the time to think and make sure I explored all the recourses first. Also, this standard helped us keep a work flow and not be interrupted constantly by someone else's question.
+    I feel good about asking questions. I have had to train myself to try and figure out the answer on my own first before asking it to other people. In my last job, I found it to be extremely useful to save my questions up until the end of the day or weekly meetings to ask my supervisor. This gave me the time to make sure I (1) knew what I was asking and (2) the time to think and make sure I explored all the recourses first. Also, this standard helped us keep a work flow and not be interrupted constantly by someone else's question.
 
 2. In this section, we removed some of the supports that you had in Section 1. We didn't give the directions for how to run a file in node, and really sent you off to learn about functions by exploring several outside resources. How did that feel? What was uncomfortable about it? How did it support your learning?
 
