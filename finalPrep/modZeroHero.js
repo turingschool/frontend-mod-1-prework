@@ -1,5 +1,4 @@
 // Challenge - See if you can follow the instructions and complete the exercise in under 30 minutes!
-
 // Declare two variables - heroName AND specialAbility - set to strings
 var heroName = "Bat Man";
 var specialAbility = "fricken' lazers";
@@ -50,7 +49,7 @@ console.log(sidekicks);
 
 // Create a function called assessSituation that takes three arguments - dangerLevel, saveTheDay, badExcuse
 //   - dangerLevel should be an integer
-//   - saveTheDay should be a string a hero would say once they save the day 
+//   - saveTheDay should be a string a hero would say once they save the day
 //   - badExcuse should be a string a hero would say if they are too afraid of the dangerLevel
 var dangerLevel = 22;
 var saveTheDay = "PAYME! PAY! ME!";
@@ -99,13 +98,13 @@ var scaryMonster = {
 
 // Create a new class called SuperHero
 // - Your class should have the following DYNAMIC values
-//   - name 
+//   - name
 //   - superpower
-//   - age 
+//   - age
 // - Your class should have the following STATIC values
 //   - archNemesis, assigned to "The Syntax Error"
 //   - powerLevel = 100
-//   - energyLevel = 50 
+//   - energyLevel = 50
 class SuperHero {
   constructor(name, superpower, age) {
     this.name = name;

@@ -1,6 +1,7 @@
 // Add your annotations, line by line, to the code below using code comments.
 // Use the double // to create a new comment
 
+
 //comment
 //Build a Bear
 // declares function buildABear that takes 5 arguments: name, age, fur, clothes, specialPower
