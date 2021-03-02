@@ -1,5 +1,4 @@
 ## Section 1 Reflection
-
 1. How did the SuperLearner Article resonate with you? What from this list do you already do? Want to start doing or do more of? Is there anything not on this list, that you would add to it?
   * Well, the success rate for immediately explaining a subject to someone else or using it was shocking and I intend on making this a habit of mine. I’m also really happy to hear that some of my favorite foods help slow cognitive decline. I kind of assumed 1 -3, but only personally identify with #2. I’ve only started to really hear about #6 since I’ve started with Turing and I’m interested to see if it works for me. I don’t know that I’d consider myself a “SuperLearner” so not sure I have any personal insight here. I know I’m going to like to take notes, make flash cards… anything I can do to write certain things down physically.
 2. What are the data types you learned about in this section? In your own words, define each.

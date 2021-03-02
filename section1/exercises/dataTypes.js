@@ -1,6 +1,6 @@
 /*
 In the exercises below, write your own code where indicated
-to achieve the desired result. 
+to achieve the desired result.
 
 Each section has 2 examples that are already completed. Your task is to complete
 any remaining prompt in each section.
@@ -8,7 +8,6 @@ any remaining prompt in each section.
 When navigated to the root of this project directory, you should be able to run this
 file from your terminal with the command `node section1/exercises/dataTypes.js`
 */
-
 
 //-------------------
 //STRINGS
@@ -71,6 +70,6 @@ console.log(4 <= 5); // expect true
 // FINAL CHECK
 //-------------------
 
-// Did you run this file in your terminal to make sure everything printed out to the console 
-// as you would expect? 
+// Did you run this file in your terminal to make sure everything printed out to the console
+// as you would expect?
 // Answer: I did, and it did.

@@ -9,6 +9,7 @@ When navigated to the root of this project directory, you should be able to run 
 file from your terminal with the command `node section1/exercises/dataTypes.js`
 */
 
+
 // EXAMPLE: Write code that combines the variables below into another string:
 var name = "Ron";
 var team = "Chudley Cannons";
@@ -22,7 +23,7 @@ var creatures = "unicorns";
 console.log("My zoo has " + numberOfCreatures + " " + creatures + "!");
 
 // YOU DO: What data type will be logged to the console as a result of line 22? Explain.
-// Your answer and explanation here: 
+// Your answer and explanation here:
 // A string. From the reading, "The reason this works even though the first value is a number and the
 // second is a string, is a result of type coercion. JavaScript is essentially trying to help us by
 // converting the number into a string so we can combine the two together."
@@ -43,7 +44,7 @@ speedy = "hare";
 console.log("In a predictable result, the " + slowPoke + " beat the " + speedy + "!"); // In a predictable result, the tortoise beat the hare!
 
 // YOU DO:
-// Declare three variables, name/content/data type of your choice. Think carefully about what 
+// Declare three variables, name/content/data type of your choice. Think carefully about what
   // you name the variables. Remember, the goal is to be concise but descriptive (it's a hard balance!)
   // Then, log out ONE sentence that incorporates all THREE variables.
 var typeOfAnimal = "cat";
@@ -55,6 +56,6 @@ console.log("I have a " + yodaAgeYears + " year old " + typeOfAnimal + " named "
 // FINAL CHECK
 //-------------------
 
-// Did you run this file in your terminal to make sure everything printed out to the console 
+// Did you run this file in your terminal to make sure everything printed out to the console
   // as you would expect? You should be doing this by now, and getting into the habit of it.
 // I did and it is. I am.
