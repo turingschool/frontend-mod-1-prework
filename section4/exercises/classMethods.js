@@ -36,7 +36,7 @@ class Burrito {
   changeProtein() {
     this.protein = "beans"
   }
-  addTopping(){
+  addTopping(toppings){
     this.toppings.push("queso")
   }
 };
