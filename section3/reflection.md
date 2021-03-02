@@ -1,5 +1,4 @@
 ## Section 3 Reflection
-
 1. What are two points from the Growth Mindset article and/or video that either resonated with you, or were brand new to you?
   * I really appreciated Carmen’s outlook on how challenge ‘isn’t indicative of a deficiency but an opportunity to learn something new’ and how she normalized having bad days.
 2. In which ways do you currently demonstrate a Growth Mindset? In which ways do you _not_?
@@ -10,7 +9,7 @@
   * An array method performs an action on an array.
 5. What is the purpose of a loop? When we would use a loop in conjunction with array vs. without?
   * The purpose is to reduce a *repetitive* task down to simple code. To run an incrementing or decrementing expression from an initial expression until the condition expression is false and terminates the loop.
-  * A loop w/o an array lacks personality. We would use a loop w/o an array to perform a function a number of times or to create a list of numbers. Low-level. 
+  * A loop w/o an array lacks personality. We would use a loop w/o an array to perform a function a number of times or to create a list of numbers. Low-level.
   * Using arrays with loops allow us to create an indexed list of things with identity: a specific string (ex: name), a specific int (ex: age), etc(?). We would use an array with a loop to perform a repetitive task in regards to a high-level list.
 6. If you had to teach a 5 year old about loops, how would you explain it?
   * When we put episode 2 of StoryBots on repeat until bedtime that is a loop.

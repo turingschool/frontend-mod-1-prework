@@ -8,6 +8,7 @@ any remaining prompt.
 Make sure to run the file with node in your command line.
 */
 
+
 //-------------------
 // LEVEL 1: Loops
 //-------------------
@@ -40,7 +41,7 @@ for (var i = 0; i < 10; i++) {
 // LEVEL 2: An Added Layer of Challenge
 //-------------------
 
-// YOU DO: Write code below that logs to the console a String of "This is loop number: " 
+// YOU DO: Write code below that logs to the console a String of "This is loop number: "
 //that concatenates with `i`.
 for (var i = 1; i <= 10; i++) {
   console.log('This is loop number: ' + i);
@@ -61,6 +62,6 @@ for (var i = 10; i >= 1; i--) {
 // 2
 // 1
 
-// Not sure? Try to google some terms that seem relevant. Play around with it. Don't spend 
+// Not sure? Try to google some terms that seem relevant. Play around with it. Don't spend
 // more than 15 minutes without making progress. If you are at 15 minutes and haven't made
 // progress, that means it's time to reach out to your pre-work group on Slack!

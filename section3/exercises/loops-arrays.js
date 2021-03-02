@@ -8,6 +8,7 @@ any remaining prompt.
 Make sure to run the file with node in your command line.
 */
 
+
 // EXAMPLE: Write code below that iterates through a list of animals and print
 // each animal.
 var animals = ["Zebra", "Giraffe", "Elephant"];
@@ -66,7 +67,7 @@ for (var i = 2; i < names.length; i++) {
   // 18 or over? "Make sure you get out and vote!"
 
 // WORD FROM THE WISE: Before you start coding, jot down, with pen and paper, what steps you
-// want to tell the program to take. Think of all the concepts you've learned so far. 
+// want to tell the program to take. Think of all the concepts you've learned so far.
 
 // Remember, stuck for 15-20 minutes? Reach out to your pre-work group on Slack.
 
