@@ -8,6 +8,7 @@ any remaining prompt.
 Make sure to run the file with node in your command line.
 */
 
+
 // EXAMPLE:Manipulate the variable 'weather' to see if you can print something other
   // than 'coat'.
 
@@ -30,10 +31,10 @@ if (weather == 'sunny') {
   console.log('good to go!');
 }
 
-/* 
+/*
 YOU DO:
-Using the dogAge variable defined below, 
-determine if a dog is a puppy (2 or younger), 
+Using the dogAge variable defined below,
+determine if a dog is a puppy (2 or younger),
 an adult, or elderly (10 or older).
 
 Log to the console the appropriate age range
@@ -100,7 +101,7 @@ if (cupsOfFlour >= 2 && hasSauce === true) {
 }
 
 /*
-For the last two exercises, an ideal solution probably uses a logical operator. 
+For the last two exercises, an ideal solution probably uses a logical operator.
 Did yours? Do you know what a logical operator in JavaScript is? Google it to answer
 for yourself!
 */

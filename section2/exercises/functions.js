@@ -8,6 +8,7 @@ any remaining prompt.
 Make sure to run the file with node in your command line.
 */
 
+
 //-------------------
 // PART 1: Function Syntax
 //-------------------
@@ -17,7 +18,7 @@ function printName() {
   console.log("Severus Snape");
 }; // your source said that this semicolon is not needed here
 
-printName(); 
+printName();
 printName();
 printName();
 printName();

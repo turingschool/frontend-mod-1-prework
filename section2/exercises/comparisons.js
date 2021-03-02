@@ -9,6 +9,7 @@ Make sure to run the file with node in your command line. Look back
 at the directions from Section 1 if you need a refresher on how to do that.
 */
 
+
 //-------------------
 // PART 1: Comparing variables
 //-------------------

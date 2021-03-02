@@ -1,5 +1,4 @@
 ## Section 2 Reflection
-
 1. Regarding the blog posts in Part A, how do you feel about asking questions? Do you tend to ask them too soon, or wait too long, or somewhere in between?
   * I feel like the writer made his point perfectly when he illustrated how it can cause an unnecessary work stoppage when you don’t check your ego at the front door and just ask for help when you need it. I firmly believe in a 15-30 minute timer of not getting anywhere for it to not only be appropriate but imperative that you ask for help.
 2. In this section, we removed some of the supports that you had in Section 1. We didn't give the directions for how to run a file in node, and really sent you off to learn about functions by exploring several outside resources. How did that feel? What was uncomfortable about it? How did it support your learning?
