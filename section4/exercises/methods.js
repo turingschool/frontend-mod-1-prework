@@ -5,7 +5,6 @@ to achieve the desired result.
 Make sure to run the file with node in your command line.
 */
 
-
 // YOU DO: Add two methods to the `lunchOrder` object below.
   // 1. `prepare` - log out a sentence to let the user know the order is being worked on.
   // 2. `complete` - log out a sentence to let the user know the order is complete.

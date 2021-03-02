@@ -1,5 +1,4 @@
 ## Section 4 Reflection
-
 1. How different did your workflow feel this week, considering we asked you to follow the Pomodoro technique?
   * My workflow wasn’t massively affected by the change. I figured something out in one of the first 3 minute breaks which was encouraging, but then it felt like a hassle incorporating Pom with real life. Rather distracting. I’d rather just pay attention to my mind/body.
 2. Regarding the work you did around setting intentions in Step 1 of the Pomodoro technique - how did that go? Were you surprised by anything (did you find yourself way more focused than you realized, more distracted that you thought you'd be, estimating times accurately or totally off, etc)?
@@ -16,7 +15,7 @@
   * Ingredients and amount of each ingredient to bake a cake: Object, because it’s more than one list (of key-value pairs).
   * All my favorite restaurants: Array, because it’s a single list.
 
-5. In this section, we talked about an `transaction item object`. It has keys that represent different properties an bank transaction would have, and values that store the data. In a banking app, this data would eventually be displayed in the browser for the user. Think of another Object in a web application that you use frequently. What is it? What keys might be on it? What are example values? 
+5. In this section, we talked about an `transaction item object`. It has keys that represent different properties an bank transaction would have, and values that store the data. In a banking app, this data would eventually be displayed in the browser for the user. Think of another Object in a web application that you use frequently. What is it? What keys might be on it? What are example values?
   * HourlyForcast
   * locationZIP = “32601” (string)
   * timestamp24H = “02/20/2021 14:00” (string)

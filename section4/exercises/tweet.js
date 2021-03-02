@@ -8,6 +8,7 @@ Create several instances of your Tweet and log them to the console. Make sure th
 tweet object instances _behave_ as expected.
 */
 
+
 class Tweet {
   constructor(author, content, timeStamp, numberOfLikes, comments) {
     this.author = author;

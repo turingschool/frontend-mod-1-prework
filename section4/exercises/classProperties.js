@@ -5,6 +5,7 @@ to achieve the desired result.
 Make sure to run the file with node in your command line.
 */
 
+
 //-------------------
 // Part 1: Syntax and Naming Conventions
 //-------------------
