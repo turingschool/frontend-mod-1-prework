@@ -1,15 +1,22 @@
 ## Section 3 Reflection
 
-1. What are two points from the Growth Mindset article and/or video that either resonated with you, or were brand new to you?
+**1. What are two points from the Growth Mindset article and/or video that either resonated with you, or were brand new to you?**
+One thing that resonated with me from the video was the idea that you can have good days and bad days in that some days you might have a more fixed mindset than others, and also that you might have a growth mindset for some things/activities and not for others. Her advice was, on those days when it's not working- to take a break, sleep and then try again. Another point from both the article and the video that I want to internalize more is that struggle means you are learning, and it would be silly to expect to already be good at something you have just started!
 
-1. In which ways do you currently demonstrate a Growth Mindset? In which ways do you _not_?
+**2. In which ways do you currently demonstrate a Growth Mindset? In which ways do you _not_?**
+I currently have a very strong growth mindset for rock climbing- I have big goals but I know that they will come over years of work and moments of learning. When I am working out the moves and "projecting" a hard route, I do not expect to know how to do the route immediately and, to avoid frustration for everyone, I have learned never to complain that the move is impossible, or that I can't do it, or make any number of other excuses like I'm too short, I'm too weak, etc. This is a skill I am always practicing! I struggle more to demonstrate a growth mindset in other areas of my life, and when I am not seeing forward progress. Already, in the pre-work and mod 0 work, I have been frustrated with myself for not being better at coding, despite the fact that I have never done it before! When I am in the middle of DIY projects at home, my lack of growth mindset shows itself in my perfectionism. For the most part, I love tackling a large challenge, but I am hyper critical of all of my mistakes when things are going poorly, despite the fact that I may have little or no prior experience. Recently, when I have had to re-do or re-work something that isn't going well, I have been practicing re-framing it as a good opportunity to learn and to do a better job.  
 
-1. Think of a web or mobile application you use regularly. Where is an example of a place that the developers probably use Arrays? Explain.
+**3. Think of a web or mobile application you use regularly. Where is an example of a place that the developers probably use Arrays? Explain.**
+I use Gmail regularly and the developers use arrays to list out the types of email I have in my inbox: Inbox, Starred, Snoozed, Sent, Drafts, Important, Chats, and any other labels I have created myself. These labels are *collections* of certain *types* of email.  
 
-1. In your own words, explain what an Array method is.
+**1. In your own words, explain what an Array method is.**  
+In OOP, an array is an object and we can manipulate objects using methods. One example of an array method is `arrayName.pop()` which will edit our array and remove the last item from the array. It is easier/quicker/faster to use methods to manipulate arrays than it is to edit the array directly.
 
-1. What is the purpose of a loop? When we would use a loop in conjunction with array vs. without?
+**1. What is the purpose of a loop? When we would use a loop in conjunction with array vs. without?**
+The purpose of a loop is to repeat the same line(s) of code many times without having to type out the code over and over and over. We can use a loop without an array if we just want to console log very simple data like how many times the loop has run, some basic math, or the same phrase over and over. We can combine loops with arrays to filter through the array and log more complex data. We could, for example, run a loop to filter through a contact list (array) 100,000 people long and send a "Happy Birthday" message only to those people whose birthday is in the next month (in this example you would have to use an if statement as well as `&&` to get a matching birthday and email address).  
 
-1. If you had to teach a 5 year old about loops, how would you explain it?
+**1. If you had to teach a 5 year old about loops, how would you explain it?**  
+I would give them 10 skittles, say not to eat them yet, and explain that the definition of a loop is doing the same exact thing over and over again. The "thing" that we are going to do is: "eat one skittle." Now we have 9 skittles. We are going to do the "thing" again. Now we have 8 skittles. We are going to repeat that process until all the skittles are gone. Now when we try to "do the thing" we can't because we don't have any skittles left. This is the end of the loop, and we are sad.
 
-1. What questions do you still have about Arrays and loops?
+**1. What questions do you still have about Arrays and loops?**
+I feel pretty solid on the concept. I am not quite sure in which contexts it would be better to use a method to change an array vs reassigning the variable to change the array.
