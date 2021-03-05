@@ -10,4 +10,39 @@ tweet object instances _behave_ as expected.
 
 class Tweet {
 
+  constructor (author, content){
+
+  this.author = author;
+  this.content = content;
+  this.timeStamp = Date.now();
+  this.numberOfLikes = 0;
+  this.comments = [];
+
+  }
+
+  addLike() {
+    this.numberOfLikes++;
+  }
+
+  addComment(comment) {
+    this.comments.push(comment);
+  }
+
 };
+
+var bidenThought = new Tweet('Joseph R. Biden', "You won't have to worry about my Tweets when I'm president");
+console.log(bidenThought);
+var trumpThought = new Tweet('Donald J. Trump', "Despite the constant negative press covfefe");
+console.log(trumpThought);
+trumpThought.addLike();
+trumpThought.addComment("What are u even saying?");
+
+console.log(trumpThought);
+
+bidenThought.addLike();
+bidenThought.addLike();
+bidenThought.addLike();
+bidenThought.addLike();
+bidenThought.addComment("Finally");
+
+console.log(bidenThought);
