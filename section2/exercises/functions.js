@@ -17,7 +17,7 @@ function printName() {
   console.log("Severus Snape");
 };
 
-printName(); 
+printName();
 printName();
 printName();
 printName();
@@ -27,6 +27,13 @@ printName();
 // YOU DO: Write a function named sayHello that logs to the console "Oh, Hello!"
 // Then, call the function 2 times.
 
+function sayHello() {
+  console.log("Oh, Hello!");
+}
+
+sayHello();
+sayHello();
+
 //-------------------
 // PART 2: Arguments and Parameters
 //-------------------
@@ -35,18 +42,33 @@ printName();
 // The function should print out the value of the String that was passed in.
 // Then, call the function 3 times, each time, passing it a different name.
 
+function greetMe(name) {
+  console.log(name);
+}
 
+greetMe("Will");
+greetMe("Jamie");
+greetMe("Ben");
 
 // YOU DO: Write a function that takes in 2 numbers as arguments, Numbers, and logs their sum
 // Then, call that function 3 times, each time, passing in 2 different Numbers.
 
+function add (num1, num2) {
+  console.log(num1 + num2);
+}
 
+add(2, 10);
+add(6, 7);
+add(1000, 1563);
 
 // YOU DO🎈: Write a function that takes in two strings and prints a concatenation
 // of those two strings, for example the arguments could be ("Oscar", "Ruck") and
 // the end result might be "Oscar and Ruck are BFFS".  Then, call that function.
 
-
+function announceWinner(firstPlace, secondPlace) {
+console.log("The winners are " + firstPlace + " in first place and " + secondPlace + " in second place.");
+}
+announceWinner("Will", "Jamie");
 
 //-------------------
 // PART 3: Naming is Hard
@@ -60,6 +82,13 @@ Look at the code you wrote for the previous YOU DO🎈 - what did you name the f
 What did you name each parameter, and why?
 
 EXPLAIN:
+I named the function "announceWinner" because that is what the string does. I actually changed it after reading
+the directions about being concise and also realized it wasn't written with a verb. I now think it is concise
+because it states pretty clearly what it is doing.
+
+I named my parameters "firstPlace" and "secondPlace" because I think that it gives other programmers more
+information that variable names like "first" and "second" which could mean many things. I think "firstPlaceWinner"
+and "secondPlaceWinner" might be too long/too much too type each time!
 
 
 */
