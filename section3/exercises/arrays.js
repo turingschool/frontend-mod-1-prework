@@ -97,7 +97,7 @@ var posts = ["image at beach", "holiday party", "adorable puppy", "video of cute
 // may be storing data? Come up with 3 examples - they could be from different web applications or
 // all from the same one.
 
-// 1: var cars = ["Ford Mustanf", "Fiat 500", "Toyota Prius"] //CraigsList
+// 1: var cars = ["Ford Mustang", "Fiat 500", "Toyota Prius"] //CraigsList
 // 2: var motorcyclesForSaleByOwner = ["Honda CM250", "Yamaha R1", "Suzuki Hayabusa", "Kawasaki Ninja H2"] // also CraigsList
 // 3: var matches = ["Jordan", "Hanaa", "Riku", "Sierra", "Athena"] //matches on Bumble
 
