@@ -20,7 +20,7 @@ for (var i = 0; i < animals.length; i++) {
 // <animal> is awesome!" for each animal.
 var animals = ["dolphin", "kangaroo", "peacock"];
 
-for (var i = 0; i < animals.length; i ++) {
+for (var i = 0; i < animals.length; i++) {
   console.log(`The ${animals[i]} is awesome!`);
 }
 
@@ -30,7 +30,7 @@ for (var i = 0; i < animals.length; i ++) {
 
 var foods = ["apples", "lunchmeat", "taco seasoning"];
 
-for (var i = 0; i < foods.length; i ++) {
+for (var i = 0; i < foods.length; i++) {
   console.log(`Add ${foods[i]} to shopping list`);
 }
 
@@ -38,7 +38,7 @@ for (var i = 0; i < foods.length; i ++) {
 // of each of the number. (Ex: 4 doubled is 8.)
 
 var numbers = [1, 2, 3, 4, 5];
-for (var i = 0; i < numbers.length; i ++) {
+for (var i = 0; i < numbers.length; i++) {
   console.log(numbers[i]* 2);
 }
 
@@ -46,7 +46,7 @@ for (var i = 0; i < numbers.length; i ++) {
 // each name except the first two.
 var names = ["Sevy", "Lindsey", "Jericho", "Raeonna", "Latrina", "Jhana", "Luca"];
 
-for (var i = 2; i < names.length; i ++) {
+for (var i = 2; i < names.length; i++) {
   console.log(`Happy Birthday ${names[i]}`);
 }
 
@@ -62,7 +62,7 @@ for (var i = 2; i < names.length; i ++) {
 
 var ages = [17, 20, 34, 18, 16, 65, 49, 10, 22, 18];
 
-for (var i = 0; i < ages.length; i ++) {
+for (var i = 0; i < ages.length; i++) {
   if (ages[i] < 18) {
     console.log("Oh no, you can't vote quite yet.");
   } else {
