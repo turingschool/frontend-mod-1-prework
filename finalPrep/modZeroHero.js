@@ -201,4 +201,5 @@ Because our prework involved so much repetition, a lot felt familiar, which feel
 ```
 I think I need to actively use each section's skills weekly for the next couple of months before my cohort starts in May so I do not forget any of the concepts!
 I will be revisiting functions, objects, classes, array, variables...all of it!
+```
 
