@@ -23,15 +23,17 @@ console.log(enrolledStudents);
 // YOU DO:
 // Write code below to save the string 'Harry Potter must not return to Hogwarts!'
 // log that variable to the console.
-var sentence = (`${name} must not return to Hogwarts!`);
+var sentence = `${name} must not return to Hogwarts!`;
+var sentence2 = name + " must not return to Hogwarts!"
 console.log(sentence)
+console.log(sentence2)
 
 // YOU DO:
 // Declare three variables, named `firstName`, `isHungry` and `numberOfPets`.
   // Store the appropriate data types in each.
 // log all three variables to the console.
 var firstName = "Claire";
-var isHungry = "TRUE";
+var isHungry = true;
 var numberOfPets = 1;
 console.log(firstName);
 console.log(isHungry);
@@ -50,7 +52,7 @@ console.log(numberOfPets);
   // values (but same data type).
 // log all three variables to the console.
 firstName = "Josh";
-isHungry = "FALSE";
+isHungry = false;
 numberOfPets = 0;
 console.log(firstName);
 console.log(isHungry);
@@ -61,7 +63,7 @@ console.log(numberOfPets);
 // Using the variables below, log the total number of snacks to the console:
 var healthySnacks = 6;
 var junkFoodSnacks = 8;
-var totalNumberOfSnacks = (healthySnacks * junkFoodSnacks)
+var totalNumberOfSnacks = (healthySnacks + junkFoodSnacks)
 console.log(totalNumberOfSnacks);
 
 
