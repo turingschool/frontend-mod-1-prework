@@ -76,7 +76,7 @@ console.log(4 < 9);
 //YOU DO: this should log: true. 4 is less than 9.
 
 var books = 3;
-console.logs(4 < books);
+console.log(4 < books);
 // YOU DO: this should log: false. 4 is greater than 3.
 
 var friends = 6;
@@ -106,29 +106,29 @@ console.log(isHungry || finishedHomework);
 var lovesToPlay = true;
 var lovesDogPark = false;
 var lovesTreats = true;
-var age = 1;
+var age = 2;
 
 // YOU DO:
 // Determine if the dog loves to play and loves treats
-> console.log(lovesToPlay && lovesTreats);
-true
+//> console.log(lovesToPlay && lovesTreats);
+
 
 // Determine if the dog loves to play and loves the dog park
-> console.log(lovesToPlay && lovesDogPark);
-false
+//> console.log(lovesToPlay && lovesDogPark);
+
 
 // Determine if the dog loves to play or loves the dog park
-> console.log(lovesToPlay || lovesDogPark);
-true
+//> console.log(lovesToPlay || lovesDogPark);
+
 
 // Determine if the dog loves to play and is a puppy
-> console.log(lovesToPlay && age);
-1
+> console.log(lovesDogPark && age);
+
 
 // What did your final line of code evaluate to? Why do you think that is? Explain.
 /* ANSWER: Final line evaluated to 1. I have not defined what it means to be a "puppy" so
 the computer is evaluating (lovesToPlay (true) && age (1)). It evaluates left to right and converts each operand to a boolean,
-since it cannot convert age to a boolean, it returns the farthest right value. I changed var age to 0 to check to see if 
+since it cannot convert age to a boolean, it returns the farthest right value. I changed var age to 0 to check to see if
 it had anything to do with the boolean values of 0 and 1 (false and true) and it still returned 0, which proves my theory. */
 
 //-------------------
