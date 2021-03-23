@@ -22,7 +22,7 @@ var creatures = "unicorns";
 console.log("My zoo has " + numberOfCreatures + " " + creatures + "!")
 
 // YOU DO: What data type will be logged to the console as a result of line 22? Explain.
-// Your answer and explanation here: What will be logged is "My zoo has 7 unicorns!". This is because we logged strings, and variables of different data types using the + symbol which joins these together.
+// Your answer and explanation here: A string. What will be logged is "My zoo has 7 unicorns!". This is because we logged strings, and variables of different data types using the + symbol which joins these together.
 
 
 

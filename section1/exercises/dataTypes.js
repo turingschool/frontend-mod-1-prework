@@ -39,7 +39,7 @@ console.log(2 + 2);
 console.log(83 - 7);
 
 // YOU DO: log the result of 6 multiplied by 53 to the console:
-console.log(6 * 3);
+console.log(6 * 53);
 
 // YOU DO: log the result of 20 divided by 4 to console:
 console.log(20 / 4);
