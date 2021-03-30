@@ -24,13 +24,13 @@ Here's what we ask you do:
 - command
 - directory
 - code comments
-- String
-- Number
-- Boolean
-- variable
-- assignment operator
-- re-assignment (of a variable)
-- concatenation
+- String - data type used to represent TEXT
+- Number - numerical data type. This can be positive, negative or 0 and can be a whole interger or a float (number with floating point decimal)
+- Boolean - true or false variable
+- variable - allows us to reference a word in a computer's memory that returns stored data
+- assignment operator -
+- re-assignment (of a variable) -
+- concatenation - assigning a string to a variable and using this to combine the variable with another string
 
 ### JavaScript Reserved Keywords
 
@@ -310,7 +310,7 @@ Let's take a look at why that resulted in a string. We have a variable called `s
 > 👩‍💻 PAUSE here, and complete the exercises in `concatenation.js`
 
 ### Interpolation
-In addition to concatenation, you may also have seen interpolation used to inject values into strings! One benefit of interpolation is that it can be easier to read in longer strings and don't require concatenating separate strings together. 
+In addition to concatenation, you may also have seen interpolation used to inject values into strings! One benefit of interpolation is that it can be easier to read in longer strings and don't require concatenating separate strings together.
 
 Interpolation requires slightly different syntax to inject values into a string. Follow the below formula to utilize interpolation:
 1. Use the backtick (same key as the `~`, or the key to the left of the `1` key on a mac) to wrap your entire string
