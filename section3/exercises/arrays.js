@@ -97,8 +97,8 @@ var posts = ["image at beach", "holiday party", "adorable puppy", "video of cute
 // all from the same one.
 
 // 1: (Arizona Repulic) var articles = ["covid updates", "political article", "opinion piece"];
-// 2: (Gmail) var email types = ["promotions", "social", "important"];
-// 3: (Facebook) var video uploads = ["video of puppy", "dance video", "favorite dance"];
+// 2: (Gmail) var emailTypes = ["promotions", "social", "important"];
+// 3: (Facebook) var videoUploads = ["video of puppy", "dance video", "favorite dance"];
 
 
 //-------------------
