@@ -140,13 +140,14 @@ console.log(lovesToPlay && lovesDogPark);
 console.log(lovesToPlay || lovesDogPark);
 
 // Determine if the dog loves to play and is a puppy
-console.log(lovesToPlay && age);
+console.log(lovesToPlay && age >= 1);
 
 // What did your final line of code evaluate to? Why do you think that is? Explain.
 // ANSWER: Using the logical AND operation with lovesToPlay and age, it evaluated to
 // the integer 1. I think this is because if both values are not the same data type,
 // specifically a boolean and an integer of 1, then the result of the operation
-// will be the second value.
+// will be the second value. I then added another comparison operator to evaluate it age
+// was >= 1 which was my determining factor if the dog was a puppy. This then evaluated to true.
 
 //-------------------
 // FINAL CHECK
