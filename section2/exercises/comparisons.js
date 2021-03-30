@@ -81,24 +81,26 @@ console.log("Is numberStudents less than or equal to 21?", numberStudents <= 21)
 
 console.log(4 < 9);
 //YOU DO: Explain.
-// True. 4 is indeed less than 9.
+// 4 is indeed less than 9. True will be logged to the console.
 
 var books = 3;
 console.log(4 < books);
 // YOU DO: Explain.
-// False. If the value of variable books = 3, 4 cannot be less than books.
+// Declare variable books. If the value of variable books = 3, 4 cannot be less than books. False will be logged to the console.
 
 var friends = 6;
 var siblings = 2;
 console.log(friends > siblings);
 // YOU DO: Explain.
-// True. If the value of variable friends = 6 and the value of variable siblings = 2, friends is greater than siblings.
+// Declare variables friends and siblings. True. If the value of variable friends = 6 and the value of variable siblings = 2, friends is greater
+// than siblings. True will be logged to the console.
 
 var attendees = 9;
 var meals = 8;
 console.log(attendees !== meals);
 // YOU DO: Explain.
-// True. !== means not equal to. If the value of variable attendees is 9 and the value of variable meals is 8, the two values are in fact not equal.
+// !== means not equal to. If the value of variable attendees is 9 and the value of variable meals is 8, the two values are in fact not equal.
+// True will be logged to the console.
 
 
 //-------------------
