@@ -47,7 +47,7 @@ if (dogAge <= 0) {
   console.log('This dog is not born yet.')
 } else if (dogAge <= 2) {
   console.log('puppy');
-} else if (dogAge <= 9) {
+} else if (dogAge < 10) {
   console.log('adult')
 } else {
   console.log('elderly')
