@@ -38,9 +38,9 @@ console.log(firstName, isHungry, numberOfPets)
 // IN WORDS:
 // How did you decide to use the data type you did for each of the three variables above?
   // Explain.
-Since "firstName""would have to be answered in text, the variable would be a string.
-Since the answer to "isHungry" is either true or false, the variable is a boolean.
-Since the answer to "numberOfPets" would be an integer, the variable is a number.
+//Since "firstName""would have to be answered in text, the variable would be a string.
+//Since the answer to "isHungry" is either true or false, the variable is a boolean.
+//Since the answer to "numberOfPets" would be an integer, the variable is a number.
 
 // YOU DO:
 // Re-assign the values to the three variables from the previous challenge to different
