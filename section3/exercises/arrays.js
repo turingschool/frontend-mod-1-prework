@@ -32,7 +32,7 @@ animals.splice(2, 1, 'Gorilla');
 console.log(animals);
 
 // YOU DO: Write code that will add a new animal (type of your choice) to position 3.
-animals.splice(2, 0, 'Panda');
+animals.splice(3, 0, 'Panda');
 console.log(animals);
 
 // YOU DO: Write code that will log the String "Elephant" in the animals array
@@ -44,7 +44,7 @@ console.log(animals[3]);
 //-------------------
 
 // YOU DO: Declare a variable that will store an an array of at least 4 foods (strings)
-var foods = ['Turnip', 'Egg', 'Steak'];
+var foods = ['Turnip', 'Egg', 'Steak', 'Eggplant'];
 
 // YOU DO: Write code below that will log the number of elements in the array of
 // foods from above.
@@ -127,7 +127,7 @@ if (percentBatteryLeft >= 15) {
   console.log("You can call an Uber!");
 // Conditional statement, if the if is not satisfied, and hasCharger equals true and chargerType equals
 // "car", the code directly under will be run.
-} else if ((hasCharger === true) && (chargerType === "car")) {
+} else if (hasCharger === true && chargerType === "car") {
 // Log script "You can call an Uber! But charge your phone." to the console.
   console.log("You can call an Uber! But charge your phone.");
 // Conditional statement, if the `if` and `else if` are not satisfied, the code directly under will be run.

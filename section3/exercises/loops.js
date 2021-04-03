@@ -23,9 +23,9 @@ for (var i = 0; i < 3; i++) {
 }
 
 // What is logged to the console for this second example? Why?
-// EXPLAIN: It is logging i to the console 3 times. We start with i = 0, then we keep adding 1 to i every
-// time the loop repeats itself by using i++. We tell the code to stop after the 3rd time with i < 3.
-// Thus, the var i is logged to the console as 0, 1, 2 and the loop stops.
+// EXPLAIN: It is logging i, or index position, to the console 3 times. We start with i = 0, then we
+// keep adding 1 to i every time the loop repeats itself by using i++. We tell the code to stop after
+// the 3rd time with i < 3. Thus, the var i is logged to the console as 0, 1, 2 and the loop stops.
 
 
  // YOU DO: Write code below that logs to the console, the sum of 2 plus 2, 7 times:
