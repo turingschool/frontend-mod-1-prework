@@ -24,21 +24,31 @@ for (var i = 0; i < 3; i++) {
 
 // What is logged to the console for this second example? Why?
 // EXPLAIN:
-
+// For the second example, it would log the value of the variable i for the duration of the loops
+// so it would log 012. When attempting to perform the loop again with the value of 3, the condition1
+// would evaluate to false, and the code stops running.
 
  // YOU DO: Write code below that logs to the console, the sum of 2 plus 2, 7 times:
-
+for (var i = 0; i<7; i++){
+  console.log(2+2);
+}
 
  // YOU DO: Write code below that logs the String 'She sells seashells down by the seashore'
  // 10 times.
-
+for (var i = 0; i < 10; i++){
+  console.log('She sells seashells down by the seashore');
+}
 
 //-------------------
 // LEVEL 2: An Added Layer of Challenge
 //-------------------
 
-// YOU DO: Write code below that logs to the console a String of "This is loop number: " 
+// YOU DO: Write code below that logs to the console a String of "This is loop number: "
 //that concatenates with `i`.
+for (var i = 0; i < 7; i++){
+  console.log('This is loop number: '+ i );
+}
+// Meg - I didn't see a specific number of iterations requested, so I settled on the nice lucky number 7 :)
 
 // YOU DO: Using a for loop, how could you get an output that looks like this:
 
@@ -53,6 +63,12 @@ for (var i = 0; i < 3; i++) {
 // 2
 // 1
 
-// Not sure? Try to google some terms that seem relevant. Play around with it. Don't spend 
+for (var i = 10; i >= 1; i--){
+  console.log(i);
+}
+
+// Not sure? Try to google some terms that seem relevant. Play around with it. Don't spend
 // more than 15 minutes without making progress. If you are at 15 minutes and haven't made
 // progress, that means it's time to reach out to your pre-work group on Slack!
+
+// Meg - Nice! That was in the suggested video so that was awesome!

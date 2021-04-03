@@ -9,7 +9,7 @@ Section 2 is estimated to take a total of 8-12 hours to complete. Similar to Sec
 
 ## Vocabulary
 
-This section will introduce a number of new terms, that may feel a bit more complex. Write these terms and reserved keywords in that special spot in your notebook now. Work to hold yourself acocuntable to updating definitions _as you work through this section_.
+This section will introduce a number of new terms, that may feel a bit more complex. Write these terms and reserved keywords in that special spot in your notebook now. Work to hold yourself accountable to updating definitions _as you work through this section_.
 
 ### Vocabulary Terms
 
@@ -42,7 +42,11 @@ Read the three blog posts that follow:
 * [Asking better questions](https://dev.to/josefine/asking-better-questions-2e2k)
 * [Your Questions Are Dumb; Ask Them Anyway](https://dev.to/kathryngrayson/your-questions-are-dumb-ask-them-anyway-3cm6)
 
-Reflect on these posts, and how you feel about asking questions (specifically, technical questions as you enter your technical work at Turing). How might this positively or negatively impact your growth? 
+Reflect on these posts, and how you feel about asking questions (specifically, technical questions as you enter your technical work at Turing). How might this positively or negatively impact your growth?
+
+I agree with what we have talked about in the Mod 0 sessions so far about making sure that you formulate the questions in the best way possible. I often have a difficult time distilling my questions to the most important information - I have a tendency to ramble.
+In addition, I agree that one driver for not asking questions is stubbornly wanting to find the answer yourself. Mostly likely due to an attempt to avoid asking a "dumb question".
+Not asking questions after attempting to seek the answer can have a seriously negative impact on growth in any field. The point made in one of the articles about valuing your time was a good example of that. If you can't find the answer after 30 minutes of actively seeking it, then learn from someone else that has the answer.
 
 It's going to take some time to find that balance between googling and pushing yourself to solve a problem without hand-holding, and reaching out for help. That's ok! be patient with yourself. The way you will find that balance is by being cognizant and aware of how you currently operate. Keep this on your mind as you work through this section, and... there is no time like the present to start asking questions!
 

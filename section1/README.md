@@ -354,7 +354,7 @@ Look back at that special spot in your notebook for vocabulary. Have you updated
 
 📝 Answer the prompts in the `reflection.md` file in the `section1` directory. The `.md` file extension for this file refers to markdown formatting. Markdown is a markup language to help format your text. [This article](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet) shows everything you need for basic Markdown formatting.
 
-## Save your work in Git
+## Save your work in Git 👍
 
 When you are finished with all of the `section1` exercises and reflections, follow these steps in order to save your work to your local git repository.
 
@@ -410,7 +410,7 @@ nothing to commit, working tree clean
 
 Congratulations! You just saved your work to Git! If `git status` is showing any files, add them with `git add <file name>` and commit them with `git commit -m "Add Section 1"`.
 
-### Push to GitHub
+### Push to GitHub 👍
 
 You've saved your work to Git on your local machine, but it is not yet accessible through your remote GitHub repository. Updating our remote GitHub repository with our local changes is called pushing. Push your code with the following command:
 
