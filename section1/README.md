@@ -43,9 +43,6 @@ Here's what we ask you do:
 
 Read [this article](https://pubs.ppai.org/pc-today/six-habits-of-super-learners/) about the habits of Super Learners. Reflect on this - what do you already do? Does this make you want to do anything new or different as you begin this learning journey? Jot down your notes now, and we will ask you to share some reflections with your small group at the end of this section.
 
-The suggestion on adopting a growth mindset stood out to me in this article as something I already do. Reading the book on this by Carol Dweck helped inspire me to pursue becoming a Developer. Adopting this growth mindset has allowed me to see that I am able to accomplish learning anything through hard work and grit. I am excited to see where this takes me now that I am on a journey to learn something completely new that I never saw myself doing!
-
-As I begin this journey, something that stands out as important to me is taking short breaks, early and often. We have discussed the pomodoro method in Mod 0, and I have seen success with the short breaks here. I am interested to see how this learning/working style translates to more complex subjects. It is interesting here that they mention that this method helps our neural networks process new information. I have been under the assumption that this method was more about our ability to focus, but it seems there may be multiple reasons that it is a helpful approach.
 
 
 ## Part B Terminal
