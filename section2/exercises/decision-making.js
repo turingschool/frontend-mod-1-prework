@@ -44,7 +44,7 @@ Questions
   In this case, we are using the comparison operator === to indicate the condition will result in true if the variable bearChoice
   is exactly equals to 1.
 
-  Any value other than 1 will result in a false. If the condition is met, or if variable bearClothing changes to "hat". If the
+  Any value other than 1 will result in a false. If the condition is met, or true, variable bearClothing changes to "hat". If the
   condition is not met, or else, the variable bearClothing changes to "shirt".
 
 2. What variable has a new value assigned to it after the first if statement executes?

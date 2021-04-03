@@ -97,7 +97,7 @@ When cupsOfFlour = 3 and hasSauce = true, your program should log "I can make pi
 */
 
 var cupsOfFlour = 2;
-var hasSauce = false;
+var hasSauce = true;
 
 // Write your conditional here
 if (cupsOfFlour >= 2 && hasSauce === true) {
