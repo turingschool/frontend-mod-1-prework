@@ -80,14 +80,14 @@ console.log(cloud);
 // Prompt 2: Snack
 
 class Snack1 {
-  constructor() {
-    this.name = "empanada";
-    this.taste = "beef";
-    this.temperature = "hot";
+  constructor(name, flavor, temp) {
+    this.name = name;
+    this.taste = flavor;
+    this.temperature = temp;
   }
 }
 
-var empanada = new Snack1();
+var empanada = new Snack1("empanada", "beef", "hot");
 console.log(empanada);
 
 

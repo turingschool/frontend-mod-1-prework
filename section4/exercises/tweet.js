@@ -19,8 +19,8 @@ class Tweet {
 
   addLikes() {
     this.likes = this.likes + 1;
-  } addComments(x) {
-    this.comments.unshift(x);
+  } addComments(comment) {
+    this.comments.unshift(comment);
   }
 };
 

@@ -40,7 +40,7 @@ console.log(animalQuantity.rhinos);
 
 // Add an animal to the zoo Object, and log the updated Object.
 animalQuantity['elephants'] = 5;
-console.log(animalQuantity.elephants);
+console.log(animalQuantity);
 
 // Change the value for at least one of your animal keys, and log the updated Object.
 animalQuantity['giraffes'] = 4;
@@ -148,4 +148,3 @@ var contactInfo = [
 ]
 
 console.log(contactInfo);
-console.log(contactInfo[0]);
