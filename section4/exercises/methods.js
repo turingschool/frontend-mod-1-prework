@@ -18,3 +18,14 @@ var lunchOrder = {
   beverage: "iced tea",
   tableNumber: 47
 }
+
+lunchOrder.prepare = function() {
+  console.log("Your order is being prepared.")
+}
+lunchOrder.complete = function() {
+  console.log("Your order has been completed. Enjoy!")
+}
+
+console.log(lunchOrder);
+lunchOrder.prepare();
+lunchOrder.complete();
