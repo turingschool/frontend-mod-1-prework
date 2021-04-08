@@ -131,8 +131,8 @@ For the last two exercises, an ideal solution probably uses a logical operator.
 Did yours? Do you know what a logical operator in JavaScript is? Google it to answer
 for yourself!
 
-Oh that's neat. I did not use the logical operator with my first attempt, but then
+Meg - Oh that's neat. I did not use the logical operator with my first attempt, but then
 tried again. That makes a lot of sense. I left my initial ideas in there to
-be able to see how I could simplify each one. 
+be able to see how I could simplify each one.
 
 */
