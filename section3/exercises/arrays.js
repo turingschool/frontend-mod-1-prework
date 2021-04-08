@@ -29,6 +29,9 @@ console.log(animals.length);
 // YOU DO: Write code that will reassign the last item in the animals
 // array to "Gorilla"
 animals[2] = 'Gorilla';
+// Nina comment - alternate way of change thing last item, not matter what the index number is
+// animals.pop();
+// animals.push('Gorilla');
 
 // YOU DO: Write code that will add a new animal (type of your choice) to position 3.
 animals[3] = 'Lizard';
