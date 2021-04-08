@@ -29,14 +29,14 @@ for (var i = 0; i < 3; i++) {
 // would evaluate to false, and the code stops running.
 
  // YOU DO: Write code below that logs to the console, the sum of 2 plus 2, 7 times:
-for (var i = 0; i<7; i++){
-  console.log(2+2);
+for (var i = 0; i < 7; i ++){
+  console.log(2 + 2);
 }
 
  // YOU DO: Write code below that logs the String 'She sells seashells down by the seashore'
  // 10 times.
 for (var i = 0; i < 10; i++){
-  console.log('She sells seashells down by the seashore');
+  console.log('She sells seashells down by the seashore.');
 }
 
 //-------------------
