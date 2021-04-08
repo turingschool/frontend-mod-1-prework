@@ -16,11 +16,26 @@ Make sure to run the file with node in your command line.
   // You do not need any proerties at this time!!
 
 // Prompt 1: Dog
+class Dog {
 
+}
+var sheppard = new Dog();
+var lab = new Dog();
+console.log(sheppard,lab);
 // Prompt 2: Snack
+class Snack {
 
+}
+var cheetos = new Snack();
+var cheezits = new Snack();
+console.log(cheetos, cheezits);
 // Prompt 3: Shirt
+class Shirt {
 
+}
+var blackShirt = new Shirt();
+var whiteShirt = new Shirt();
+console.log(blackShirt, whiteShirt);
 //-------------------
 // Part 2: Properties
 //-------------------
@@ -33,11 +48,35 @@ Make sure to run the file with node in your command line.
   // Log that variable to the console.
 
 // Prompt 1: Dog
-
+class Dogs {
+  constructor(lgth, frnd, iclr) {
+    this.fur = lgth;
+    this.friendly = frnd;
+    this.eyeColor = iclr;
+  }
+}
+var bullDog = new Dogs("short", true, "green");
+console.log(bullDog);
 // Prompt 2: Snack
-
+class Snacks {
+  constructor(bag, salty, sweet) {
+    this.bagged = bag;
+    this.salty = salty;
+    this.sweet = sweet;
+  }
+}
+var chips = new Snacks(true, true, false);
+console.log(chips);
 // Prompt 3: Shirt
-
+class Shirts {
+  constructor(clr, sze, sleev) {
+    this.color = clr;
+    this.size = sze;
+    this.sleeves = sleev;
+  }
+}
+var tShirt = new Shirts("black", "Large", "long");
+console.log(tShirt);
 //-------------------
 // Part 3: Dynamic Properties
 //-------------------
@@ -51,7 +90,38 @@ Make sure to run the file with node in your command line.
   // Log those variables to the console.
 
 // Prompt 1: Dog
-
+class Dogss {
+  constructor(lgth, frnd, iclr) {
+    this.fur = lgth;
+    this.friendly = frnd;
+    this.eyeColor = iclr;
+  }
+}
+var bullDog = new Dogss("short", true, "green");
+console.log(bullDog);
+var goldLab = new Dogss("medium", true, "blue");
+console.log(goldLab);
 // Prompt 2: Snack
-
+class Snackss {
+  constructor(bag, salty, sweet) {
+    this.bagged = bag;
+    this.salty = salty;
+    this.sweet = sweet;
+  }
+}
+var chips = new Snackss(true, true, false);
+console.log(chips);
+var candy = new Snackss(true, false, true);
+console.log(candy);
 // Prompt 3: Shirt
+class Shirtss {
+  constructor(clr, sze, sleev) {
+    this.color = clr;
+    this.size = sze;
+    this.sleeves = sleev;
+  }
+}
+var tShirt = new Shirtss("black", "Large", "long");
+console.log(tShirt);
+var polo = new Shirtss("blue", "medium", "short");
+console.log(polo);
