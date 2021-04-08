@@ -52,7 +52,7 @@ var weather = 'storms';
 var action = 'learning';
 var flotationDevice = 'my ship';
 
-console.log(`I am not afraid of ${weather} for I am ${action} to sail ${flotationDevice}`);
+console.log(`I am not afraid of ${weather}, for I am ${action} to sail ${flotationDevice}`);
 
 //-------------------
 // FINAL CHECK

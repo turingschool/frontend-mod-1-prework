@@ -37,7 +37,7 @@ console.log(firstName, isHungry, numberOfPets);
 // IN WORDS:
 // How did you decide to use the data type you did for each of the three variables above?
   // Explain.
-/*The variable names helped to guide the response. The first name would be a string and then number of pets would be a number.
+/* Meg - The variable names helped to guide the response. The first name would be a string and then number of pets would be a number.
 It wouldn't make sense to put a string for the pet number or a number for the name.*/
 
 // YOU DO:
@@ -48,6 +48,7 @@ firstName = 'Olivia';
 isHungry = 'Sometimes';
 numberOfPets = 10;
 
+console.log(firstName, isHungry, numberOfPets);
 // YOU DO:
 // Using the variables below, log the total number of snacks to the console:
 var healthySnacks = 6;
@@ -62,9 +63,10 @@ console.log(healthySnacks + junkFoodSnacks);
 // Did you run this file in your terminal to make sure everything printed out to the console
 // as you would expect?
 
-/*Yes!
+/* Meg - Yes!
 Harry Potter
 22
 Harry Potter must not return to Hogwarts!
 Megan Always 1
-14*/
+Olivia Sometimes 10
+14 */

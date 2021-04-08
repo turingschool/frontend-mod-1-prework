@@ -49,7 +49,7 @@ console.log("In a predictable result, the " + slowPoke + " beat the " + speedy +
   // Then, log out ONE sentence that incorporates all THREE variables.
 var feeling = "love";
 var amount = "bushel";
-var lovingAction = "hug around the neck";
+var lovingAction = "hug around the neck.";
 
 console.log("I " + feeling + " you a " + amount + " and a peck and a " + lovingAction);
 
