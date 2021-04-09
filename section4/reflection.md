@@ -41,4 +41,4 @@ episodesStreamed: 22
 
 6. What questions do you still have about classes and/or Objects?
 - What does "this." mean, and why is it used?
-- If you wanted to add comments to the tweet.js exercise, how would you format the message? I understand how to make a method a set addition (+1 like), but am curious how you would add a variable like a new comment.
+- If you wanted to add comments to the tweet.js exercise, how would you format the message? I understand how to make a method a set addition (+1 like), but am curious how you would add something that would have to be malleable, like a new comment.
