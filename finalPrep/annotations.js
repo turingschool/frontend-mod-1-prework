@@ -41,15 +41,15 @@ buildABear('Sleepy', 2, 'purple', ['pajamas', 'sleeping cap'], 'sleeping in');
 function fizzBuzz(num1, num2, range) {
 // run a for loop with the condition of intializing at index 0, running if it is less than the range variable, and increasing by 1 on the counter
   for (var i = 0; i <= range; i++) {
-// evaluate the condition
+// evaluate the condition if index divided by num1 has a remainder exactly equal to 0 AND index divided by variable num2 has a remainder exactly equal to 0
     if (i % num1 === 0 && i % num2 === 0) {
 // if the condition evaluates to true, log string to console
       console.log('fizzbuzz');
-// if index divided by variable num1 has a remainder exactly equal to 0
+// evaluate the condition if index divided by variable num1 has a remainder exactly equal to 0
     } else if (i % num1 === 0) {
 // if the condition evaluates to true, log string to console
       console.log('fizz');
-// if index divided by variable num2 has a remainder exactly equal to 0
+// evaluate the condition if index divided by variable num2 has a remainder exactly equal to 0
     } else if (i % num2 === 0) {
 // if the condition evaluates to true, log string to console
       console.log('buzz');
