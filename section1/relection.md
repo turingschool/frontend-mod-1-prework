@@ -28,7 +28,7 @@ The overarching takeaway for me was the need to slow down a little bit. Everythi
 '2' > '1'
 ```
 
-- Number - includes all **number, decimals, negatives**. No fractions or commas.
+- Number - includes all **number, decimals, negatives, and fractions(not technically, but it works)**. No commas.
 
 - String - consists of **letters, numbers, and other characters in QUOTES (emojis too).**  
 
@@ -72,6 +72,6 @@ Every site that has user accounts will likely use this function. Let's take Amaz
 
 9. What questions do you still have about the work we've done so far? (not having a question is not an option)
 
-I didn't quite grasp the sheep exercise. I didn't know where to get start. Is there a more specific list of questions to ask yourself when attempting to define a goal and write out the steps in pseudocode?
+I didn't quite grasp the sheep pseudocode exercise. I didn't know where to get started. Is there a more specific list of questions to ask yourself when attempting to define a goal and write out the steps in pseudocode?
 
 Next time I may do a flowchart to try to understand the process better, but any insight would be appreciated.
