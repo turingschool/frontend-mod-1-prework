@@ -23,8 +23,8 @@ console.log(enrolledStudents);
 // YOU DO:
 // Write code below to save the string 'Harry Potter must not return to Hogwarts!'
 // log that variable to the console.
-var harryNo = 'Harry Potter must not return to Hogwarts!';
-console.log(harryNo);
+var harryFate = 'Harry Potter must not return to Hogwarts!';
+console.log(harryFate);
 
 // YOU DO:
 // Declare three variables, named `firstName`, `isHungry` and `numberOfPets`.
@@ -40,14 +40,14 @@ console.log(firstName, isHungry, numberOfPets);
 // How did you decide to use the data type you did for each of the three variables above?
   // Explain.
     //I used firstName as a string, isHungry as a Boolean, and number of pets as a number.
-    //These seemed like appropriate data types given what the variable names implied.
+    //These seemed like appropriate data types given the implication of each of the given variable names.
 
 // YOU DO:
 // Re-assign the values to the three variables from the previous challenge to different
   // values (but same data type).
 firstName = 'John';
 isHungry = false;
-numberOfPets = 0
+numberOfPets = 0;
 console.log(firstName, isHungry, numberOfPets);
 
 // log all three variables to the console.
