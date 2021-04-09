@@ -158,7 +158,8 @@ console.log(superman);
 // Reflection
 // What parts were most difficult about this exerise?
 
-// I had difficulty with the class methods. That concept has been difficult to fully understand for me.
+// I had difficulty with the class methods. That concept has been difficult to fully understand for me, so it took the most tweaking.
+// I also struggled with some syntax - capitalizing incorrectly or forgetting a ";" put me behind a few times.
 
 // What parts felt most comfortable to you?
 
