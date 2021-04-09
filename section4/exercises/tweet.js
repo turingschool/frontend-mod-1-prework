@@ -8,6 +8,7 @@ Create several instances of your Tweet and log them to the console. Make sure th
 tweet object instances _behave_ as expected.
 */
 
+
 class Tweet {
   constructor(author, content, timeStamp, numberOfLikes, comments){
     this.author = author;
@@ -16,6 +17,13 @@ class Tweet {
     this.numberOfLikes = numberOfLikes;
     this.comments = comments;
   }
+  addLike() {
+    this.numberOfLikes++;
+  }
+  addComment(newComment) {
+    this.comments.unshift(newComment);
+  }
+
 };
 
 var tweet1 = new Tweet ("Mae D.", "I just started school at Turing!", "4:35 PM on 3/27/21", 5, ["Congrats!", "Yay!!!"])
@@ -32,3 +40,10 @@ console.log(tweet4);
 
 var tweet5 = new Tweet ("Cardi B", "I love my fans!", "12:30 PM on 6/22/2019", 13251, ["We love you Cardi!", "All the love", "When do we get new music?!"])
 console.log(tweet5);
+
+
+tweet5.addComment("You're the best!");
+console.log(tweet5);
+
+tweet1.addLike();
+console.log(tweet1);
