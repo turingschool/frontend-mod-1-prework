@@ -16,11 +16,38 @@ Make sure to run the file with node in your command line.
   // You do not need any proerties at this time!!
 
 // Prompt 1: Dog
+//class Dog {
 
-// Prompt 2: Snack
-
-// Prompt 3: Shirt
-
+// }
+//
+// var dachshund = new Dog();
+// console.log(dachshund);
+//
+// var greyhound = new Dog();
+// console.log(greyhound);
+//
+// // Prompt 2: Snack
+// class Snack {
+//
+//   }
+//
+//
+// var candy = new Snack ();
+// console.log(candy);
+//
+// var chips = new Snack();
+// console.log(chips)
+//
+// // Prompt 3: Shirt
+// class Shirt {
+//
+// }
+//
+// var blue = new Shirt();
+// console.log(blue);
+//
+// var green = new Shirt();
+// console.log(green);
 //-------------------
 // Part 2: Properties
 //-------------------
@@ -32,11 +59,53 @@ Make sure to run the file with node in your command line.
   // Create an object instance and store in variable
   // Log that variable to the console.
 
-// Prompt 1: Dog
-
-// Prompt 2: Snack
-
-// Prompt 3: Shirt
+// // Prompt 1: Dog
+// class Dog {
+//   constructor(){
+//     this.color = "gray";
+//     this.numberTails = 1;
+//     this.isGoodBoy = True;
+//   }
+//
+// }
+//
+// var dachshund = new Dog();
+// console.log(dachshund);
+//
+// var greyhound = new Dog();
+// console.log(greyhound);
+//
+//
+// // Prompt 2: Snack
+//
+// class Snack {
+// //   constructor(){
+// //     this.tasty = true;
+//     this.highCalories = true;
+//     this.sodium = 100;
+//   }
+//
+// var candy = new Snack ();
+// console.log(candy);
+// //
+// var chips = new Snack();
+// console.log(chips)
+//
+// // Prompt 3: Shirt
+//
+// class Shirt {
+//   constructor(){
+//     this.fit = "Large";
+//     this.length = "crop top";
+//     this.clean = true;
+//   }
+// }
+//
+// var blue = new Shirt();
+// console.log(blue);
+//
+// var green = new Shirt();
+// console.log(green);
 
 //-------------------
 // Part 3: Dynamic Properties
@@ -51,7 +120,47 @@ Make sure to run the file with node in your command line.
   // Log those variables to the console.
 
 // Prompt 1: Dog
+class Dog {
+  constructor(fur, tails, good){
+    this.color = fur;
+    this.numberTails = tails;
+    this.isGoodBoy = good;
+  }
+}
+
+var dachshund = new Dog("red", 1, false);
+console.log(dachshund);
+
+var greyhound = new Dog("black", 2, true);
+console.log(greyhound);
+
 
 // Prompt 2: Snack
+class Snack {
+  constructor(tasty, calories, salty){
+    this.tasty = tasty;
+    this.highCalories = calories;
+    this.sodium = salty;
+  }
+}
+var candy = new Snack (true, true, 200);
+console.log(candy);
+
+var chips = new Snack(false, true, 2199);
+console.log(chips)
 
 // Prompt 3: Shirt
+
+class Shirt {
+  constructor(fit, length, clean){
+    this.fit = fit;
+    this.length = length;
+    this.clean = clean;
+  }
+}
+
+var blue = new Shirt("small", "croptop", true);
+console.log(blue);
+
+var green = new Shirt("large", "tunic", false);
+console.log(green);
