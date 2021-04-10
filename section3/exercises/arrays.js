@@ -103,11 +103,11 @@ var posts = ["image at beach", "holiday party", "adorable puppy", "video of cute
 // all from the same one.
 
 // 1: Retail Website
-var categories = ["Womens Clothing", "Mens Clothing", "Kids Clothing", "Accessories"]
+var categories = ["Womens Clothing", "Mens Clothing", "Kids Clothing", "Accessories"];
 // 2: IMDB
-var movies = ["Scary Movies", "90s Movies", "Oscar Nominated Movies"]
+var movies = ["Scary Movies", "90s Movies", "Oscar Nominated Movies"];
 // 3: Spotify
-var artists = ["Bassnectar", "Glitch Mob", "Crystal Castles"]
+var artists = ["Bassnectar", "Glitch Mob", "Crystal Castles"];
 
 
 //-------------------
@@ -131,9 +131,9 @@ var chargerType = "car";
 function callUber() {
   // If all of these conditions are met, then it returns true. If not, it returns false (cannot call Uber)
   if (percentBatteryLeft >= 15 && hasCharger && chargerType === "car") {
-    return true
+    return true;
   } else {
-    return false
+    return false;
   }
 }
 console.log(callUber());

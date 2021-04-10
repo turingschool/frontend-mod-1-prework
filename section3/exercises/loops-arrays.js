@@ -35,7 +35,7 @@ for (var i = 0; i < foods.length; i++) {
 // YOU DO: Create an array of numbers and then iterate over that array to log double
 // of each of the number. (Ex: 4 doubled is 8.)
 
-var numbers = [ 2, 4, 6]
+var numbers = [ 2, 4, 6];
 
 for (var i = 0; i < numbers.length; i++) {
   console.log(numbers[i] * 2);
@@ -46,7 +46,7 @@ for (var i = 0; i < numbers.length; i++) {
 var names = ["Sevy", "Lindsey", "Jericho", "Raeonna", "Latrina", "Jhana", "Luca"];
 
 for (var i =2; i < names.length; i++) {
-  console.log("Happy Birthday " + names[i])
+  console.log("Happy Birthday " + names[i]);
 }
 
 // THE FINAL YOU DO: Using the array of ages below, print out a statement for each age.
@@ -63,13 +63,13 @@ for (var i =2; i < names.length; i++) {
 var ages = [17, 20, 34, 18, 16, 65, 49, 10, 22, 18];
 
 for (var i=0; i < ages.length; i++) {
-  console.log(canVote(ages[i]))
+  console.log(canVote(ages[i]));
 }
 
 function canVote(age) {
   if (age >= 18) {
-    return "Make sure you get out and vote!"
+    return "Make sure you get out and vote!";
   } else {
-    return "Oh no, you can't vote quite yet."
+    return "Oh no, you can't vote quite yet.";
   }
 }
