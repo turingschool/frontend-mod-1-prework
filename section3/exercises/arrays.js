@@ -37,9 +37,8 @@ animals[2] = 'Gorilla';
 animals[3] = 'Lizard';
 
 // YOU DO: Write code that will log the "Elephant" in the animals array
-console.log(animals + ' Elephant');
-// or
-animals.unshift('Elephant');
+animals.push('Elephant');
+console.log(animals);
 
 //-------------------
 // PART 2: Foods: Array Methods
@@ -69,6 +68,7 @@ healthyFoods.unshift('berries', 'corn', 'peas');
 console.log(healthyFoods);
 // YOU DO: Remove the food that is in index position 0.
 healthyFoods.shift();
+console.log(healthyFoods);
 //-------------------
 // PART 3: Where are Arrays used?
 //-------------------
@@ -119,15 +119,15 @@ var chargerType = "car";
 // Write your conditional here
 //if statement to determine if percentBatteryLeft is greater than or equal to 15
 if (percentBatteryLeft >= 15) {
-//if condition evaluates to true var uberResult equals the value of this string
+//if condition evaluates to true, then var uberResult equals the value of this string (run code)
   uberResult = 'You have enough battery to call your Uber!';
 //if condition evaluates to false, determine if hasCharger and chargerType both evaluate to true
 } else if (hasCharger === true && chargerType === "car") {
-//if condition evaluates to true var uberResult equals the value of this string
+//if condition evaluates to true, then var uberResult equals the value of this string (run code)
   uberResult = 'You have a car charger. Plug it in and call your Uber!';
 //if condition evalutes to false...
 } else {
-//uberResult equals the value of this string
+//uberResult equals the value of this string (run code)
   uberResult = 'Sorry but you are walking home today!';
 }
 //Log the uberResult variable to the console
