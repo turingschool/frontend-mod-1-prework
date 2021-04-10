@@ -41,17 +41,17 @@ class Burrito {
 
   addTopping(newTopping) {
     this.toppings.push(newTopping);
-    console.log("Burrito has new topping of " + newTopping)
+    console.log("Burrito has new topping of " + newTopping);
   }
 
 }
-var julianaBurrito = new Burrito("tofu", "bean", ["sour cream", "hot sauce", "scallions"])
+var julianaBurrito = new Burrito("tofu", "bean", ["sour cream", "hot sauce", "scallions"]);
 console.log(julianaBurrito);
 
-var hughBurrito = new Burrito("impossible beef crumble", "rice", ["hot sauce", "salsa", "cheese"])
+var hughBurrito = new Burrito("impossible beef crumble", "rice", ["hot sauce", "salsa", "cheese"]);
 console.log(hughBurrito);
 
-var tristanBurrito = new Burrito("beef", "rice", ["cheese", "peppers", "guacamole"])
+var tristanBurrito = new Burrito("beef", "rice", ["cheese", "peppers", "guacamole"]);
 console.log(tristanBurrito);
 
 hughBurrito.changeProtein("tofu");

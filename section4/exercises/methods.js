@@ -21,7 +21,7 @@ var lunchOrder = {
     console.log("Your order is in progress");
   },
   complete: function() {
-    console.log("Your order is ready!")
+    console.log("Your order is ready!");
   }
 }
 

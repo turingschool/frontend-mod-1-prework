@@ -51,7 +51,7 @@ console.log(animals);
 
 console.log(animals.tigers);
 
-animals.tigers = 5
+animals.tigers = 5;
 
 console.log(animals.tigers);
 

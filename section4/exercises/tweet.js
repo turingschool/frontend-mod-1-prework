@@ -19,18 +19,18 @@ class Tweet {
 
 updateNumberOfLikes() {
   this.numberOfLikes = this.numberOfLikes + 1;
-  console.log(this.numberOfLikes)
+  console.log(this.numberOfLikes);
 }
 updateComments(newComments) {
   this.comments.unshift(newComments);
-  console.log(this.comments)
+  console.log(this.comments);
 }
 }
 var julianaTweet = new Tweet("Juliana", "dog information", "4.9.21-12:02 PM", 5, ["Cute", "Thanks for the info!", "Wow!"]);
-console.log(julianaTweet)
+console.log(julianaTweet);
 
 julianaTweet.updateNumberOfLikes();
 console.log(julianaTweet);
 
 julianaTweet.updateComments("Juniper sounds amazing!");
-console.log(julianaTweet)
+console.log(julianaTweet);

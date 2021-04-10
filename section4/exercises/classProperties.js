@@ -42,8 +42,8 @@ console.log(pretzel);
 class Shirt {
 
 }
-var tshirt = new Shirt()
-var longSleeve = new Shirt()
+var tshirt = new Shirt();
+var longSleeve = new Shirt();
 
 console.log(tshirt);
 console.log(longSleeve);
