@@ -2,19 +2,19 @@
 
 1. How did the SuperLearner Article resonate with you? What from this list do you already do? Want to start doing or do more of? Is there anything not on this list, that you would add to it?
 
-The overarching takeaway for me was the need to slow down a little bit. Everything takes time and focus. I'm not a huge reader because I feel like there must be ways to get the information in smaller bite size pieces. I've always been the person to look at the glossary on dictionary to find the information that I need and move on, but I think I am missing the bigger picture. Of the six habits of a super learner, I am strong in in three and three I would like to improve on.
+The overarching takeaway for me was the need to slow down a little bit. Everything takes time and focus. I'm not a huge reader because I feel like there must be ways to get the information in smaller bite size pieces. I've always been the person to look at the glossary or the dictionary to find the information that I need and move on, but I think I am missing the bigger picture. Of the six habits of a super learner, I am strong in three and three I would like to improve on.
 
 - I will find information I need/want to know and make sure that the resource resonates with me. If I don't connect with it, there is another blog, news outlet, book that will speak to me.
 
 - Learning is a **process**. Processes take time. Don't force it, just be open, willing, hard-working, and allow the information to settle in. I will celebrate the small wins.
 
-- I have a **growth** mindset, but I'll be honest I was very scared to start the program. I'm now feel excited to learn and know that I am in control.
+- I have a **growth** mindset, but I'll be honest I was very scared to start the program. I now feel excited to learn and know that I am in control.
 
 - I tend to **teach** others what I know, so this should be an easy process to continue following.
 
 - I eat very healthy and take care of my brain. I would like to make sure that I am at the very least getting outside for a walk/jog for 20 minutes a day to support my mental and physical well-being. Gotta get that vitamin D!
 
-- **Spaced learning** and breaks helps retention. My plan is to take a look at my schedule and see how I can space out different types of information. New information vs. old information. Planning vs. coding. Memorization vs. application. Moving around or doing a task that requires less thought to give a little mental break. I feel like Turing keeps these processes in mind, so I'm excited to follow the guidance provided and create or mimic new healthy methods.
+- **Spaced learning** and breaks help retention. My plan is to take a look at my schedule and see how I can space out different types of information. New information vs. old information. Planning vs. coding. Memorization vs. application. Moving around or doing a task that requires less thought to give a little mental break. I feel like Turing keeps these processes in mind, so I'm excited to follow the guidance provided and create or mimic new healthy methods.
 
 2. What are the data types you learned about in this section? In your own words, define each.
 
