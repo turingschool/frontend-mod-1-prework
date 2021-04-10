@@ -70,7 +70,19 @@ var excuse = 'I think I forgot to lock up my 1992 Toyota Coralla. Be right back.
 //   - citiesDestroyed (array)
 //   - luckyNumbers (array)
 //   - address (object with following key/values: number , street , state, zip)
-
+var scaryMonster = {
+ name: "Igor",
+ smell: "pungent",
+ weight: 456,
+ citiesDestroyed: ["Tokyo", "NYC", "Dallas"],
+ luckyNumbers: [4,54,78,345],
+ address: {
+  number: 4233,
+  street: "belmen",
+  state: "TX",
+  zip: 76801,
+ }
+}
 
 // Create a new class called SuperHero
 // - Your class should have the following DYNAMIC values
@@ -81,19 +93,38 @@ var excuse = 'I think I forgot to lock up my 1992 Toyota Coralla. Be right back.
 //   - archNemesis, assigned to "The Syntax Error"
 //   - powerLevel = 100
 //   - energyLevel = 50 
-
+class SuperHero {
+ constructor(name, superpower, age) {
+  this.name = name;
+  this.superpower = superpower;
+  this.age = age;
+  this.archNemesis = "The Syntax Error";
+  this.powerLevel = 100;
+  this.energyLevel = 50;
+ }
+ sayName() {
+  console.log(name);
+ }
+ maximizeEnergy() {
+  this.energyLevel = 1000;
+ }
+ gainPower(pwr) {
+  this.powerLevel = pwr + this.powerLevel;
+ }
+}
 // - Create the following class methods
 //   - sayName, should print the hero's name to the console
 //   - maximizeEnergy, should update the energyLevel to 1000
 //   - gainPower, should take an argument of a number and INCREASE the powerLevel by that number
 
 // - Create 2 instances of your SuperHero class
-
+var hero1 = new SuperHero("Heroman", "Flight", 2.5;
+var hero2 = new SuperHero("Herowoman","Strength", 64;                     
 
 // Reflection
 // What parts were most difficult about this exerise?
-
+ // Trying to do everything from memory. Especially picking it back up on a day after learing about the subject
 // What parts felt most comfortable to you?
-
+  //I felt comfortable with most of the project. I feel like even though I don't get something right the first time, I'll be able to figure it out quickly.
 // What skills do you need to continue to practice before starting Mod 1?
-
+  //Time management. I haven't been the best at it so I'm hoping that I'll be able to get a better handle on it. 
