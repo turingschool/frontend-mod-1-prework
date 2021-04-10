@@ -41,7 +41,7 @@ perform this evaluation
 // YOU DO: log the result of the comparison: is numberTeachers strictly equal to stringTeachers? (use the === operator)
 // this should log: false
 
-console.log("Is numberTeachers strictly equal to stringTeachers?", numberTeachers === stringTeachers)
+console.log("Is numberTeachers strictly equal to stringTeachers?", numberTeachers === stringTeachers);
 
 /*
 Note: the strictly equal to operator compares the value of the variable in addition to the type of the variable.
@@ -56,27 +56,27 @@ you develop good habits that follow best practice, from now on, use the strict c
 // YOU DO: log the result of the comparison: is numberTeachers not equal to numberStudents?
 // this should log: true
 
-console.log("Is numberTeachers not equal to numberStudents?", numberTeachers !== numberStudents)
+console.log("Is numberTeachers not equal to numberStudents?", numberTeachers !== numberStudents);
 
 // YOU DO: log the result of the comparison: is numberStudents greater than or equal to 20?
 // this should log: true
 
-console.log("Is numberStudents greater than or equal to 20?", numberStudents >= 20)
+console.log("Is numberStudents greater than or equal to 20?", numberStudents >= 20);
 
 // YOU DO: log the result of the comparison: is numberStudents greater than or equal to 21?
 // this should log: false
 
-console.log("Is numberStudents greater than or equal to 21?", numberStudents >= 21)
+console.log("Is numberStudents greater than or equal to 21?", numberStudents >= 21);
 
 // YOU DO: log the result of the comparison: is numberStudents less than or equal to 20?
 // this should log: true
 
-console.log("Is numberStudents less than or equal to 20?", numberStudents <= 20)
+console.log("Is numberStudents less than or equal to 20?", numberStudents <= 20);
 
 // YOU DO: log the result of the comparison: is numberStudents less than or equal to 21?
 // this should log: true
 
-console.log("Is numberStudents less than or equal to 21?", numberStudents <= 21)
+console.log("Is numberStudents less than or equal to 21?", numberStudents <= 21);
 
 //-------------------
 // PART 2: Articulating what you are doing
@@ -142,7 +142,7 @@ console.log(lovesToPlay && age);
 
 // What did your final line of code evaluate to? Why do you think that is? Explain.
 // ANSWER:
-Final line of code provided the numerical value assigned to the age of the puppy rather than stating t/f to answer if the dog is a puppy. If we want it to state true instead, we would have to reassign the variable age = 1 to age = true
+//Final line of code provided the numerical value assigned to the age of the puppy rather than stating t/f to answer if the dog is a puppy. If we want it to state true instead, we would have to reassign the variable age = 1 to age = true
 // FINAL CHECK
 //-------------------
 

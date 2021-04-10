@@ -53,7 +53,7 @@ if (dogAge === 3) {
 } else if (dogAge === 10) {
   console.log('elderly');
 } else{
-  console.log('take them to the vet to find out!')
+  console.log('take them to the vet to find out!');
 }
 
 

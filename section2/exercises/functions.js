@@ -69,7 +69,7 @@ function bestDesserts(name1, name2) {
   console.log(name1 + " and " + name2 + " are the best desserts!");
 }
 
-bestDesserts("Ice Cream", "Cookies")
+bestDesserts("Ice Cream", "Cookies");
 
 
 //-------------------
