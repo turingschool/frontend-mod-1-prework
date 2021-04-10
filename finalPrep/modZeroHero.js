@@ -132,13 +132,13 @@ class SuperHero {
     this.energyLevel = 50;
   }
   sayName() {
-    console.log(this.name)
+    console.log(this.name);
   }
   maximizeEnergy() {
-    this.powerLevel = this.powerLevel * 10
+    this.powerLevel = this.powerLevel * 10;
   }
   gainPower(number) {
-    this.powerLevel = this.powerLevel + number
+    this.powerLevel = this.powerLevel + number;
   }
 }
 
@@ -158,4 +158,4 @@ var JollyGreenTorin = new SuperHero("Jolly Green Torin", "Deafening Wail", 10);
 
 // What parts felt most comfortable to you? I went through the first half of the challenge quickly but when it cam to the function and class syntax I had to resort to Mozilla for support.
 
-// What skills do you need to continue to practice before starting Mod 1? Looking up information when stuck and taking a step back if I need a minute to reset. 
+// What skills do you need to continue to practice before starting Mod 1? Looking up information when stuck and taking a step back if I need a minute to reset.
