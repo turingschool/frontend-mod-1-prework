@@ -3,17 +3,17 @@
 1. What are two points from the Growth Mindset article and/or video that either resonated with you, or were brand new to you?
 - First off, they are both adorable.
 - Carmen Popoviciu DevRel (DA)
-- According to Carol Dweck there is a fixed and growth mindset. Fixed is that you are what you are and there is nothing that you can do to change it. A growth mindset will allow you to to approach the world from that perspective that you can and will grow when you put your mind, time, and energy to the task.
+- According to Carol Dweck there is a fixed and growth mindset. Fixed is that you are what you are and there is nothing that you can do to change it. A growth mindset will allow you to approach the world from that perspective that you can and will grow when you put your mind, time, and energy to the task.
 - Something to ask yourself - what am I struggling with and how do I fix this? Write action notes to follow and guide you.
 - You can always learn anything. DO NOT COMPARE TO OTHERS.
-- Always look back at where you started. Track your progress. As long a you are going, moving forward.
+- Always look back at where you started. Track your progress. As long as you are moving forward, you are progressing.
 - You may have a 'fixed mindset day,' so just give yourself a break.
 - When you are struggling, don't panic. READ ABOUT IT!
 - In this career you will always be learning. Do not get discouraged. You will never know it all.
 - "The myth of the brilliant developer."
 - There are no shortcuts.
 - Igor from the Angular Team.
-- These concepts are all very simple and clear, but continuing to put them in action as I face challenges and problems will the key. My mindset has already shifted considerably since starting mod0. In some ways, I believe that starting this program is going to open up my capacity is so many other areas of life.
+- These concepts are all very simple and clear, but continuing to put them in action as I face challenges and problems will be the key. My mindset has already shifted considerably since starting mod0. In some ways, I believe that starting this program is going to open up my capacity in so many other areas of life.
 - Coding is a gift.
 - Struggling means that you are learning. IT'S A GOOD THING.
 - SMART goals - Specific, Measurable, Achievable, Measurable, Relevant and Time-Bound goals.
@@ -37,4 +37,4 @@
 - A loop is just like it sounds. It goes around and around and around until you tell it to stop. First, we will tell the computer where to start. So let's tell the computer to start at 0, because that is where a computer naturally starts. This is the initializer. Then we want to tell it when to stop. Let's have it stop at 10. This is the condition. Last, we have to tell it how to increment, or how we want it to count. In this case we will have it count by one. Then we tell it what to do and that could simply be to print out a phrase. It will then print that phrase 10 times and then it will stop.
 
 1. What questions do you still have about
-- Arrays and loops? I feel pretty confident. I felt confident in this section, but I keep coming back to, and you all made it very clear, that `=` does not equal `===`. I've been hung up two times on this and I'm hoping to learn my lesson very VERY soon. :)
+- Arrays and loops? I feel pretty confident. I felt confident in this section, but I keep coming back to (and you all made it very clear) the understanding that `=` does not equal `===`. I've been hung up two times on this and I'm hoping to learn my lesson very VERY soon. :)

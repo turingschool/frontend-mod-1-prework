@@ -46,7 +46,7 @@ console.log('Hello World!');
 
 5. In your own words, what is a variable? How would you explain it to a 5 year old?
 
-A variable has a name and a value. We can name our variable anything that we want, but it should explain the value. For example if the value is 'John' then the variable name could be name. When you are declaring a variable, you always need to put var, let, or const before it. Declaring a variable looks like this.
+A variable has a name and a value. We can name our variable anything that we want, but it should explain the value. For example if the value is 'John' then the variable name could be 'name'. When you are declaring a variable, you always need to put var, let, or const before it. Declaring a variable looks like this.
 
 ```
 var name = 'John';
@@ -68,7 +68,7 @@ Concatention is the joining together of strings using the `+` operator.
 
 8. Think of a site or app you use frequently. Where do you think the developers used concatention?
 
-Every site that has user accounts will likely use this function. Let's take Amazon for example, when you are not logged in, it say 'Hello', however when you log in, it says 'Hello, Nina'.
+Every site that has user accounts will likely use this function. Let's take Amazon for example, when you are not logged in, it says 'Hello', however when you log in, it says 'Hello, Nina'.
 
 9. What questions do you still have about the work we've done so far? (not having a question is not an option)
 
