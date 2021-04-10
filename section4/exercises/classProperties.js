@@ -13,7 +13,7 @@ Make sure to run the file with node in your command line.
   // Write a class skeleton
   // Create 2 object instances and store in variables
   // Log each variable to the console.
-  // You do not need any proerties at this time!!
+  // You do not need any properties at this time!!
 
 // Prompt 1: Dog
 class Dog {

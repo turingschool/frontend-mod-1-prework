@@ -25,7 +25,7 @@ Make sure to run the file with node in your command line.
 // The method should add a topping to the list of toppings held in state.
 
 // Call the `addTopping` method on two burritos, then log the burritos to verify
-// that the proteins have been changed.
+// that the toppings have been changed.
 
 class Burrito {
   constructor(protein, base, toppings) {
@@ -42,16 +42,16 @@ class Burrito {
 };
 
 // ADD CODE
-  var chicken = new Burrito('chicken', 'tortilla', ['cheese', 'salsa', 'beans']);
-  var vegan = new Burrito('tofu', 'spinach tortilla', ['salsa', 'beans', 'rice']);
-  var veggie = new Burrito('soyrizo', 'tortilla', ['roasted bell peppers', 'salsa', 'beans', 'rice']);
+  var order1 = new Burrito('chicken', 'tortilla', ['cheese', 'salsa', 'beans']);
+  var order2 = new Burrito('tofu', 'spinach tortilla', ['salsa', 'beans', 'rice']);
+  var order3 = new Burrito('soyrizo', 'tortilla', ['roasted bell peppers', 'salsa', 'beans', 'rice']);
 
 
-  chicken.changeProtein('beef');
-  console.log(chicken);
+  order1.changeProtein('beef');
+  console.log(order1);
 
-  vegan.addTopping('roasted bell peppers');
-  console.log(vegan);
+  order2.addTopping('roasted bell peppers');
+  console.log(order2);
 
-  veggie.addTopping('cheese');
-  console.log(veggie);
+  order3.addTopping('cheese');
+  console.log(order3);

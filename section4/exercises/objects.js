@@ -35,27 +35,22 @@ var animalNames = {
   lions: 10,
   gorillas: 8,
   flamingos: 70,
-  tigers: 12,
-  hippos: 2
 };
-
-animalNames.gorillas = 7;
-
 
 // Using the zoo that you created above, log the value of the first item in
 // the Object
 console.log(animalNames.zebras);
 
 // Add an animal to the zoo Object, and log the updated Object.
-// Nina comment - Add tigers: 12;
+animalNames.tigers = 12;
 console.log(animalNames);
 
 // Change the value for at least one of your animal keys, and log the updated Object.
-// animalNames.gorillas = 7;
+animalNames.gorillas = 7;
 console.log(animalNames);
 
 // Add another animal to the zoo Object, and log the updated Object.
-// hippos: 2;
+animalNames.hippo = 2;
 console.log(animalNames);
 
 //-------------------
@@ -72,13 +67,15 @@ value should be some appropriate value for that key. Work to have at least 5 key
 Log your email object to the console.
 */
 
-var email - {
-  subject: 'Please Replay ASAP',
+var email = {
+  subject: 'Please Reply ASAP',
   sender: 'RobertCraighead@zmail.com',
-  body: 'Call me when you get this. We need to talk about the upcoming film festival. GOOD NEWS!',
+  body: 'Call me when you get this. We need to talk about the upcoming film festival.',
   timeSent: '12:12 PM, April 4th, 2021',
   timeReceived: '12:15 PM, April 4th, 2021'
-}
+};
+
+console.log(email);
 
 //-------------------
 // Part 3: Many Emails - OPTIONAL EXTENSION
@@ -130,7 +127,7 @@ good to have some exposure before going into Mod 1.
 // key-value pairs you used in your email Object above.
 // Then, log the email Array to the console.
 
-var spam = [
+var spamEmail = [
   {
     subject: 'Blaze Your Own Way!',
     sender: 'beyondtrails@gmail.com',
@@ -154,6 +151,6 @@ var spam = [
   }
 ];
 
-console.log(spam);
-// Nina comment - Below I was testing to see if I could use the dot method while using the array index. Yay, it worked!
-console.log(spam[2].subject);
+console.log(spamEmail);
+// Nina comment - Below I was testing to see if I could use the dot method while using the array index.
+console.log(spamEmail[2].subject);
