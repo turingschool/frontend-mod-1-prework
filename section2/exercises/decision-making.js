@@ -38,7 +38,7 @@ if (bearChoice === 1) {
 Questions
 
 1. In English, using technical vocabulary, describe what is happening between lines 14 and 18.
-If the statement in parenthesis (condition - 'doorChoice = 1') evaluates as true then return the string 'hat' otherwise return the string 'scarf'.
+If the statement in parenthesis (condition - 'doorChoice === 1') evaluates to true then return the string 'hat' otherwise return the string 'scarf'.
 
 2. What variable has a new value assigned to it after the first if statement executes? bearClothing
 
@@ -46,7 +46,7 @@ If the statement in parenthesis (condition - 'doorChoice = 1') evaluates as true
 'scarf'
 
 4. In English, using technical vocabulary, describe what is happening between lines lines 27 and 35.
-If the condition bearChoice equals 1 evaluates as true, then print "You offer the bear your 'bearClothing' and the bear shows you a secret passage out!" If it evaluates as false, check to see the next condition, bearChoice equals 2, evalauates as true. If yes, then print "You tell the bear the 'bearClothing' is too small and it starts to cry!" If it evaluates to false, check to see if the next condition, bearChoice equals 3, evaluates to true. If the condition evaluates to true, then print "You run as fast as you can into the next room. It's full of snakes!" Finally, if this condition evaluates to false and none of the previous conditions have been met, then print "You stay with the bear and become it's best friend!"
+If the condition bearChoice equals 1 evaluates as true, then print "You offer the bear your 'bearClothing' and the bear shows you a secret passage out!" If it evaluates as false, check to see if the next condition, bearChoice equals 2, evalauates as true. If yes, then print "You tell the bear the 'bearClothing' is too small and it starts to cry!" If it evaluates to false, check to see if the next condition, bearChoice equals 3, evaluates to true. If the condition evaluates to true, then print "You run as fast as you can into the next room. It's full of snakes!" Finally, if this condition evaluates to false and none of the previous conditions have been met, then print "You stay with the bear and become it's best friend!"
 
 5. If you changed the variable bearChoice to equal 3, what will be the final outcome be?
 "You run as fast as you can into the next room. It's full of snakes!"
@@ -55,5 +55,5 @@ If the condition bearChoice equals 1 evaluates as true, then print "You offer th
 "You tell the bear the hat is too small and it starts to cry!"
 
 7. What is your favorite ending?
-"You stay with the bear and become it's best friend!" Of course! Then I'd be like that guy on youtube, who raised that lion and reunited with it when he went back to Africa.
+"You stay with the bear and become it's best friend!" Of course! Then I'd be like that guy on youtube who raised that lion and reunited with it when he went back to Africa.
 */

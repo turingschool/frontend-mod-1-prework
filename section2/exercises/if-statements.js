@@ -12,10 +12,10 @@ Make sure to run the file with node in your command line.
 // EXAMPLE:Manipulate the variable 'weather' to see if you can print something other
   // than 'coat'.
 
-var weather = 'snowy';
+// var weather = 'snowy';
 // var weather = 'icy';
 // var weather = 'rainy';
-// var weather = 'sunny';
+var weather = 'sunny';
 // While working through this example, I would toggle which variable declaration is
   // commented in/out and run the program in node several times to observe the output.
 
@@ -73,9 +73,9 @@ var numQuarters = 0;
 
 // Write your conditional here
 if (numQuarters >= 2) {
-console.log("I have enough money for a gumball");
-} else if (numQuarters <= 1) {
-console.log("I don't have enough money for a gumball");
+  console.log("I have enough money for a gumball");
+} else if (numQuarters < 2) {
+  console.log("I don't have enough money for a gumball");
 }
 
 /*
@@ -94,13 +94,13 @@ When cupsOfFlour = 3 and hasSauce = true, your program should log "I can make pi
 var cupsOfFlour = 1;
 var hasSauce = true;
 
+// Write your conditional here
+
 if (cupsOfFlour >= 2 && hasSauce === true) {
   console.log("I can make pizza");
 } else {
   console.log("I cannot make pizza");
 }
-// Write your conditional here
-
 
 /*
 For the last two exercises, an ideal solution probably uses a logical operator.
@@ -108,5 +108,4 @@ Did yours? Do you know what a logical operator in JavaScript is? Google it to an
 for yourself!
 
 For the last one I did, but I don't understand why I would do it for the one prior to that. I would love an explanation as to why I would use a logical operator for the numQuarters exersize.
-
 */

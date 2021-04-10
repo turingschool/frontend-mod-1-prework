@@ -19,12 +19,12 @@ var stringTeachers = "4";
 var numberDogs = 0;
 
 // EXAMPLE: log the result of the comparison: is numberTeachers greater than numberStudents?
-console.log("Is numberTeachers greater than numberStudents?", numberTeachers > numberStudents);
+console.log('Is numberTeachers greater than numberStudents?', numberTeachers > numberStudents);
 // this should log: "Is numberTeachers greater than numberStudents?" false
 
 // YOU DO: log the result of the comparison: is numberTeachers less than numberStudents?
 // this should log: true
-console.log("Is numberTeachers less than numberStudents?", numberTeachers < numberStudents);
+console.log('Is numberTeachers less than numberStudents?', numberTeachers < numberStudents);
 // YOU DO: log the result of the comparison: is numberTeachers equal to stringTeachers? (use the == operator)
 // this should log: true
 console.log('Is numberTeachers equal to stringTeachers?', numberTeachers == stringTeachers);
@@ -69,11 +69,13 @@ console.log('Is numberStudents less than or equal to 21?', numberStudents <= 21)
 
 // For the following prompts, you will be given a line of code and your task is to type out a Comment, in English, explaining what that line of code is doing, including what the comparison will evaluate to. Be as technically precise as possible, but don't just copy and paste a definition from the readings. Make sure YOU can explain it that way!
 
-// Nina's note - In the following code, we will be using the console.log function to determine what the comparison will evaluate to.
+// Nina's note - In the following code, we will be using the console.log function in order to log to the console in order to determine what the comparison will evaluate to.
 // In other words is the comparison statement true or false?
+
 console.log(4 < 9);
 //YOU DO: Explain.
 // Is 4 less than 9? This will log: true
+
 var books = 3;
 console.log(4 < books);
 // YOU DO: Explain.
@@ -112,16 +114,16 @@ var age = 1;
 
 // YOU DO:
 // Determine if the dog loves to play and loves treats
-console.log(lovesToPlay && lovesTreats)
+console.log(lovesToPlay && lovesTreats); // true
 
 // Determine if the dog loves to play and loves the dog park
-console.log(lovesToPlay && lovesDogPark)
+console.log(lovesToPlay && lovesDogPark); // false
 
 // Determine if the dog loves to play or loves the dog park
-console.log(lovesToPlay || lovesDogPark)
+console.log(lovesToPlay || lovesDogPark); // true
 
 // Determine if the dog loves to play and is a puppy
-console.log(lovesToPlay && age)
+console.log(lovesToPlay && age); // 1
 
 // What did your final line of code evaluate to? Why do you think that is? Explain.
 // ANSWER: The final line of code evaluated to 1. When I ran console.log(age && lovesToPlay) the statement evaluated to true. What I found out is that if expr1 can be converted to true, which in this case it can, then expr2 will be returned. As a note, 0 will return false, 1 or any other number besides 0 will return true. Also a string will return true.
@@ -133,9 +135,10 @@ console.log(lovesToPlay && age)
 // Did you run this file in your terminal to make sure everything printed out to the console
 // as you would expect? Yes. One of the console.log(); functions was written console.logs(); I had to go in and remove the "s" and then everything printed as I expected.
 
-/* Is numberTeachers greater than numberStudents? false
-Is numberTeachers less than numberStudents true
-Is numberTeachers equal to stringTeachers true
+/*
+Is numberTeachers greater than numberStudents? false
+Is numberTeachers less than numberStudents? true
+Is numberTeachers equal to stringTeachers? true
 Is numberTeachers strictly equal to stringTeachers? false
 Is numberTeachers not equal to numberStudents? true
 Is numberStudents greater than or equal to 20? true
@@ -151,4 +154,5 @@ true
 true
 false
 true
-1 */
+1
+*/
