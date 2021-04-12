@@ -23,16 +23,19 @@ console.log('"Hello World"');
 
 
 4. What is/are the character(s) you would use to indicate comments in a JavaScript file? What is the purpose of a code comment?
+
 You use 2 // for javascript to ignore whatever is after that on that line. The purpose of these code comments is to offer an
 explanation of what is happening in the code; this is for future developers looking at the code or even yourself
 
 
 5. In your own words, what is a variable? How would you explain it to a 5 year old?
+
 A variable is label that holds data or information.
 It's like a lunchbox (variable) holding the food inside of it (data/information). You can swap out (reassign) the food inside, but the variable remains the same.
 
 
 6. Think of a site or app you use frequently. What are three variables that are probably used? Which data type would each of those variables probably hold?
+
 I am currently looking for apartments in Colorado and using Facebook Marketplace.
 Initiate login with correct password - boolean
 Location - string
@@ -40,12 +43,15 @@ Price - number
 
 
 7. In your own words, explain what concatenation is.
+
 Concatenation is the process of combining two or more strings into one string
 
 
 8. Think of a site or app you use frequently. Where do you think the developers used concatention?
+
 In Facebook Marketplace, I believe the developers used concatention by displaying my input in a seamless string above the search results.
 For example: Showing results for 1 Bedroom between $1000 and $1300 in the Lakewood, CO area
 
 9. What questions do you still have about the work we've done so far? (not having a question is not an option)
+
 What is the difference in assigning a variable as a boolean data type vs any other data type with a if/else command?
