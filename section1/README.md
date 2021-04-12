@@ -1,4 +1,4 @@
-# Section 1: Super Learners
+# Section 1: Super Learners 👍
 
 Section 1 is estimated to take a total of 6-10 hours to complete. Part C is the longest and most time intensive. This section of pre-work involves reading (both from this document as well as the 📒John Duckett book), 👩‍💻exercises, and 📝reflection questions. Make sure to manage your time well so that should you get stuck and need help, you have plenty of time to do so and meet the deadline.
 
@@ -8,11 +8,11 @@ Section 1 is estimated to take a total of 6-10 hours to complete. Part C is the 
 - [Part C: JavaScript Foundations](#Part-C-JavaScript-Foundations)
 - [Deliverables](#Deliverables)
 
-## Vocabulary
+## Vocabulary 👍
 
 If you've talked to any alum or near-alum of Turing, one thing they likely shared is "Turing teaches you how to learn". For creators of tech, the learning never ends. Not after graduating a program, not after 20 years of experience. We will provide more support as you are starting out, then release some of that support so you are equipped to learn on your own once you graduate. While we provide more support at the beginning, we also intentionally support you in building skills and habits that will help you do that successfully.
 
-One of those pieces is in how developers approach vocabulary. Knowing technical vocabulary will allow you to get more out of reading doucmentation and tutorials, and will allow you to communicate well with teams and ask good questions when you need help. Each section of your pre-work (and each lesson once you start Mod 1) will start with a vocabulary section. We don't always give you the definitions - this is intentional. You will create your own definition after having several opportunities to read definitions and see examples.
+One of those pieces is in how developers approach vocabulary. Knowing technical vocabulary will allow you to get more out of reading documentation and tutorials, and will allow you to communicate well with teams and ask good questions when you need help. Each section of your pre-work (and each lesson once you start Mod 1) will start with a vocabulary section. We don't always give you the definitions - this is intentional. You will create your own definition after having several opportunities to read definitions and see examples.
 
 Here's what we ask you do:
 - Find a special spot in your notebook for vocabulary and JavaScript reserved keywords. Mark it with a post-it or bookmark, so it's easy to find and come back to
@@ -39,11 +39,13 @@ Here's what we ask you do:
 - `true`
 - `false`
 
-## Part A Super Learner Habits
+## Part A Super Learner Habits 👍
 
-Read [this article](https://pubs.ppai.org/pc-today/six-habits-of-super-learners/) about the habits of Super Learners. Reflect on this - what do you already do? Does this make you want to do anything new or different as you beginthis learning journey? Jot down your notes now, and we will ask you to share some reflections with your small group at the end of this section.
+Read [this article](https://pubs.ppai.org/pc-today/six-habits-of-super-learners/) about the habits of Super Learners. Reflect on this - what do you already do? Does this make you want to do anything new or different as you begin this learning journey? Jot down your notes now, and we will ask you to share some reflections with your small group at the end of this section.
 
-## Part B Terminal
+This is a great article. I've been a life long learner and have been practicing majority of these habits already. I'm a voracious reader and love to share knowledge or train in areas. The one thing that I think I can work on is sprucing up my diet a bit with brain healthy food. I've recently fallen into some less healthy foods out of convenience.
+
+## Part B Terminal 👍
 
 You will likely spend the majority of your time in Module 1 in either the Terminal or your text editor (Atom). When you're new to programming, the terminal can seem like a scary place, but it has some advantages over other means of interacting with your computer. Perhaps the greatest advantage is that it allows programmers to build tools that they can share with each other without going through the process of creating a graphical user interface. This makes it easy to share code quickly so that it can be used in multiple projects.
 
@@ -53,7 +55,7 @@ You already have had some exposure to the terminal in [Mod 0, Session 2: Termina
 
 Visit the [Turing Terminal](https://learn-terminal.turing.io/) and read through the Learn section as needed. Explore the Playground as needed.
 
-👩‍💻 Complete all three Challenges.
+👩‍💻 Complete all three Challenges. - Done! That was fun!
 
 ### Making Things, Navigating
 
@@ -112,7 +114,9 @@ Note that in the command provided above, the dashes preceding the directory name
 
 Note that it would be possible to delete the entire directory that you created with just `rm -rf secretLibrary`. **Don't do this!** At this point it's better for you to delete each of the files and directories individually so that you get some practice with these commands, which will help you remember them better in the long run. The goal here (for this particular exercise) isn't to be efficient and creating and deleting files and directories, it's to *get practice* creating and deleting files and directories. Ultimately this practice will allow you to be more efficient in the future.
 
-## Part C JavaScript Foundations
+**Completed 3/25 for all Part B**
+
+## Part C JavaScript Foundations 👍
 
 In this section, you will begin to learn the basics of JavaScript. You will work through several exercises which will help you get comfortable running files and seeing output. You will learn about ways to represent data in JavaScript as Strings, Numbers, and Booleans, as well as begin to explore how to capture and work with that data.
 
@@ -213,7 +217,7 @@ The last String in the previous example is interpreted as a String even though i
 
 The **Boolean** data types evaluates to one of two values: `true` or `false`. This data type can seem a little abstract, but Booleans are very helpful in helping us determine which script should run.
 
-There are many cases in whie we want to ask a program a question, such as "Does the username and password typed in match what we have in the database?". This is a yes/no question. We will ask the program the question in a way that it will respond with `true` or `false`. Here are a couple of examples:
+There are many cases in which we want to ask a program a question, such as "Does the username and password typed in match what we have in the database?". This is a yes/no question. We will ask the program the question in a way that it will respond with `true` or `false`. Here are a couple of examples:
 
 _These are all examples of statements that evaulate to a `Boolean` data type in JavaScript:_
 
@@ -228,9 +232,9 @@ _These are all examples of statements that evaulate to a `Boolean` data type in 
 //=> true, because 9 is less than 12
 ```
 
-Read more about compairson operators [here](https://javascript.info/comparison)!
+Read more about comparison operators [here](https://javascript.info/comparison)!
 
-> 👩‍💻 PAUSE here, and complete the exercises in `dataTypes.js`
+> 👩‍💻 PAUSE here, and complete the exercises in `dataTypes.js` Done.
 
 ### Variables and Assignment
 
@@ -280,7 +284,7 @@ It is important to note that JavaScript has a particular set of conventions on w
 * Use names that describe the kind of information you plan to assign the variable
 * If your variable is made up of more than one word, then use [camelCase](https://en.wikipedia.org/wiki/Camel_case) for every word AFTER the first word, which should be lower case i.e., `thisIsMyVariableName`
 
-> 👩‍💻 PAUSE here, and complete the exercises in `variables.js`
+> 👩‍💻 PAUSE here, and complete the exercises in `variables.js` - Done
 
 ### Concatenation
 
@@ -307,10 +311,10 @@ console.log(snackCount);
 
 Let's take a look at why that resulted in a string. We have a variable called `snackCount` and have assigned the value as our `quantity` and our `snacks`. Looking at `snackCount`, we’ll notice the value is "I have 12 doughnuts". The reason this works even though the first value is a number and the second is a string, is a result of _type coercion_. JavaScript is essentially trying to help us by converting the number into a string so we can combine the two together.
 
-> 👩‍💻 PAUSE here, and complete the exercises in `concatenation.js`
+> 👩‍💻 PAUSE here, and complete the exercises in `concatenation.js` - Done
 
 ### Interpolation
-In addition to concatenation, you may also have seen interpolation used to inject values into strings! One benefit of interpolation is that it can be easier to read in longer strings and don't require concatenating separate strings together. 
+In addition to concatenation, you may also have seen interpolation used to inject values into strings! One benefit of interpolation is that it can be easier to read in longer strings and don't require concatenating separate strings together.
 
 Interpolation requires slightly different syntax to inject values into a string. Follow the below formula to utilize interpolation:
 1. Use the backtick (same key as the `~`, or the key to the left of the `1` key on a mac) to wrap your entire string
@@ -338,19 +342,19 @@ console.log(snackCountInterpolate);
 > 👩‍💻 PAUSE here, and complete the exercises in `interpolation.js`
 
 
-## Exercises
+## Exercises 👍
 
 At this point, you should have worked through all three files in the `exercises` directory.
 
-## Vocabulary
+## Vocabulary 👍
 
 Look back at that special spot in your notebook for vocabulary. Have you updated with with definitions, diagrams, and code samples? If not, do so now!
 
-## Relections
+## Relections 👍
 
 📝 Answer the prompts in the `reflection.md` file in the `section1` directory. The `.md` file extension for this file refers to markdown formatting. Markdown is a markup language to help format your text. [This article](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet) shows everything you need for basic Markdown formatting.
 
-## Save your work in Git
+## Save your work in Git 👍
 
 When you are finished with all of the `section1` exercises and reflections, follow these steps in order to save your work to your local git repository.
 
@@ -406,7 +410,7 @@ nothing to commit, working tree clean
 
 Congratulations! You just saved your work to Git! If `git status` is showing any files, add them with `git add <file name>` and commit them with `git commit -m "Add Section 1"`.
 
-### Push to GitHub
+### Push to GitHub 👍
 
 You've saved your work to Git on your local machine, but it is not yet accessible through your remote GitHub repository. Updating our remote GitHub repository with our local changes is called pushing. Push your code with the following command:
 
