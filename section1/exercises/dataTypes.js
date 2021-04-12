@@ -24,7 +24,8 @@ console.log('Welcome to Turing!');
 console.log('99 bottles of pop on the wall');
 
 // YOU DO: Write code below to log one line from your favorite song or movie:
-console.log('My heart is like the ocean--it gets in the way\nso close to touching freedom--then the guard calls my name');
+console.log('My heart is like the ocean--it gets in the way...');
+
 
 
 //-------------------
@@ -45,6 +46,7 @@ console.log(20 / 4);
 
 // YOU DO: log the result of the modulo of 10 into 54:
 console.log(54 % 10);
+
 
 
 //-------------------
@@ -73,4 +75,4 @@ console.log(4 <= 5);
 //-------------------
 
 // Did you run this file in your terminal to make sure everything printed out to the console
-// as you would expect? 
+// as you would expect?
