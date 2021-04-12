@@ -20,7 +20,7 @@ I might add one thing to the list (which really just piggy-backs on the first po
 
 ### 3. How would you log the string `"Hello World!"` to the console?
 
-+ console.log("Hello World!");
+` console.log("Hello World!"); `
 
 ### 4. What is/are the character(s) you would use to indicate comments in a JavaScript file? What is the purpose of a code comment?
 
@@ -48,7 +48,7 @@ Concatenation is the joining of variables into strings using a specific syntax- 
 
 ### 8. Think of a site or app you use frequently. Where do you think the developers used concatention?
 
-Netflix will greet me each time I log into the app with a sentence, "Welcome back, Mark." which would use a name variable that is inserted into the string ("Welcome back," + name + ".")
+Netflix will greet me each time I log into the app with a sentence, "Welcome back, Mark." which would use a name variable that is inserted into the string `consol.log("Welcome back," + name + ".");`
 
 ### 9. What questions do you still have about the work we've done so far? (not having a question is not an option)
 
