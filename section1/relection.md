@@ -38,9 +38,9 @@ A variable is how we store specific values that we can insert into our code in a
 
 6. Think of a site or app you use frequently. What are three variables that are probably used? Which data type would each of those variables probably hold?
 I use the site Poshmark to buy used clothes online. Three variables that are probably used would be
-  1. my clothing sizes which would hold numbers or strings.
-  2. my brand preferences which would hold strings.
-  3. my shipping address which would hold strings.
+  * my clothing sizes which would hold numbers or strings.
+  * my brand preferences which would hold strings.
+  * my shipping address which would hold strings.
 
 7. In your own words, explain what concatenation is.
 
