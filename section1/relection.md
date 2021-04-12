@@ -12,25 +12,25 @@ I might add one thing to the list (which really just piggy-backs on the first po
 
 2. What are the data types you learned about in this section? In your own words, define each.
 
-+**Numbers** can be any type of integer including positive numbers, negative numbers, or floating-point (*decimals*)
+* **Numbers** can be any type of integer including positive numbers, negative numbers, or floating-point (*decimals*)
 
-+**Strings** are letters, numbers, or characters wrapped in " " or ' '
+* **Strings** are letters, numbers, or characters wrapped in " " or ' '
 
-+**Booleans** are a data type that answers to a _true_ or a _false_ value and answer yes or no questions.
+* **Booleans** are a data type that answers to a _true_ or a _false_ value and answer yes or no questions.
 
 3. How would you log the string `"Hello World!"` to the console?
 
-+console.log("Hello World!");
++ console.log("Hello World!");
 
 4. What is/are the character(s) you would use to indicate comments in a JavaScript file? What is the purpose of a code comment?
 
-+For a single line comment you would use // and everything after on the line is commented out.
++ For a single line comment you would use // and everything after on the line is commented out.
 
-+For a longer or multi line comment you would wrap your comment in /* */
++ For a longer or multi line comment you would wrap your comment in /* */
 
-+We do this so that javascript ignores our comments. These comments are handy messages to yourself and other developers that can add explanation and context to your code.
++ We do this so that javascript ignores our comments. These comments are handy messages to yourself and other developers that can add explanation and context to your code.
 
-+It can also be handy to use comments to deactivate sections of code while testing.
++ It can also be handy to use comments to deactivate sections of code while testing.
 
 5. In your own words, what is a variable? How would you explain it to a 5 year old?
 
@@ -52,5 +52,5 @@ Netflix will greet me each time I log into the app with a sentence, "Welcome bac
 
 9. What questions do you still have about the work we've done so far? (not having a question is not an option)
 
-+Why would one use concatenation over interpolation, or visa-versa? It it a style preference or does one have situational benefits that the other may not have?
-+Are code comments to be written in the imperative voice like a git comment is?
++ Why would one use concatenation over interpolation, or visa-versa? It it a style preference or does one have situational benefits that the other may not have?
++ Are code comments to be written in the imperative voice like a git comment is?
