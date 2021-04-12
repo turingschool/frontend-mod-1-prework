@@ -17,7 +17,7 @@ function printName() {
   console.log("Severus Snape");
 };
 
-printName(); 
+printName();
 printName();
 printName();
 printName();
@@ -26,6 +26,12 @@ printName();
 
 // YOU DO: Write a function named sayHello that logs to the console "Oh, Hello!"
 // Then, call the function 2 times.
+function sayHello() {
+  console.log('Oh, Hello!');
+}
+
+sayHello();
+sayHello();
 
 //-------------------
 // PART 2: Arguments and Parameters
@@ -35,18 +41,35 @@ printName();
 // The function should print out the value of the String that was passed in.
 // Then, call the function 3 times, each time, passing it a different name.
 
+function greetMe(name) {
+   console.log(name);
+}
 
+greetMe('Nina Brissey');
+greetMe('Alex');
+greetMe('Laura');
 
 // YOU DO: Write a function that takes in 2 numbers as arguments, Numbers, and logs their sum
 // Then, call that function 3 times, each time, passing in 2 different Numbers.
 
+function calcAdd(num1, num2) {
+  console.log(num1 + num2);
+}
+
+calcAdd(1, 2);
+calcAdd(4, 1000);
+calcAdd(100987829, 12397920);
 
 
 // YOU DO🎈: Write a function that takes in two strings and prints a concatenation
 // of those two strings, for example the arguments could be ("Oscar", "Ruck") and
 // the end result might be "Oscar and Ruck are BFFS".  Then, call that function.
 
+function relationship(daughter, mom) {
+  console.log(mom + ' is ' + daughter + '\'s mom.');
+}
 
+relationship('Nina', 'Toni');
 
 //-------------------
 // PART 3: Naming is Hard
@@ -59,7 +82,5 @@ that it is reasonable to type, but descriptive enough that others can infer the 
 Look at the code you wrote for the previous YOU DO🎈 - what did you name the function, and why?
 What did you name each parameter, and why?
 
-EXPLAIN:
-
-
+EXPLAIN: I named my function 'relationship' because my function describes the relationship of the two parameters to one another. I named my parameters 'mom' and 'daughter' because the two arguments that will get passed in are names of moms and daughters.
 */
