@@ -22,7 +22,14 @@ var creatures = "unicorns";
 console.log( `My zoo has ${numberOfCreatures} ${creatures}!`);
 
 // YOU DO: What data type will be logged to the console as a result of line 22? Explain.
-// Your answer and explanation here: 
+// Your answer and explanation here:
+/*
+The code on line 22 will log a String to the console. Interpolation is a similar method to
+concatenation where it can inject other data types into a string. Even though the variable of
+'numberOfCreatures' is is a number data-type, interpolation, just like concatenation, will convert
+the number intro a string. The benefit of interpolation is that it is easier to read longer Strings
+and we don't need to Concatenate multiple strings together.
+*/
 
 
 // YOU DO:
@@ -30,6 +37,8 @@ console.log( `My zoo has ${numberOfCreatures} ${creatures}!`);
 // reads "The quick red fox jumped over the lazy brown dog":
 var speedy = "quick red fox";
 var slowPoke = "lazy brown dog";
+
+console.log( `The ${speedy} jumped over the ${slowPoke}`);
 
 
 // YOU DO:
@@ -40,16 +49,24 @@ var slowPoke = "lazy brown dog";
 slowPoke = "tortoise";
 speedy = "hare";
 
+console.log(`In a predictable result, the ${slowPoke} beat the ${speedy}!`)
+
 
 // YOU DO:
-// Declare three variables, name/content/data type of your choice. Think carefully about what 
+// Declare three variables, name/content/data type of your choice. Think carefully about what
   // you name the variables. Remember, the goal is to be concise but descriptive (it's a hard balance!)
-  // Then, log out ONE sentence that incorporates all THREE variables uisng interpolation. 
+  // Then, log out ONE sentence that incorporates all THREE variables uisng interpolation.
+
+  var trick = "kickflip";
+  var difficulty = "very hard";
+  var numOfTries = 1000;
+
+  console.log(`Doing a ${trick} is ${difficulty}, and requires AT LEAST ${numOfTries} attempts to master.`);
 
 
 //-------------------
 // FINAL CHECK
 //-------------------
 
-// Did you run this file in your terminal to make sure everything printed out to the console 
+// Did you run this file in your terminal to make sure everything printed out to the console
   // as you would expect? You should be doing this by now, and getting into the habit of it.

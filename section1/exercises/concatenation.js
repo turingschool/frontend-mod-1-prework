@@ -22,7 +22,15 @@ var creatures = "unicorns";
 console.log("My zoo has " + numberOfCreatures + " " + creatures + "!")
 
 // YOU DO: What data type will be logged to the console as a result of line 22? Explain.
-// Your answer and explanation here: 
+// Your answer and explanation here:
+
+/*
+Answer: the console will read "My zoo has 7 unicorns!"
+Explanation: We assigned the variables "numberOfCreatures" and "creatures" values. We are taking
+those variables and calling on them to display their values as part of the string output in the
+console.log function. The values are input to the function and concatenated with the functions's
+output string as the log function reads and interprets the variable names (from left to right).
+ */
 
 
 // YOU DO:
@@ -30,6 +38,7 @@ console.log("My zoo has " + numberOfCreatures + " " + creatures + "!")
 // reads "The quick red fox jumped over the lazy brown dog":
 var speedy = "quick red fox";
 var slowPoke = "lazy brown dog";
+console.log("The " + speedy + " " + "jumped over the " + slowPoke);
 
 
 // YOU DO:
@@ -39,17 +48,21 @@ var slowPoke = "lazy brown dog";
 
 slowPoke = "tortoise";
 speedy = "hare";
+console.log("In a predicatable result, the " + slowPoke + " beat the " + speedy + "!");
 
 
 // YOU DO:
-// Declare three variables, name/content/data type of your choice. Think carefully about what 
+// Declare three variables, name/content/data type of your choice. Think carefully about what
   // you name the variables. Remember, the goal is to be concise but descriptive (it's a hard balance!)
   // Then, log out ONE sentence that incorporates all THREE variables.
-
+  var dogName = "Coco";
+  var futureDogs = 2;
+  var newAnimal = "pig";
+  console.log("I currently have one dog named, " + dogName + ", but in the future I would like to have " + futureDogs + " dogs and a " + newAnimal + "!")
 
 //-------------------
 // FINAL CHECK
 //-------------------
 
-// Did you run this file in your terminal to make sure everything printed out to the console 
+// Did you run this file in your terminal to make sure everything printed out to the console
   // as you would expect? You should be doing this by now, and getting into the habit of it.
