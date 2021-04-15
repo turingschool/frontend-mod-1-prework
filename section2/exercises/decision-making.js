@@ -7,7 +7,7 @@ Spend some time changing the variables and running the file to see how the story
 
 var doorChoice = 1;
 var bearClothing = "";
-var bearChoice = 1;
+var bearChoice = 2;
 
 console.log("You enter a dark room with two doors. Do you go through #1 or #2?");
 
@@ -39,15 +39,36 @@ Questions
 
 1. In English, using technical vocabulary, describe what is happening between lines 14 and 18.
 
+// There is an 'else...if' statement happening. What this block is doing is saying, look at and evaluate the value
+// of the variable "doorChoice". Based on the assigned value, if it is strictly equal (the same data type and value)
+// to the Number data type with a value of 1, then assign the value of "hat" to the variable "bearClothing". Otherwise,
+// assign "bearClothing" a value of "scarf".
+
 2. What variable has a new value assigned to it after the first if statement executes?
+
+// bearClothing
 
 3. If you changed the variable doorChoice to equal 3, what would the bearClothing value be?
 
+// "scarf"
+
 4. In English, using technical vocabulary, describe what is happening between lines lines 27 and 35.
+
+// This is another "else...if" statement. The lines will be evaluating the value of the variable "bearChoice" and
+// then making a decision of what to log to the console based on the assigned value. The block starts with
+// three conditions that are looking for specific values but, if those values are all evaluated false, then
+// there is a function set to run as well.
 
 5. If you changed the variable bearChoice to equal 3, what will be the final outcome be?
 
+// You run as fast as you can into the next room. It's full of snakes!
+
 6. If you changed the variable doorChoice to equal 1, and the variable bearChoice to equal 2, what will be the final outcome be?
 
+// You tell the bear the hat is too small and it starts to cry!
+
 7. What is your favorite ending?
+
+// I like "You stay with the bear and it becomes your best friend!" that would be really nice 😁 
+
 */
