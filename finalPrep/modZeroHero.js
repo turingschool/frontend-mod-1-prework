@@ -100,7 +100,7 @@ console.log(scaryMonster.address);
 
 // - Create 2 instances of your SuperHero class
 class SuperHero{
-  constructor(name,superpower,age) {
+  constructor(name, superpower, age) {
     this.name = name;
     this.superpower = superpower;
     this.age = age;
@@ -115,14 +115,21 @@ class SuperHero{
     this.energyLevel = 1000;
   }
   gainPower(num) {
-    this.powerLevel = 100 + num;
+    this.powerLevel = this.powerLevel + num;
   }
 }
 
 var catWoman = new SuperHero ('Cat Woman', 'agility', 24);
 
 catWoman.gainPower(55);
+catWoman.gainPower(50);
+catWoman.gainPower(500);
 console.log(catWoman);
+
+var captainAmerica = new SuperHero ('Captain America', 'super strength', 100);
+
+captainAmerica.maximizeEnergy();
+console.log(captainAmerica);
 
 // Reflection
 // What parts were most difficult about this exerise?
@@ -135,4 +142,4 @@ console.log(catWoman);
 // What skills do you need to continue to practice before starting Mod 1?
 // Meg - I'll continue to work on classes and methods. I still referenced my notes for syntax,
 // so I'd like to work to not do that as often for these basic skills. I think I second
-// guessed myself a lot through this. 
+// guessed myself a lot through this.
