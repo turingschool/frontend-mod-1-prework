@@ -23,8 +23,8 @@ console.log("My zoo has " + numberOfCreatures + " " + creatures + "!")
 
 // YOU DO: What data type will be logged to the console as a result of line 22? Explain.
 // Your answer and explanation here:
-"My zoo has 7 unicorns!";
-
+// What would be logged is a string that reads- "My zoo has 7 unicorns!"
+// This is because we used the concatenation method of piecing together a set of small strings and variables that resulted in one long string.
 // YOU DO:
 // Write code that combines the variables below into a string that
 // reads "The quick red fox jumped over the lazy brown dog":
