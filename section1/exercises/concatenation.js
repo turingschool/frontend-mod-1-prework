@@ -22,7 +22,7 @@ var creatures = "unicorns";
 console.log("My zoo has " + numberOfCreatures + " " + creatures + "!")
 
 // YOU DO: What data type will be logged to the console as a result of line 22? Explain.
-// Your answer and explanation here:
+// Your answer and explanation here: Strings and intergers because they are combined with the + in the log
 
 /* The data type will be of string and number. because var creatures is data type of string
 as well numberOfCreatures is data type of number. In the log as well they add more string data type
