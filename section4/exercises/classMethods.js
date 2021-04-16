@@ -45,9 +45,9 @@ class Burrito {
 };
 
 // ADD CODE
-var orderOne = new Burrito('chicken','rice',['salsa','cheese','sour cream']);
-var orderTwo = new Burrito('tofu','rice',['salsa','corn','lettuce']);
-var orderThree = new Burrito('tofu','veggies',['cheese','sour cream','guacamole']);
+var orderOne = new Burrito('chicken', 'rice', ['salsa', 'cheese', 'sour cream']);
+var orderTwo = new Burrito('tofu', 'rice', ['salsa', 'corn', 'lettuce']);
+var orderThree = new Burrito('tofu', 'veggies', ['cheese', 'sour cream', 'guacamole']);
 
 orderOne.changeProtein('beef');
 console.log(orderOne);

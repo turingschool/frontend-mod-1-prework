@@ -116,15 +116,15 @@ console.log(officeTop);
 // class Canine {}
 
 class Canine {
-  constructor (color,hair,size) {
+  constructor (color, hair, size) {
     this.color = color;
     this.hair = hair;
     this.size = size;
   }
 }
 
-var bichonFrise = new Canine('white','short','small');
-var goldenRetriever = new Canine('golden','long','medium');
+var bichonFrise = new Canine('white', 'short', 'small');
+var goldenRetriever = new Canine('golden', 'long', 'medium');
 
 console.log(bichonFrise);
 console.log(goldenRetriever);
@@ -134,7 +134,7 @@ console.log(goldenRetriever);
 // class Snack {}
 
 class Snack {
-  constructor (flavor,handfuls,crunchy) {
+  constructor (flavor, handfuls, crunchy) {
     this.type = flavor;
     this.amount = handfuls;
     this.crunchy = crunchy;
@@ -151,15 +151,15 @@ console.log(swedishFish);
 // class ClothesTop {}
 
 class ClothesTop {
-  constructor (fabric,color,style) {
+  constructor (fabric, color, style) {
     this.fabric = fabric;
     this.color = color;
     this.style = style;
   }
 }
 
-var workTop = new ClothesTop('cotton','pink','button-down');
-var joggingTop = new ClothesTop('polyester','blue','tank-top');
+var workTop = new ClothesTop('cotton', 'pink', 'button-down');
+var joggingTop = new ClothesTop('polyester', 'blue', 'tank-top');
 
 console.log(workTop);
 console.log(joggingTop);

@@ -38,21 +38,27 @@ var zooAnimals = {
 // Using the zoo that you created above, log the value of the first item in
 // the Object
 console.log(zooAnimals.zebras);
+// Challenge
+console.log(zooAnimals[Object.keys(zooAnimals)[0]]);
+// To log the value of the fourth item:
+console.log(zooAnimals[Object.keys(zooAnimals)[3]]);
 
 // Add an animal to the zoo Object, and log the updated Object.
-var zooAnimals = {
+/*var zooAnimals = {
   zebras: 14,
   elephants: 23,
   panthers: 14,
   gorillas: 4,
   giraffes: 9,
   penguins: 31,
-}
+}*/
+
+zooAnimals.penguins = 4;
 
 console.log(zooAnimals);
 
 // Change the value for at least one of your animal keys, and log the updated Object.
-var zooAnimals = {
+/*var zooAnimals = {
   zebras: 14,
   elephants: 23,
   panthers: 8,
@@ -60,10 +66,12 @@ var zooAnimals = {
   giraffes: 9,
   penguins: 31,
 }
+console.log(zooAnimals);*/
+zooAnimals.panthers = 1;
 console.log(zooAnimals);
 
 // Add another animal to the zoo Object, and log the updated Object.
-var zooAnimals = {
+/*var zooAnimals = {
   zebras: 14,
   elephants: 23,
   panthers: 8,
@@ -72,6 +80,9 @@ var zooAnimals = {
   penguins: 31,
   redPandas: 3,
 }
+console.log(zooAnimals);*/
+
+zooAnimals.redPandas = 8;
 console.log(zooAnimals);
 
 //-------------------
