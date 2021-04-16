@@ -29,12 +29,12 @@ console.log(animals.length);
 // YOU DO: Write code that will reassign the last item in the animals
 // array to "Gorilla"
 
-animals.push('Gorilla');
+animals[2] = "Gorilla";
 
 console.log(animals);
 
 // YOU DO: Write code that will add a new animal (type of your choice) to position 3.
-animals.pop();
+
 animals.push('Red Panda');
 console.log(animals);
 
@@ -46,7 +46,7 @@ console.log(animals[2]);
 //-------------------
 
 // YOU DO: Declare a variable that will store an an array of at least 4 foods (strings)
-var dinner = ['potato','steak','salad','bread'];
+var dinner = ['potato', 'steak', 'salad', 'bread'];
 
 // YOU DO: Write code below that will log the number of elements in the array of
 // foods from above.
@@ -66,7 +66,7 @@ console.log(dinner);
   // There are several ways to do this - choose whichever you'd like!
 // Then, log the changed array to verify the new items have been added
 
-dinner.push('pizza','cake','ice cream');
+dinner.push('pizza', 'cake', 'ice cream');
 console.log(dinner);
 // YOU DO: Remove the food that is in index position 0.
 dinner.shift();
@@ -122,12 +122,12 @@ var chargerType = "car";
 
 //The program will first assess if the battery life is 15% or greater as if that is true, no other conditions will impact and they can call Uber
 if (percentBatteryLeft >= 15){
-  console.log('You may call your Uber');
+  console.log('You may call your Uber.');
   //If the battery life is not 15% or more, then the program will evaluate the next set of conditionals
   //as to whether or not there is the appropriate chager available, specifically a charger
   //that will work in the car.
 } else if (hasCharger == true && chargerType == "car") {
-    console.log('You may call your Uber');
+    console.log('You may call your Uber.');
   // If the three conditions are not met, then the program evaluates to the sad path that results
   //in no Uber call.
 } else {
