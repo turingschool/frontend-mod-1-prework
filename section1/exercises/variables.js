@@ -31,24 +31,35 @@ console.log(warning);
   // Store the appropriate data types in each.
 // log all three variables to the console.
 var firstName = 'Megan';
-var isHungry = 'Always';
+var isHungry = true;
 var numberOfPets = 1;
+
 console.log(firstName, isHungry, numberOfPets);
+// or
+console.log(firstName);
+console.log(isHungry);
+console.log(numberOfPets);
 // IN WORDS:
 // How did you decide to use the data type you did for each of the three variables above?
   // Explain.
 /* Meg - The variable names helped to guide the response. The first name would be a string and then number of pets would be a number.
-It wouldn't make sense to put a string for the pet number or a number for the name.*/
+It wouldn't make sense to put a string for the pet number or a number for the name.
+Where I did trip up is the clear boolean of "isHungry". My first response was "always" which is,
+in fact, true :) However, this is a yes or no, you are or are not hungry.*/
 
 // YOU DO:
 // Re-assign the values to the three variables from the previous challenge to different
   // values (but same data type).
 // log all three variables to the console.
 firstName = 'Olivia';
-isHungry = 'Sometimes';
+isHungry = false;
 numberOfPets = 10;
 
 console.log(firstName, isHungry, numberOfPets);
+// or
+console.log(firstName);
+console.log(isHungry);
+console.log(numberOfPets);
 // YOU DO:
 // Using the variables below, log the total number of snacks to the console:
 var healthySnacks = 6;

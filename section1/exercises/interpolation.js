@@ -48,11 +48,18 @@ console.log(`In a predictable result, the ${slowPoke} beat the ${speedy}!`);
   // you name the variables. Remember, the goal is to be concise but descriptive (it's a hard balance!)
   // Then, log out ONE sentence that incorporates all THREE variables uisng interpolation.
 
-var weather = 'storms';
-var action = 'learning';
-var flotationDevice = 'my ship';
+// Meg - this falls into the same Mad Libs trap of another one of my examples did.
+// var weather = 'storms';
+// var action = 'learning';
+// var flotationDevice = 'my ship';
 
-console.log(`I am not afraid of ${weather}, for I am ${action} to sail ${flotationDevice}`);
+// console.log(`I am not afraid of ${weather}, for I am ${action} to sail ${flotationDevice}`);
+
+var name = "Olivia";
+var age = 6;
+var favoriteBook = "Magic TreeHouse Series";
+
+console.log(`Hello, my name is ${name} and I am ${age} years old. I like to read ${favoriteBook}.`)
 
 //-------------------
 // FINAL CHECK
