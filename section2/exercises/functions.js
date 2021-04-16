@@ -27,7 +27,7 @@ printName();
 // YOU DO: Write a function named sayHello that logs to the console "Oh, Hello!"
 // Then, call the function 2 times.
 function sayHello() {
-  console.log("Oh,Hello!");
+  console.log("Oh, Hello!");
 }
 
 sayHello();
@@ -52,9 +52,9 @@ greetMe('Lonna');
 function sumOfTwoNums(num1, num2){
   console.log(num1 + num2);
 }
-sumOfTwoNums(5,4);
-sumOfTwoNums(15,245);
-sumOfTwoNums(345,70);
+sumOfTwoNums(5, 4);
+sumOfTwoNums(15, 245);
+sumOfTwoNums(345, 70);
 
 // YOU DO🎈: Write a function that takes in two strings and prints a concatenation
 // of those two strings, for example the arguments could be ("Oscar", "Ruck") and
@@ -80,6 +80,6 @@ EXPLAIN:
 I tried to keep them simple and descriptive, but it was hard. Originally I'd named the function sumOfTwoNums just sum, but that
 seemed like it might get problematic later.
 For the second one, I used just iceCream, since that was what was being used and then flavors seemed to work well there
-as a natural descriptor of the arguments that would be passed. 
+as a natural descriptor of the arguments that would be passed.
 
 */
