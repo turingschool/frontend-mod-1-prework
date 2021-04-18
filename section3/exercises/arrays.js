@@ -24,43 +24,51 @@ console.log(animals[0]);
 
 // YOU DO: Write code below that will log the number of elements in array of
 // animals from above.
+console.log(animals.length);
 
 
 // YOU DO: Write code that will reassign the last item in the animals
 // array to "Gorilla"
-
+animals[2] = "Gorilla";
+console.log(animals);
 
 // YOU DO: Write code that will add a new animal (type of your choice) to position 3.
-
+animals.push('Monkey');
+console.log(animals);
 
 // YOU DO: Write code that will log the String "Elephant" in the animals array
-
+animals.push('Elephant');
+console.log(animals);
 
 //-------------------
 // PART 2: Foods: Array Methods
 //-------------------
 
 // YOU DO: Declare a variable that will store an an array of at least 4 foods (strings)
-
+var foods = [ 'cheese', 'eggs', 'bread', 'bacon' ];
 
 // YOU DO: Write code below that will log the number of elements in the array of
 // foods from above.
-
+console.log(foods.length);
 
 // YOU DO: Write code below that uses a method to add "broccoli" to the foods array and
 // log the changed array to verify "broccoli" has been added
 
-
+foods.push('broccoli');
+console.log(foods);
 // YOU DO: Write code below that removes the last item of food from the foods array and
 // log the changed array to verify that item has been removed
+foods.pop();
+console.log(foods);
 
-
-// YOU DO: Write code to add 3 new foods to the array. 
+// YOU DO: Write code to add 3 new foods to the array.
   // There are several ways to do this - choose whichever you'd like!
 // Then, log the changed array to verify the new items have been added
-
+foods.push('butter', 'milk', 'bananas');
+console.log(foods);
 // YOU DO: Remove the food that is in index position 0.
-
+foods.shift();
+console.log(foods);
 //-------------------
 // PART 3: Where are Arrays used?
 //-------------------
@@ -79,13 +87,29 @@ The post itself likely has more complex data, but here's one way we can think ab
 var posts = ["image at beach", "holiday party", "adorable puppy", "video of cute baby"];
 
 // YOU DO: Think of a web application you commonly use. Where do you see LISTS utilized, where arrays
-// may be storing data? Come up with 3 examples - they could be from different web applications or 
+// may be storing data? Come up with 3 examples - they could be from different web applications or
 // all from the same one.
 
 // 1:
+
+/*
+Facebook - In the "about" section on someone's profile, in say the "employment" section, you can
+list all of the job titles you've had. Each of these jobs would be associated with an individual's acocunt.
+*/
+
 // 2:
+
+/*
+Youtube - The list of all of a user's previously viewed videos or "History" is probably an array.
+/*
 // 3:
 
+/*
+AirBnB - When you have input all of you search criteria and the app brings up a list of all the places
+matching your filters. I'm sure there is so much more data inside each variable of the list, but I'm
+defintely thinking that there is at some level a listing function going on here.
+
+*/
 
 //-------------------
 // Part 4: Don't let yourself forget everything from Section 2 of Pre-work
@@ -96,9 +120,9 @@ YOU DO:
 Using the variables defined below, write a program that will tell a user if they
 will be able to call an Uber.
 
-The user can call an uber if they have 15% battery remaining, or more. In this case, it doesn't matter 
+The user can call an uber if they have 15% battery remaining, or more. In this case, it doesn't matter
 if the user has a charger at all, or what type.
-The can call an uber if they have a charger and it is a car charger.
+They can call an uber if they have a charger and it is a car charger.
 
 */
 var percentBatteryLeft = 12;
@@ -106,6 +130,20 @@ var hasCharger = true;
 var chargerType = "car";
 
 // Write your conditional here
+// Decide if percentBatteryLeft is greater than or equal to 15.
+if (percentBatteryLeft >= 15) {
+// If it is then log "You can call and Uber!" to the console.
+  console.log("You can call an Uber!");
+// If the first condition was not met, decide if hasCharger is strictly equal to true AND if chargerType is
+// also stritcly equal to the string, "car".
+} else if (hasCharger === true && chargerType === "car") {
+//If BOTH conditions are met, then log "You can call and Uber!" to the console.
+  console.log("You can call an Uber!");
+// If none of these conditions are met, then log "You cannot call an Uber. You must charge your phone first!"
+// to the console.
+} else {
+  console.log("You cannot call an Uber. You must charge your phone first!");
+}
 
 
 // YOU DO - ANNOTATE: Above each line of your code for this if statement, create a comment.
