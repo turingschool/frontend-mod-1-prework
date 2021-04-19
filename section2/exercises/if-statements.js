@@ -31,10 +31,10 @@ if (weather == 'sunny') {
   console.log('good to go!');
 }
 
-/* 
+/*
 YOU DO:
-Using the dogAge variable defined below, 
-determine if a dog is a puppy (2 or younger), 
+Using the dogAge variable defined below,
+determine if a dog is a puppy (2 or younger),
 an adult, or elderly (10 or older).
 
 Log to the console the appropriate age range
@@ -43,7 +43,7 @@ Log to the console the appropriate age range
 
 var dogAge = 3;
 // Write your conditional here
-
+if dog == 2
 
 /*
 YOU DO:
@@ -67,7 +67,7 @@ var numQuarters = 0;
 // Write your conditional here
 console.log("I have enough money for a gumball");
 console.log("I don't have enough money for a gumball");
-
+I have 50 cents
 
 /*
 YOU DO:
@@ -86,11 +86,11 @@ var cupsOfFlour = 1;
 var hasSauce = true;
 
 // Write your conditional here
-
+Have enough to make a pizza
 
 /*
-For the last two exercises, an ideal solution probably uses a logical operator. 
+For the last two exercises, an ideal solution probably uses a logical operator.
 Did yours? Do you know what a logical operator in JavaScript is? Google it to answer
 for yourself!
-
+I did not use an operator, but it makes sense. Using how much of a substance can determine whether you'll have enough.
 */
