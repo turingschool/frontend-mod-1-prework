@@ -7,17 +7,17 @@ Complete each task, using the Burrito class below as a starting point.
 Make sure to run the file with node in your command line.
 */
 
-// The burrito should also have a property called `toppings`. It should be assigned to 
+// The burrito should also have a property called `toppings`. It should be assigned to
 // the toppings parameter in the constructor.
 
-// Below/outside of the class declaration, create 3 object instances of a burrito. 
+// Below/outside of the class declaration, create 3 object instances of a burrito.
 // The toppings argument should be an Array of Strings.
 
-// The burrito class should have a method named `changeProtein`. 
+// The burrito class should have a method named `changeProtein`.
 // This method should accept one argument, a String.
 // The method should re-assign this.protein to the value that was passed in.
 
-// Call the `changeProtein` method on a burrito, then log the burrito to verify 
+// Call the `changeProtein` method on a burrito, then log the burrito to verify
 // that the protein has been changed.
 
 // The burrito class should have a method named `addTopping`.
@@ -28,13 +28,31 @@ Make sure to run the file with node in your command line.
 // that the proteins have been changed.
 
 class Burrito {
-  constructor(protein, base) {
+  constructor(protein, base, toppings) {
     this.protein = protein;
     this.base = base;
+    this.toppings = toppings;
   }
-
-  // ADD CODE
+  changeProtein(newProtein) {
+    this.protein = newProtein;
+  }
+  addTopping(topping) {
+    this.toppings.push(topping);
+  }
 };
 
-// ADD CODE
+// Create 3 Burrito instances
+var rachelBurrito = new Burrito('sofritas', 'brown rice', ['guacamole', 'pico', 'cheese', 'corn']);
+var naveadBurrito = new Burrito('veggie', 'white rice', ['hot sauce', 'guacamole', 'lettuce']);
+var parisaBurrito = new Burrito('chicken', 'salad greens', ['cheese', 'pico', 'fajita vegetables']);
 
+// Call the changeProtein method and check result
+rachelBurrito.changeProtein('barbicoa');
+console.log(rachelBurrito);
+
+//Call addTopping method and check result on two burritos
+naveadBurrito.addTopping('green sauce');
+console.log(naveadBurrito);
+
+parisaBurrito.addTopping('sour cream');
+console.log(parisaBurrito);

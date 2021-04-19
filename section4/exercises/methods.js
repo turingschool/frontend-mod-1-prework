@@ -18,3 +18,18 @@ var lunchOrder = {
   beverage: "iced tea",
   tableNumber: 47
 }
+
+lunchOrder.prepare = function() {
+  console.log('Your order is being prepared');
+};
+
+lunchOrder.complete = function() {
+  console.log('Your order is ready for pick-up at the window')
+};
+
+//Testing
+console.log(lunchOrder.dish);
+console.log(lunchOrder.beverage);
+console.log(lunchOrder['tableNumber']); //just practicng the alternate syntax
+lunchOrder.prepare();
+lunchOrder.complete();
