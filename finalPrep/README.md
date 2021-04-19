@@ -4,8 +4,8 @@ Congrats on making it to the Mod 0 Final Prep! Complete the final exercises belo
 ### Final Technical Prep
 You've learned a ton about some of the core foundations of Javascript! Show us how far you've come by completing the following exercises! You will be using your work from these exercises in your first day of Mod 1! 
 
-- [ ] Complete the [Mod Zero Hero Challenge](./modZeroHero.js)
-- [ ] Complete the [Annotation Challenge](./annotations.js) 
+- [x] Complete the [Mod Zero Hero Challenge](./modZeroHero.js)
+- [x] Complete the [Annotation Challenge](./annotations.js) 
 
 ### Refactor Previous Work
 You've learned A LOT over the last few weeks as it relates to technical content - chances are, you probably have some code from your previous exercises that is either sloppy, incorrect, poorly named, etc. Before starting Mod 1, we want you to `refactor` your code - which is the process of adjusting or improving your code for readability and accuracy. 
@@ -18,10 +18,10 @@ Some things to consider as you refactor include...
 
 Take your time as you go back and refactor your exercises from each section. We've included a handy checklist for you to go through below.
 
-- [ ] I have refactored my `section1` exercises to the best of my ability
-- [ ] I have refactored my `section2` exercises to the best of my ability
-- [ ] I have refactored my `section3` exercises to the best of my ability
-- [ ] I have refactored my `section4` exercises to the best of my ability
+- [x] I have refactored my `section1` exercises to the best of my ability
+- [x] I have refactored my `section2` exercises to the best of my ability
+- [x] I have refactored my `section3` exercises to the best of my ability
+- [x] I have refactored my `section4` exercises to the best of my ability
 
 ### Time Management Prep
 In Mod 0 you've learned about different techniques for managing your time at Turing. Please create a calendar for your **first 3 weeks of Mod 1**. Feel free to make your calendar fit your style, but we suggest that your calendar should include the following:
@@ -31,9 +31,10 @@ In Mod 0 you've learned about different techniques for managing your time at Tur
 
 When you are finished, add screenshots of your calendar so we can provide feedback if needed!
 
-- `Add Week 1 Screenshot Here`
-- `Add Week 2 Screenshot Here`
-- `Add Week 3 Screenshot Here`
+- <img width="1440" alt="Screen Shot 2021-04-19 at 2 49 15 PM" src="https://user-images.githubusercontent.com/61717746/115302309-89081b00-a11f-11eb-93c2-6c8aa9f8cab6.png">
+- <img width="1440" alt="Screen Shot 2021-04-19 at 2 55 15 PM" src="https://user-images.githubusercontent.com/61717746/115302553-cb315c80-a11f-11eb-8bb5-014a4808443d.png">
+
+- <img width="1440" alt="Screen Shot 2021-04-19 at 2 45 55 PM" src="https://user-images.githubusercontent.com/61717746/115302624-e00df000-a11f-11eb-9c95-3c20063b27c5.png">
 
 ### Mentorship Prep
 Mentorship is an integral part of the Turing experience and will help jumpstart your technical career. In order to get your mentor relationship started on the right foot, please complete the following deliverables:
