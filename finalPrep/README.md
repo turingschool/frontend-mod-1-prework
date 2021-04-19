@@ -25,9 +25,9 @@ Take your time as you go back and refactor your exercises from each section. We'
 
 ### Time Management Prep
 In Mod 0 you've learned about different techniques for managing your time at Turing. Please create a calendar for your **first 3 weeks of Mod 1**. Feel free to make your calendar fit your style, but we suggest that your calendar should include the following:
-- [ ] Standard M1 class schedule (see M1 calendar [here](https://frontend.turing.io/today/))
-- [ ] Study/Project work time
-- [ ] Health + Wellness
+- [x] Standard M1 class schedule (see M1 calendar [here](https://frontend.turing.io/today/)) // This unfortunately did not have the calender set up for mod 1 class 2105 so I just did a estimate on my calender! 
+- [x] Study/Project work time
+- [x] Health + Wellness
 
 When you are finished, add screenshots of your calendar so we can provide feedback if needed!
 
