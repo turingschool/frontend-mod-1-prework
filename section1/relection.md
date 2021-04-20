@@ -47,9 +47,9 @@ Price - number
 Concatenation is the process of combining two or more strings into one string
 
 
-8. Think of a site or app you use frequently. Where do you think the developers used concatention?
+8. Think of a site or app you use frequently. Where do you think the developers used concatenation?
 
-In Facebook Marketplace, I believe the developers used concatention by displaying my input in a seamless string above the search results.
+In Facebook Marketplace, I believe the developers used concatenation by displaying my input in a seamless string above the search results.
 For example: Showing results for 1 Bedroom between $1000 and $1300 in the Lakewood, CO area
 
 9. What questions do you still have about the work we've done so far? (not having a question is not an option)
