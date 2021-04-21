@@ -40,7 +40,7 @@ console.log(animals);
 
 // YOU DO: Write code that will log the String "Elephant" in the animals array
 animals.push('Elephant');
-console.log(animals);
+console.log(animals[4]);
 
 
 //-------------------
@@ -124,7 +124,7 @@ if (percentBatteryLeft >= 15) {
 //If "true" log to the console "Finding an Uber in Your Area"
   console.log('Finding an Uber In Your Area');
 //If false, evaluate if user hasCharger and if the chargerType is a "car".
-} else if (hasCharger === true && chargerType === "car"){
+} else if (hasCharger && chargerType === "car"){
 //If BOTH conditions are "true" log "Finding an Uber in Your Area" to the console.
     console.log("Finding an Uber In Your Area")
 //If 1 or more of the conditions are false, then log "Uber is unavailable.  Please plug your phone into
