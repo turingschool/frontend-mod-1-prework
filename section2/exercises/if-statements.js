@@ -98,11 +98,11 @@ var cupsOfFlour = 1;
 var hasSauce = true;
 
 // Write your conditional here
-if (cupsOfFlour < 2, hasSauce === true) {
+if (cupsOfFlour < 2 && hasSauce === true) {
   console.log("I cannot make a pizza");
-} else if (cupsOfFlour < 2, hasSauce === false) {
+} else if (cupsOfFlour < 2 && hasSauce === false) {
   console.log("I cannot make a pizza");
-} else if (cupsOfFlour >= 2, hasSauce === true) {
+} else if (cupsOfFlour >= 2 && hasSauce === true) {
   console.log("I can make a pizza");
 }
 
