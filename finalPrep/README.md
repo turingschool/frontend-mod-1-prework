@@ -1,3 +1,4 @@
+<img width="1199" alt="Screen Shot 2021-04-20 at 11 08 39 PM" src="https://user-images.githubusercontent.com/81186709/115500232-20f42a80-a22e-11eb-9e20-c15f1ae903f6.png">
 # Mod 1 Final Prep
 Congrats on making it to the Mod 0 Final Prep! Complete the final exercises below and be sure to carefully follow the Pull Request steps to submit your work!
 
@@ -31,9 +32,12 @@ In Mod 0 you've learned about different techniques for managing your time at Tur
 
 When you are finished, add screenshots of your calendar so we can provide feedback if needed!
 
-- `Add Week 1 Screenshot Here`
-- `Add Week 2 Screenshot Here`
-- `Add Week 3 Screenshot Here`
+- `<img width="1149" alt="Screen Shot 2021-04-20 at 11 09 48 PM" src="https://user-images.githubusercontent.com/81186709/115500286-3b2e0880-a22e-11eb-8b0f-c30b13d64407.png">
+`
+- `<img width="1199" alt="Screen Shot 2021-04-20 at 11 08 39 PM" src="https://user-images.githubusercontent.com/81186709/115500320-513bc900-a22e-11eb-8fc6-4ba39c5c7a0d.png">
+`
+- `<img width="1187" alt="Screen Shot 2021-04-20 at 11 10 44 PM" src="https://user-images.githubusercontent.com/81186709/115500338-5bf65e00-a22e-11eb-900f-9521294e3bc1.png">
+`
 
 ### Mentorship Prep
 Mentorship is an integral part of the Turing experience and will help jumpstart your technical career. In order to get your mentor relationship started on the right foot, please complete the following deliverables:
