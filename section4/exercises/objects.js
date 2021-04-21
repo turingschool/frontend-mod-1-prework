@@ -65,7 +65,7 @@ It has a sender, a subject, ...
 Declare a variable that stores an Object Literal. Each key should be an attribute of an email and each
 value should be some appropriate value for that key. Work to have at least 5 key-value pairs.
 
-Log your email object to the console.
+Log your e-mail object to the console.
 */
 var emailModZero = {
   subject: "Mod 0 Prework",

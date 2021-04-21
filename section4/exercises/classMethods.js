@@ -39,7 +39,7 @@ class Burrito {
   addTopping(newTopping) {
     this.toppings.push(newTopping);
   }
-}
+};
 
 var burrito1 = new Burrito("steak", "brown rice", ["shredded cheese", "sour cream", "hot sauce"]);
 var burrito2 = new Burrito("barbacoa", "black beans", ["queso sauce", "guacamole", "lettuce"]);

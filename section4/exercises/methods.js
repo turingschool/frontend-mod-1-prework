@@ -30,5 +30,5 @@ console.log(lunchOrder.tableNumber);
 lunchOrder.prepare();
 lunchOrder.complete();
 
-**   console.log(lunchOrder.prepare);
+**  console.log(lunchOrder.prepare);
 console.log(lunchOrder.complete); **  Do I need to do this???

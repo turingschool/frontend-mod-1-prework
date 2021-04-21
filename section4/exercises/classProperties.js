@@ -105,7 +105,7 @@ var dog2 = new Dog("chihuahua", "Mocha", "December");
 console.log(dog1);
 console.log(dog2);
 
-// Prompt 2: Snack
+// Prompt 2:  Snack
 class Snack {
   constructor(brand, flavor, color) {
     this.brand = name;
