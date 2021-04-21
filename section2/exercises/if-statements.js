@@ -45,10 +45,12 @@ Log to the console the appropriate age range
 
 var dogAge = 3;
 
-if (dogAge =< 2) {
-  console.log('Puppy')
+if (dogAge <= 2) {
+  console.log('puppy');
 } else if (dogAge >= 10) {
   console.log('elderly');
+} else {
+  console.log('adult');
 }
 
 /*
@@ -72,9 +74,9 @@ var numQuarters = 0;
 
 // Write your conditional here
 
-if (numQuarters >= 2) {
+if (numQuarters == 2 || numQuarters == 3) {
   console.log("I have enough money for a gumball");
-} else if (numQuarters < 2) {
+} else if (numQuarters == 0 || numQuarters == 1) {
   console.log("I don't have enough money for a gumball");
 }
 
@@ -107,4 +109,7 @@ For the last two exercises, an ideal solution probably uses a logical operator.
 Did yours? Do you know what a logical operator in JavaScript is? Google it to answer
 for yourself!
 
+My initial solution for the gumball exercise did not use a logical operator.  I did play around
+with the code so I could use || for OR.  || will only return false if both of its operands are false, so it worked for this solution.
+JS defines the two operators && (AND) || (or).  && only returns true when both of its operands are true.
 */

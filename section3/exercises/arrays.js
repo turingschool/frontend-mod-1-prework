@@ -58,22 +58,22 @@ console.log(foods.length);
 // YOU DO: Write code below that uses a method to add "broccoli" to the foods array and
 // log the changed array to verify "broccoli" has been added
 foods.push('Broccoli');
-console.log(foods)
+console.log(foods);
 
 // YOU DO: Write code below that removes the last item of food from the foods array and
 // log the changed array to verify that item has been removed
-foods.pop()
-console.log(foods)
+foods.pop();
+console.log(foods);
 
 // YOU DO: Write code to add 3 new foods to the array.
   // There are several ways to do this - choose whichever you'd like!
 // Then, log the changed array to verify the new items have been added
-foods.push("Cheese", "Soup", "Egg")
-console.log(foods)
+foods.push("Cheese", "Soup", "Egg");
+console.log(foods);
 
 // YOU DO: Remove the food that is in index position 0.
-foods.shift()
-console.log(foods)
+foods.shift();
+console.log(foods);
 
 //-------------------
 // PART 3: Where are Arrays used?
@@ -96,7 +96,7 @@ var posts = ["image at beach", "holiday party", "adorable puppy", "video of cute
 // may be storing data? Come up with 3 examples - they could be from different web applications or
 // all from the same one.
 
-// 1: var classes = ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday"]
+// 1: var classDay = ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday"]
 // 2: var time = ["6 AM", "7 AM", "9 AM", "12 PM", "5 PM", "630 PM"]
 // 3: var instructor = ["Kelly", "Tina", "Jessica", "Sara", "Stephanie"]
 // These are all variables from my Fierce45 (Pilates) app.

@@ -55,5 +55,5 @@ It's full of snakes!"
 If the variable doorChoice was equal to 1, and the variable bearChoice was equal to 2, the final outcome would be
 "You tell the bear the hat is too small and it starts to cry!"
 7. What is your favorite ending?
-My favorite ending is "You stay with the bear and become its best friend."
+My favorite ending is "you offer the bear your bearClothing and the bear shows you a secret passage out!"
 */
