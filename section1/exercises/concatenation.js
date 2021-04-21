@@ -23,7 +23,7 @@ console.log("My zoo has " + numberOfCreatures + " " + creatures + "!")
 
 // YOU DO: What data type will be logged to the console as a result of line 22? Explain.
 // Your answer and explanation here:
-
+- The answer will be 7 unicorns, because of the interpolation being plugged in.
 
 // YOU DO:
 // Write code that combines the variables below into a string that

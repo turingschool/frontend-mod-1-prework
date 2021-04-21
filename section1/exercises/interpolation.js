@@ -45,7 +45,10 @@ console.log(`The ${speedy} lost dramatically to the ${slowPoke} .`);
 // Declare three variables, name/content/data type of your choice. Think carefully about what
   // you name the variables. Remember, the goal is to be concise but descriptive (it's a hard balance!)
   // Then, log out ONE sentence that incorporates all THREE variables uisng interpolation.
-
+var food = "pizza";
+var dayOfWeek = "Saturday";
+var drink = "soda";
+console.log(`On ${dayOfWeek} I enjoy eating ${food} and drinking ${drink} .`);
 
 //-------------------
 // FINAL CHECK
