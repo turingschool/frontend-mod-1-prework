@@ -19,11 +19,12 @@ console.log("The " + team + " are " + name + "'s favorite Quidditch team");
 var numberOfCreatures = 7;
 var creatures = "unicorns";
 
-console.log("My zoo has " + numberOfCreatures " " + creatures + "!");
+console.log("My zoo has " + numberOfCreatures + " " + creatures + "!");
 
 // YOU DO: What data type will be logged to the console as a result of line 22? Explain.
-// Your answer and explanation here: The data types logged will be a number (data type that handles numbers) and a string because it is a sequence of characaters stored in quotations.
-
+// Your answer and explanation here:
+//The data types logged will be a string because it is a sequence of characaters stored in quotations.
+//Data coercion will turn the data types into a string.
 
 // YOU DO:
 // Write code that combines the variables below into a string that

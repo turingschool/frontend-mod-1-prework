@@ -23,8 +23,8 @@ console.log(enrolledStudents);
 // YOU DO:
 // Write code below to save the string 'Harry Potter must not return to Hogwarts!'
 // log that variable to the console.
-var name = "Harry Potter";
-console.log(`"${name} must not return to hogwarts!"`);
+var expelled = (name + " must not return to Howarts!");
+console.log(expelled);
 
 // YOU DO:
 // Declare three variables, named `firstName`, `isHungry` and `numberOfPets`.
@@ -41,15 +41,15 @@ console.log(numberOfPets);
 
 // IN WORDS:
 // How did you decide to use the data type you did for each of the three variables above?
-  // Explain.
-  I used a string for var firstName because the variable uses text.  The "" allow for the data to be recognized
-  as a string and not a number or variable name.
+// Explain.
+//  I used a string for var firstName because the variable uses text.  The "" allow for the data to be recognized
+//  as a string and not a number or variable name.
 
-  For var isHungry I used Boolean.  A boolean is either true or false, so moving forward if my hunger status changes I can either
-  assign the variable true if I am hungry, or flase if I am not hungry.
-
-  For var numberOfPets I used a number.  I used a number because the variable name specified that it was wanting to know
-  the number of pets I have.
+// For var isHungry I used Boolean.  A boolean is either true or false, so moving forward if my hunger status changes I can either
+// assign the variable true if I am hungry, or flase if I am not hungry.
+//
+// For var numberOfPets I used a number.  I used a number because the variable name specified that it was wanting to know
+// the number of pets I have.
 
 
 
@@ -74,6 +74,9 @@ console.log(healthySnacks);
 
 var junkFoodSnacks = 8;
 console.log(junkFoodSnacks);
+
+var snackTotal = (healthySnacks + junkFoodSnacks);
+console.log(snackTotal);
 
 
 //-------------------
