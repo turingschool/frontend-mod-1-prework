@@ -14,7 +14,7 @@
 
 1. How do you add multiple conditions to an `if` statement? In your own words, explain how to program reads them and determines what to do.
 
-You can add multiple conditions to an `if` statement by using `else if`.  If the `if` statement is true, the computer will execute the code in the curly bracket.  If the `if` statement is false, the `else if` tells the computer to test the new condition.  The `else` statement is used if all of the other conditions return false.  
+- You can add multiple conditions to an `if` statement by using `else if`.  If the `if` statement is true, the computer will execute the code in the curly bracket.  If the `if` statement is false, the `else if` tells the computer to test the new condition.  The `else` statement is used if all of the other conditions return false.  
 
 1. What tools are available to you, as a developer, if you want to check that TWO conditions are met? Or, if you want to check that 1 of 2 conditions are met, before running a block of code?
 
