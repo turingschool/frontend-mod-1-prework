@@ -31,14 +31,15 @@ console.log(boom)
 **6. Think of a site or app you use frequently. What are three variables that are probably used? Which data type would each of those variables probably hold?**
 
  - An app I use frequently is of course Twitter. Three variables that are most likely used are something along the lines of
- var username = {                 var interest = {                                    var trending = { 
  
- name = 'blank',                  name = 'smash',                                     name = 'Nairo',
+ var username = {       -          var interest = {                     -               var trending = { 
  
- age = '32' ,                     game = [Ultimate , Melee , Smash 4],                tweets = '14560'
+ name = 'blank',        -          name = 'smash',                       -              name = 'Nairo',
  
- isAdult = 'True'                 isPro = false                                       platforms = [Twitch,Youtube]
- }                                }                                                   }
+ age = '32' ,          -           game = [Ultimate , Melee , Smash 4],      -          tweets = '14560'
+ 
+ isAdult = 'True'        -         isPro = false                       -                platforms = [Twitch,Youtube]
+ }                   -             }                                -                   }
 
 **7. In your own words, explain what concatenation is.**
 
