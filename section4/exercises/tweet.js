@@ -27,3 +27,8 @@ var tweet1 = new Tweet("Raquel", "I love Turing!", "April 20 2021 932 PM", 1000,
 tweet1.likeTweet()
 tweet1.commentOnTweet("Turing is so hard!")
 console.log(tweet1)
+
+var tweet2 = new Tweet("Jane", "I'm at the Beach!", "July 04 2020 10 AM", 1000, ["Is that Cabo?"])
+tweet2.likeTweet()
+tweet2.commentOnTweet("Beautiful")
+console.log(tweet2)

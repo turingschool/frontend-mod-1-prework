@@ -48,8 +48,8 @@ var burrito3 = new Burrito("chicken", "pinto beans", ["guacamole", "sour cram", 
 burrito1.changeProtein("chicken");
 console.log(burrito1);
 
-burrito2.addTopping("corn salsa,")
+burrito2.addTopping("corn salsa");
 console.log(burrito2);
 
-burrito3.addTopping("shredded cheese")
+burrito3.addTopping("shredded cheese");
 console.log(burrito3);

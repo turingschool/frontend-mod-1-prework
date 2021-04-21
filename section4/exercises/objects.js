@@ -72,7 +72,7 @@ var emailModZero = {
   sender: "Raquelturing@gmail.com",
   dateSent: "April 21 2021",
   recipient: "turing@gmail.com",
-  attachments: "objects.js"
+  attachments: []
 }
 console.log(emailModZero);
 
