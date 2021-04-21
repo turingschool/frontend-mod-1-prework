@@ -32,8 +32,11 @@ console.log(boom)
 
  - An app I use frequently is of course Twitter. Three variables that are most likely used are something along the lines of
  var username = {                 var interest = {                                    var trending = { 
+ 
  name = 'blank',                  name = 'smash',                                     name = 'Nairo',
+ 
  age = '32' ,                     game = [Ultimate , Melee , Smash 4],                tweets = '14560'
+ 
  isAdult = 'True'                 isPro = false                                       platforms = [Twitch,Youtube]
  }                                }                                                   }
 
