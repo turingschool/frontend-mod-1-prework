@@ -135,7 +135,7 @@ console.log(lovesToPlay && age);
 
 
 // What did your final line of code evaluate to? Why do you think that is? Explain.
-// ANSWER:  My final line of code evaluated to 1.  I think that is because var age is not a boolean, it is a number.
+// ANSWER:  My final line of code evaluated to 1.  I think that is because we haven't told the computer what a puppy is yet.  
 
 //-------------------
 // FINAL CHECK
