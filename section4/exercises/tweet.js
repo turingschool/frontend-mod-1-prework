@@ -9,7 +9,7 @@ tweet object instances _behave_ as expected.
 */
 // Declared my class called, Tweet. This will be the class hwere all of the new "tweet" object instances will be stored.
 
-// Original Code (Posted to Slack)
+// Final Code
 
 
 class Tweet {
@@ -22,7 +22,7 @@ class Tweet {
   }
   addComment(commentAdd) {
     this.comments.push(commentAdd);
-  }
+  } 
   addLike(){
     this.numberOfLikes++
   }/*
