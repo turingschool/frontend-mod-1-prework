@@ -133,5 +133,3 @@ console.log(tankTop);
 
 
 
-
-// Prompt 3: Shirt
