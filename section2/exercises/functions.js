@@ -64,10 +64,10 @@ numSum(1000,0.25);
 // the end result might be "Oscar and Ruck are BFFS".  Then, call that function.
 
 function bestFriend(friend_one, friend_two) {
-  console.log(""+ friend_one + " and " + friend_two + " are BFFS");
+  console.log(friend_one + " and " + friend_two + " are BFFS");
 }
 
-friendName("Oscar", "Ruck");
+bestFriend("Oscar", "Ruck");
 
 //-------------------
 // PART 3: Naming is Hard
