@@ -25,5 +25,7 @@ var lunchOrder = {
   }
 };
 
+console.log(lunchOrder.dish, lunchOrder.beverage, lunchOrder.tableNumber);
+
 lunchOrder.prepare();
 lunchOrder.complete();

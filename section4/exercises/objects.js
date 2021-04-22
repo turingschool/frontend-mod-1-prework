@@ -122,3 +122,29 @@ good to have some exposure before going into Mod 1.
 // YOU DO: Create an array of at least 3 EMAIL Object Literals, using the same
 // key-value pairs you used in your email Object above.
 // Then, log the email Array to the console.
+
+var emails = [
+  {
+    contacts: ["johnsmith@mail.net", "jeffperson@mail.net"],
+    subject: "awesome email test",
+    body: "testing to see if you get this.",
+    attachments:[],
+    signature: "Have a great day! - Bob"
+  },
+  {
+    contacts: ["johnsmith@mail.net"],
+    subject: "Hey Bud!",
+    body: "Wanna catch up sometime?",
+    attachments:[],
+    signature: "Have a great day! - Bob"
+  },
+  {
+    contacts: ["rob@mail.net"],
+    subject: "Do I know you?",
+    body: "Who dis?",
+    attachments:[],
+    signature: "Cheers -John"
+  }
+]
+
+console.log(emails);
