@@ -74,5 +74,5 @@ stay with the bear and become it's best friend!");"
 
 7. What is your favorite ending?
 
-My favorite ending is "You stay with the bear and become it's best friend!");
+My favorite ending is "You stay with the bear and become it's best friend!"); Hahaha
 */

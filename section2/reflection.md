@@ -4,7 +4,7 @@
 
 In my everyday life, I normally ask a lot of questions and don't worry too much about being seen as dumb. In my professional life, I am usually more reserved in my question asking. I worry more about my coworkers thinking I am dumb and don't deserve my position. So in my professional life, I usually wait too long to ask questions and struggle more which makes me doubt myself more. Since starting mod0 I have been trying to pay more attention to how long I am struggling and I am going to start setting a timer, as one of the articles suggested, so that I don't get trapped too long and waste too much time.
 
-1. In this section, we removed some of the supports that you had in Section 1. We didn't give the directions for how to run a file in node, and really sent you off to learn about functions by exploring several outside resources. How did that feel? What was uncomfortable about it? How did it support your learning?
+2. In this section, we removed some of the supports that you had in Section 1. We didn't give the directions for how to run a file in node, and really sent you off to learn about functions by exploring several outside resources. How did that feel? What was uncomfortable about it? How did it support your learning?
 
 I was confused more at first and felt unsure of my work. I was uncomfortable with the fact that I slowed down as I went back and forth rechecking my work and googling more questions. I think it supported my work by giving me practice of reading thoroughly to gain as much information from an article as possible. It also supported my work by giving me practice of the steps needed to teach myself some programming skills which I will have to do plenty of in the future.
 
@@ -35,7 +35,7 @@ The program is reading the first `if` statement to determine if it is *true*, do
 
 1. What tools are available to you, as a developer, if you want to check that TWO conditions are met? Or, if you want to check that 1 of 2 conditions are met, before running a block of code?
 
-A flowchart is available to use/draw before even typing one line of code. You could also use logical operators of && (logical and operation) and || (logical or operation). 
+A flowchart is available to use/draw before even typing one line of code. You could also use logical operators of && (logical and operation) and || (logical or operation).
 
 1. What questions do you still have about `if` statements and/or functions?
 
