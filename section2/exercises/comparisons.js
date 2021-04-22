@@ -134,8 +134,7 @@ console.log(lovesToPlay && age);
 
 // What did your final line of code evaluate to? Why do you think that is? Explain.
 // ANSWER:
-  //I believe it will evaluate to undefined or something like that because the logical operator && is trying to evaluate if both variables are true. However, age is assigned a number value, not a boolean, so the logical opeator can't complete it's assigned evaluation. You would need another line of code or two to define what age constitutes a puppy and then use a comparison operator to evaluate whether or not our doggo is a puppy or not, then feed that result to the logical operator.
-  //Having run the answers I see that it evaluated to 1, which is the value of age. I am assuming that it didn't know what to do with the logical comparison so it just logged the value of the variable age .
+//It evaluated to 1, which is the value of age. I am assuming that it didn't know what to do with the logical comparison so it just logged the value of the variable age since the command was for it to log something.
 
 //-------------------
 // FINAL CHECK

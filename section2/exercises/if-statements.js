@@ -41,7 +41,7 @@ Log to the console the appropriate age range
 (puppy, adult, elderly).
 */
 
-var dogAge = 3;
+var dogAge = 11;
 // Write your conditional here
 if (dogAge <= 2) {
   console.log('puppy');
@@ -111,5 +111,5 @@ For the last two exercises, an ideal solution probably uses a logical operator.
 Did yours? Do you know what a logical operator in JavaScript is? Google it to answer
 for yourself!
 
-- I used a logical AND operator for the pizza exercise because the if statement had to evaluate two variables to make sure both were true. However, I only used a comparison operator for the the gumball exercise. After reading this prompt suggesing a logical operator would have been ideal, I noodled around with a logical NOT operator, but couldn't find a way of using it that made sense. 
+- I used a logical AND operator for the pizza exercise because the if statement had to evaluate two variables to make sure both were true. However, I only used a comparison operator for the the gumball exercise. After reading this prompt suggesing a logical operator would have been ideal, I noodled around with a logical NOT operator, but couldn't find a way of using it that made sense.
 */
