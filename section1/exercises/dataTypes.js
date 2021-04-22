@@ -21,10 +21,10 @@ console.log("Alan Turing");
 console.log('Welcome to Turing!');
 
 // YOU DO: Write code below to log `99 bottles of pop on the wall...`:
-console.log('99 bottles of pop on the wall');
+console.log('99 bottles of pop on the wall...');
 
 // YOU DO: Write code below to log one line from your favorite song or movie:
-console.log('My heart is like the ocean--it gets in the way...');
+console.log('My heart is like the ocean\n it gets in the way\nSo close to touching freedom \n then I hear the guards call my name');
 
 
 
@@ -60,7 +60,7 @@ console.log(1 === 2);
 console.log(7 > 2);
 
 // YOU DO: log to the console the result of "hello" is equal to "Hello":
-console.log("hello" == "Hello");
+console.log("hello" === "Hello");
 
 // YOU DO: log to the console the result of 3 is not equal to 4:
 console.log(3 !== 4);
