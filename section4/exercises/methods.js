@@ -16,5 +16,17 @@ Make sure to run the file with node in your command line.
 var lunchOrder = {
   dish: "BLT",
   beverage: "iced tea",
-  tableNumber: 47
-}
+  tableNumber: 47,
+  prepare: function() {
+    console.log("Thanks for your order. It will be ready soon.");
+  }
+};
+
+lunchOrder.complete = function() {
+  console.log("Congratulations, your order is ready!");
+};
+
+
+console.log(lunchOrder.complete());
+
+// I wasn't sure if we were supposed to just manually add the method to the object literal, or if we were supposed to add it with the dot notation. I just did both.
