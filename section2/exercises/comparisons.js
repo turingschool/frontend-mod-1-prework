@@ -94,7 +94,6 @@ console.log(attendees !== meals);
 // YOU DO: Explain.
 /* 2 different variables are declared, 'attendees' with the numeric value of 9 and 'meals' with the numeric value
 of 8. The comparison is asking if the value of attendees is not equal to the value of meals. The result is true.
-}
 */
 //-------------------
 // PART 3: Logical Operators
@@ -137,3 +136,5 @@ console.log(lovesToPlay && age<=1);
 
 // Did you run this file in your terminal to make sure everything printed out to the console
 // as you would expect?
+
+//yes

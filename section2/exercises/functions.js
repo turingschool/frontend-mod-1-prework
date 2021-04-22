@@ -82,6 +82,7 @@ Look at the code you wrote for the previous YOU DO🎈 - what did you name the f
 What did you name each parameter, and why?
 
 EXPLAIN:
+
 I named the function whoMyBff, I figured it was a unique enough identifier for a function. I named the
 parameters name1 and name2 so they would be easily identifiable and could see what was happening with the code
 at a quick glance
