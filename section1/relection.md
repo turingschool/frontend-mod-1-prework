@@ -19,6 +19,7 @@ boolean - these either have one of two outcomes, true or false
 
 
 3. How would you log the string `"Hello World!"` to the console?
+
 console.log('"Hello World"');
 
 
@@ -44,13 +45,13 @@ Price - number
 
 7. In your own words, explain what concatenation is.
 
-Concatenation is the process of combining two or more strings into one string
+Concatenation is the process of combining two or more strings into one string using the '+'
 
 
 8. Think of a site or app you use frequently. Where do you think the developers used concatenation?
 
 In Facebook Marketplace, I believe the developers used concatenation by displaying my input in a seamless string above the search results.
-For example: Showing results for 1 Bedroom between $1000 and $1300 in the Lakewood, CO area
+For example: Showing results for 1 Bedroom between $1000 and $1500 in the Lakewood, CO area
 
 9. What questions do you still have about the work we've done so far? (not having a question is not an option)
 

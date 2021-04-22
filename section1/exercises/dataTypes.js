@@ -41,7 +41,7 @@ console.log(83 - 7);
 console.log(6 * 53);
 
 // YOU DO: log the result of 20 divided by 4 to console:
-console.log(20./4);
+console.log(20/4);
 
 // YOU DO: log the result of the modulo of 10 into 54:
 console.log(10 % 54);
@@ -74,4 +74,4 @@ console.log(4 <= 5);
 // Did you run this file in your terminal to make sure everything printed out to the console
 // as you would expect?
 
-// yes I did! 
+// yes I did!
