@@ -12,7 +12,7 @@ I currently demonstrate Growth Mindset by developing action plans to achieve goa
 
 Google search engine probably uses Arrays to store the search results of what I or a user search for. Each link listed/displayed would be one element of the Array.
 
-1. In your own words, explain what an Array method is.
+2. In your own words, explain what an Array method is.
 
 Array methods change what we do to the elements in the array without having to type the entire array out again.
 

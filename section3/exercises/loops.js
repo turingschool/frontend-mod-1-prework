@@ -54,6 +54,7 @@ for (var i = 0; i < 7; i++) {
 for (var i = 1; i <= 10; i++) {
 console.log("This is a loop number" + " " + i);
 }
+
 // YOU DO: Using a for loop, how could you get an output that looks like this:
 
 // 10
