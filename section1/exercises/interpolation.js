@@ -22,7 +22,7 @@ var creatures = "unicorns";
 console.log( `My zoo has ${numberOfCreatures} ${creatures}!`);
 
 // YOU DO: What data type will be logged to the console as a result of line 22? Explain.
-// Your answer and explanation here:
+// Your answer and explanation here: The data type will be a string due to Type Coercion changing numberOfCreatures to a string.
 
 
 // YOU DO:
