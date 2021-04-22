@@ -65,5 +65,6 @@ VM465:1 Uncaught ReferenceError: Raquel is not defined
     at <anonymous>:1:1
 ```
 How do I properly reassign a variable?
+
  //Note:  Once I went back to edit my work, I answered my own question.  Raquel
- //needs to be "Raquel" for the variable to reassign.  
+ needs to be "Raquel" for the variable to reassign.//  
