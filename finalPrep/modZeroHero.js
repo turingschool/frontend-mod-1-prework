@@ -1,27 +1,17 @@
 // Challenge - See if you can follow the instructions and complete the exercise in under 30 minutes!
 
 // Declare two variables - heroName AND specialAbility - set to strings
-<<<<<<< HEAD
+
 var heroName = "Batman";
 var specialAbility = "drive the batmobile";
 
-=======
-var heroName = "Bat Man"
-var specialAbility = "drive the batmobile"
->>>>>>> 8baa8893f39136968f35ff3d610320280d25ba84
 
 // Declare two variables - greeting AND catchphrase
 //   greeting should be assigned to a string that uses concatenation to include the heroName
-var greeting = "Hello" + heroName + " !"
 //   catchphrase should be assigned to a string that uses interpolation to include the specialAbility
-<<<<<<< HEAD
-var greeting = "Hello " + heroName + " !";
+var greeting = "Hello" + heroName + " !"
 var catchPhrase = `Look at me!  I can ${specialAbility} and crush my enemy!`;
 
-
-=======
-var catchPhrase = `Look at me!  I can ${specialAbility} and crush my enemy!`
->>>>>>> 8baa8893f39136968f35ff3d610320280d25ba84
 // Declare two variables - power AND energy - set to integers
 
 var power = 200;
@@ -61,7 +51,8 @@ sidekicks.shift();
 console.log(sidekicks);
 // Create a function called assessSituation that takes three arguments - dangerLevel, saveTheDay, badExcuse
 //   - dangerLevel should be an integer
-
+//   - saveTheDay should be a string a hero would say once they save the day
+//   - badExcuse should be a string a hero would say if they are too afraid of the dangerLevel
 var dangerLevel = 180
 var saveTheDay = "I'm Batman and I'm going to save the day!"
 var badExcuse = "I can't help.  My batmobile is out of gas."
@@ -80,8 +71,6 @@ assessSituation(5, saveTheDay, badExcuse)
 assessSituation(25, saveTheDay,  badExcuse)
 assessSituation(100, saveTheDay, badExcuse)
 
-//   - saveTheDay should be a string a hero would say once they save the day
-//   - badExcuse should be a string a hero would say if they are too afraid of the dangerLevel
 
 // Your function should include an if/else statement that meets the following criteria
 //   - Danger levels that are above 50 are too scary for your hero. Any danger level that is above 50 should result in printing the badExcuse to the console
@@ -179,11 +168,7 @@ console.log(superHero2);
 
 // Reflection
 // What parts were most difficult about this exerise?
-//    
-// I struggled with self-doubt during this exercise.  Instead of following my intuition, I made sure I looked everything up before I did anything complex in the 
-// exercise.  Everything after line 60 was a bit of a struggle for me as well.  I am not sure why, but section4 is just not clicking for me so I still need to read
-// my notes in order to type out the code. 
-
+//
 // There were a couple of times where I didn't fully understand the question (ex: Test Cases) so I had to think
 // about how I wanted to attack the problem.  I struggled with self-doubt during this exercise.  Instead of following my intuition, I made sure I looked everything up before I did anything complex in the
 // exercise.  Everything after line 60 was a bit of a struggle for me as well.  I am not sure why, but section4 is just not clicking for me so I still need to read
@@ -191,17 +176,9 @@ console.log(superHero2);
 
 // What parts felt most comfortable to you?
 //
-// I am comfortable with the different types of variables and naming variables.  Objects are my biggest hang up.  
-
 // I am comfortable with the different types of variables and naming variables.  Objects are my biggest hang up.
 
 // What skills do you need to continue to practice before starting Mod 1?
-<<<<<<< HEAD
 
 // Honestly I need to continue to practice everything.  I have zero experience with coding so practice is going to be my best friend.  My goal is to run through
 // this activity daily until it is second nature to me.
-=======
-//
-// Honestly I need to continue to practice everything.  I have zero experience with coding so practice is going to be my best friend.  My goal is to run through
-// this activity daily until it is second nature to me.  
->>>>>>> 8baa8893f39136968f35ff3d610320280d25ba84
