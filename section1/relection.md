@@ -56,7 +56,8 @@ console.log("Welcome back " + name + "!")
 9. What questions do you still have about the work we've done so far? (not having a question is not an option)
 
 * I am still not sure how to reassign a variable.  I know that it can be done, but when I practice writing in JS if I assign a new variable I get the error message:
-```var name = "Harry Potter"
+```
+var name = "Harry Potter"
 undefined
 `I love ${name}`
 "I love Harry Potter"
