@@ -38,8 +38,8 @@ class Burrito {
     this.protein = "Mushroom";
   }
 
-  addTopping() {
-    this.toppings = this.toppings + " and Red Onion";
+  addTopping(topping) {
+    this.toppings = (this.toppings + ", " + topping);
   }
 
   // ADD CODE
@@ -49,7 +49,7 @@ class Burrito {
 var joeBurrito = new Burrito("Steak", "Tortilla", "Cheese");
 console.log(joeBurrito);
 
-var susanBurrito = new Burrito("Chicken", "Chips", "Sour Cream");
+var susanBurrito = new Burrito("Chicken", "Chips", "Sour cream");
 console.log(susanBurrito);
 
 var devBurrito = new Burrito("Beyond", "Lettuce", "Cilantro");
@@ -62,5 +62,5 @@ console.log(joeBurrito);
 // ADD CODE
 
 //Call method to add topping and log results
-susanBurrito.addTopping();
+susanBurrito.addTopping("Red onion");
 console.log(susanBurrito);
