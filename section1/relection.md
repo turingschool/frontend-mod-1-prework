@@ -51,6 +51,7 @@ Example
 ```var animal = mouse;
 console.log("Hello, I am a" + animal);
 ```
+
 This will output "Hello, I am a mouse"
 
 8. Think of a site or app you use frequently. Where do you think the developers used concatenation?
@@ -61,4 +62,4 @@ The website that I am thinking of is Facebook. They must use concatenation on th
 
 I am confused by how I should be talking about numbers as a variable. In class we refered to numbers as either Integers or Floats but I haven't seen those terms used anywhere else and have just been using the word numbers to include both integers and floats. Is this acceptable?
 
-How would I know on my own to use my terminal for a project? Same question about the console. It isn't clear to me how I would know the appropriate tool/program to use and why. 
+How would I know on my own to use my terminal for a project? Same question about the console. It isn't clear to me how I would know the appropriate tool/program to use and why.
