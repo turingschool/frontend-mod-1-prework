@@ -2,7 +2,7 @@
 
 1. How did the SuperLearner Article resonate with you? What from this list do you already do? Want to start doing or do more of? Is there anything not on this list, that you would add to it?
 
-* The biggest point that resonated with me is that "Super learners view learning as a process."  When I finish up a Turing, my learning process will not be over.  There are infinite amounts of new things to learn when it comes to coding.  Instead of setting the goal to finish Turning, I will set out to be the nest coder I can be knowing that it will require constant research and practice.  
+* The biggest point that resonated with me is that "Super learners view learning as a process."  When I finish up a Turing, my learning process will not be over.  There are infinite amounts of new things to learn when it comes to coding.  Instead of setting the goal to finish Turning, I will set out to be the best coder I can be knowing that it will require constant research and practice.  
 
 * I already read a lot.  I enjoy learning new information and researching things that I don't know the answer to.  Before I started Mod 0 I didn't have a focus so my reading has been all over the place.  For now, I would like to focus my research to things that are code related.  I would also like to teach others what I know in order to retain information.  I have set up a study group, and I am going to be ready to teach the definitions that seem important as well as show others how to do the "You Do" exercises.  
 
@@ -20,7 +20,7 @@ subset of algebra used for creating true/false statements.
 
 3. How would you log the string `"Hello World!"` to the console?
 
-* console.log(`"Hello World!"`);
+* console.log("Hello World!");
 
 4. What is/are the character(s) you would use to indicate comments in a JavaScript file? What is the purpose of a code comment?
 
@@ -65,3 +65,5 @@ VM465:1 Uncaught ReferenceError: Raquel is not defined
     at <anonymous>:1:1
 ```
 How do I properly reassign a variable?
+ //Note:  Once I went back to edit my work, I answered my own question.  Raquel
+ //needs to be "Raquel" for the variable to reassign.  
