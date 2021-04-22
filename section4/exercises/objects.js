@@ -17,30 +17,45 @@ var foods = {
 };
 
 console.log(foods);
-// Notice that the variable name is foods, plural, because it has the ability to hold info about 
-// potentially many foods. That plural name indicates to another developer that the variable stores 
+// Notice that the variable name is foods, plural, because it has the ability to hold info about
+// potentially many foods. That plural name indicates to another developer that the variable stores
 // either an Array or an Object.
 
 //-------------------
 // Part 1: Zoo Animals
 //-------------------
 
-// YOU DO: Write code below that will declare a variable that stores an Object Literal of animal names and 
+// YOU DO: Write code below that will declare a variable that stores an Object Literal of animal names and
 // the number of that type of animal at the zoo.
+var animals = {
+  zebras: 23,
+  lions: 507,
+  pythons: 48,
+  chinchillas: 1
+};
+
+console.log(animals);
 
 
 // Using the zoo that you created above, log the value of the first item in
 // the Object
+console.log(animals.zebras);
 
 
 // Add an animal to the zoo Object, and log the updated Object.
+animals.otters = 12;
+console.log(animals);
 
 
 // Change the value for at least one of your animal keys, and log the updated Object.
+animals.lions = 0; //sold all lions to another zoo.
+animals.chinchillas = 0; //poor chinchilla died.
 
+console.log(animals);
 
 // Add another animal to the zoo Object, and log the updated Object.
-
+animals.bats = 10000;
+console.log(animals);
 
 //-------------------
 // Part 2: Email
@@ -56,6 +71,14 @@ value should be some appropriate value for that key. Work to have at least 5 key
 Log your email object to the console.
 */
 
+var email = {
+  sender: `shayangolafsh@aol.com`,
+  recipient: `erin@turing.io`,
+  subject: `Enrollment Date`,
+  timeStamp: '1:34 PM March 5, 2021',
+  msgBody: 'Hi Erin, can you remind me when the orientation date for mod 2103 is?'
+};
+
 //-------------------
 // Part 3: Many Emails - OPTIONAL EXTENSION
 //-------------------
@@ -70,7 +93,7 @@ In the arrays exercise, we gave the following example of an array of Instagram p
 var posts = ["image at beach", "holiday party", "adorable puppy", "video of cute baby"];
 
 /*
-Frankly, that was a very simplified version of the Array the Instagram developers have 
+Frankly, that was a very simplified version of the Array the Instagram developers have
 written and work with. Still probably slightly simplified as we don't know what their code
 actually looks like, but it may look more like this:
 */
@@ -82,7 +105,7 @@ var posts = [
     timeStamp: "4:37 PM August 13, 2019",
     numberLikes: 0,
     comments: []
-  }, 
+  },
   {
     imageSrc: "./images/holiday-party.png",
     caption: "What a great holiday party omg",
@@ -96,12 +119,45 @@ console.log(posts);
 console.log(posts[0]);
 
 /*
-The code snippet above shows an Array with 2 elements. Each element in an 
-Object Literal. Each of those Object Literals has 4 key-value pairs. This may LOOK 
+The code snippet above shows an Array with 2 elements. Each element in an
+Object Literal. Each of those Object Literals has 4 key-value pairs. This may LOOK
 a bit daunting - it's OK! You don't need to be 100% comfortable with this, but it's
 good to have some exposure before going into Mod 1.
 */
 
-// YOU DO: Create an array of at least 3 EMAIL Object Literals, using the same 
+// YOU DO: Create an array of at least 3 EMAIL Object Literals, using the same
 // key-value pairs you used in your email Object above.
 // Then, log the email Array to the console.
+
+
+var emails = [
+  {
+    sender: `shayangolafsh@aol.com`,
+    recipient: `erin@turing.io`,
+    subject: `Enrollment Date`,
+    timeStamp: '1:34 PM March 5, 2021',
+    msgBody: 'Hi Erin, can you remind me when the orientation date for mod 2103 is?'
+  },
+  {
+    sender: `erin@turing.io`,
+    recipient: `shayangolafsh@aol.com`,
+    subject: `Enrollment Date`,
+    timeStamp: '2:33 PM March 5, 2021',
+    msgBody: 'Hi Shayan, your orientation date for 2103 is March 10th, from 9 AM - Noon on zoom. \n Let me know if you have questions.'
+  },
+  {
+    sender: `shayangolafsh@aol.com`,
+    recipient: `erin@turing.io`,
+    subject: `Enrollment Date`,
+    timeStamp: '3:34 PM March 5, 2021',
+    msgBody: 'Ah, got it. Thank you so much Erin!'
+  },
+  {
+    sender: `erin@turing.io`,
+    recipient: `shayangolafsh@aol.com`,
+    subject: `Enrollment Date`,
+    timeStamp: '3:44 PM March 5, 2021',
+    msgBody: 'No problem, Shayan.'
+  }
+]
+console.log(emails);
