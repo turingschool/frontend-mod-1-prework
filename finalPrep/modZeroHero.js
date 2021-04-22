@@ -77,8 +77,16 @@ var excuse = 'I think I forgot to lock up my 1992 Toyota Coralla. Be right back.
 
 // Reflection
 // What parts were most difficult about this exerise?
+//    
+// I struggled with self-doubt during this exercise.  Instead of following my intuition, I made sure I looked everything up before I did anything complex in the 
+// exercise.  Everything after line 60 was a bit of a struggle for me as well.  I am not sure why, but section4 is just not clicking for me so I still need to read
+// my notes in order to type out the code. 
 
 // What parts felt most comfortable to you?
+//
+// I am comfortable with the different types of variables and naming variables.  Objects are my biggest hang up.  
 
 // What skills do you need to continue to practice before starting Mod 1?
-
+//
+// Honestly I need to continue to practice everything.  I have zero experience with coding so practice is going to be my best friend.  My goal is to run through
+// this activity daily until it is second nature to me.  
