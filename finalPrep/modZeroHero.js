@@ -1,11 +1,14 @@
 // Challenge - See if you can follow the instructions and complete the exercise in under 30 minutes!
 
 // Declare two variables - heroName AND specialAbility - set to strings
+var heroName = "Bat Man"
+var specialAbility = "drive the batmobile"
 
 // Declare two variables - greeting AND catchphrase
 //   greeting should be assigned to a string that uses concatenation to include the heroName
+var greeting = "Hello" + heroName + " !"
 //   catchphrase should be assigned to a string that uses interpolation to include the specialAbility
-
+var catchPhrase = `Look at me!  I can ${specialAbility} and crush my enemy!`
 // Declare two variables - power AND energy - set to integers
 
 // Declare two variables - fullPower AND fullEnergy
