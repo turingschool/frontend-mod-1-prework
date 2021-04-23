@@ -51,7 +51,6 @@ console.log(`In a predictable result, the ${slowPoke} beat the ${speedy}!`);
 // Declare three variables, name/content/data type of your choice. Think carefully about what
   // you name the variables. Remember, the goal is to be concise but descriptive (it's a hard balance!)
   // Then, log out ONE sentence that incorporates all THREE variables uisng interpolation.
-
 var userName = "Oscar"
 var birthPlace = "El Salavdor"
 var yearsInCountry = 15
