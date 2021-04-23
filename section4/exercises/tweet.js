@@ -9,12 +9,12 @@ tweet object instances _behave_ as expected.
 */
 
 class Tweet {
-  constructor(author, content, time, likes, comments) {
+  constructor(author, content, time) {
     this.author = author;
     this.content = content;
     this.timeStamp = time;
-    this.numberOfLikes = likes;
-    this.comments = comments;
+    this.numberOfLikes = 0;
+    this.comments = [];
   }
   addLikes() {
     this.numberOfLikes += 1;
@@ -22,21 +22,24 @@ class Tweet {
   addComment(comment) {
     this.comments.push(comment);
   }
-};
+}
 
-var gradSchool = new Tweet('Daisy Jones','I got into graduate school!!! 🎉', 'April 19, 2021 3:55PM', 84, ['Best news!', 'OMG!', 'Congrats!']);
+var gradSchool = new Tweet('Daisy Jones','I got into graduate school!!! 🎉', 'April 19, 2021 3:55PM');
 console.log(gradSchool);
+gradSchool.addComment('Yay! Congrats');
+gradSchool.addLikes();
+gradSchool.addLikes();
+gradSchool.addLikes();
 gradSchool.addComment('There goes your social life 🤣');
 gradSchool.addLikes();
-gradSchool.addLikes();
 console.log(gradSchool);
 
-var soPissed = new Tweet('Angry Bob', 'My tweets keep getting blocked', 'April 19, 2021 4:06PM', 1, ['Cause no one wants to read them']);
+var soPissed = new Tweet('Angry Bob', 'My tweets keep getting blocked', 'April 19, 2021 4:06PM');
 console.log(soPissed);
 soPissed.addComment('😂');
 console.log(soPissed);
 
-var firstTweet = new Tweet('Jane', 'I\'m finally on Twitter!', 'April 19, 2021 4:10PM', 0, []);
+var firstTweet = new Tweet('Jane', 'I\'m finally on Twitter!', 'April 19, 2021 4:10PM');
 console.log(firstTweet);
 firstTweet.addComment('Yay!');
 firstTweet.addLikes();

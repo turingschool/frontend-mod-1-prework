@@ -39,7 +39,7 @@ class Burrito {
   addTopping(topping) {
     this.toppings.push(topping);
   }
-};
+}
 
 // Create 3 Burrito instances
 var rachelBurrito = new Burrito('sofritas', 'brown rice', ['guacamole', 'pico', 'cheese', 'corn']);

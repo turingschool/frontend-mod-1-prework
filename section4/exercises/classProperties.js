@@ -16,25 +16,25 @@ Make sure to run the file with node in your command line.
   // You do not need any proerties at this time!!
 
 // Prompt 1: Dog
-class Dogs {}
-var newfoundland = new Dogs();
-var lab = new Dogs();
+class Dog {}
+var newfoundland = new Dog();
+var lab = new Dog();
 
 console.log(newfoundland);
 console.log(lab);
 
 // Prompt 2: Snack
-class Snacks {}
-var chips = new Snacks();
-var carrots = new Snacks();
+class Snack {}
+var chips = new Snack();
+var carrots = new Snack();
 
 console.log(chips);
 console.log(carrots);
 
 // Prompt 3: Shirt
-class Shirts {}
-var concert = new Shirts();
-var button = new Shirts();
+class Shirt {}
+var concert = new Shirt();
+var button = new Shirt();
 
 console.log(concert);
 console.log(button);
@@ -51,7 +51,7 @@ console.log(button);
   // Log that variable to the console.
 
 // Prompt 1: Dog
-class Pup {
+class Dogs {
   constructor() {
     this.type = 'newfie';
     this.weight = 120;
@@ -59,11 +59,11 @@ class Pup {
   }
 }
 
-var annabelle = new Pup();
+var annabelle = new Dogs();
 console.log(annabelle);
 
 // Prompt 2: Snack
-class Snack {
+class Snacks {
   constructor () {
     this.isHealthy = true;
     this.servings = 2;
@@ -71,11 +71,11 @@ class Snack {
   }
 }
 
-var snapPeas =  new Snack();
+var snapPeas =  new Snacks();
 console.log(snapPeas);
-// Prompt 3: Shirt
 
-class Shirts2 {
+// Prompt 3: Shirt
+class Shirts {
   constructor() {
     this.wear = 'at the beach';
     this.style = 'short-sleeve';
@@ -83,7 +83,7 @@ class Shirts2 {
   }
 }
 
-var hawaii = new Shirts2();
+var hawaii = new Shirts();
 console.log(hawaii);
 
 //-------------------
@@ -99,7 +99,7 @@ console.log(hawaii);
   // Log those variables to the console.
 
   // Prompt 1: Dog
-  class Doggos {
+  class DogA {
     constructor(breed, size, howOld) {
       this.type = breed;
       this.weight = size;
@@ -107,13 +107,13 @@ console.log(hawaii);
     }
   }
 
-  var annabelle = new Doggos('newfoundland', 120, 14);
-  var soya = new Doggos('teacup chihuahua', 5, 8);
+  var annabelle = new DogA('newfoundland', 120, 14);
+  var soya = new DogA('teacup chihuahua', 5, 8);
   console.log(annabelle);
   console.log(soya);
 
   // Prompt 2: Snack
-  class Snackies {
+  class SnackA {
     constructor (healthy, quantity, kidFriendly) {
       this.isHealthy = healthy;
       this.servings = quantity;
@@ -121,15 +121,15 @@ console.log(hawaii);
     }
   }
 
-  var snapPeas =  new Snackies(true, 6, true);
-  var popcorn = new Snackies(true, 4, true);
+  var snapPeas =  new SnackA(true, 6, true);
+  var popcorn = new SnackA(true, 4, true);
   console.log(snapPeas);
   console.log(popcorn);
 
 
   // Prompt 3: Shirt
 
-  class Shirts3 {
+  class ShirtA {
     constructor(whereToWear, type, comfy) {
       this.wear = whereToWear;
       this.style = type;
@@ -137,7 +137,7 @@ console.log(hawaii);
     }
   }
 
-  var buttonUp = new Shirts3(['work', 'date', 'special occasions'], 'long-sleeve, button-up', false);
-  var tshirt = new Shirts3(['home', 'beach', 'workout'], 'short-sleeve, screen print', true);
+  var buttonUp = new ShirtA(['work', 'date', 'special occasions'], 'long-sleeve, button-up', false);
+  var tshirt = new ShirtA(['home', 'beach', 'workout'], 'short-sleeve, screen print', true);
   console.log(buttonUp);
   console.log(tshirt);

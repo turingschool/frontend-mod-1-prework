@@ -71,7 +71,8 @@ var email = {
   subject: "Learning about objects!",
   sender: "Chelsea Bridges",
   senderEmail: 'chelsea@rockstar.edu',
-  body: "It's so exciting you're learning about objects. Let me know if you need any help."
+  body: "It's so exciting you're learning about objects. Let me know if you need any help.",
+  attachements: []
 };
 
 console.log(email);
@@ -133,7 +134,8 @@ var emails = [
     subject: "Learning about objects!",
     sender: "Chelsea Bridges",
     senderEmail: 'chelsea@rockstar.edu',
-    body: "It's so exciting you're learning about objects. Let me know if you need any help."
+    body: "It's so exciting you're learning about objects. Let me know if you need any help.",
+    attachements:[]
   },
   {
     date: "April 18, 2021",
@@ -141,7 +143,8 @@ var emails = [
     subject: "Date night",
     sender: "Navead",
     senderEmail: 'naveadrules@madeupthing.com',
-    body: "Let's go to lake tonight."
+    body: "Let's go to lake tonight.",
+    attachements:['pic']
   },
   {
     date: "April 18, 2021",
@@ -149,7 +152,8 @@ var emails = [
     subject: "Draft of report",
     sender: "Tim Dude",
     senderEmail: 'timdudeyes@gamil.com',
-    body: "Here's the draft of that report you asked for."
+    body: "Here's the draft of that report you asked for.",
+    attachements:['Report']
   }
 ];
 

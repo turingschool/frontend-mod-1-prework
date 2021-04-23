@@ -33,3 +33,5 @@ console.log(lunchOrder.beverage);
 console.log(lunchOrder['tableNumber']); //just practicng the alternate syntax
 lunchOrder.prepare();
 lunchOrder.complete();
+
+console.log(lunchOrder);
