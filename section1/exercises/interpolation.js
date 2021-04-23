@@ -53,10 +53,10 @@ console.log(`In a predictable result, the ${slowPoke} beat the ${speedy}!`);
   // Then, log out ONE sentence that incorporates all THREE variables uisng interpolation.
 
 var userName = "Oscar"
-var isFrom = "El Salavdor"
+var birthPlace = "El Salavdor"
 var yearsInCountry = 15
 
-console.log(` Hello my name is ${userName} I am from ${isFrom} and I've lived in Colorado for ${yearsInCountry} years!`);
+console.log(` Hello my name is ${userName} I am from ${birthPlace} and I've lived in Colorado for ${yearsInCountry} years!`);
 
 //-------------------
 // FINAL CHECK
