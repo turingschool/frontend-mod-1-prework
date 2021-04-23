@@ -24,6 +24,7 @@ console.log(enrolledStudents);
 // Write code below to save the string 'Harry Potter must not return to Hogwarts!'
 // log that variable to the console.
 var harryPotter = 'Harry Potter must not return to Hodwarts!';
+console.log(harryPotter);
 
 // YOU DO:
 // Declare three variables, named `firstName`, `isHungry` and `numberOfPets`.
@@ -32,6 +33,7 @@ var harryPotter = 'Harry Potter must not return to Hodwarts!';
 var firstName = "Oscar";
 var isHungry = true;
 var numberOfPets = 0;
+console.log(firstName + ' ' +  isHungry + ' ' + numberOfPets);
 // IN WORDS:
 // How did you decide to use the data type you did for each of the three variables above?
   // Explain.
@@ -59,7 +61,7 @@ var junkFoodSnacks = 8;
 
 var snackTotal = healthySnacks + junkFoodSnacks;
 
-console.log(snackTotal) 
+console.log(snackTotal)
 
 //-------------------
 // FINAL CHECK
