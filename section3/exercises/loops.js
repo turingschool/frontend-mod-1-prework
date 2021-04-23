@@ -23,23 +23,46 @@ for (var i = 0; i < 3; i++) {
 }
 
 // What is logged to the console for this second example? Why?
-// EXPLAIN:
+// EXPLAIN: It Is logged the variable i or number of the loops starting with 0,
+//because the loop initializes in 0 ( var i = 0;)
+// the condition says the loop shoud be repeated 3 times, ( i < 3;)
+// and each time it repeats it will add 1 to the variable i ,
+//what is written in the update part or increment expression in the code (i++).
+//                              0
+//                              1
+//                              2
 
+
+
+console.log('===========================================================');
 
  // YOU DO: Write code below that logs to the console, the sum of 2 plus 2, 7 times:
 
+ for (var i = 0; i < 7; i++) {
+   console.log(2+2);
+ }
+
+
+console.log('=============================================================');
 
  // YOU DO: Write code below that logs the String 'She sells seashells down by the seashore'
  // 10 times.
+ for (var i = 0; i < 10; i++) {
+   console.log('She sells seashells down by the seashore');
+ }
 
-
+console.log('============================================================');
 //-------------------
 // LEVEL 2: An Added Layer of Challenge
 //-------------------
 
-// YOU DO: Write code below that logs to the console a String of "This is loop number: " 
-//that concatenates with `i`.
+// YOU DO: Write code below that logs to the console a String of "This is loop number: "
+//that concatenates with `i`. // concatenates is  +
+for (var i = 0; i < 10; i++) {
+  console.log("This is loop number:" + i);
+}
 
+console.log('=============================================================');
 // YOU DO: Using a for loop, how could you get an output that looks like this:
 
 // 10
@@ -53,6 +76,30 @@ for (var i = 0; i < 3; i++) {
 // 2
 // 1
 
-// Not sure? Try to google some terms that seem relevant. Play around with it. Don't spend 
+// This code needs to be done all in the reverse order counting 10 to 1.
+for (var i = 10; i >= 1; i--) {
+  console.log(i);
+}
+
+console.log('=======================================================================');
+
+
+// regular order counting 1 to 10
+for (var i = 1; i <= 10; i++) {
+  console.log(i);
+}
+
+console.log("🎤🎤🎤🎤🎤🎤🎤🎤🎤🎤🎤🎤🎤🎤🎤🎤🎤🎤🎤🎤🎤🎤🎤🎤🎤🎤🎤🎤🎤🎤🎤🎤🎤");
+
+console.log('I\'m a scatman!');
+
+for (var i = 0; i <= 8; i++) {
+  console.log("Ba-da-ba-da-ba-be bop bop bodda bope");
+  console.log("Bop ba bodda bope");
+  console.log("Be bop ba bodda bope");
+  console.log("Bop ba bodda");
+}
+
+// Not sure? Try to google some terms that seem relevant. Play around with it. Don't spend
 // more than 15 minutes without making progress. If you are at 15 minutes and haven't made
 // progress, that means it's time to reach out to your pre-work group on Slack!
