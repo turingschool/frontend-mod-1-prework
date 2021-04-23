@@ -45,7 +45,6 @@ for (var i = 0; i < names.length; i++) {
   console.log(`Happy Birtday ${names[i]}`);
 }
 
-
 // THE FINAL YOU DO: Using the array of ages below, print out a statement for each age.
 // The age should determine which message is printed out:
   // Under 18? "Oh no, you can't vote quite yet."

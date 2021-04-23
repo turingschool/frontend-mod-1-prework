@@ -114,18 +114,20 @@ The can call an uber if they have a charger and it is a car charger.
 
 */
 var percentBatteryLeft = 12;
-var hasCharger = true;
+var hasCharger = false;
 var chargerType = "car";
 
-// Write your conditional here
-
-// evaluate whether the value of percentBatteryLeft is at least 15 and if true...
+//evaluate whether the value of percentBatteryLeft is at least 15 and if true...
 if(percentBatteryLeft >= 15) {
   // log the following message
   console.log('You can call an Uber');
-  // otherwise (if the above evaluation is false)
+  //evaluate whether hasCharger is true and chargerType is car, and if true...
+} else if (hasCharger === true && chargerType === "car") {
+  //log the following message
+  console.log( 'You can call an Uber');
+//otherwise...
 } else {
-  // log the following message
+// log the following message
   console.log('Sorry, you\'re going to have to walk')
 }
 
@@ -134,4 +136,4 @@ if(percentBatteryLeft >= 15) {
 // what the line of code below, does.
 
 // MAKE 100% SURE that you have RUN the code in node in your command line, to ensure it works
-// as you think it does🌟 
+// as you think it does🌟
