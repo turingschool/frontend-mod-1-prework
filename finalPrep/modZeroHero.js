@@ -146,7 +146,7 @@ console.log(deadpool);
 superman.maximizeEnergy();
 console.log(superman);
 
-deadpool.gainPower(100);
+deadpool.gainPower(100);s
 console.log(deadpool);
 
 superman.sayName();

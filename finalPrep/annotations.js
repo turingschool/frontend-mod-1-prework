@@ -40,4 +40,4 @@ function fizzBuzz(num1, num2, range) {//Declare a function fizzBuzz and assign t
 }
 
 fizzBuzz(3, 5, 100);// prints the function with values for the parameters to run
-fizzbuzz(5, 8, 400);// prints the function with values for the parameters to run 
+fizzbuzz(5, 8, 400);// prints the function with values for the parameters to run
