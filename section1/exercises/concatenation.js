@@ -46,7 +46,10 @@ console.log("The" + slowpoke + "finished the race before" + speedy + "ever could
   // you name the variables. Remember, the goal is to be concise but descriptive (it's a hard balance!)
   // Then, log out ONE sentence that incorporates all THREE variables.
 
-
+var person = "old man";
+var store = "grocery store";
+var item = "flour";
+console.log("The" + person + "went to the" + store + "and bought a/an" + item + ".")
 //-------------------
 // FINAL CHECK
 //-------------------
