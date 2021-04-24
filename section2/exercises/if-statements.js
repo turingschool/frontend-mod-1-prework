@@ -98,7 +98,7 @@ When cupsOfFlour = 2 and hasSauce = true, your program should log "I can make pi
 When cupsOfFlour = 3 and hasSauce = true, your program should log "I can make pizza";
 */
 
-var cupsOfFlour = 1;
+var cupsOfFlour = 2;
 var hasSauce = true;
 
 // Write your conditional here

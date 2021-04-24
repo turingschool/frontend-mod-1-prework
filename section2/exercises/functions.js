@@ -62,11 +62,11 @@ getNum(9,10);
 // the end result might be "Oscar and Ruck are BFFS".  Then, call that function.
 
 function userName(user1, user2) {
-  console.log(user1 + user2 + '' + "are a connection");
+  console.log(user1 + "and "+ user2 + '' + " are a connection");
 }
-userName("Bob", "Nicole");
-userName("Omar", "Ana");
-userName("Bryan", "April");
+userName("Bob ", "Nicole");
+userName("Omar ", "Ana");
+userName("Bryan ", "April");
 //-------------------
 // PART 3: Naming is Hard
 //-------------------
