@@ -4,7 +4,11 @@
 //Build a Bear
 // This is a function with five parameters; name, age, fur, clothes, and specialPower
 function buildABear(name, age, fur, clothes, specialPower) {
+<<<<<<< HEAD
   // Declare a variable named greeting - value is a string with the name parameter interpolated in it
+=======
+  // Declare a variable named greeting - value is a string with the name parameter interpolated in it 
+>>>>>>> 3ed3d3e9c77c32c6b5c350e3ae9aeb8504c0dac7
   var greeting = `Hey partner! My name is ${name} - will you be my friend?!`;
   // Declare a variable named demographics - value is an array with the name and age parameters inside of it
   var demographics = [name, age];
@@ -14,6 +18,7 @@ function buildABear(name, age, fur, clothes, specialPower) {
   var builtBear = {
     // Add key/value pair with the key of basicInfo and the value as the demogrphics variable
     basicInfo: demographics,
+<<<<<<< HEAD
     // Add key/value pair with the key of clothes and the value as the clothes parameter
     clothes: clothes,
     // Add key/value pair with the key of exterior and the value of the fur parameter
@@ -21,6 +26,15 @@ function buildABear(name, age, fur, clothes, specialPower) {
     // Add key/value pair with the key cost and the value as the floating point number 49.99
     cost: 49.99,
     // Add key/value pair with the key sayings and the value as an array that includes the greeting variable,
+=======
+    // Add key/value pair with the key of clothes and the value as the clothes parameter    
+    clothes: clothes,
+    // Add key/value pair with the key of exterior and the value of the fur parameter    
+    exterior: fur,
+    // Add key/value pair with the key cost and the value as the floating point number 49.99
+    cost: 49.99,
+    // Add key/value pair with the key sayings and the value as an array that includes the greeting variable, 
+>>>>>>> 3ed3d3e9c77c32c6b5c350e3ae9aeb8504c0dac7
     //the powersaying variable, and a string of "Goodnight my friend!"
     sayings: [greeting, powerSaying, "Goodnight my friend!"],
     // Add key/value pair with the key isCuddly and the value as a boolean of true
@@ -48,7 +62,11 @@ function fizzBuzz(num1, num2, range) {
   // Create a for loop with initialization at 0, condition of less than or equal to the range parameter,
   // and an increment++ operator
   for (var i = 0; i <= range; i++) {
+<<<<<<< HEAD
     // Create if statemt with a logical && operator that if the remander of i % num1 is strictly equal
+=======
+    // Create if statemt with a logical && operator that if the remander of i % num1 is strictly equal 
+>>>>>>> 3ed3d3e9c77c32c6b5c350e3ae9aeb8504c0dac7
     // to 0 AND the remander of i % num2 is strictly equal to 0
     if (i % num1 === 0 && i % num2 === 0) {
       // If statement is true log the string 'fizzbuzz'
@@ -57,7 +75,11 @@ function fizzBuzz(num1, num2, range) {
     } else if (i % num1 === 0) {
       // If statement is true log the string 'fizz'
       console.log('fizz');
+<<<<<<< HEAD
     // Create else if statement that the remainder of var i % num2 is strictly equal to 0
+=======
+    // Create else if statement that the remainder of var i % num2 is strictly equal to 0  
+>>>>>>> 3ed3d3e9c77c32c6b5c350e3ae9aeb8504c0dac7
     } else if (i % num2 === 0) {
       // If statement is true log the string 'buzz'
       console.log('buzz');
