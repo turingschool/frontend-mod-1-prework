@@ -43,7 +43,7 @@ function fizzBuzz(num1, num2, range) {
   for (var i = 0; i <= range; i++) {
     //creates a loop where i =0 and i is less than "range". loop ends when comes back false
     if (i % num1 === 0 && i % num2 === 0) {
-      //conditional statement
+      //conditional statement that includes logic operator 
       console.log('fizzbuzz');
       //what prints if conditional statement is true
     } else if (i % num1 === 0) {

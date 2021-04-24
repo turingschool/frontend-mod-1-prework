@@ -134,6 +134,7 @@ var scaryMonster = {
 //   - powerLevel = 100
 //   - energyLevel = 50
 
+
 class SuperHero {
   constructor(name, superpower, age) {
     this.name = name;
