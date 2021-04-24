@@ -59,10 +59,10 @@ addNumbers(126,417);
 // YOU DO🎈: Write a function that takes in two strings and prints a concatenation
 // of those two strings, for example the arguments could be ("Oscar", "Ruck") and
 // the end result might be "Oscar and Ruck are BFFS".  Then, call that function.
-function bestPets(dogName, catName) {
+function listPetNames(dogName, catName) {
   console.log("My dog " + dogName + " and my cat " + catName + " are very well behaved.")
 }
-bestPets('Rudder', 'Roux');
+listPetNames('Rudder', 'Roux');
 
 //-------------------
 // PART 3: Naming is Hard
@@ -76,7 +76,7 @@ Look at the code you wrote for the previous YOU DO🎈 - what did you name the f
 What did you name each parameter, and why?
 
 EXPLAIN:
-I named the function bestPets which is descriptive of what it will be reffering too- pets. Upon retrospect this isn't a great function name because it doesn't reffer to the proper name aspect of the parameters.
+I named the function listPetNames which is descriptive of what it will be reffering too- the names of pets.
 I named the parameters dogName and catName because it is simple and clear as to what we should write as the imput for these.
 
 
