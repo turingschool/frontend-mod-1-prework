@@ -19,17 +19,19 @@ console.log("The " + team + " are " + name + "'s favorite Quidditch team");
 var numberOfCreatures = 7;
 var creatures = "unicorns";
 
-console.log("My zoo has " + numberOfCreatures + " " + creatures + "!")
+console.log("My zoo has " + numberOfCreatures + " " + creatures + "!");
 
 // YOU DO: What data type will be logged to the console as a result of line 22? Explain.
-// Your answer and explanation here: 
-
+// Your answer and explanation here:
+/* The output will be 'My zoo has 7 unicorns!' which is a string.  Even though there's
+a number, the expression is a combination of characters, making it a string.*/
 
 // YOU DO:
 // Write code that combines the variables below into a string that
 // reads "The quick red fox jumped over the lazy brown dog":
 var speedy = "quick red fox";
 var slowPoke = "lazy brown dog";
+console.log("The " + speedy + " jumped over the " + slowPoke);
 
 
 // YOU DO:
@@ -39,17 +41,24 @@ var slowPoke = "lazy brown dog";
 
 slowPoke = "tortoise";
 speedy = "hare";
+console.log("In a predictable result, the " + slowPoke + " beat the " + speedy + "!");
 
 
 // YOU DO:
-// Declare three variables, name/content/data type of your choice. Think carefully about what 
+// Declare three variables, name/content/data type of your choice. Think carefully about what
   // you name the variables. Remember, the goal is to be concise but descriptive (it's a hard balance!)
   // Then, log out ONE sentence that incorporates all THREE variables.
+var animal = "squirrel";
+var numberOfBabies = 3;
+var animalHome = "drey";
+
+console.log("The patient mother " + animal + " nursed " + numberOfBabies + " babies until they were all ready to leave the " + animalHome + ".");
 
 
 //-------------------
 // FINAL CHECK
 //-------------------
 
-// Did you run this file in your terminal to make sure everything printed out to the console 
-  // as you would expect? You should be doing this by now, and getting into the habit of it.
+// Did you run this file in your terminal to make sure everything printed out to the console
+// as you would expect? You should be doing this by now, and getting into the habit of it.
+Yep!
