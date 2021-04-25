@@ -27,7 +27,7 @@ function buildABear(name, age, fur, clothes, specialPower) {
     isCuddly: true,
 // curly Baces that closes the Object Linear
   };
-
+// call the builtBear object 
   return builtBear
 }
 //call the function builtBear passing it the informations for the parameters.

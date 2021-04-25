@@ -95,7 +95,22 @@ assessSituation(3, announcement, excuse);
 //   - citiesDestroyed (array)
 //   - luckyNumbers (array)
 //   - address (object with following key/values: number , street , state, zip)
+var scaryMonster = {
+  name: "Bicho papao",
+  smell: "trash",
+  weight: 10,
+  citiesDestroyed: ["New york", "Dalas", "San Fransisco"],
+  luckyNumbers: [5, 6, 13],
+  adress: adress = {
+    number: 1950,
+    street: "N Hollywood blvd",
+    state: " California",
+    zip: 90094,
+  }
+}
 
+
+console.log(scaryMonster);
 
 // Create a new class called SuperHero
 // - Your class should have the following DYNAMIC values
@@ -112,12 +127,56 @@ assessSituation(3, announcement, excuse);
 //   - maximizeEnergy, should update the energyLevel to 1000
 //   - gainPower, should take an argument of a number and INCREASE the powerLevel by that number
 
+class SuperHero {
+  constructor(name, superpower, age) {
+    this.name = name;
+    this.superpower = superpower;
+    this.age = age;
+    this.archNemesis = "The Syntax Error";
+    this.powerLevel = 100;
+    this.energyLevel = 50;
+  }
+  sayName() {
+    console.log(this.name);
+  }
+  maximizeEnergy() {
+    this.energyLevel = 1000;
+  }
+  gainPower(){
+    console.log(this.powerLevel + this.powerLevel);
+  }
+}
+
+
+
 // - Create 2 instances of your SuperHero class
 
+var hero = new SuperHero("Skywalker", "Jedi", "35");
+console.log(hero);
+
+
+hero.sayName();
+hero.maximizeEnergy();
+console.log(hero);
+hero.gainPower();
+
+
+var antiHero = new SuperHero("Venon", "Super strength, shape-shifter", "39");
+console.log(antiHero);
+
+
+antiHero.sayName();
+antiHero.maximizeEnergy();
+console.log(antiHero);
+antiHero.gainPower();
 
 // Reflection
 // What parts were most difficult about this exerise?
 
+//The methods, in class and I don't understand the module %.
+
 // What parts felt most comfortable to you?
+// everything else , variables, function, even creating the class and object, but methods.
 
 // What skills do you need to continue to practice before starting Mod 1?
+// methods.
