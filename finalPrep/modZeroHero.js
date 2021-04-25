@@ -75,6 +75,7 @@ assessSituation(100, saveTheDay, badExcuse);
 //   - Anything dangerLevel that is between 10 and 50 should result in printing the saveTheDay string to the console
 //   - If the dangerLevel is below 10, it means it is not worth your time and should result in printing the string "Meh. Hard pass." to the console.
 
+
 //Test Cases
 var announcement = 'Never fear, the Courageous Curly Bracket is here!';
 var excuse = 'I think I forgot to lock up my 1992 Toyota Coralla. Be right back.';
