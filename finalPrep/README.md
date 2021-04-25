@@ -34,14 +34,14 @@ When you are finished, add screenshots of your calendar so we can provide feedba
 - `Add Week 1 Screenshot Here`
 - ![Calendar April/May] (<img width="1373" alt="calendar April:may 2021" src="https://user-images.githubusercontent.com/82066350/116010031-869b3a80-a5d1-11eb-82d1-ab5c64ff193e.png">)
 - `Add Week 2 Screenshot Here`
-- ![Calendar first week MOD1](<img width="1425" alt="calendar first week school" src="https://user-images.githubusercontent.com/82066350/116010068-bb0ef680-a5d1-11eb-8c58-6c1bae85e44c.png">)
+- ![Calendar first week MOD1] (<img width="1425" alt="calendar first week school" src="https://user-images.githubusercontent.com/82066350/116010068-bb0ef680-a5d1-11eb-8c58-6c1bae85e44c.png">)
 - `Add Week 3 Screenshot Here`
-- ![Calendar second week of MOD 1](<img width="1421" alt="calendar second week school" src="https://user-images.githubusercontent.com/82066350/116010112-f3163980-a5d1-11eb-8dca-5c7a34c343ea.png">)
+- ![Calendar second week of MOD 1] (<img width="1421" alt="calendar second week school" src="https://user-images.githubusercontent.com/82066350/116010112-f3163980-a5d1-11eb-8dca-5c7a34c343ea.png">)
 
 ### Mentorship Prep
 Mentorship is an integral part of the Turing experience and will help jumpstart your technical career. In order to get your mentor relationship started on the right foot, please complete the following deliverables:
 - [ ] Complete the [Mentorship DTR Prep](https://gist.github.com/ericweissman/51965bdcbf42970d43d817818bfaef3c)
-  - [ ] Add link to your gist here: [Mentorship Link] (https://gist.github.com/joanafbrito/ac0df3038295636efcb98b8e2447a922)
+  - [ ] Add link to your gist here: [Mentorship Link](https://gist.github.com/joanafbrito/ac0df3038295636efcb98b8e2447a922)
 
 ### Lesson Prep
 You've learned a lot about how to take strong notes during Mod 0. Show us your skills while you learn how to pre-teach content for your first lesson in Mod 1!
