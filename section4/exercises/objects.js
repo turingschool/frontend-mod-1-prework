@@ -63,7 +63,13 @@ value should be some appropriate value for that key. Work to have at least 5 key
 
 Log your email object to the console.
 */
-
+var emailInfo = {
+ sender: "Receiver",
+ attachment: "document",
+ blindCarbonCopy: "invisible",
+ carbonCopy: "visible",
+ replyToAll: "accident"
+}
 //-------------------
 // Part 3: Many Emails - OPTIONAL EXTENSION
 //-------------------

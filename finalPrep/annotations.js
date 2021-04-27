@@ -51,5 +51,7 @@ function fizzBuzz(num1, num2, range) {
 }
 //assigns the conditions variables for the function keys
 fizzBuzz(3, 5, 100);
+console.log(fizzBuzz);
 //reassigns the conditions variables for functions keys
 fizzbuzz(5, 8, 400);
+console.log(fizzBuzz);

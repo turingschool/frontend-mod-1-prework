@@ -115,10 +115,11 @@ let sayName = ("The superhero's name is" + )
 
 
 // Reflection
-// What parts were most difficult about this exerise? Combining all the parts together. Objects are hard.
-//The class methods, dynamic, and static part by far. Had real trouble finding info.
+// What parts were most difficult about this exerise?
+ Combining all the parts together. Objects are hard.
+The class methods, dynamic, and static part by far. Had real trouble finding info.
 // What parts felt most comfortable to you?
-//Seemingly the parts separately.
+Seemingly the parts separately.
 The easiest parts.
 // What skills do you need to continue to practice before starting Mod 1?
-//Conceptualizing code.
+Conceptualizing the code. I seem to have trouble trying to picture what angle of writing code I should take.
