@@ -83,6 +83,5 @@ Look at the code you wrote for the previous YOU DO🎈 - what did you name the f
 What did you name each parameter, and why?
 
 EXPLAIN:
-
-
+I named it using the easiest thing I could figure, would be the thing that made the most sense.
 */
