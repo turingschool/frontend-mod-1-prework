@@ -6,31 +6,31 @@ One example is already completed. Your task is to complete
 any remaining prompt.
 
 When navigated to the root of this project directory, you should be able to run this
-file from your terminal with the command `node section1/exercises/dataTypes.js`
+file from your terminal with the command `node section1/exercises/interpolation.js`
 */
 
 // EXAMPLE: Write code that combines the variables below into another string:
 var name = "Ron";
 var team = "Chudley Cannons";
 
-console.log("The " + team + " are " + name + "'s favorite Quidditch team");
+console.log(`The ${team} are ${name}'s favorite Quidditch team.`);
 
 // YOU DO: Read the next few lines of code...
 var numberOfCreatures = 7;
 var creatures = "unicorns";
 
-console.log("My zoo has " + numberOfCreatures + " " + creatures + "!")
+console.log( `My zoo has ${numberOfCreatures} ${creatures}!`);
 
 // YOU DO: What data type will be logged to the console as a result of line 22? Explain.
 // Your answer and explanation here:
-- The answer will be 7 unicorns, because of the interpolation being plugged in.
+
 
 // YOU DO:
 // Write code that combines the variables below into a string that
 // reads "The quick red fox jumped over the lazy brown dog":
 var speedy = "quick red fox";
 var slowPoke = "lazy brown dog";
-console.log("The" + speedy + "was conflicted with" + slowPoke + ".");
+console.log(`The ${speedy} beat ${slowPoke} decisively.`);
 
 // YOU DO:
 // Write code that combines the variables below into a string that
@@ -39,17 +39,17 @@ console.log("The" + speedy + "was conflicted with" + slowPoke + ".");
 
 slowPoke = "tortoise";
 speedy = "hare";
-console.log("The" + slowpoke + "finished the race before" + speedy + "ever could.");
+console.log(`The ${speedy} lost dramatically to the ${slowPoke} .`);
 
 // YOU DO:
 // Declare three variables, name/content/data type of your choice. Think carefully about what
   // you name the variables. Remember, the goal is to be concise but descriptive (it's a hard balance!)
-  // Then, log out ONE sentence that incorporates all THREE variables.
+  // Then, log out ONE sentence that incorporates all THREE variables uisng interpolation.
+var food = "pizza";
+var dayOfWeek = "Saturday";
+var drink = "soda";
+console.log(`On ${dayOfWeek} I enjoy eating ${food} and drinking ${drink} .`);
 
-var person = "old man";
-var store = "grocery store";
-var item = "flour";
-console.log("The" + person + "went to the" + store + "and bought a/an" + item + ".")
 //-------------------
 // FINAL CHECK
 //-------------------

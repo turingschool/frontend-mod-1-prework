@@ -41,7 +41,7 @@ Here's what we ask you do:
 
 ## Part A Super Learner Habits
 
-Read [this article](https://medium.com/personal-growth/6-habits-of-super-learners-63d466a254fd) about the habits of Super Learners. Reflect on this - what do you already do? Does this make you want to do anything new or different as you beginthis learning journey? Jot down your notes now, and we will ask you to share some reflections with your small group at the end of this section.
+Read [this article](https://pubs.ppai.org/pc-today/six-habits-of-super-learners/) about the habits of Super Learners. Reflect on this - what do you already do? Does this make you want to do anything new or different as you beginthis learning journey? Jot down your notes now, and we will ask you to share some reflections with your small group at the end of this section.
 
 ## Part B Terminal
 
@@ -54,8 +54,6 @@ You already have had some exposure to the terminal in [Mod 0, Session 2: Termina
 Visit the [Turing Terminal](https://learn-terminal.turing.io/) and read through the Learn section as needed. Explore the Playground as needed.
 
 👩‍💻 Complete all three Challenges.
-
-Take a screenshot of your "complete" notification and keep on your desktop or in a file; it will be part of your [deliverables](#Deliverables) at the end of this section. [This is a guide on taking screenshots on a Mac](https://support.apple.com/en-us/HT201361).
 
 ### Making Things, Navigating
 
@@ -301,7 +299,7 @@ In the example above, we joined together a string and a variable with a value of
 ```JavaScript
 var quantity = 12;
 var snacks = " doughnuts";
-var snackCount = "I have " + quantity + snacks;
+var snackCount = "I have " + quantity + " " + snacks;
 
 console.log(snackCount);
 // this will log the string "I have 12 doughnuts"
@@ -310,6 +308,35 @@ console.log(snackCount);
 Let's take a look at why that resulted in a string. We have a variable called `snackCount` and have assigned the value as our `quantity` and our `snacks`. Looking at `snackCount`, we’ll notice the value is "I have 12 doughnuts". The reason this works even though the first value is a number and the second is a string, is a result of _type coercion_. JavaScript is essentially trying to help us by converting the number into a string so we can combine the two together.
 
 > 👩‍💻 PAUSE here, and complete the exercises in `concatenation.js`
+
+### Interpolation
+In addition to concatenation, you may also have seen interpolation used to inject values into strings! One benefit of interpolation is that it can be easier to read in longer strings and don't require concatenating separate strings together. 
+
+Interpolation requires slightly different syntax to inject values into a string. Follow the below formula to utilize interpolation:
+1. Use the backtick (same key as the `~`, or the key to the left of the `1` key on a mac) to wrap your entire string
+2. Any values that you want to add in, use the following syntax - `${variable_name}` to properly wrap these values
+
+Take a look at these two sentences, one using concatenatoion, the other using interpolation.
+
+```JavaScript
+var quantity = 12;
+var snacks = " doughnuts";
+
+//this uses concatenation
+var snackCountConcat = "I have " + quantity + snacks + "!";
+
+console.log(snackCountConcat);
+// this will log the string "I have 12 doughnuts!"
+
+//this uses interpolation
+var snackCountInterpolate = `I have ${quantity} ${snacks}!`
+
+console.log(snackCountInterpolate);
+// this will log the string "I have 12 doughnuts!"
+```
+
+> 👩‍💻 PAUSE here, and complete the exercises in `interpolation.js`
+
 
 ## Exercises
 
@@ -331,7 +358,7 @@ When you are finished with all of the `section1` exercises and reflections, foll
 2. In your terminal, run `git status`. You should see output like this:
 
 ```
-On branch master
+On branch main
 Changes not staged for commit:
   (use "git add <file>..." to update what will be committed)
   (use "git checkout -- <file>..." to discard changes in working directory)
@@ -349,7 +376,7 @@ The command `git status` shows us information about files we changed. Don't worr
 3. Run `git add reflection.md`.
 4. Run `git status`. Your status should now look a little different:
 
-```On branch master
+```On branch main
 Changes to be committed:
   (use "git reset HEAD <file>..." to unstage)
 
@@ -373,7 +400,7 @@ Under "Changes to be committed", It now lists "reflection.md". This means that g
 9. Run `git status`. You should see this output:
 
 ```
-On branch master
+On branch main
 nothing to commit, working tree clean
 ```
 
@@ -397,7 +424,7 @@ Writing objects: 100% (9/9), 1.03 KiB | 1.03 MiB/s, done.
 Total 9 (delta 2), reused 0 (delta 0)
 remote: Resolving deltas: 100% (2/2), completed with 1 local object.
 To github.com:your-username/frontend_mod_1_prework.git
-   e8ebd7a..32c0ed3  master -> master
+   e8ebd7a..32c0ed3  main -> maij
 ```
 
 You should now be able to log in to GitHub, navigate to your remote prework repository and see all the work you did in this section!

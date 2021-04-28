@@ -9,5 +9,27 @@ tweet object instances _behave_ as expected.
 */
 
 class Tweet {
-
+ constructor(author, content, timeStamp, numberOfLikes, comments) {
+  this.author = author;
+  this.content = content;
+  this.timeStamp = timeStamp;
+  this.numberOfLikes = numberOfLikes;
+  this.comments = comments;
+ }
+ plusComment(commentAdd) {
+  this.comments.push(commentAdd);
+ }
+ plusLike(likeAdd) {
+  this.numberOfLikes.push(likeAdd);
+  console.log(likeAdd.length);
+ }
+ countLikes(likeCount) {
+  console.log(numberOfLikes[1++])
+ }
 }
+
+var tweetBird = new Tweet("Hello World");
+tweetBird.plusComment();
+tweetBird.plusLike(1);
+console.log(tweetBird);
+//completely lost on this
