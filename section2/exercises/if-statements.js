@@ -12,7 +12,7 @@ Make sure to run the file with node in your command line.
 // EXAMPLE:Manipulate the variable 'weather' to see if you can print something other
   // than 'coat'.
 
-var weather = 'snowy';
+//var weather = 'snowy';
 // var weather = 'icy';
 // var weather = 'rainy';
 // var weather = 'sunny';
@@ -43,7 +43,13 @@ Log to the console the appropriate age range
 
 var dogAge = 3;
 // Write your conditional here
-if dog == 2
+if (dog == 2){
+ console.log("Dog is a puppy");
+} else if (dog >= 3 && dog <= 9);{
+ console.log("Dog is an adult")
+} else (dog >= 10);{
+ console.log("Dog is elderly");
+}
 
 /*
 YOU DO:
@@ -63,6 +69,15 @@ When numQuarters = 3, program should log "I have enough money for a gumball"
 */
 
 var numQuarters = 0;
+if (numQuarters == 0){
+ console.log("I don't have enough money for for a gumball")
+} else if(numQuarters == 1){
+ console.log("I don't have enough money for a gumball")
+} else if(numQuarters == 2){
+ console.log("I have enough for a gumball")
+} else (numQuarters == 3){
+ console.log("I have enough for a gumball")
+}
 
 // Write your conditional here
 console.log("I have enough money for a gumball");

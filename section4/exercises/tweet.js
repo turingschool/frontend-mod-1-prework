@@ -28,7 +28,7 @@ class Tweet {
  }
 }
 
-var tweetCount = new Tweet("Hello World");
+var tweetBird = new Tweet("Hello World");
 tweetBird.plusComment();
 tweetBird.plusLike(1);
 console.log(tweetBird);
