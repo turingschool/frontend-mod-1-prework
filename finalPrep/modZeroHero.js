@@ -110,13 +110,14 @@ class SuperHero {
 
 
 
-let sayName = ("The superhero's name is" + )
+let sayName = ("The superhero's name is" + heroName);
 // - Create 2 instances of your SuperHero class
 
 
 // Reflection
 // What parts were most difficult about this exerise?
- Combining all the parts together. Objects are hard.
+ Combining all the parts together.
+ Objects are hard.
 The class methods, dynamic, and static part by far. Had real trouble finding info.
 // What parts felt most comfortable to you?
 Seemingly the parts separately.

@@ -51,8 +51,8 @@ var (names = 0; names <=7; names++) {
 // The age should determine which message is printed out:
   // Under 18? "Oh no, you can't vote quite yet."
   // 18 or over? "Make sure you get out and vote!"
-if (age < 18) {
- console.log("Under 18? Oh no, you can't vote quite yet.") } else (age >= 18) {
+if (ages < 18) {
+ console.log("Under 18? Oh no, you can't vote quite yet.") } else (ages >= 18) {
   console.log("18 or over? Make sure you get out and vote!");
 }
 // WORD FROM THE WISE: Before you start coding, jot down, with pen and paper, what steps you
