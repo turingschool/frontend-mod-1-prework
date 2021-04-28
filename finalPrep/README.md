@@ -1,3 +1,4 @@
+
 # Mod 1 Final Prep
 Congrats on making it to the Mod 0 Final Prep! Complete the final exercises below and be sure to carefully follow the Pull Request steps to submit your work!
 
@@ -31,24 +32,27 @@ In Mod 0 you've learned about different techniques for managing your time at Tur
 
 When you are finished, add screenshots of your calendar so we can provide feedback if needed!
 
-- `Add Week 1 Screenshot Here`
-- `Add Week 2 Screenshot Here`
-- `Add Week 3 Screenshot Here`
+- <img width="1149" alt="Screen Shot 2021-04-20 at 11 09 48 PM" src="https://user-images.githubusercontent.com/81186709/115500286-3b2e0880-a22e-11eb-8b0f-c30b13d64407.png">
+
+- <img width="1199" alt="Screen Shot 2021-04-20 at 11 08 39 PM" src="https://user-images.githubusercontent.com/81186709/115500320-513bc900-a22e-11eb-8fc6-4ba39c5c7a0d.png">
+
+- <img width="1187" alt="Screen Shot 2021-04-20 at 11 10 44 PM" src="https://user-images.githubusercontent.com/81186709/115500338-5bf65e00-a22e-11eb-900f-9521294e3bc1.png">
+
 
 ### Mentorship Prep
 Mentorship is an integral part of the Turing experience and will help jumpstart your technical career. In order to get your mentor relationship started on the right foot, please complete the following deliverables:
 - [ ] Complete the [Mentorship DTR Prep](https://gist.github.com/ericweissman/51965bdcbf42970d43d817818bfaef3c)
-  - [ ] Add link to your gist here: 
+  - [ ] Add link to your gist here: [Mentorship Prep](https://gist.github.com/Raquelhill/bacd1139978fe33a44edd7587a125be4)
 
 ### Lesson Prep
 You've learned a lot about how to take strong notes during Mod 0. Show us your skills while you learn how to pre-teach content for your first lesson in Mod 1!
 - [ ] Complete the [Pre Teaching Practice exercise](https://gist.github.com/ericweissman/0036e8fe272c02bd6d4bb14f42fd2f79) gist
-  - [ ] Add a link to your gist here:
+  - [ ] Add a link to your gist here: [Pre Teaching Practice](https://gist.github.com/Raquelhill/fdc96fcc19732ba82520cad3415d36cd)
 
 ### Group Work Prep
 As part of Turing's project-based learning approach, you will often be working in pairs or larger groups. In order to set yourself (and your team) up for success, it is important to ensure you are prepared to be an equitable contributor and teammate.
 - [ ] Complete the [DTR Guiding Questions](https://gist.github.com/ericweissman/c56f3a98cdce761808c21d498a52f5c6)
-  - [ ] Add a link to your gist here: 
+  - [ ] Add a link to your gist here: [DTR Group Work](https://gist.github.com/Raquelhill/baf8fb72c3a5b1c914f0348a933049db)
 
 ## All Done? How to Submit your M1 Prework
 When you have completed *ALL* the activities described above, follow the steps below to submit your technical prework.

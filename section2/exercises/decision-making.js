@@ -39,15 +39,26 @@ Questions
 
 1. In English, using technical vocabulary, describe what is happening between lines 14 and 18.
 
+A conditional is being created.  If the `if` statement is true, the computer will stop there and log the statement.  If not, the else statement will run.  
+
 2. What variable has a new value assigned to it after the first if statement executes?
+After the first if statement executes, the variable bearClothing is assigned a new value.
 
 3. If you changed the variable doorChoice to equal 3, what would the bearClothing value be?
+bearClothing would be "scarf"
 
 4. In English, using technical vocabulary, describe what is happening between lines lines 27 and 35.
 
+Another conditional is being created.  If the if statement is true, the computer will stop there and log the statement.  If not, it will iterate through the `if else` 
+statements until one of them is true.  If all are flase, the computer will log and execute the else statement.  
+
 5. If you changed the variable bearChoice to equal 3, what will be the final outcome be?
+If the variable bearChoice was equal to 3, the final outcome would be "You run as fast as you can into the next room.
+It's full of snakes!"
 
 6. If you changed the variable doorChoice to equal 1, and the variable bearChoice to equal 2, what will be the final outcome be?
-
+If the variable doorChoice was equal to 1, and the variable bearChoice was equal to 2, the final outcome would be
+"You tell the bear the hat is too small and it starts to cry!"
 7. What is your favorite ending?
+My favorite ending is "you offer the bear your bearClothing and the bear shows you a secret passage out!"
 */
