@@ -13,22 +13,23 @@ class Tweet {
   this.author = author;
   this.content = content;
   this.timeStamp = timeStamp;
-  this.numberOfLikes = numberoflike;
+  this.numberOfLikes = numberOfLikes;
   this.comments = comments;
  }
+ plusComment(commentAdd) {
+  this.comments.push(commentAdd);
+ }
+ plusLike(likeAdd) {
+  this.numberOfLikes.push(likeAdd);
+  console.log(likeAdd.length);
+ }
+ countLikes(likeCount) {
+  console.log(numberOfLikes[1++])
+ }
 }
+
+var tweetCount = new Tweet("Hello World");
+tweetBird.plusComment();
+tweetBird.plusLike(1);
+console.log(tweetBird);
 //completely lost on this
-var comment = new Tweet();
-console.log(comment);
-var comment = new Tweet();
-console.log(comment);
-var comment = new Tweet();
-console.log(comment);
-var comment = new Tweet();
-console.log(comment);
-var comment = new Tweet();
-console.log(comment);
-var comment = new Tweet();
-console.log(comment);
-var comment = new Tweet();
-console.log(comment);

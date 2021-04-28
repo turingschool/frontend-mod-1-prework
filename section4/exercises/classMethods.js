@@ -35,10 +35,11 @@ class Burrito {
   }
   changeProtein(){
    this.protein = ("change Protein");
+  }
   addTopping(){
    this.toppings = ("change topping");
   }
-  }
+ }
   // ADD CODE
 };
 var toppings = new Burrito("cheese", "guac", "salsa");
