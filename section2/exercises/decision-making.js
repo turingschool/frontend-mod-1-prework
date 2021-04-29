@@ -7,7 +7,7 @@ Spend some time changing the variables and running the file to see how the story
 
 var doorChoice = 1;
 var bearClothing = "";
-var bearChoice = 1;
+var bearChoice = 3;
 
 console.log("You enter a dark room with two doors. Do you go through #1 or #2?");
 
@@ -38,16 +38,21 @@ if (bearChoice === 1) {
 Questions
 
 1. In English, using technical vocabulary, describe what is happening between lines 14 and 18.
+  - This is a conditional that will set a new value to the bear clothing variable, depending on the door chosen.
 
 2. What variable has a new value assigned to it after the first if statement executes?
+  - bearClothing
 
 3. If you changed the variable doorChoice to equal 3, what would the bearClothing value be?
-
+  -scarf
 4. In English, using technical vocabulary, describe what is happening between lines lines 27 and 35.
+  - A conditional centered around the bear choice variable. Has two logs that concatenate strings including the bear clothing variable, while the other two just have a string. Choices for this conditional are 1 - 3 otherwise it defaults to the else log.
 
 5. If you changed the variable bearChoice to equal 3, what will be the final outcome be?
+  - You run as fast as you can into the next room. It's full of snakes!
 
 6. If you changed the variable doorChoice to equal 1, and the variable bearChoice to equal 2, what will be the final outcome be?
-
+  - You tell the bear the hat is too small and it starts to cry!
 7. What is your favorite ending?
+  You offer the bear your hat and the bear shows you a secret passage out!
 */
