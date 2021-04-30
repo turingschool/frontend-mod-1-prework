@@ -39,7 +39,8 @@ class Burrito {
     this.protein = newProtein;
   }
   addTopping(newTopping) {
-    this.toppings = this.toppings + ", " + newTopping.splice(newTopping);
+    this.toppings.push(newTopping);
+
   }
 };
 
@@ -50,9 +51,9 @@ var chickenBurrito = new Burrito("grilled chicken", "pinto beans", ["green chili
 veggieBurrito.changeProtein("cauliflower");
 console.log(veggieBurrito);
 
-chickenBurrito.addTopping(["cheddar"]);
+chickenBurrito.addTopping("cheddar");
 console.log(chickenBurrito);
 
-steakBurrito.addTopping(["lime juice"]);
+steakBurrito.addTopping("lime juice");
 console.log(steakBurrito);
 // ADD CODE
