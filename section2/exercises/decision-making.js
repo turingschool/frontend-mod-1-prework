@@ -39,15 +39,29 @@ Questions
 
 1. In English, using technical vocabulary, describe what is happening between lines 14 and 18.
 
+In those lines we are defining our if/else statements for our doorChoice variable which will determine the bearClothing variable in the output.
+
 2. What variable has a new value assigned to it after the first if statement executes?
+
+The bearClothing variable is assigned a value after the first if statement is executed.
 
 3. If you changed the variable doorChoice to equal 3, what would the bearClothing value be?
 
+That would make the value bearClothing = "scarf"
+
 4. In English, using technical vocabulary, describe what is happening between lines lines 27 and 35.
+
+This is defining the if/else statements for the bearChoice variable which will log four different outputs depending on the input.
 
 5. If you changed the variable bearChoice to equal 3, what will be the final outcome be?
 
+It would output: "You run as fast as you can into the next room. It's full of snakes!"
+
 6. If you changed the variable doorChoice to equal 1, and the variable bearChoice to equal 2, what will be the final outcome be?
 
+"You tell the bear the hat is too small and it starts to cry!"
+
 7. What is your favorite ending?
+
+bearChoice === 3  Room full of snakes!
 */
