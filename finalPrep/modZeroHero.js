@@ -43,17 +43,18 @@ console.log(sidekicks)
 //   - dangerLevel should be an integer
 //   - saveTheDay should be a string a hero would say once they save the day
 //   - badExcuse should be a string a hero would say if they are too afraid of the dangerLevel
-var dangerLevel = 1
 var saveTheDay = "Another story done! Another civilian saved!"
 var badExcuse = "Man this is too scary! I'm out of here"
-function assessSituation() {
-  if (dangerlevel >= 10) {
+function assessSituation(dangerLevel) {
+  if (dangerLevel <= 10) {
     console.log( "Meh. Hard Pass")
-  } else if (dangerlevel <= 50){
+  } else if (dangerLevel >= 50){
     console.log(badExcuse)
-  } else (dangerlevel = 20)
+  } else
    console.log(saveTheDay)
-}
+} assessSituation(65)
+assessSituation(39)
+assessSituation(0)
 // Your function should include an if/else statement that meets the following criteria
 //   - Danger levels that are above 50 are too scary for your hero. Any danger level that is above 50 should result in printing the badExcuse to the console
 //   - Anything dangerLevel that is between 10 and 50 should result in printing the saveTheDay string to the console
@@ -79,10 +80,14 @@ var scaryMonster = {
   weight: 5000,
   citiesDestroyed: ['Denver','Thornton','Pueblo'],
   luckyNumbers: [5,7,85],
-  address: [42, 'ronald', 'CO', 82580]
-
+  address: {
+    street: '4322 Clems St',
+    state: 'Colorado',
+    city: 'bugs',
+    zipCode: 83441
+  }
 }
-
+console.log(scaryMonster)
 // Create a new class called SuperHero
 // - Your class should have the following DYNAMIC values
 //   - name
@@ -97,7 +102,7 @@ class SuperHero {
   this.name = name;
   this.power = superpower;
   this.age = age;
-  this.archNemesis = 'KennyS';
+  this.archNemesis = 'The Syntax Error';
   this.powerLevel = 100;
   this.energyLevel = 50;
 }
@@ -122,7 +127,8 @@ var superhero2 = new SuperHero('Tarik','Content Master','25')
 
 // Reflection
 // What parts were most difficult about this exerise?
-
+// I still struggle a little bit with if/else functions, I understand how they are created but they still take a while to fully code.
 // What parts felt most comfortable to you?
-
+//object creation and class creation
 // What skills do you need to continue to practice before starting Mod 1?
+//I will need to work on function and if/else creation.
