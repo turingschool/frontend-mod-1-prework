@@ -32,11 +32,11 @@ In Mod 0 you've learned about different techniques for managing your time at Tur
 When you are finished, add screenshots of your calendar so we can provide feedback if needed!
 
 - `Add Week 1 Screenshot Here`
-- ![Calendar April/May] (<img width="1373" alt="calendar April:may 2021" src="https://user-images.githubusercontent.com/82066350/116010031-869b3a80-a5d1-11eb-82d1-ab5c64ff193e.png">)
+- ![Calendar April/May](<img width="1373" alt="calendar April:may 2021" src="https://user-images.githubusercontent.com/82066350/116010031-869b3a80-a5d1-11eb-82d1-ab5c64ff193e.png">)
 - `Add Week 2 Screenshot Here`
-- ![Calendar first week MOD1] (<img width="1425" alt="calendar first week school" src="https://user-images.githubusercontent.com/82066350/116010068-bb0ef680-a5d1-11eb-8c58-6c1bae85e44c.png">)
+- ![Calendar first week MOD1](<img width="1425" alt="calendar first week school" src="https://user-images.githubusercontent.com/82066350/116010068-bb0ef680-a5d1-11eb-8c58-6c1bae85e44c.png">)
 - `Add Week 3 Screenshot Here`
-- ![Calendar second week of MOD 1] (<img width="1421" alt="calendar second week school" src="https://user-images.githubusercontent.com/82066350/116010112-f3163980-a5d1-11eb-8dca-5c7a34c343ea.png">)
+- ![Calendar second week of MOD 1](<img width="1421" alt="calendar second week school" src="https://user-images.githubusercontent.com/82066350/116010112-f3163980-a5d1-11eb-8dca-5c7a34c343ea.png">)
 
 ### Mentorship Prep
 Mentorship is an integral part of the Turing experience and will help jumpstart your technical career. In order to get your mentor relationship started on the right foot, please complete the following deliverables:
