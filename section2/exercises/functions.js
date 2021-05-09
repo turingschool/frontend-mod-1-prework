@@ -51,12 +51,12 @@ greetMe("Raquel");
 
 // YOU DO: Write a function that takes in 2 numbers as arguments, Numbers, and logs their sum
 // Then, call that function 3 times, each time, passing in 2 different Numbers.
-function numbers(even, odd) {
+function numbersSum(even, odd) {
   console.log(even + odd);
 }
-numbers(2, 3);
-numbers(4, 7);
-numbers(8, 9);
+numbersSum(2, 3);
+numbersSum(4, 7);
+numbersSum(8, 9);
 
 
 // YOU DO🎈: Write a function that takes in two strings and prints a concatenation
@@ -66,6 +66,14 @@ function closeFriends(humanName, dogName) {
   console.log(humanName + " and " + dogName +" know each other very well, they are very close friends!");
 }
 closeFriends("Joana", "Lucky");
+
+// You Do part By me, after study again:
+
+function printRelationshipType(name1, name2) {
+  console.log(name1 + " and " + name2 + " are brothers.");
+}
+printRelationshipType("David","Lucas");
+
 
 
 
