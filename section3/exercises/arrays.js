@@ -25,41 +25,60 @@ console.log(animals[0]);
 // YOU DO: Write code below that will log the number of elements in array of
 // animals from above.
 
+console.log(animals.length);
+
 
 // YOU DO: Write code that will reassign the last item in the animals
 // array to "Gorilla"
 
+animals[2] = 'Gorrila';
+
 
 // YOU DO: Write code that will add a new animal (type of your choice) to position 3.
-
+animals.push('Rat');
 
 // YOU DO: Write code that will log the String "Elephant" in the animals array
 
+animals.push('Elephant');
+const lastIndex = animals.length - 1;
+console.log(animals[lastIndex]);
+// I think this is what you want but this is another way I interpret the question
+console.log(animals[2]); //This wouldn't return elephant though this would return Gorilla?
+// To be honest though this is what the question sounds like
+animals.push(console.log('Elephant')); //this does absolutely nothing but pushes an undefined to the array 
 
 //-------------------
 // PART 2: Foods: Array Methods
 //-------------------
 
 // YOU DO: Declare a variable that will store an an array of at least 4 foods (strings)
-
+var foods = ['Pizza', 'Chicken Wings', 'Garlic Cheese Bread', 'Pasta'];
 
 // YOU DO: Write code below that will log the number of elements in the array of
 // foods from above.
-
+console.log("Write code below that will log the number of elements",foods.length);
 
 // YOU DO: Write code below that uses a method to add "broccoli" to the foods array and
 // log the changed array to verify "broccoli" has been added
-
+foods.push('broccoli');
+console.log("Log the array", foods);
 
 // YOU DO: Write code below that removes the last item of food from the foods array and
 // log the changed array to verify that item has been removed
-
+foods.pop();
+console.log("Verify item has been removed",foods);
 
 // YOU DO: Write code to add 3 new foods to the array. 
   // There are several ways to do this - choose whichever you'd like!
 // Then, log the changed array to verify the new items have been added
+var newFoods = ['Apple', 'Pinapple', 'Tomato']
+newFoods.forEach(newFood => foods.push(newFood));
 
+console.log(foods);
 // YOU DO: Remove the food that is in index position 0.
+
+foods.shift();
+console.log("verify item has been removed" ,foods)
 
 //-------------------
 // PART 3: Where are Arrays used?
@@ -82,9 +101,9 @@ var posts = ["image at beach", "holiday party", "adorable puppy", "video of cute
 // may be storing data? Come up with 3 examples - they could be from different web applications or 
 // all from the same one.
 
-// 1:
-// 2:
-// 3:
+// 1: Gmail - Has a list of your emails maybe an array with all the data.
+// 2: Youtube - Has a list of your subscriptions.
+// 3: Facebook - Has a list of who is online.
 
 
 //-------------------
@@ -105,7 +124,13 @@ var percentBatteryLeft = 12;
 var hasCharger = true;
 var chargerType = "car";
 
-// Write your conditional here
+//The user can call if the battery left percentage is 15 or if they have a charger that is charger type car.
+if (percentBatteryLeft >= 15 || hasCharger && chargerType === 'car'){
+  console.log('You can call an uber!');
+//If their battery is less than 15 and they do not have a charger that is chargerType car they cannot call. 
+} else {
+  ('You cannot call an uber!')
+}
 
 
 // YOU DO - ANNOTATE: Above each line of your code for this if statement, create a comment.

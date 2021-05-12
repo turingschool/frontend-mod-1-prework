@@ -19,20 +19,39 @@ for (var i = 0; i < animals.length; i++) {
 // YOU DO: Write code below that iterates through a list of animals and prints "The
 // <animal> is awesome!" for each animal.
 
+for (var i = 0; i < animals.length; i++){
+  console.log( `The ${animals[i]} is awesome! ` );
+}
+
 
 
 // YOU DO: Create an array of foods and then iterate over that array to log "Add
 // <food> to shopping list" for each food item.
 
+var foods = ['Pizza', 'Chicken Wings', 'Garlic Cheese Bread', 'Pasta'];
+
+for (var i = 0; i < foods.length; i++){
+  console.log( `Add ${foods[i]} to the shopping list` );
+}
 
 
 // YOU DO: Create an array of numbers and then iterate over that array to log double
 // of each of the number. (Ex: 4 doubled is 8.)
 
+var numbers = [17, 20, 34, 18, 16, 65, 49, 10, 22, 18];
+
+for(var i = 0; i < numbers.length; i++){
+  console.log( `${i} doubled is ${i * 2}`);
+}
+
 
 // YOU DO: Using the array of names below, print out "Happy Birthday <name>" for
 // each name except the first two.
 var names = ["Sevy", "Lindsey", "Jericho", "Raeonna", "Latrina", "Jhana", "Luca"];
+
+for (var i = 2; i <numbers.length - 3; i++){
+  console.log( `Happy Birthday ${names[i]}` );
+}
 
 
 
@@ -47,4 +66,12 @@ var names = ["Sevy", "Lindsey", "Jericho", "Raeonna", "Latrina", "Jhana", "Luca"
 // Remember, stuck for 15-20 minutes? Reach out to your pre-work group on Slack.
 
 var ages = [17, 20, 34, 18, 16, 65, 49, 10, 22, 18];
+
+for (var i = 0; i < ages.length; i++ ){
+  if (ages[i] < 18){
+    console.log('Under 18? Oh no, you can\'t vote quite yet.')
+  } else{
+    console.log('18 or over? Make sure you get out and vote!')
+  };
+}
 
