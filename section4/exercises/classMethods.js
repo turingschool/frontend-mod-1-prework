@@ -35,12 +35,12 @@ class Burrito {
     this.toppings = toppings;
   }
 
-  changeProtein() {
-    this.protein = "vegan";
+  changeProtein(proteinChanged) {
+    this.protein = proteinChanged;
   }
 
-  addTopping() {
-    this.toppings = this.toppings + " chives";
+  addTopping(toppingAdded) {
+    this.toppings = toppingAdded + "," + this.toppings;
   }
 
   // I founded the answer but i did not understant very well.
@@ -49,15 +49,18 @@ class Burrito {
 var breakfastBurrito = new Burrito('eggs', 'tortilla', ["mossarela cheese", "breakfast sausages","avocado"]);
 console.log(breakfastBurrito);
 
-breakfastBurrito.changeProtein();
+breakfastBurrito.changeProtein("carnitas");
 console.log(breakfastBurrito);
 
 var beefBurrito = new Burrito('beef', 'tortilla', ["guacamole", "tomatoes", "black beans", "rice"]);
 console.log(beefBurrito);
 
-beefBurrito.addTopping();
+beefBurrito.addTopping("chives, parmesan cheese, peper ");
+//beefBurrito.addTopping("parmesan cheese ");
 console.log(beefBurrito);
 
 var chickenBurrito = new Burrito('chicken', 'tortilla', ["guacamole", "salsa verde", "tomatoes","cream cheese"]);
+chickenBurrito.changeProtein("eggs");
 console.log(chickenBurrito);
+
 // ADD CODE

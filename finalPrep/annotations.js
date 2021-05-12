@@ -27,7 +27,7 @@ function buildABear(name, age, fur, clothes, specialPower) {
     isCuddly: true,
 // curly Baces that closes the Object Linear
   };
-// call the builtBear object 
+// call the builtBear object
   return builtBear
 }
 //call the function builtBear passing it the informations for the parameters.
@@ -43,8 +43,9 @@ function fizzBuzz(num1, num2, range) {
   //this is a loop that starts wit 0 count and goes until the loop count be less or equal to the range parameter.
   for (var i = 0; i <= range; i++) {
     //this is an If condition  with 2 conditions with a  Logical operator AND &&
-    //(i is a module of num1 equals 0 AND  i module num2 equals zero) both conditions
-    //need to be true for the code to run.
+    //(if i module: the division of i and num1 has a reminder that is strict equal 0
+    // AND  i module: the division of i and num2 has a reminder that is strict equal zero)
+    // both conditions need to be true for the code to run.
     if (i % num1 === 0 && i % num2 === 0) {
       //if both conditions are true the console will log "fizzbuzz"
       console.log('fizzbuzz');
@@ -68,7 +69,7 @@ function fizzBuzz(num1, num2, range) {
   }
   //curly braces to indicate the closure of the function.
 }
-//call the function fizzBuzz passing in the information for  3 parameters
+//call the function fizzBuzz passing in the 3 arguments for the 3 parameters
 fizzBuzz(3, 5, 100);
-//call the function fizzBuzz passing in the information for  3 parameters
+//call the function fizzBuzz passing in the 3 arguments for the 3 parameters
 fizzbuzz(5, 8, 400);

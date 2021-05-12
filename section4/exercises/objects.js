@@ -17,6 +17,19 @@ var foods = {
 };
 
 console.log(foods);
+
+
+
+var appleStore = {
+  macBook: ["MacBook Air","MacBook Pro 13","MacBook Pro 16", "iMac 24", "iMac 27","Mac mini"],
+  iPhone:["iPhone 12 Pro", "iPhone 12","iPhone SE","iPhone 11", "iPhone Xr"],
+  iPad:["iPad Pro","iPad Air","iPad","iPad mini"],
+  watch:"Apple Watch",
+  tv: "4k",
+  music:"Apple Music",
+};
+
+console.log(appleStore);
 // Notice that the variable name is foods, plural, because it has the ability to hold info about
 // potentially many foods. That plural name indicates to another developer that the variable stores
 // either an Array or an Object.
@@ -41,6 +54,8 @@ console.log(zooAnimals);
 // the Object
 
 console.log(zooAnimals.zebras);
+console.log(zooAnimals.pandas);
+console.log(zooAnimals.lions);
 
 
 // Add an animal to the zoo Object, and log the updated Object.
@@ -48,6 +63,12 @@ console.log(zooAnimals.zebras);
 //and the assignment operator =  not :,followd by ; - because it is a statement.
 
 zooAnimals.eagles = 6;
+
+console.log(zooAnimals);
+
+zooAnimals.wolfs = 20;
+zooAnimals.panters = 2;
+zooAnimals.snakes = 6;
 
 console.log(zooAnimals);
 

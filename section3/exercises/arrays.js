@@ -18,9 +18,13 @@ Make sure to run the file with node in your command line.
 var animals = ["Zebra", "Giraffe", "Elephant"];
 console.log(animals);
 
+
 // EXAMPLE: Write code below that will log "Zebra" from the animals array
 // YOUR CODE HERE
 console.log(animals[0]);
+
+// log "Giraffe " from the animals array
+console.log(animals[1]);
 
 // YOU DO: Write code below that will log the number of elements in array of
 // animals from above.
@@ -32,11 +36,20 @@ console.log(animals.length);
 animals[2] = "Gorilla";
 console.log(animals);
 
+//reassign the first item in the animals array to "Horse"
+animals[0] = "Horse";
+console.log(animals);
+
 
 // YOU DO: Write code that will add a new animal (type of your choice) to position 3.
 
 //I could write a pushing method (.push) to add this animal, once the position 3 it is the last position:
 animals.push('Lion');
+console.log(animals);
+
+//Adding an animal of my choice to position 4.
+
+animals[4] = "Wolf";
 console.log(animals);
 
 // or I also found Splicing Method on google :

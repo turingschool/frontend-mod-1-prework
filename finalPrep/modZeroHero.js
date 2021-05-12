@@ -57,11 +57,11 @@ console.log(sidekicks);
 //   - badExcuse should be a string a hero would say if they are too afraid of the dangerLevel
 
 function assessSituation (dangerLevel, saveTheDay, badExcuse) {
-  if (dangerLevel > 50){
+  if (dangerLevel > 50) {
     console.log(badExcuse);
   } else if (dangerLevel <=50 && dangerLevel >=10) {
     console.log(saveTheDay);
-  }else{
+  } else {
     console.log("Meh. Hard pass.");
   }
 }
@@ -139,11 +139,12 @@ class SuperHero {
   sayName() {
     console.log(this.name);
   }
-  maximizeEnergy() {
-    this.energyLevel = 1000;
+  maximizeEnergy(energyLevel) {
+    this.energyLevel = energyLevel;
   }
-  gainPower(){
-    console.log(this.powerLevel + this.powerLevel);
+  gainPower(gainPower){
+    this.powerLevel = this.powerLevel + gainPower
+    console.log(this.powerLevel);
   }
 }
 
@@ -156,9 +157,10 @@ console.log(hero);
 
 
 hero.sayName();
-hero.maximizeEnergy();
+hero.maximizeEnergy(2000);
+hero.gainPower(80);
 console.log(hero);
-hero.gainPower();
+
 
 
 var antiHero = new SuperHero("Venon", "Super strength, shape-shifter", "39");
@@ -166,14 +168,16 @@ console.log(antiHero);
 
 
 antiHero.sayName();
-antiHero.maximizeEnergy();
+antiHero.maximizeEnergy(100);
+antiHero.gainPower(20);
 console.log(antiHero);
-antiHero.gainPower();
+
 
 // Reflection
 // What parts were most difficult about this exerise?
 
-//The methods, in class and I don't understand the module %.
+//The methods, in class // I don't understand the module %
+//update: module is the division of 2 values and returns the remainder .
 
 // What parts felt most comfortable to you?
 // everything else , variables, function, even creating the class and object, but methods.

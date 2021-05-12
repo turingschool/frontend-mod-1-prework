@@ -17,13 +17,13 @@ var lunchOrder = {
   dish: "BLT",
   beverage: "iced tea",
   tableNumber: 47,
-  prepare: function(){
+  prepare: function() {
     console.log("Your order has been prepared.");
   },
-  complete:function(){
+  complete: function() {
     console.log("Your order is ready!");
   }
-}
+};
 
 console.log(lunchOrder.dish);
 console.log(lunchOrder.beverage);
