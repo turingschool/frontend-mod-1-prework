@@ -38,16 +38,29 @@ if (bearChoice === 1) {
 Questions
 
 1. In English, using technical vocabulary, describe what is happening between lines 14 and 18.
-
+// The computer is checking to see what doorchoice is selected. If the doorChoice is set to the number 1, then the bearClothing is going to be set to
+//hat. If the door choice is set to a value anything other than 1, the bearclothing is going to be set to scarf.
 2. What variable has a new value assigned to it after the first if statement executes?
-
+//bearClothing
 3. If you changed the variable doorChoice to equal 3, what would the bearClothing value be?
-
+//scarf
 4. In English, using technical vocabulary, describe what is happening between lines lines 27 and 35.
+// First the computer is checking what value bearChoice is. If bearChoice is set to a the number 1. Depending on what value the doorChoice was set to.
+// The bearClothing would be different. The console would then print "You offer the bear your "bearClothing" and the bear shows you a scret passage out!"
+// If the bearChoice was set the number 2 again depending on the doorChoice the bearClothing would be different. The console would print
+// "You tell the bear the "bearClothing" is too small and it starts to cry!"
+// If the bearChoice is set to number 3 the console would print "You run as fast as you can into the next room. It's full of snakes!" 
+// finally if the bearChoice is not set to any of the numbers listed above the console would print "You stay with the bear and become it's best friend!"
+
 
 5. If you changed the variable bearChoice to equal 3, what will be the final outcome be?
+//  console.log("You run as fast as you can into the next room. It's full of snakes!");
+
 
 6. If you changed the variable doorChoice to equal 1, and the variable bearChoice to equal 2, what will be the final outcome be?
+//  console.log("You tell the bear the " + hat + " is too small and it starts to cry!");
 
 7. What is your favorite ending?
+
+//My favorite is staying with the bear and becoming its best friend!
 */
