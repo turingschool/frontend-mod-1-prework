@@ -23,9 +23,12 @@ console.log("Is numberTeachers greater than numberStudents?", numberTeachers > n
 // this should log: "Is numberTeachers greater than numberStudents?" false
 
 // YOU DO: log the result of the comparison: is numberTeachers less than numberStudents?
+console.log("Is numberTeachers less than numberStudents?", numberTeachers < numberStudents);
 // this should log: true
 
+
 // YOU DO: log the result of the comparison: is numberTeachers equal to stringTeachers? (use the == operator)
+console.log("Is numberTeachers equal to stringTeachers?", numberTeachers == stringTeachers);
 // this should log: true
 
 /*
@@ -35,6 +38,7 @@ perform this evaluation
 */
 
 // YOU DO: log the result of the comparison: is numberTeachers strictly equal to stringTeachers? (use the === operator)
+console.log("Is numberTeachers strictly equal to stringTeachers?", numberTeachers === stringTeachers);
 // this should log: false
 
 /*
@@ -48,18 +52,23 @@ you develop good habits that follow best practice, from now on, use the strict c
 */
 
 // YOU DO: log the result of the comparison: is numberTeachers not equal to numberStudents?
+console.log("Is numberTeachers not equal to numberStudents", numberTeachers !== numberStudents);
 // this should log: true
 
 // YOU DO: log the result of the comparison: is numberStudents greater than or equal to 20?
+console.log("Is numberStudents greater than or equal to 20?", numberStudents >= 20);
 // this should log: true
 
 // YOU DO: log the result of the comparison: is numberStudents greater than or equal to 21?
+console.log("Is numberStudents greater than or equal to 21?", numberStudents >= 21);
 // this should log: false
 
 // YOU DO: log the result of the comparison: is numberStudents less than or equal to 20?
+console.log("Is numberStudents less than or equal to 20?", numberStudents <= 20);
 // this should log: true
 
 // YOU DO: log the result of the comparison: is numberStudents less than or equal to 21?
+console.log("Is numberStudents less than or equal to 21?", numberStudents <= 21);
 // this should log: true
 
 
@@ -74,21 +83,33 @@ you develop good habits that follow best practice, from now on, use the strict c
 
 console.log(4 < 9);
 //YOU DO: Explain.
+/* Explaining : it is a Log asking from the result of 4 is less than 9.
+this should log true
+*/
 
 var books = 3;
-console.logs(4 < books);
+// variable books is an integer number.
+console.log(4 < books);
 // YOU DO: Explain.
+/* Explaining : it is a Log asking from the result of 4 is less than var books - what it woould be the numer 3.
+this should log false
+*/
 
-var friends = 6;
-var siblings = 2;
+var friends = 6; // variable friends is an integer number.
+var siblings = 2; // variable siblings is an integer number.
 console.log(friends > siblings);
 // YOU DO: Explain.
+/* Explaining : it is a Log asking from the result of variable friends is greater than variable siblings.
+this should log true
+*/
 
-var attendees = 9;
-var meals = 8;
+var attendees = 9; // variable attendees is an integer number.
+var meals = 8; // variable meals is an integer number.
 console.log(attendees !== meals);
 // YOU DO: Explain.
-
+/* Explaining : it is a Log asking from the result of the variable attendees is strickly not equal to variable meals.
+this should log true
+*/
 
 //-------------------
 // PART 3: Logical Operators
@@ -110,19 +131,30 @@ var age = 1;
 
 // YOU DO:
 // Determine if the dog loves to play and loves treats
+console.log(lovesToPlay && lovesTreats);
 
 
 // Determine if the dog loves to play and loves the dog park
+console.log(lovesToPlay && lovesDogPark);
 
 
 // Determine if the dog loves to play or loves the dog park
+console.log(lovesToPlay || lovesDogPark);
 
 
 // Determine if the dog loves to play and is a puppy
+console.log(lovesToPlay && "is a puppy")
 
 // What did your final line of code evaluate to? Why do you think that is? Explain.
 // ANSWER:
-
+/* The log showed what is inside the string,
+ In JavaScript the result The logical AND (&&) operator (logical operator)
+for a set of operands is true if and only if all of its operands are true.
+It is typically used with Boolean values.
+When it is, it returns a Boolean value. However, the && operator actually returns
+the value of one of the specified operands, so if this operator is used with non-Boolean values,
+it will return a non-Boolean value.
+*/
 //-------------------
 // FINAL CHECK
 //-------------------
