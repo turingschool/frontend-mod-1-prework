@@ -12,21 +12,28 @@
 
 #### Life exmaple
 + My Pet Rat
-..* If my rat wants attention he will ring his bell
-..* Otherwise he will sleep or eat food
+```javascript 
+If my rat wants attention he will ring his bell
+    Otherwise he will sleep or eat food
+```
 
 #### Web Application
 + Youtube Login
-..* If the password matches your account password grant login
-..* If not say "Wrong Password!"
+```javascript
+If the password matches your account password grant login
+If not say "Wrong Password!"
+```
 
 1. How do you add multiple conditions to an `if` statement? In your own words, explain how to program reads them and determines what to do.
 
 To add multiple conditions you would say "else if". The way the program reads them and determines what to do is like this
 
 + if whatever condition is set evaluatues to being true then it will run the first code block
-..* if it is false and there is an else if, it will evaluate that condtion. If it is true it will run that code block. 
-..* this repeats until either a code block has been run, or there are no more if statements to check. 
+
+```javascript
+if it is false and there is an else if, it will evaluate that condtion. If it is true it will run that code block. 
+this repeats until either a code block has been run, or there are no more if statements to check. 
+```
 
 1. What tools are available to you, as a developer, if you want to check that TWO conditions are met? Or, if you want to check that 1 of 2 conditions are met, before running a block of code?
 
