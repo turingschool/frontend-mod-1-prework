@@ -3,18 +3,18 @@
 1. How did the SuperLearner Article resonate with you? What from this list do you already do? Want to start doing or do more of? Is there anything not on this list, that you would add to it?
 
 I enjoyed reading the SuperLearner Article I found I do some of the things on the list already like
-+Having a growth mindset
-+Taking care of my brain
-+Teaching others what I know
++ Having a growth mindset
++ Taking care of my brain
++ Teaching others what I know
 
 Some things I would really like to improve on are 
-+Taking short breaks ealry and often 
-+Reading more
++ Taking short breaks ealry and often 
++ Reading more
 
 2. What are the data types you learned about in this section? In your own words, define each.
-+String - Characters that inside of a pair of quotes 
-+Number - A number negitive or positive. They can also include decimals.
-+Boolean - Is data that will evaluate as either true or false
++ String - Characters that inside of a pair of quotes 
++ Number - A number negitive or positive. They can also include decimals.
++ Boolean - Is data that will evaluate as either true or false
 
 
 3. How would you log the string `"Hello World!"` to the console?
