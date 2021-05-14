@@ -37,9 +37,9 @@ A variable is how you keep track of stuff in code. An example of this would be i
 
 6. Think of a site or app you use frequently. What are three variables that are probably used? Which data type would each of those variables probably hold?
 
-+userName holds a string
-+isLoggedIn holds a boolean
-+followers holds a number
+-userName holds a string
+-isLoggedIn holds a boolean
+-followers holds a number
 
 7. In your own words, explain what concatenation is.
 Concatenation is putting 2 things together. 
