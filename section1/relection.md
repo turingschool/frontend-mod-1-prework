@@ -50,3 +50,5 @@ console.log("Hello World!");
 
   I'm sure there are questions but I still haven't gotten stuck on one to still have it, I've been solving the questions with the work I've been instructed to do, for example until 9 questions ago I had a lot of questions about **Markdown** language, but, i've been clearing it.
   The part that I considered more slippery it was the comparisons symbols and equalities operators, and the `null/undefined` evaluations. So I'm looking forward to get more practice with it to feel more confident.
+
+  I do have more questions about the meaning and working mode of the libraries and many other things that I haven't been too exposed yet. But I think I'll get there eventually.
