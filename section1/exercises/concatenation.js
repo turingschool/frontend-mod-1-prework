@@ -48,7 +48,11 @@ console.log("In a predictable result, the " + slowPoke + " beat the " + speedy "
 // Declare three variables, name/content/data type of your choice. Think carefully about what
   // you name the variables. Remember, the goal is to be concise but descriptive (it's a hard balance!)
   // Then, log out ONE sentence that incorporates all THREE variables.
+var date = "May 18th"
+var age = 4
+var name = "June"
 
+console.log("On " + date + ", " + name + " turns " + age + "!");
 
 //-------------------
 // FINAL CHECK
