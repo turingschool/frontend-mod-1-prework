@@ -24,7 +24,7 @@ console.log(enrolledStudents);
 // Write code below to save the string 'Harry Potter must not return to Hogwarts!'
 // log that variable to the console.
 var hogwarts = ('Harry Potter must not return to Hogwarts!')
-console.log(howarts);
+console.log(hogwarts);
 
 // YOU DO:
 // Declare three variables, named `firstName`, `isHungry` and `numberOfPets`.
