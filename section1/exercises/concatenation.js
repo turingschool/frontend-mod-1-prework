@@ -55,7 +55,7 @@ var villianName = 'Bane';
 var hidingLocation = 'under a bridge';
 var years = 3;
 
-console.log('My name is ' + villianName + ' sometimes I like to hide ' + hidingLocation + ' for ' + years + ' years!')
+console.log('My name is ' + villianName + ' sometimes I like to hide ' + hidingLocation + ' for ' + years + ' years!');
 //-------------------
 // FINAL CHECK
 //-------------------

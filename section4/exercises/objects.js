@@ -75,7 +75,7 @@ var newEmail = {
   senderLastName: 'Sender',
   timeSent: '12:00 PM',
   emailContent: 'Hey it\'s me, Big Sender!',
-}
+};
 
 console.log(newEmail);
 
@@ -113,7 +113,7 @@ var posts = [
     numberLikes: 13,
     comments: []
   }
-]
+];
 
 console.log(posts);
 console.log(posts[0]);

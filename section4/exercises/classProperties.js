@@ -149,7 +149,7 @@ class SmartShirt{
   constructor(shirtType, isNew, amount){
     this.shirtType = shirtType;
     this.isNew = isNew;
-    this.amount = amount
+    this.amount = amount;
   }
 }
 

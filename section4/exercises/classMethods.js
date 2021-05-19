@@ -41,7 +41,7 @@ class Burrito {
   addTopping(singleTopping){
     this.toppingsArray.push(singleTopping);
   }
-};
+}
 
 var beanBurrito = new Burrito('Wheat', ['Spinach', 'Peppers', 'Guacamole']);
 

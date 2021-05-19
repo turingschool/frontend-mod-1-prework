@@ -71,14 +71,14 @@ console.log("Verify item has been removed",foods);
 // YOU DO: Write code to add 3 new foods to the array. 
   // There are several ways to do this - choose whichever you'd like!
 // Then, log the changed array to verify the new items have been added
-var newFoods = ['Apple', 'Pinapple', 'Tomato']
+var newFoods = ['Apple', 'Pinapple', 'Tomato'];
 newFoods.forEach(newFood => foods.push(newFood));
 
 console.log(foods);
 // YOU DO: Remove the food that is in index position 0.
 
 foods.shift();
-console.log("verify item has been removed" ,foods)
+console.log("verify item has been removed" ,foods);
 
 //-------------------
 // PART 3: Where are Arrays used?
@@ -129,7 +129,7 @@ if (percentBatteryLeft >= 15 || hasCharger && chargerType === 'car'){
   console.log('You can call an uber!');
 //If their battery is less than 15 and they do not have a charger that is chargerType car they cannot call. 
 } else {
-  ('You cannot call an uber!')
+  ('You cannot call an uber!');
 }
 
 

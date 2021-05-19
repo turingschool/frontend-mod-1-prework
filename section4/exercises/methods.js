@@ -19,7 +19,7 @@ var lunchOrder = {
   tableNumber: 47,
   
   prepare: function(){
-    console.log( `Your ${this.dish} and ${this.beverage} is being made and will be out soon!` )
+    console.log( `Your ${this.dish} and ${this.beverage} is being made and will be out soon!` );
   },
   complete: function(){
     console.log( `Table ${this.tableNumber}, Your order is complete! Items: ${[this.dish, this.beverage]}` );
