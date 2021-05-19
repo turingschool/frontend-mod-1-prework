@@ -50,7 +50,7 @@ console.log('After protein change' ,beanBurrito);
 beanBurrito.addTopping('Salsa');
 console.log('After topping change' ,beanBurrito);
 
-var beefBurrito = new Burrito('Flour', ['Lettuce', 'Cheese', 'Queso'])
+var beefBurrito = new Burrito('Flour', ['Lettuce', 'Cheese', 'Queso']);
 
 beefBurrito.changeProtein('Beef');
 console.log('After protein change' ,beefBurrito);
