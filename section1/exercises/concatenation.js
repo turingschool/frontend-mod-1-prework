@@ -32,7 +32,7 @@ console.log("My zoo has " + numberOfCreatures + " " + creatures + "!")
 var speedy = "quick red fox";
 var slowPoke = "lazy brown dog";
 
-console.log("The" + speedy + "jumped over the" + slowPoke);
+console.log("The " + speedy + "jumped over the " + slowPoke);
 
 
 // YOU DO:
@@ -43,7 +43,7 @@ console.log("The" + speedy + "jumped over the" + slowPoke);
 slowPoke = "tortoise";
 speedy = "hare";
 
-console.log("In a predictable result, the" + slowPoke + "beat the" + speedy + "!");
+console.log("In a predictable result, the " + slowPoke + "beat the " + speedy + "!");
 
 // YOU DO:
 // Declare three variables, name/content/data type of your choice. Think carefully about what
@@ -53,7 +53,7 @@ var animal= "ants";
 var number = 1;
 var action = "suck his thumb";
 
-console.log("The" + animal + "go marching" + number + "by" + number + "the little one stops to" + action)
+console.log("The " + animal + "go marching " + number + "by " + number + "the little one stops to " + action)
 
 //-------------------
 // FINAL CHECK
