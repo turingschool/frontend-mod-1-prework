@@ -110,6 +110,21 @@ if the user has a charger at all, or what type.
 The can call an uber if they have a charger and it is a car charger.
 
 */
+var percentBatteryLeft = 12;
+var hasCharger = true;
+var chargerType = "car";
+
+
+if (percentBatteryLeft >= 15); {
+  console.log("Ready to ride!");
+}
+if (percentBatteryLeft < 15); {
+  console.log("Better get your car charger first.");
+}
+if (percentBatteryLeft <= 15 && hasCharger + chargerType); {
+  console.log("Ready to ride, but bring the juice!");
+}
+
 
 
 // YOU DO - ANNOTATE: Above each line of your code for this if statement, create a comment.
