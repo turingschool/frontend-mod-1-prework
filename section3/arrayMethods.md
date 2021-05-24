@@ -1,0 +1,9 @@
+What do array methods do?! See below for a brief description of the functionality of each array method:
+
+1. *pop* - The command pop will remove the LAST value/element from the array specified. If you logged to the console just the operation of pop on the specified array, then that removed value/element would be returned (element at position array.length - 1). If you logged the array on which you operated pop on, then you'd be returned with the initial array with the removed value/element missing. The length of your initial array would then be one less than its starting length.
+
+2. *push* - The command push will add a specified value/element to the very END of an array. If you logged the array on which you operated push on, then you'd be returned with the initial array with one additional value/element at the end. The length of your initial array would then be one more than its starting length.
+
+3. *shift* - The command push performs the opposite operation as compared to pop. Shift will remove the FIRST element from the specified array. If you logged to the console just the operation of shift on the specified array, then that removed value/element would be returned (element at position 0 in the array). If you logged the array on which you operated shift on, then you'd be returned with the initial array with the first value/element missing. The length of your initial array would then be one less than its starting length.
+
+4. *unshift* -The command unshift performs the opposite operation as compared to push. Push will add a value/element to the very BEGINNING of a specified array. If you logged the array on which you operated unshift on, then you'd be returned with the initial array with one additional value/element at the front. The length of your initial array would then be one more than its starting length.
