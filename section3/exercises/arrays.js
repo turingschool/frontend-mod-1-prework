@@ -117,15 +117,15 @@ var chargerType = "car";
 if (percentBatteryLeft >= 15) {
   console.log("Ready to ride");
 }
-else if (percentBatteryLeft < 15 && hasCharger + chargerType) {
+else if (percentBatteryLeft < 15 && hasCharger === true + chargerType) {
   console.log("Ready to ride!");
 }
-else if (hasCharger && chargerType) {
+else if (hasCharger === true && chargerType) {
   console.log("Ready to ride!");
 }
 else if (hasCharger===false) {
   console.log("Better get a charger and try again");
 }
-else if (percentBatteryLeft <15) {
+else if (percentBatteryLeft < 15 && hasCharger === false) {
   console.log("Better get a charger and try again");
 }
