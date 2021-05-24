@@ -97,16 +97,18 @@ var cupsOfFlour = 1;
 var hasSauce = true;
 
 // Write your conditional here
-if (cupsOfFlour = 1 && hasSauce = true) {
+if (cupsOfFlour = 1 && hasSauce) {
   console.log("I cannot make pizza");
-} if else (cupsOfFlour = 1 && hasSauce = false) {
+}
+else if (cupsOfFlour = 1 && hasSauce === false) {
   console.log("I cannot make pizza");
-} if else (cupsOfFlour = 2 && hasSauce = true) {
-  console.log("I can make pizza");
-} if else (cupsOfFlour = 3 && hasSauce = true) {
+}
+else if (cupsOfFlour = 2 && hasSauce) {
   console.log("I can make pizza");
 }
-
+else if (cupsOfFlour = 3 && hasSauce){
+  console.log("I can make pizza");
+}
 /*
 For the last two exercises, an ideal solution probably uses a logical operator.
 Did yours? Do you know what a logical operator in JavaScript is? Google it to answer
