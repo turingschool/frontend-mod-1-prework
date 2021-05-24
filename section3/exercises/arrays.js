@@ -114,22 +114,18 @@ var percentBatteryLeft = 12;
 var hasCharger = true;
 var chargerType = "car";
 
-
-if (percentBatteryLeft >= 15); {
+if (percentBatteryLeft >= 15) {
+  console.log("Ready to ride");
+}
+else if (percentBatteryLeft < 15 && hasCharger + chargerType) {
   console.log("Ready to ride!");
 }
-if (percentBatteryLeft < 15); {
-  console.log("Better get your car charger first.");
+else if (hasCharger && chargerType) {
+  console.log("Ready to ride!");
 }
-if (percentBatteryLeft <= 15 && hasCharger + chargerType); {
-  console.log("Ready to ride, but bring the juice!");
+else if (hasCharger===false) {
+  console.log("Better get a charger and try again");
 }
-
-
-
-// YOU DO - ANNOTATE: Above each line of your code for this if statement, create a comment.
-// That comment should describe, in your own words, and as technically precise as possible,
-// what the line of code below, does.
-
-// MAKE 100% SURE that you have RUN the code in node in your command line, to ensure it works
-// as you think it does🌟
+else if (percentBatteryLeft <15) {
+  console.log("Better get a charger and try again");
+}
