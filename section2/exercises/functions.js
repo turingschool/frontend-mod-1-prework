@@ -86,4 +86,8 @@ EXPLAIN:  I named my functions adding and teamMembers, because it's closely rela
 this functions are performing on my script.
 The case with the parameters it was the same, num1 and num2, it's very related with the desired input
 for the task. The same case with name1 and name2.
+
+I named the function teamMembers because it's going to return information of a determined team.
+I named the arguments name1 and name2 bacause is clear that we are asking this information to be the names of the team members.
+
 */

@@ -137,8 +137,8 @@ Make sure to run the file with node in your command line.
   // Prompt 2: Snack
 
   class Snack {
-    constructor(nm, gr, percent) {
-      this.name = nm;
+    constructor(name, gr, percent) {
+      this.name = name;
       this.protein = gr;
       this.fat = percent;
     }
@@ -153,10 +153,10 @@ Make sure to run the file with node in your command line.
   //Prompt 3: Shirt
 
   class Shirt {
-    constructor (typeDress, numBut, col) {
-      this.dressCode = typeDress;
-      this.numberOfButtons = numBut;
-      this.color = col;
+    constructor (dressCode, numberOfButtons, color) {
+      this.dressCode = dressCode;
+      this.numberOfButtons = numberOfButtons;
+      this.color = color;
     }
   };
 

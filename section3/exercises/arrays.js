@@ -99,7 +99,7 @@ var posts = ["image at beach", "holiday party", "adorable puppy", "video of cute
 // may be storing data? Come up with 3 examples - they could be from different web applications or
 // all from the same one.
 
-// 1:Gmail, I think a list of unread emails could be storage on an array
+// 1:Gmail, I think a list of unread emails could be stored on an array
 // 2:Google drive, all the elements inside a folder can be contained on an array.
 // 3:Amazon, all my orders could be contained ona an array.
 

@@ -30,7 +30,7 @@ console.log (message);
   // Store the appropriate data types in each.
 // log all three variables to the console.
 var firstName = 'Carlos';
-var isHungry = 'When your stomach crowls';
+var isHungry = false;
 var numberOfPets = 2
 console.log (firstName);
 console.log (isHungry);
@@ -46,8 +46,8 @@ for eg, for firstName I included my name, an so on*/
   // values (but same data type).
 // log all three variables to the console.
 firstName = 'Mahsa';
-isHungry = 'When you stomach feels empty'
-numberOfPets = 4
+isHungry = true;
+numberOfPets = 4;
 console.log(firstName);
 console.log(isHungry);
 console.log(numberOfPets);
