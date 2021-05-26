@@ -10,7 +10,7 @@ console.log (plants);
 //expected output: Array ["broccoli", "cauliflower", "cabbage", "kale"]
 
 ## push()
-adds one more more elements to the end of an array and returns the new length of the Array
+adds one more elements to the end of an array and returns the new length of the Array
 
 var animals = ["pigs", "goats", "sheep"];
 var count = animals.push("cows");
