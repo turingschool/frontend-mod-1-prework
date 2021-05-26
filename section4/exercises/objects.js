@@ -63,7 +63,15 @@ value should be some appropriate value for that key. Work to have at least 5 key
 
 Log your email object to the console.
 */
+var email = {
+  sender: "reneeswick",
+  recipients: ["kodyziller", "doswick", "spacc77"],
+  subject: "House Warming Party!",
+  dateSent: "26 May 2021",
+  numberAttachments: 1
+};
 
+console.log(email);
 //-------------------
 // Part 3: Many Emails - OPTIONAL EXTENSION
 //-------------------
@@ -113,3 +121,28 @@ good to have some exposure before going into Mod 1.
 // YOU DO: Create an array of at least 3 EMAIL Object Literals, using the same
 // key-value pairs you used in your email Object above.
 // Then, log the email Array to the console.
+var emails = [
+  {
+    sender: "kodyziller",
+    recipients: ["reneeswick", "doswick", "spacc77"],
+    subject: "Memoral Day Plans!",
+    dateSent: "27 May 2021",
+    numberAttachments: 2
+  },
+  {
+    sender: "doswick",
+    recipients: ["reneeswick", "spacc77"],
+    subject: "Summer Vacation",
+    dateSent: "28 May 2021",
+    numberAttachments: 0
+  },
+  {
+    sender: "spacc77",
+    recipients: ["reneeswick", "doswick", "sherryswick"],
+    subject: "Big News!",
+    dateSent: "27 May 2021",
+    numberAttachments: 5
+  }
+]
+console.log(emails);
+console.log(emails[2]);
