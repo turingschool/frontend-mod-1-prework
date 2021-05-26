@@ -28,19 +28,32 @@ console.log(foods);
 // YOU DO: Write code below that will declare a variable that stores an Object Literal of animal names and 
 // the number of that type of animal at the zoo.
 
+var animals = {
+  rat: 20,
+  cat: 30,
+  zebra: 10,
+};
+
 
 // Using the zoo that you created above, log the value of the first item in
 // the Object
 
+console.log(animals.rat);
 
 // Add an animal to the zoo Object, and log the updated Object.
 
+animals.penguin = 12;
+console.log(animals);
 
 // Change the value for at least one of your animal keys, and log the updated Object.
 
+animals.rat = 10;
+console.log(animals);
 
 // Add another animal to the zoo Object, and log the updated Object.
 
+animals.monkey = 1;
+console.log(animals);
 
 //-------------------
 // Part 2: Email
@@ -55,6 +68,16 @@ value should be some appropriate value for that key. Work to have at least 5 key
 
 Log your email object to the console.
 */
+
+var newEmail = {
+  senderEmail: 'bigsender@email.com',
+  senderFirstName: 'Big',
+  senderLastName: 'Sender',
+  timeSent: '12:00 PM',
+  emailContent: 'Hey it\'s me, Big Sender!',
+};
+
+console.log(newEmail);
 
 //-------------------
 // Part 3: Many Emails - OPTIONAL EXTENSION
@@ -90,7 +113,7 @@ var posts = [
     numberLikes: 13,
     comments: []
   }
-]
+];
 
 console.log(posts);
 console.log(posts[0]);
@@ -105,3 +128,30 @@ good to have some exposure before going into Mod 1.
 // YOU DO: Create an array of at least 3 EMAIL Object Literals, using the same 
 // key-value pairs you used in your email Object above.
 // Then, log the email Array to the console.
+
+var newEmails = [
+  {
+    senderEmail: 'bigsender@email.com',
+    senderFirstName: 'Big',
+    senderLastName: 'Sender',
+    timeSent: '12:00 PM',
+    emailContent: 'Hey it\'s me, Big Sender!',
+    attachments: ['thebigone.jpg',]
+  },
+  {
+    senderEmail: 'bigsendersdad@email.com',
+    senderFirstName: 'Big',
+    senderLastName: 'Sender SR.',
+    timeSent: '10:30 AM',
+    emailContent: 'If my son Big Jr. send you an email I\'m sorry he had too much to drink!',
+  },
+  {
+    senderEmail: 'totallyrealcarwarenty@email.com',
+    senderFirstName: 'James',
+    senderLastName: 'Foreman',
+    timeSent: '9:00 AM',
+    emailContent: 'Hello sir, we have been trying to reach you about your cars extended waranty!',
+  },
+];
+
+console.log(newEmails);
