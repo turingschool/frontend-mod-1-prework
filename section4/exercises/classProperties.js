@@ -14,12 +14,38 @@ Make sure to run the file with node in your command line.
   // Create 2 object instances and store in variables
   // Log each variable to the console.
   // You do not need any proerties at this time!!
-
-// Prompt 1: Dog
-
-// Prompt 2: Snack
-
-// Prompt 3: Shirt
+//
+// // Prompt 1: Dog
+// class Dog {
+//
+// }
+// var smallDog = new Dog();
+// var bigDog = new Dog();
+//
+// console.log(smallDog);
+// console.log(bigDog);
+//
+// // Prompt 2: Snack
+// class Snack {
+//
+// }
+//
+// var morningSnack = new Snack();
+// var eveningSnack = new Snack();
+//
+// console.log(morningSnack);
+// console.log(eveningSnack);
+//
+// // Prompt 3: Shirt
+// class Shirt {
+//
+// }
+//
+// var shortSleeve = new Shirt();
+// var longSleeve = new Shirt();
+//
+// console.log(shortSleeve);
+// console.log(longSleeve);
 
 //-------------------
 // Part 2: Properties
@@ -34,9 +60,51 @@ Make sure to run the file with node in your command line.
 
 // Prompt 1: Dog
 
-// Prompt 2: Snack
+// class Dog {
+//   constructor() {
+//     this.weight = 10;
+//     this.color = 'Black';
+//     this.breed = 'Chihuahua';
+//   }
+// };
+//
+// var smallDog = new Dog();
+//
+//
+// console.log(smallDog);
+//
+//
+// // Prompt 2: Snack
+//
+// class Snack {
+//   constructor() {
+//     this.name = 'Chesse';
+//     this.protein = 10;
+//     this.fat = '10%';
+//   }
+// };
+//
+// var morningSnack = new Snack();
+//
+//
+// console.log(morningSnack);
+//
+//
+// //Prompt 3: Shirt
+//
+// class Shirt {
+//   constructor () {
+//     this.dressCode = 'Casual';
+//     this.numberOfButtons = 9;
+//     this.color = 'Beige';
+//   }
+// };
+//
+// var shortSleeve = new Shirt();
+//
+//
+// console.log(shortSleeve);
 
-// Prompt 3: Shirt
 
 //-------------------
 // Part 3: Dynamic Properties
@@ -50,8 +118,50 @@ Make sure to run the file with node in your command line.
   // Create 2 object instances and store in variables (passing in different arguments)
   // Log those variables to the console.
 
-// Prompt 1: Dog
+  // Prompt 1: Dog
 
-// Prompt 2: Snack
+  class Dog {
+    constructor(lbs, dogColor, dogBreed) {
+      this.weight = lbs;
+      this.color = dogColor;
+      this.breed = dogBreed;
+    }
+  };
 
-// Prompt 3: Shirt
+  var smallDog = new Dog(10, 'Black', 'Chihuahua');
+  var bigDog = new Dog(70, 'Caramel', 'Golden Retriever');
+
+  console.log(smallDog);
+  console.log(bigDog);
+
+  // Prompt 2: Snack
+
+  class Snack {
+    constructor(name, gr, percent) {
+      this.name = name;
+      this.protein = gr;
+      this.fat = percent;
+    }
+  };
+
+  var morningSnack = new Snack('Cheese', 10, '10%');
+  var eveningSnack = new Snack('butter', 14, '40%');
+
+  console.log(morningSnack);
+  console.log(eveningSnack);
+
+  //Prompt 3: Shirt
+
+  class Shirt {
+    constructor (dressCode, numberOfButtons, color) {
+      this.dressCode = dressCode;
+      this.numberOfButtons = numberOfButtons;
+      this.color = color;
+    }
+  };
+
+  var shortSleeve = new Shirt('Formal', 9, 'Blue');
+  var longSleeve = new Shirt('Casual', 8, 'Beige');
+
+  console.log(shortSleeve);
+  console.log(longSleeve);
