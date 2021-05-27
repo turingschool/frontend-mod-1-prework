@@ -39,7 +39,7 @@ Here's what we ask you do:
 - `true`
 - `false`
 
-## Part A Super Learner Habits
+## []Part A Super Learner Habits
 
 Read [this article](https://pubs.ppai.org/pc-today/six-habits-of-super-learners/) about the habits of Super Learners. Reflect on this - what do you already do? Does this make you want to do anything new or different as you beginthis learning journey? Jot down your notes now, and we will ask you to share some reflections with your small group at the end of this section.
 
