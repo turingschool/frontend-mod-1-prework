@@ -120,3 +120,28 @@ good to have some exposure before going into Mod 1.
 // YOU DO: Create an array of at least 3 EMAIL Object Literals, using the same
 // key-value pairs you used in your email Object above.
 // Then, log the email Array to the console.
+var emails = [
+  {
+  sender : "nbs@dr.com",
+  recipient : ["support@google.com","help@google.com"],
+  bcc : "ceo@google.com",
+  subject : "Thanks for Google!",
+  body : "Google LLC is an American multinational technology company that specializes in Internet-related services and products, which include online advertising technologies, a search engine, cloud computing, software, and hardware.",
+  },
+  {
+  sender : "nbs@dr.com",
+  recipient : ["momsheridan@gmail.com","dadsheridan@gmail.com"],
+  bcc : "",
+  subject : "Birthday Plans",
+  body : "Hey there, It's Nate! What are the plans for your birthday mom?",
+  },
+  {
+  sender : "nbs@dr.com",
+  recipient : ["friend@gmail.com"],
+  bcc : "friend1@gmail.com",
+  subject : "Random",
+  body : "Random email body goes here",
+
+  }
+]
+console.log(emails)
