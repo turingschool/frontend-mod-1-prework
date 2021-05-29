@@ -31,18 +31,28 @@ if (weather == 'sunny') {
   console.log('good to go!');
 }
 
-/* 
+/*
 YOU DO:
-Using the dogAge variable defined below, 
-determine if a dog is a puppy (2 or younger), 
+Using the dogAge variable defined below,
+determine if a dog is a puppy (2 or younger),
 an adult, or elderly (10 or older).
 
 Log to the console the appropriate age range
 (puppy, adult, elderly).
 */
 
-var dogAge = 3;
+var dogAge = 11;
 // Write your conditional here
+
+if (dogAge <= 2) {
+  console.log("The dog is a puppy!" + " It is " + dogAge + " years old")
+}
+else if(dogAge > 2 && dogAge < 10){
+  console.log("The dog is an adult!" + " It is " + dogAge + " years old")
+}
+else if(dogAge > 10){
+  console.log("The dog is a bit elderly!" + " It is " + dogAge + " years old")
+}
 
 
 /*
@@ -62,11 +72,22 @@ When numQuarters = 2, program should log "I have enough money for a gumball"
 When numQuarters = 3, program should log "I have enough money for a gumball"
 */
 
-var numQuarters = 0;
+var numQuarters = 4;
 
 // Write your conditional here
-console.log("I have enough money for a gumball");
-console.log("I don't have enough money for a gumball");
+
+if (numQuarters <=1 ){
+console.log("With "+ numQuarters + " quarters, " + "I don't have enough money for a gumball :(");
+}
+
+else if (numQuarters >= 2 && numQuarters < 40){
+console.log("With "+ numQuarters + " quarters, " + "I have enough money for a gumball :)");
+}
+
+
+//else if (numQuarters > 40){} // add counter later?
+
+
 
 
 /*
@@ -83,13 +104,25 @@ When cupsOfFlour = 3 and hasSauce = true, your program should log "I can make pi
 */
 
 var cupsOfFlour = 1;
-var hasSauce = true;
+var hasSauce = false;
 
 // Write your conditional here
 
+//Check for sauce first, as we are only given a boolean value rather than integer.
+if (hasSauce === false){
+  console.log("You don't have sauce! You can't make pizza silly!")
+}
+else if(cupsOfFlour < 2){
+  console.log("Sorry you don't have enough flour for Pizza!")
+}
+else if (cupsOfFlour > 1 && hasSauce === true){
+  console.log("Looks like you have enough flour and sauce for Pizza, get cooking!")
+}
+
+
 
 /*
-For the last two exercises, an ideal solution probably uses a logical operator. 
+For the last two exercises, an ideal solution probably uses a logical operator.
 Did yours? Do you know what a logical operator in JavaScript is? Google it to answer
 for yourself!
 
