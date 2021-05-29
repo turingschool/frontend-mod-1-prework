@@ -24,10 +24,11 @@ console.log("Is numberTeachers greater than numberStudents?", numberTeachers > n
 
 // YOU DO: log the result of the comparison: is numberTeachers less than numberStudents?
 // this should log: true
+ console.log("Is numberTeachers less than numberStudents?", numberTeachers < numberStudents);
 
 // YOU DO: log the result of the comparison: is numberTeachers equal to stringTeachers? (use the == operator)
 // this should log: true
-
+console.log("Is numberTeachers equal to stringTeachers?", numberTeachers == stringTeachers);
 /*
 Note: this is an example of type coercion. Although stringTeachers is a string and numberStudents is an integer,
 this statement still evaluated to true. JavaScript forces the stringTeachers into an integer to
@@ -36,6 +37,7 @@ perform this evaluation
 
 // YOU DO: log the result of the comparison: is numberTeachers strictly equal to stringTeachers? (use the === operator)
 // this should log: false
+console.log("is numberTeachers strictly equal to stringTeachers?", numberTeachers === stringTeachers);
 
 /*
 Note: the strictly equal to operator compares the value of the variable in addition to the type of the variable.
@@ -49,19 +51,24 @@ you develop good habits that follow best practice, from now on, use the strict c
 
 // YOU DO: log the result of the comparison: is numberTeachers not equal to numberStudents?
 // this should log: true
+console.log("Is numberTeachers not equal to numberStudents?", numberTeachers === numberStudents);
+//I don't see how this can be true: the numbers aren't equal regardless of operator, what am I missing?
 
 // YOU DO: log the result of the comparison: is numberStudents greater than or equal to 20?
 // this should log: true
+console.log("Is numberStudents greater than or equal to 20?", numberStudents >= 20);
 
 // YOU DO: log the result of the comparison: is numberStudents greater than or equal to 21?
 // this should log: false
+console.log("Is numberStudents greater than or equal to 21?", numberStudents >= 21);
 
 // YOU DO: log the result of the comparison: is numberStudents less than or equal to 20?
 // this should log: true
+console.log("Is numberStudents less than or equal to 20?", numberStudents <= 20);
 
 // YOU DO: log the result of the comparison: is numberStudents less than or equal to 21?
 // this should log: true
-
+console.log("Is numberStudents less than or equal to 21?", numberStudents <= 21);
 
 //-------------------
 // PART 2: Articulating what you are doing
@@ -74,20 +81,29 @@ you develop good habits that follow best practice, from now on, use the strict c
 
 console.log(4 < 9);
 //YOU DO: Explain.
+//This boolean prompt is stating that 4 is less than nine, which we know to be true but when you run it in the console.log it comes back as true.
 
 var books = 3;
-console.logs(4 < books);
+console.log(4 < books);
 // YOU DO: Explain.
+//(I think that console.logs might be a typo? I couldn't run it in my console to check until I took out the s).
+//This prompt tells us the variable assigned is books, and that the books variable is equal to 3 (this is a number).
+//The console.log runs ask is 4 is less than books (which equal 3) as a boolean statment. Mathematically 4 is not less than 3, so when we run this it returns as false.
+//I fixed line 87 to just console.log so that when I re-ran it in node, I did not get any errors back.
 
 var friends = 6;
 var siblings = 2;
 console.log(friends > siblings);
 // YOU DO: Explain.
+//This boolean logic prompt with numbers tells us that two variables have been assigned (friends and siblings) of which there are 6 and 2 respectively.
+//The console.log is determining if there are more friends than sibings, of which the return statement is true.
 
 var attendees = 9;
 var meals = 8;
 console.log(attendees !== meals);
 // YOU DO: Explain.
+//This prompt is telling is that two variables have been assigned (attendees (6) and meals (9)).
+//The console.log is using boolean logic to test the statement that the number of attendees is not equal to the number of meals, which is true.
 
 
 //-------------------
@@ -110,18 +126,20 @@ var age = 1;
 
 // YOU DO:
 // Determine if the dog loves to play and loves treats
+console.log(lovesToPlay && lovesTreats);
+//True because lovesToPlay AND lovesTreats are BOTH true statements
 
-
-// Determine if the dog loves to play and loves the dog park
-
+// Determine if the dog loves to play AND loves the dog park
+//False because both statements are NOT true
 
 // Determine if the dog loves to play or loves the dog park
-
+//This is true because although only play is TRUE, the OR statement remains true unless BOTH are FALSE.
 
 // Determine if the dog loves to play and is a puppy
+console.log(lovesToPlay && age);
 
 // What did your final line of code evaluate to? Why do you think that is? Explain.
-// ANSWER:
+// ANSWER: 1, it did NOT give me back a true or false statemetn because age is a number variable and not a boolean operator, there for it cannot return a true or false answer.
 
 //-------------------
 // FINAL CHECK
