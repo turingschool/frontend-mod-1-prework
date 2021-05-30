@@ -1,15 +1,26 @@
 ## Section 3 Reflection
 
 1. What are two points from the Growth Mindset article and/or video that either resonated with you, or were brand new to you?
+  - The concept of reflecting really resonates with me. The ideal that coding shouldn't just be a means to solving a problem in any which way possible I think will be crucial to becoming a better developer. As Part 1 of the Growth Mindset article says, focusing on what worked and didn't work and *reevaluating your approach* will help you grow your coding skills. Often you will be able to solve a problem with one chunk of code; however, looking back at that code and determining if it was the most efficient, effective, concise way you could have solved it will help hone your skills. I suspect when a coder is in their infancy they will be able to come back with cleaner solutions after the fact to problems they looked at before their toolbox was more robust.
+
+  - *Understanding that mistakes are essential in critical learning!* This one is a hard one for me to fully grasp sometimes; I'm not so naive that I believe I don't make mistakes, but I do find myself feeling discouraged when I make mistakes. I need to work on learning to accept that this is all part of GROWTH!🪴
 
 1. In which ways do you currently demonstrate a Growth Mindset? In which ways do you _not_?
+  - One way I employ the Growth Mindset is through my love of seeking out challenges. I like to make my brain muscle work hard for the money (figuratively), challenges that are outside of your comfort sphere or skill level really push you to learn more and I find that along that journey you find a deep sense of satisfaction and fulfillment. I think that struggling through a novel problem you haven't seen before forces you to expand the way you think and am looking forward to LOTS of this in the program.
+
+  - One way I don't seek out Growth Mindset is recognizing that it takes time for someone to achieve a level of understanding or expertise on a subject that I might aspire to have. Carmen Popoviciu really nailed it on the head when she mentioned how folks often look at what others are able to achieve or the wealth of knowledge they might have; however, what we fail to ask, or recognize, is how long it took an expert to get there. I have a bad habit of expecting to get there faster than others, which is totally unreasonable. I am no better, nor no less, than anyone else and need to recognize that mastery is a journey that takes time and patience. As Carmen said, there are no shortcuts!
 
 1. Think of a web or mobile application you use regularly. Where is an example of a place that the developers probably use Arrays? Explain.
+  - I use the jeffcolibrary.org website often and I think they probably use an array to keep track of individuals that have got books on hold. If a book is checked out, then you could click the "place on hold button". Your name is probably then pushed into an array, which already contains names ahead of you of individuals whom beat you to placing the book on hold. This array would be ordered by default of the push function, so you could know who was next in line to be able to check the book out when it's turned back in!
 
 1. In your own words, explain what an Array method is.
+  - A Array method is one of several methods (pop, push, shift, unshift), which can be employed to manipulate/mutate an array. These methods can be used to specify elements to be added to, or removed from, an array and the location within the array where you'd like to add or remove an element.
 
 1. What is the purpose of a loop? When we would use a loop in conjunction with array vs. without?
+  - A loop is used to check a condition before running a block of code. It is best used to specify to a program that you'd like to perform an action a specific amount of times. It is used to automate that action, rather than writing the same code over and over again. You would use a loop in conjunction with an array if you wanted to perform the same operation on each object within an array until a certain condition is met, at which point the program would stop running the code. If you simply wanted to repeat a certain string or the same calculation several times and return that result to the console, you could do so without referencing any array.
 
 1. If you had to teach a 5 year old about loops, how would you explain it?
+  - Loops allow you to tell the computer to tell someone to repeat an action as many times as you want them to, without you have to do all the hard work over and over again. If you wanted to tell someone to "take the dog out potty" 50 times, you would just input the command into the computer along with a starting value and ending value or condition (the difference between the start and end condition in this case would be 50)!! SO COOL!
 
 1. What questions do you still have about Arrays and loops?
+- I mostly have a question about arrays. When we've been asked to think up examples of arrays in apps and we applications we frequently use, I've often found myself thinking in most cases that an object would be better suited than an array for these examples I keep finding. Is there a very specific question, as a developer, that you can ask yourself to answer whether an array or object would be best suited for a certain purpose or dataset?
