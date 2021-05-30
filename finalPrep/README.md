@@ -1,5 +1,4 @@
-<img width="1242" alt="Screen Shot 2021-05-29 at 9 09 46 PM" src="https://user-images.githubusercontent.com/82873669/120091172-ddf76380-c0c5-11eb-99a1-75f52638c2a2.png">
-<img width="1242" alt="Screen Shot 2021-05-29 at 9 09 46 PM" src="https://user-images.githubusercontent.com/82873669/120091182-f10a3380-c0c5-11eb-8c78-c59c94086d15.png">
+
 # Mod 1 Final Prep
 Congrats on making it to the Mod 0 Final Prep! Complete the final exercises below and be sure to carefully follow the Pull Request steps to submit your work!
 
