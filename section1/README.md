@@ -21,16 +21,16 @@ Here's what we ask you do:
 
 ### Vocabulary Terms
 
-- command
-- directory
-- code comments
-- String
-- Number
-- Boolean
-- variable
-- assignment operator
-- re-assignment (of a variable)
-- concatenation
+- command - executes a task
+- directory - aka folder, contains files
+- code comments - makes the code easier for humans to understand; explanation or note
+- String - sequence of characters
+- Number - allows number values to be manipulated as objects
+- Boolean - can have value of true or false
+- variable - named reference to some assigned value
+- assignment operator - assigns a value to a variable
+- re-assignment (of a variable) - assigning a new value to an existing variable
+- concatenation - joining multiple strings
 
 ### JavaScript Reserved Keywords
 
