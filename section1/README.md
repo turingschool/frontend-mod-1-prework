@@ -34,10 +34,10 @@ Here's what we ask you do:
 
 ### JavaScript Reserved Keywords
 
-- `console.log()`
-- `var`
-- `true`
-- `false`
+- `console.log()` - outputs a message to the console
+- `var` - creates a variable
+- `true` - boolean value, applies to all non-falsy inputs
+- `false` - boolean value, applies to these inputs: false, 0, -0, 0n, ""(empty string), null, undefined, NaN
 
 ## Part A Super Learner Habits
 
