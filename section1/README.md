@@ -43,6 +43,8 @@ Here's what we ask you do:
 
 Read [this article](https://pubs.ppai.org/pc-today/six-habits-of-super-learners/) about the habits of Super Learners. Reflect on this - what do you already do? Does this make you want to do anything new or different as you beginthis learning journey? Jot down your notes now, and we will ask you to share some reflections with your small group at the end of this section.
 
+I do read a lot, and I do take frequent breaks. I'd like to get longer/more consistent sleep to help take care of my brain, although that's been a lifelong battle; and I'd like to work on my mindset as it pertains to process vs goals, because I seem to have a hard time keeping those balanced.
+
 ## Part B Terminal
 
 You will likely spend the majority of your time in Module 1 in either the Terminal or your text editor (Atom). When you're new to programming, the terminal can seem like a scary place, but it has some advantages over other means of interacting with your computer. Perhaps the greatest advantage is that it allows programmers to build tools that they can share with each other without going through the process of creating a graphical user interface. This makes it easy to share code quickly so that it can be used in multiple projects.
