@@ -21,29 +21,27 @@ Here's what we ask you do:
 
 ### Vocabulary Terms
 
-- command - executes a task
-- directory - aka folder, contains files
-- code comments - makes the code easier for humans to understand; explanation or note
-- String - sequence of characters
-- Number - allows number values to be manipulated as objects
-- Boolean - can have value of true or false
-- variable - named reference to some assigned value
-- assignment operator - assigns a value to a variable
-- re-assignment (of a variable) - assigning a new value to an existing variable
-- concatenation - joining multiple strings
+- command 
+- directory 
+- code comments 
+- String 
+- Number 
+- Boolean 
+- variable 
+- assignment operator 
+- re-assignment (of a variable) 
+- concatenation 
 
 ### JavaScript Reserved Keywords
 
-- `console.log()` - outputs a message to the console
-- `var` - creates a variable
-- `true` - boolean value, applies to all non-falsy inputs
-- `false` - boolean value, applies to these inputs: false, 0, -0, 0n, ""(empty string), null, undefined, NaN
+- `console.log()` 
+- `var` 
+- `true` 
+- `false` 
 
 ## Part A Super Learner Habits
 
 Read [this article](https://pubs.ppai.org/pc-today/six-habits-of-super-learners/) about the habits of Super Learners. Reflect on this - what do you already do? Does this make you want to do anything new or different as you beginthis learning journey? Jot down your notes now, and we will ask you to share some reflections with your small group at the end of this section.
-
-I do read a lot, and I do take frequent breaks. I'd like to get longer/more consistent sleep to help take care of my brain, although that's been a lifelong battle; and I'd like to work on my mindset as it pertains to process vs goals, because I seem to have a hard time keeping those balanced.
 
 ## Part B Terminal
 
