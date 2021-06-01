@@ -18,13 +18,13 @@ file from your terminal with the command `node section1/exercises/dataTypes.js`
 console.log("Alan Turing");
 
 // EXAMPLE: Write code below to log `Welcome to Turing!` in the console:
-console.log('Welcome to Turing!');
+console.log("Welcome to Turing!");
 
 // YOU DO: Write code below to log `99 bottles of pop on the wall...`:
-console.log('99 bottles of pop on the wall...');
+console.log("99 bottles of pop on the wall...");
 
 // YOU DO: Write code below to log one line from your favorite song or movie:
-console.log('Well aint this place a geographical oddity! Two weeks from everywhere.')
+console.log("Well aint this place a geographical oddity! Two weeks from everywhere.")
 
 
 //-------------------
