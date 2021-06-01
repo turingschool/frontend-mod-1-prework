@@ -65,7 +65,7 @@ In the following section, you will get a little practice using `touch` and `mkdi
 
 #### Terminal Practice
 
-👩‍💻 Use `mkdir` and `touch` to create the directories/files in the structure illustrated below:
+X 👩‍💻 Use `mkdir` and `touch` to create the directories/files in the structure illustrated below:
 
 ```sh
 |--secretLibraryProject
@@ -409,6 +409,8 @@ nothing to commit, working tree clean
 Congratulations! You just saved your work to Git! If `git status` is showing any files, add them with `git add <file name>` and commit them with `git commit -m "Add Section 1"`.
 
 ### Push to GitHub
+
+X
 
 You've saved your work to Git on your local machine, but it is not yet accessible through your remote GitHub repository. Updating our remote GitHub repository with our local changes is called pushing. Push your code with the following command:
 
