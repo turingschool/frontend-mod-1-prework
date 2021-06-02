@@ -132,13 +132,13 @@ class SuperHero {
     this.energyLevel = 50;
   }
   sayName() {
-    console.log ("Renee Swick-Ziller");
+    this.name;
   }
   maximizeEnergy() {
     this.powerLevel = 1000;
   }
   gainPower (number) {
-    this.number = (number + this.powerLevel);
+    this.powerLevel = (number + this.energyLevel);
   }
 }
 
