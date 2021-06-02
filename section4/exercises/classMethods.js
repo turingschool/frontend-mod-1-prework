@@ -37,13 +37,11 @@ class Burrito {
   changeProtein(protein2) {
     this.protein = protein2;
   }
+
   addTopping(newTopping) {
-    this.toppings = this.toppings.push('newTopping');
+    this.toppings.push(newTopping);
   }
-};
-
-  // ADD CODE
-
+}
 
 var fishBurrito = new Burrito('fish', 'cabbage', ['salsa', 'crema', 'lime']);
 var meatBurrito = new Burrito('steak', 'brown rice', ['salsa', 'corn', 'guacamole']);
@@ -52,12 +50,9 @@ var veggieBurrito = new Burrito('sofritas', 'brown rice', ['fajitas', 'corn', 'g
 meatBurrito.changeProtein('chicken');
 console.log(meatBurrito);
 console.log(fishBurrito);
+
 fishBurrito.addTopping('green chile');
 veggieBurrito.addTopping('cheese');
 
 console.log(fishBurrito);
 console.log(veggieBurrito);
-
-
-
-// ADD CODE
