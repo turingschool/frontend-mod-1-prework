@@ -18,11 +18,9 @@ class Tweet {
   }
 
   addLikes() {
-    var oldNumberOfLikes = this.numberOfLikes;
-  var newNumberOfLikes = oldNumberOfLikes + 1;
-    this.numberOfLikes = newNumberOfLikes;
+    this.numberOfLikes++; //increments +1
   }
-};
+}
 
 var tweet1 = new Tweet('Bob Smith', 'This is my first tweet!', '1/1/2001', 5, 'Welcome!');
 
