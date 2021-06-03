@@ -17,8 +17,7 @@ class Tweet {
     this.comments = comments;
   }
     addLike(newLike){
-      var countLikes = this.numberOfLikes + newLike;
-      this.numberOfLikes = countLikes;
+      this.numberOfLikes = this.numberOfLikes + newLike;
     }
 
     addComment(newComment){

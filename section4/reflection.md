@@ -28,12 +28,12 @@
 1. In this section, we talked about an `transaction item object`. It has keys that represent different properties an bank transaction would have, and values that store the data. In a banking app, this data would eventually be displayed in the browser for the user. Think of another Object in a web application that you use frequently. What is it? What keys might be on it? What are example values?
 
     - For the Google Calendar web application, they probably use objects for each Event in the calendar. The events might include the following key-value pairs:
-        - Title: "Mod 1 Orientation"
-        - Date: "Jun 16, 2021"
-        - Time: "9am - 12pm"
-        - Location: "Zoom link"
-        - Description: "Cohort 2107 Orientation"
-        - Guests: ["student 1", "student2", "student3", "student4"]
+        - title: "Mod 1 Orientation"
+        - date: "Jun 16, 2021"
+        - time: "9am - 12pm"
+        - location: "Zoom link"
+        - description: "Cohort 2107 Orientation"
+        - guests: ["student 1", "student2", "student3", "student4"]
 
 1. What questions do you still have about classes and/or Objects?
 

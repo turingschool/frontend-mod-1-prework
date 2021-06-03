@@ -48,8 +48,6 @@ console.log(sidekicks);
 //   - saveTheDay should be a string a hero would say once they save the day
 //   - badExcuse should be a string a hero would say if they are too afraid of the dangerLevel
 function assessSituation(dangerLevel, saveTheDay, badExcuse) {
-  // var saveTheDAy = "Wakanda forever!";
-  // var badExcuse = "I will not abandon someone to die, BUT this is too scary! Byeee!"
   if (dangerLevel > 50){
     console.log(badExcuse);
   } else if (dangerLevel < 10) {
@@ -70,8 +68,11 @@ var announcement = 'Never fear, the Courageous Curly Bracket is here!';
 var excuse = 'I think I forgot to lock up my 1992 Toyota Coralla. Be right back.';
 
 // assessSituation(99, announcement, excuse) > Should print - 'I think I forgot to lock up my 1992 Toyota Coralla. Be right back.'
+assessSituation(99, announcement, excuse)
 //assessSituation(21, announcement, excuse) > should print - 'Never fear, the Courageous Curly Bracket is here!'
+assessSituation(21, announcement, excuse)
 //assessSituation(3, announcement, excuse) > should print - "Meh. Hard pass."
+assessSituation(3, announcement, excuse)
 
 // Declare a new variable - scaryMonster - assigned to an Object with the following key/values
 //   - name (string)
@@ -103,7 +104,7 @@ class SuperHero {
     this.powerLevel = 100;
     this.energyLevel = 50;
   }
-  sayName(name){
+  sayName(){
     console.log(this.name);
   }
   maximizeEnergy(){

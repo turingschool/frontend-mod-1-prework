@@ -85,7 +85,7 @@ console.log(4 < 9);
 var books = 3;
 console.log(4 < books);
 // YOU DO: Explain: line 85 declares the variable books and assigns it to the value of 3.
-// like 86 logs the result of the comparison: is 4 less than books (3)?
+// line 86 logs the result of the comparison: is 4 less than books (3)?
 // this should log: false
 
 var friends = 6;

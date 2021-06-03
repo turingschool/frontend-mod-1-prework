@@ -142,12 +142,12 @@ var inboxEmails = [
     hourSent: '12:30PM'
   },
   {
-    sender: 'Mar Matlak',
+    sender: 'Jake Matlak',
     to: 'Natalia Zamboni',
     subject: 'event tickets',
-    body: 'Hola, Here are our event tickets! See you Friday! Thanks, Mar',
-    dateSent: '5/23/2021',
-    hourSent: '12:30PM'
+    body: 'HELLO, Here are our event tickets! See you Friday! Thanks, Jake',
+    dateSent: '5/24/2021',
+    hourSent: '1:30PM'
   }
 ]
 console.log(inboxEmails);
