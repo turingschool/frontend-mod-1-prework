@@ -24,6 +24,7 @@ console.log(enrolledStudents);
 // Write code below to save the string 'Harry Potter must not return to Hogwarts!'
 // log that variable to the console.
 var hPReturn = 'Harry Portter must not return to Hogwarts!';
+
 console.log(hPReturn);
 
 // YOU DO:
@@ -33,8 +34,11 @@ console.log(hPReturn);
 var firstName = 'Paul';
 var isHungry = (2 === 3);
 var numberOfPets = 1;
+
 console.log(firstName);
+
 console.log(isHungry);
+
 console.log(numberOfPets);
 
 // IN WORDS:
@@ -63,14 +67,18 @@ console.log(numberOfPets);
 firstName = "Shlemp";
 isHungry = ((11 - 3) != (22 + 6));
 numberOfPets = 777;
+
 console.log(firstName);
+
 console.log(isHungry);
+
 console.log(numberOfPets);
 
 // YOU DO:
 // Using the variables below, log the total number of snacks to the console:
 var healthySnacks = 6;
 var junkFoodSnacks = 8;
+
 console.log(healthySnacks + junkFoodSnacks)
 
 //-------------------
