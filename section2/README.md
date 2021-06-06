@@ -47,10 +47,10 @@ var myFunction = function(parameter1, ... parameterN) {
 
 ### JavaScript Reserved Keywords
 
-- `if`
-- `else if`
-- `else`
-- `function`
+- `if` - *specifies a code block to be executed if a specified condition is truthy*
+- `else if` - *specifies a new condition to test, if the first condition is falsy*
+- `else` - *specifies a code block to be executed, if the first specified condition is falsy*
+- `function` - *used in declaring a function into existence*
 
 ## Get Set Up
 
