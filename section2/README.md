@@ -164,11 +164,13 @@ If you'd like another source, read [this blog post](https://medium.com/javascrip
 
 Lastly, [Codecamdemy also has a good intro on JavaScript functions](https://www.codecademy.com/courses/introduction-to-javascript/lessons/functions) in their free account plan. Completing this is _optional_!
 
-> 👨🏽‍💻PAUSE here, and complete the exercises in `functions.js`
+> X 👨🏽‍💻PAUSE here, and complete the exercises in `functions.js`
 
 ## Exercises
 
 At this point, you should have worked through all files in the `exercises` directory. Confirm that you have before moving on.
+
+X
 
 ## Vocabulary
 
@@ -177,6 +179,8 @@ Look back at that special spot in your notebook for vocabulary. Hopefully you up
 ## Relections
 
 📝 Answer the prompts in the `reflection.md` file in the `section2` directory. If you need a reminder on how to format your markdown, [this is the Markdown Cheatsheet](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet)!
+
+X
 
 ## Save your work in Git
 
