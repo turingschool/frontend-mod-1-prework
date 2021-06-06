@@ -13,14 +13,37 @@ This section will introduce a number of new terms, that may feel a bit more comp
 
 ### Vocabulary Terms
 
-- comparison operators
-- logical operators
-- condition
-- conditionals
-- if statements
-- function
-- argument
-- parameter
+- comparison operators - *these compare values and return `true` or `false`*
+`>` `<` `>=` `<=` `===` `!==`
+- logical operators - *these evaluate multiple booleans and return a single (also boolean) output*
+`&&` `||` `!`
+- condition - *an expression that a given line of code is tested against to return a boolean value*
+- conditionals - *these operators test a condition and then execute an expression depending on whether the condition is truthy or falsy*
+`condition ? if truthy run this : if falsy run this`
+- if statements - *execute an expression if a specified condition is fulfilled (truthy)*
+```
+if (condition) {
+  do this;
+} else if (other condition, if first not fulfilled) {
+  do this;
+} else {
+  do this;
+}
+```
+- function - *object containing a sequence of statements, can take and return value(s), can be thought of as a subprogram within the larger program of code*
+```
+function myFunction(parameter1, ... parameterN) {
+  body;
+}
+
+OR
+
+var myFunction = function(parameter1, ... parameterN) {
+  body;
+}
+```
+- argument - *the actual value passed to a function's parameters for that specific function call*
+- parameter - *placeholder variable included in the declaration of a function, as part of its general program*
 
 ### JavaScript Reserved Keywords
 
@@ -42,7 +65,7 @@ Read the three blog posts that follow:
 * [Asking better questions](https://dev.to/josefine/asking-better-questions-2e2k)
 * [Your Questions Are Dumb; Ask Them Anyway](https://dev.to/kathryngrayson/your-questions-are-dumb-ask-them-anyway-3cm6)
 
-Reflect on these posts, and how you feel about asking questions (specifically, technical questions as you enter your technical work at Turing). How might this positively or negatively impact your growth? 
+Reflect on these posts, and how you feel about asking questions (specifically, technical questions as you enter your technical work at Turing). How might this positively or negatively impact your growth?
 
 It's going to take some time to find that balance between googling and pushing yourself to solve a problem without hand-holding, and reaching out for help. That's ok! be patient with yourself. The way you will find that balance is by being cognizant and aware of how you currently operate. Keep this on your mind as you work through this section, and... there is no time like the present to start asking questions!
 
