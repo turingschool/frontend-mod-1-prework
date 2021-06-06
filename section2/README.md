@@ -30,7 +30,7 @@ if (condition) {
   do this;
 }
 ```
-- function - *object containing a sequence of statements, can take and return value(s), can be thought of as a subprogram within the larger program of code*
+- function - *object containing a sequence of statements, can take and return value(s), can be thought of as a subprogram within the larger program of code; useful when a task needs to be performed multiple times within a script*
 ```
 function myFunction(parameter1, ... parameterN) {
   body;
@@ -43,7 +43,7 @@ var myFunction = function(parameter1, ... parameterN) {
 }
 ```
 - argument - *the actual value passed to a function's parameters for that specific function call*
-- parameter - *placeholder variable included in the declaration of a function, as part of its general program*
+- parameter - *placeholder variable included in the declaration of a function, as part of its general rules*
 
 ### JavaScript Reserved Keywords
 
