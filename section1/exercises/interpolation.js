@@ -36,15 +36,16 @@ console.log(`My zoo has ${numberOfCreatures} ${creatures}!`);
 // reads "The quick red fox jumped over the lazy brown dog":
 var speedy = "quick red fox";
 var slowPoke = "lazy brown dog";
+
 console.log(`The ${speedy} jumped over the ${slowPoke}`)
 
 // YOU DO:
 // Write code that combines the variables below into a string that
 // reads "In a predictable result, the tortoise beat the hare!"
 // Note that we are omitting the var keyword below, because we are re-assigning the variables
-
 slowPoke = "tortoise";
 speedy = "hare";
+
 console.log(`In a predictable result, the ${slowPoke} beat the ${speedy}!`)
 
 // YOU DO:
@@ -54,6 +55,7 @@ console.log(`In a predictable result, the ${slowPoke} beat the ${speedy}!`)
 var mornPeep = "I'm not naturally a morning person";
 var sleepIn = "I like to sleep in";
 var newMornHabit = "I slowly began learning to get up (and be productive) earlier and earlier";
+
 console.log(`${mornPeep}, and ${sleepIn}. However, roughly a year ago, I recogized my need to change this, and ${newMornHabit}!`);
 
 //-------------------

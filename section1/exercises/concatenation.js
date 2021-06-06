@@ -24,20 +24,20 @@ console.log("My zoo has " + numberOfCreatures + " " + creatures + "!")
 // YOU DO: What data type will be logged to the console as a result of line 22? Explain.
 // Your answer and explanation here:
 /*
-     The output will be "My zoo has 7 unicorns!"
-     JavaScript interprets this line as follows:
-       ~ "My zoo has " is the first section to output. Notice the blank space included
-          at the end, ensuring that this line and the next do not appear as attached, as
-          the next line is a number.
-       ~ When numbers are concatenated, JS converts the given number value into a string,
-          in order to include it in the overall concatenation.
-       ~ A blank space is now included in order to provide a space between the previous
-          section (which, being a number, cannot include a blank space as part of its
-          defined value) and the next, which is also a...
-       ~ ...number (see above).
-       ~ Finally, an exclamation point is provided as the final piece to be concatenated.
-          No blank spaces on either side are included, as none are appropriate, according
-          to the rules of English.
+   The output will be "My zoo has 7 unicorns!"
+   JavaScript interprets this line as follows:
+    ~ "My zoo has " is the first section to output. Notice the blank space included
+       at the end, ensuring that this line and the next do not appear as attached, as
+       the next line is a number.
+    ~ When numbers are concatenated, JS converts the given number value into a string,
+       in order to include it in the overall concatenation.
+    ~ A blank space is now included in order to provide a space between the previous
+       section (which, being a number, cannot include a blank space as part of its
+       defined value) and the next, which is also a...
+    ~ ...number (see above).
+    ~ Finally, an exclamation point is provided as the final piece to be concatenated.
+       No blank spaces on either side are included, as none are appropriate, according
+       to the rules of English.
 */
 
 
@@ -46,15 +46,16 @@ console.log("My zoo has " + numberOfCreatures + " " + creatures + "!")
 // reads "The quick red fox jumped over the lazy brown dog":
 var speedy = "quick red fox";
 var slowPoke = "lazy brown dog";
+
 console.log('The ' + speedy + ' jumped over the ' + slowPoke);
 
 // YOU DO:
 // Write code that combines the variables below into a string that
 // reads "In a predictable result, the tortoise beat the hare!"
 // Note that we are omitting the var keyword below, because we are re-assigning the variables
-
 slowPoke = "tortoise";
 speedy = "hare";
+
 console.log('In a predictable result, the ' + slowPoke + ' beat the ' + speedy + '!')
 
 // YOU DO:
@@ -64,6 +65,7 @@ console.log('In a predictable result, the ' + slowPoke + ' beat the ' + speedy +
 var mornPeep = "I'm not naturally a morning person";
 var sleepIn = "I like to sleep in";
 var newMornHabit = "I slowly began learning to get up (and be productive) earlier and earlier";
+
 console.log(mornPeep + ', and ' + sleepIn + '.' + ' However, roughly a year ago, I recogized my need to change this, and ' + newMornHabit + '!');
 
 //-------------------
