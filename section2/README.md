@@ -71,6 +71,8 @@ It's going to take some time to find that balance between googling and pushing y
 
 Now that you understand the importance of asking questions, read the [Turing guide on asking questions](https://gist.github.com/ericweissman/fb0241e226227867b6bc70a4d49227f5) to ensure that you know the best way to ask the questions you may have!
 
+X
+
 ## Part B Conditionals
 
 One of the most important concepts in programming is knowing when and how to tell the computer to do either _one_ thing or _another_ thing based on a set of simple criteria.  We can accomplish this with if statements, which you will learn about in this section.
@@ -94,7 +96,7 @@ Some data types also have functions which return a `true` or `false`, so they’
 - Read more about [comparison operators here](https://javascript.info/comparison)
 - Read about [logical operators here](https://mariusschulz.com/blog/the-and-and-or-operators-in-javascript). You really just need to read the top first paragraph and code snippet in this post. You'll go deeper in Mods 1-2.
 
-> 👨🏽‍💻 PAUSE here, and complete the exercises in `comparisons.js`
+> X 👨🏽‍💻 PAUSE here, and complete the exercises in `comparisons.js`
 
 ### If Statements
 
