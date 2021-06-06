@@ -152,7 +152,7 @@ The **number one mistake** people encounter when writing conditional statements 
 
 * `===` is a question. It means "is the value on the right the exact same as the value on the left?" – it’s asking, not telling.
 
-> 👨🏽 ‍💻PAUSE here, and complete the exercises in `decision-making.js` and `if-statements.js`
+> X 👨🏽 ‍💻PAUSE here, and complete the exercises in `decision-making.js` and `if-statements.js`
 
 ## Part C Functions
 
