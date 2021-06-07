@@ -18,12 +18,17 @@ Since Arrays are a bigger topic, it is the main focus of this section. Some revi
 - index - *ordered position of an element within its array; integer, can be manipulated by array methods*
 - array method - *predefined actions that can be called to manipulate an array*
 *ex. `arr.push(items)` and `arr.pop()` and and remove, respectively, items from the end of an array. `arr.unshift(items)` and `arr.shift()` add and remove, respectively, items from the beginning. `arr.sort()` `arr.length`*
-- loop - *method of iterating through elements in an array*
+- loop - *checks a condition and runs while true/until false; performs an action a specific number of times*
+  *[using `i` is a conventionally used variable - short for "index"]*
+
 
 ### JavaScript Reserved Keywords
 
-- `for` - *creates a loop consisting of three (optional) expressions and a code block to be executed in the loop*
+- `for` - *uses a counter as a condition; creates a loop consisting of three (optional) expressions and a code block to be executed in the loop*
 `for (let var = [something]; var [comparison operator]; var[increment])`
+*initialization (create variable) - condition (specify endpoint) - update (change counter)*
+- `break` - *terminates the loop, tells the interpreter to proceed to the next line of code outside the loop*
+- `continue` - *tells the interpreter to continue with the current iteration, and then check the condition again*
 
 ## Open your local copy of frontend-mod-1-prework
 
