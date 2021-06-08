@@ -77,7 +77,7 @@ Work through this section to build your understanding of how `for` loops can be 
 
 🎬 Watch [this video](https://www.youtube.com/watch?v=s9wW2PpJsmQ) to hear an explanation and see someone write a `for` loop! Remember, when you see `let`, pretend it is `var`. You will learn the differences between those, at a very deep level, in Mod 2.
 
-> 👩🏻‍💻 PAUSE here, and complete the exercises in `loops.js`
+> X 👩🏻‍💻 PAUSE here, and complete the exercises in `loops.js`
 
 ### For Loop and Arrays
 
