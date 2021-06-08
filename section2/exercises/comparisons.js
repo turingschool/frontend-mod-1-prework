@@ -112,7 +112,7 @@ console.log(attendees !== meals);
 This line of code will log "true" to the console. Both data types being compared are variables with numbers as
   their defined value, those values being the integer 9 and the integer 8, respectively. A strict comparison operator
   is being used, meaning that no data type conversion will take place before the two variables are compared. In this
-  case, both variables have number data typoe values, so a comparison bewtween these two numbers is able to take place.
+  case, both variables have number data type values, so a comparison bewtween these two numbers is able to take place.
   If the variables were not defined with the same data type, the strict comparison operator would automatically
   log "false" and move on.
 */
@@ -145,7 +145,7 @@ console.log(lovesToPlay && lovesDogPark);
 console.log(lovesToPlay || lovesDogPark);
 
 // Determine if the dog loves to play and is a puppy
-// Two ways to answer this come immediately to mind.
+// Two ways to answer this come to mind. I would assune you are looking for the second answer, but I'll do both just in case.
 // First:
 console.log(lovesToPlay && isAPuppy)
 //Second:
