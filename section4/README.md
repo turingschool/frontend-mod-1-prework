@@ -11,19 +11,28 @@ Section 4 is estimated to take a total of 10-14 hours to complete. Similar to th
 
 ### Vocabulary Terms
 
-- Object Literal
-- key-value pair
-- dot notation
-- method
-- class (in JavaScript)
-- object instance
-- properties
+- Object Literal - *list of property name and values associated with an object; zero or more name-value pairs*
+```
+var objLit = {
+  value1: 'thisISOne',
+  ...
+  valueN: 'thisIsN'
+}
+```
+- key-value pair - *a property of an object, consisting of a name (key) and its corresponding value1*
+`height: 6 feet 2 inches`
+- dot notation - *indicates a name/key associated with an object; can be used to print a value or assign it to an object*
+`console.log(key.value)` `key.value = 1`
+- method - *function attached to an object, assigns a function to a property*
+- class (in JavaScript) - *template for creating objects, allows you to specify properties and behaviors*
+- object instance - *a specific object belonging to a class*
+- properties - *values associated with an object*
 
 ### JavaScript Reserved Keywords
 
-- `class`
-- `constructor`
-- `new`
+- `class` - *creates a new class with a given name*
+- `constructor` - *special method of a `class` for creating and initializing an object of that class*
+- `new` - *invokes a class/constructor function*
 
 ## Part A How You Spend Your Time
 
