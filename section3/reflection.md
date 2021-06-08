@@ -25,4 +25,4 @@
 - That button is called loop.
 
 1. What questions do you still have about Arrays and loops?
-- What does the author mean in the book *Javascript and Jquery* on page 174 that "Any variable you can define outside of the loop and that does not change within the loop should be defined outside of it. If it were declared inside the loop, it would be recalculated every time the loop ran, needlessly using resources"?
+- What does the author mean in the book *Javascript and Jquery* on page 174 that "Any variable you can define outside of the loop and that does not change within the loop should be defined outside of it. If it were declared inside the loop, it would be recalculated every time the loop ran, needlessly using resources."?
