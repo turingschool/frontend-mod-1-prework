@@ -2,7 +2,7 @@
 
 1. How did the SuperLearner Article resonate with you? What from this list do you already do? Want to start doing or do more of? Is there anything not on this list, that you would add to it?
 
-I've been working toward viewing learning as a process and adopting a growth mindset, as these run counter to the anti-pattern of perfectionism. I already eat healthily, exercise regularly, sleep well, and use the pomodoro technique to ensure that I take frequent breaks. At Turing, I'd like to more actively teach others as a way of solidifying newly acquired knowledge. I'd add spending quality time with friends and family to the list, as social connection consistently ranks at or near the top of factors that promote well-being and happiness, and I assume it supports learning too.
+I've been working toward viewing learning as a process and adopting a growth mindset, as these run counter to the anti-pattern of perfectionism. I already eat healthily, exercise regularly, sleep well, and use the pomodoro technique to ensure that I take frequent breaks. At Turing, I'd like to make better use of teaching others as a way of solidifying newly acquired knowledge. I'd add spending quality time with friends and family to the list, as social connection consistently ranks at or near the top of factors that promote well-being and happiness, and I assume it supports learning too.
 
 2. What are the data types you learned about in this section? In your own words, define each.
 
