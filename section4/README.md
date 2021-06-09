@@ -116,7 +116,7 @@ console.log(zebraInfo.name);
 //=> "Molly"
 ```
 
-> 👨🏾‍💻 PAUSE here, and complete the exercises in `objects.js`
+> X 👨🏾‍💻 PAUSE here, and complete the exercises in `objects.js`
 
 ### Methods
 
