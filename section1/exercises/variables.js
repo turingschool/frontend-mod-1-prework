@@ -1,13 +1,13 @@
-a/*
-In the exercises below, write your own code where indicated
-to achieve the desired result.
-
-A couple examples that are already completed. Your task is to complete
-any remaining prompt.
-
-When navigated to the root of this project directory, you should be able to run this
-file from your terminal with the command `node section1/exercises/variables.js`
-*/
+//
+// In the exercises below, write your own code where indicated
+// to achieve the desired result.
+//
+// A couple examples that are already completed. Your task is to complete
+// any remaining prompt.
+//
+// When navigated to the root of this project directory, you should be able to run this
+// file from your terminal with the command `node section1/exercises/variables.js`
+// */
 
 
 // EXAMPLE: Write code below to assign Harry Potter's name to a variable and
