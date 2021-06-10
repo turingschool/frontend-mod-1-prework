@@ -29,6 +29,7 @@ class Tweet {
 var tweet1 = new Tweet("John","some cool stuff", "20:21pm", 2, ["comment1","comment2"])
 console.log(tweet1);
 
+
 tweet1.like();
 tweet1.leaveComment("a new comment");
 console.log(tweet1);

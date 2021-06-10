@@ -54,6 +54,7 @@ Questions
 
 6. If you changed the variable doorChoice to equal 1, and the variable bearChoice to equal 2, what will be the final outcome be?
 //Bear puts on a hat. You tell the bear the hat is too small and it starts to cry.
+
 7. What is your favorite ending?
 // stay with the bear and become its best friend.
 */

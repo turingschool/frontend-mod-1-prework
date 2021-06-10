@@ -28,7 +28,7 @@ Make sure to run the file with node in your command line.
 // that the proteins have been changed.
 
 class Burrito {
-  constructor(protein, base,toppings) {
+  constructor(protein, base, toppings) {
     this.protein = protein;
     this.base = base;
     this.toppings = toppings;
@@ -51,6 +51,6 @@ console.log(burrito2);
 console.log(burrito3);
 burrito1.changeProtein("beef");
 burrito1.addTopping("cheese");
+burrito3.addTopping("mushroom");
 console.log(burrito1);
-
-typeof [1,2,3,4];
+console.log(burrito3);
