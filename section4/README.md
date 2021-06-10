@@ -24,15 +24,15 @@ var objLit = {
 - dot notation - *indicates a name/key associated with an object; can be used to print a value or assign it to an object*
 `console.log(key.value)` `key.value = 1`
 - method - *function attached to an object, assigns a function to a property*
-- class (in JavaScript) - *template for creating objects, allows you to specify properties and behaviors*
+- class (in JavaScript) - *template for creating objects, allows you to specify properties and behaviors, creating an object "type"*
 - object instance - *a specific object belonging to a class*
-- properties - *values associated with an object*
+- properties - *values associated with a specific object, declared inside of the constructor inside of the class*
 
 ### JavaScript Reserved Keywords
 
 - `class` - *creates a new class with a given name*
 - `constructor` - *special method of a `class` for creating and initializing an object of that class*
-- `new` - *invokes a class/constructor function*
+- `new` - *creates an object instance, invokes a class/constructor function*
 
 ## Part A How You Spend Your Time
 
@@ -136,7 +136,7 @@ var zebraObject = {
 zebraObject.feed(); //logs "Give grass to the Zebra"
 ```
 
-> 👨🏾‍💻 PAUSE here, and complete the exercises in `methods.js`
+> X 👨🏾‍💻 PAUSE here, and complete the exercises in `methods.js`
 
 ## Part C Classes and Instances
 
@@ -215,16 +215,16 @@ var deposit = new TransactionItem(200, "02/03/20", "deposit");
 console.log(deposit);
 //=>TransactionItem {amount: 200, date: "02/03/20", type: "deposit"}
 
-var withdrawl = new TransactionItem(150, "02/04/20", "withdrawl");
-console.log(withdrawl)
-//=>TransactionItem {amount: 150, date: "02/04/20", type: "withdrawl"}
+var withdrawal = new TransactionItem(150, "02/04/20", "withdrawal");
+console.log(withdrawal)
+//=>TransactionItem {amount: 150, date: "02/04/20", type: "withdrawal"}
 ```
 
 Passing arguments to the new instance and declaring parameters in the constructor allow us to build classes and create objects that follow the same blueprint, but have potentially unique data attached to each said object instance.
 
 Remember, the `new` keyword is what calls the `constructor` method. _Note the way data flows through this._ The argument of `200` maps to the paramter `amt` in the constructor. Then the `deposit` object instance has `200` as the value of the `amount` property. If you aren't quite sure how those are coming together yet - good! The exercise will be a good opportunity to poke and explore that more. In mod 1 you will go into a LOT of detail about the `this` keyword. Don't worry much about it now, but do include `this.` in your properties inside the constructor.
 
-> 👨🏾‍💻 PAUSE here, and complete the exercises in `classProperties.js`
+> X 👨🏾‍💻 PAUSE here, and complete the exercises in `classProperties.js`
 
 ### Behavior (Methods)
 
@@ -281,23 +281,23 @@ class TransactionItem {
 
 }
 
-var withdrawl = new TransactionItem(150, "02/04/20", "withdrawl");
+var withdrawal = new TransactionItem(150, "02/04/20", "withdrawal");
 var deposit = new TransactionItem(200, "02/03/20", "deposit");
 console.log(deposit);
 //=> TransactionItem {amount: 200, date: "02/03/20", type: "deposit", isRecorded: false}
-console.log(withdrawl);
-//=> TransactionItem {amount: 150, date: "02/04/20", type: "withdrawl", isRecorded: false}
+console.log(withdrawal);
+//=> TransactionItem {amount: 150, date: "02/04/20", type: "withdrawal", isRecorded: false}
 
 deposit.record();
 console.log(deposit);
 //=> TransactionItem {amount: 200, date: "02/03/20", type: "deposit", isRecorded: true}
-console.log(withdrawl);
-//=> TransactionItem {amount: 150, date: "02/04/20", type: "withdrawl", isRecorded: false}
+console.log(withdrawal);
+//=> TransactionItem {amount: 150, date: "02/04/20", type: "withdrawal", isRecorded: false}
 ```
 
-The `record` method accessed the `isRecorded` property and re-assigned it. Note again, that it did this for the `deposit` object instance, and that object instance only. The `withdrawl` object instance was not changed. (Think of that car factory - this is like having a painting station and painting _one_ car red. The others have the potential to be painted red, but no one has given the instructions, so they are not red.)
+The `record` method accessed the `isRecorded` property and re-assigned it. Note again, that it did this for the `deposit` object instance, and that object instance only. The `withdrawal` object instance was not changed. (Think of that car factory - this is like having a painting station and painting _one_ car red. The others have the potential to be painted red, but no one has given the instructions, so they are not red.)
 
-> 👨🏾‍💻 PAUSE here, and complete the exercises in `classMethods.js`, then `tweet.js`
+> XX 👨🏾‍💻 PAUSE here, and complete the exercises in `classMethods.js`, then `tweet.js`
 
 ## Exercises
 
@@ -305,7 +305,7 @@ At this point, you should have worked through all files in the `exercises` direc
 
 ## Reflection
 
-📝 Answer the questions in the `reflection.md` file in the section4 directory.
+X 📝 Answer the questions in the `reflection.md` file in the section4 directory.
 
 ## Save your work, push to GitHub
 
