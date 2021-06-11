@@ -17,7 +17,7 @@ function printName() {
   console.log("Severus Snape");
 };
 
-printName(); 
+printName();
 printName();
 printName();
 printName();
@@ -26,7 +26,11 @@ printName();
 
 // YOU DO: Write a function named sayHello that logs to the console "Oh, Hello!"
 // Then, call the function 2 times.
-
+function sayHello(){
+  console.log("Oh, Hello!");
+}
+sayHello();
+sayHello();
 //-------------------
 // PART 2: Arguments and Parameters
 //-------------------
@@ -34,18 +38,33 @@ printName();
 // YOU DO: Write a function named greetMe that takes an argument, a String, of a name.
 // The function should print out the value of the String that was passed in.
 // Then, call the function 3 times, each time, passing it a different name.
-
-
+function greetMe(name){
+  console.log(name);
+}
+greetMe("Alice");
+greetMe("Batman");
+greetMe("Kent Clark");
 
 // YOU DO: Write a function that takes in 2 numbers as arguments, Numbers, and logs their sum
 // Then, call that function 3 times, each time, passing in 2 different Numbers.
-
+function sum(a,b){
+  console.log(a + b);
+}
+sum (4,8);
+sum (546,988);
+sum (33, 99);
 
 
 // YOU DO🎈: Write a function that takes in two strings and prints a concatenation
 // of those two strings, for example the arguments could be ("Oscar", "Ruck") and
 // the end result might be "Oscar and Ruck are BFFS".  Then, call that function.
+function goodBadMovies (goodMovie, badMovie){
+  console.log(goodMovie + " is a good movie but " + badMovie + " is not.");
+  }
 
+  goodBadMovies("Superman", "Suicide Squad");
+  goodBadMovies("Matrix", "Gravity");
+  goodBadMovies("Rush Hour 1", "Hangover 2");
 
 
 //-------------------
@@ -60,6 +79,7 @@ Look at the code you wrote for the previous YOU DO🎈 - what did you name the f
 What did you name each parameter, and why?
 
 EXPLAIN:
-
+I name my function goodBadMovies that takes two parameters: the first one is goodMovie, the second one is
+badMovie. The parameters appear in the same order as it suggests in the function name.
 
 */
