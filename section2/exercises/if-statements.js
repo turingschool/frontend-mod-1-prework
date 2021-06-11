@@ -304,7 +304,9 @@ For the last two exercises, an ideal solution probably uses a logical operator.
 Did yours? Do you know what a logical operator in JavaScript is? Google it to answer
 for yourself!
 
-//I saw the note about logical operators before completing the final exercise but because I was confused about the difference between && or || I had to spend a while learning more about them until I understood better.
+//I saw the note about logical operators before completing the final exercise but because 
+//I was confused about the difference between && or || I had to spend a while
+//learning more about them until I understood better.
 
 
 */

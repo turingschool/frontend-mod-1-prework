@@ -69,24 +69,6 @@ for (var i = 2; i < names.length; i++) {
 var ages = [17, 20, 34, 18, 16, 65, 49, 10, 22, 18];
 
 
-
-//var ages = [17, 20, 34, 18, 16, 65, 49, 10, 22, 18];
-//ages.sort();
-//console.log(ages);
-
-//ar i;
-//var canVote = number => number > 18;
-//var votingAge = true;
-//for (i=0; i < ages.length; i++) {
-//votingAge = votingAge
-  //    && canVote(ages[i]);
-//}
-
-
-
-//var ages = [17, 20, 34, 18, 16, 65, 49, 10, 22, 18];
-
-//var greaterThanTen = ages.find(element => element > 18);
 var ageToVote = 18;
 
 for (i = 0; i < ages.length; i++) {
@@ -96,37 +78,3 @@ for (i = 0; i < ages.length; i++) {
     console.log("Oh no, you can't vote quite yet.")
   }
 }
-
-
-
-//if (ages.indexOf() >= 18) {
-// console.log("Make sure you get out and vote!");
-// } else {
-// console.log("Oh no, you can't vote quite yet.");
-// }
-
-
-
-//1) sort the array so ages are in order
-//2) split the array? -- I don't know how to get these numbers to reflect above or below 18
-//3) run the array through if else statement to get output
-
-
-
-//arr.every(callback(element[, index[, array]])[, thisArg])
-
-//array.every(callback(element [, index [, array]]) [,thisParameter]);
-
-
-
-//var ages = [17, 20, 34, 18, 16, 65, 49, 10, 22, 18];
-//ages.sort();
-//console.log(ages);
-
-
-
-//need to determine if an age is above 18 or below, true or false, then the output returuns
-//if you can vote or // NOTE: need to cycle through each age (if statement?)
-//if 18 -> can vote, if not -> cannot
-//thus, the statement needs to read through the array and read the number <=, >=
-//build a set of conditionals that read through ages // if else?

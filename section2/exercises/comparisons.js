@@ -51,8 +51,7 @@ you develop good habits that follow best practice, from now on, use the strict c
 
 // YOU DO: log the result of the comparison: is numberTeachers not equal to numberStudents?
 // this should log: true
-console.log("Is numberTeachers not equal to numberStudents?", numberTeachers === numberStudents);
-//I don't see how this can be true: the numbers aren't equal regardless of operator, what am I missing?
+console.log("Is numberTeachers not equal to numberStudents?", numberTeachers <= numberStudents);
 
 // YOU DO: log the result of the comparison: is numberStudents greater than or equal to 20?
 // this should log: true
@@ -130,16 +129,19 @@ console.log(lovesToPlay && lovesTreats);
 //True because lovesToPlay AND lovesTreats are BOTH true statements
 
 // Determine if the dog loves to play AND loves the dog park
+console.log(lovesToPlay && lovesDogPark);
 //False because both statements are NOT true
 
 // Determine if the dog loves to play or loves the dog park
+console.log(lovesToPlay || lovesDogPark);
 //This is true because although only play is TRUE, the OR statement remains true unless BOTH are FALSE.
 
 // Determine if the dog loves to play and is a puppy
 console.log(lovesToPlay && age);
 
 // What did your final line of code evaluate to? Why do you think that is? Explain.
-// ANSWER: 1, it did NOT give me back a true or false statemetn because age is a number variable and not a boolean operator, there for it cannot return a true or false answer.
+// ANSWER: 1, it did NOT give me back a true or false statemetn because age is a
+//number variable and not a boolean operator, there for it cannot return a true or false answer.
 
 //-------------------
 // FINAL CHECK
