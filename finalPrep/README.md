@@ -31,10 +31,9 @@ In Mod 0 you've learned about different techniques for managing your time at Tur
 
 When you are finished, add screenshots of your calendar so we can provide feedback if needed!
 
-
-- <img width="955" alt="Screen Shot 2021-06-10 at 9 18 41 PM" src="https://user-images.githubusercontent.com/73845209/121616960-f22a5180-ca31-11eb-81d5-fdc0eaff2de0.png">
-- week 2 and 3 schedule are pretty much the same
-
+- `Add Week 1 Screenshot Here`
+- `Add Week 2 Screenshot Here`
+- `Add Week 3 Screenshot Here`
 
 ### Mentorship Prep
 Mentorship is an integral part of the Turing experience and will help jumpstart your technical career. In order to get your mentor relationship started on the right foot, please complete the following deliverables:
@@ -47,6 +46,7 @@ You've learned a lot about how to take strong notes during Mod 0. Show us your s
 - [x] Add a link to your gist here: (https://gist.github.com/lokiandfengshui/e3fbc63e377fe72548e89f235b3f90e8)
 
 ### Group Work Prep
+
 As part of Turing's project-based learning approach, you will often be working in pairs or larger groups. In order to set yourself (and your team) up for success, it is important to ensure you are prepared to be an equitable contributor and teammate.
 - [x] Complete the [DTR Guiding Questions](https://gist.github.com/ericweissman/c56f3a98cdce761808c21d498a52f5c6)
 - [x] Add a link to your gist here: (https://gist.github.com/lokiandfengshui/10e2e1d5c5406aeefd78843d3feadbd6)
