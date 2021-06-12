@@ -33,14 +33,17 @@ console.log(mustNot);
 var firstName = "Nolan";
 var isHungry = true;
 var numberOfPets = 0;
+
 console.log(firstName);
 console.log(isHungry);
 console.log(numberOfPets);
+
 // IN WORDS:
 // How did you decide to use the data type you did for each of the three variables above?
-  // Explain.
-/*Names are made of characters, so string was natural. isHungry seems like mostly
-yes or no scenario, so boolean fit. numberOfPets explicitly mentions number.*/
+// Explain.
+  /*Names are made of characters, so string was natural. isHungry seems
+  like mostly a yes-or-no scenario, so boolean fit. numberOfPets
+  explicitly mentions number.*/
 
 // YOU DO:
 // Re-assign the values to the three variables from the previous challenge to different
@@ -48,8 +51,10 @@ yes or no scenario, so boolean fit. numberOfPets explicitly mentions number.*/
 // log all three variables to the console.
 firstName = "Michael";
 console.log(firstName);
+
 isHungry = false;
 console.log(isHungry);
+
 numberOfPets = 2;
 console.log(numberOfPets);
 
@@ -65,4 +70,4 @@ console.log(healthySnacks + junkFoodSnacks);
 
 // Did you run this file in your terminal to make sure everything printed out to the console
 // as you would expect?
-/*Yup!*/
+  /*Yup!*/

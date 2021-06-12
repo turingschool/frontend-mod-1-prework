@@ -45,9 +45,9 @@ console.log("In a predictable result, the " + slowPoke + " beat the " + speedy +
 // Declare three variables, name/content/data type of your choice. Think carefully about what
   // you name the variables. Remember, the goal is to be concise but descriptive (it's a hard balance!)
   // Then, log out ONE sentence that incorporates all THREE variables.
-itemsToCarry = "apples";
-numberOfItems = 17;
-carryingVessel = "wheelbarrow";
+var itemsToCarry = "apples";
+var numberOfItems = 17;
+var carryingVessel = "wheelbarrow";
 
 console.log("I can only carry so many " + itemsToCarry + ". Once I hit " + numberOfItems + ", I\'ll definitely need a " + carryingVessel + ".");
 
