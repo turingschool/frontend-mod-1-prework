@@ -23,8 +23,8 @@ console.log(enrolledStudents);
 // YOU DO:
 // Write code below to save the string 'Harry Potter must not return to Hogwarts!'
 // log that variable to the console.
-var declaration = "Happy Potter must not return to Hogwarts!"
-console.log(declaration);
+var hogwartsReturn = "Happy Potter must not return to Hogwarts!"
+console.log(hogwartsReturn);
 
 
 // YOU DO:

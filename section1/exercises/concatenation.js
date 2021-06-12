@@ -54,10 +54,10 @@ console.log(" In a predictable result, the " + slowPoke + " beat the " + speedy 
 
 //"My friend Gonzo plays the drums well!"
 
-var muppet = "Gonzo";
+var friend = "Gonzo";
 var instrument = "drums";
 
-console.log(" My friend " + muppet + " plays the " + instrument + " well! ");
+console.log(" My friend " + friend + " plays the " + instrument + " well! ");
 
 
 //-------------------
