@@ -1,67 +1,68 @@
 // Add your annotations, line by line, to the code below using code comments.
+
 // Use the double // to create a new comment
 
 // Build a Bear
-// Declare a function `buildBear` with parameters `name`, `age`, `fur`, `clothes`, `specialPower`
+
+// Declare function `buildBear` with parameters `name`, `age`, `fur`, `clothes`, and `specialPower`
 function buildABear(name, age, fur, clothes, specialPower) {
-  // Declare a variable `greeting` and assign it a greeting template literal interpolating `name` argument
+  // Declare variable `greeting` and assign it a greeting template literal interpolating `name`
   var greeting = `Hey partner! My name is ${name} - will you be my friend?!`;
-  // Declare a variable `demographics` and assign it an array comprising the arguments `name` and `age`
+  // Declare variable `demographics` and assign it array comprising `name` and `age`
   var demographics = [name, age];
-  // Declare a variable `powerSaying` and assign it a question string interpolating `specialPower`
+  // Declare variable `powerSaying` and assign it question string interpolating `specialPower`
   var powerSaying = "Did you know that I can " + specialPower + " ?";
-  // Declare an object `builtBear`
+  // Declare object `builtBear`
   var builtBear = {
-    // Declare a key `basicInfo` paired with the value `demographics`
+    // Declare key `basicInfo` paired with value `demographics`
     basicInfo: demographics,
-    // Declare a key `clothes` paired with the value `clothes`
+    // Declare key `clothes` paired with value `clothes`
     clothes: clothes,
-    // Declare a key `exterior` paired with the value `demographics`
+    // Declare key `exterior` paired with value `demographics`
     exterior: fur,
-    // Declare a key `cost` paired with the value `49.99`
+    // Declare key `cost` paired with value `49.99`
     cost: 49.99,
-    // Declare a key `sayings` paired with the value of an array comprising `greeting`, `powerSaying`, and a string
+    // Declare key `sayings` paired with value of array comprising `greeting`, `powerSaying`, and string
     sayings: [greeting, powerSaying, "Goodnight my friend!"],
-    // Declare a key `isCuddly` paired with the value `true`
+    // Declare key `isCuddly` paired with value `true`
     isCuddly: true,
   };
-  // Return the value stored in `builtBear`
+  // Return `builtBear`
   return builtBear
 }
 
-// Call the function `buildABear` and pass in five arguments
+// Call function `buildABear` and pass in five arguments
 buildABear('Fluffy', 4, 'brown', ['pants', 'jorts', 'tanktop'], 'give you nightmares');
-// Call the function `buildABear` and pass in five different arguments
+// Call function `buildABear` and pass in five different arguments
 buildABear('Sleepy', 2, 'purple', ['pajamas', 'sleeping cap'], 'sleeping in');
 
-
-
 //FizzBuzz
-// Declare a function `fizzBuzz` that takes parameters `num1`, `num2`, and `range`
+
+// Declare function `fizzBuzz` with parameters `num1`, `num2`, and `range`
 function fizzBuzz(num1, num2, range) {
-  // Iterate from `0` to `range` in increments of 1 with the variable `i` representing the current value
+  // Assign current value to `i` and iterate from `0` to `range` in increments of 1, stopping when `i` exceeds `range`
   for (var i = 0; i <= range; i++) {
-    // If both the remainder of `i` divided by `num1` strictly equals `0` and the remainder of `i` divided by `num2` strictly equals `0`
+    // If both `i` modulo `num1` strictly equals `0` and `i` modulo `num2` strictly equals `0`
     if (i % num1 === 0 && i % num2 === 0) {
-      // Log `'fizzbuzz'` to the console
+      // Log `'fizzbuzz'`
       console.log('fizzbuzz');
-    // Otherwise, if the remainder of `i` divided by `num1` strictly equals `0`
+    // Otherwise, if `i` modulo `num1` strictly equals `0`
     } else if (i % num1 === 0) {
-      // Log `'fizz'` to the console
+      // Log `'fizz'`
       console.log('fizz');
-    // Otherwise, if the remainder of `i` divided by `num2` strictly equals 0
+    // Otherwise, if `i` modulo `num2` strictly equals `0`
     } else if (i % num2 === 0) {
-      // Log `'buzz'` to the console
+      // Log `'buzz'`
       console.log('buzz');
     // Otherwise
     } else {
-      // Log `i` to the console
+      // Log `i`
       console.log(i);
     }
   }
 }
 
-// Call `fizzBuzz` and pass in the arguments `3`, `5`,  and `100`
+// Call `fizzBuzz` passing in arguments `3`, `5`,  and `100`
 fizzBuzz(3, 5, 100);
-// Call `fizzBuzz` and pass in the arguments `5`, `8`,  and `400`
-fizzbuzz(5, 8, 400);
+// Call `fizzBuzz` passing in arguments `5`, `8`,  and `400`
+fizzBuzz(5, 8, 400);

@@ -3,14 +3,14 @@
 // Declare two variables - heroName AND specialAbility - set to strings
 
 var heroName = 'Super Scientist';
-var specialAbility = 'infallible reasoning';
+var specialAbility = 'infallible scientific reasoning';
 
 // Declare two variables - greeting AND catchphrase
 //   greeting should be assigned to a string that uses concatenation to include the heroName
 //   catchphrase should be assigned to a string that uses interpolation to include the specialAbility
 
 var greeting = 'Greetings, ' + heroName + '!';
-var catchphrase = 'Behold your possesion of ' + specialAbility + '!';
+var catchphrase = `Behold, I possess ${specialAbility}!`;
 
 // Declare two variables - power AND energy - set to integers
 
@@ -21,8 +21,12 @@ var energy = 8;
 //   fullPower should multiply your current power by 500
 //   fullEnergy should add 150 to your current energy
 
-var fullPower = power * 500;
-var fullEnergy = energy + 150;
+var fullPower = function(power) {
+  power = power * 500;
+};
+var fullEnergy = function(energy){
+  energy = energy + 150;
+};
 
 // Declare two variables - isHuman and identityConcealed - assigned to booleans
 
@@ -81,11 +85,13 @@ function assessSituation(dangerLevel, saveTheDay, badExcuse) {
 };
 
 //Test Cases
+
 var announcement = 'Never fear, the Courageous Curly Bracket is here!';
 var excuse = 'I think I forgot to lock up my 1992 Toyota Coralla. Be right back.';
-// assessSituation(99, announcement, excuse) > Should print - 'I think I forgot to lock up my 1992 Toyota Coralla. Be right back.'
-// assessSituation(21, announcement, excuse) > should print - 'Never fear, the Courageous Curly Bracket is here!'
-// assessSituation(3, announcement, excuse) > should print - "Meh. Hard pass."
+
+assessSituation(99, announcement, excuse)// > Should print - 'I think I forgot to lock up my 1992 Toyota Coralla. Be right back.'
+assessSituation(21, announcement, excuse)// > should print - 'Never fear, the Courageous Curly Bracket is here!'
+assessSituation(3, announcement, excuse)// > should print - "Meh. Hard pass."
 
 // Declare a new variable - scaryMonster - assigned to an Object with the following key/values
 //   - name (string)
@@ -93,7 +99,7 @@ var excuse = 'I think I forgot to lock up my 1992 Toyota Coralla. Be right back.
 //   - weight (integer)
 //   - citiesDestroyed (array)
 //   - luckyNumbers (array)
-//   - address (object with following key/values: number , street , state, zip)
+//   - address (object with following key/values: number, street, state, zip)
 
 var scaryMonster = {
   name: 'Gargantuan',
@@ -135,17 +141,17 @@ class SuperHero {
     this.archNemesis = 'The Syntax Error';
     this.powerLevel = 100;
     this.energyLevel = 50;
-  };
+  }
   sayName() {
     console.log(this.name);
-  };
+  }
   maximizeEnergy() {
     this.energyLevel = 1000;
-  };
+  }
   gainPower(number) {
     this.powerLevel = this.powerLevel + number;
-  };
-};
+  }
+}
 
 // - Create 2 instances of your SuperHero class
 
