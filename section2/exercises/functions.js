@@ -23,7 +23,6 @@ printName();
 printName();
 // Since the function was called 4 times, "Severus Snape" will log 4 times.
 
-
 // YOU DO: Write a function named sayHello that logs to the console "Oh, Hello!"
 // Then, call the function 2 times.
 function sayHello() {
@@ -34,6 +33,7 @@ function sayHello() {
 }
 sayHello();
 sayHello();
+
 //-------------------
 // PART 2: Arguments and Parameters
 //-------------------
@@ -44,6 +44,7 @@ sayHello();
 function greetMe(name) {
   console.log(name);
 }
+
 greetMe("Jortham");
 greetMe("Stermind");
 greetMe("Belizanchd");
@@ -53,6 +54,7 @@ greetMe("Belizanchd");
 function logSum(num1, num2) {
   console.log(num1 + num2);
 }
+
 logSum(1,2);
 logSum(3,4);
 logSum(5,6);
@@ -66,7 +68,7 @@ function pizzafy(food1, food2) {
 
 pizzafy("yogurt", "coffee");
 
-/*Wanted more practice with interpolation syntax`
+/*Wanted more practice with interpolation syntax*/
 
 //-------------------
 // PART 3: Naming is Hard
@@ -81,9 +83,8 @@ What did you name each parameter, and why?
 
 EXPLAIN:
 
-I called it 'pizzafy'to imply turning things into pizza that wouldn't normally be associated
+_I called it 'pizzafy'to imply turning things into pizza that wouldn't normally be associated
 with it. I named the parameters generically as food1 and food2 for the same reason, in order
 to make the function like a madlib, spitting out weird pizza ideas. My example above sounds
-disgusting.
-
+disgusting._
 */

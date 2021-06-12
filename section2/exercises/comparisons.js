@@ -74,12 +74,12 @@ console.log("Is numberStudents less than or equal to 21?", numberStudents <= 21)
 
 console.log(4 < 9);
 //YOU DO: Explain.
-/*This code tests for the condition "4 is less than 9", comparing the values of the number objects 4 and 9 and returning the Boolean value "true".*/
+  /*This code tests for the condition "4 is less than 9", comparing the values of the number objects 4 and 9 and returning the Boolean value "true".*/
 
 var books = 3;
 console.log(4 < books);
 // YOU DO: Explain.
-/*This code tests for the condition "the number value 4 is less than the value stored in variable books", and so compares 4 against 3 (the value stored in "books") and returns "false".*/
+  /*This code tests for the condition "the number value 4 is less than the value stored in variable books", and so compares 4 against 3 (the value stored in "books") and returns "false".*/
 
 var friends = 6;
 var siblings = 2;
@@ -91,7 +91,7 @@ var attendees = 9;
 var meals = 8;
 console.log(attendees !== meals);
 // YOU DO: Explain.
-/*This code tests for the condition "the value stored in variable attendees does not equal that stored in variable meals", which returns true since these variables contain different number values.*/
+  /*This code tests for the condition "the value stored in variable attendees does not equal that stored in variable meals", which returns true since these variables contain different number values.*/
 
 //-------------------
 // PART 3: Logical Operators
@@ -103,6 +103,7 @@ var finishedHomework = false;
 // EXAMPLE:
 // Determine if the user is hungry and has completed their homework
 console.log(isHungry && finishedHomework);
+
 // Determine if the user is hungry or has completed their homework
 console.log(isHungry || finishedHomework);
 

@@ -38,23 +38,30 @@ if (bearChoice === 1) {
 Questions
 
 1. In English, using technical vocabulary, describe what is happening between lines 14 and 18.
-This code tests for the condition "doorChoice is strictly equal to 1"; if true, value "hat" is assigned to variable bearClothing, and if false, value "scarf" is assigned.
+
+  _This code tests for the condition "doorChoice is strictly equal to 1"; if true, value "hat" is assigned to variable bearClothing, and if false, value "scarf" is assigned._
 
 2. What variable has a new value assigned to it after the first if statement executes?
-bearClothing
+
+  _bearClothing_
 
 3. If you changed the variable doorChoice to equal 3, what would the bearClothing value be?
-"scarf"
+
+  _"scarf"_
 
 4. In English, using technical vocabulary, describe what is happening between lines lines 27 and 35.
-This code tests in succession for a few different cases of strict equality for variable bearChoice. It will return the console.log statement following the first condition to be met in order; or if none are met, return the console.log statment following the else condition.
+
+  _This code tests in succession for a few different cases of strict equality for variable bearChoice. It will return the console.log statement following the first condition to be met in order; or if none are met, return the console.log statment following the else condition._
 
 5. If you changed the variable bearChoice to equal 3, what will be the final outcome be?
-Depends what the snakes have in store for you.
+
+  _Depends what the snakes have in store for you._
 
 6. If you changed the variable doorChoice to equal 1, and the variable bearChoice to equal 2, what will be the final outcome be?
-A sad bear with ill-fitting clothing.
+
+  _A sad bear with ill-fitting clothing._
 
 7. What is your favorite ending?
-Definitely the else condition. I want a bear friend.
+
+  _Definitely the else condition. I want a bear friend._
 */

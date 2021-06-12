@@ -16,10 +16,11 @@ Make sure to run the file with node in your command line.
 // var weather = 'icy';
 // var weather = 'rainy';
 var weather = 'sunny';
+
 // While working through this example, I would toggle which variable declaration is
   // commented in/out and run the program in node several times to observe the output.
 
-if (weather == 'sunny') {
+if (weather === 'sunny') {
   console.log('sunscreen');
 } else if (weather == 'rainy') {
   console.log('umbrella');
@@ -42,6 +43,7 @@ Log to the console the appropriate age range
 */
 
 var dogAge = 3;
+
 // Write your conditional here
 if (dogAge <= 2) {
   console.log("This dog is a puppy.");
@@ -107,4 +109,5 @@ For the last two exercises, an ideal solution probably uses a logical operator.
 Did yours? Do you know what a logical operator in JavaScript is? Google it to answer
 for yourself!
 
+ _Yes, the "and" operator._
 */
