@@ -1,7 +1,7 @@
 # Array Methods
 
 ## Pop
-Removes the last element in the array.
+Removes the last element in an array.
 
 ## Push
 Adds an element to the end of an array.

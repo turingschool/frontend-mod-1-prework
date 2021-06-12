@@ -1,12 +1,9 @@
 /*
-In the exercises below, write your own code where indicated
-to achieve the desired result.
+In the exercises below, write your own code where indicated to achieve the desired result.
 
-One example is already completed. Your task is to complete
-any remaining prompt.
+One example is already completed. Your task is to complete any remaining prompt.
 
-When navigated to the root of this project directory, you should be able to run this
-file from your terminal with the command `node section1/exercises/interpolation.js`
+When navigated to the root of this project directory, you should be able to run this file from your terminal with the command `node section1/exercises/interpolation.js`
 */
 
 // EXAMPLE: Write code that combines the variables below into another string:
