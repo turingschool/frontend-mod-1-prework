@@ -19,8 +19,8 @@ class Tweet {
   addComment() {
     this.comments.push("Only one more section!");
   }
-  increaseLikes(){
-    for (var likes = 0; likes >= this.numberOfLikes; likes++);
+  increaseLikes() {
+    this.numberOfLikes++;
   }
 
 
@@ -32,3 +32,14 @@ console.log(firstTweet);
 
 firstTweet.increaseLikes();
 console.log(firstTweet);
+
+var secondTweet = new Tweet("Joe Buddy", "I'm happy", "7:37 PM", 22, ["We can do it!", "I miss Ida", "Bananas ar great!"]);
+secondTweet.addComment();
+secondTweet.increaseLikes();
+console.log(secondTweet);
+
+
+var thirdTweet = new Tweet ("Banana Gram", "Yay cats", "4:20 AM", 8349, ["Weeee", "Tapestry", "Wood burns for fire"]);
+thirdTweet.addComment();
+thirdTweet.increaseLikes();
+console.log(thirdTweet);
