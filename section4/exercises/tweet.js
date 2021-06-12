@@ -2,10 +2,10 @@
 In the space below, add to the existing skeleton of a Tweet class.
 
 - A tweet should have a (dynamic) author, content, timeStamp, numberOfLikes, and comments.
+
 - A tweet should be able to increment the numberOfLikes and add to the list of comments.
 
-Create several instances of your Tweet and log them to the console. Make sure the
-tweet object instances _behave_ as expected.
+Create several instances of your Tweet and log them to the console. Make sure the tweet object instances _behave_ as expected.
 */
 
 class Tweet {
@@ -15,14 +15,14 @@ class Tweet {
       this.timeStamp = timeStamp;
       this.numberOfLikes = numberOfLikes;
       this.comments = comments;
-  };
+  }
   addComment(comment) {
     this.comments.push(comment);
-  };
+  }
   addLike() {
     this.numberOfLikes++;
-  };
-};
+  }
+}
 
 tweet1 = new Tweet('Bob', 'So, how \'bout them Eagles?', 1203, 4, ['Yeah, they\'re crushin\' it!']);
 console.log(tweet1);

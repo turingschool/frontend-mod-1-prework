@@ -1,6 +1,5 @@
 /*
-In the exercise below, write your own code where indicated
-to achieve the desired result.
+In the exercise below, write your own code where indicated to achieve the desired result.
 
 Make sure to run the file with node in your command line.
 */
@@ -16,9 +15,8 @@ Make sure to run the file with node in your command line.
   // You do not need any proerties at this time!!
 
 // Prompt 1: Dog
-class Dog {
 
-};
+class Dog {}
 
 var dog1 = new Dog;
 var dog2 = new Dog;
@@ -26,22 +24,20 @@ var dog2 = new Dog;
 console.log(dog1, dog2);
 
 // Prompt 2: Snack
-class Shark {
 
-};
+class Snack {}
 
-var shark1 = new Shark;
-var shark2 = new Shark;
+var snack1 = new Snack;
+var snack2 = new Snack;
 
-console.log(shark1, shark2);
+console.log(snack1, snack2);
 
 // Prompt 3: Shirt
-class Shirt {
 
-};
+class Shirt {}
 
 var shirt1 = new Shirt;
-var shirt2 = new Shirt
+var shirt2 = new Shirt;
 
 console.log(shirt1, shirt2);
 
@@ -57,37 +53,40 @@ console.log(shirt1, shirt2);
   // Log that variable to the console.
 
 // Prompt 1: Dog
+
 class Dog2 {
   constructor() {
     this.breed ='labrador',
     this.weight = 56,
     this.isSterilized = true
-  };
-};
+  }
+}
 
 var favDog = new Dog2;
 console.log(favDog);
 
 // Prompt 2: Snack
-class Shark2 {
-  constructor() {
-    this.species = 'white shark',
-    this.length = 5,
-    this.eatsHumans = false
-  };
-};
 
-var favShark = new Shark2;
-console.log(favShark);
+class Snack2 {
+  constructor() {
+    this.flavor = 'chocolate',
+    this.shape = 'round',
+    this.isTasty = true
+  }
+}
+
+var favSnack = new Snack2;
+console.log(favSnack);
 
 // Prompt 3: Shirt
+
 class Shirt2 {
   constructor() {
     this.designer = 'Gucci & Gabbana',
     this.size = 32,
     this.isStylish = true
-  };
-};
+  }
+}
 
 var favShirt = new Shirt2;
 console.log(favShirt);
@@ -106,6 +105,48 @@ console.log(favShirt);
 
 // Prompt 1: Dog
 
+class Dog3 {
+  constructor(breed, age, color) {
+    this.breed = breed,
+    this.age = age,
+    this.color = color
+  }
+}
+
+var favDog1 = new Dog3('labrador', 12, 'yellow');
+console.log(favDog1);
+
+var favDog2 = new Dog3('dachshund', 8, 'black');
+console.log(favDog2);
+
 // Prompt 2: Snack
 
+class Snack3 {
+  constructor(flavor, shape, isTasty) {
+    this.flavor = flavor,
+    this.shape = shape,
+    this.isTasty = isTasty
+  }
+}
+
+var favSnack1 = new Snack3('vanilla', 'square', true);
+console.log(favSnack1);
+
+var favSnack2 = new Snack3('strawberry', 'rectangle', false);
+console.log(favSnack2);
+
 // Prompt 3: Shirt
+
+class Shirt3 {
+  constructor(designer, size, isStylish) {
+    this.designer = designer,
+    this.size = size,
+    this.isStylish = isStylish
+  }
+}
+
+var favShirt1 = new Shirt3('Banana Republic', 32, true);
+console.log(favShirt1);
+
+var favShirt2 = new Shirt3('Abercrombie', 31, false);
+console.log(favShirt2);

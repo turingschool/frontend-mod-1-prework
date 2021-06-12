@@ -2,14 +2,13 @@
 In the exercises below, write your own code where indicated
 to achieve the desired result.
 
-Two examples are already completed. Your task is to complete
-any remaining prompt.
+Two examples are already completed. Your task is to complete any remaining prompt.
 
 Make sure to run the file with node in your command line.
 */
 
-// EXAMPLE: Write code below that will declare a vairable that stores an Object Literal
-//  that holds grocery store inventory
+// EXAMPLE: Write code below that will declare a vairable that stores an Object Literal that holds grocery store inventory
+
 var foods = {
   apples: 23,
   grapes: 507,
@@ -17,35 +16,37 @@ var foods = {
 };
 
 console.log(foods);
-// Notice that the variable name is foods, plural, because it has the ability to hold info about
-// potentially many foods. That plural name indicates to another developer that the variable stores
-// either an Array or an Object.
+
+// Notice that the variable name is foods, plural, because it has the ability to hold info about potentially many foods. That plural name indicates to another developer that the variable stores either an Array or an Object.
 
 //-------------------
 // Part 1: Zoo Animals
 //-------------------
 
-// YOU DO: Write code below that will declare a variable that stores an Object Literal of animal names and
-// the number of that type of animal at the zoo.
+// YOU DO: Write code below that will declare a variable that stores an Object Literal of animal names and the number of that type of animal at the zoo.
+
 var animals = {
   zebra: 2,
   lion: 3,
   aardvark: 6
 };
 
-// Using the zoo that you created above, log the value of the first item in
-// the Object
+// Using the zoo that you created above, log the value of the first item in the Object
+
 console.log(animals.zebra);
 
 // Add an animal to the zoo Object, and log the updated Object.
+
 animals.scorpion = 3;
 console.log(animals);
 
 // Change the value for at least one of your animal keys, and log the updated Object.
+
 animals.lion = 2;
 console.log(animals);
 
 // Add another animal to the zoo Object, and log the updated Object.
+
 animals.eagle = 1;
 console.log(animals);
 
@@ -54,14 +55,13 @@ console.log(animals);
 //-------------------
 
 /*
-Think about all the pieces of information associated with one single email in your inbox.
-It has a sender, a subject, ...
+Think about all the pieces of information associated with one single email in your inbox. It has a sender, a subject, ...
 
-Declare a variable that stores an Object Literal. Each key should be an attribute of an email and each
-value should be some appropriate value for that key. Work to have at least 5 key-value pairs.
+Declare a variable that stores an Object Literal. Each key should be an attribute of an email and each value should be some appropriate value for that key. Work to have at least 5 key-value pairs.
 
 Log your email object to the console.
 */
+
 var email = {
   senderName: 'Jane Doe',
   recipientName: 'John Doe',
@@ -69,6 +69,7 @@ var email = {
   subject: 'Wazzzuuuuuuuupppppp!',
   body: 'Just checking in!'
 };
+
 console.log(email);
 
 //-------------------
@@ -85,9 +86,7 @@ In the arrays exercise, we gave the following example of an array of Instagram p
 var posts = ["image at beach", "holiday party", "adorable puppy", "video of cute baby"];
 
 /*
-Frankly, that was a very simplified version of the Array the Instagram developers have
-written and work with. Still probably slightly simplified as we don't know what their code
-actually looks like, but it may look more like this:
+Frankly, that was a very simplified version of the Array the Instagram developers have written and work with. Still probably slightly simplified as we don't know what their code actually looks like, but it may look more like this:
 */
 
 var posts = [
@@ -105,20 +104,17 @@ var posts = [
     numberLikes: 13,
     comments: []
   }
-]
+];
 
 console.log(posts);
 console.log(posts[0]);
 
 /*
-The code snippet above shows an Array with 2 elements. Each element in an
-Object Literal. Each of those Object Literals has 4 key-value pairs. This may LOOK
-a bit daunting - it's OK! You don't need to be 100% comfortable with this, but it's
-good to have some exposure before going into Mod 1.
+The code snippet above shows an Array with 2 elements. Each element in an Object Literal. Each of those Object Literals has 4 key-value pairs. This may LOOK a bit daunting - it's OK! You don't need to be 100% comfortable with this, but it's good to have some exposure before going into Mod 1.
 */
 
-// YOU DO: Create an array of at least 3 EMAIL Object Literals, using the same
-// key-value pairs you used in your email Object above.
+// YOU DO: Create an array of at least 3 EMAIL Object Literals, using the same key-value pairs you used in your email Object above.
+
 // Then, log the email Array to the console.
 
 var inbox = [
@@ -144,4 +140,5 @@ var inbox = [
     body: 'Just checking in!'
   }
 ];
+
 console.log(inbox);
