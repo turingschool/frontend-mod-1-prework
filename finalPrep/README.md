@@ -31,7 +31,7 @@ In Mod 0 you've learned about different techniques for managing your time at Tur
 
 When you are finished, add screenshots of your calendar so we can provide feedback if needed!
 
-- [Add Week 1 Screenshot Here](img width="1440" alt="Recny_Week1_Caldender" src="https://user-images.githubusercontent.com/84749512/121788860-421e2b00-cb8e-11eb-91cb-561a3bc49555.png")
+- `Add Week 1 Screenshot Here`(https://user-images.githubusercontent.com/84749512/121788860-421e2b00-cb8e-11eb-91cb-561a3bc49555.png)
 - `Add Week 2 Screenshot Here`
 - `Add Week 3 Screenshot Here`
 
