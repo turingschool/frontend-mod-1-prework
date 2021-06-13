@@ -17,6 +17,7 @@ var foods = {
 };
 
 console.log(foods);
+
 // Notice that the variable name is foods, plural, because it has the ability to hold info about
 // potentially many foods. That plural name indicates to another developer that the variable stores
 // either an Array or an Object.
