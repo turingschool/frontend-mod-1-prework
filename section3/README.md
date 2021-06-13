@@ -13,15 +13,22 @@ Since Arrays are a bigger topic, it is the main focus of this section. Some revi
 
 ### Vocabulary Terms
 
-- Array
-- element
-- index
-- array method
-- loop
+- Array - *list-like object with associated methods*
+- element - *item within an array; each element has its own index*
+- index - *ordered position of an element within its array; integer, can be manipulated by array methods*
+- array method - *predefined actions that can be called to manipulate an array*
+*ex. `arr.push(items)` and `arr.pop()` and and remove, respectively, items from the end of an array. `arr.unshift(items)` and `arr.shift()` add and remove, respectively, items from the beginning. `arr.sort()` `arr.length`*
+- loop - *checks a condition and runs while true/until false; performs an action a specific number of times*
+  *[using `i` is a conventionally used variable - short for "index"]*
+
 
 ### JavaScript Reserved Keywords
 
-- `for`
+- `for` - *uses a counter as a condition; creates a loop consisting of three (optional) expressions and a code block to be executed in the loop*
+`for (let var = [something]; var [comparison operator]; var[increment])`
+*initialization (create variable) - condition (specify endpoint) - update (change counter)*
+- `break` - *terminates the loop, tells the interpreter to proceed to the next line of code outside the loop*
+- `continue` - *tells the interpreter to continue with the current iteration, and then check the condition again*
 
 ## Open your local copy of frontend-mod-1-prework
 
@@ -35,8 +42,12 @@ Read/watch one or both of the following:
 
 Then, consider on the following questions. We will ask you to share some of these responses at the end of this section.
 - What are two points from the article or video that either resonated with you, or were brand new to you?
+*Staying in the Zone of Proximal Development is not a new concept to me, yet I still find it challenging to stay in that sweet spot without overreaching or playing it too safe.*
+*Focusing on the process also resonates with me as I almost always find that more translatable to results than focusing on goals.*
 - In which ways do you currently demonstrate a Growth Mindset? In which ways do you _not_?
+*I think I tend to fall out of growth mindset when I lack a practical application or purpose for whatever I'm involved in learning. Possibility seems more abstract and out-of-reach when I don't have a project. Conversely, when I'm in the moment working spontaneously and creatively on something concrete I experience much more sense of purpose.*
 - What is something you are good at or knowledgeable at now, that you once weren't? How did you get those skills/knowledge? Was it hard at some point?
+*Music theory and audio engineering. In these cases I was driven by intense interest and immersed myself in learning and trying things hands-on.*
 
 ## Part B Arrays
 
@@ -50,7 +61,7 @@ Research the array methods below on the MDN documentation provided. This documen
 * Methods to research: `pop`, `push`, `shift`, `unshift`. Take a look at the [MDN documentation here](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array). Hint: the methods are listed in a column on the left hand side of the website.
 * _Note: The MDN documentation makes use of the variable declarations `const` and `let`. For now, just read them as `var` instead._
 
-> 👩🏻‍💻 PAUSE here, and complete the exercises in `arrays.js`
+> X 👩🏻‍💻 PAUSE here, and complete the exercises in `arrays.js`
 
 ## Part C Loops
 
@@ -66,7 +77,7 @@ Work through this section to build your understanding of how `for` loops can be 
 
 🎬 Watch [this video](https://www.youtube.com/watch?v=s9wW2PpJsmQ) to hear an explanation and see someone write a `for` loop! Remember, when you see `let`, pretend it is `var`. You will learn the differences between those, at a very deep level, in Mod 2.
 
-> 👩🏻‍💻 PAUSE here, and complete the exercises in `loops.js`
+> X 👩🏻‍💻 PAUSE here, and complete the exercises in `loops.js`
 
 ### For Loop and Arrays
 

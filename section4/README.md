@@ -11,19 +11,28 @@ Section 4 is estimated to take a total of 10-14 hours to complete. Similar to th
 
 ### Vocabulary Terms
 
-- Object Literal
-- key-value pair
-- dot notation
-- method
-- class (in JavaScript)
-- object instance
-- properties
+- Object Literal - *list of property name and values associated with an object; zero or more name-value pairs*
+```
+var objLit = {
+  value1: 'thisISOne',
+  ...
+  valueN: 'thisIsN'
+}
+```
+- key-value pair - *a property of an object, consisting of a name (key) and its corresponding value1*
+`height: 6 feet 2 inches`
+- dot notation - *indicates a name/key associated with an object; can be used to print a value or assign it to an object*
+`console.log(key.value)` `key.value = 1`
+- method - *function attached to an object, assigns a function to a property*
+- class (in JavaScript) - *template for creating objects, allows you to specify properties and behaviors, creating an object "type"*
+- object instance - *a specific object belonging to a class*
+- properties - *values associated with a specific object, declared inside of the constructor inside of the class*
 
 ### JavaScript Reserved Keywords
 
-- `class`
-- `constructor`
-- `new`
+- `class` - *creates a new class with a given name*
+- `constructor` - *special method of a `class` for creating and initializing an object of that class*
+- `new` - *creates an object instance, invokes a class/constructor function*
 
 ## Part A How You Spend Your Time
 
@@ -33,8 +42,14 @@ One challenge learners in a new environment/content area face is feeling like th
 
 So this week, we would like you to start self-monitoring your progress. Before you start on the technical work, reflect back on how the pre-work has gone so far.
 - Have the time estimates matched up with your experience?
+*I haven't been tracking time much so far, and I'd like to get in a better rhythm of keeping track as we move along. I've mostly been working in bursts so far as I try to find my habits for the course.*
+
 - When you sit down to start working, do you have a clear goal of what you want to accomplish and in how much time? If so, how aligned is that to what actually happens?
+*Definitely have had clear goals as far as completing items and section goes. As mentioned I think I need to work on time tracking to get a better idea of how much time I actually use. I'm also working on spending as much on the keyboard as possible as opposed to in my head, as I often tend to overanalyze and fear making mistakes. I've been finding that this has helped me move along through the prework so far, where I might otherwise have been sluggish.*
+
 - How do you work best - in 2 hour blocks, 4 hour blocks, etc? Do you take breaks regularly? Do you have a system to hold yourself accountable to taking breaks?
+*I definitely tend to break up my work blocks pretty often and I tend to use breaks in order to accomplish smaller things I need to do that might otherwise be procrastinated on - helps to get important things done on a larger scale. During Mod 0 this has been going hand-in-hand with making frequent small commits to keep checking items off the list as well as getting practice reps with git workflow.*
+
 
 You've probably heard of the Pomodoro Technique in Mod 0 classes (and elsewhere, maybe!). During this final section of pre-work, we are going to ask that you follow this technique. Please read about it [here](https://www.dovico.com/blog/2020/08/26/the-pomodoro-technique-how-to-manage-your-work-time-and-flow-the-easy-way/). The article doesn't mention writing down Step 1, but we ask that you find a special spot in your notebook where you do this for each work session. In the deliverables, we will ask that you share what you wrote down for Step 1 of the technique each time you started a new task. _Note: if the 25 minutes on/3-5 minutes off isn't best for you, you do **not** have to follow that! The main focus of this is setting an intention and continuing to better understand your working style._
 
@@ -101,7 +116,7 @@ console.log(zebraInfo.name);
 //=> "Molly"
 ```
 
-> 👨🏾‍💻 PAUSE here, and complete the exercises in `objects.js`
+> X 👨🏾‍💻 PAUSE here, and complete the exercises in `objects.js`
 
 ### Methods
 
@@ -121,7 +136,7 @@ var zebraObject = {
 zebraObject.feed(); //logs "Give grass to the Zebra"
 ```
 
-> 👨🏾‍💻 PAUSE here, and complete the exercises in `methods.js`
+> X 👨🏾‍💻 PAUSE here, and complete the exercises in `methods.js`
 
 ## Part C Classes and Instances
 
@@ -200,16 +215,16 @@ var deposit = new TransactionItem(200, "02/03/20", "deposit");
 console.log(deposit);
 //=>TransactionItem {amount: 200, date: "02/03/20", type: "deposit"}
 
-var withdrawl = new TransactionItem(150, "02/04/20", "withdrawl");
-console.log(withdrawl)
-//=>TransactionItem {amount: 150, date: "02/04/20", type: "withdrawl"}
+var withdrawal = new TransactionItem(150, "02/04/20", "withdrawal");
+console.log(withdrawal)
+//=>TransactionItem {amount: 150, date: "02/04/20", type: "withdrawal"}
 ```
 
 Passing arguments to the new instance and declaring parameters in the constructor allow us to build classes and create objects that follow the same blueprint, but have potentially unique data attached to each said object instance.
 
 Remember, the `new` keyword is what calls the `constructor` method. _Note the way data flows through this._ The argument of `200` maps to the paramter `amt` in the constructor. Then the `deposit` object instance has `200` as the value of the `amount` property. If you aren't quite sure how those are coming together yet - good! The exercise will be a good opportunity to poke and explore that more. In mod 1 you will go into a LOT of detail about the `this` keyword. Don't worry much about it now, but do include `this.` in your properties inside the constructor.
 
-> 👨🏾‍💻 PAUSE here, and complete the exercises in `classProperties.js`
+> X 👨🏾‍💻 PAUSE here, and complete the exercises in `classProperties.js`
 
 ### Behavior (Methods)
 
@@ -266,23 +281,23 @@ class TransactionItem {
 
 }
 
-var withdrawl = new TransactionItem(150, "02/04/20", "withdrawl");
+var withdrawal = new TransactionItem(150, "02/04/20", "withdrawal");
 var deposit = new TransactionItem(200, "02/03/20", "deposit");
 console.log(deposit);
 //=> TransactionItem {amount: 200, date: "02/03/20", type: "deposit", isRecorded: false}
-console.log(withdrawl);
-//=> TransactionItem {amount: 150, date: "02/04/20", type: "withdrawl", isRecorded: false}
+console.log(withdrawal);
+//=> TransactionItem {amount: 150, date: "02/04/20", type: "withdrawal", isRecorded: false}
 
 deposit.record();
 console.log(deposit);
 //=> TransactionItem {amount: 200, date: "02/03/20", type: "deposit", isRecorded: true}
-console.log(withdrawl);
-//=> TransactionItem {amount: 150, date: "02/04/20", type: "withdrawl", isRecorded: false}
+console.log(withdrawal);
+//=> TransactionItem {amount: 150, date: "02/04/20", type: "withdrawal", isRecorded: false}
 ```
 
-The `record` method accessed the `isRecorded` property and re-assigned it. Note again, that it did this for the `deposit` object instance, and that object instance only. The `withdrawl` object instance was not changed. (Think of that car factory - this is like having a painting station and painting _one_ car red. The others have the potential to be painted red, but no one has given the instructions, so they are not red.)
+The `record` method accessed the `isRecorded` property and re-assigned it. Note again, that it did this for the `deposit` object instance, and that object instance only. The `withdrawal` object instance was not changed. (Think of that car factory - this is like having a painting station and painting _one_ car red. The others have the potential to be painted red, but no one has given the instructions, so they are not red.)
 
-> 👨🏾‍💻 PAUSE here, and complete the exercises in `classMethods.js`, then `tweet.js`
+> XX 👨🏾‍💻 PAUSE here, and complete the exercises in `classMethods.js`, then `tweet.js`
 
 ## Exercises
 
@@ -290,7 +305,7 @@ At this point, you should have worked through all files in the `exercises` direc
 
 ## Reflection
 
-📝 Answer the questions in the `reflection.md` file in the section4 directory.
+X 📝 Answer the questions in the `reflection.md` file in the section4 directory.
 
 ## Save your work, push to GitHub
 

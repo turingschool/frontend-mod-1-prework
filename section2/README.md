@@ -13,21 +13,44 @@ This section will introduce a number of new terms, that may feel a bit more comp
 
 ### Vocabulary Terms
 
-- comparison operators
-- logical operators
-- condition
-- conditionals
-- if statements
-- function
-- argument
-- parameter
+- comparison operators - *these compare values and return `true` or `false`*
+`>` `<` `>=` `<=` `===` `!==`
+- logical operators - *these evaluate multiple booleans and return a single (also boolean) output*
+`&&` `||` `!`
+- condition - *an expression that a given line of code is tested against to return a boolean value*
+- conditionals - *these operators test a condition and then execute an expression depending on whether the condition is truthy or falsy*
+`condition ? if truthy run this : if falsy run this`
+- if statements - *execute an expression if a specified condition is fulfilled (truthy)*
+```
+if (condition) {
+  do this;
+} else if (other condition, if first not fulfilled) {
+  do this;
+} else {
+  do this;
+}
+```
+- function - *object containing a sequence of statements, can take and return value(s), can be thought of as a subprogram within the larger program of code; useful when a task needs to be performed multiple times within a script*
+```
+function myFunction(parameter1, ... parameterN) {
+  body;
+}
+
+OR
+
+var myFunction = function(parameter1, ... parameterN) {
+  body;
+}
+```
+- argument - *the actual value passed to a function's parameters for that specific function call*
+- parameter - *placeholder variable included in the declaration of a function, as part of its general rules*
 
 ### JavaScript Reserved Keywords
 
-- `if`
-- `else if`
-- `else`
-- `function`
+- `if` - *specifies a code block to be executed if a specified condition is truthy*
+- `else if` - *specifies a new condition to test, if the first condition is falsy*
+- `else` - *specifies a code block to be executed, if the first specified condition is falsy*
+- `function` - *used in declaring a function into existence*
 
 ## Get Set Up
 
@@ -42,11 +65,13 @@ Read the three blog posts that follow:
 * [Asking better questions](https://dev.to/josefine/asking-better-questions-2e2k)
 * [Your Questions Are Dumb; Ask Them Anyway](https://dev.to/kathryngrayson/your-questions-are-dumb-ask-them-anyway-3cm6)
 
-Reflect on these posts, and how you feel about asking questions (specifically, technical questions as you enter your technical work at Turing). How might this positively or negatively impact your growth? 
+Reflect on these posts, and how you feel about asking questions (specifically, technical questions as you enter your technical work at Turing). How might this positively or negatively impact your growth?
 
 It's going to take some time to find that balance between googling and pushing yourself to solve a problem without hand-holding, and reaching out for help. That's ok! be patient with yourself. The way you will find that balance is by being cognizant and aware of how you currently operate. Keep this on your mind as you work through this section, and... there is no time like the present to start asking questions!
 
 Now that you understand the importance of asking questions, read the [Turing guide on asking questions](https://gist.github.com/ericweissman/fb0241e226227867b6bc70a4d49227f5) to ensure that you know the best way to ask the questions you may have!
+
+X
 
 ## Part B Conditionals
 
@@ -71,7 +96,7 @@ Some data types also have functions which return a `true` or `false`, so they’
 - Read more about [comparison operators here](https://javascript.info/comparison)
 - Read about [logical operators here](https://mariusschulz.com/blog/the-and-and-or-operators-in-javascript). You really just need to read the top first paragraph and code snippet in this post. You'll go deeper in Mods 1-2.
 
-> 👨🏽‍💻 PAUSE here, and complete the exercises in `comparisons.js`
+> X 👨🏽‍💻 PAUSE here, and complete the exercises in `comparisons.js`
 
 ### If Statements
 
@@ -127,7 +152,7 @@ The **number one mistake** people encounter when writing conditional statements 
 
 * `===` is a question. It means "is the value on the right the exact same as the value on the left?" – it’s asking, not telling.
 
-> 👨🏽 ‍💻PAUSE here, and complete the exercises in `decision-making.js` and `if-statements.js`
+> X 👨🏽 ‍💻PAUSE here, and complete the exercises in `decision-making.js` and `if-statements.js`
 
 ## Part C Functions
 
@@ -139,11 +164,13 @@ If you'd like another source, read [this blog post](https://medium.com/javascrip
 
 Lastly, [Codecamdemy also has a good intro on JavaScript functions](https://www.codecademy.com/courses/introduction-to-javascript/lessons/functions) in their free account plan. Completing this is _optional_!
 
-> 👨🏽‍💻PAUSE here, and complete the exercises in `functions.js`
+> X 👨🏽‍💻PAUSE here, and complete the exercises in `functions.js`
 
 ## Exercises
 
 At this point, you should have worked through all files in the `exercises` directory. Confirm that you have before moving on.
+
+X
 
 ## Vocabulary
 
@@ -152,6 +179,8 @@ Look back at that special spot in your notebook for vocabulary. Hopefully you up
 ## Relections
 
 📝 Answer the prompts in the `reflection.md` file in the `section2` directory. If you need a reminder on how to format your markdown, [this is the Markdown Cheatsheet](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet)!
+
+X
 
 ## Save your work in Git
 

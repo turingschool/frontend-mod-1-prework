@@ -21,27 +21,29 @@ Here's what we ask you do:
 
 ### Vocabulary Terms
 
-- command
-- directory
-- code comments
-- String
-- Number
-- Boolean
-- variable
-- assignment operator
-- re-assignment (of a variable)
-- concatenation
+- command - executes a task
+- directory - aka folder, contains files
+- code comments - makes the code easier for humans to understand; explanation or note
+- String - sequence of characters
+- Number - allows number values to be manipulated as objects
+- Boolean - can have value of true or false
+- variable - named reference to some assigned value
+- assignment operator - assigns a value to a variable
+- re-assignment (of a variable) - assigning a new value to an existing variable
+- concatenation - joining multiple strings
 
 ### JavaScript Reserved Keywords
 
-- `console.log()`
-- `var`
-- `true`
-- `false`
+- `console.log()` - outputs a message to the console
+- `var` - creates a variable
+- `true` - boolean value, applies to all non-falsy inputs
+- `false` - boolean value, applies to these inputs: false, 0, -0, 0n, ""(empty string), null, undefined, NaN
 
 ## Part A Super Learner Habits
 
-Read [this article](https://pubs.ppai.org/pc-today/six-habits-of-super-learners/) about the habits of Super Learners. Reflect on this - what do you already do? Does this make you want to do anything new or different as you beginthis learning journey? Jot down your notes now, and we will ask you to share some reflections with your small group at the end of this section.
+Read [this article](https://pubs.ppai.org/pc-today/six-habits-of-super-learners/) about the habits of Super Learners. Reflect on this - what do you already do? Does this make you want to do anything new or different as you begin this learning journey? Jot down your notes now, and we will ask you to share some reflections with your small group at the end of this section.
+
+**I do read a lot, and I do take frequent breaks. I'd like to get longer/more consistent sleep to help take care of my brain, although that's been a lifelong battle; and I'd like to work on my mindset as it pertains to process vs goals, because I seem to have a hard time keeping those balanced.**
 
 ## Part B Terminal
 
@@ -53,7 +55,7 @@ You already have had some exposure to the terminal in [Mod 0, Session 2: Termina
 
 Visit the [Turing Terminal](https://learn-terminal.turing.io/) and read through the Learn section as needed. Explore the Playground as needed.
 
-👩‍💻 Complete all three Challenges.
+X 👩‍💻 Complete all three Challenges.
 
 ### Making Things, Navigating
 
@@ -63,7 +65,7 @@ In the following section, you will get a little practice using `touch` and `mkdi
 
 #### Terminal Practice
 
-👩‍💻 Use `mkdir` and `touch` to create the directories/files in the structure illustrated below:
+X 👩‍💻 Use `mkdir` and `touch` to create the directories/files in the structure illustrated below:
 
 ```sh
 |--secretLibraryProject
@@ -228,7 +230,7 @@ _These are all examples of statements that evaulate to a `Boolean` data type in 
 //=> true, because 9 is less than 12
 ```
 
-Read more about compairson operators [here](https://javascript.info/comparison)!
+Read more about comparison operators [here](https://javascript.info/comparison)!
 
 > 👩‍💻 PAUSE here, and complete the exercises in `dataTypes.js`
 
@@ -280,7 +282,7 @@ It is important to note that JavaScript has a particular set of conventions on w
 * Use names that describe the kind of information you plan to assign the variable
 * If your variable is made up of more than one word, then use [camelCase](https://en.wikipedia.org/wiki/Camel_case) for every word AFTER the first word, which should be lower case i.e., `thisIsMyVariableName`
 
-> 👩‍💻 PAUSE here, and complete the exercises in `variables.js`
+> X👩‍💻 PAUSE here, and complete the exercises in `variables.js`
 
 ### Concatenation
 
@@ -307,10 +309,10 @@ console.log(snackCount);
 
 Let's take a look at why that resulted in a string. We have a variable called `snackCount` and have assigned the value as our `quantity` and our `snacks`. Looking at `snackCount`, we’ll notice the value is "I have 12 doughnuts". The reason this works even though the first value is a number and the second is a string, is a result of _type coercion_. JavaScript is essentially trying to help us by converting the number into a string so we can combine the two together.
 
-> 👩‍💻 PAUSE here, and complete the exercises in `concatenation.js`
+> X 👩‍💻 PAUSE here, and complete the exercises in `concatenation.js`
 
 ### Interpolation
-In addition to concatenation, you may also have seen interpolation used to inject values into strings! One benefit of interpolation is that it can be easier to read in longer strings and don't require concatenating separate strings together. 
+In addition to concatenation, you may also have seen interpolation used to inject values into strings! One benefit of interpolation is that it can be easier to read in longer strings and don't require concatenating separate strings together.
 
 Interpolation requires slightly different syntax to inject values into a string. Follow the below formula to utilize interpolation:
 1. Use the backtick (same key as the `~`, or the key to the left of the `1` key on a mac) to wrap your entire string
@@ -335,16 +337,16 @@ console.log(snackCountInterpolate);
 // this will log the string "I have 12 doughnuts!"
 ```
 
-> 👩‍💻 PAUSE here, and complete the exercises in `interpolation.js`
+> X👩‍💻 PAUSE here, and complete the exercises in `interpolation.js`
 
 
 ## Exercises
 
-At this point, you should have worked through all three files in the `exercises` directory.
+X At this point, you should have worked through all three files in the `exercises` directory.
 
 ## Vocabulary
 
-Look back at that special spot in your notebook for vocabulary. Have you updated with with definitions, diagrams, and code samples? If not, do so now!
+X Look back at that special spot in your notebook for vocabulary. Have you updated with with definitions, diagrams, and code samples? If not, do so now!
 
 ## Relections
 
@@ -407,6 +409,8 @@ nothing to commit, working tree clean
 Congratulations! You just saved your work to Git! If `git status` is showing any files, add them with `git add <file name>` and commit them with `git commit -m "Add Section 1"`.
 
 ### Push to GitHub
+
+X
 
 You've saved your work to Git on your local machine, but it is not yet accessible through your remote GitHub repository. Updating our remote GitHub repository with our local changes is called pushing. Push your code with the following command:
 

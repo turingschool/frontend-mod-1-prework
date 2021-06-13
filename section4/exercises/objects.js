@@ -8,7 +8,7 @@ any remaining prompt.
 Make sure to run the file with node in your command line.
 */
 
-// EXAMPLE: Write code below that will declare a vairable that stores an Object Literal
+// EXAMPLE: Write code below that will declare a variable that stores an Object Literal
 //  that holds grocery store inventory
 var foods = {
   apples: 23,
@@ -17,30 +17,38 @@ var foods = {
 };
 
 console.log(foods);
-// Notice that the variable name is foods, plural, because it has the ability to hold info about 
-// potentially many foods. That plural name indicates to another developer that the variable stores 
+
+// Notice that the variable name is foods, plural, because it has the ability to hold info about
+// potentially many foods. That plural name indicates to another developer that the variable stores
 // either an Array or an Object.
 
 //-------------------
 // Part 1: Zoo Animals
 //-------------------
 
-// YOU DO: Write code below that will declare a variable that stores an Object Literal of animal names and 
+// YOU DO: Write code below that will declare a variable that stores an Object Literal of animal names and
 // the number of that type of animal at the zoo.
-
+var zooAnimals = {
+  lions: 42,
+  tigers: 67,
+  bearsohmy: 89
+}
 
 // Using the zoo that you created above, log the value of the first item in
 // the Object
-
+console.log(zooAnimals.lions);
 
 // Add an animal to the zoo Object, and log the updated Object.
-
+zooAnimals.hippos = 123;
+console.log(zooAnimals);
 
 // Change the value for at least one of your animal keys, and log the updated Object.
-
+zooAnimals.tigers = 12889;
+console.log(zooAnimals);
 
 // Add another animal to the zoo Object, and log the updated Object.
-
+zooAnimals.pigeons = "too many to count";
+console.log(zooAnimals);
 
 //-------------------
 // Part 2: Email
@@ -56,6 +64,15 @@ value should be some appropriate value for that key. Work to have at least 5 key
 Log your email object to the console.
 */
 
+var email = {
+  from: "scammity@scamscam.com",
+  to: "nolancaine@gmail.com",
+  cc: "none",
+  subject: "We\n've been meaning to contact you about your car\n's extended warranty",
+  sentAt: "12:37 AM"
+}
+
+console.log(email);
 //-------------------
 // Part 3: Many Emails - OPTIONAL EXTENSION
 //-------------------
@@ -70,7 +87,7 @@ In the arrays exercise, we gave the following example of an array of Instagram p
 var posts = ["image at beach", "holiday party", "adorable puppy", "video of cute baby"];
 
 /*
-Frankly, that was a very simplified version of the Array the Instagram developers have 
+Frankly, that was a very simplified version of the Array the Instagram developers have
 written and work with. Still probably slightly simplified as we don't know what their code
 actually looks like, but it may look more like this:
 */
@@ -82,7 +99,7 @@ var posts = [
     timeStamp: "4:37 PM August 13, 2019",
     numberLikes: 0,
     comments: []
-  }, 
+  },
   {
     imageSrc: "./images/holiday-party.png",
     caption: "What a great holiday party omg",
@@ -96,12 +113,36 @@ console.log(posts);
 console.log(posts[0]);
 
 /*
-The code snippet above shows an Array with 2 elements. Each element in an 
-Object Literal. Each of those Object Literals has 4 key-value pairs. This may LOOK 
+The code snippet above shows an Array with 2 elements. Each element in an
+Object Literal. Each of those Object Literals has 4 key-value pairs. This may LOOK
 a bit daunting - it's OK! You don't need to be 100% comfortable with this, but it's
 good to have some exposure before going into Mod 1.
 */
 
-// YOU DO: Create an array of at least 3 EMAIL Object Literals, using the same 
+// YOU DO: Create an array of at least 3 EMAIL Object Literals, using the same
 // key-value pairs you used in your email Object above.
 // Then, log the email Array to the console.
+var emails = [
+  {
+    from: "scammity@scamscam.com",
+    to: "nolancaine@gmail.com",
+    cc: "none",
+    subject: "We\n've been meaning to contact you about your car\n's extended warranty",
+    sentAt: "12:37 AM"
+  },
+  {
+    from: "contact@turing.edu",
+    to: "8080b7a05247f0dee13a0a26fmc list",
+    cc: "nolancaine@gmail.com",
+    subject: "Your upcoming appointment is starting in about 10 minutes",
+    sentAt: "11:50 AM"
+  },
+  {
+    from: "service@paypal.com",
+    to: "nolancaine@gmail.com",
+    cc: "none",
+    subject: "You have a refund from so-and-so",
+    sentAt: "3:49 PM"
+  }
+]
+console.log(emails);
