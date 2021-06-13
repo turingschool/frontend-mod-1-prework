@@ -44,7 +44,7 @@ for (var i = 0; i < nums.length; i++) {
 var names = ["Sevy", "Lindsey", "Jericho", "Raeonna", "Latrina", "Jhana", "Luca"];
 
 for (var i = 2; i < names.length; i++) {
-  console.log(names[i]);
+  console.log(`Happy Birthday, ${names[i]}!`);
 }
 
 // THE FINAL YOU DO: Using the array of ages below, print out a statement for each age.
@@ -66,4 +66,4 @@ for (var i = 0; i < ages.length; i++) {
     console.log("Make sure you get out and vote!");
   }
 }
-//Is there any harm done in using a specified `else if` condition to play it safe, as above, instead of just using `else`?
+//Question - Is there any harm done in using a specified `else if` condition to play it safe, as above, instead of just using `else`?

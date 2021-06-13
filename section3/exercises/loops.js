@@ -25,17 +25,17 @@ for (var i = 0; i < 3; i++) {
 // What is logged to the console for this second example? Why?
 // EXPLAIN:
 
-/*0 \n 1 \n 2. It logs the value of i starting with 0 and incrementing until 3.*/
+/* 0 \n 1 \n 2. It logs the value of i starting with 0 and incrementing until 3. */
 
  // YOU DO: Write code below that logs to the console, the sum of 2 plus 2, 7 times:
-for (i = 0; i < 7; i++) {
+for (var i = 0; i < 7; i++) {
   console.log(2 + 2);
 }
 
  // YOU DO: Write code below that logs the String 'She sells seashells down by the seashore'
  // 10 times.
-for (i = 0; i < 10; i++) {
-  console.log("She sells seashells by the seashore.");
+for (var i = 0; i < 10; i++) {
+  console.log("She sells seashells down by the seashore.");
 }
 
 //-------------------
@@ -44,7 +44,7 @@ for (i = 0; i < 10; i++) {
 
 // YOU DO: Write code below that logs to the console a String of "This is loop number: "
 //that concatenates with `i`.
-for (i = 0; i < 5; i++) {
+for (var i = 0; i < 5; i++) {
   console.log("This is loop number: " + [i + 1]);
 }
 
@@ -61,7 +61,7 @@ for (i = 0; i < 5; i++) {
 // 2
 // 1
 
-for (i = 10; i > 0; i--) {
+for (var i = 10; i > 0; i--) {
   console.log(i);
 }
 

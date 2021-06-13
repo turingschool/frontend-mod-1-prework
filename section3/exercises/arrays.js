@@ -29,10 +29,11 @@ console.log(animals.length);
 // array to "Gorilla"
 animals.splice(2, 1, "Gorilla");
 console.log(animals);
+
 // YOU DO: Write code that will add a new animal (type of your choice) to position 3.
 animals.push("Ferret");
 console.log(animals);
-/*Wasn't sure if position 3 is meant as index 2 or 3...*/
+  /*Wasn't sure if position 3 is meant as index 2 or 3...*/
 
 // YOU DO: Write code that will log the String "Elephant" in the animals array
 animals.splice(2, 1, "Elephant");
@@ -113,12 +114,19 @@ var hasCharger = true;
 var chargerType = "car";
 
 // Write your conditional here
-if (percentBatteryLeft >= 15) { //Tests whether user's phone has at least 15% battery left
-  console.log("You may call an Uber."); //Tells users with at least 15% battery that they may call an Uber
-} else if  (hasCharger && chargerType === "car") { //Tests whether users with less than 15% battery have a car charger
-  console.log("You may call an Uber."); //Tells user with a car charger that they may call an Uber
-} else { //By now we've narrowed to users with less than 15% battery and no car charger
-  console.log("Sorry, you may not call an Uber."); //Tells users with less than 15% and no car charger that they may not call an Uber
+
+//Test whether user's phone has at least 15% battery left
+if (percentBatteryLeft >= 15) {
+  //Tell users with at least 15% battery that they may call a car
+  console.log("You may call a driver-owned rideshare service.");
+//Test whether users with less than 15% battery have a car charger
+} else if  (hasCharger && chargerType === "car") {
+  //Tell users with a car charger that they may call a car
+  console.log("You may call a driver-owned rideshare service.");
+  //By now we've narrowed to users with less than 15% battery and no car charger
+} else {
+  //Tell users with less than 15% and no car charger that they may not call a car
+  console.log("Sorry, you may not call a driver-owned rideshare service.");
 }
 
 // YOU DO - ANNOTATE: Above each line of your code for this if statement, create a comment.
