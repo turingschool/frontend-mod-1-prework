@@ -38,16 +38,25 @@ if (bearChoice === 1) {
 Questions
 
 1. In English, using technical vocabulary, describe what is happening between lines 14 and 18.
+If the bear chooses door 1 then he is wearing a hat. If not he is wearing a scarf
 
 2. What variable has a new value assigned to it after the first if statement executes?
-
+The bearClothing variable
 3. If you changed the variable doorChoice to equal 3, what would the bearClothing value be?
-
+scarf
 4. In English, using technical vocabulary, describe what is happening between lines lines 27 and 35.
+If bearChoice === 1, then (console.log("You offer the bear your " + bearClothing + " and the bear shows you a secret passage out!");
+) will execute. If bearChoice === 2, then (console.log("You tell the bear the " + bearClothing + " is too small and it starts to cry!");
+) will execute. If bearChoice === 3, then (console.log("You run as fast as you can into the next room. It's full of snakes!");
+) will execute. If bearChoice !== 1, 2, or 3, then (  console.log("You stay with the bear and become it's best friend!");
+) will execute.
 
 5. If you changed the variable bearChoice to equal 3, what will be the final outcome be?
+You run as fast as you can into the next room. It's full of snakes!
 
 6. If you changed the variable doorChoice to equal 1, and the variable bearChoice to equal 2, what will be the final outcome be?
+You tell the bear the hat is too small and it starts to cry!
 
 7. What is your favorite ending?
+I really liked the ending where I stay with the bear and become it's friend.
 */
