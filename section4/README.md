@@ -134,7 +134,7 @@ Classes can serve as object factories (we can even think of them as cookie cutte
 
 **Syntax:** A class is defined using the `class` keyword, followed by the ClassName (using [Pascal Case](https://techterms.com/definition/pascalcase#:~:text=PascalCase%20is%20a%20naming%20convention,in%20PascalCase%20is%20always%20capitalized.)), then an opening and closing curly brace.
 
-**Naming:** Class names should be a singular noun (thing). Because classes are the factories for future objects, they we name them after the general object they are creating. A couple of examples follow:
+**Naming:** Class names should be a singular noun (thing). Because classes are the factories for future objects, then we name them after the general object they are creating. A couple of examples follow:
 - If you are going to create a class for cars (eventually, specific types of cars) use the name `Car`
 - If you are going to create a class for writing utensils (some pens, pencils, different colors etc.) use the name `WritingUtensil`
 The previous examples may seem pretty straightforward, but naming in programming is notoriously hard, so it's good to lay out best practices early and often!
@@ -163,11 +163,11 @@ var deposit = new TransactionItem();
 
 ### State (Properties)
 
-Proerties contains data about a specific object. We also refer to this group of data as **state**. The information format should be one of the data types we've learned about (String, Number, Boolean, Array, Object).
+Properties contains data about a specific object. We also refer to this group of data as **state**. The information format should be one of the data types we've learned about (String, Number, Boolean, Array, Object).
 
 The example that follows has 3 properties in state - `amount`, `date`, and `type`. They are declared _inside_ of the `constructor` method _inside_ of the class.
 
-> The constructor method is called when we use the `new` keyword. If a consutrcutor method is not declared inside the class, like in our skeleton above, there is actually one that we don't see. You will learn about that at a deeper level in Mod 1.
+> The constructor method is called when we use the `new` keyword. If a constructor method is not declared inside the class, like in our skeleton above, there is actually one that we don't see. You will learn about that at a deeper level in Mod 1.
 
 ```javascript
 class TransactionItem {
@@ -207,7 +207,7 @@ console.log(withdrawl)
 
 Passing arguments to the new instance and declaring parameters in the constructor allow us to build classes and create objects that follow the same blueprint, but have potentially unique data attached to each said object instance.
 
-Remember, the `new` keyword is what calls the `constructor` method. _Note the way data flows through this._ The argument of `200` maps to the paramter `amt` in the constructor. Then the `deposit` object instance has `200` as the value of the `amount` property. If you aren't quite sure how those are coming together yet - good! The exercise will be a good opportunity to poke and explore that more. In mod 1 you will go into a LOT of detail about the `this` keyword. Don't worry much about it now, but do include `this.` in your properties inside the constructor.
+Remember, the `new` keyword is what calls the `constructor` method. _Note the way data flows through this._ The argument of `200` maps to the parameter `amt` in the constructor. Then the `deposit` object instance has `200` as the value of the `amount` property. If you aren't quite sure how those are coming together yet - good! The exercise will be a good opportunity to poke and explore that more. In mod 1 you will go into a LOT of detail about the `this` keyword. Don't worry much about it now, but do include `this.` in your properties inside the constructor.
 
 > 👨🏾‍💻 PAUSE here, and complete the exercises in `classProperties.js`
 
