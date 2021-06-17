@@ -34,13 +34,12 @@ class Burrito {
     this.toppings = toppings;
   }
 
-  changeProtein() {
-    this.protein = "Chicken Feet";
+  changeProtein(protChange) {
+    this.protein = protChange;
   }
 
-  addTopping() {
-    // var toppings = this.toppings
-    this.toppings = [toppings, "Pickles"]
+  addTopping(topAdd) {
+    this.toppings = [this.toppings.concat(topAdd)]
   }
   // ADD CODE
 };
@@ -54,11 +53,11 @@ var crazyBurrito = new Burrito("Tripe", "Menudo", ["Sprinkles", "Ferns", "Cardbo
 console.log(crazyBurrito);
 
 // ADD CODE
-crazyBurrito.changeProtein();
+crazyBurrito.changeProtein("Chicken Feet");
 console.log(crazyBurrito);
 
-crazyBurrito.addTopping();
+crazyBurrito.addTopping("Pickles");
 console.log(crazyBurrito);
 
-secondNuevoBurrito.addTopping();
+secondNuevoBurrito.addTopping("Mayonaise");
 console.log(secondNuevoBurrito);
