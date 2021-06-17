@@ -77,7 +77,7 @@ console.log(sidekicks);
 function assessSituation(dangerLevel, saveTheDay, badExcuse) {
   if (dangerLevel > 50) {
     console.log(badExcuse);
-  } else if (10 < dangerLevel && dangerLevel < 50) {
+  } else if (dangerLevel >= 10 && dangerLevel <= 50) {
     console.log(saveTheDay);
   } else if (dangerLevel < 10) {
     console.log('Meh. Hard pass.');
