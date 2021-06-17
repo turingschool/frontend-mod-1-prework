@@ -22,7 +22,23 @@ var creatures = "unicorns";
 console.log("My zoo has " + numberOfCreatures + " " + creatures + "!")
 
 // YOU DO: What data type will be logged to the console as a result of line 22? Explain.
-// Your answer and explanation here: 
+// Your answer and explanation here:
+/*
+   The output will be "My zoo has 7 unicorns!"
+   JavaScript interprets this line as follows:
+    ~ "My zoo has " is the first section to output. Notice the blank space included
+       at the end, ensuring that this line and the next do not appear as attached, as
+       the next line is a number.
+    ~ When numbers are concatenated, JS converts the given number value into a string,
+       in order to include it in the overall concatenation.
+    ~ A blank space is now included in order to provide a space between the previous
+       section (which, being a number, cannot include a blank space as part of its
+       defined value) and the next, which is also a...
+    ~ ...number (see above).
+    ~ Finally, an exclamation point is provided as the final piece to be concatenated.
+       No blank spaces on either side are included, as none are appropriate, according
+       to the rules of English.
+*/
 
 
 // YOU DO:
@@ -31,25 +47,30 @@ console.log("My zoo has " + numberOfCreatures + " " + creatures + "!")
 var speedy = "quick red fox";
 var slowPoke = "lazy brown dog";
 
+console.log('The ' + speedy + ' jumped over the ' + slowPoke);
 
 // YOU DO:
 // Write code that combines the variables below into a string that
 // reads "In a predictable result, the tortoise beat the hare!"
 // Note that we are omitting the var keyword below, because we are re-assigning the variables
-
 slowPoke = "tortoise";
 speedy = "hare";
 
+console.log('In a predictable result, the ' + slowPoke + ' beat the ' + speedy + '!')
 
 // YOU DO:
-// Declare three variables, name/content/data type of your choice. Think carefully about what 
+// Declare three variables, name/content/data type of your choice. Think carefully about what
   // you name the variables. Remember, the goal is to be concise but descriptive (it's a hard balance!)
   // Then, log out ONE sentence that incorporates all THREE variables.
+var mornPeep = "I'm not naturally a morning person";
+var sleepIn = "I like to sleep in";
+var newMornHabit = "I slowly began learning to get up (and be productive) earlier and earlier";
 
+console.log(mornPeep + ', and ' + sleepIn + '.' + ' However, roughly a year ago, I recogized my need to change this, and ' + newMornHabit + '!');
 
 //-------------------
 // FINAL CHECK
 //-------------------
 
-// Did you run this file in your terminal to make sure everything printed out to the console 
+// Did you run this file in your terminal to make sure everything printed out to the console
   // as you would expect? You should be doing this by now, and getting into the habit of it.

@@ -19,11 +19,17 @@ console.log(`The ${team} are ${name}'s favorite Quidditch team.`);
 var numberOfCreatures = 7;
 var creatures = "unicorns";
 
-console.log( `My zoo has ${numberOfCreatures} ${creatures}!`);
+console.log(`My zoo has ${numberOfCreatures} ${creatures}!`);
 
 // YOU DO: What data type will be logged to the console as a result of line 22? Explain.
-// Your answer and explanation here: 
-
+// Your answer and explanation here:
+/*
+   The output will be "My zoo has 7 unicorns!"
+     ~ The output string will include the number "7" and the word "unicorns" because
+        the syntax for interpolating [${} and `] is included (the word "interpolate" meaning to
+        introduce something foreign or spurious; in this case, foreign variables are being
+        introduced to the given string).
+*/
 
 // YOU DO:
 // Write code that combines the variables below into a string that
@@ -31,25 +37,30 @@ console.log( `My zoo has ${numberOfCreatures} ${creatures}!`);
 var speedy = "quick red fox";
 var slowPoke = "lazy brown dog";
 
+console.log(`The ${speedy} jumped over the ${slowPoke}`)
 
 // YOU DO:
 // Write code that combines the variables below into a string that
 // reads "In a predictable result, the tortoise beat the hare!"
 // Note that we are omitting the var keyword below, because we are re-assigning the variables
-
 slowPoke = "tortoise";
 speedy = "hare";
 
+console.log(`In a predictable result, the ${slowPoke} beat the ${speedy}!`)
 
 // YOU DO:
-// Declare three variables, name/content/data type of your choice. Think carefully about what 
+// Declare three variables, name/content/data type of your choice. Think carefully about what
   // you name the variables. Remember, the goal is to be concise but descriptive (it's a hard balance!)
-  // Then, log out ONE sentence that incorporates all THREE variables uisng interpolation. 
+  // Then, log out ONE sentence that incorporates all THREE variables uisng interpolation.
+var mornPeep = "I'm not naturally a morning person";
+var sleepIn = "I like to sleep in";
+var newMornHabit = "I slowly began learning to get up (and be productive) earlier and earlier";
 
+console.log(`${mornPeep}, and ${sleepIn}. However, roughly a year ago, I recogized my need to change this, and ${newMornHabit}!`);
 
 //-------------------
 // FINAL CHECK
 //-------------------
 
-// Did you run this file in your terminal to make sure everything printed out to the console 
+// Did you run this file in your terminal to make sure everything printed out to the console
   // as you would expect? You should be doing this by now, and getting into the habit of it.
