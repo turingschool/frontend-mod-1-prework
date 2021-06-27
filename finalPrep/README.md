@@ -32,9 +32,15 @@ In Mod 0 you've learned about different techniques for managing your time at Tur
 
 When you are finished, add screenshots of your calendar so we can provide feedback if needed!
 
-- `Add Week 1 Screenshot Here`- * Turing Mod 1 / Week 1 Calendar for May already passed and overlapped with previous Calendar items.  Similar to Week 3.*
-- `Add Week 2 Screenshot Here` - * Turing Mod 1 / Week 1 Calendar for May already passed and overlapped with previous Calendar items. Similar to Week 3.*
-- `Add Week 3 Screenshot Here`<img width="1242" alt="Screen Shot 2021-05-29 at 9 09 46 PM" src="https://user-images.githubusercontent.com/82873669/120091197-18f99700-c0c6-11eb-9f35-4dda63e92fac.png">
+- Week 1 Screenshot 
+- <img width="800" alt="Screen Shot 2021-06-27 at 4 27 16 PM" src="https://user-images.githubusercontent.com/82873669/123561334-ff02b100-d764-11eb-90ba-1199f84e49b3.png">
+
+- Week 2 Screenshot
+- <img width="800" alt="Screen Shot 2021-06-27 at 4 27 29 PM" src="https://user-images.githubusercontent.com/82873669/123561341-0b870980-d765-11eb-8eee-e9bbfe2f79e3.png">
+
+- Week 3 Screenshot
+- <img width="800" alt="Screen Shot 2021-06-27 at 4 27 41 PM" src="https://user-images.githubusercontent.com/82873669/123561343-0f1a9080-d765-11eb-8e56-0457eb359613.png">
+
 
 
 ### Mentorship Prep
